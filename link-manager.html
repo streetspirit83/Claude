@@ -152,7 +152,7 @@
     }
 
     .search-input {
-      width: 100%;
+      flex: 1;
     }
 
     .category-filter {
@@ -304,7 +304,7 @@
   <main class="app">
 
     <!-- =========================================================
-         SECTION 1 — CONFIG
+         SECTION 1 — HEADER / TOOLBAR
     ========================================================= -->
     <header class="panel header">
       <div class="header-top">
@@ -314,12 +314,9 @@
 
       <div class="toolbar">
         <div class="toolbar-row">
-          <button
-            id="addLinkBtn"
-            class="btn btn-primary"
-          >
+          <button id="addLinkBtn" class="btn btn-primary">
             <i data-lucide="plus"></i>
-            Link hinzufügen
+            Link hinzuf&uuml;gen
           </button>
 
           <input
@@ -328,6 +325,11 @@
             type="search"
             placeholder="Suche..."
           />
+
+          <button id="exportBtn" class="btn">
+            <i data-lucide="download"></i>
+            Export
+          </button>
         </div>
 
         <div id="categoryFilters" class="category-filter">
@@ -354,24 +356,17 @@
                 <th>Aktionen</th>
               </tr>
             </thead>
-
             <tbody id="tableBody"></tbody>
           </table>
         </div>
 
         <div class="footer-controls">
-          <button
-            id="deleteSelectedBtn"
-            class="btn"
-          >
-            Markierte löschen
+          <button id="deleteSelectedBtn" class="btn">
+            Markierte l&ouml;schen
           </button>
 
-          <button
-            id="paginationBtn"
-            class="btn"
-          >
-            Seite 1 von 5
+          <button id="paginationBtn" class="btn">
+            Seite 1 von 1
             <i data-lucide="chevron-right"></i>
           </button>
         </div>
@@ -380,9 +375,7 @@
       <aside class="panel editor" id="editorPanel">
         <h2 class="editor-title">
           MANUELLER EDITOR
-          <span id="editorSelection">
-            (Auswahl: GitHub Repo)
-          </span>
+          <span id="editorSelection">(Neu)</span>
         </h2>
 
         <form id="editorForm">
@@ -394,7 +387,7 @@
                 id="titleInput"
                 class="editor-input"
                 type="text"
-                value="GitHub Repo"
+                placeholder="Link-Titel"
               />
             </div>
 
@@ -404,28 +397,18 @@
                 id="urlInput"
                 class="editor-input"
                 type="url"
-                value="https://github.com/my-project"
+                placeholder="https://example.com"
               />
             </div>
 
             <div class="field">
               <label>Kategorie</label>
-
               <div class="radio-group">
-                <label>
-                  <input type="radio" name="category" value="Arbeit">
-                  Arbeit
-                </label>
-
-                <label>
-                  <input type="radio" name="category" value="Social">
-                  Social
-                </label>
-
-                <label>
-                  <input type="radio" name="category" value="Sonstiges">
-                  Sonstiges
-                </label>
+                <label><input type="radio" name="category" value="Arbeit"> Arbeit</label>
+                <label><input type="radio" name="category" value="Social Media"> Social Media</label>
+                <label><input type="radio" name="category" value="Referenz"> Referenz</label>
+                <label><input type="radio" name="category" value="Entwurf"> Entwurf</label>
+                <label><input type="radio" name="category" value="Sonstiges" checked> Sonstiges</label>
               </div>
             </div>
 
@@ -434,350 +417,439 @@
               <textarea
                 id="notesInput"
                 class="editor-textarea"
-              >Mein wichtigstes Repository für...</textarea>
+                placeholder="Optionale Notizen..."
+              ></textarea>
             </div>
 
           </div>
 
           <div class="editor-actions">
-            <button
-              type="button"
-              id="cancelBtn"
-              class="btn"
-            >
-              ABBRECHEN
-            </button>
-
-            <button
-              type="submit"
-              id="saveBtn"
-              class="btn btn-primary"
-            >
-              SPEICHERN
-            </button>
+            <button type="button" id="cancelBtn" class="btn">ABBRECHEN</button>
+            <button type="submit" id="saveBtn" class="btn btn-primary">SPEICHERN</button>
           </div>
         </form>
       </aside>
 
     </section>
 
-    <!-- =========================================================
-         SECTION 3 — PLACEHOLDER
-    ========================================================= -->
-    <!-- TODO: API Integration -->
-
-    <!-- =========================================================
-         SECTION 4 — PLACEHOLDER
-    ========================================================= -->
-    <!-- TODO: Validation + Security -->
-
   </main>
 
   <script>
     /* =========================================================
-       SECTION 2 — SCHEMA + LOCAL STORAGE
+       SECTION 2 — CONSTANTS & HELPERS
     ========================================================= */
 
     const STORAGE_KEY = 'linkManagerV1';
+    const ITEMS_PER_PAGE = 10;
 
-    const schema = {
-      id: Number,
-      title: String,
-      url: String,
-      category: String,
-      notes: String,
-      selected: Boolean
-    };
-
-    const defaultData = [
-      {
-        id: 1,
-        title: 'Google Search',
-        url: 'https://www.google.com',
-        category: 'Suche',
-        notes: '',
-        selected: true
-      },
-      {
-        id: 2,
-        title: 'GitHub Repo',
-        url: 'https://github.com/my-project',
-        category: 'Arbeit',
-        notes: '',
-        selected: false
-      },
-      {
-        id: 3,
-        title: 'Design Inspo',
-        url: 'https://dribbble.com',
-        category: 'Referenz',
-        notes: '',
-        selected: false
-      },
-      {
-        id: 4,
-        title: 'Personal Blog',
-        url: 'https://myblog.de/drafts',
-        category: 'Entwurf',
-        notes: '',
-        selected: false
-      },
-      {
-        id: 5,
-        title: 'Stack Overflow',
-        url: 'https://stackoverflow.com',
-        category: 'Hilfe',
-        notes: '',
-        selected: false
-      }
-    ];
-
-    const state = {
-      links: loadStorage(),
-      selectedItems: [],
-      currentCategory: 'Alle',
-      currentPage: 1,
-      editorSelection: null
-    };
-
-    function loadStorage() {
-      const stored = localStorage.getItem(STORAGE_KEY);
-
-      if (stored) {
-        return JSON.parse(stored);
-      }
-
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify(defaultData)
-      );
-
-      return defaultData;
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
     }
 
-    function saveStorage() {
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify(state.links)
-      );
+    function debounce(fn, delay = 300) {
+      let timeout;
+      return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), delay);
+      };
     }
 
     /* =========================================================
-       SECTION 5 — RENDER
+       SECTION 3 — SCHEMA + LOCAL STORAGE
+    ========================================================= */
+
+    const defaultData = [
+      { id: 1, title: 'Google Search',  url: 'https://www.google.com',         category: 'Referenz',    notes: '', selected: false },
+      { id: 2, title: 'GitHub Repo',    url: 'https://github.com/my-project',  category: 'Arbeit',      notes: '', selected: false },
+      { id: 3, title: 'Design Inspo',   url: 'https://dribbble.com',           category: 'Referenz',    notes: '', selected: false },
+      { id: 4, title: 'Personal Blog',  url: 'https://myblog.de/drafts',       category: 'Entwurf',     notes: '', selected: false },
+      { id: 5, title: 'Stack Overflow', url: 'https://stackoverflow.com',      category: 'Arbeit',      notes: '', selected: false }
+    ];
+
+    function loadStorage() {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored) {
+        try { return JSON.parse(stored); } catch { /* fall through */ }
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultData));
+      return defaultData.map(l => ({ ...l }));
+    }
+
+    function saveStorage() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.links));
+    }
+
+    /* =========================================================
+       SECTION 4 — STATE
+    ========================================================= */
+
+    const state = {
+      links: loadStorage(),
+      searchQuery: '',
+      currentCategory: 'Alle',
+      currentPage: 1,
+      editorMode: null   // null | 'create' | <number id>
+    };
+
+    /* =========================================================
+       SECTION 5 — COMPUTED / FILTER HELPERS
+    ========================================================= */
+
+    function getFilteredLinks() {
+      return state.links.filter(link => {
+        if (state.currentCategory === 'Favoriten') {
+          if (!link.selected) return false;
+        } else if (state.currentCategory !== 'Alle') {
+          if (link.category !== state.currentCategory) return false;
+        }
+        if (state.searchQuery) {
+          const q = state.searchQuery.toLowerCase();
+          if (
+            !link.title.toLowerCase().includes(q) &&
+            !link.url.toLowerCase().includes(q)
+          ) return false;
+        }
+        return true;
+      });
+    }
+
+    function getTotalPages() {
+      return Math.max(1, Math.ceil(getFilteredLinks().length / ITEMS_PER_PAGE));
+    }
+
+    function getPagedLinks() {
+      const filtered = getFilteredLinks();
+      const start = (state.currentPage - 1) * ITEMS_PER_PAGE;
+      return filtered.slice(start, start + ITEMS_PER_PAGE);
+    }
+
+    function nextId() {
+      return state.links.length > 0
+        ? Math.max(...state.links.map(l => l.id)) + 1
+        : 1;
+    }
+
+    function clearFieldErrors() {
+      ['titleInput', 'urlInput'].forEach(id => {
+        const errEl = document.getElementById(id + 'Error');
+        if (errEl) errEl.textContent = '';
+        const input = document.getElementById(id);
+        if (input) input.style.borderColor = '';
+      });
+    }
+
+    /* =========================================================
+       SECTION 6 — RENDER
     ========================================================= */
 
     function renderTable() {
-      console.log('renderTable');
-
       const tbody = document.getElementById('tableBody');
+      const links = getPagedLinks();
 
-      tbody.innerHTML = state.links.map(link => `
-        <tr data-id="${link.id}">
-          <td>
-            <label>
-              <input
-                type="checkbox"
-                class="row-checkbox"
-                data-id="${link.id}"
-                ${link.selected ? 'checked' : ''}
-              />
-              ${link.title}
-            </label>
-          </td>
+      if (links.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="4" style="text-align:center; opacity:0.6; padding:24px;">
+              Keine Links gefunden.
+            </td>
+          </tr>`;
+      } else {
+        tbody.innerHTML = links.map(link => `
+          <tr data-id="${link.id}">
+            <td>
+              <label style="display:flex; align-items:center; gap:8px; cursor:pointer;">
+                <input
+                  type="checkbox"
+                  class="row-checkbox"
+                  data-id="${link.id}"
+                  ${link.selected ? 'checked' : ''}
+                />
+                ${escapeHtml(link.title)}
+              </label>
+            </td>
+            <td>
+              <a
+                href="${escapeHtml(link.url)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="color:var(--color-highlight); text-decoration:none;"
+              >${escapeHtml(link.url)}</a>
+            </td>
+            <td>${escapeHtml(link.category)}</td>
+            <td>
+              <div class="actions">
+                <button class="icon-btn edit-btn" data-id="${link.id}" title="Bearbeiten">
+                  <i data-lucide="pencil"></i>
+                </button>
+                <button class="icon-btn delete-btn" data-id="${link.id}" title="L&ouml;schen">
+                  <i data-lucide="trash-2"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+        `).join('');
+      }
 
-          <td>${link.url}</td>
-          <td>${link.category}</td>
-
-          <td>
-            <div class="actions">
-              <button
-                class="icon-btn edit-btn"
-                data-id="${link.id}"
-              >
-                <i data-lucide="pencil"></i>
-              </button>
-
-              <button
-                class="icon-btn delete-btn"
-                data-id="${link.id}"
-              >
-                <i data-lucide="trash-2"></i>
-              </button>
-            </div>
-          </td>
-        </tr>
-      `).join('');
+      const total = getTotalPages();
+      document.getElementById('paginationBtn').innerHTML =
+        `Seite ${state.currentPage} von ${total} <i data-lucide="chevron-right"></i>`;
 
       lucide.createIcons();
     }
 
     /* =========================================================
-       SECTION 6 — EVENT STUBS FROM EVENT MAP
+       SECTION 7 — EVENT HANDLERS
     ========================================================= */
 
-    function debounce(fn, delay = 300) {
-      let timeout;
-
-      return (...args) => {
-        clearTimeout(timeout);
-
-        timeout = setTimeout(() => {
-          fn(...args);
-        }, delay);
-      };
-    }
-
     function openCreateModal() {
-      console.log('openCreateModal');
+      state.editorMode = 'create';
+      document.getElementById('editorSelection').textContent = '(Neu)';
+      document.getElementById('titleInput').value = '';
+      document.getElementById('urlInput').value = '';
+      document.getElementById('notesInput').value = '';
+      const defaultRadio = document.querySelector('input[name="category"][value="Sonstiges"]');
+      if (defaultRadio) defaultRadio.checked = true;
+      clearFieldErrors();
+      document.getElementById('titleInput').focus();
     }
 
     function filterTable() {
-      console.log('filterTable');
+      state.searchQuery = document.getElementById('searchInput').value.trim();
+      state.currentPage = 1;
+      renderTable();
     }
 
     function filterByCategory(catId) {
-      console.log('filterByCategory', catId);
+      state.currentCategory = catId;
+      state.currentPage = 1;
+      renderTable();
     }
 
     function toggleSelection(id) {
-      console.log('toggleSelection', id);
+      const link = state.links.find(l => l.id === Number(id));
+      if (!link) return;
+      link.selected = !link.selected;
+      saveStorage();
+      if (state.currentCategory === 'Favoriten') {
+        renderTable();
+      }
     }
 
     function loadEntryIntoEditor(id) {
-      console.log('loadEntryIntoEditor', id);
+      const link = state.links.find(l => l.id === Number(id));
+      if (!link) return;
+
+      state.editorMode = link.id;
+      document.getElementById('editorSelection').textContent = `(Auswahl: ${link.title})`;
+      document.getElementById('titleInput').value = link.title;
+      document.getElementById('urlInput').value = link.url;
+      document.getElementById('notesInput').value = link.notes || '';
+
+      document.querySelectorAll('input[name="category"]').forEach(radio => {
+        radio.checked = radio.value === link.category;
+      });
+
+      clearFieldErrors();
     }
 
     function deleteSingleEntry(id) {
-      console.log('deleteSingleEntry', id);
+      if (!confirm('Link wirklich löschen?')) return;
+
+      state.links = state.links.filter(l => l.id !== Number(id));
+      saveStorage();
+
+      if (state.editorMode === Number(id)) closeEditor();
+      if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
+
+      renderTable();
     }
 
     function deleteSelected() {
-      console.log('deleteSelected');
+      const count = state.links.filter(l => l.selected).length;
+      if (count === 0) {
+        alert('Keine Links markiert.');
+        return;
+      }
+      if (!confirm(`${count} markierte Link(s) wirklich löschen?`)) return;
+
+      const deletedIds = new Set(state.links.filter(l => l.selected).map(l => l.id));
+      state.links = state.links.filter(l => !l.selected);
+      saveStorage();
+
+      if (deletedIds.has(state.editorMode)) closeEditor();
+      if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
+
+      renderTable();
     }
 
     function changePage(next) {
-      console.log('changePage', next);
+      const total = getTotalPages();
+      if (next) {
+        state.currentPage = state.currentPage >= total ? 1 : state.currentPage + 1;
+      } else {
+        state.currentPage = state.currentPage <= 1 ? total : state.currentPage - 1;
+      }
+      renderTable();
     }
 
     function validateField(field) {
-      console.log('validateField', field.name || field.id);
+      const errId = field.id + 'Error';
+      let errEl = document.getElementById(errId);
+      if (!errEl) {
+        errEl = document.createElement('span');
+        errEl.id = errId;
+        errEl.style.cssText = 'color:#E35555; font-size:11px; margin-top:2px; display:block;';
+        field.parentNode.appendChild(errEl);
+      }
+
+      const value = field.value.trim();
+
+      if (field.id === 'titleInput' && !value) {
+        errEl.textContent = 'Titel ist erforderlich.';
+        field.style.borderColor = '#E35555';
+        return false;
+      }
+
+      if (field.id === 'urlInput') {
+        try {
+          const parsed = new URL(value);
+          if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error();
+        } catch {
+          errEl.textContent = 'Gültige URL erforderlich (https://…)';
+          field.style.borderColor = '#E35555';
+          return false;
+        }
+      }
+
+      errEl.textContent = '';
+      field.style.borderColor = '';
+      return true;
     }
 
     function updateCategorySelection(value) {
-      console.log('updateCategorySelection', value);
+      // Category state is read from the checked radio on save.
     }
 
     function closeEditor() {
-      console.log('closeEditor');
+      state.editorMode = null;
+      document.getElementById('editorSelection').textContent = '(Neu)';
+      document.getElementById('editorForm').reset();
+      clearFieldErrors();
     }
 
     function handleSave(event) {
       event.preventDefault();
-      console.log('handleSave');
+
+      const titleField = document.getElementById('titleInput');
+      const urlField   = document.getElementById('urlInput');
+
+      const titleOk = validateField(titleField);
+      const urlOk   = validateField(urlField);
+      if (!titleOk || !urlOk) return;
+
+      const title    = titleField.value.trim();
+      const url      = urlField.value.trim();
+      const notes    = document.getElementById('notesInput').value.trim();
+      const catRadio = document.querySelector('input[name="category"]:checked');
+      const category = catRadio ? catRadio.value : 'Sonstiges';
+
+      if (state.editorMode === 'create' || state.editorMode === null) {
+        state.links.push({ id: nextId(), title, url, category, notes, selected: false });
+      } else {
+        const link = state.links.find(l => l.id === state.editorMode);
+        if (link) Object.assign(link, { title, url, category, notes });
+      }
+
+      saveStorage();
+      renderTable();
+      closeEditor();
+    }
+
+    function exportLinks() {
+      const json = JSON.stringify(state.links, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const a    = document.createElement('a');
+      a.href     = URL.createObjectURL(blob);
+      a.download = 'links-export.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
     }
 
     /* =========================================================
-       EVENT DELEGATION
+       SECTION 8 — EVENT DELEGATION
     ========================================================= */
 
     function bindEvents() {
-      document
-        .getElementById('addLinkBtn')
+      document.getElementById('addLinkBtn')
         .addEventListener('click', openCreateModal);
 
-      document
-        .getElementById('searchInput')
-        .addEventListener(
-          'input',
-          debounce(filterTable, 300)
-        );
+      document.getElementById('searchInput')
+        .addEventListener('input', debounce(filterTable, 300));
 
-      document
-        .getElementById('categoryFilters')
-        .addEventListener('click', (event) => {
+      document.getElementById('exportBtn')
+        .addEventListener('click', exportLinks);
+
+      document.getElementById('categoryFilters')
+        .addEventListener('click', event => {
           const btn = event.target.closest('[data-category]');
-
           if (!btn) return;
-
-          document
-            .querySelectorAll('.category-btn')
+          document.querySelectorAll('.category-btn')
             .forEach(el => el.classList.remove('active'));
-
           btn.classList.add('active');
-
           filterByCategory(btn.dataset.category);
         });
 
-      document
-        .getElementById('tableBody')
-        .addEventListener('click', (event) => {
-          const editBtn = event.target.closest('.edit-btn');
+      document.getElementById('tableBody')
+        .addEventListener('click', event => {
+          const editBtn   = event.target.closest('.edit-btn');
           const deleteBtn = event.target.closest('.delete-btn');
-
-          if (editBtn) {
-            loadEntryIntoEditor(editBtn.dataset.id);
-          }
-
-          if (deleteBtn) {
-            deleteSingleEntry(deleteBtn.dataset.id);
-          }
+          if (editBtn)   loadEntryIntoEditor(editBtn.dataset.id);
+          if (deleteBtn) deleteSingleEntry(deleteBtn.dataset.id);
         });
 
-      document
-        .getElementById('tableBody')
-        .addEventListener('change', (event) => {
+      document.getElementById('tableBody')
+        .addEventListener('change', event => {
           const checkbox = event.target.closest('.row-checkbox');
-
           if (!checkbox) return;
-
           toggleSelection(checkbox.dataset.id);
         });
 
-      document
-        .getElementById('paginationBtn')
-        .addEventListener('click', () => {
-          changePage(true);
-        });
+      document.getElementById('paginationBtn')
+        .addEventListener('click', () => changePage(true));
 
-      document
-        .getElementById('deleteSelectedBtn')
+      document.getElementById('deleteSelectedBtn')
         .addEventListener('click', deleteSelected);
 
-      document
-        .querySelectorAll('#titleInput, #urlInput')
+      document.querySelectorAll('#titleInput, #urlInput')
         .forEach(input => {
-          input.addEventListener('blur', function () {
-            validateField(this);
-          });
+          input.addEventListener('blur', function () { validateField(this); });
         });
 
-      document
-        .querySelectorAll('input[name="category"]')
+      document.querySelectorAll('input[name="category"]')
         .forEach(radio => {
-          radio.addEventListener('change', (event) => {
+          radio.addEventListener('change', event => {
             updateCategorySelection(event.target.value);
           });
         });
 
-      document
-        .getElementById('cancelBtn')
+      document.getElementById('cancelBtn')
         .addEventListener('click', closeEditor);
 
-      document
-        .getElementById('editorForm')
+      document.getElementById('editorForm')
         .addEventListener('submit', handleSave);
     }
 
     /* =========================================================
-       SECTION 7 — INIT
+       SECTION 9 — INIT
     ========================================================= */
 
     function init() {
-      console.log('init');
-
       renderTable();
       bindEvents();
       lucide.createIcons();
+      openCreateModal();
     }
 
     document.addEventListener('DOMContentLoaded', init);
