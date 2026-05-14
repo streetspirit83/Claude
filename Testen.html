@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link-Manager v1.0</title>
+
+  <!-- IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* =========================================================
+       SECTION 0 — DESIGN TOKENS (:root)
+    ========================================================= */
+    :root {
+      --color-highlight: #E3AB55;
+      --color-text: #DBE6EC;
+      --color-bg: #7E817B;
+      --color-surface: #888888;
+
+      --font-family: 'IBM Plex Mono', monospace;
+
+      --font-heading-size: 24px;
+      --font-body-size: 14px;
+      --font-label-size: 11px;
+      --font-mono-size: 12px;
+
+      --font-weight-heading: 700;
+      --font-weight-body: 400;
+      --font-weight-label: 600;
+
+      --radius: 0px;
+
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 12px;
+      --spacing-lg: 16px;
+      --spacing-xl: 24px;
+
+      --border: 1px solid rgba(219, 230, 236, 0.2);
+      --transition: 180ms ease;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-family);
+      font-size: var(--font-body-size);
+    }
+
+    button,
+    input {
+      font-family: inherit;
+      border-radius: var(--radius);
+      border: none;
+      outline: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .app {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-lg);
+      padding: var(--spacing-md);
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      background: var(--color-surface);
+      border: var(--border);
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+      padding: var(--spacing-md);
+    }
+
+    .header-top {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+
+    .brand {
+      font-size: var(--font-heading-size);
+      font-weight: var(--font-weight-heading);
+    }
+
+    .toolbar {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+
+    .toolbar-row {
+      display: flex;
+      gap: var(--spacing-sm);
+      flex-wrap: wrap;
+    }
+
+    .user-badge {
+      font-size: var(--font-mono-size);
+      opacity: 0.85;
+    }
+
+    .btn,
+    .search-input,
+    .editor-input,
+    .editor-textarea {
+      min-height: 44px;
+      background: rgba(0,0,0,0.12);
+      color: var(--color-text);
+      border: var(--border);
+      padding: 0 var(--spacing-md);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: var(--transition);
+    }
+
+    .btn:hover {
+      background: rgba(0,0,0,0.22);
+    }
+
+    .btn-primary {
+      background: var(--color-highlight);
+      color: #000;
+      font-weight: 600;
+    }
+
+    .search-input {
+      width: 100%;
+    }
+
+    .category-filter {
+      display: flex;
+      overflow-x: auto;
+      gap: var(--spacing-sm);
+      padding-bottom: 4px;
+    }
+
+    .category-btn {
+      white-space: nowrap;
+      background: rgba(0,0,0,0.12);
+      color: var(--color-text);
+      border: var(--border);
+      padding: 10px 14px;
+      font-size: var(--font-mono-size);
+    }
+
+    .category-btn.active {
+      background: var(--color-highlight);
+      color: #000;
+      border-color: var(--color-highlight);
+    }
+
+    .table-panel {
+      overflow: hidden;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: var(--spacing-md);
+      border-bottom: var(--border);
+      font-size: var(--font-body-size);
+    }
+
+    th {
+      font-size: var(--font-label-size);
+      text-transform: uppercase;
+      font-weight: var(--font-weight-label);
+    }
+
+    .actions {
+      display: flex;
+      gap: var(--spacing-sm);
+    }
+
+    .icon-btn {
+      width: 36px;
+      height: 36px;
+      background: rgba(0,0,0,0.12);
+      border: var(--border);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-text);
+    }
+
+    .footer-controls {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+      padding: var(--spacing-md);
+    }
+
+    .editor {
+      padding: var(--spacing-lg);
+    }
+
+    .editor-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .editor-grid {
+      display: grid;
+      gap: var(--spacing-md);
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .field label {
+      font-size: var(--font-label-size);
+      font-weight: var(--font-weight-label);
+      text-transform: uppercase;
+    }
+
+    .editor-textarea {
+      resize: vertical;
+      min-height: 120px;
+      padding-top: 12px;
+    }
+
+    .radio-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-md);
+    }
+
+    .editor-actions {
+      display: flex;
+      gap: var(--spacing-sm);
+      justify-content: flex-end;
+      margin-top: var(--spacing-lg);
+    }
+
+    @media (min-width: 768px) {
+      .header-top {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .toolbar-row {
+        flex-wrap: nowrap;
+      }
+
+      .footer-controls {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: var(--spacing-lg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="app">
+
+    <!-- =========================================================
+         SECTION 1 — CONFIG
+    ========================================================= -->
+    <header class="panel header">
+      <div class="header-top">
+        <h1 class="brand">LINK-MANAGER v1.0</h1>
+        <span class="user-badge">(User: Admin)</span>
+      </div>
+
+      <div class="toolbar">
+        <div class="toolbar-row">
+          <button
+            id="addLinkBtn"
+            class="btn btn-primary"
+          >
+            <i data-lucide="plus"></i>
+            Link hinzufügen
+          </button>
+
+          <input
+            id="searchInput"
+            class="search-input"
+            type="search"
+            placeholder="Suche..."
+          />
+        </div>
+
+        <div id="categoryFilters" class="category-filter">
+          <button class="category-btn active" data-category="Alle">Alle</button>
+          <button class="category-btn" data-category="Favoriten">Favoriten</button>
+          <button class="category-btn" data-category="Arbeit">Arbeit</button>
+          <button class="category-btn" data-category="Social Media">Social Media</button>
+          <button class="category-btn" data-category="Referenz">Referenz</button>
+          <button class="category-btn" data-category="Entwurf">Entwurf</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="layout">
+
+      <section class="panel table-panel">
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Titel</th>
+                <th>URL / Pfad</th>
+                <th>Kategorie</th>
+                <th>Aktionen</th>
+              </tr>
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+
+        <div class="footer-controls">
+          <button
+            id="deleteSelectedBtn"
+            class="btn"
+          >
+            Markierte löschen
+          </button>
+
+          <button
+            id="paginationBtn"
+            class="btn"
+          >
+            Seite 1 von 5
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <aside class="panel editor" id="editorPanel">
+        <h2 class="editor-title">
+          MANUELLER EDITOR
+          <span id="editorSelection">
+            (Auswahl: GitHub Repo)
+          </span>
+        </h2>
+
+        <form id="editorForm">
+          <div class="editor-grid">
+
+            <div class="field">
+              <label for="titleInput">Titel</label>
+              <input
+                id="titleInput"
+                class="editor-input"
+                type="text"
+                value="GitHub Repo"
+              />
+            </div>
+
+            <div class="field">
+              <label for="urlInput">URL</label>
+              <input
+                id="urlInput"
+                class="editor-input"
+                type="url"
+                value="https://github.com/my-project"
+              />
+            </div>
+
+            <div class="field">
+              <label>Kategorie</label>
+
+              <div class="radio-group">
+                <label>
+                  <input type="radio" name="category" value="Arbeit">
+                  Arbeit
+                </label>
+
+                <label>
+                  <input type="radio" name="category" value="Social">
+                  Social
+                </label>
+
+                <label>
+                  <input type="radio" name="category" value="Sonstiges">
+                  Sonstiges
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="notesInput">Notizen</label>
+              <textarea
+                id="notesInput"
+                class="editor-textarea"
+              >Mein wichtigstes Repository für...</textarea>
+            </div>
+
+          </div>
+
+          <div class="editor-actions">
+            <button
+              type="button"
+              id="cancelBtn"
+              class="btn"
+            >
+              ABBRECHEN
+            </button>
+
+            <button
+              type="submit"
+              id="saveBtn"
+              class="btn btn-primary"
+            >
+              SPEICHERN
+            </button>
+          </div>
+        </form>
+      </aside>
+
+    </section>
+
+    <!-- =========================================================
+         SECTION 3 — PLACEHOLDER
+    ========================================================= -->
+    <!-- TODO: API Integration -->
+
+    <!-- =========================================================
+         SECTION 4 — PLACEHOLDER
+    ========================================================= -->
+    <!-- TODO: Validation + Security -->
+
+  </main>
+
+  <script>
+    /* =========================================================
+       SECTION 2 — SCHEMA + LOCAL STORAGE
+    ========================================================= */
+
+    const STORAGE_KEY = 'linkManagerV1';
+
+    const schema = {
+      id: Number,
+      title: String,
+      url: String,
+      category: String,
+      notes: String,
+      selected: Boolean
+    };
+
+    const defaultData = [
+      {
+        id: 1,
+        title: 'Google Search',
+        url: 'https://www.google.com',
+        category: 'Suche',
+        notes: '',
+        selected: true
+      },
+      {
+        id: 2,
+        title: 'GitHub Repo',
+        url: 'https://github.com/my-project',
+        category: 'Arbeit',
+        notes: '',
+        selected: false
+      },
+      {
+        id: 3,
+        title: 'Design Inspo',
+        url: 'https://dribbble.com',
+        category: 'Referenz',
+        notes: '',
+        selected: false
+      },
+      {
+        id: 4,
+        title: 'Personal Blog',
+        url: 'https://myblog.de/drafts',
+        category: 'Entwurf',
+        notes: '',
+        selected: false
+      },
+      {
+        id: 5,
+        title: 'Stack Overflow',
+        url: 'https://stackoverflow.com',
+        category: 'Hilfe',
+        notes: '',
+        selected: false
+      }
+    ];
+
+    const state = {
+      links: loadStorage(),
+      selectedItems: [],
+      currentCategory: 'Alle',
+      currentPage: 1,
+      editorSelection: null
+    };
+
+    function loadStorage() {
+      const stored = localStorage.getItem(STORAGE_KEY);
+
+      if (stored) {
+        return JSON.parse(stored);
+      }
+
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify(defaultData)
+      );
+
+      return defaultData;
+    }
+
+    function saveStorage() {
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify(state.links)
+      );
+    }
+
+    /* =========================================================
+       SECTION 5 — RENDER
+    ========================================================= */
+
+    function renderTable() {
+      console.log('renderTable');
+
+      const tbody = document.getElementById('tableBody');
+
+      tbody.innerHTML = state.links.map(link => `
+        <tr data-id="${link.id}">
+          <td>
+            <label>
+              <input
+                type="checkbox"
+                class="row-checkbox"
+                data-id="${link.id}"
+                ${link.selected ? 'checked' : ''}
+              />
+              ${link.title}
+            </label>
+          </td>
+
+          <td>${link.url}</td>
+          <td>${link.category}</td>
+
+          <td>
+            <div class="actions">
+              <button
+                class="icon-btn edit-btn"
+                data-id="${link.id}"
+              >
+                <i data-lucide="pencil"></i>
+              </button>
+
+              <button
+                class="icon-btn delete-btn"
+                data-id="${link.id}"
+              >
+                <i data-lucide="trash-2"></i>
+              </button>
+            </div>
+          </td>
+        </tr>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    /* =========================================================
+       SECTION 6 — EVENT STUBS FROM EVENT MAP
+    ========================================================= */
+
+    function debounce(fn, delay = 300) {
+      let timeout;
+
+      return (...args) => {
+        clearTimeout(timeout);
+
+        timeout = setTimeout(() => {
+          fn(...args);
+        }, delay);
+      };
+    }
+
+    function openCreateModal() {
+      console.log('openCreateModal');
+    }
+
+    function filterTable() {
+      console.log('filterTable');
+    }
+
+    function filterByCategory(catId) {
+      console.log('filterByCategory', catId);
+    }
+
+    function toggleSelection(id) {
+      console.log('toggleSelection', id);
+    }
+
+    function loadEntryIntoEditor(id) {
+      console.log('loadEntryIntoEditor', id);
+    }
+
+    function deleteSingleEntry(id) {
+      console.log('deleteSingleEntry', id);
+    }
+
+    function deleteSelected() {
+      console.log('deleteSelected');
+    }
+
+    function changePage(next) {
+      console.log('changePage', next);
+    }
+
+    function validateField(field) {
+      console.log('validateField', field.name || field.id);
+    }
+
+    function updateCategorySelection(value) {
+      console.log('updateCategorySelection', value);
+    }
+
+    function closeEditor() {
+      console.log('closeEditor');
+    }
+
+    function handleSave(event) {
+      event.preventDefault();
+      console.log('handleSave');
+    }
+
+    /* =========================================================
+       EVENT DELEGATION
+    ========================================================= */
+
+    function bindEvents() {
+      document
+        .getElementById('addLinkBtn')
+        .addEventListener('click', openCreateModal);
+
+      document
+        .getElementById('searchInput')
+        .addEventListener(
+          'input',
+          debounce(filterTable, 300)
+        );
+
+      document
+        .getElementById('categoryFilters')
+        .addEventListener('click', (event) => {
+          const btn = event.target.closest('[data-category]');
+
+          if (!btn) return;
+
+          document
+            .querySelectorAll('.category-btn')
+            .forEach(el => el.classList.remove('active'));
+
+          btn.classList.add('active');
+
+          filterByCategory(btn.dataset.category);
+        });
+
+      document
+        .getElementById('tableBody')
+        .addEventListener('click', (event) => {
+          const editBtn = event.target.closest('.edit-btn');
+          const deleteBtn = event.target.closest('.delete-btn');
+
+          if (editBtn) {
+            loadEntryIntoEditor(editBtn.dataset.id);
+          }
+
+          if (deleteBtn) {
+            deleteSingleEntry(deleteBtn.dataset.id);
+          }
+        });
+
+      document
+        .getElementById('tableBody')
+        .addEventListener('change', (event) => {
+          const checkbox = event.target.closest('.row-checkbox');
+
+          if (!checkbox) return;
+
+          toggleSelection(checkbox.dataset.id);
+        });
+
+      document
+        .getElementById('paginationBtn')
+        .addEventListener('click', () => {
+          changePage(true);
+        });
+
+      document
+        .getElementById('deleteSelectedBtn')
+        .addEventListener('click', deleteSelected);
+
+      document
+        .querySelectorAll('#titleInput, #urlInput')
+        .forEach(input => {
+          input.addEventListener('blur', function () {
+            validateField(this);
+          });
+        });
+
+      document
+        .querySelectorAll('input[name="category"]')
+        .forEach(radio => {
+          radio.addEventListener('change', (event) => {
+            updateCategorySelection(event.target.value);
+          });
+        });
+
+      document
+        .getElementById('cancelBtn')
+        .addEventListener('click', closeEditor);
+
+      document
+        .getElementById('editorForm')
+        .addEventListener('submit', handleSave);
+    }
+
+    /* =========================================================
+       SECTION 7 — INIT
+    ========================================================= */
+
+    function init() {
+      console.log('init');
+
+      renderTable();
+      bindEvents();
+      lucide.createIcons();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+
+</body>
+</html>
