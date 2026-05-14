@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+/>
+<title>Image Sorter Pro</title>
+
+<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  -webkit-tap-highlight-color:transparent;
+}
+
+:root{
+  --bg:#0d1117;
+  --panel:#161b22;
+  --panel-2:#21262d;
+  --border:#30363d;
+  --text:#e6edf3;
+  --muted:#8b949e;
+  --green:#2ea043;
+  --red:#da3633;
+  --blue:#2383ff;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,sans-serif;
+  min-height:100vh;
+}
+
+.app{
+  max-width:480px;
+  margin:auto;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(13,17,23,.95);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  padding:14px 16px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header h1{
+  font-size:18px;
+  font-weight:700;
+}
+
+.icon-btn{
+  border:none;
+  background:transparent;
+  color:var(--text);
+  font-size:22px;
+  cursor:pointer;
+}
+
+section{
+  padding:16px;
+  border-bottom:1px solid var(--border);
+}
+
+.section-title{
+  font-size:13px;
+  color:var(--muted);
+  margin-bottom:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.controls{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+button{
+  border:none;
+  background:var(--panel-2);
+  color:var(--text);
+  padding:12px 14px;
+  border-radius:14px;
+  cursor:pointer;
+  font-size:14px;
+}
+
+button.primary{
+  background:var(--blue);
+  font-weight:700;
+}
+
+button.green{
+  background:var(--green);
+}
+
+button.red{
+  background:var(--red);
+}
+
+input[type="text"]{
+  width:100%;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:14px;
+  color:var(--text);
+  margin-top:10px;
+}
+
+.preview-wrapper{
+  position:relative;
+}
+
+.card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:24px;
+  height:430px;
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  touch-action:none;
+  user-select:none;
+  transition:
+    transform .25s ease,
+    opacity .25s ease;
+}
+
+.card img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#000;
+}
+
+.card-placeholder{
+  color:var(--muted);
+  text-align:center;
+  padding:24px;
+}
+
+.overlay{
+  position:absolute;
+  top:20px;
+  left:50%;
+  transform:translateX(-50%);
+  font-weight:900;
+  font-size:24px;
+  opacity:0;
+  transition:.2s;
+  z-index:10;
+}
+
+.keep-label{
+  color:var(--green);
+}
+
+.bin-label{
+  color:var(--red);
+}
+
+.nav-buttons{
+  display:flex;
+  justify-content:space-between;
+  margin-top:12px;
+}
+
+.staging{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  padding-bottom:8px;
+}
+
+.thumb{
+  min-width:80px;
+  width:80px;
+  height:80px;
+  border-radius:14px;
+  overflow:hidden;
+  position:relative;
+  flex-shrink:0;
+  border:2px solid var(--green);
+}
+
+.thumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.remove-thumb{
+  position:absolute;
+  top:4px;
+  right:4px;
+  background:rgba(0,0,0,.7);
+  border:none;
+  border-radius:50%;
+  width:24px;
+  height:24px;
+  color:white;
+}
+
+textarea{
+  width:100%;
+  height:180px;
+  background:var(--panel);
+  color:var(--text);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:14px;
+  resize:none;
+}
+
+.stats{
+  display:flex;
+  gap:8px;
+  margin-top:12px;
+}
+
+.stat{
+  flex:1;
+  background:var(--panel);
+  border-radius:12px;
+  padding:10px;
+  text-align:center;
+}
+
+.toast{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:var(--panel);
+  border:1px solid var(--border);
+  padding:12px 18px;
+  border-radius:999px;
+  display:none;
+  z-index:1000;
+}
+
+.hidden{
+  display:none;
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+
+<header>
+<button class="icon-btn">☰</button>
+<h1>IMAGE SORTER PRO</h1>
+<button class="icon-btn">?</button>
+</header>
+
+<section>
+<div class="section-title">
+1. Import Source
+</div>
+
+<div class="controls">
+<button id="jsonBtn">JSON URL</button>
+
+<label>
+<button>📁 Upload</button>
+<input
+type="file"
+id="fileInput"
+accept=".json,.txt"
+class="hidden"
+/>
+</label>
+</div>
+
+<input
+type="text"
+id="jsonInput"
+placeholder="https://example.com/images.json"
+/>
+</section>
+
+<section>
+
+<div class="section-title">
+2. Drop Zone / Preview
+</div>
+
+<div class="preview-wrapper">
+
+<div class="overlay keep-label" id="keepLabel">
+KEEP ↑
+</div>
+
+<div class="overlay bin-label" id="binLabel">
+BIN ↓
+</div>
+
+<div class="card" id="card">
+<div class="card-placeholder">
+Importiere zuerst Bilddaten
+</div>
+</div>
+
+</div>
+
+<div class="nav-buttons">
+<button id="prevBtn">
+&lt; Prev
+</button>
+
+<button id="nextBtn">
+Next &gt;
+</button>
+</div>
+
+<div class="stats">
+<div class="stat">
+✓ <span id="keptCount">0</span>
+</div>
+
+<div class="stat">
+✕ <span id="discardCount">0</span>
+</div>
+
+<div class="stat">
+# <span id="indexCount">0</span>
+</div>
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+3. Staging Area (Selected)
+</div>
+
+<div class="staging" id="staging">
+</div>
+
+<br>
+
+<button
+class="primary"
+id="generateBtn"
+>
+GENERATE FILTERED LIST
+</button>
+
+</section>
+
+<section>
+
+<div class="section-title">
+4. Output
+</div>
+
+<textarea id="output"></textarea>
+
+<div
+class="controls"
+style="margin-top:12px;"
+>
+<button id="copyBtn">
+COPY
+</button>
+
+<button id="downloadBtn">
+DOWNLOAD
+</button>
+
+<button id="undoBtn">
+UNDO
+</button>
+</div>
+
+</section>
+
+</div>
+
+<div
+class="toast"
+id="toast"
+></div>
+
+<script>
+
+const state = {
+  imagePool: [],
+  currentIndex: 0,
+  kept: [],
+  discarded: [],
+  history: []
+};
+
+const card = document.getElementById('card');
+const staging = document.getElementById('staging');
+const output = document.getElementById('output');
+
+const keptCount = document.getElementById('keptCount');
+const discardCount = document.getElementById('discardCount');
+const indexCount = document.getElementById('indexCount');
+
+const keepLabel = document.getElementById('keepLabel');
+const binLabel = document.getElementById('binLabel');
+
+function toast(message){
+  const el = document.getElementById('toast');
+  el.innerText = message;
+  el.style.display='block';
+
+  setTimeout(()=>{
+    el.style.display='none';
+  },1800);
+}
+
+function updateStats(){
+  keptCount.innerText = state.kept.length;
+  discardCount.innerText = state.discarded.length;
+  indexCount.innerText =
+    `${state.currentIndex + 1}/${state.imagePool.length}`;
+}
+
+function preloadNext(){
+  for(let i=1;i<=3;i++){
+    const url =
+      state.imagePool[state.currentIndex+i];
+
+    if(!url) continue;
+
+    const img = new Image();
+    img.src = url;
+  }
+}
+
+function renderImage(){
+
+  if(!state.imagePool.length){
+    card.innerHTML = `
+      <div class="card-placeholder">
+      Keine Bilder geladen
+      </div>
+    `;
+    return;
+  }
+
+  const current =
+    state.imagePool[state.currentIndex];
+
+  if(!current){
+    card.innerHTML = `
+      <div class="card-placeholder">
+      Ende erreicht
+      </div>
+    `;
+    return;
+  }
+
+  card.innerHTML = `
+    <img src="${current}" />
+  `;
+
+  preloadNext();
+  updateStats();
+}
+
+function renderStaging(){
+
+  staging.innerHTML='';
+
+  state.kept.forEach((url,index)=>{
+
+    const div =
+      document.createElement('div');
+
+    div.className='thumb';
+
+    div.innerHTML=`
+      <img src="${url}" />
+      <button
+      class="remove-thumb"
+      data-index="${index}"
+      >
+      ×
+      </button>
+    `;
+
+    staging.appendChild(div);
+  });
+}
+
+function swipe(direction){
+
+  const current =
+    state.imagePool[state.currentIndex];
+
+  if(!current) return;
+
+  state.history.push({
+    action:direction,
+    url:current
+  });
+
+  if(direction==='up'){
+    state.kept.push(current);
+    toast('Kept ✓');
+  }
+
+  if(direction==='down'){
+    state.discarded.push(current);
+    toast('Discarded ✕');
+  }
+
+  state.currentIndex++;
+
+  renderImage();
+  renderStaging();
+}
+
+function undo(){
+
+  const last =
+    state.history.pop();
+
+  if(!last) return;
+
+  state.currentIndex--;
+
+  if(last.action==='up'){
+    state.kept.pop();
+  }
+
+  if(last.action==='down'){
+    state.discarded.pop();
+  }
+
+  renderImage();
+  renderStaging();
+
+  toast('Undo');
+}
+
+function parseJSON(data){
+
+  if(Array.isArray(data)){
+    return data;
+  }
+
+  if(Array.isArray(data.images)){
+    return data.images.map(
+      i=>i.url
+    );
+  }
+
+  throw Error('Unsupported JSON');
+}
+
+async function loadJSON(){
+
+  const url =
+    document.getElementById(
+      'jsonInput'
+    ).value;
+
+  if(!url) return;
+
+  try{
+
+    const res =
+      await fetch(url);
+
+    const data =
+      await res.json();
+
+    state.imagePool =
+      parseJSON(data);
+
+    state.currentIndex=0;
+    renderImage();
+
+    toast('Loaded');
+
+  }catch(err){
+    alert(err.message);
+  }
+}
+
+document
+.getElementById('jsonBtn')
+.onclick=loadJSON;
+
+document
+.getElementById('fileInput')
+.addEventListener(
+'change',
+e=>{
+
+const file =
+e.target.files[0];
+
+if(!file) return;
+
+const reader =
+new FileReader();
+
+reader.onload=()=>{
+
+try{
+
+let parsed;
+
+if(file.name.endsWith('.txt')){
+parsed =
+reader.result
+.split('\n')
+.filter(Boolean);
+}else{
+parsed =
+parseJSON(
+JSON.parse(
+reader.result
+));
+}
+
+state.imagePool =
+parsed;
+
+state.currentIndex=0;
+
+renderImage();
+
+toast('Loaded');
+
+}catch(err){
+alert(err.message);
+}
+};
+
+reader.readAsText(file);
+});
+
+document
+.getElementById('generateBtn')
+.onclick=()=>{
+output.value =
+state.kept.join('\n');
+};
+
+document
+.getElementById('copyBtn')
+.onclick=()=>{
+navigator.clipboard
+.writeText(output.value);
+
+toast('Copied');
+};
+
+document
+.getElementById('downloadBtn')
+.onclick=()=>{
+
+const blob =
+new Blob(
+[output.value],
+{type:'text/plain'}
+);
+
+const a =
+document.createElement('a');
+
+a.href =
+URL.createObjectURL(blob);
+
+a.download =
+'filtered-list.txt';
+
+a.click();
+};
+
+document
+.getElementById('undoBtn')
+.onclick=undo;
+
+document
+.getElementById('prevBtn')
+.onclick=undo;
+
+document
+.getElementById('nextBtn')
+.onclick=()=>{
+state.currentIndex++;
+renderImage();
+};
+
+staging
+.addEventListener(
+'click',
+e=>{
+
+if(
+!e.target.classList
+.contains(
+'remove-thumb'
+)
+) return;
+
+const index =
+e.target.dataset.index;
+
+state.kept.splice(
+index,
+1
+);
+
+renderStaging();
+});
+
+const hammer =
+new Hammer(card);
+
+hammer
+.get('swipe')
+.set({
+direction:
+Hammer
+.DIRECTION_VERTICAL
+});
+
+hammer.on(
+'swipeup',
+()=>swipe('up')
+);
+
+hammer.on(
+'swipedown',
+()=>swipe('down')
+);
+
+renderImage();
+
+</script>
+
+</body>
+</html>
