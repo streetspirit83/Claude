@@ -15,26 +15,38 @@
 
   <style>
     /* =========================================================
-       SECTION 0 — DESIGN TOKENS (:root)
+       SECTION 0 — DESIGN TOKENS — JAMAICA EDITION
+       Colours: Jamaican flag black · green · gold
     ========================================================= */
     :root {
-      --color-highlight: #E3AB55;
-      --color-text: #DBE6EC;
-      --color-bg: #7E817B;
-      --color-surface: #888888;
+      --gold:          #FED100;
+      --gold-dim:      rgba(254, 209, 0, 0.18);
+      --gold-glow:     0 0 14px rgba(254, 209, 0, 0.45);
+      --green:         #009B3A;
+      --green-mid:     #006B29;
+      --green-deep:    #003D18;
+      --green-jungle:  #001A0A;
+      --black:         #080808;
+
+      --color-highlight: var(--gold);
+      --color-text:      #F5EEC0;
+      --color-text-dim:  rgba(245, 238, 192, 0.55);
+      --color-bg:        #050E05;
+      --color-surface:   #0C1C0C;
+      --color-surface-2: #112211;
 
       --font-family: 'IBM Plex Mono', monospace;
 
-      --font-heading-size: 24px;
-      --font-body-size: 14px;
-      --font-label-size: 11px;
-      --font-mono-size: 12px;
+      --font-heading-size: 26px;
+      --font-body-size:    14px;
+      --font-label-size:   11px;
+      --font-mono-size:    12px;
 
       --font-weight-heading: 700;
-      --font-weight-body: 400;
-      --font-weight-label: 600;
+      --font-weight-body:    400;
+      --font-weight-label:   600;
 
-      --radius: 0px;
+      --radius: 3px;
 
       --spacing-xs: 4px;
       --spacing-sm: 8px;
@@ -42,8 +54,9 @@
       --spacing-lg: 16px;
       --spacing-xl: 24px;
 
-      --border: 1px solid rgba(219, 230, 236, 0.2);
-      --transition: 180ms ease;
+      --border:        1px solid rgba(254, 209, 0, 0.22);
+      --border-bright: 1px solid rgba(254, 209, 0, 0.65);
+      --transition:    200ms ease;
     }
 
     * {
@@ -56,22 +69,33 @@
     body {
       min-height: 100%;
       background: var(--color-bg);
+      /* subtle diagonal crosshatch — reads like woven rastafari textile */
+      background-image:
+        repeating-linear-gradient(
+          45deg,
+          transparent 0px, transparent 28px,
+          rgba(0, 107, 41, 0.06) 28px, rgba(0, 107, 41, 0.06) 30px
+        ),
+        repeating-linear-gradient(
+          -45deg,
+          transparent 0px, transparent 28px,
+          rgba(0, 107, 41, 0.04) 28px, rgba(0, 107, 41, 0.04) 30px
+        );
       color: var(--color-text);
       font-family: var(--font-family);
       font-size: var(--font-body-size);
     }
 
     button,
-    input {
+    input,
+    textarea {
       font-family: inherit;
       border-radius: var(--radius);
       border: none;
       outline: none;
     }
 
-    button {
-      cursor: pointer;
-    }
+    button { cursor: pointer; }
 
     .app {
       display: flex;
@@ -82,16 +106,44 @@
       margin: 0 auto;
     }
 
+    /* ── Panels ─────────────────────────────────────── */
     .panel {
       background: var(--color-surface);
       border: var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(0,155,58,0.08);
+      position: relative;
+      overflow: hidden;
     }
 
+    /* gold stripe along top edge of every panel */
+    .panel::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(
+        90deg,
+        var(--green) 0%,
+        var(--gold)  40%,
+        var(--gold)  60%,
+        var(--green) 100%
+      );
+      opacity: 0.9;
+    }
+
+    /* ── Header ─────────────────────────────────────── */
     .header {
       display: flex;
       flex-direction: column;
       gap: var(--spacing-md);
-      padding: var(--spacing-md);
+      padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+      background: linear-gradient(
+        160deg,
+        #0F2B0F 0%,
+        #091509 60%,
+        #060E06 100%
+      );
     }
 
     .header-top {
@@ -100,9 +152,24 @@
       gap: var(--spacing-md);
     }
 
+    /* Heading with golden shimmer */
     .brand {
       font-size: var(--font-heading-size);
       font-weight: var(--font-weight-heading);
+      letter-spacing: 3px;
+      background: linear-gradient(
+        100deg,
+        #B8960A 0%,
+        var(--gold) 35%,
+        #FFF6A0 55%,
+        var(--gold) 75%,
+        #B8960A 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: none;
+      filter: drop-shadow(0 0 8px rgba(254,209,0,0.5));
     }
 
     .toolbar {
@@ -119,18 +186,23 @@
 
     .user-badge {
       font-size: var(--font-mono-size);
-      opacity: 0.85;
+      color: var(--green);
+      opacity: 0.9;
+      letter-spacing: 1px;
     }
 
+    /* ── Buttons & Inputs ───────────────────────────── */
     .btn,
     .search-input,
     .editor-input,
     .editor-textarea {
       min-height: 44px;
-      background: rgba(0,0,0,0.12);
+      background: rgba(0, 0, 0, 0.35);
       color: var(--color-text);
       border: var(--border);
       padding: 0 var(--spacing-md);
+      border-radius: var(--radius);
+      transition: var(--transition);
     }
 
     .btn {
@@ -138,57 +210,92 @@
       align-items: center;
       justify-content: center;
       gap: 8px;
-      transition: var(--transition);
+      letter-spacing: 0.5px;
     }
 
     .btn:hover {
-      background: rgba(0,0,0,0.22);
+      background: rgba(0, 155, 58, 0.18);
+      border-color: var(--green);
+      box-shadow: 0 0 10px rgba(0, 155, 58, 0.35);
     }
 
     .btn-primary {
-      background: var(--color-highlight);
-      color: #000;
-      font-weight: 600;
+      background: var(--gold);
+      color: var(--black);
+      font-weight: 700;
+      border-color: var(--gold);
+      letter-spacing: 1px;
+      box-shadow: var(--gold-glow);
+    }
+
+    .btn-primary:hover {
+      background: #FFE033;
+      border-color: #FFE033;
+      box-shadow: 0 0 20px rgba(254, 209, 0, 0.65);
+      color: var(--black);
     }
 
     .search-input {
       width: 100%;
     }
 
+    .search-input:focus,
+    .editor-input:focus,
+    .editor-textarea:focus {
+      border-color: var(--gold);
+      box-shadow: var(--gold-glow);
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    /* ── Category Filter ────────────────────────────── */
     .category-filter {
       display: flex;
       overflow-x: auto;
       gap: var(--spacing-sm);
       padding-bottom: 4px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--green-mid) transparent;
     }
 
     .category-btn {
       white-space: nowrap;
-      background: rgba(0,0,0,0.12);
-      color: var(--color-text);
+      background: rgba(0, 0, 0, 0.3);
+      color: var(--color-text-dim);
       border: var(--border);
-      padding: 10px 14px;
+      padding: 10px 16px;
       font-size: var(--font-mono-size);
+      border-radius: var(--radius);
+      transition: var(--transition);
+      letter-spacing: 0.5px;
+    }
+
+    .category-btn:hover {
+      color: var(--color-text);
+      border-color: rgba(254, 209, 0, 0.5);
+      background: rgba(0, 155, 58, 0.12);
     }
 
     .category-btn.active {
-      background: var(--color-highlight);
-      color: #000;
-      border-color: var(--color-highlight);
+      background: var(--gold);
+      color: var(--black);
+      border-color: var(--gold);
+      font-weight: 700;
+      box-shadow: var(--gold-glow);
     }
 
-    .table-panel {
-      overflow: hidden;
-    }
+    /* ── Table ──────────────────────────────────────── */
+    .table-panel { overflow: hidden; }
 
-    .table-wrapper {
-      overflow-x: auto;
-    }
+    .table-wrapper { overflow-x: auto; }
 
     table {
       width: 100%;
       border-collapse: collapse;
       min-width: 720px;
+    }
+
+    thead {
+      background: linear-gradient(90deg, var(--green-jungle), var(--green-deep));
     }
 
     th,
@@ -203,8 +310,24 @@
       font-size: var(--font-label-size);
       text-transform: uppercase;
       font-weight: var(--font-weight-label);
+      color: var(--gold);
+      letter-spacing: 2px;
     }
 
+    tbody tr {
+      transition: background var(--transition);
+    }
+
+    tbody tr:nth-child(even) {
+      background: rgba(0, 155, 58, 0.05);
+    }
+
+    tbody tr:hover {
+      background: rgba(254, 209, 0, 0.07);
+      box-shadow: inset 3px 0 0 var(--gold);
+    }
+
+    /* ── Icon Buttons ───────────────────────────────── */
     .actions {
       display: flex;
       gap: var(--spacing-sm);
@@ -213,29 +336,58 @@
     .icon-btn {
       width: 36px;
       height: 36px;
-      background: rgba(0,0,0,0.12);
+      background: rgba(0, 0, 0, 0.3);
       border: var(--border);
+      border-radius: var(--radius);
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      color: var(--color-text);
+      color: var(--color-text-dim);
+      transition: var(--transition);
     }
 
+    .icon-btn:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+      background: rgba(254, 209, 0, 0.1);
+      box-shadow: var(--gold-glow);
+    }
+
+    /* ── Footer Controls ────────────────────────────── */
     .footer-controls {
       display: flex;
       flex-direction: column;
       gap: var(--spacing-sm);
       padding: var(--spacing-md);
+      background: linear-gradient(0deg, rgba(0,0,0,0.3), transparent);
     }
 
+    /* ── Editor Panel ───────────────────────────────── */
     .editor {
       padding: var(--spacing-lg);
+      background: linear-gradient(
+        135deg,
+        #0A1F0A 0%,
+        #0C1C0C 100%
+      );
     }
 
     .editor-title {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
       margin-bottom: var(--spacing-lg);
+      color: var(--gold);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(254, 209, 0, 0.25);
+      padding-bottom: var(--spacing-sm);
+    }
+
+    #editorSelection {
+      font-size: 11px;
+      color: var(--green);
+      font-weight: 400;
+      letter-spacing: 0;
     }
 
     .editor-grid {
@@ -253,6 +405,8 @@
       font-size: var(--font-label-size);
       font-weight: var(--font-weight-label);
       text-transform: uppercase;
+      color: var(--green);
+      letter-spacing: 1.5px;
     }
 
     .editor-textarea {
@@ -261,19 +415,41 @@
       padding-top: 12px;
     }
 
+    /* ── Radio Group ────────────────────────────────── */
     .radio-group {
       display: flex;
       flex-wrap: wrap;
       gap: var(--spacing-md);
     }
 
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      color: var(--color-text);
+      text-transform: none !important;
+      letter-spacing: 0 !important;
+      font-size: var(--font-body-size) !important;
+    }
+
+    .radio-group input[type="radio"] {
+      accent-color: var(--gold);
+      width: 14px;
+      height: 14px;
+    }
+
+    /* ── Editor Actions ─────────────────────────────── */
     .editor-actions {
       display: flex;
       gap: var(--spacing-sm);
       justify-content: flex-end;
       margin-top: var(--spacing-lg);
+      padding-top: var(--spacing-md);
+      border-top: 1px solid rgba(254, 209, 0, 0.15);
     }
 
+    /* ── Responsive ─────────────────────────────────── */
     @media (min-width: 768px) {
       .header-top {
         flex-direction: row;
