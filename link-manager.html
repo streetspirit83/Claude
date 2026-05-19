@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest"><\/script>
+  <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     :root {
       --color-highlight: #E3AB55;
@@ -146,22 +146,27 @@
       </aside>
     </section>
   </main>
-  <script>
-    const STORAGE_KEY = 'linkManagerV1';
-    const ITEMS_PER_PAGE = 10;
+  <script type="text/javascript">
+    var STORAGE_KEY = 'linkManagerV1';
+    var ITEMS_PER_PAGE = 10;
 
     function escapeHtml(str) {
-      const d = document.createElement('div');
+      var d = document.createElement('div');
       d.textContent = String(str);
       return d.innerHTML;
     }
 
-    function debounce(fn, delay = 300) {
-      let t;
-      return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); };
+    function debounce(fn, delay) {
+      delay = delay || 300;
+      var t;
+      return function() {
+        var args = arguments;
+        clearTimeout(t);
+        t = setTimeout(function() { fn.apply(null, args); }, delay);
+      };
     }
 
-    const defaultData = [
+    var defaultData = [
       { id:1, title:'Google Search',  url:'https://www.google.com',        category:'Referenz', notes:'', selected:false },
       { id:2, title:'GitHub Repo',    url:'https://github.com/my-project', category:'Arbeit',   notes:'', selected:false },
       { id:3, title:'Design Inspo',   url:'https://dribbble.com',          category:'Referenz', notes:'', selected:false },
@@ -170,17 +175,17 @@
     ];
 
     function loadStorage() {
-      const s = localStorage.getItem(STORAGE_KEY);
-      if (s) { try { return JSON.parse(s); } catch {} }
+      var s = localStorage.getItem(STORAGE_KEY);
+      if (s) { try { return JSON.parse(s); } catch(e) {} }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultData));
-      return defaultData.map(l => ({...l}));
+      return defaultData.map(function(l) { return Object.assign({}, l); });
     }
 
     function saveStorage() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state.links));
     }
 
-    const state = {
+    var state = {
       links: loadStorage(),
       searchQuery: '',
       currentCategory: 'Alle',
@@ -189,12 +194,12 @@
     };
 
     function getFilteredLinks() {
-      return state.links.filter(link => {
+      return state.links.filter(function(link) {
         if (state.currentCategory === 'Favoriten') { if (!link.selected) return false; }
         else if (state.currentCategory !== 'Alle') { if (link.category !== state.currentCategory) return false; }
         if (state.searchQuery) {
-          const q = state.searchQuery.toLowerCase();
-          if (!link.title.toLowerCase().includes(q) && !link.url.toLowerCase().includes(q)) return false;
+          var q = state.searchQuery.toLowerCase();
+          if (link.title.toLowerCase().indexOf(q) === -1 && link.url.toLowerCase().indexOf(q) === -1) return false;
         }
         return true;
       });
@@ -203,44 +208,45 @@
     function getTotalPages() { return Math.max(1, Math.ceil(getFilteredLinks().length / ITEMS_PER_PAGE)); }
 
     function getPagedLinks() {
-      const f = getFilteredLinks();
-      const s = (state.currentPage - 1) * ITEMS_PER_PAGE;
+      var f = getFilteredLinks();
+      var s = (state.currentPage - 1) * ITEMS_PER_PAGE;
       return f.slice(s, s + ITEMS_PER_PAGE);
     }
 
-    function nextId() { return state.links.length > 0 ? Math.max(...state.links.map(l => l.id)) + 1 : 1; }
+    function nextId() {
+      if (state.links.length === 0) return 1;
+      return Math.max.apply(null, state.links.map(function(l) { return l.id; })) + 1;
+    }
 
     function clearFieldErrors() {
-      ['titleInput','urlInput'].forEach(id => {
-        const e = document.getElementById(id + 'Error'); if (e) e.textContent = '';
-        const i = document.getElementById(id); if (i) i.style.borderColor = '';
+      ['titleInput','urlInput'].forEach(function(id) {
+        var e = document.getElementById(id + 'Error'); if (e) e.textContent = '';
+        var i = document.getElementById(id); if (i) i.style.borderColor = '';
       });
     }
 
     function renderTable() {
-      const tbody = document.getElementById('tableBody');
-      const links = getPagedLinks();
+      var tbody = document.getElementById('tableBody');
+      var links = getPagedLinks();
       if (links.length === 0) {
         tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;opacity:0.6;padding:24px;">Keine Links gefunden.</td></tr>';
       } else {
-        tbody.innerHTML = links.map(link => `
-          <tr data-id="${link.id}">
-            <td><label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
-              <input type="checkbox" class="row-checkbox" data-id="${link.id}" ${link.selected ? 'checked' : ''} />
-              ${escapeHtml(link.title)}
-            </label></td>
-            <td><a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer"
-              style="color:var(--color-highlight);text-decoration:none;">${escapeHtml(link.url)}</a></td>
-            <td>${escapeHtml(link.category)}</td>
-            <td><div class="actions">
-              <button class="icon-btn edit-btn" data-id="${link.id}" title="Bearbeiten"><i data-lucide="pencil"></i></button>
-              <button class="icon-btn delete-btn" data-id="${link.id}" title="L&ouml;schen"><i data-lucide="trash-2"></i></button>
-            </div></td>
-          </tr>`).join('');
+        tbody.innerHTML = links.map(function(link) {
+          return '<tr data-id="' + link.id + '">'
+            + '<td><label style="display:flex;align-items:center;gap:8px;cursor:pointer;">'
+            + '<input type="checkbox" class="row-checkbox" data-id="' + link.id + '" ' + (link.selected ? 'checked' : '') + ' />'
+            + escapeHtml(link.title) + '</label></td>'
+            + '<td><a href="' + escapeHtml(link.url) + '" target="_blank" rel="noopener noreferrer" style="color:var(--color-highlight);text-decoration:none;">'
+            + escapeHtml(link.url) + '</a></td>'
+            + '<td>' + escapeHtml(link.category) + '</td>'
+            + '<td><div class="actions">'
+            + '<button class="icon-btn edit-btn" data-id="' + link.id + '" title="Bearbeiten"><i data-lucide="pencil"></i></button>'
+            + '<button class="icon-btn delete-btn" data-id="' + link.id + '" title="L&ouml;schen"><i data-lucide="trash-2"></i></button>'
+            + '</div></td></tr>';
+        }).join('');
       }
-      const total = getTotalPages();
-      document.getElementById('paginationBtn').innerHTML =
-        `Seite ${state.currentPage} von ${total} <i data-lucide="chevron-right"></i>`;
+      var total = getTotalPages();
+      document.getElementById('paginationBtn').innerHTML = 'Seite ' + state.currentPage + ' von ' + total + ' <i data-lucide="chevron-right"></i>';
       lucide.createIcons();
     }
 
@@ -250,7 +256,7 @@
       document.getElementById('titleInput').value = '';
       document.getElementById('urlInput').value = '';
       document.getElementById('notesInput').value = '';
-      const r = document.querySelector('input[name="category"][value="Sonstiges"]');
+      var r = document.querySelector('input[name="category"][value="Sonstiges"]');
       if (r) r.checked = true;
       clearFieldErrors();
       document.getElementById('titleInput').focus();
@@ -269,7 +275,7 @@
     }
 
     function toggleSelection(id) {
-      const link = state.links.find(l => l.id === Number(id));
+      var link = state.links.filter(function(l) { return l.id === Number(id); })[0];
       if (!link) return;
       link.selected = !link.selected;
       saveStorage();
@@ -277,20 +283,20 @@
     }
 
     function loadEntryIntoEditor(id) {
-      const link = state.links.find(l => l.id === Number(id));
+      var link = state.links.filter(function(l) { return l.id === Number(id); })[0];
       if (!link) return;
       state.editorMode = link.id;
-      document.getElementById('editorSelection').textContent = `(Auswahl: ${link.title})`;
+      document.getElementById('editorSelection').textContent = '(Auswahl: ' + link.title + ')';
       document.getElementById('titleInput').value = link.title;
       document.getElementById('urlInput').value = link.url;
       document.getElementById('notesInput').value = link.notes || '';
-      document.querySelectorAll('input[name="category"]').forEach(r => { r.checked = r.value === link.category; });
+      document.querySelectorAll('input[name="category"]').forEach(function(r) { r.checked = r.value === link.category; });
       clearFieldErrors();
     }
 
     function deleteSingleEntry(id) {
-      if (!confirm('Link wirklich löschen?')) return;
-      state.links = state.links.filter(l => l.id !== Number(id));
+      if (!confirm('Link wirklich loeschen?')) return;
+      state.links = state.links.filter(function(l) { return l.id !== Number(id); });
       saveStorage();
       if (state.editorMode === Number(id)) closeEditor();
       if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
@@ -298,45 +304,45 @@
     }
 
     function deleteSelected() {
-      const count = state.links.filter(l => l.selected).length;
+      var count = state.links.filter(function(l) { return l.selected; }).length;
       if (count === 0) { alert('Keine Links markiert.'); return; }
-      if (!confirm(`${count} markierte Link(s) wirklich löschen?`)) return;
-      const ids = new Set(state.links.filter(l => l.selected).map(l => l.id));
-      state.links = state.links.filter(l => !l.selected);
+      if (!confirm(count + ' markierte Link(s) wirklich loeschen?')) return;
+      var ids = {};
+      state.links.filter(function(l) { return l.selected; }).forEach(function(l) { ids[l.id] = true; });
+      state.links = state.links.filter(function(l) { return !l.selected; });
       saveStorage();
-      if (ids.has(state.editorMode)) closeEditor();
+      if (ids[state.editorMode]) closeEditor();
       if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
       renderTable();
     }
 
     function changePage(next) {
-      const total = getTotalPages();
+      var total = getTotalPages();
       if (next) { state.currentPage = state.currentPage >= total ? 1 : state.currentPage + 1; }
       else      { state.currentPage = state.currentPage <= 1 ? total : state.currentPage - 1; }
       renderTable();
     }
 
     function validateField(field) {
-      const errId = field.id + 'Error';
-      let el = document.getElementById(errId);
+      var errId = field.id + 'Error';
+      var el = document.getElementById(errId);
       if (!el) {
         el = document.createElement('span');
         el.id = errId;
         el.style.cssText = 'color:#E35555;font-size:11px;margin-top:2px;display:block;';
         field.parentNode.appendChild(el);
       }
-      const v = field.value.trim();
+      var v = field.value.trim();
       if (field.id === 'titleInput' && !v) {
         el.textContent = 'Titel ist erforderlich.';
         field.style.borderColor = '#E35555';
         return false;
       }
       if (field.id === 'urlInput') {
-        try {
-          const p = new URL(v);
-          if (!['http:','https:'].includes(p.protocol)) throw new Error();
-        } catch {
-          el.textContent = 'Gültige URL erforderlich (https://…)';
+        var ok = false;
+        try { var p = new URL(v); ok = p.protocol === 'http:' || p.protocol === 'https:'; } catch(e) {}
+        if (!ok) {
+          el.textContent = 'Gueltige URL erforderlich (https://...)';
           field.style.borderColor = '#E35555';
           return false;
         }
@@ -344,8 +350,6 @@
       el.textContent = ''; field.style.borderColor = '';
       return true;
     }
-
-    function updateCategorySelection(value) {}
 
     function closeEditor() {
       state.editorMode = null;
@@ -356,28 +360,26 @@
 
     function handleSave(event) {
       event.preventDefault();
-      const tf = document.getElementById('titleInput');
-      const uf = document.getElementById('urlInput');
-      const tok = validateField(tf);
-      const uok = validateField(uf);
-      if (!tok || !uok) return;
-      const title    = tf.value.trim();
-      const url      = uf.value.trim();
-      const notes    = document.getElementById('notesInput').value.trim();
-      const catRadio = document.querySelector('input[name="category"]:checked');
-      const category = catRadio ? catRadio.value : 'Sonstiges';
+      var tf = document.getElementById('titleInput');
+      var uf = document.getElementById('urlInput');
+      if (!validateField(tf) | !validateField(uf)) return;
+      var title    = tf.value.trim();
+      var url      = uf.value.trim();
+      var notes    = document.getElementById('notesInput').value.trim();
+      var catRadio = document.querySelector('input[name="category"]:checked');
+      var category = catRadio ? catRadio.value : 'Sonstiges';
       if (state.editorMode === 'create' || state.editorMode === null) {
-        state.links.push({ id: nextId(), title, url, category, notes, selected: false });
+        state.links.push({ id: nextId(), title: title, url: url, category: category, notes: notes, selected: false });
       } else {
-        const link = state.links.find(l => l.id === state.editorMode);
-        if (link) Object.assign(link, { title, url, category, notes });
+        var link = state.links.filter(function(l) { return l.id === state.editorMode; })[0];
+        if (link) { link.title = title; link.url = url; link.category = category; link.notes = notes; }
       }
       saveStorage(); renderTable(); closeEditor();
     }
 
     function exportLinks() {
-      const blob = new Blob([JSON.stringify(state.links, null, 2)], { type: 'application/json' });
-      const a = document.createElement('a');
+      var blob = new Blob([JSON.stringify(state.links, null, 2)], { type: 'application/json' });
+      var a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
       a.download = 'links-export.json';
       a.click();
@@ -388,30 +390,27 @@
       document.getElementById('addLinkBtn').addEventListener('click', openCreateModal);
       document.getElementById('searchInput').addEventListener('input', debounce(filterTable, 300));
       document.getElementById('exportBtn').addEventListener('click', exportLinks);
-      document.getElementById('categoryFilters').addEventListener('click', e => {
-        const btn = e.target.closest('[data-category]');
+      document.getElementById('categoryFilters').addEventListener('click', function(e) {
+        var btn = e.target.closest('[data-category]');
         if (!btn) return;
-        document.querySelectorAll('.category-btn').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.category-btn').forEach(function(el) { el.classList.remove('active'); });
         btn.classList.add('active');
         filterByCategory(btn.dataset.category);
       });
-      document.getElementById('tableBody').addEventListener('click', e => {
-        const eb = e.target.closest('.edit-btn');
-        const db = e.target.closest('.delete-btn');
+      document.getElementById('tableBody').addEventListener('click', function(e) {
+        var eb = e.target.closest('.edit-btn');
+        var db = e.target.closest('.delete-btn');
         if (eb) loadEntryIntoEditor(eb.dataset.id);
         if (db) deleteSingleEntry(db.dataset.id);
       });
-      document.getElementById('tableBody').addEventListener('change', e => {
-        const cb = e.target.closest('.row-checkbox');
+      document.getElementById('tableBody').addEventListener('change', function(e) {
+        var cb = e.target.closest('.row-checkbox');
         if (cb) toggleSelection(cb.dataset.id);
       });
-      document.getElementById('paginationBtn').addEventListener('click', () => changePage(true));
+      document.getElementById('paginationBtn').addEventListener('click', function() { changePage(true); });
       document.getElementById('deleteSelectedBtn').addEventListener('click', deleteSelected);
-      document.querySelectorAll('#titleInput, #urlInput').forEach(i => {
+      document.querySelectorAll('#titleInput, #urlInput').forEach(function(i) {
         i.addEventListener('blur', function() { validateField(this); });
-      });
-      document.querySelectorAll('input[name="category"]').forEach(r => {
-        r.addEventListener('change', e => updateCategorySelection(e.target.value));
       });
       document.getElementById('cancelBtn').addEventListener('click', closeEditor);
       document.getElementById('editorForm').addEventListener('submit', handleSave);
@@ -425,6 +424,6 @@
     }
 
     document.addEventListener('DOMContentLoaded', init);
-  <\/script>
+  </script>
 </body>
 </html>
