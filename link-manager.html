@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link-Manager v1.0</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"><\/script>
+  <style>
+    :root {
+      --color-highlight: #E3AB55;
+      --color-text: #DBE6EC;
+      --color-bg: #7E817B;
+      --color-surface: #888888;
+      --font-family: 'IBM Plex Mono', monospace;
+      --font-heading-size: 24px;
+      --font-body-size: 14px;
+      --font-label-size: 11px;
+      --font-mono-size: 12px;
+      --font-weight-heading: 700;
+      --font-weight-body: 400;
+      --font-weight-label: 600;
+      --radius: 0px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 12px;
+      --spacing-lg: 16px;
+      --spacing-xl: 24px;
+      --border: 1px solid rgba(219, 230, 236, 0.2);
+      --transition: 180ms ease;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: var(--color-bg); color: var(--color-text); font-family: var(--font-family); font-size: var(--font-body-size); }
+    button, input { font-family: inherit; border-radius: var(--radius); border: none; outline: none; }
+    button { cursor: pointer; }
+    .app { display: flex; flex-direction: column; gap: var(--spacing-lg); padding: var(--spacing-md); max-width: 1400px; margin: 0 auto; }
+    .panel { background: var(--color-surface); border: var(--border); }
+    .header { display: flex; flex-direction: column; gap: var(--spacing-md); padding: var(--spacing-md); }
+    .header-top { display: flex; flex-direction: column; gap: var(--spacing-md); }
+    .brand { font-size: var(--font-heading-size); font-weight: var(--font-weight-heading); }
+    .toolbar { display: flex; flex-direction: column; gap: var(--spacing-sm); }
+    .toolbar-row { display: flex; gap: var(--spacing-sm); flex-wrap: wrap; }
+    .user-badge { font-size: var(--font-mono-size); opacity: 0.85; }
+    .btn, .search-input, .editor-input, .editor-textarea { min-height: 44px; background: rgba(0,0,0,0.12); color: var(--color-text); border: var(--border); padding: 0 var(--spacing-md); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; transition: var(--transition); }
+    .btn:hover { background: rgba(0,0,0,0.22); }
+    .btn-primary { background: var(--color-highlight); color: #000; font-weight: 600; }
+    .search-input { flex: 1; }
+    .category-filter { display: flex; overflow-x: auto; gap: var(--spacing-sm); padding-bottom: 4px; }
+    .category-btn { white-space: nowrap; background: rgba(0,0,0,0.12); color: var(--color-text); border: var(--border); padding: 10px 14px; font-size: var(--font-mono-size); }
+    .category-btn.active { background: var(--color-highlight); color: #000; border-color: var(--color-highlight); }
+    .table-panel { overflow: hidden; }
+    .table-wrapper { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    th, td { text-align: left; padding: var(--spacing-md); border-bottom: var(--border); font-size: var(--font-body-size); }
+    th { font-size: var(--font-label-size); text-transform: uppercase; font-weight: var(--font-weight-label); }
+    .actions { display: flex; gap: var(--spacing-sm); }
+    .icon-btn { width: 36px; height: 36px; background: rgba(0,0,0,0.12); border: var(--border); display: inline-flex; align-items: center; justify-content: center; color: var(--color-text); }
+    .footer-controls { display: flex; flex-direction: column; gap: var(--spacing-sm); padding: var(--spacing-md); }
+    .editor { padding: var(--spacing-lg); }
+    .editor-title { font-size: 18px; font-weight: 700; margin-bottom: var(--spacing-lg); }
+    .editor-grid { display: grid; gap: var(--spacing-md); }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field label { font-size: var(--font-label-size); font-weight: var(--font-weight-label); text-transform: uppercase; }
+    .editor-textarea { resize: vertical; min-height: 120px; padding-top: 12px; }
+    .radio-group { display: flex; flex-wrap: wrap; gap: var(--spacing-md); }
+    .editor-actions { display: flex; gap: var(--spacing-sm); justify-content: flex-end; margin-top: var(--spacing-lg); }
+    @media (min-width: 768px) {
+      .header-top { flex-direction: row; align-items: center; justify-content: space-between; }
+      .toolbar-row { flex-wrap: nowrap; }
+      .footer-controls { flex-direction: row; justify-content: space-between; align-items: center; }
+      .layout { display: grid; grid-template-columns: 2fr 1fr; gap: var(--spacing-lg); }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="panel header">
+      <div class="header-top">
+        <h1 class="brand">LINK-MANAGER v1.0</h1>
+        <span class="user-badge">(User: Admin)</span>
+      </div>
+      <div class="toolbar">
+        <div class="toolbar-row">
+          <button id="addLinkBtn" class="btn btn-primary"><i data-lucide="plus"></i> Link hinzuf&uuml;gen</button>
+          <input id="searchInput" class="search-input" type="search" placeholder="Suche..." />
+          <button id="exportBtn" class="btn"><i data-lucide="download"></i> Export</button>
+        </div>
+        <div id="categoryFilters" class="category-filter">
+          <button class="category-btn active" data-category="Alle">Alle</button>
+          <button class="category-btn" data-category="Favoriten">Favoriten</button>
+          <button class="category-btn" data-category="Arbeit">Arbeit</button>
+          <button class="category-btn" data-category="Social Media">Social Media</button>
+          <button class="category-btn" data-category="Referenz">Referenz</button>
+          <button class="category-btn" data-category="Entwurf">Entwurf</button>
+        </div>
+      </div>
+    </header>
+    <section class="layout">
+      <section class="panel table-panel">
+        <div class="table-wrapper">
+          <table>
+            <thead><tr><th>Titel</th><th>URL / Pfad</th><th>Kategorie</th><th>Aktionen</th></tr></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+        <div class="footer-controls">
+          <button id="deleteSelectedBtn" class="btn">Markierte l&ouml;schen</button>
+          <button id="paginationBtn" class="btn">Seite 1 von 1 <i data-lucide="chevron-right"></i></button>
+        </div>
+      </section>
+      <aside class="panel editor" id="editorPanel">
+        <h2 class="editor-title">MANUELLER EDITOR <span id="editorSelection">(Neu)</span></h2>
+        <form id="editorForm">
+          <div class="editor-grid">
+            <div class="field">
+              <label for="titleInput">Titel</label>
+              <input id="titleInput" class="editor-input" type="text" placeholder="Link-Titel" />
+            </div>
+            <div class="field">
+              <label for="urlInput">URL</label>
+              <input id="urlInput" class="editor-input" type="url" placeholder="https://example.com" />
+            </div>
+            <div class="field">
+              <label>Kategorie</label>
+              <div class="radio-group">
+                <label><input type="radio" name="category" value="Arbeit"> Arbeit</label>
+                <label><input type="radio" name="category" value="Social Media"> Social Media</label>
+                <label><input type="radio" name="category" value="Referenz"> Referenz</label>
+                <label><input type="radio" name="category" value="Entwurf"> Entwurf</label>
+                <label><input type="radio" name="category" value="Sonstiges" checked> Sonstiges</label>
+              </div>
+            </div>
+            <div class="field">
+              <label for="notesInput">Notizen</label>
+              <textarea id="notesInput" class="editor-textarea" placeholder="Optionale Notizen..."></textarea>
+            </div>
+          </div>
+          <div class="editor-actions">
+            <button type="button" id="cancelBtn" class="btn">ABBRECHEN</button>
+            <button type="submit" id="saveBtn" class="btn btn-primary">SPEICHERN</button>
+          </div>
+        </form>
+      </aside>
+    </section>
+  </main>
+  <script>
+    const STORAGE_KEY = 'linkManagerV1';
+    const ITEMS_PER_PAGE = 10;
+
+    function escapeHtml(str) {
+      const d = document.createElement('div');
+      d.textContent = String(str);
+      return d.innerHTML;
+    }
+
+    function debounce(fn, delay = 300) {
+      let t;
+      return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); };
+    }
+
+    const defaultData = [
+      { id:1, title:'Google Search',  url:'https://www.google.com',        category:'Referenz', notes:'', selected:false },
+      { id:2, title:'GitHub Repo',    url:'https://github.com/my-project', category:'Arbeit',   notes:'', selected:false },
+      { id:3, title:'Design Inspo',   url:'https://dribbble.com',          category:'Referenz', notes:'', selected:false },
+      { id:4, title:'Personal Blog',  url:'https://myblog.de/drafts',      category:'Entwurf',  notes:'', selected:false },
+      { id:5, title:'Stack Overflow', url:'https://stackoverflow.com',     category:'Arbeit',   notes:'', selected:false }
+    ];
+
+    function loadStorage() {
+      const s = localStorage.getItem(STORAGE_KEY);
+      if (s) { try { return JSON.parse(s); } catch {} }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultData));
+      return defaultData.map(l => ({...l}));
+    }
+
+    function saveStorage() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.links));
+    }
+
+    const state = {
+      links: loadStorage(),
+      searchQuery: '',
+      currentCategory: 'Alle',
+      currentPage: 1,
+      editorMode: null
+    };
+
+    function getFilteredLinks() {
+      return state.links.filter(link => {
+        if (state.currentCategory === 'Favoriten') { if (!link.selected) return false; }
+        else if (state.currentCategory !== 'Alle') { if (link.category !== state.currentCategory) return false; }
+        if (state.searchQuery) {
+          const q = state.searchQuery.toLowerCase();
+          if (!link.title.toLowerCase().includes(q) && !link.url.toLowerCase().includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    function getTotalPages() { return Math.max(1, Math.ceil(getFilteredLinks().length / ITEMS_PER_PAGE)); }
+
+    function getPagedLinks() {
+      const f = getFilteredLinks();
+      const s = (state.currentPage - 1) * ITEMS_PER_PAGE;
+      return f.slice(s, s + ITEMS_PER_PAGE);
+    }
+
+    function nextId() { return state.links.length > 0 ? Math.max(...state.links.map(l => l.id)) + 1 : 1; }
+
+    function clearFieldErrors() {
+      ['titleInput','urlInput'].forEach(id => {
+        const e = document.getElementById(id + 'Error'); if (e) e.textContent = '';
+        const i = document.getElementById(id); if (i) i.style.borderColor = '';
+      });
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      const links = getPagedLinks();
+      if (links.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;opacity:0.6;padding:24px;">Keine Links gefunden.</td></tr>';
+      } else {
+        tbody.innerHTML = links.map(link => `
+          <tr data-id="${link.id}">
+            <td><label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+              <input type="checkbox" class="row-checkbox" data-id="${link.id}" ${link.selected ? 'checked' : ''} />
+              ${escapeHtml(link.title)}
+            </label></td>
+            <td><a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer"
+              style="color:var(--color-highlight);text-decoration:none;">${escapeHtml(link.url)}</a></td>
+            <td>${escapeHtml(link.category)}</td>
+            <td><div class="actions">
+              <button class="icon-btn edit-btn" data-id="${link.id}" title="Bearbeiten"><i data-lucide="pencil"></i></button>
+              <button class="icon-btn delete-btn" data-id="${link.id}" title="L&ouml;schen"><i data-lucide="trash-2"></i></button>
+            </div></td>
+          </tr>`).join('');
+      }
+      const total = getTotalPages();
+      document.getElementById('paginationBtn').innerHTML =
+        `Seite ${state.currentPage} von ${total} <i data-lucide="chevron-right"></i>`;
+      lucide.createIcons();
+    }
+
+    function openCreateModal() {
+      state.editorMode = 'create';
+      document.getElementById('editorSelection').textContent = '(Neu)';
+      document.getElementById('titleInput').value = '';
+      document.getElementById('urlInput').value = '';
+      document.getElementById('notesInput').value = '';
+      const r = document.querySelector('input[name="category"][value="Sonstiges"]');
+      if (r) r.checked = true;
+      clearFieldErrors();
+      document.getElementById('titleInput').focus();
+    }
+
+    function filterTable() {
+      state.searchQuery = document.getElementById('searchInput').value.trim();
+      state.currentPage = 1;
+      renderTable();
+    }
+
+    function filterByCategory(catId) {
+      state.currentCategory = catId;
+      state.currentPage = 1;
+      renderTable();
+    }
+
+    function toggleSelection(id) {
+      const link = state.links.find(l => l.id === Number(id));
+      if (!link) return;
+      link.selected = !link.selected;
+      saveStorage();
+      if (state.currentCategory === 'Favoriten') renderTable();
+    }
+
+    function loadEntryIntoEditor(id) {
+      const link = state.links.find(l => l.id === Number(id));
+      if (!link) return;
+      state.editorMode = link.id;
+      document.getElementById('editorSelection').textContent = `(Auswahl: ${link.title})`;
+      document.getElementById('titleInput').value = link.title;
+      document.getElementById('urlInput').value = link.url;
+      document.getElementById('notesInput').value = link.notes || '';
+      document.querySelectorAll('input[name="category"]').forEach(r => { r.checked = r.value === link.category; });
+      clearFieldErrors();
+    }
+
+    function deleteSingleEntry(id) {
+      if (!confirm('Link wirklich löschen?')) return;
+      state.links = state.links.filter(l => l.id !== Number(id));
+      saveStorage();
+      if (state.editorMode === Number(id)) closeEditor();
+      if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
+      renderTable();
+    }
+
+    function deleteSelected() {
+      const count = state.links.filter(l => l.selected).length;
+      if (count === 0) { alert('Keine Links markiert.'); return; }
+      if (!confirm(`${count} markierte Link(s) wirklich löschen?`)) return;
+      const ids = new Set(state.links.filter(l => l.selected).map(l => l.id));
+      state.links = state.links.filter(l => !l.selected);
+      saveStorage();
+      if (ids.has(state.editorMode)) closeEditor();
+      if (state.currentPage > getTotalPages()) state.currentPage = getTotalPages();
+      renderTable();
+    }
+
+    function changePage(next) {
+      const total = getTotalPages();
+      if (next) { state.currentPage = state.currentPage >= total ? 1 : state.currentPage + 1; }
+      else      { state.currentPage = state.currentPage <= 1 ? total : state.currentPage - 1; }
+      renderTable();
+    }
+
+    function validateField(field) {
+      const errId = field.id + 'Error';
+      let el = document.getElementById(errId);
+      if (!el) {
+        el = document.createElement('span');
+        el.id = errId;
+        el.style.cssText = 'color:#E35555;font-size:11px;margin-top:2px;display:block;';
+        field.parentNode.appendChild(el);
+      }
+      const v = field.value.trim();
+      if (field.id === 'titleInput' && !v) {
+        el.textContent = 'Titel ist erforderlich.';
+        field.style.borderColor = '#E35555';
+        return false;
+      }
+      if (field.id === 'urlInput') {
+        try {
+          const p = new URL(v);
+          if (!['http:','https:'].includes(p.protocol)) throw new Error();
+        } catch {
+          el.textContent = 'Gültige URL erforderlich (https://…)';
+          field.style.borderColor = '#E35555';
+          return false;
+        }
+      }
+      el.textContent = ''; field.style.borderColor = '';
+      return true;
+    }
+
+    function updateCategorySelection(value) {}
+
+    function closeEditor() {
+      state.editorMode = null;
+      document.getElementById('editorSelection').textContent = '(Neu)';
+      document.getElementById('editorForm').reset();
+      clearFieldErrors();
+    }
+
+    function handleSave(event) {
+      event.preventDefault();
+      const tf = document.getElementById('titleInput');
+      const uf = document.getElementById('urlInput');
+      const tok = validateField(tf);
+      const uok = validateField(uf);
+      if (!tok || !uok) return;
+      const title    = tf.value.trim();
+      const url      = uf.value.trim();
+      const notes    = document.getElementById('notesInput').value.trim();
+      const catRadio = document.querySelector('input[name="category"]:checked');
+      const category = catRadio ? catRadio.value : 'Sonstiges';
+      if (state.editorMode === 'create' || state.editorMode === null) {
+        state.links.push({ id: nextId(), title, url, category, notes, selected: false });
+      } else {
+        const link = state.links.find(l => l.id === state.editorMode);
+        if (link) Object.assign(link, { title, url, category, notes });
+      }
+      saveStorage(); renderTable(); closeEditor();
+    }
+
+    function exportLinks() {
+      const blob = new Blob([JSON.stringify(state.links, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'links-export.json';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+
+    function bindEvents() {
+      document.getElementById('addLinkBtn').addEventListener('click', openCreateModal);
+      document.getElementById('searchInput').addEventListener('input', debounce(filterTable, 300));
+      document.getElementById('exportBtn').addEventListener('click', exportLinks);
+      document.getElementById('categoryFilters').addEventListener('click', e => {
+        const btn = e.target.closest('[data-category]');
+        if (!btn) return;
+        document.querySelectorAll('.category-btn').forEach(el => el.classList.remove('active'));
+        btn.classList.add('active');
+        filterByCategory(btn.dataset.category);
+      });
+      document.getElementById('tableBody').addEventListener('click', e => {
+        const eb = e.target.closest('.edit-btn');
+        const db = e.target.closest('.delete-btn');
+        if (eb) loadEntryIntoEditor(eb.dataset.id);
+        if (db) deleteSingleEntry(db.dataset.id);
+      });
+      document.getElementById('tableBody').addEventListener('change', e => {
+        const cb = e.target.closest('.row-checkbox');
+        if (cb) toggleSelection(cb.dataset.id);
+      });
+      document.getElementById('paginationBtn').addEventListener('click', () => changePage(true));
+      document.getElementById('deleteSelectedBtn').addEventListener('click', deleteSelected);
+      document.querySelectorAll('#titleInput, #urlInput').forEach(i => {
+        i.addEventListener('blur', function() { validateField(this); });
+      });
+      document.querySelectorAll('input[name="category"]').forEach(r => {
+        r.addEventListener('change', e => updateCategorySelection(e.target.value));
+      });
+      document.getElementById('cancelBtn').addEventListener('click', closeEditor);
+      document.getElementById('editorForm').addEventListener('submit', handleSave);
+    }
+
+    function init() {
+      renderTable();
+      bindEvents();
+      lucide.createIcons();
+      openCreateModal();
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  <\/script>
+</body>
+</html>
