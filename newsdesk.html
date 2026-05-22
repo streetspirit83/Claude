@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NewsDesk — Dein Nachrichten-Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a18;
+    --paper: #f5f0e8;
+    --accent: #c8371a;
+    --accent-muted: #8b2512;
+    --gold: #b8960c;
+    --border: #2a2a26;
+    --muted: #5a5a52;
+    --card-bg: #faf7f2;
+    --tag-bg: #e8e2d4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+  /* HEADER */
+  header { background: var(--ink); color: var(--paper); border-bottom: 3px solid var(--accent); }
+  .header-top { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid #333; gap: 10px; }
+  .masthead { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; letter-spacing: -1px; }
+  .masthead span { color: var(--accent); }
+  .header-meta { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #888; text-align: right; }
+  .ticker-wrap { padding: 5px 20px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #bbb; display: flex; gap: 6px; align-items: center; }
+  .ticker-label { color: var(--accent); font-weight: 500; text-transform: uppercase; margin-right: 8px; flex-shrink: 0; }
+
+  /* MOBILE MENU BUTTON */
+  .menu-btn { display: none; background: none; border: 1px solid #555; color: #ccc; padding: 5px 10px; font-size: 16px; cursor: pointer; border-radius: 2px; flex-shrink: 0; }
+  .menu-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* LAYOUT */
+  .app { display: grid; grid-template-columns: 280px 1fr; min-height: calc(100vh - 82px); }
+
+  /* SIDEBAR */
+  aside { background: var(--ink); color: var(--paper); padding: 20px 16px; border-right: 2px solid var(--accent); overflow-y: auto; }
+  .sidebar-section { margin-bottom: 24px; }
+  .sidebar-title { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #333; }
+  .source-list { list-style: none; }
+  .source-item { display: flex; align-items: center; gap: 8px; padding: 5px 6px; border-radius: 2px; cursor: pointer; transition: background 0.15s; font-size: 12.5px; }
+  .source-item:hover { background: #2a2a26; }
+  .source-item.active { background: var(--accent); }
+  .source-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+  .source-item.active .source-dot { background: var(--paper); }
+  .source-name { flex: 1; color: #ddd; font-size: 12px; }
+  .source-item.active .source-name { color: white; }
+  .source-count { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #666; background: #222; padding: 1px 5px; border-radius: 2px; }
+  .source-item.active .source-count { background: var(--accent-muted); color: #ffd; }
+  .source-remove { background: none; border: none; color: #555; cursor: pointer; font-size: 12px; padding: 0 2px; line-height: 1; display: none; }
+  .source-item:hover .source-remove { display: block; }
+  .source-item:hover .source-count { display: none; }
+  .source-remove:hover { color: #ff6b6b; }
+
+  /* FORM FIELDS */
+  .field-label { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #888; margin-bottom: 4px; display: block; }
+  input[type="text"].sidebar-input, textarea {
+    width: 100%; background: #111; border: 1px solid #333; color: #ccc;
+    padding: 7px 8px; font-family: 'IBM Plex Mono', monospace; font-size: 11px;
+    line-height: 1.5; border-radius: 2px;
+  }
+  input[type="text"].sidebar-input { margin-bottom: 6px; }
+  textarea { resize: vertical; min-height: 80px; }
+  input[type="text"].sidebar-input:focus, textarea:focus { outline: none; border-color: var(--accent); }
+  input[type="text"].sidebar-input::placeholder, textarea::placeholder { color: #444; }
+
+  .btn { display: block; width: 100%; margin-top: 8px; padding: 7px 12px; background: var(--accent); color: white; border: none; font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 500; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; border-radius: 2px; transition: background 0.15s; }
+  .btn:hover { background: var(--accent-muted); }
+  .btn-sm { display: inline-block; width: auto; padding: 4px 10px; font-size: 10px; margin-top: 0; }
+  .btn-ghost { background: transparent; border: 1px solid #444; color: #aaa; }
+  .btn-ghost:hover { background: #222; border-color: #666; }
+
+  /* CATEGORY RULES LIST */
+  .cat-rule { display: flex; align-items: center; gap: 6px; padding: 4px 6px; background: #111; border-radius: 2px; margin-bottom: 4px; }
+  .cat-rule-name { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--gold); flex-shrink: 0; }
+  .cat-rule-kw { font-size: 10px; color: #666; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cat-rule-del { background: none; border: none; color: #555; cursor: pointer; font-size: 11px; padding: 0; flex-shrink: 0; }
+  .cat-rule-del:hover { color: #ff6b6b; }
+
+  /* MAIN */
+  main { padding: 24px 28px; overflow-y: auto; }
+  .toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 2px solid var(--border); gap: 10px; }
+  .toolbar-left { display: flex; align-items: center; gap: 12px; }
+  .feed-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; }
+  .badge { font-family: 'IBM Plex Mono', monospace; font-size: 10px; background: var(--accent); color: white; padding: 2px 7px; border-radius: 2px; }
+  .toolbar-actions { display: flex; gap: 8px; align-items: center; }
+  .search-input { background: white; border: 1px solid #ccc; padding: 5px 10px; font-family: 'IBM Plex Sans', sans-serif; font-size: 12px; border-radius: 2px; width: 200px; }
+  .search-input:focus { outline: none; border-color: var(--accent); }
+
+  .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+
+  /* CARD */
+  .card { background: var(--card-bg); border: 1px solid #ddd; border-top: 3px solid var(--border); padding: 16px; transition: border-top-color 0.2s, box-shadow 0.2s; position: relative; display: flex; flex-direction: column; }
+  .card:hover { border-top-color: var(--accent); box-shadow: 3px 3px 0 rgba(0,0,0,0.1); }
+  .card-source { font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .card-date { color: var(--muted); font-size: 10px; margin-left: auto; font-family: 'IBM Plex Mono', monospace; }
+  .card-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; line-height: 1.3; margin-bottom: 8px; color: var(--ink); }
+  .card-title a { color: inherit; text-decoration: none; }
+  .card-title a:hover { color: var(--accent); }
+  .card-desc { font-size: 12.5px; color: var(--muted); line-height: 1.55; flex: 1; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 10px; border-top: 1px solid #e8e2d4; }
+  .card-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+  .tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; background: var(--tag-bg); color: var(--muted); padding: 2px 6px; border-radius: 1px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .tag.matched { background: var(--gold); color: #fff; }
+  .read-link { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--accent); text-decoration: none; font-weight: 500; letter-spacing: 0.5px; white-space: nowrap; }
+  .read-link:hover { text-decoration: underline; }
+
+  /* STATES */
+  .state-loading, .state-empty, .state-error { grid-column: 1 / -1; text-align: center; padding: 60px 20px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--muted); }
+  .spinner-text { animation: pulse 1.5s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
+
+  /* PROGRESS BAR */
+  .progress-bar { height: 2px; background: #ddd; margin-bottom: 16px; border-radius: 1px; display: none; }
+  .progress-fill { height: 100%; background: var(--accent); border-radius: 1px; transition: width 0.3s ease; width: 0%; }
+
+  /* FILTER BAR */
+  .filter-bar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+  .filter-btn { font-family: 'IBM Plex Mono', monospace; font-size: 10px; padding: 4px 10px; border: 1px solid #ccc; background: white; cursor: pointer; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.15s; color: var(--muted); }
+  .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .filter-btn.active { background: var(--ink); color: white; border-color: var(--ink); }
+
+  /* TOAST */
+  .toast { position: fixed; bottom: 20px; right: 20px; background: var(--ink); color: var(--paper); padding: 10px 16px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; border-left: 3px solid var(--accent); border-radius: 2px; opacity: 0; transform: translateY(10px); transition: all 0.2s; z-index: 200; max-width: 300px; }
+  .toast.show { opacity: 1; transform: translateY(0); }
+  .toast.error { border-left-color: #ff6b6b; }
+
+  /* SIDEBAR OVERLAY (mobile) */
+  .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 98; }
+
+  /* MOBILE */
+  @media (max-width: 700px) {
+    .menu-btn { display: block; }
+    .header-meta { display: none; }
+    .app { grid-template-columns: 1fr; }
+    aside {
+      display: block;
+      position: fixed; top: 0; left: -290px; width: 280px; height: 100vh;
+      z-index: 99; transition: left 0.25s ease;
+      overflow-y: auto;
+    }
+    aside.open { left: 0; }
+    aside.open ~ .sidebar-overlay { display: block; }
+    main { padding: 16px; }
+    .search-input { width: 140px; }
+    .masthead { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <button class="menu-btn" id="menuBtn" onclick="toggleSidebar()" title="Menü">☰</button>
+    <div class="masthead">News<span>Desk</span></div>
+    <div class="header-meta">
+      <div id="currentDate"></div>
+      <div id="lastUpdated" style="color:#666;">Noch nicht geladen</div>
+    </div>
+  </div>
+  <div class="ticker-wrap">
+    <span class="ticker-label">■ Live</span>
+    <span id="tickerText" class="spinner-text">Quellen werden initialisiert …</span>
+  </div>
+</header>
+
+<div class="app">
+  <!-- SIDEBAR -->
+  <aside id="sidebar">
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Quellen</div>
+      <ul class="source-list" id="sourceList"></ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Quellen hinzufügen</div>
+      <label class="field-label">Name der Quelle (optional)</label>
+      <input type="text" class="sidebar-input" id="sourceNameInput" placeholder="z.B. Mein Blog">
+      <label class="field-label">RSS-URLs (eine pro Zeile)</label>
+      <textarea id="sourceInput" placeholder="https://example.com/rss&#10;https://www.google.de/alerts/feeds/..."></textarea>
+      <button class="btn" onclick="addCustomSources()">+ Quellen laden</button>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Kategorien & Keywords</div>
+      <div id="catRulesList"></div>
+      <label class="field-label" style="margin-top:10px;">Kategorie</label>
+      <input type="text" class="sidebar-input" id="catNameInput" placeholder="z.B. Energie">
+      <label class="field-label">Keywords (kommagetrennt)</label>
+      <input type="text" class="sidebar-input" id="catKeywordsInput" placeholder="z.B. Solar, Wind, Netz, Strom">
+      <button class="btn" onclick="addCategoryRule()">+ Kategorie speichern</button>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-title">Einstellungen</div>
+      <button class="btn btn-ghost btn-sm" onclick="refreshAll()" style="width:100%;margin-bottom:6px;">↻ Alle aktualisieren</button>
+      <button class="btn btn-ghost btn-sm" onclick="clearCustomSources()" style="width:100%;color:#c66;">✕ Eigene Quellen löschen</button>
+    </div>
+
+  </aside>
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <!-- MAIN -->
+  <main>
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <div class="feed-title" id="feedTitle">Alle Quellen</div>
+        <span class="badge" id="articleCount">0</span>
+      </div>
+      <div class="toolbar-actions">
+        <input type="text" class="search-input" id="searchInput" placeholder="Suchen …" oninput="filterArticles()">
+        <button class="btn btn-sm" onclick="refreshAll()">↻</button>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" onclick="setFilter('all',this)">Alle</button>
+    </div>
+
+    <div class="progress-bar" id="progressBar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <div class="articles-grid" id="articlesGrid">
+      <div class="state-empty" style="grid-column:1/-1;text-align:center;padding:60px 20px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted);">
+        <div style="font-size:2rem;margin-bottom:12px;">◎</div>Feeds werden geladen …
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+// EINGEBETTETE STANDARD-QUELLEN
+// ════════════════════════════════════════════════════════════
+const DEFAULT_SOURCES = [
+  { id:'spiegel',           name:'Spiegel Online',     url:'https://www.spiegel.de/schlagzeilen/index.rss', category:'Nachrichten', color:'#c8371a' },
+  { id:'zeit',              name:'Zeit Online',         url:'https://newsfeed.zeit.de/all',                  category:'Nachrichten', color:'#b8960c' },
+  { id:'heise',             name:'Heise Online',        url:'https://www.heise.de/rss/heise-atom.xml',       category:'Tech',        color:'#2a6496' },
+  { id:'tagesschau',        name:'Tagesschau',          url:'https://www.tagesschau.de/xml/rss2',            category:'Nachrichten', color:'#1a5276' },
+  { id:'golem',             name:'Golem.de',            url:'https://rss.golem.de/rss.php?feed=RSS2.0',      category:'Tech',        color:'#2e7d32' },
+  { id:'immobilien_zeitung',name:'Immobilien Zeitung',  url:'https://www.iz.de/rss',                         category:'Immobilien',  color:'#6a1b9a' },
+];
+// ════════════════════════════════════════════════════════════
+
+// ── App State ─────────────────────────────────────────────
+let sources          = [...DEFAULT_SOURCES];
+let allArticles      = [];
+let activeSourceId   = 'all';
+let activeFilter     = 'all';
+let articleCountBySource = {};
+let sourceErrors     = {};
+// Kategorie-Regeln: [{id, name, keywords:[...]}]
+let categoryRules    = [];
+
+// ── GOOGLE REDIRECT RESOLVER ──────────────────────────────
+// Google Alerts wraps article links as: google.com/url?...&url=REAL_URL&...
+function resolveGoogleLink(url) {
+  if (!url) return url;
+  try {
+    const u = new URL(url);
+    if ((u.hostname === 'www.google.com' || u.hostname === 'news.google.com') && u.searchParams.has('url')) {
+      return u.searchParams.get('url');
+    }
+  } catch(e) {}
+  return url;
+}
+
+// ── PROXY via rss2json (no server needed, works on GitHub Pages) ───
+async function fetchViaProxy(feedUrl) {
+  const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=25`;
+  const res = await fetch(apiUrl, { signal: AbortSignal.timeout(15000) });
+  if (!res.ok) {
+    if (res.status === 403 || res.status === 401) throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'paywall' });
+    if (res.status === 404) throw Object.assign(new Error('Feed-URL nicht gefunden (404)'), { type: 'notfound' });
+    if (res.status === 504) throw Object.assign(new Error('Feed antwortet nicht (Timeout)'), { type: 'timeout' });
+    throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'error' });
+  }
+  const data = await res.json();
+  if (data.status !== 'ok') throw Object.assign(new Error(data.message || 'Feed-Fehler'), { type: 'error' });
+  return data.items.map(i => ({
+    title:   i.title,
+    link:    resolveGoogleLink(i.link),
+    desc:    i.description || i.content || '',
+    pubDate: i.pubDate,
+    author:  i.author
+  }));
+}
+
+// ── HTML-STRIP für Alerts ─────────────────────────────────
+// Entfernt HTML-Tags wie <b>Iran</b> → Iran
+function cleanText(str) {
+  return (str || '')
+    .replace(/<b>(.*?)<\/b>/gi, '$1')
+    .replace(/<i>(.*?)<\/i>/gi, '$1')
+    .replace(/<em>(.*?)<\/em>/gi, '$1')
+    .replace(/<strong>(.*?)<\/strong>/gi, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>')
+    .replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ')
+    .replace(/\s{2,}/g,' ').trim();
+}
+
+// ── KATEGORIE per Keyword bestimmen ──────────────────────
+function resolveCategory(article, sourceCategory) {
+  if (!categoryRules.length) return sourceCategory || 'Sonstiges';
+  const haystack = (article.title + ' ' + article.desc).toLowerCase();
+  for (const rule of categoryRules) {
+    if (rule.keywords.some(kw => haystack.includes(kw.toLowerCase()))) {
+      return rule.name;
+    }
+  }
+  return sourceCategory || 'Sonstiges';
+}
+
+// ── INIT ─────────────────────────────────────────────────
+function init() {
+  document.getElementById('currentDate').textContent =
+    new Date().toLocaleDateString('de-DE', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+
+  // Gespeicherte eigene Quellen laden
+  try {
+    const saved = JSON.parse(localStorage.getItem('newsdesk_sources') || '[]');
+    saved.forEach(s => { if (!sources.find(x => x.id === s.id)) sources.push(s); });
+  } catch(e) {}
+
+  // Gespeicherte Kategorie-Regeln laden
+  try {
+    categoryRules = JSON.parse(localStorage.getItem('newsdesk_catrules') || '[]');
+  } catch(e) {}
+
+  renderCatRules();
+  renderSourceList();
+  refreshAll();
+}
+
+// ── MOBILE SIDEBAR ───────────────────────────────────────
+function toggleSidebar() {
+  const sidebar  = document.getElementById('sidebar');
+  const overlay  = document.getElementById('sidebarOverlay');
+  const isOpen   = sidebar.classList.toggle('open');
+  overlay.style.display = isOpen ? 'block' : 'none';
+}
+
+// ── SOURCE LIST ──────────────────────────────────────────
+function renderSourceList() {
+  const list = document.getElementById('sourceList');
+  const allItem = `
+    <li class="source-item ${activeSourceId==='all'?'active':''}" onclick="selectSource('all')">
+      <span class="source-dot" style="background:#888"></span>
+      <span class="source-name">Alle Quellen</span>
+      <span class="source-count">${allArticles.length}</span>
+    </li>`;
+
+  const items = sources.map(s => {
+    const err      = sourceErrors[s.id];
+    const count    = articleCountBySource[s.id];
+    const countStr = count === undefined ? '…' : count;
+    const errIcon  = err ? ` <span style="color:#ff6b6b;font-size:9px;" title="${escHtml(err)}">⚠</span>` : '';
+    const dotColor = err ? (err.type==='paywall' ? '#e67e22' : '#ff6b6b') : (s.color||'#888');
+    return `
+    <li class="source-item ${activeSourceId===s.id?'active':''}" onclick="selectSource('${s.id}')">
+      <span class="source-dot" style="background:${dotColor}"></span>
+      <span class="source-name">${escHtml(s.name)}${errIcon}</span>
+      <span class="source-count">${countStr}</span>
+      <button class="source-remove" onclick="removeSource(event,'${s.id}')" title="Quelle entfernen">✕</button>
+    </li>`;
+  }).join('');
+
+  list.innerHTML = allItem + items;
+}
+
+// ── FETCH ────────────────────────────────────────────────
+async function fetchRSS(source) {
+  try {
+    const items = await fetchViaProxy(source.url);
+    if (items.length === 0) {
+      sourceErrors[source.id] = Object.assign(new Error('Feed leer — keine Artikel'), { type: 'empty' });
+    } else {
+      delete sourceErrors[source.id];
+    }
+    return items.slice(0, 25).map(a => {
+      const title = cleanText(a.title);
+      const desc  = cleanText(a.desc);
+      const pd    = a.pubDate ? new Date(a.pubDate) : new Date();
+      const cat   = resolveCategory({ title, desc }, source.category);
+      return {
+        id:          btoa(unescape(encodeURIComponent(a.link))).slice(0, 16),
+        sourceId:    source.id,
+        sourceName:  source.name,
+        sourceColor: source.color || '#888',
+        category:    cat,
+        title,
+        link:        a.link,
+        desc:        desc.length > 240 ? desc.slice(0, 240) + '…' : desc,
+        author:      cleanText(a.author),
+        pubDate:     pd,
+        ts:          pd.getTime()
+      };
+    }).filter(a => a.title && a.link && a.link !== '#');
+  } catch(e) {
+    sourceErrors[source.id] = e;
+    return [];
+  }
+}
+
+// ── REFRESH ALL ──────────────────────────────────────────
+async function refreshAll() {
+  const bar  = document.getElementById('progressBar');
+  const fill = document.getElementById('progressFill');
+  bar.style.display = 'block'; fill.style.width = '0%';
+  document.getElementById('tickerText').textContent = `Lade ${sources.length} Quellen …`;
+  document.getElementById('tickerText').className = 'spinner-text';
+
+  allArticles = {};
+  articleCountBySource = {};
+  allArticles = [];
+
+  let loaded = 0;
+  for (let i = 0; i < sources.length; i += 3) {
+    const batch   = sources.slice(i, i+3);
+    const results = await Promise.all(batch.map(s => fetchRSS(s)));
+    results.forEach((arts, idx) => {
+      articleCountBySource[batch[idx].id] = arts.length;
+      allArticles = allArticles.concat(arts);
+    });
+    loaded += batch.length;
+    fill.style.width = `${(loaded / sources.length) * 100}%`;
+  }
+
+  allArticles.sort((a, b) => b.ts - a.ts);
+  bar.style.display = 'none';
+  document.getElementById('lastUpdated').textContent = 'Aktualisiert: ' + new Date().toLocaleTimeString('de-DE');
+  document.getElementById('tickerText').textContent = `${allArticles.length} Artikel · ${sources.length} Quellen`;
+  document.getElementById('tickerText').className = '';
+
+  const errCount = Object.keys(sourceErrors).length;
+  if (errCount) {
+    const paywalls = Object.values(sourceErrors).filter(e => e.type === 'paywall').length;
+    toast(`✓ ${allArticles.length} Artikel · ${errCount} Fehler${paywalls ? ` (${paywalls}× Paywall)` : ''}`, 4000, 'error');
+  } else {
+    toast(`✓ ${allArticles.length} Artikel geladen`, 2500);
+  }
+
+  updateCategories();
+  renderSourceList();
+  renderArticles();
+}
+
+// ── SELECT SOURCE ────────────────────────────────────────
+function selectSource(id) {
+  activeSourceId = id;
+  const src = sources.find(s => s.id === id);
+  document.getElementById('feedTitle').textContent = id === 'all' ? 'Alle Quellen' : (src?.name || id);
+  renderSourceList();
+  filterArticles();
+  // Mobile: Sidebar schließen nach Auswahl
+  if (window.innerWidth <= 700) {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').style.display = 'none';
+  }
+}
+
+// ── CATEGORIES ───────────────────────────────────────────
+function updateCategories() {
+  const cats = [...new Set(allArticles.map(a => a.category))].filter(Boolean).sort();
+  const bar  = document.getElementById('filterBar');
+  const allBtn = `<button class="filter-btn ${activeFilter==='all'?'active':''}" onclick="setFilter('all',this)">Alle</button>`;
+  bar.innerHTML = allBtn + cats.map(c =>
+    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="setFilter('${escHtml(c)}',this)">${escHtml(c)}</button>`
+  ).join('');
+}
+
+function setFilter(cat, btn) {
+  activeFilter = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterArticles();
+}
+
+// ── FILTER & RENDER ──────────────────────────────────────
+function filterArticles() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  let arts = allArticles;
+  if (activeSourceId !== 'all') arts = arts.filter(a => a.sourceId === activeSourceId);
+  if (activeFilter   !== 'all') arts = arts.filter(a => a.category === activeFilter);
+  if (q) arts = arts.filter(a => a.title.toLowerCase().includes(q) || a.desc.toLowerCase().includes(q));
+  document.getElementById('articleCount').textContent = arts.length;
+  renderArticles(arts);
+}
+
+function renderArticles(arts) {
+  const grid = document.getElementById('articlesGrid');
+  if (!arts) arts = allArticles;
+  if (!arts.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px 20px;font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:var(--muted);">○ Keine Artikel gefunden.</div>';
+    return;
+  }
+  grid.innerHTML = arts.map(a => `
+    <div class="card">
+      <div class="card-source">
+        <span style="color:${a.sourceColor}">■</span>
+        ${escHtml(a.sourceName)}
+        <span class="card-date">${formatDate(a.pubDate)}</span>
+      </div>
+      <div class="card-title">
+        <a href="${escHtml(a.link)}" target="_blank" rel="noopener">${escHtml(a.title)}</a>
+      </div>
+      ${a.desc ? `<div class="card-desc">${escHtml(a.desc)}</div>` : ''}
+      <div class="card-footer">
+        <div class="card-tags"><span class="tag">${escHtml(a.category)}</span></div>
+        <a class="read-link" href="${escHtml(a.link)}" target="_blank" rel="noopener">Lesen →</a>
+      </div>
+    </div>`).join('');
+}
+
+// ── ADD SOURCES ──────────────────────────────────────────
+async function addCustomSources() {
+  const raw  = document.getElementById('sourceInput').value.trim();
+  const name = document.getElementById('sourceNameInput').value.trim();
+  if (!raw) { toast('Bitte URLs eingeben', 2000); return; }
+  const urls = raw.split('\n').map(u => u.trim()).filter(u => u.startsWith('http'));
+  if (!urls.length) { toast('Keine gültigen URLs gefunden', 2000); return; }
+
+  let added = 0;
+  urls.forEach((url, idx) => {
+    if (sources.find(s => s.url === url)) return;
+    const id    = 'custom_' + Date.now() + '_' + Math.random().toString(36).slice(2,6);
+    const label = name || (urls.length === 1 ? extractFeedName(url) : extractFeedName(url));
+    sources.push({ id, name: urls.length > 1 ? extractFeedName(url) : (label || extractFeedName(url)), url, category: 'Eigene', color: '#607d8b' });
+    added++;
+  });
+
+  if (!added) { toast('Alle URLs bereits vorhanden', 2000); return; }
+  saveSources();
+  document.getElementById('sourceInput').value = '';
+  document.getElementById('sourceNameInput').value = '';
+  toast(`${added} Quelle(n) hinzugefügt`, 2000);
+  await refreshAll();
+}
+
+function extractFeedName(url) {
+  try {
+    const h = new URL(url).hostname.replace(/^(www|feeds|newsfeed)\./,'');
+    const p = h.split('.')[0];
+    return p.charAt(0).toUpperCase() + p.slice(1);
+  } catch { return 'Feed'; }
+}
+
+// ── REMOVE SOURCE ────────────────────────────────────────
+function removeSource(e, id) {
+  e.stopPropagation();
+  sources      = sources.filter(s => s.id !== id);
+  allArticles  = allArticles.filter(a => a.sourceId !== id);
+  delete articleCountBySource[id];
+  delete sourceErrors[id];
+  if (activeSourceId === id) activeSourceId = 'all';
+  saveSources();
+  renderSourceList();
+  updateCategories();
+  filterArticles();
+  toast('Quelle entfernt', 1500);
+}
+
+function saveSources() {
+  localStorage.setItem('newsdesk_sources', JSON.stringify(sources.filter(s => s.id.startsWith('custom_'))));
+}
+
+function clearCustomSources() {
+  if (!confirm('Alle eigenen Quellen entfernen?')) return;
+  sources     = [...DEFAULT_SOURCES];
+  allArticles = allArticles.filter(a => sources.find(s => s.id === a.sourceId));
+  localStorage.removeItem('newsdesk_sources');
+  renderSourceList(); updateCategories(); filterArticles();
+  toast('Eigene Quellen entfernt', 2000);
+}
+
+// ── CATEGORY RULES ───────────────────────────────────────
+function addCategoryRule() {
+  const name = document.getElementById('catNameInput').value.trim();
+  const kwRaw = document.getElementById('catKeywordsInput').value.trim();
+  if (!name || !kwRaw) { toast('Bitte Kategorie und Keywords eingeben', 2000); return; }
+  const keywords = kwRaw.split(',').map(k => k.trim()).filter(Boolean);
+  if (!keywords.length) { toast('Keine gültigen Keywords', 2000); return; }
+
+  const existing = categoryRules.findIndex(r => r.name.toLowerCase() === name.toLowerCase());
+  if (existing >= 0) {
+    // Merge keywords
+    categoryRules[existing].keywords = [...new Set([...categoryRules[existing].keywords, ...keywords])];
+    toast(`Kategorie "${name}" aktualisiert`, 2000);
+  } else {
+    categoryRules.push({ id: 'cat_' + Date.now(), name, keywords });
+    toast(`Kategorie "${name}" gespeichert`, 2000);
+  }
+
+  localStorage.setItem('newsdesk_catrules', JSON.stringify(categoryRules));
+  document.getElementById('catNameInput').value = '';
+  document.getElementById('catKeywordsInput').value = '';
+  renderCatRules();
+  // Kategorien neu berechnen
+  allArticles = allArticles.map(a => {
+    const src = sources.find(s => s.id === a.sourceId);
+    return { ...a, category: resolveCategory(a, src?.category) };
+  });
+  updateCategories();
+  filterArticles();
+}
+
+function removeCategoryRule(id) {
+  categoryRules = categoryRules.filter(r => r.id !== id);
+  localStorage.setItem('newsdesk_catrules', JSON.stringify(categoryRules));
+  renderCatRules();
+  allArticles = allArticles.map(a => {
+    const src = sources.find(s => s.id === a.sourceId);
+    return { ...a, category: resolveCategory(a, src?.category) };
+  });
+  updateCategories();
+  filterArticles();
+  toast('Kategorie entfernt', 1500);
+}
+
+function renderCatRules() {
+  const el = document.getElementById('catRulesList');
+  if (!categoryRules.length) {
+    el.innerHTML = '<div style="font-size:10px;color:#555;font-family:IBM Plex Mono,monospace;padding:4px 0;">Noch keine Regeln definiert</div>';
+    return;
+  }
+  el.innerHTML = categoryRules.map(r => `
+    <div class="cat-rule">
+      <span class="cat-rule-name">${escHtml(r.name)}</span>
+      <span class="cat-rule-kw" title="${escHtml(r.keywords.join(', '))}">${escHtml(r.keywords.slice(0,4).join(', '))}${r.keywords.length > 4 ? ' …' : ''}</span>
+      <button class="cat-rule-del" onclick="removeCategoryRule('${r.id}')" title="Entfernen">✕</button>
+    </div>`).join('');
+}
+
+// ── HELPERS ──────────────────────────────────────────────
+function formatDate(d) {
+  if (!d || isNaN(d)) return '';
+  const diff = Date.now() - d;
+  if (diff < 3600000)  return `vor ${Math.floor(diff/60000)} Min.`;
+  if (diff < 86400000) return `vor ${Math.floor(diff/3600000)} Std.`;
+  return d.toLocaleDateString('de-DE', { day:'2-digit', month:'2-digit' });
+}
+
+function escHtml(str) {
+  return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function toast(msg, duration=3000, type='') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show' + (type ? ' ' + type : '');
+  clearTimeout(t._to);
+  t._to = setTimeout(() => t.classList.remove('show'), duration);
+}
+
+// ── START ─────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
