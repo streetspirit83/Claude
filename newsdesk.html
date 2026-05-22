@@ -260,23 +260,38 @@ let sourceErrors     = {};
 // Kategorie-Regeln: [{id, name, keywords:[...]}]
 let categoryRules    = [];
 
-const PROXY_ENDPOINT = '/api/rss';
+// ── GOOGLE REDIRECT RESOLVER ──────────────────────────────
+// Google Alerts wraps article links as: google.com/url?...&url=REAL_URL&...
+function resolveGoogleLink(url) {
+  if (!url) return url;
+  try {
+    const u = new URL(url);
+    if ((u.hostname === 'www.google.com' || u.hostname === 'news.google.com') && u.searchParams.has('url')) {
+      return u.searchParams.get('url');
+    }
+  } catch(e) {}
+  return url;
+}
 
-// ── PROXY ─────────────────────────────────────────────────
+// ── PROXY via rss2json (no server needed, works on GitHub Pages) ───
 async function fetchViaProxy(feedUrl) {
-  const res = await fetch(`${PROXY_ENDPOINT}?url=${encodeURIComponent(feedUrl)}`, { signal: AbortSignal.timeout(15000) });
+  const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=25`;
+  const res = await fetch(apiUrl, { signal: AbortSignal.timeout(15000) });
   if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    const msg = err.error || `HTTP ${res.status}`;
-    // Fehlertyp klassifizieren
-    if (res.status === 403 || res.status === 401) throw Object.assign(new Error(msg), { type: 'paywall' });
+    if (res.status === 403 || res.status === 401) throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'paywall' });
     if (res.status === 404) throw Object.assign(new Error('Feed-URL nicht gefunden (404)'), { type: 'notfound' });
     if (res.status === 504) throw Object.assign(new Error('Feed antwortet nicht (Timeout)'), { type: 'timeout' });
-    throw Object.assign(new Error(msg), { type: 'error' });
+    throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'error' });
   }
   const data = await res.json();
-  if (!data.ok) throw Object.assign(new Error(data.error || 'Proxy-Fehler'), { type: 'error' });
-  return data.items;
+  if (data.status !== 'ok') throw Object.assign(new Error(data.message || 'Feed-Fehler'), { type: 'error' });
+  return data.items.map(i => ({
+    title:   i.title,
+    link:    resolveGoogleLink(i.link),
+    desc:    i.description || i.content || '',
+    pubDate: i.pubDate,
+    author:  i.author
+  }));
 }
 
 // ── HTML-STRIP für Alerts ─────────────────────────────────
