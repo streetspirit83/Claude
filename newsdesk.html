@@ -273,18 +273,17 @@ function resolveGoogleLink(url) {
   return url;
 }
 
-// ── PROXY via rss2json (no server needed, works on GitHub Pages) ───
-async function fetchViaProxy(feedUrl) {
+// ── FETCH via rss2json ────────────────────────────────────
+async function fetchViaRss2json(feedUrl) {
   const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&count=25`;
-  const res = await fetch(apiUrl, { signal: AbortSignal.timeout(15000) });
+  const res = await fetch(apiUrl, { signal: AbortSignal.timeout(12000) });
   if (!res.ok) {
     if (res.status === 403 || res.status === 401) throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'paywall' });
     if (res.status === 404) throw Object.assign(new Error('Feed-URL nicht gefunden (404)'), { type: 'notfound' });
-    if (res.status === 504) throw Object.assign(new Error('Feed antwortet nicht (Timeout)'), { type: 'timeout' });
-    throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'error' });
+    throw Object.assign(new Error(`rss2json ${res.status}`), { type: 'error' });
   }
   const data = await res.json();
-  if (data.status !== 'ok') throw Object.assign(new Error(data.message || 'Feed-Fehler'), { type: 'error' });
+  if (data.status !== 'ok') throw Object.assign(new Error(data.message || 'rss2json-Fehler'), { type: 'error' });
   return data.items.map(i => ({
     title:   i.title,
     link:    resolveGoogleLink(i.link),
@@ -292,6 +291,52 @@ async function fetchViaProxy(feedUrl) {
     pubDate: i.pubDate,
     author:  i.author
   }));
+}
+
+// ── FETCH via AllOrigins + DOMParser (fallback) ───────────
+async function fetchViaAllOrigins(feedUrl) {
+  const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(feedUrl)}`;
+  const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(15000) });
+  if (!res.ok) throw Object.assign(new Error(`HTTP ${res.status}`), { type: 'error' });
+  const data = await res.json();
+  if (!data.contents) throw Object.assign(new Error('Leere Antwort'), { type: 'error' });
+
+  const doc = new DOMParser().parseFromString(data.contents, 'text/xml');
+  if (doc.querySelector('parsererror')) throw Object.assign(new Error('XML-Parsefehler'), { type: 'error' });
+
+  const isAtom = !!doc.querySelector('feed');
+  const entries = [...doc.querySelectorAll(isAtom ? 'entry' : 'item')];
+
+  return entries.map(e => {
+    const linkEl = e.getElementsByTagName('link')[0];
+    const link   = (linkEl?.getAttribute('href') || linkEl?.textContent || '').trim();
+    const desc   = e.getElementsByTagName('description')[0]
+                || e.getElementsByTagName('summary')[0]
+                || e.getElementsByTagName('content')[0];
+    const date   = e.getElementsByTagName('pubDate')[0]
+                || e.getElementsByTagName('published')[0]
+                || e.getElementsByTagName('updated')[0];
+    const authorName = e.getElementsByTagName('author')[0]?.getElementsByTagName('name')[0]
+                    || e.getElementsByTagName('author')[0];
+    const dcCreator  = e.getElementsByTagNameNS('http://purl.org/dc/elements/1.1/', 'creator')[0];
+    return {
+      title:   e.getElementsByTagName('title')[0]?.textContent || '',
+      link:    resolveGoogleLink(link),
+      desc:    desc?.textContent || '',
+      pubDate: date?.textContent || '',
+      author:  (authorName || dcCreator)?.textContent || ''
+    };
+  });
+}
+
+// ── PROXY: rss2json first, AllOrigins as fallback ─────────
+async function fetchViaProxy(feedUrl) {
+  try {
+    return await fetchViaRss2json(feedUrl);
+  } catch(e) {
+    if (e.type === 'paywall' || e.type === 'notfound') throw e;
+    return await fetchViaAllOrigins(feedUrl);
+  }
 }
 
 // ── HTML-STRIP für Alerts ─────────────────────────────────
