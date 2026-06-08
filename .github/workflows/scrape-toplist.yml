@@ -32,6 +32,9 @@ jobs:
       - name: Run scraper
         run: python scripts/scrape_toplist.py
 
+      - name: Run SPIEGEL news scraper
+        run: python scripts/scrape_spiegel_news.py
+
       - name: Push results to Netlify Blobs
         env:
           ALTINDEX_INGEST_SECRET: ${{ secrets.ALTINDEX_INGEST_SECRET }}
@@ -50,11 +53,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # Ignore the scraped_at timestamp when deciding if data changed,
           # so we don't create an empty commit on every run.
-          if git diff --quiet -I'"scraped_at"' -- altindex_toplist.json altindex_reddit_mentions.json; then
+          if git diff --quiet -I'"scraped_at"' -- altindex_toplist.json altindex_reddit_mentions.json spiegel_news.json; then
             echo "No data changes — skipping commit."
-            git checkout -- altindex_toplist.json altindex_reddit_mentions.json
+            git checkout -- altindex_toplist.json altindex_reddit_mentions.json spiegel_news.json
           else
-            git add altindex_toplist.json altindex_reddit_mentions.json
-            git commit -m "chore: update AltIndex toplist data [skip ci]"
+            git add altindex_toplist.json altindex_reddit_mentions.json spiegel_news.json
+            git commit -m "chore: update AltIndex toplist + SPIEGEL news data [skip ci]"
             git push
           fi
