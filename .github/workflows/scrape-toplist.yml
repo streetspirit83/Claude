@@ -32,6 +32,15 @@ jobs:
       - name: Run scraper
         run: python scripts/scrape_toplist.py
 
+      - name: Push result to Netlify Blobs
+        env:
+          ALTINDEX_INGEST_SECRET: ${{ secrets.ALTINDEX_INGEST_SECRET }}
+        run: |
+          curl -sS -f -X POST "https://screener-discovery.netlify.app/api/altindex-ingest" \
+            -H "Content-Type: application/json" \
+            -H "x-deploy-secret: ${ALTINDEX_INGEST_SECRET}" \
+            --data-binary @altindex_toplist.json
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
