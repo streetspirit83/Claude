@@ -13,6 +13,12 @@ Strategy (generic, no per-site parsers):
 5. Harmonize every item to {title, teaser, link, source, published}.
 6. Filter to items whose title+teaser match the KEYWORDS regex, tagging each
    with the keywords that matched.
+7. Normalize published dates to ISO-8601 UTC, dedupe across sources
+   (canonical link + title), and sort newest first.
+
+Bot-protected sources (403/429/503 on plain requests) are retried with
+curl_cffi browser impersonation; some additionally have a known feed URL
+pinned in SOURCES since their homepages block all non-browser clients.
 
 Each source is best-effort and isolated — a failing/blocked/paywalled source
 just yields zero items with a recorded status, it never aborts the run.
@@ -23,11 +29,17 @@ import json
 import re
 import sys
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
+
+try:  # Anti-bot fallback: impersonates a real Chrome TLS fingerprint.
+    from curl_cffi import requests as curl_requests
+except ImportError:
+    curl_requests = None
 
 OUTPUT = Path(__file__).resolve().parent.parent / "energy_news.json"
 TIMEOUT = 10
@@ -38,37 +50,41 @@ HEADERS = {
     )
 }
 
+# (name, homepage, pinned feed URL or None). A pinned feed is tried first —
+# needed for sites whose homepage blocks non-browser clients but whose feed
+# endpoint is open.
 SOURCES = [
-    ("energate-messenger", "https://www.energate-messenger.de"),
-    ("energate", "https://www.energate.de"),
-    ("tagesspiegel-background-energie", "https://background.tagesspiegel.de/energie-und-klima"),
-    ("tagesspiegel-energie", "https://www.tagesspiegel.de/themen/energie-und-klima"),
-    ("euractiv-energie", "https://www.euractiv.de/sections/energie-umwelt"),
-    ("cleanenergywire", "https://www.cleanenergywire.org"),
-    ("pv-magazine-de", "https://www.pv-magazine.de"),
-    ("euwid-energie", "https://www.euwid-energie.de"),
-    ("energiezukunft", "https://www.energiezukunft.eu"),
-    ("erneuerbareenergien", "https://www.erneuerbareenergien.de"),
-    ("bdew-news", "https://www.bdew.de/news"),
-    ("dena-newsroom", "https://www.dena.de/newsroom"),
-    ("agora-energiewende-news", "https://www.agora-energiewende.de/news"),
-    ("energynews-pro", "https://www.energynews.pro"),
-    ("montelnews", "https://www.montelnews.com"),
-    ("rechargenews", "https://www.rechargenews.com"),
-    ("offshore-energy", "https://www.offshore-energy.biz"),
-    ("windpowermonthly", "https://www.windpowermonthly.com"),
-    ("energymonitor", "https://www.energymonitor.ai"),
-    ("euronews-green", "https://www.euronews.com/green"),
-    ("politico-energy-climate", "https://www.politico.eu/energy-climate"),
-    ("ft-energy", "https://www.ft.com/energy"),
-    ("reuters-energy", "https://www.reuters.com/business/energy"),
-    ("spglobal-commodityinsights", "https://www.spglobal.com/commodityinsights/en"),
-    ("iea-news", "https://www.iea.org/news"),
-    ("canarymedia", "https://www.canarymedia.com"),
-    ("power-technology", "https://www.power-technology.com"),
-    ("energylivenews", "https://www.energylivenews.com"),
-    ("energy-storage-news", "https://www.energy-storage.news"),
-    ("smart-energy", "https://www.smart-energy.com"),
+    ("energate-messenger", "https://www.energate-messenger.de", None),
+    ("energate", "https://www.energate.de", None),
+    ("tagesspiegel-background-energie", "https://background.tagesspiegel.de/energie-und-klima", None),
+    ("tagesspiegel-energie", "https://www.tagesspiegel.de/themen/energie-und-klima", None),
+    ("euractiv-energie", "https://www.euractiv.de/sections/energie-umwelt", "https://www.euractiv.de/sections/energie-umwelt/feed/"),
+    ("cleanenergywire", "https://www.cleanenergywire.org", None),
+    ("pv-magazine-de", "https://www.pv-magazine.de", None),
+    ("euwid-energie", "https://www.euwid-energie.de", None),
+    ("energiezukunft", "https://www.energiezukunft.eu", None),
+    ("erneuerbareenergien", "https://www.erneuerbareenergien.de", None),
+    ("bdew-news", "https://www.bdew.de/news", None),
+    ("dena-newsroom", "https://www.dena.de/newsroom", None),
+    ("agora-energiewende-news", "https://www.agora-energiewende.de/news", None),
+    ("energynews-pro", "https://www.energynews.pro", None),
+    ("montelnews", "https://www.montelnews.com", None),
+    ("rechargenews", "https://www.rechargenews.com", None),
+    ("offshore-energy", "https://www.offshore-energy.biz", None),
+    ("windpowermonthly", "https://www.windpowermonthly.com", "https://www.windpowermonthly.com/rss"),
+    ("energymonitor", "https://www.energymonitor.ai", None),
+    ("euronews-green", "https://www.euronews.com/green", None),
+    ("politico-energy-climate", "https://www.politico.eu/energy-climate", "https://www.politico.eu/section/energy/feed/"),
+    ("ft-energy", "https://www.ft.com/energy", "https://www.ft.com/energy?format=rss"),
+    ("reuters-energy", "https://www.reuters.com/business/energy", None),
+    ("spglobal-electric-power", "https://www.spglobal.com/commodityinsights/en", "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power"),
+    ("spglobal-energy-transition", "https://www.spglobal.com/commodityinsights/en", "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition"),
+    ("iea-news", "https://www.iea.org/news", None),
+    ("canarymedia", "https://www.canarymedia.com", None),
+    ("power-technology", "https://www.power-technology.com", "https://www.power-technology.com/feed/"),
+    ("energylivenews", "https://www.energylivenews.com", None),
+    ("energy-storage-news", "https://www.energy-storage.news", None),
+    ("smart-energy", "https://www.smart-energy.com", None),
 ]
 
 # Energy-transition / debate topics, German + English. Edit freely — items
@@ -102,10 +118,53 @@ TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"\s+")
 
 
-def fetch(url: str) -> requests.Response:
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    resp.raise_for_status()
-    return resp
+# Status codes that typically mean "bot detected", worth retrying with
+# browser impersonation rather than giving up.
+BLOCKED_STATUS = {401, 403, 406, 429, 503}
+
+
+def fetch(url: str):
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        resp.raise_for_status()
+        return resp
+    except requests.exceptions.HTTPError as exc:
+        status = exc.response.status_code if exc.response is not None else None
+        if curl_requests is None or status not in BLOCKED_STATUS:
+            raise
+        resp = curl_requests.get(url, impersonate="chrome", timeout=TIMEOUT)
+        if resp.status_code >= 400:
+            raise
+        return resp
+
+
+def normalize_date(raw: str | None) -> str | None:
+    """RFC-822 (RSS) or ISO-8601 (Atom) → ISO-8601 UTC, else None."""
+    if not raw:
+        return None
+    raw = raw.strip()
+    dt = None
+    try:
+        dt = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        try:
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc).isoformat(timespec="seconds")
+
+
+def canonical_link(link: str) -> str:
+    """Strip fragment and tracking params so the same article dedupes."""
+    parts = urlsplit(link)
+    query = [
+        (k, v)
+        for k, v in parse_qsl(parts.query, keep_blank_values=True)
+        if not k.lower().startswith("utm_") and k.lower() not in {"fbclid", "gclid", "ref", "cmpid"}
+    ]
+    return urlunsplit((parts.scheme, parts.netloc.lower(), parts.path.rstrip("/"), urlencode(query), ""))
 
 
 def find_feed_url(html: str, base_url: str) -> str | None:
@@ -191,7 +250,21 @@ def html_fallback(html: str, base_url: str, limit: int = 15) -> list[dict]:
     return items
 
 
-def scrape_source(url: str) -> dict:
+def try_feed(candidate: str) -> list[dict]:
+    resp = fetch(candidate)
+    return parse_feed(resp.content)
+
+
+def scrape_source(url: str, pinned_feed: str | None = None) -> dict:
+    # A pinned feed works even when the homepage blocks non-browser clients.
+    if pinned_feed:
+        try:
+            items = try_feed(pinned_feed)
+            if items:
+                return {"status": "ok", "method": "feed", "feed_url": pinned_feed, "items": items}
+        except Exception:
+            pass
+
     try:
         home = fetch(url)
     except requests.exceptions.HTTPError as exc:
@@ -223,8 +296,7 @@ def scrape_source(url: str) -> dict:
         if not candidate:
             continue
         try:
-            resp = fetch(candidate)
-            items = parse_feed(resp.content)
+            items = try_feed(candidate)
         except Exception:
             continue
         if items:
@@ -241,14 +313,23 @@ def main() -> int:
     sources_meta = []
     articles = []
 
-    for name, url in SOURCES:
-        result = scrape_source(url)
+    seen_links: set[str] = set()
+    seen_titles: set[str] = set()
+
+    for name, url, pinned_feed in SOURCES:
+        result = scrape_source(url, pinned_feed)
         kept = 0
         for item in result["items"]:
             haystack = f"{item['title']} {item.get('teaser') or ''}"
             matches = sorted({m.group(0).lower() for m in KEYWORD_RE.finditer(haystack)})
             if not matches:
                 continue
+            link_key = canonical_link(item["link"])
+            title_key = WS_RE.sub(" ", item["title"]).strip().lower()
+            if link_key in seen_links or title_key in seen_titles:
+                continue
+            seen_links.add(link_key)
+            seen_titles.add(title_key)
             kept += 1
             articles.append(
                 {
@@ -256,7 +337,7 @@ def main() -> int:
                     "teaser": item.get("teaser"),
                     "link": item["link"],
                     "source": name,
-                    "published": item.get("published"),
+                    "published": normalize_date(item.get("published")),
                     "matched_keywords": matches,
                 }
             )
@@ -277,6 +358,9 @@ def main() -> int:
             + (f"/{result['method']}" if result.get("method") else "")
             + f" — {len(result['items'])} found, {kept} matched"
         )
+
+    # Newest first; undated items sink to the bottom.
+    articles.sort(key=lambda a: a["published"] or "", reverse=True)
 
     data = {
         "generated_at": now,

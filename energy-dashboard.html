@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Energy News Radar</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@0.441.0/dist/umd/lucide.min.js"></script>
+<style>
+  :root {
+    --bg: #0b1f23;
+    --panel: #102b30;
+    --panel-alt: #163a40;
+    --border: #234850;
+    --text: #eaf6f3;
+    --text-dim: #9fc2c0;
+    --accent: #39ff9c;
+    --accent-2: #ffb84d;
+    --danger: #ff6b6b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; line-height: 1.6;
+    min-height: 100vh;
+  }
+  a { color: var(--accent); }
+
+  /* HEADER */
+  header {
+    background: var(--panel); border-bottom: 1px solid var(--border);
+    padding: 18px 24px; display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .masthead { font-family: 'IBM Plex Mono', monospace; font-size: 1.4rem; font-weight: 600; letter-spacing: -0.5px; display: flex; align-items: center; gap: 8px; }
+  .masthead .accent { color: var(--accent); }
+  .masthead .icon { color: var(--accent-2); }
+  .header-meta { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-dim); text-align: right; }
+  .header-meta .count { color: var(--accent); font-weight: 600; }
+
+  main { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  /* CONTROLS */
+  .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 16px; }
+  .search-input, select.control-select {
+    background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 8px 12px; font-family: 'IBM Plex Sans', sans-serif; font-size: 13px;
+    border-radius: 6px;
+  }
+  .search-input { flex: 1 1 240px; min-width: 200px; }
+  .search-input:focus, select.control-select:focus { outline: none; border-color: var(--accent); }
+  select.control-select { font-family: 'IBM Plex Mono', monospace; font-size: 12px; cursor: pointer; }
+  .btn-reset {
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    background: transparent; border: 1px solid var(--border); color: var(--text-dim);
+    padding: 8px 14px; border-radius: 6px; cursor: pointer; transition: all 0.15s;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .btn-reset:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* KEYWORD CHIPS */
+  .chip-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+  .chip {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; padding: 4px 10px;
+    border: 1px solid var(--border); background: var(--panel); color: var(--text-dim);
+    cursor: pointer; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;
+    transition: all 0.15s; display: inline-flex; align-items: center; gap: 5px;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--text); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #06231a; font-weight: 600; }
+  .chip .chip-count { opacity: 0.7; font-size: 9px; }
+  .chip-toggle {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; padding: 4px 10px;
+    border: 1px dashed var(--border); background: transparent; color: var(--text-dim);
+    cursor: pointer; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .chip-toggle:hover { border-color: var(--accent-2); color: var(--accent-2); }
+
+  /* SOURCE STATUS PANEL */
+  .status-panel {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+    margin-bottom: 24px; overflow: hidden;
+  }
+  .status-header {
+    display: flex; align-items: center; justify-content: space-between; padding: 12px 16px;
+    cursor: pointer; user-select: none;
+  }
+  .status-header-title {
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 1.5px; color: var(--text-dim); display: flex; align-items: center; gap: 8px;
+  }
+  .status-header-title .icon { color: var(--accent-2); }
+  .status-summary { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-dim); display: flex; gap: 14px; }
+  .status-summary .ok { color: var(--accent); }
+  .status-summary .err { color: var(--danger); }
+  .status-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px;
+    padding: 0 16px 16px;
+  }
+  .status-panel.collapsed .status-grid { display: none; }
+  .status-panel.collapsed .chevron { transform: rotate(-90deg); }
+  .chevron { transition: transform 0.15s; color: var(--text-dim); }
+  .source-card {
+    background: var(--panel-alt); border: 1px solid var(--border); border-radius: 6px;
+    padding: 8px 10px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px;
+    display: flex; flex-direction: column; gap: 3px;
+  }
+  .source-card-top { display: flex; align-items: center; gap: 6px; justify-content: space-between; }
+  .source-name { color: var(--text); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .status-dot.ok { background: var(--accent); }
+  .status-dot.empty { background: var(--text-dim); }
+  .status-dot.error { background: var(--danger); }
+  .source-meta { color: var(--text-dim); font-size: 9.5px; }
+
+  /* GRID */
+  .articles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+
+  /* CARD */
+  .card {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px; display: flex; flex-direction: column; transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  }
+  .card:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 6px 20px rgba(57,255,156,0.08); }
+  .card-source {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px; text-transform: uppercase;
+    letter-spacing: 1.5px; color: var(--accent-2); margin-bottom: 8px; display: flex; align-items: center;
+    justify-content: space-between; gap: 8px;
+  }
+  .card-date { color: var(--text-dim); font-size: 10px; white-space: nowrap; }
+  .card-title { font-size: 1rem; font-weight: 600; line-height: 1.35; margin-bottom: 8px; }
+  .card-title a { color: var(--text); text-decoration: none; display: flex; align-items: start; gap: 6px; }
+  .card-title a:hover { color: var(--accent); }
+  .card-title a .icon { flex-shrink: 0; margin-top: 3px; opacity: 0.6; }
+  .card-title a:hover .icon { opacity: 1; }
+  .card-desc {
+    font-size: 12.5px; color: var(--text-dim); line-height: 1.55; flex: 1; margin-bottom: 12px;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+  .tag {
+    font-family: 'IBM Plex Mono', monospace; font-size: 9px; background: var(--panel-alt);
+    color: var(--text-dim); border: 1px solid var(--border); padding: 2px 7px; border-radius: 999px;
+    text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; transition: all 0.15s;
+  }
+  .tag:hover, .tag.active { background: var(--accent); border-color: var(--accent); color: #06231a; font-weight: 600; }
+
+  /* STATES */
+  .state-msg {
+    grid-column: 1 / -1; text-align: center; padding: 60px 20px;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-dim);
+  }
+  .state-msg .big { font-size: 2rem; margin-bottom: 12px; color: var(--accent-2); }
+
+  @media (max-width: 600px) {
+    main { padding: 16px; }
+    .masthead { font-size: 1.1rem; }
+    .header-meta { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="masthead">
+    <i data-lucide="zap" class="icon"></i>
+    Energy News <span class="accent">Radar</span>
+  </div>
+  <div class="header-meta">
+    <div id="generatedAt">Lädt …</div>
+    <div><span class="count" id="articleTotal">0</span> Artikel · <span id="sourceTotal">0</span> Quellen</div>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <input type="text" class="search-input" id="searchInput" placeholder="Suche in Titel & Teaser …" oninput="render()">
+    <select class="control-select" id="sourceSelect" onchange="render()">
+      <option value="">Alle Quellen</option>
+    </select>
+    <select class="control-select" id="rangeSelect" onchange="render()">
+      <option value="">Alle Zeiträume</option>
+      <option value="1">Letzte 24 Std.</option>
+      <option value="7">Letzte 7 Tage</option>
+      <option value="30">Letzte 30 Tage</option>
+    </select>
+    <select class="control-select" id="sortSelect" onchange="render()">
+      <option value="date">Neueste zuerst</option>
+      <option value="source">Nach Quelle</option>
+    </select>
+    <button class="btn-reset" onclick="resetFilters()"><i data-lucide="rotate-ccw" style="width:13px;height:13px;"></i> Reset</button>
+  </div>
+
+  <div class="chip-bar" id="chipBar"></div>
+
+  <div class="status-panel" id="statusPanel">
+    <div class="status-header" onclick="document.getElementById('statusPanel').classList.toggle('collapsed')">
+      <div class="status-header-title">
+        <i data-lucide="activity" class="icon" style="width:14px;height:14px;"></i> Quellen-Status
+      </div>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <div class="status-summary" id="statusSummary"></div>
+        <i data-lucide="chevron-down" class="chevron" style="width:16px;height:16px;"></i>
+      </div>
+    </div>
+    <div class="status-grid" id="statusGrid"></div>
+  </div>
+
+  <div class="articles-grid" id="articlesGrid">
+    <div class="state-msg"><div class="big">◎</div>Lade energy_news.json …</div>
+  </div>
+</main>
+
+<script>
+let DATA = null;
+let activeKeywords = new Set();
+let showAllChips = false;
+const CHIP_LIMIT = 20;
+
+async function init() {
+  try {
+    const res = await fetch('energy_news.json');
+    DATA = await res.json();
+  } catch (e) {
+    document.getElementById('articlesGrid').innerHTML =
+      '<div class="state-msg"><div class="big">⚠</div>energy_news.json konnte nicht geladen werden.</div>';
+    return;
+  }
+
+  document.getElementById('articleTotal').textContent = DATA.count;
+  document.getElementById('sourceTotal').textContent = DATA.sources.length;
+  document.getElementById('generatedAt').textContent =
+    'Stand: ' + new Date(DATA.generated_at).toLocaleString('de-DE', {
+      day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+
+  buildSourceSelect();
+  buildStatusPanel();
+  buildChips();
+  render();
+  lucide.createIcons();
+}
+
+function buildSourceSelect() {
+  const sel = document.getElementById('sourceSelect');
+  DATA.sources
+    .filter(s => s.items_matched > 0)
+    .sort((a, b) => b.items_matched - a.items_matched)
+    .forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s.name;
+      opt.textContent = `${s.name} (${s.items_matched})`;
+      sel.appendChild(opt);
+    });
+}
+
+function buildStatusPanel() {
+  const grid = document.getElementById('statusGrid');
+  let ok = 0, empty = 0, error = 0;
+  grid.innerHTML = DATA.sources.map(s => {
+    let cls = 'empty';
+    if (s.status === 'ok') { cls = 'ok'; ok++; }
+    else if (s.status === 'error') { cls = 'error'; error++; }
+    else { empty++; }
+    const title = s.error ? escHtml(s.error) : '';
+    return `
+      <div class="source-card" title="${title}">
+        <div class="source-card-top">
+          <span class="source-name">${escHtml(s.name)}</span>
+          <span class="status-dot ${cls}"></span>
+        </div>
+        <div class="source-meta">${escHtml(s.method || s.status)} · ${s.items_found} → ${s.items_matched}</div>
+      </div>`;
+  }).join('');
+
+  document.getElementById('statusSummary').innerHTML =
+    `<span class="ok">${ok} ok</span><span>${empty} leer</span><span class="err">${error} fehler</span>`;
+}
+
+function buildChips() {
+  const freq = {};
+  DATA.articles.forEach(a => (a.matched_keywords || []).forEach(k => freq[k] = (freq[k] || 0) + 1));
+  const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]);
+  renderChips(sorted);
+}
+
+function renderChips(sorted) {
+  const bar = document.getElementById('chipBar');
+  const visible = showAllChips ? sorted : sorted.slice(0, CHIP_LIMIT);
+  let html = visible.map(([kw, count]) => `
+    <button class="chip ${activeKeywords.has(kw) ? 'active' : ''}" onclick="toggleKeyword('${escAttr(kw)}')">
+      ${escHtml(kw)} <span class="chip-count">${count}</span>
+    </button>`).join('');
+  if (sorted.length > CHIP_LIMIT) {
+    html += `<button class="chip-toggle" onclick="toggleShowAllChips()">${showAllChips ? 'Weniger anzeigen' : `+${sorted.length - CHIP_LIMIT} mehr`}</button>`;
+  }
+  bar.innerHTML = html;
+  window._allChips = sorted;
+}
+
+function toggleShowAllChips() {
+  showAllChips = !showAllChips;
+  renderChips(window._allChips);
+}
+
+function toggleKeyword(kw) {
+  if (activeKeywords.has(kw)) activeKeywords.delete(kw);
+  else activeKeywords.add(kw);
+  renderChips(window._allChips);
+  render();
+}
+
+function resetFilters() {
+  activeKeywords.clear();
+  document.getElementById('searchInput').value = '';
+  document.getElementById('sourceSelect').value = '';
+  document.getElementById('rangeSelect').value = '';
+  document.getElementById('sortSelect').value = 'date';
+  renderChips(window._allChips);
+  render();
+}
+
+function render() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const sourceFilter = document.getElementById('sourceSelect').value;
+
+  const rangeDays = parseInt(document.getElementById('rangeSelect').value, 10);
+  const sortMode = document.getElementById('sortSelect').value;
+
+  let articles = DATA.articles.slice();
+  if (sourceFilter) articles = articles.filter(a => a.source === sourceFilter);
+  if (rangeDays) {
+    const cutoff = Date.now() - rangeDays * 86400000;
+    articles = articles.filter(a => a.published && new Date(a.published).getTime() >= cutoff);
+  }
+  if (activeKeywords.size) {
+    articles = articles.filter(a => (a.matched_keywords || []).some(k => activeKeywords.has(k)));
+  }
+  if (q) {
+    articles = articles.filter(a =>
+      (a.title && a.title.toLowerCase().includes(q)) ||
+      (a.teaser && a.teaser.toLowerCase().includes(q))
+    );
+  }
+
+  if (sortMode === 'source') {
+    articles.sort((a, b) => a.source.localeCompare(b.source) || (b.published || '').localeCompare(a.published || ''));
+  } else {
+    // Newest first; undated items last.
+    articles.sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+  }
+
+  const grid = document.getElementById('articlesGrid');
+  if (!articles.length) {
+    grid.innerHTML = '<div class="state-msg"><div class="big">○</div>Keine Artikel gefunden.</div>';
+    return;
+  }
+
+  grid.innerHTML = articles.map(a => `
+    <div class="card">
+      <div class="card-source">
+        <span>${escHtml(a.source)}</span>
+        <span class="card-date">${formatDate(a.published)}</span>
+      </div>
+      <div class="card-title">
+        <a href="${escAttr(a.link)}" target="_blank" rel="noopener">
+          <i data-lucide="external-link" class="icon" style="width:14px;height:14px;"></i>
+          <span>${escHtml(a.title)}</span>
+        </a>
+      </div>
+      ${a.teaser ? `<div class="card-desc">${escHtml(a.teaser)}</div>` : ''}
+      <div class="card-tags">
+        ${(a.matched_keywords || []).map(k =>
+          `<span class="tag ${activeKeywords.has(k) ? 'active' : ''}" onclick="toggleKeyword('${escAttr(k)}'); render();">${escHtml(k)}</span>`
+        ).join('')}
+      </div>
+    </div>`).join('');
+
+  lucide.createIcons();
+}
+
+function formatDate(str) {
+  if (!str) return '';
+  const d = new Date(str);
+  if (isNaN(d)) return '';
+  const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
+  if (diffMin >= 0 && diffMin < 60) return `vor ${diffMin} Min.`;
+  if (diffMin >= 0 && diffMin < 1440) return `vor ${Math.round(diffMin / 60)} Std.`;
+  if (diffMin >= 0 && diffMin < 10080) return `vor ${Math.round(diffMin / 1440)} Tg.`;
+  return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function escHtml(str) {
+  return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function escAttr(str) {
+  return escHtml(str).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+}
+
+init();
+</script>
+</body>
+</html>

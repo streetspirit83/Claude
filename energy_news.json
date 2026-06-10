@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:50:18+00:00",
+  "generated_at": "2026-06-10T15:29:10+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 4
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss/",
       "error": null,
       "items_found": 50,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "politico-energy-climate",
@@ -288,14 +288,24 @@
       "items_matched": 0
     },
     {
-      "name": "spglobal-commodityinsights",
+      "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 4
+    },
+    {
+      "name": "spglobal-energy-transition",
+      "url": "https://www.spglobal.com/commodityinsights/en",
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 2
     },
     {
       "name": "iea-news",
@@ -320,12 +330,12 @@
     {
       "name": "power-technology",
       "url": "https://www.power-technology.com",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.power-technology.com/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.power-technology.com/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -358,56 +368,16 @@
       "items_matched": 0
     }
   ],
-  "count": 226,
+  "count": 240,
   "articles": [
     {
-      "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
-      "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
-      "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
-      "source": "cleanenergywire",
-      "published": "Tue, 24 Mar 2026 15:29:11 +0000",
+      "title": "Shell’s new oil discovery adds fuel to Namibia’s black gold rush",
+      "teaser": "Shell Namibia Upstream, a subsidiary of the UK-headquartered energy giant Shell, has found more oil in the Orange Basin off the coast of Namibia. The post Shell&#8217;s new oil discovery adds fuel to Namibia’s black gold rush appeared…",
+      "link": "https://www.offshore-energy.biz/shells-new-oil-discovery-adds-fuel-to-namibias-black-gold-rush/",
+      "source": "offshore-energy",
+      "published": "2026-06-10T14:25:14+00:00",
       "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Climate change meets sport: Wildfire-recovering Los Angeles gears up to host Summer Olympic Games",
-      "teaser": "Climate change meets sport: Wildfire-recovering Los Angeles gears up to host Summer Olympic Games waiyilam Tue, 10 Mar 2026 - 15:38 23 June 2026 at 16.00-17.00 CEST / 15.00-16.00 BST Berlin Everyone Over five billion people are expected to…",
-      "link": "https://www.cleanenergywire.org/webinar/climate-change-meets-sport-wildfire-recovering-los-angeles-gears-host-summer-olympic-games",
-      "source": "cleanenergywire",
-      "published": "Tue, 10 Mar 2026 14:38:55 +0000",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "CLEW Webinar: Staying on track? What's next for climate and energy in Germany and Europe in 2026",
-      "teaser": "CLEW Webinar: Staying on track? What's next for climate and energy in Germany and Europe in 2026 c.kyllmann Tue, 20 Jan 2026 - 17:00 28 January 2026 at 16.00-17.00 CET Berlin Everyone 2026 is shaping up to be a decisive year for climate…",
-      "link": "https://www.cleanenergywire.org/webinar/clew-webinar-staying-track-whats-next-climate-and-energy-germany-and-europe-2026",
-      "source": "cleanenergywire",
-      "published": "Tue, 20 Jan 2026 16:00:08 +0000",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "India–Germany Climate and Energy Journalism Programme",
-      "teaser": "India–Germany Climate and Energy Journalism Programme c.kyllmann Tue, 20 Jan 2026 - 15:53 Deadline to apply: 27 January, 23.59 CET Berlin Journalists based in India and Germany Amid rising geopolitical tensions and the consequences of…",
-      "link": "https://www.cleanenergywire.org/grants/india-germany-climate-and-energy-journalism-programme",
-      "source": "cleanenergywire",
-      "published": "Tue, 20 Jan 2026 14:53:09 +0000",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Zukunft KlimaSozial",
-      "teaser": "Zukunft KlimaSozial c.kyllmann Thu, 8 Jan 2026 - 11:43 Zukunft KlimaSozial Environmental groups Germany Sina Lippmann presse@zukunft-klimasozial.de The think tank aims to feed proposals into the debate and policymaking that integrate…",
-      "link": "https://www.cleanenergywire.org/experts/zukunft-klimasozial",
-      "source": "cleanenergywire",
-      "published": "Thu, 08 Jan 2026 10:43:31 +0000",
-      "matched_keywords": [
-        "klima"
+        "subsid"
       ]
     },
     {
@@ -415,9 +385,82 @@
       "teaser": "Die Bundeswirtschaftsministerin ist sich der Dringlichkeit bei EEG und Netzpaket bewusst. Sie zeigt sich auch offen für Vorschläge zum umstrittenen Redispatch-Vorbehalt. Die Veranstaltung veranschaulichte jedoch erneut auch die Gräben…",
       "link": "https://www.pv-magazine.de/2026/06/10/reiche-auf-bdew-kongress-2026-eeg-und-netzpaket-noch-vor-der-sommerpause-ins-kabinett/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 13:44:44 +0000",
+      "published": "2026-06-10T13:44:44+00:00",
       "matched_keywords": [
         "eeg"
+      ]
+    },
+    {
+      "title": "Countries pledge €3.4bn for climate adaptation, biodiversity protection and water security",
+      "teaser": "Representatives from 186 nations agreed the Global Environment Facility fund, which will support projects in 144 countries.",
+      "link": "http://www.euronews.com/2026/06/10/countries-pledge-34bn-for-climate-adaptation-biodiversity-protection-and-water-security",
+      "source": "euronews-green",
+      "published": "2026-06-10T13:37:59+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Gasum, Naftogaz among those locking in multi-year capacity at Lithuanian LNG hub",
+      "teaser": "Gasum, a Nordic gas sector and energy market player, and Ukraine’s state-owned energy company Naftogaz Group have secured long-term liquefied natural gas (LNG) capacity at Lithuania’s LNG terminal, operated by KN Energies (KN). The post…",
+      "link": "https://www.offshore-energy.biz/gasum-naftogaz-among-those-locking-in-multi-year-capacity-at-lithuanian-lng-hub/",
+      "source": "offshore-energy",
+      "published": "2026-06-10T13:32:46+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Thermal energy storage tech analysis: Rondo, Antora, Malta Inc, MGA, 1414, EnergyNest, Polar Night and Brenmiller",
+      "teaser": "We go through the main movers and shakers commercialising large-scale thermal energy storage technologies today.",
+      "link": "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/",
+      "source": "energy-storage-news",
+      "published": "2026-06-10T13:28:42+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Baku Energy Week highlights a new era of energy connectivity and cooperation",
+      "teaser": "At Baku Energy Week 2026, global leaders and industry experts discussed energy security, diversification, renewables and connectivity, highlighting the growing role of cooperation and innovation in shaping future energy systems.",
+      "link": "http://www.euronews.com/2026/06/10/baku-energy-week-highlights-a-new-era-of-energy-connectivity-and-cooperation",
+      "source": "euronews-green",
+      "published": "2026-06-10T13:00:30+00:00",
+      "matched_keywords": [
+        "energy security",
+        "renewable"
+      ]
+    },
+    {
+      "title": "'Europe should evolve its carbon market, not dilute it,' investors say",
+      "teaser": "A group of investors managing €11.4 trillion in funds are advocating for complementary industrial policies such as grids, electrification and clean tech financing, reflecting a broader shift in European climate policy from setting targets…",
+      "link": "http://www.euronews.com/my-europe/2026/06/10/europe-should-evolve-its-carbon-market-not-dilute-it-investors-say",
+      "source": "euronews-green",
+      "published": "2026-06-10T12:50:37+00:00",
+      "matched_keywords": [
+        "climate policy"
+      ]
+    },
+    {
+      "title": "Eurowind Energy Romania décroche les permis du parc hybride Siminoc de 49,6 MW",
+      "teaser": "Eurowind Energy Romania a obtenu les permis de construire pour le projet Siminoc, premier parc hybride éolien-solaire de la société dans le comté de Constanța, pour un investissement estimé à 65 millions d'euros.",
+      "link": "https://energynews.pro/eurowind-energy-romania-decroche-les-permis-du-parc-hybride-siminoc-de-496-mw",
+      "source": "energynews-pro",
+      "published": "2026-06-10T12:41:04+00:00",
+      "matched_keywords": [
+        "wind energy"
+      ]
+    },
+    {
+      "title": "European Commission lays out core priorities for ETS July review",
+      "teaser": "The European Commission has laid out its key priorities for the upcoming review of the Emissions Trading System, eyeing a predictable carbon price, strengthening investment and ensuring an even playing field for sectors covered by the…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/061026-european-commission-lays-out-core-priorities-for-ets-july-review",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-10T12:13:25+00:00",
+      "matched_keywords": [
+        "carbon price",
+        "emissions trading",
+        "ets"
       ]
     },
     {
@@ -425,9 +468,31 @@
       "teaser": "Evonik hat in Marl die Produktion von Anionenaustauschmembranen für Elektrolyseure im industriellen Maßstab gestartet. Die Technologie soll die Herstellung von grünem Wasserstoff kostengünstiger machen und sich besonders für den flexiblen…",
       "link": "https://www.pv-magazine.de/2026/06/10/evonik-startet-produktion-von-aem-membranen-fuer-elektrolyseure/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 11:30:00 +0000",
+      "published": "2026-06-10T11:30:00+00:00",
       "matched_keywords": [
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "Germany’s energy network awaits September to ignite next LNG link in FSRU chain",
+      "teaser": "Germany’s Deutsche Energy Terminal (DET), part of the German Federal Ministry for Economic Affairs and Climate Action and a state-owned operator of four liquefied natural gas (LNG) terminals, has revealed the timeline for the commissioning…",
+      "link": "https://www.offshore-energy.biz/germanys-energy-network-awaits-september-to-ignite-next-lng-link-in-fsru-chain/",
+      "source": "offshore-energy",
+      "published": "2026-06-10T11:21:54+00:00",
+      "matched_keywords": [
+        "climate",
+        "lng"
+      ]
+    },
+    {
+      "title": "Defying Russia: Poland and Germany plan massive offshore wind farms in the Baltic Sea",
+      "teaser": "Despite hybrid attacks from Russia, Poland is betting on offshore wind power from the Baltic Sea. At a forum in Berlin, one message was clear: the region could become Europe’s next major energy hub. Will Europe seize this opportunity?",
+      "link": "http://www.euronews.com/my-europe/2026/06/10/defying-russia-poland-and-germany-plan-massive-offshore-wind-farms-in-the-baltic-sea",
+      "source": "euronews-green",
+      "published": "2026-06-10T11:16:02+00:00",
+      "matched_keywords": [
+        "wind farm",
+        "wind power"
       ]
     },
     {
@@ -435,10 +500,62 @@
       "teaser": "Der Verband zählt inzwischen mehr als 1.200 Tage seit der ersten Ankündigung des Erneuerbaren-Ausbau-Beschleunigungsgesetzes und fordert von Bundesregierung, Parlamentsparteien und Ländern ein Ende ihrer Blockadehaltung.",
       "link": "https://www.pv-magazine.de/2026/06/10/pv-austria-appelliert-erneut-erneuerbaren-ausbauziele-in-oesterreich-muessen-erhoeht-werden/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 10:26:46 +0000",
+      "published": "2026-06-10T10:26:46+00:00",
       "matched_keywords": [
         "erneuerbare",
         "pv"
+      ]
+    },
+    {
+      "title": "Chile’s president attends inauguration of 3.5GWh BESS at Grenergy’s Oasis de Atacama solar-plus-storage complex",
+      "teaser": "The president of Chile, José Antonio Kast Rist, was in attendance as IPP Grenergy inaugurated a 3.5GWh battery energy storage system (BESS).",
+      "link": "https://www.energy-storage.news/chiles-president-attends-inauguration-of-3-5gwh-bess-at-grenergys-oasis-de-atacama-solar-plus-storage-complex/",
+      "source": "energy-storage-news",
+      "published": "2026-06-10T10:23:06+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "General Motors plots sodium-ion tech leapfrog into grid-scale energy storage market",
+      "teaser": "General Motors (GM) has partnered with sodium-ion (Na-ion) battery storage startup Peak Energy to target the grid-scale energy storage market.",
+      "link": "https://www.energy-storage.news/general-motors-plots-sodium-ion-tech-leapfrog-into-grid-scale-energy-storage-market/",
+      "source": "energy-storage-news",
+      "published": "2026-06-10T10:22:33+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Mitsubishi HC Capital, Brookfield to create renewable company",
+      "teaser": "Mitsubishi HC Capital and Brookfield have announced an agreement to establish a jointly controlled renewable energy company.",
+      "link": "https://www.power-technology.com/news/mitsubishi-brookfield-create-renewable-company/",
+      "source": "power-technology",
+      "published": "2026-06-10T10:03:02+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Air Liquide déploie une unité pilote Cryocap pour décarboner le ciment",
+      "teaser": "Air Liquide déploie sa première unité pilote industrielle Cryocap™ FG pour le secteur du ciment au sein du CaptureLab de Holcim en France, une technologie visant à capter plus de 95 % du CO2 issu des fumées industrielles.",
+      "link": "https://energynews.pro/air-liquide-deploie-une-unite-pilote-cryocap-pour-decarboner-le-ciment",
+      "source": "energynews-pro",
+      "published": "2026-06-10T10:00:06+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
+    {
+      "title": "Germany Roundup: ‘First fully merchant financing’, 180MWh M&A, analytics deal on 282MWh project",
+      "teaser": "A trio of notable Germany announcements: Aquila Clean Energy EMEA has financed a merchant project, Chint Solar has sold a portfolio to Second Foundation while Twaice will provide analytics on behalf of BayWa r.e..",
+      "link": "https://www.energy-storage.news/germany-roundup-first-fully-merchant-financing-180mwh-ma-analytics-deal-on-282mwh-project/",
+      "source": "energy-storage-news",
+      "published": "2026-06-10T09:59:13+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -446,9 +563,30 @@
       "teaser": "Einer Analyse von Wood Mackenzie zufolge wurden Solar-tracker für 134 Gigawatt Leistung ausgeliefert, das entspricht 20 Prozent des gesamten Photovoltaik-Weltmarktes. Hiervon wiederum ging ein knappes Fünftel nach europa. Das…",
       "link": "https://www.pv-magazine.de/2026/06/10/weltmarkt-fuer-photovoltaik-nachfuehrsysteme-wuchs-2025-um-19-prozent/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 09:27:00 +0000",
+      "published": "2026-06-10T09:27:00+00:00",
       "matched_keywords": [
         "photovoltaik",
+        "solar"
+      ]
+    },
+    {
+      "title": "Greensketch künftig auch in Deutschland aktiv",
+      "teaser": "Nach dem Start im März in Australien bietet die KI-basierte End-to-End-Photovoltaik-Plattform ihre Dienste künftig auch Installateuren in Deutschland an. Zuvor hat das Unternehmen systematisch den finanziellen Wert aller Dachflächen auf…",
+      "link": "https://www.pv-magazine.de/2026/06/10/greensketch-kuenftig-auch-in-deutschland-aktiv/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-10T09:10:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "‘Coal power has lost its status’: Solar power outstrips coal in US despite Trump's attacks",
+      "teaser": "States won by Trump in the 2024 election accounted for 74 per cent of all solar capacity installed in the first quarter of 2026.",
+      "link": "http://www.euronews.com/2026/06/10/coal-power-has-lost-its-status-solar-power-outstrips-coal-in-us-despite-trumps-attacks",
+      "source": "euronews-green",
+      "published": "2026-06-10T09:06:25+00:00",
+      "matched_keywords": [
+        "coal power",
         "solar"
       ]
     },
@@ -457,7 +595,7 @@
       "teaser": "Digitale Zwillinge und Datenräume können die Anmeldung von Photovoltaik-Anlagen deutlich beschleunigen, Netzprozesse effizienter machen und sicheren Datenaustausch ermöglichen. Das Projekt „idFlexNetz“ zeigt, wie Digitalisierung im…",
       "link": "https://www.pv-magazine.de/2026/06/10/weniger-buerokratie-schnellere-netzanschluesse-digitale-zwillinge-fuer-die-photovoltaik-praxis/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 09:05:00 +0000",
+      "published": "2026-06-10T09:05:00+00:00",
       "matched_keywords": [
         "photovoltaik"
       ]
@@ -467,50 +605,49 @@
       "teaser": "JA wird auf der The smarter E seine neuen Groß- und Gewerbespeicher ausstellen. Zudem werden die weiterentwickelten N-Type-Topcon-Solarmodule der „DeepBlue“-Serie zu sehen sein.",
       "link": "https://www.pv-magazine.de/2026/06/10/sponsored-ja-praesentiert-neuen-grossspeicher-und-die-neueste-generation-topcon-module-auf-der-intersolar-2026/",
       "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 09:00:00 +0000",
+      "published": "2026-06-10T09:00:00+00:00",
       "matched_keywords": [
         "speicher"
       ]
     },
     {
-      "title": "Greensketch künftig auch in Deutschland aktiv",
-      "teaser": "Nach dem Start im März in Australien bietet die KI-basierte End-to-End-Photovoltaik-Plattform ihre Dienste künftig auch Installateuren in Deutschland an. Zuvor hat das Unternehmen systematisch den finanziellen Wert aller Dachflächen auf…",
-      "link": "https://www.pv-magazine.de/2026/06/10/greensketch-kuenftig-auch-in-deutschland-aktiv/",
-      "source": "pv-magazine-de",
-      "published": "Wed, 10 Jun 2026 07:32:00 +0000",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "30 Jahre Amortisationszeit: Studie warnt vor EEG2027-Referentenentwurf",
-      "teaser": "Die Branche hatte bereits Kritik geäußert – nun liegen erste Berechnungen vor. Nach einer Studie von Aquu könnten die im Referentenentwurf zum EEG 2027 vorgesehenen Regelungen zu deutlich längeren Amortisationszeiten führen und den Ausbau…",
-      "link": "https://www.pv-magazine.de/2026/06/09/30-jahre-amortisationszeit-studie-warnt-vor-eeg2027-referentenentwurf/",
-      "source": "pv-magazine-de",
-      "published": "Tue, 09 Jun 2026 15:53:56 +0000",
-      "matched_keywords": [
-        "eeg"
-      ]
-    },
-    {
-      "title": "Indielux startet neues Crowdinvesting",
-      "teaser": "Mit der Finanzierungsrunde sollen bis zu 800.000 Euro eingesammelt werden, um die eigene Sicherheitstechnologie für Stecker-Solar-Geräte weiterzuentwickeln und einen Standard in der Branche zu setzen. Einen ersten gewerblichen Lizenznehmer…",
-      "link": "https://www.pv-magazine.de/2026/06/09/indielux-startet-neues-crowdinvesting/",
-      "source": "pv-magazine-de",
-      "published": "Tue, 09 Jun 2026 12:42:53 +0000",
+      "title": "Trinasolar et Ecohope Solar signent un accord de distribution de 600 MW",
+      "teaser": "Trinasolar et Ecohope Solar ont signé un protocole d'accord portant sur la distribution de 600 MW de modules solaires Vertex G3 en Asie du Sud-Est, au Moyen-Orient et en Afrique sur trois ans.",
+      "link": "https://energynews.pro/trinasolar-et-ecohope-solar-signent-un-accord-de-distribution-de-600-mw",
+      "source": "energynews-pro",
+      "published": "2026-06-10T08:47:03+00:00",
       "matched_keywords": [
         "solar"
       ]
     },
     {
-      "title": "Stromnetze, Wärmeversorgung, erneuerbare Energien: Stadtwerke erwarten „historischen Investitionshochlauf“",
-      "teaser": "Die BEW-Stadtwerkestudie 2026 nennt den hohen Investitionsbedarf in einem gleichzeitig schwierigen Finanzierungsumfeld als zentrales Problem. Ein Viertel der befragten Unternehmen erwartet einen um 200 Prozent oder mehr steigenden…",
-      "link": "https://www.pv-magazine.de/2026/06/09/stromnetze-waermeversorgung-erneuerbare-energien-stadtwerke-erwarten-historischen-investitionshochlauf/",
-      "source": "pv-magazine-de",
-      "published": "Tue, 09 Jun 2026 11:46:42 +0000",
+      "title": "Petrobras coming aboard Equinor’s exploration block in Brazilian waters",
+      "teaser": "Brazilian state-owned energy giant Petrobras has decided to join Equinor Brasil Energia, a subsidiary of Norway’s state-owned energy giant Equinor, in an offshore block located in the Campos Basin off the coast of Brazil. The post…",
+      "link": "https://www.offshore-energy.biz/petrobras-coming-aboard-equinors-exploration-block-in-brazilian-waters/",
+      "source": "offshore-energy",
+      "published": "2026-06-10T08:17:56+00:00",
       "matched_keywords": [
-        "erneuerbare",
-        "stromnetz"
+        "subsid"
+      ]
+    },
+    {
+      "title": "Plenitude starts production at second 200MW Renopool PV project",
+      "teaser": "Plenitude, a company controlled by Eni, has begun production from the second 200MW section of its Renopool photovoltaic (PV) project, situated in Solana de los Barros, Badajoz, in Spain’s Extremadura region.",
+      "link": "https://www.power-technology.com/news/plenitude-production-second-200mw-renopool-project/",
+      "source": "power-technology",
+      "published": "2026-06-10T07:21:53+00:00",
+      "matched_keywords": [
+        "pv"
+      ]
+    },
+    {
+      "title": "La Norvège remet en cause sa subvention de 3,7 milliards pour l'éolien flottant",
+      "teaser": "Le parlement norvégien a voté la révision d'une enveloppe de 35 milliards de couronnes (3,70 milliards de dollars) destinée au premier parc éolien flottant commercial du pays, fragilisant les plans de deux consortiums internationaux.",
+      "link": "https://energynews.pro/la-norvege-remet-en-cause-sa-subvention-de-37-milliards-pour-leolien-flottant",
+      "source": "energynews-pro",
+      "published": "2026-06-10T06:00:20+00:00",
+      "matched_keywords": [
+        "subvention"
       ]
     },
     {
@@ -518,7 +655,7 @@
       "teaser": "Langstreckenflüge von Europa aus sind vom Emissionshandel weiterhin ausgenommen. Eine neue Analyse zeigt das Ausmaß an entgangenen Kosten und klimaschädlichen Wirkung.",
       "link": "https://www.energiezukunft.eu/mobilitaet/zwei-drittel-aller-europaeischen-flugemissionen-haben-weiterhin-keinen-co2-preis",
       "source": "energiezukunft",
-      "published": "Wed, 10 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-10T05:00:00+00:00",
       "matched_keywords": [
         "co2-preis",
         "emission",
@@ -526,11 +663,177 @@
       ]
     },
     {
+      "title": "Gamuda Renewables acquires interest in 1.8GWh solar-plus-storage site in Victoria, Australia",
+      "teaser": "Gamuda Renewables has secured an interest in the 1,800MWh Hazelwood North solar-plus-storage project in Victoria, Australia.",
+      "link": "https://www.energy-storage.news/gamuda-renewables-acquires-interest-in-1-8gwh-solar-plus-storage-site-in-victoria-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-06-10T01:59:22+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "New Qcells plant doubles current US capacity to make solar cells",
+      "teaser": "Qcells has officially begun commercial production of silicon solar cells at its factory in Cartersville, Georgia, the company said Tuesday. That factory is the largest of its kind in the country — and a long-awaited boost to the U.S. solar…",
+      "link": "https://www.canarymedia.com/articles/solar/qcells-solar-plant-double-capacity",
+      "source": "canarymedia",
+      "published": "2026-06-09T19:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "30 Jahre Amortisationszeit: Studie warnt vor EEG2027-Referentenentwurf",
+      "teaser": "Die Branche hatte bereits Kritik geäußert – nun liegen erste Berechnungen vor. Nach einer Studie von Aquu könnten die im Referentenentwurf zum EEG 2027 vorgesehenen Regelungen zu deutlich längeren Amortisationszeiten führen und den Ausbau…",
+      "link": "https://www.pv-magazine.de/2026/06/09/30-jahre-amortisationszeit-studie-warnt-vor-eeg2027-referentenentwurf/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-09T15:53:56+00:00",
+      "matched_keywords": [
+        "eeg"
+      ]
+    },
+    {
+      "title": "Zelestra, Meta sign PPA for 180MWdc Palmera Solar Plant",
+      "teaser": "Zelestra has signed a new power purchase agreement (PPA) with Meta for the 180MW direct current (MWdc) Palmera Solar Plant located in Freestone County, Texas, US.",
+      "link": "https://www.power-technology.com/news/zelestra-meta-ppa-180mwdc-palmera-solar/",
+      "source": "power-technology",
+      "published": "2026-06-09T13:26:29+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "German BESS market has moved beyond peak hype",
+      "teaser": "“The word tsunami describes very well the hype that was in Germany,” said Cristina Yandiola at this week’s Energy Storage Summit.",
+      "link": "https://www.energy-storage.news/german-bess-market-moved-beyond-peak-tsunami-hype/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T13:22:18+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Technip Energies, Airbus, Safran form eSAF venture at Dunkirk",
+      "teaser": "A consortium of industrial leaders has formed a joint venture to develop one of Europe&apos;s largest alcohol-to-jet facilities, aiming to help meet rapidly rising EU mandates and contribute to energy security. Technip Energies, Airbus,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/060926-technip-energies-airbus-safran-form-esaf-venture-at-dunkirk",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-09T12:53:06+00:00",
+      "matched_keywords": [
+        "energy security"
+      ]
+    },
+    {
+      "title": "Indielux startet neues Crowdinvesting",
+      "teaser": "Mit der Finanzierungsrunde sollen bis zu 800.000 Euro eingesammelt werden, um die eigene Sicherheitstechnologie für Stecker-Solar-Geräte weiterzuentwickeln und einen Standard in der Branche zu setzen. Einen ersten gewerblichen Lizenznehmer…",
+      "link": "https://www.pv-magazine.de/2026/06/09/indielux-startet-neues-crowdinvesting/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-09T12:42:53+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Energy storage ‘needs to last longer as heatwaves and data centres strain infrastructure’",
+      "teaser": "ESN Premium speaks with Dr Thomas Sisto, of flow battery developer XL Batteries, about using LDES to combat grid strain from heatwaves and data centres.",
+      "link": "https://www.energy-storage.news/energy-storage-needs-to-last-longer-as-heatwaves-and-data-centres-strain-infrastructure/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T12:10:53+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Stromnetze, Wärmeversorgung, erneuerbare Energien: Stadtwerke erwarten „historischen Investitionshochlauf“",
+      "teaser": "Die BEW-Stadtwerkestudie 2026 nennt den hohen Investitionsbedarf in einem gleichzeitig schwierigen Finanzierungsumfeld als zentrales Problem. Ein Viertel der befragten Unternehmen erwartet einen um 200 Prozent oder mehr steigenden…",
+      "link": "https://www.pv-magazine.de/2026/06/09/stromnetze-waermeversorgung-erneuerbare-energien-stadtwerke-erwarten-historischen-investitionshochlauf/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-09T11:46:42+00:00",
+      "matched_keywords": [
+        "erneuerbare",
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "‘Critical’ for Germany’s capacity market design to enable battery storage participation",
+      "teaser": "The upcoming German capacity market must be designed in such a way that enables BESS to generate revenue, according to industry experts.",
+      "link": "https://www.energy-storage.news/capacity-market-design-critical-facilitating-bess-involvement-german-market/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T11:41:13+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Policy clarity on FCAs, grid fees needed to realise the potential of German BESS",
+      "teaser": "Greater clarity in both government policy and market mechanisms could be essential if the German BESS industry is to realise its potential.",
+      "link": "https://www.energy-storage.news/policy-and-fca-clarity-needed-realise-potential-german-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T10:45:01+00:00",
+      "matched_keywords": [
+        "grid fee"
+      ]
+    },
+    {
+      "title": "TOYO to invest $357m in HJT solar cell manufacturing plant in Texas",
+      "teaser": "TOYO has detailed plans to establish a 1.5GW HJT solar cell manufacturing facility in the Houston metropolitan area, Texas, US.",
+      "link": "https://www.power-technology.com/news/toyo-invest-hjt-solar-plant/",
+      "source": "power-technology",
+      "published": "2026-06-09T09:51:57+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "SNEC 2026: Energy storage launches and tech spec reveals at China’s biggest clean energy trade show",
+      "teaser": "The solar PV and energy storage expo SNEC 2026 in Shanghai, China, was the place to see product launches and showcases from the big players.",
+      "link": "https://www.energy-storage.news/snec-2026-energy-storage-launches-and-tech-spec-reveals-at-chinas-biggest-clean-energy-trade-show/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T08:43:40+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "pv",
+        "solar"
+      ]
+    },
+    {
+      "title": "North Carolina bill would prop up coal until new nuclear is approved",
+      "teaser": "North Carolina’s Republican-led House of Representatives passed a sweeping energy bill last week called the Ratepayer Protection Act, with backers saying it would reduce energy costs for families across the state. But Democrats and other…",
+      "link": "https://www.canarymedia.com/articles/fossil-fuels/north-carolina-bill-coal-nuclear",
+      "source": "canarymedia",
+      "published": "2026-06-09T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "EU clears $26.5bn of Italian State aid to boost renewable power capacity",
+      "teaser": "The EC has authorised a €23bn ($26.5bn) State aid scheme from Italy intended to increase electricity generation from renewable energy sources.",
+      "link": "https://www.energymonitor.ai/news/eu-clears-italian-state-aid/",
+      "source": "energymonitor",
+      "published": "2026-06-09T07:13:37+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "CATL to supply 2,400MWh of battery storage for Edify Energy’s Australian hybrid projects",
+      "teaser": "Chinese battery manufacturer CATL will supply 2,400MWh of battery energy storage systems (BESS) for Edify Energy's Smoky Creek and Guthrie's Gap Solar Power Stations in central Queensland.",
+      "link": "https://www.energy-storage.news/catl-to-supply-2400mwh-of-battery-storage-for-edify-energys-australian-hybrid-projects/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T05:29:27+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
       "title": "Perlenkette der Energiewende",
       "teaser": "Ein Hotelturm mit Solarfassade, ein Wohngebiet, das fast vollständig regenerativ versorgt wird, ein reaktiviertes Wasserkraftwerk: Am westlichen Bodensee finden Radfahrer Freizeitspaß – und mit einer App auch den Weg zu tollen…",
       "link": "https://www.energiezukunft.eu/mobilitaet/perlenkette-der-energiewende",
       "source": "energiezukunft",
-      "published": "Tue, 09 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-09T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
       ]
@@ -540,9 +843,155 @@
       "teaser": "Mit über 900 Milliarden US-Dollar haben Banken weltweit im vergangenen Jahr fossile Geschäfte unterstützt. Dem Klimaschutz Hoffnung geben hingegen einige europäische Banken. Deutsche aber sind nicht darunter.",
       "link": "https://www.energiezukunft.eu/wirtschaft/europaeische-banken-gehen-beim-ausschluss-fossiler-finanzierungen-voran-deutsche-ausgenommen",
       "source": "energiezukunft",
-      "published": "Tue, 09 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-09T05:00:00+00:00",
       "matched_keywords": [
         "klimaschutz"
+      ]
+    },
+    {
+      "title": "Eku Energy submits 10-hour duration Griffith BESS to Australia’s EPBC Act",
+      "teaser": "Eku Energy has submitted its 1,000MWh Griffith battery energy storage system (BESS) for environmental assessment under Australia's EPBC Act.",
+      "link": "https://www.energy-storage.news/eku-energy-submits-10-hour-duration-griffith-bess-to-australias-epbc-act/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T02:00:06+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Ark Energy’s 3.1GWh solar-plus-storage site in Australia bags AEMO grid connection",
+      "teaser": "Ark Energy has received approval from AEMO and Transgrid to connect its 3,148MWh Richmond Valley solar-plus-storage site to the NEM.",
+      "link": "https://www.energy-storage.news/ark-energys-3-1gwh-solar-plus-storage-site-in-australia-bags-aemo-grid-connection/",
+      "source": "energy-storage-news",
+      "published": "2026-06-09T01:55:04+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Federal subsidies for coal plants may not save struggling sector, analysts say",
+      "teaser": "With hundreds of millions of dollars in additional federal subsidies recently announced for coal-fired power plants across the US, questions remain over whether the funding will move the needle for a sector that continues to lose ground to…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-federal-subsidies-for-coal-plants-may-not-save-struggling-sector-analysts-say",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-08T20:18:39+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "INTERVIEW: Xcel Energy&apos;s renewables-rich footprint is primed for hyperscalers, CEO says",
+      "teaser": "Xcel Energy Inc. sees itself as uniquely positioned to continue leading on US power-sector emission reductions while accommodating a surge in demand from large-load customers such as data centers, Bob Frenzel, the company&apos;s chairman,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-interview-xcel-energys-renewables-rich-footprint-is-primed-for-hyperscalers-ceo-says",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-08T15:29:55+00:00",
+      "matched_keywords": [
+        "emission",
+        "renewable"
+      ]
+    },
+    {
+      "title": "CIP to sell minority stake in 500MW Devilla battery project",
+      "teaser": "Copenhagen Infrastructure Partners (CIP), on behalf of Copenhagen Infrastructure IV, has agreed to sell minority stakes in the 500MW Devilla battery storage project to the Scottish National Investment Bank and the Nuclear Liabilities Fund.",
+      "link": "https://www.power-technology.com/news/cip-sell-minority-stake-devilla-battery-project/",
+      "source": "power-technology",
+      "published": "2026-06-08T12:55:26+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges",
+      "teaser": "New report shows small businesses leading renewable uptake, with solar, PPAs and flexible energy models gaining momentum The post Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges appeared first on…",
+      "link": "https://www.energylivenews.com/2026/06/08/irish-smes-emerging-as-key-force-in-irelands-energy-transition-as-solar-adoption-surges/",
+      "source": "energylivenews",
+      "published": "2026-06-08T12:00:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Oman issues Marsa solar IPP consultancy tender",
+      "teaser": "Nama Power & Water Procurement Company invited bids for a contract to supervise the construction of the Marsa solar power project.",
+      "link": "https://www.energymonitor.ai/news/oman-issues-marsa-solar-ipp-consultancy-tender/",
+      "source": "energymonitor",
+      "published": "2026-06-08T11:49:13+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "esVolta closes US$450 million expanded credit facility to expand US BESS portfolio",
+      "teaser": "California-headquartered developer esVolta has closed an expanded corporate credit facility providing up to US$450 million of capital to expand new utility-scale energy storage projects in the US.",
+      "link": "https://www.energy-storage.news/esvolta-closes-us450-million-expanded-credit-facility-to-expand-us-bess-portfolio/",
+      "source": "energy-storage-news",
+      "published": "2026-06-08T11:34:49+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Fishy tales could set back Hinkley even more",
+      "teaser": "Trade body warns extra environmental objections could further delay the giant nuclear plant The post Fishy tales could set back Hinkley even more appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/06/08/fishy-tales-could-set-back-hinkley-even-more/",
+      "source": "energylivenews",
+      "published": "2026-06-08T11:00:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Data centre developer DayOne signs solar and BESS PPAs in Malaysia with TNB subsidiaries",
+      "teaser": "Data centre developer DayOne has signed agreements through Malaysia’s government-launched Corporate Renewable Energy Supply Scheme (CRESS).",
+      "link": "https://www.energy-storage.news/data-centre-developer-dayone-signs-solar-and-bess-ppas-in-malaysia-with-tnb-subsidiaries/",
+      "source": "energy-storage-news",
+      "published": "2026-06-08T10:46:38+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "subsid"
+      ]
+    },
+    {
+      "title": "Safety fears raised over plug-in solar",
+      "teaser": "The electrical industry says cheap plug-in kits need to be treated with caution over the risk of fire The post Safety fears raised over plug-in solar appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/06/08/safety-fears-raised-over-plug-in-solar/",
+      "source": "energylivenews",
+      "published": "2026-06-08T10:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Want a deal on a heat pump? Team up with your neighbors.",
+      "teaser": "Last year, Marie Tai needed a better way to keep her condo cool. Her window air-conditioning units were borderline ineffective, even running at full blast. Summers have been getting more intense in Tai’s Boston neighborhood because of a…",
+      "link": "https://www.canarymedia.com/articles/heat-pumps/heat-pump-deal-neighbors",
+      "source": "canarymedia",
+      "published": "2026-06-08T07:30:00+00:00",
+      "matched_keywords": [
+        "heat pump"
+      ]
+    },
+    {
+      "title": "Ark Energy’s Richmond Valley project approved for grid connection",
+      "teaser": "Ark Energy has received approval to connect its Richmond Valley Solar Farm and BESS in NSW, to the National Electricity Market (NEM).",
+      "link": "https://www.energymonitor.ai/news/richmond-valley-approval-grid-connection/",
+      "source": "energymonitor",
+      "published": "2026-06-08T07:29:19+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Where does balcony solar stand in your state?",
+      "teaser": "This article was originally published on April 6, 2026, and last updated on June 8, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
+      "link": "https://www.canarymedia.com/articles/solar/states-passing-balcony-solar-laws",
+      "source": "canarymedia",
+      "published": "2026-06-08T07:00:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -550,7 +999,7 @@
       "teaser": "Die klimafreundlichste Wohnung ist oft die, die nicht neu gebaut werden muss. Warum wir neben der Energiewende dringend eine Wohnwende brauchen – und was das mit einem freien Zimmer im Nachbarhaus zu tun hat.",
       "link": "https://www.energiezukunft.eu/umweltschutz/wohnwende-ist-klimaschutz-warum-wir-ueber-das-leere-zimmer-reden-muessen",
       "source": "energiezukunft",
-      "published": "Mon, 08 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-08T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "klima",
@@ -558,13 +1007,124 @@
       ]
     },
     {
+      "title": "INTERVIEW: Australia&apos;s NH3 Clean Energy targeting WAH2 project FID by year-end: chairman",
+      "teaser": "Australia&apos;s NH3 Clean Energy aims to take a final investment decision on its WAH2 project by year-end, with commercial ammonia-bunkering operations set to start in 2030, aiding the use of cleaner fuels to accelerate decarbonization,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/060526-interview-australias-nh3-clean-energy-targeting-wah2-project-fid-by-year-end-chairman",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-05T10:31:27+00:00",
+      "matched_keywords": [
+        "decarbon"
+      ]
+    },
+    {
+      "title": "Rolls-Royce to build four BESS facilities for Sunly in Latvia",
+      "teaser": "Rolls-Royce Power Systems and Sunly have formalised contracts for the construction of four large-scale battery storage facilities in Latvia.",
+      "link": "https://www.energymonitor.ai/news/rolls-royce-sunly-bess-latvia/",
+      "source": "energymonitor",
+      "published": "2026-06-05T10:05:07+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "EDF and Masdar enter 15-year PPAs for 160MWh hybrid California BESS",
+      "teaser": "Developer EDF power solutions North America and developer-operator Abu Dhabi Future Energy Company – Masdar, have entered into 15-year power purchase agreements (PPAs) for a California, US solar-plus-storage project.",
+      "link": "https://www.energy-storage.news/edf-and-masdar-enter-15-year-ppas-for-160mwh-hybrid-california-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-06-05T09:09:35+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Wie geht es weiter mit dem Naturschutz in der Energiewende?",
       "teaser": "Das vierte KNE-Netzwerktreffen in Berlin brachte Kommunen, Naturschutz und Energiewirtschaft zusammen. Trotz unklarer Kursänderungen der Bundesregierung zeigten die Akteure Schwung für eine naturverträgliche Energiewende.",
       "link": "https://www.energiezukunft.eu/umweltschutz/wie-geht-es-weiter-mit-dem-naturschutz-in-der-energiewende",
       "source": "energiezukunft",
-      "published": "Fri, 05 Jun 2026 10:00:00 +0100",
+      "published": "2026-06-05T09:00:00+00:00",
       "matched_keywords": [
         "energiewende"
+      ]
+    },
+    {
+      "title": "Modelling approaches to detecting and preventing thermal runaway risk in Li-ion BESS",
+      "teaser": "Liam Critchley examines the modelling, safety standards and analytics that aim to mitigate the risk of thermal runaway in lithium-ion battery energy storage systems (BESS).",
+      "link": "https://www.energy-storage.news/modelling-approaches-to-detecting-and-preventing-thermal-runaway-risk-in-li-ion-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-06-05T08:37:33+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Ohio has blocked a lot of wind and solar. Its residents pay the price.",
+      "teaser": "Last week, the Ohio Supreme Court blocked a permit for what would be the state’s largest solar installation. The 800-megawatt Oak Run Solar Project still has a pathway to completion — the court reversed only one part of the state siting…",
+      "link": "https://www.canarymedia.com/articles/clean-energy/ohio-blocked-wind-solar",
+      "source": "canarymedia",
+      "published": "2026-06-05T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Australia’s Victoria fast-tracks 1,390MW of battery storage Development Facilitation Program approval round",
+      "teaser": "Australia's Victorian government has approved four new energy projects worth a combined AU$2.4 billion via its DFP, including 1,390MW of BESS.",
+      "link": "https://www.energy-storage.news/australias-victoria-fast-tracks-1390mw-of-battery-storage-development-facilitation-program-approval-round/",
+      "source": "energy-storage-news",
+      "published": "2026-06-05T02:20:29+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Trump announces $700M in funding for US coal plants, export facility",
+      "teaser": "The Trump administration is bolstering its fossil fuel-focused energy agenda with another $700 million in federal subsidies for new and existing coal-fired power plants in 12 states. The funding, some of which will be released under the…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060426-trump-announces-700m-in-funding-for-us-coal-plants-export-facility",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-04T23:31:27+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "US solar startup T1 Energy to acquire BESS company KORE Power for US$32 million",
+      "teaser": "US solar manufacturer T1 Energy has entered into a definitive agreement to acquire vertically integrated battery energy storage system (BESS) company KORE Power.",
+      "link": "https://www.energy-storage.news/us-solar-startup-t1-energy-to-acquire-bess-company-kore-power-for-us32-million/",
+      "source": "energy-storage-news",
+      "published": "2026-06-04T12:35:13+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Brazil’s first energy storage auctions are coming this year, regulatory framework approved",
+      "teaser": "Two potential game-changing developments for Brazil’s energy storage sector were announced this week by its regulator and its energy ministry.",
+      "link": "https://www.energy-storage.news/brazils-first-energy-storage-auctions-are-coming-this-year-regulatory-framework-approved/",
+      "source": "energy-storage-news",
+      "published": "2026-06-04T11:33:12+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Europe must support role of long-duration energy storage in electrification, security and competitiveness, trade groups say",
+      "teaser": "The European Commission must “acknowledge the clear role of long-duration energy storage,” organisations including Energy Storage Europe and the LDES Council have urged.",
+      "link": "https://www.energy-storage.news/europe-must-support-role-of-long-duration-energy-storage-in-electrification-security-and-competitiveness-trade-groups-say/",
+      "source": "energy-storage-news",
+      "published": "2026-06-04T08:08:12+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Prysmian completes cable installation for Sofia offshore wind farm",
+      "teaser": "Prysmian Group has completed its cable installation contract for RWE’s 1.4GW Sofia offshore wind farm on Dogger Bank in the North Sea.",
+      "link": "https://www.energymonitor.ai/news/prysmian-completes-cable-installation-sofia/",
+      "source": "energymonitor",
+      "published": "2026-06-04T07:40:49+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -572,7 +1132,7 @@
       "teaser": "Technische wie natürliche CO2-Entnahmen aus der Luft, dürfen nicht die Anstrengungen um Emissionsminderungen und die Energiewende ersetzen. Für die Klimaziele sind CDRs dennoch unverzichtbar.",
       "link": "https://www.energiezukunft.eu/klimakrise/ohne-co2-entnahmen-keine-netto-null",
       "source": "energiezukunft",
-      "published": "Thu, 04 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-04T05:00:00+00:00",
       "matched_keywords": [
         "co2",
         "emission",
@@ -581,13 +1141,213 @@
       ]
     },
     {
+      "title": "Taiwan’s Recharge Power partners with Energy Decarb for 292MWh battery storage pipeline in Australia",
+      "teaser": "Recharge Power, a Taiwanese battery energy storage system (BESS) developer and integrator, has signed a strategic cooperation agreement with Australian renewable energy developer Energy Decarb to establish a joint venture targeting the…",
+      "link": "https://www.energy-storage.news/taiwans-recharge-power-partners-with-energy-decarb-for-292mwh-battery-storage-pipeline-in-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-06-04T01:52:41+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage",
+        "renewable"
+      ]
+    },
+    {
+      "title": "NTPC Green Energy floats 3.3GWh BESS EPC tender for Khavda Solar Park in Gujarat, India",
+      "teaser": "NTPC Green Energy is tendering EPC contracts to develop 3,300MWh of battery storage at Khavda hybrid renewable energy park in Gujarat, India.",
+      "link": "https://www.energy-storage.news/ntpc-green-energy-3-3gwh-bess-epc-tender-khavda-solar-gujarat-india/",
+      "source": "energy-storage-news",
+      "published": "2026-06-03T10:30:30+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Why BESS performance guarantees are more complex than they seem",
+      "teaser": "BESS performance guarantees are essential and ubiquitous, yet can be challenging to navigate, writes Intertek CEA senior energy storage engineer Yilin Huang.",
+      "link": "https://www.energy-storage.news/why-bess-performance-guarantees-are-more-complex-than-they-seem/",
+      "source": "energy-storage-news",
+      "published": "2026-06-03T10:22:16+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Third-party technologies for preventing or dealing with thermal runaway in BESS assets",
+      "teaser": "Liam Critchley examines a selection of third-party technologies for preventing thermal runaway events in battery storage systems.",
+      "link": "https://www.energy-storage.news/third-party-technologies-for-preventing-or-dealing-with-thermal-runaway-in-bess-assets/",
+      "source": "energy-storage-news",
+      "published": "2026-06-03T08:09:46+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "EDF and Masdar sign 15-year PPAs for BigBeau Solar+Storage output",
+      "teaser": "EDF power solutions North America and Masdar have signed 15-year power purchase agreements (PPAs) for the output of the BigBeau Solar+Storage Project in Kern County, California.",
+      "link": "https://www.energymonitor.ai/news/edf-masdar-sign-15-year-ppas-bigbeau-output/",
+      "source": "energymonitor",
+      "published": "2026-06-03T08:08:38+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "DOE bars homes from using rebates to ditch fossil-fueled heating",
+      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Federal energy efficiency rebate programs will no longer…",
+      "link": "https://www.canarymedia.com/articles/electrification/doe-homes-using-rebates",
+      "source": "canarymedia",
+      "published": "2026-06-03T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Australia’s Queensland opens AU$200 million fund for battery storage and generation projects",
+      "teaser": "Queensland Investment Corporation has opened a formal call for proposals under the state government's AU$200 million North West Energy Fund.",
+      "link": "https://www.energy-storage.news/australias-queensland-opens-au200-million-fund-for-battery-storage-and-generation-projects/",
+      "source": "energy-storage-news",
+      "published": "2026-06-03T01:51:11+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Why some US BESS developers are forgoing the investment tax credit",
+      "teaser": "Energy-Storage.news Premium speaks with Ravi Manghani at Anza Renewables about why some BESS developers are forgoing the ITC altogether.",
+      "link": "https://www.energy-storage.news/why-some-us-bess-developers-are-forgoing-the-investment-tax-credit/",
+      "source": "energy-storage-news",
+      "published": "2026-06-02T12:00:23+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Germany: interaction between grid fees, BKZ and FCAs still need to be solved",
+      "teaser": "We hear from Christina Hepp, strategy director at battery energy storage system (BESS) owner-operator Green Flexibility, on the big successes and challenges in the German market today.",
+      "link": "https://www.energy-storage.news/germany-interaction-between-grid-fees-bkz-and-fcas-still-need-to-be-solved/",
+      "source": "energy-storage-news",
+      "published": "2026-06-02T11:35:17+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "grid fee"
+      ]
+    },
+    {
+      "title": "Chinese-Saudi joint venture to build 18GWh battery storage plant",
+      "teaser": "The first phase of the manufacturing facility is scheduled to begin operations in the first quarter of 2027.",
+      "link": "https://www.energymonitor.ai/news/battery-storage-plant-china-saudi-arabia/",
+      "source": "energymonitor",
+      "published": "2026-06-02T11:18:28+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "US BESS integrator Prevalon becomes Nextpower’s latest acquisition for US$365 million",
+      "teaser": "Solar PV solutions provider Nextpower has entered into a definitive agreement to acquire BESS system integrator Prevalon Energy for up to US$365 million.",
+      "link": "https://www.energy-storage.news/us-bess-integrator-prevalon-becomes-nextpowers-latest-acquisition-for-us365-million/",
+      "source": "energy-storage-news",
+      "published": "2026-06-02T11:01:36+00:00",
+      "matched_keywords": [
+        "pv",
+        "solar"
+      ]
+    },
+    {
+      "title": "EU approves Spain’s €9 billion capacity market for generation, demand response and energy storage",
+      "teaser": "The European Commission has approved a €9 billion (US$10.5 billion) scheme to shore up its energy capacity, which will be open to new and existing projects including energy storage.",
+      "link": "https://www.energy-storage.news/eu-approves-spain-euro-9-billion-capacity-market-generation-demand-response-energy-storage/",
+      "source": "energy-storage-news",
+      "published": "2026-06-02T09:49:47+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Data centres are becoming a defining force in power markets – can renewables keep up?",
+      "teaser": "AI-driven growth in computing is turning data centres into one of the largest new sources of electricity demand – can renewables keep up?",
+      "link": "https://www.energymonitor.ai/analysis/powering-data-centres/",
+      "source": "energymonitor",
+      "published": "2026-06-02T08:37:48+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "A safer nuclear fuel is gaining steam — but cost remains a hurdle",
+      "teaser": "As the U.S. looks to revive its stagnant nuclear industry, a group of companies is racing to realize the promise of a “meltdown-proof” fuel that for decades has struggled to progress beyond federal lab experiments. Tri-structural isotropic…",
+      "link": "https://www.canarymedia.com/articles/nuclear/safer-nuclear-fuel-gaining-steam",
+      "source": "canarymedia",
+      "published": "2026-06-02T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "OX2 starts work on solar and battery projects in Poland",
+      "teaser": "OX2 has commenced construction on two renewable energy projects in Poland, following investment decisions for both.",
+      "link": "https://www.energymonitor.ai/news/ox2-starts-work-solar-poland/",
+      "source": "energymonitor",
+      "published": "2026-06-02T07:26:55+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Europa will Ökostrom künftig auch aus Zentralasien beziehen",
       "teaser": "Die Kaukasusregion soll eine Brückenfunktion für die Versorgung Europas mit erneuerbaren Energien aus Zentralasien übernehmen. Im Rahmen ihrer Global Gateway-Initiative unterstützt die EU das Vorhaben finanziell und organisatorisch.",
       "link": "https://www.energiezukunft.eu/wirtschaft/europa-will-oekostrom-kuenftig-auch-aus-zentralasien-beziehen",
       "source": "energiezukunft",
-      "published": "Tue, 02 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-02T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "Australia: Queensland BESS fleet pushes state to 79.5% renewables-plus-storage share",
+      "teaser": "Queensland's growing battery energy storage system (BESS) fleet set new instantaneous records for both the renewables-plus-storage (RES) share of consumption and the battery storage share of consumption on 31 May 2026.",
+      "link": "https://www.energy-storage.news/australia-queensland-bess-fleet-pushes-state-to-79-5-renewables-plus-storage-share/",
+      "source": "energy-storage-news",
+      "published": "2026-06-02T02:47:33+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage",
+        "renewable"
+      ]
+    },
+    {
+      "title": "California makes controversial change to cap-and-invest program",
+      "teaser": "The California Air Resources Board on Friday approved major changes to the state’s cap-and-invest program , including a controversial plan to allow polluting industries to earn free emissions allowances if they invest in decarbonizing…",
+      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-controversial-cap-and-invest-program",
+      "source": "canarymedia",
+      "published": "2026-06-01T17:30:00+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "emission"
+      ]
+    },
+    {
+      "title": "Thanks to two new laws, more Virginians can save with community solar",
+      "teaser": "When Steve Ault got an offer about six years ago to lease a bit of his 100-acre family farm in Prince Edward County, Virginia, for solar panels, he let the letter sit on the kitchen table for a few days. Then he showed it to his wife,…",
+      "link": "https://www.canarymedia.com/articles/solar/two-new-laws-virginia-community-solar",
+      "source": "canarymedia",
+      "published": "2026-06-01T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "In new attack on solar, lawmakers spread myths about potato farms",
+      "teaser": "Is Frito-Lay categorically refusing to buy potatoes grown on farmland that has hosted solar installations? No, the company says. That hasn&#039;t stopped lawmakers in Michigan and Pennsylvania from spreading the false claim about one of…",
+      "link": "https://www.canarymedia.com/articles/solar/attack-solar-myths-potato-farms",
+      "source": "canarymedia",
+      "published": "2026-06-01T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -595,9 +1355,30 @@
       "teaser": "Großwärmepumpen, die das Wasser von Flüssen nutzen, entwickeln sich zu einem wichtigen Baustein der Wärmewende. Doch das zurückgeleitete kältere Wasser könnte ein Problem für Fische darstellen, sagen einige. Dem widerspricht eine neue…",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/das-vermeintliche-kaelteproblem-bei-flusswaermepumpen",
       "source": "energiezukunft",
-      "published": "Mon, 01 Jun 2026 06:00:00 +0100",
+      "published": "2026-06-01T05:00:00+00:00",
       "matched_keywords": [
         "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Voters in 9 states will pick the people overseeing their power bills",
+      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. The 2026 election season is officially upon us, and with electricity prices on the rise, energy affordability is sure to factor…",
+      "link": "https://www.canarymedia.com/articles/utilities/voters-in-9-states-get-to-pick-the-people-who-oversee-their-power-bills",
+      "source": "canarymedia",
+      "published": "2026-05-29T17:36:00+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
+    {
+      "title": "The tax credit cliff has hit EV sales hard",
+      "teaser": "This article is part of our ​“Chart of the Week” series . Once upon a time, Americans could get big federal tax incentives for buying electric vehicles, heat pumps, rooftop solar, and home batteries. But the Trump administration scrapped…",
+      "link": "https://www.canarymedia.com/articles/electric-vehicles/the-tax-credit-cliff-has-hit-ev-sales-hard",
+      "source": "canarymedia",
+      "published": "2026-05-29T07:30:00+00:00",
+      "matched_keywords": [
+        "heat pump",
+        "solar"
       ]
     },
     {
@@ -605,7 +1386,7 @@
       "teaser": "Das bisherige System der Stromnetzentgelte passt nicht mehr zur neuen Energiewelt. Neue Regeln müssen her, auch im Sinne der Bezahlbarkeit. Die Bundesnetzagentur hat Vorschläge gemacht, die jedoch auf Kritik stoßen.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/netzentgeltreform-mit-konfliktpotenzial",
       "source": "energiezukunft",
-      "published": "Fri, 29 May 2026 06:00:00 +0100",
+      "published": "2026-05-29T05:00:00+00:00",
       "matched_keywords": [
         "netzentgelt",
         "stromnetz"
@@ -616,7 +1397,7 @@
       "teaser": "Wie China mit neuen Berechnungen CO2-Emissionen im Ausmaß des deutschen Jahresverbrauchs verschwinden ließ, haben Experten von Carbon Brief analysiert. Das Land hat offenbar die Berechnung seiner CO₂-Intensität geändert.",
       "link": "https://www.energiezukunft.eu/wirtschaft/china-beschoenigt-seine-klimabilanz",
       "source": "energiezukunft",
-      "published": "Thu, 28 May 2026 06:00:00 +0100",
+      "published": "2026-05-28T05:00:00+00:00",
       "matched_keywords": [
         "co2",
         "emission",
@@ -624,11 +1405,21 @@
       ]
     },
     {
+      "title": "The hidden innovation behind Antora’s massive new heat battery",
+      "teaser": "A giant energy-storage project in South Dakota will soon turn cheap wind energy into clean industrial steam for a neighboring biofuels facility. The startup Antora Energy said it recently began booting up a 5-gigawatt-hour thermal energy…",
+      "link": "https://www.canarymedia.com/articles/energy-storage/innovation-antora-massive-heat-battery",
+      "source": "canarymedia",
+      "published": "2026-05-27T07:30:00+00:00",
+      "matched_keywords": [
+        "wind energy"
+      ]
+    },
+    {
       "title": "Neuer Rahmen für CMIP7-Klimaszenarien verengt Prognosebereich",
       "teaser": "Zukünftig arbeiten Klimamodelle ohne das bisherige Worst-Case-Scenario. Damit verkleinert sich die Spanne der Projektionen am oberen Ende, doch auch sehr niedrige Emissionsszenarien sind unwahrscheinlicher geworden.",
       "link": "https://www.energiezukunft.eu/klimakrise/neuer-rahmen-fuer-cmip7-klimaszenarien-verengt-prognosebereich",
       "source": "energiezukunft",
-      "published": "Wed, 27 May 2026 06:03:00 +0100",
+      "published": "2026-05-27T05:03:00+00:00",
       "matched_keywords": [
         "emission",
         "klima"
@@ -639,7 +1430,7 @@
       "teaser": "Montenegro ist EU-Beitrittskandidat und muss die Energiewende forcieren. Um den Tourismus als wichtigsten Wirtschaftszweig nicht zu gefährden, steht das Balkanland vor der Herausforderung, den Erneuerbaren Ausbau umweltverträglich zu…",
       "link": "https://www.energiezukunft.eu/wirtschaft/wie-montenegro-die-energiewende-mit-umwelt-und-tourismus-in-einklang-bringen-will",
       "source": "energiezukunft",
-      "published": "Wed, 27 May 2026 06:00:00 +0100",
+      "published": "2026-05-27T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "erneuerbare",
@@ -647,13 +1438,65 @@
       ]
     },
     {
+      "title": "New York state gives up on its most ambitious climate targets",
+      "teaser": "Seven years ago, New York passed what leaders touted as one of the nation’s most ambitious climate laws. Now, the state has kneecapped it ahead of a crucial end-of-decade deadline. On Tuesday, the Democratic-controlled legislature approved…",
+      "link": "https://www.canarymedia.com/articles/emissions-reduction/new-york-gives-up-ambitious-climate-targets",
+      "source": "canarymedia",
+      "published": "2026-05-27T04:00:00+00:00",
+      "matched_keywords": [
+        "climate law",
+        "climate target"
+      ]
+    },
+    {
+      "title": "This AI tool helps community solar developers connect to the grid sooner",
+      "teaser": "Forrest Bagley was eager to dive into Illinois’ community solar market. The solar company he owns with his father and brother had successfully developed arrays in Maine, Massachusetts, and New York, and generous state incentives for…",
+      "link": "https://www.canarymedia.com/articles/solar/ai-helps-community-solar-connect-grid",
+      "source": "canarymedia",
+      "published": "2026-05-26T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "The grid is in better shape this summer. Thank solar and batteries.",
+      "teaser": "It’s set to be an abnormally hot summer this year — but the U.S. grid appears to be in decent shape to handle the heat. The credit goes to a boatload of new solar and storage and a handful of new gas plants. That’s the upshot of the new…",
+      "link": "https://www.canarymedia.com/articles/clean-energy/grid-better-shape-this-summer",
+      "source": "canarymedia",
+      "published": "2026-05-26T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Gute Noten für die Neuen",
       "teaser": "Lkw mit batterieelektrischen Antrieben sind auf dem Vormarsch, nicht nur bei den Neuzulassungen. Über die Alltagstauglichkeit der emissionsfreien Technologie berichten die Speditionen fast nur Gutes, zeigt eine Umfrage.",
       "link": "https://www.energiezukunft.eu/mobilitaet/gute-noten-fuer-die-neuen",
       "source": "energiezukunft",
-      "published": "Tue, 26 May 2026 06:00:00 +0100",
+      "published": "2026-05-26T05:00:00+00:00",
       "matched_keywords": [
         "emission"
+      ]
+    },
+    {
+      "title": "Denver has a plan to heat and cool buildings with — wait for it — sewage",
+      "teaser": "This story was originally published by Colorado Public Radio . Sign up for CPR’s weekly climate newsletter. DENVER — Like in many American cities, Denver&#039;s largest source of climate pollution is its buildings. Powering, heating, and…",
+      "link": "https://www.canarymedia.com/articles/geothermal/denver-heat-cool-buildings-sewage",
+      "source": "canarymedia",
+      "published": "2026-05-25T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Another first for renewables: Wind and solar outgenerate gas in April",
+      "teaser": "See more from Canary Media’s “Chart of the week” column . April 2026: Remember the date for the energy-transition history books. It’s the first month when wind and solar combined to produce more electricity than natural gas did, per new…",
+      "link": "https://www.canarymedia.com/articles/clean-energy/wind-solar-outgenerate-gas-april",
+      "source": "canarymedia",
+      "published": "2026-05-22T07:30:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -661,9 +1504,30 @@
       "teaser": "Die UN-Generalversammlung hat mit großer Mehrheit eine Resolution zur weltweiten Klimaverantwortung verabschiedet. Das Dokument baut auf dem Klimagutachten des Internationalen Gerichtshofs auf.",
       "link": "https://www.energiezukunft.eu/klimakrise/un-nimmt-resolution-zur-klimaverantwortung-an",
       "source": "energiezukunft",
-      "published": "Fri, 22 May 2026 06:00:00 +0100",
+      "published": "2026-05-22T05:00:00+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "24/7 renewables could happen sooner than you think",
+      "teaser": "One of the biggest knocks against renewables — their intermittency — could soon be defanged. As technology prices fall and industry prowess compounds, a new type of clean megaproject is starting to look not only possible but also…",
+      "link": "https://www.canarymedia.com/articles/clean-energy/24-7-renewables-could-happen-soon",
+      "source": "canarymedia",
+      "published": "2026-05-21T07:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "This Vermont town embraced a wind farm. Solar is a different story.",
+      "teaser": "LOWELL, Vt. — Doug Manning built his three-story home for the views. Mountain peaks ring the 800-person town of Lowell, and just beyond his back porch stretches a hayfield that the community uses as a kind of public square. The 44-acre…",
+      "link": "https://www.canarymedia.com/articles/solar/lowell-vermont-opposition-clean-energy-farmland",
+      "source": "canarymedia",
+      "published": "2026-05-21T07:30:00+00:00",
+      "matched_keywords": [
+        "solar",
+        "wind farm"
       ]
     },
     {
@@ -671,9 +1535,30 @@
       "teaser": "Für die Abkehr von fossilen Brennstoffen reicht es nicht mehr, nur die Erneuerbaren auszubauen. Die Elektrifizierung von Verkehr, Gebäudesektor und der Industrie muss nun stärker in den Blick genommen werden, fordert die IRENA.",
       "link": "https://www.energiezukunft.eu/wirtschaft/jetzt-kommt-es-auf-die-elektrifizierung-an",
       "source": "energiezukunft",
-      "published": "Thu, 21 May 2026 06:00:00 +0100",
+      "published": "2026-05-21T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "California cap-and-invest proposal would threaten state climate goals",
+      "teaser": "California’s top air regulator wants to overhaul the state’s two-decade-old carbon market. But key lawmakers and environmental groups say the effort will undermine the program — and the state’s decarbonization goals. Last month, the…",
+      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-cap-and-invest-proposal",
+      "source": "canarymedia",
+      "published": "2026-05-20T07:30:00+00:00",
+      "matched_keywords": [
+        "climate",
+        "decarbon"
+      ]
+    },
+    {
+      "title": "Bay Area looks to exempt some households from gas water-heater phaseout",
+      "teaser": "In 2023, the San Francisco Bay Area’s air district passed first-in-the-nation rules setting zero-emissions limits on home heating systems and water heaters. Now, the agency is working to address affordability concerns ahead of the…",
+      "link": "https://www.canarymedia.com/articles/electrification/bay-area-exempt-gas-water-heater",
+      "source": "canarymedia",
+      "published": "2026-05-20T07:30:00+00:00",
+      "matched_keywords": [
+        "emission"
       ]
     },
     {
@@ -681,10 +1566,30 @@
       "teaser": "Im Rahmen ihrer EU-Beitrittsbemühungen sind die Westbalkanstaaten aufgefordert, ihre Energiewirtschaften zu reformieren und zu ökologisieren. In ihren EU-Nachbarstaaten boomen die Erneuerbaren Energien bereits.",
       "link": "https://www.energiezukunft.eu/wirtschaft/von-annaeherung-bis-dynamischer-entwicklung-die-energiewende-auf-dem-balkan",
       "source": "energiezukunft",
-      "published": "Wed, 20 May 2026 06:00:00 +0100",
+      "published": "2026-05-20T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "How big can solar go? These 3 projects show us the gigascale future",
+      "teaser": "Until recently, pacesetting solar projects were measured in the hundreds of megawatts. But panels keep getting cheaper, and developers keep getting better at installing them. As a result, power companies are undertaking projects that are…",
+      "link": "https://www.canarymedia.com/articles/solar/how-big-can-solar-go",
+      "source": "canarymedia",
+      "published": "2026-05-19T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Trump admin defends its coal must-run orders in court",
+      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. The Trump administration on Friday defended its legal…",
+      "link": "https://www.canarymedia.com/articles/fossil-fuels/trump-admin-defends-coal-order",
+      "source": "canarymedia",
+      "published": "2026-05-19T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -692,10 +1597,31 @@
       "teaser": "Der Expertenrat für Klimafragen hat seinen Prüfbericht vorgelegt. Das Gremium widerspricht dem Umweltbundesamt und geht von einer Überschreitung des Emissionsbudgets bis 2030 sowie einer Verfehlung der Klimaziele aus.",
       "link": "https://www.energiezukunft.eu/klimakrise/deutschland-verfehlt-klimaziele-bis-2030",
       "source": "energiezukunft",
-      "published": "Tue, 19 May 2026 06:00:00 +0100",
+      "published": "2026-05-19T05:00:00+00:00",
       "matched_keywords": [
         "emission",
         "klima"
+      ]
+    },
+    {
+      "title": "X-energy gets federal environmental approval for Texas nuclear reactors",
+      "teaser": "X-energy, the Amazon-backed nuclear startup looking to revive the United States’ high-temperature gas-cooled reactor efforts, just took a major step toward securing federal permits to start construction on its debut plant. On Monday, the…",
+      "link": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors",
+      "source": "canarymedia",
+      "published": "2026-05-18T20:00:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Solar to overtake coal on Texas grid for the first time ever this year",
+      "teaser": "The Texas sun keeps rising, as Texas coal wanes. For the first time ever, solar is set to generate more electricity than coal in the power market managed by the Electric Reliability Council of Texas. Nobody is building new coal power…",
+      "link": "https://www.canarymedia.com/articles/solar/solar-overtakes-coal-texas-first",
+      "source": "canarymedia",
+      "published": "2026-05-18T07:30:00+00:00",
+      "matched_keywords": [
+        "coal power",
+        "solar"
       ]
     },
     {
@@ -703,10 +1629,30 @@
       "teaser": "Das StromVKG soll die Versorgung sichern, subventioniert aber fossile Gaskraftwerke zu hohen Kosten und steht vor einer unsicheren Zukunft in Brüssel. Wirtschaftsverbände fordern stattdessen eine Absicherungspflicht für Stromlieferanten.",
       "link": "https://www.energiezukunft.eu/wirtschaft/milliarden-foerderung-fuer-gaskraft",
       "source": "energiezukunft",
-      "published": "Mon, 18 May 2026 06:00:00 +0100",
+      "published": "2026-05-18T05:00:00+00:00",
       "matched_keywords": [
         "förderung",
         "subvention"
+      ]
+    },
+    {
+      "title": "Soaring gas prices have drivers turning to EVs — except in the US",
+      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. As the war in Iran spikes gasoline prices around the globe, drivers in many countries have headed for an obvious emergency exit:…",
+      "link": "https://www.canarymedia.com/articles/electric-vehicles/chinese-evs-europe-us-gas-prices",
+      "source": "canarymedia",
+      "published": "2026-05-15T17:54:00+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
+      "title": "The world is installing grid batteries at a blistering pace",
+      "teaser": "See more from Canary Media’s “Chart of the Week” column . First came the solar. Now, the batteries have arrived. Installations of grid batteries, which can store solar and other energy for later use, surged by 48% in 2025 from the year…",
+      "link": "https://www.canarymedia.com/articles/batteries/world-installing-grid-batteries",
+      "source": "canarymedia",
+      "published": "2026-05-15T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -714,7 +1660,7 @@
       "teaser": "Um Rohstoffe aus alten Windkraft- und Solaranlagen für neue Produkte nutzbar zu machen, werden mindestens genauso viele Innovationen gebraucht wie für die Entwicklung neuer Komponenten. Ein Industriezweig, der noch in den Kinderschuhen…",
       "link": "https://www.energiezukunft.eu/wirtschaft/ressourcen-retten-aber-wie",
       "source": "energiezukunft",
-      "published": "Fri, 15 May 2026 06:00:00 +0100",
+      "published": "2026-05-15T05:00:00+00:00",
       "matched_keywords": [
         "windkraft"
       ]
@@ -724,10 +1670,20 @@
       "teaser": "Im Testzentrum St. Gallen begleiten Experten die Qualitätssprünge moderner Wärmepumpen. Der starke Wille zur Dekarbonisierung treibt die Innovationen für Gebäude und Industrie voran und ebnet den Weg zur Schweizer Energiewende.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/geprueft-zertifiziert-und-auf-dem-vormarsch",
       "source": "energiezukunft",
-      "published": "Fri, 15 May 2026 06:00:00 +0100",
+      "published": "2026-05-15T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "wärmepumpe"
+      ]
+    },
+    {
+      "title": "North Carolina groups fight regulator’s order to cancel solar for 2026",
+      "teaser": "Last month, North Carolina’s top utility regulator abruptly halted Duke Energy’s solar farm investments for the year — an unforeseen blow to an industry already reeling from tariffs and a hostile federal government. Now, clean energy…",
+      "link": "https://www.canarymedia.com/articles/solar/north-carolina-groups-fight-regulator-order",
+      "source": "canarymedia",
+      "published": "2026-05-14T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -735,9 +1691,29 @@
       "teaser": "Unter dem Motto „Starke Gemeinschaften, starke Regionen – für eine krisenfeste Zukunft“ kamen am vergangen Wochenende Bürgerenergie-Aktive aus ganz Deutschland zusammen.",
       "link": "https://www.energiezukunft.eu/buergerenergie/gemeinsam-kraft-tanken-fuer-die-energiewende-aus-buergerhand",
       "source": "energiezukunft",
-      "published": "Thu, 14 May 2026 06:00:00 +0100",
+      "published": "2026-05-14T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
+      ]
+    },
+    {
+      "title": "Mid-sized solar could help bring down electricity bills in Pennsylvania",
+      "teaser": "Pennsylvania needs more energy. Data centers are pushing demand skyward, utilities can&#039;t build new capacity fast enough, and electric bills are on the rise. Medium-sized solar installations — smaller than utility-scale farms but…",
+      "link": "https://www.canarymedia.com/articles/solar/mid-sized-solar-electricity-bills-pennsylvania",
+      "source": "canarymedia",
+      "published": "2026-05-13T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Amazon bets on what could be a game-changing heat pump",
+      "teaser": "Amazon has signed a deal for a novel kind of rooftop heat pump that will provide all-electric heating, superefficient cooling, and cheaper energy bills at an undisclosed number of the company’s commercial buildings. After a successful…",
+      "link": "https://www.canarymedia.com/articles/heat-pumps/amazon-game-changing-heat-pump",
+      "source": "canarymedia",
+      "published": "2026-05-13T07:30:00+00:00",
+      "matched_keywords": [
+        "heat pump"
       ]
     },
     {
@@ -745,9 +1721,19 @@
       "teaser": "Nicht nur Eigenheimbesitzer, auch Energiegemeinschaften streben nach möglichst hohem Eigenverbrauch oder gar Autarkie. Eine Studie aus Österreich zeigt, was mit einer klugen Kombi aus Erzeugung, Speicherung und Flexibilität möglich ist.",
       "link": "https://www.energiezukunft.eu/buergerenergie/wieviel-autarkie-moeglich-ist",
       "source": "energiezukunft",
-      "published": "Wed, 13 May 2026 06:00:00 +0100",
+      "published": "2026-05-13T05:00:00+00:00",
       "matched_keywords": [
         "speicher"
+      ]
+    },
+    {
+      "title": "Software is helping this real estate giant burn less gas in NYC",
+      "teaser": "New York City’s biggest buildings face a huge change: By 2050, they must reduce their planet-warming pollution to net-zero, thanks to the metropolis’s Local Law 97 . In other words, tens of thousands of structures will need to yank out…",
+      "link": "https://www.canarymedia.com/articles/carbon-free-buildings/software-avalonbay-parity-nyc",
+      "source": "canarymedia",
+      "published": "2026-05-12T07:30:00+00:00",
+      "matched_keywords": [
+        "net-zero"
       ]
     },
     {
@@ -755,7 +1741,7 @@
       "teaser": "Das Reich der Pilze liefert effiziente, regenerative Lösungen für die Industrie von morgen. Myzel-Innovationen in Bau, Elektronik und Bergbau beantworten drängende Ressourcen- und Klimafragen durch die Kraft der Biofabrikation.",
       "link": "https://www.energiezukunft.eu/umweltschutz/eine-symbiotische-zukunft",
       "source": "energiezukunft",
-      "published": "Tue, 12 May 2026 06:00:00 +0100",
+      "published": "2026-05-12T05:00:00+00:00",
       "matched_keywords": [
         "klima"
       ]
@@ -765,7 +1751,7 @@
       "teaser": "Die Bundesregierung will weiter Öl und Gas bei der Wärmeversorgung zulassen und setzt zudem auf Wasserstoff und Biomethan. Deutsche Großstädte haben andere Pläne, wie eine Auswertung bisheriger Wärmepläne zeigt.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/zielszenario-erneuerbare-waermenetze-und-waermepumpen",
       "source": "energiezukunft",
-      "published": "Tue, 12 May 2026 06:00:00 +0100",
+      "published": "2026-05-12T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff",
@@ -773,11 +1759,21 @@
       ]
     },
     {
+      "title": "Confusing ballot wording may have tipped Ohio vote on renewables ban",
+      "teaser": "Confusing ballot language could be the reason an Ohio county upheld a ban on renewable energy last week. An early analysis of exit poll responses suggests a majority of voters likely meant to vote against Richland County’s ban on most…",
+      "link": "https://www.canarymedia.com/articles/land-use/confusing-ballot-wording-ohio-renewables-ban",
+      "source": "canarymedia",
+      "published": "2026-05-11T07:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "Rekordjagd ohne Ende",
       "teaser": "Wohl keine Technologie hat in der letzten Dekade so rasante Fortschritte bei Wirkungsgraden und Wirtschaftlichkeit erlebt, wie die Photovoltaik. Gibt es zukünftig ähnliche Erfolge zu feiern und wie sehen die Trends der Zukunft aus?",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/rekordjagd-ohne-ende",
       "source": "energiezukunft",
-      "published": "Mon, 11 May 2026 06:00:00 +0100",
+      "published": "2026-05-11T05:00:00+00:00",
       "matched_keywords": [
         "photovoltaik"
       ]
@@ -787,7 +1783,7 @@
       "teaser": "Ab Juni 2026 wird Energy Sharing in Deutschland möglich. Betreiber von Solar- oder Windkraftanlagen können Strom an Nachbarn oder das nähere Umfeld vermarkten. Die Agentur für Erneuerbare Energien erklärt, wie das funktioniert.",
       "link": "https://www.energiezukunft.eu/buergerenergie/strom-teilen-schon-bald-moeglich-theoretisch",
       "source": "energiezukunft",
-      "published": "Mon, 11 May 2026 06:00:00 +0100",
+      "published": "2026-05-11T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare",
         "solar",
@@ -795,11 +1791,41 @@
       ]
     },
     {
+      "title": "Balcony solar bill dies in Illinois after union voices opposition",
+      "teaser": "Lawmakers backing an Illinois bill that would clear the way for balcony solar have ended their push to pass the measure this year. With three weeks still to go in the legislative session, they hit a stalemate as opponents, including the…",
+      "link": "https://www.canarymedia.com/articles/solar/balcony-solar-bill-dies-illinois",
+      "source": "canarymedia",
+      "published": "2026-05-08T19:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Maine’s community solar boom is going bust",
+      "teaser": "For years, community solar in Maine grew at a breakneck pace, elevating the state to the top of the list for most capacity per capita in the U.S. Now, however, development has slowed to a standstill, and the industry faces an uncertain…",
+      "link": "https://www.canarymedia.com/articles/solar/maine-community-solar-going-bust",
+      "source": "canarymedia",
+      "published": "2026-05-08T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "We bet you can’t guess which states rely most on wind and solar power",
+      "teaser": "See more from Canary Media’s “Chart of the Week” column . Quick — ignore the map above and take a guess: Which three states get the highest share of their power from wind and solar? If you said Iowa, South Dakota, and New Mexico, well…",
+      "link": "https://www.canarymedia.com/articles/wind/which-states-most-wind-solar-power",
+      "source": "canarymedia",
+      "published": "2026-05-08T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Energiesicherheit ist Sicherheitspolitik",
       "teaser": "Zentrale Energiesysteme, die auf fossilen Brennstoffen basieren, sind verwundbar – das zeigt die aktuelle geopolitische Lage. Eine Publikation der AEE verdeutlicht, wie Erneuerbare Energien und kommunale Partnerschaften unsere Demokratie…",
       "link": "https://www.energiezukunft.eu/politik/energiesicherheit-ist-sicherheitspolitik",
       "source": "energiezukunft",
-      "published": "Fri, 08 May 2026 06:05:00 +0100",
+      "published": "2026-05-08T05:05:00+00:00",
       "matched_keywords": [
         "energiesicherheit",
         "erneuerbare"
@@ -810,7 +1836,7 @@
       "teaser": "Mikro- und Nanoplastik in der Luft erwärmt das Klima. Die Partikel wirken als Aerosole und verstärken die Erderwärmung wohl ähnlich stark wie Kondensstreifen. In Klimamodellen wurden sie bisher noch kaum berücksichtigt.",
       "link": "https://www.energiezukunft.eu/klimakrise/klimaeffekt-durch-plastikpartikel-hoeher-als-gedacht",
       "source": "energiezukunft",
-      "published": "Fri, 08 May 2026 06:00:00 +0100",
+      "published": "2026-05-08T05:00:00+00:00",
       "matched_keywords": [
         "klima"
       ]
@@ -820,7 +1846,7 @@
       "teaser": "Den Redispatch-Vorbehalt, wie ihn die Bundesregierung im Netzpaket vorsieht, lehnt die Erneuerbaren-Welt ab. Er greift in einen Grundsatz des EEG ein. Agora-Energiewende hat mögliche Auswirkungen für drei regionale Verteilnetze näher…",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/definition-von-netzengpaessen-ist-hoch-problematisch",
       "source": "energiezukunft",
-      "published": "Thu, 07 May 2026 06:00:00 +0100",
+      "published": "2026-05-07T05:00:00+00:00",
       "matched_keywords": [
         "eeg",
         "energiewende",
@@ -832,7 +1858,7 @@
       "teaser": "Die EU-Methanverordnung zeigt bisher kaum Wirkung: Emissionen im Kohlesektor nehmen zu statt ab, und in Deutschland vernachlässigt rund ein Drittel der Öl- und Gasunternehmen die Berichtspflichten. Die DUH fordert ein verbindliches…",
       "link": "https://www.energiezukunft.eu/wirtschaft/methanemissionen-steigen-trotz-eu-verordnung",
       "source": "energiezukunft",
-      "published": "Thu, 07 May 2026 06:00:00 +0100",
+      "published": "2026-05-07T05:00:00+00:00",
       "matched_keywords": [
         "emission"
       ]
@@ -842,10 +1868,41 @@
       "teaser": "Während EnBW mit Investitionen in die Energiewende wirbt, kritisieren Verbände neue LNG-Importe und steigende Kohleverstromung. Auf der heutigen Hauptversammlung des Energiekonzerns machen sie ihren Ärger deutlich.",
       "link": "https://www.energiezukunft.eu/wirtschaft/gegenwind-auf-der-hauptversammlung-von-enbw",
       "source": "energiezukunft",
-      "published": "Thu, 07 May 2026 06:00:00 +0100",
+      "published": "2026-05-07T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "lng"
+      ]
+    },
+    {
+      "title": "Resident-led campaign fails to reverse Ohio county’s ban on renewables",
+      "teaser": "Residents in Richland County, Ohio, voted narrowly Tuesday to keep a ban on utility-scale solar and wind across much of the community — a setback for those who hoped the referendum could serve as a blueprint for overcoming local…",
+      "link": "https://www.canarymedia.com/articles/land-use/resident-campaign-fails-ohio-renewables-ban",
+      "source": "canarymedia",
+      "published": "2026-05-06T17:00:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "America’s nuclear dry spell is over",
+      "teaser": "March 1, 2024, marked a bittersweet milestone in the American nuclear industry’s modern history. Exactly 3,755 days after construction started on the second of two new state-of-the-art Westinghouse AP1000 reactors at Southern Company’s…",
+      "link": "https://www.canarymedia.com/articles/nuclear/americas-nuclear-dry-spell-is-over",
+      "source": "canarymedia",
+      "published": "2026-05-05T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Can a carbon price lower power bills? Virginia is betting yes.",
+      "teaser": "This story was originally published by Grist . Sign up for Grist’s weekly newsletter here . Abigail Spanberger won a landslide victory in the Virginia governor’s race last November with a platform that focused on reining in rising…",
+      "link": "https://www.canarymedia.com/articles/emissions-reduction/virginia-rggi-carbon-price-energy-affordability",
+      "source": "canarymedia",
+      "published": "2026-05-05T07:30:00+00:00",
+      "matched_keywords": [
+        "carbon price"
       ]
     },
     {
@@ -853,7 +1910,7 @@
       "teaser": "Die Herstellung von Wasserstoff ist noch kostenintensiv und komplex. Forschende entwickeln nun ein Photoreaktor-Paneel, das Wasserstoff direkt aus Sonnenlicht und Wasser erzeugt – ohne Elektrolyseure und elektrische Energie.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/wasserstoff-direkt-aus-sonnenlicht-fuer-das-flexible-stromsystem",
       "source": "energiezukunft",
-      "published": "Tue, 05 May 2026 06:02:00 +0100",
+      "published": "2026-05-05T05:02:00+00:00",
       "matched_keywords": [
         "wasserstoff"
       ]
@@ -863,9 +1920,19 @@
       "teaser": "Einnahmequellen, Energieunabhängigkeit, Versorgungssicherheit. Eine Umfrage zeigt: Die Bereitschaft in den deutschen Rathäusern, die Energiewende vor Ort umzusetzen, ist groß – aber auch der Unmut über den verschleppten Netzausbau.",
       "link": "https://www.energiezukunft.eu/buergerenergie/hoch-motiviert-vielfach-ausgebremst",
       "source": "energiezukunft",
-      "published": "Tue, 05 May 2026 06:02:00 +0100",
+      "published": "2026-05-05T05:02:00+00:00",
       "matched_keywords": [
         "energiewende"
+      ]
+    },
+    {
+      "title": "Top US nuclear regulator is rewriting its rules for new era of reactors",
+      "teaser": "The United States has taken one of its biggest steps yet to encourage the construction of commercial microreactors — the latest move in its broader push to overhaul the country’s nuclear regulatory processes. In late April, the U.S.…",
+      "link": "https://www.canarymedia.com/articles/nuclear/us-nuclear-regulator-rewriting-rules",
+      "source": "canarymedia",
+      "published": "2026-05-04T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -873,7 +1940,7 @@
       "teaser": "Wenn Klimafolgen Lebensgrundlagen gefährden, scheint mehr Migration die logische Folge. Mithilfe von Erdbeobachtung und Handydaten will der Geoinformatiker Stefan Lang die komplexen Zusammenhänge zwischen Klima und Flucht besser verstehen.",
       "link": "https://www.energiezukunft.eu/klimakrise/klimaflucht-besser-verstehen-mithilfe-von-geoinformatik",
       "source": "energiezukunft",
-      "published": "Mon, 04 May 2026 06:02:00 +0100",
+      "published": "2026-05-04T05:02:00+00:00",
       "matched_keywords": [
         "klima"
       ]
@@ -883,9 +1950,19 @@
       "teaser": "Ein zivilgesellschaftliches Bündnis warnt Versicherer vor der Absicherung neuer LNG-Projekte im südostasiatischen Korallendreieck. Die industrielle Expansion gefährdet den artenreichen Amazonas der Meere und birgt erhebliche finanzielle…",
       "link": "https://www.energiezukunft.eu/umweltschutz/fossiler-ausbau-bedroht-das-korallendreieck",
       "source": "energiezukunft",
-      "published": "Mon, 04 May 2026 06:00:00 +0100",
+      "published": "2026-05-04T05:00:00+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "SoCalGas customers spared paying $266M for hydrogen pipeline project",
+      "teaser": "California regulators have denied utility Southern California Gas permission to collect $266 million from its customers to fund a sprawling hydrogen pipeline network it hopes to build across Southern and Central California. Environmental…",
+      "link": "https://www.canarymedia.com/articles/hydrogen/socalgas-customers-spared-hydrogen-pipeline-plans",
+      "source": "canarymedia",
+      "published": "2026-05-01T19:30:00+00:00",
+      "matched_keywords": [
+        "hydrogen"
       ]
     },
     {
@@ -893,7 +1970,7 @@
       "teaser": "Wegen Streit und Zeitdruck bei der Novelle des GEG will die Bundesregierung kurzfristig nur die zentrale 65-Prozent-Erneuerbare-Vorgabe aussetzen. Branchenverbände kritisieren das Vorgehen scharf und warnen vor sozialen und…",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/bundesregierung-verschiebt-geg-novelle-und-schafft-probleme",
       "source": "energiezukunft",
-      "published": "Fri, 01 May 2026 06:06:00 +0100",
+      "published": "2026-05-01T05:06:00+00:00",
       "matched_keywords": [
         "erneuerbare"
       ]
@@ -903,7 +1980,7 @@
       "teaser": "Wärmepumpen mit der Wärmequelle Erdwärme bieten zwar Vorteile gegenüber Luft-Wasser-Wärmepumpen, gehen aber auch mit höheren Investitionskosten für die Erdarbeiten zur Erschließung der Wärmequelle einher. Eine Studie berechnet die…",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/geothermische-waermepumpen-guenstigste-heizungsoption",
       "source": "energiezukunft",
-      "published": "Fri, 01 May 2026 06:02:00 +0100",
+      "published": "2026-05-01T05:02:00+00:00",
       "matched_keywords": [
         "wärmepumpe"
       ]
@@ -913,9 +1990,39 @@
       "teaser": "Teilnehmende Länder wie zivilgesellschaftliche Gruppierungen ziehen ein positives Fazit der Klimakonferenz in Santa Marta in Kolumbien. Eine Koalition von Willigen zeigt, wie die vollständige Abkehr von fossilen Energien gelingen kann.",
       "link": "https://www.energiezukunft.eu/politik/der-startschuss-zur-abkehr-von-fossilen-energien-ist-gefallen",
       "source": "energiezukunft",
-      "published": "Thu, 30 Apr 2026 11:58:00 +0100",
+      "published": "2026-04-30T10:58:00+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Two California bills would push utilities to get more out of their grids",
+      "teaser": "Could California’s major utilities control their rapidly rising electricity rates by using their power grids more efficiently? State lawmakers want to find out. A set of bills introduced this year would order Pacific Gas &amp; Electric,…",
+      "link": "https://www.canarymedia.com/articles/distributed-energy-resources/two-california-bills-utilities-grids",
+      "source": "canarymedia",
+      "published": "2026-04-30T07:30:00+00:00",
+      "matched_keywords": [
+        "power grid"
+      ]
+    },
+    {
+      "title": "New winter rates saved at least $37M for Massachusetts heat-pump owners",
+      "teaser": "New electric rates for heat pump owners helped more than 140,000 Massachusetts households save money on their heating bills this winter. Massachusetts consumers with home heat pumps saved some $37 million on their power bills — an average…",
+      "link": "https://www.canarymedia.com/articles/heat-pumps/winter-rates-massachusetts-heat-pump-owners",
+      "source": "canarymedia",
+      "published": "2026-04-30T07:30:00+00:00",
+      "matched_keywords": [
+        "heat pump"
+      ]
+    },
+    {
+      "title": "America’s big new aluminum smelter is still waiting on a power deal",
+      "teaser": "The Middle East crisis is straining global supplies of aluminum — a metal that’s key to making everything from fighter jets and soda cans to clean-energy technologies like solar panels and electric vehicles. Iran’s strikes on two Gulf…",
+      "link": "https://www.canarymedia.com/articles/clean-aluminum/americas-new-aluminum-smelter-needs-power",
+      "source": "canarymedia",
+      "published": "2026-04-30T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -923,7 +2030,7 @@
       "teaser": "Von der Schwermetallentfernung über Rohstoffrückgewinnung seltener Metalle bis hin zum Recycling von Windkraftanlagen – auf der IFAT Munich präsentieren Fraunhofer Forscher wegweisende Lösungen für die nachhaltige Wasser- und…",
       "link": "https://www.energiezukunft.eu/umweltschutz/water-energy-circularity-technologien-fuer-eine-resiliente-zukunft",
       "source": "energiezukunft",
-      "published": "Thu, 30 Apr 2026 06:02:00 +0100",
+      "published": "2026-04-30T05:02:00+00:00",
       "matched_keywords": [
         "windkraft"
       ]
@@ -933,7 +2040,7 @@
       "teaser": "Ab 2027 sollen Differenzverträge die Vergütung von Strom aus Solar- und Windparks regeln. Was der Referentenentwurf des EEG 2027 dazu vorsieht, setzt auf Bewährtes und findet Zustimmung in der Branche. Allerdings fehlt der…",
       "link": "https://www.energiezukunft.eu/politik/differenzvertraege-nehmen-gestalt-an",
       "source": "energiezukunft",
-      "published": "Thu, 30 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-30T05:00:00+00:00",
       "matched_keywords": [
         "eeg",
         "solar"
@@ -944,7 +2051,7 @@
       "teaser": "Das internationale C40-Städte-Netzwerk hebt Erneuerbare Energien als den effektivsten Weg hervor, um eine bezahlbare und zuverlässige Energieversorgung zu sichern. Ziel ist es, den Einsatz fossiler Brennstoffe bis 2030 zu halbieren.",
       "link": "https://www.energiezukunft.eu/klimakrise/staedte-weltweit-fordern-schnelleren-umstieg-auf-erneuerbare-energien",
       "source": "energiezukunft",
-      "published": "Wed, 29 Apr 2026 06:04:00 +0100",
+      "published": "2026-04-29T05:04:00+00:00",
       "matched_keywords": [
         "erneuerbare"
       ]
@@ -954,7 +2061,7 @@
       "teaser": "Während in Kolumbien die Internationale Konferenz zum Ausstieg aus fossilen Energien zu Ende geht, machen Fossilkonzerne in der neuen Energiekrise Milliardengewinne. NGOs fordern eine Übergewinnsteuer, um die globale Transformation zu…",
       "link": "https://www.energiezukunft.eu/politik/milliardengewinne-fuer-fossile-konzerne",
       "source": "energiezukunft",
-      "published": "Wed, 29 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-29T05:00:00+00:00",
       "matched_keywords": [
         "energiekrise"
       ]
@@ -964,10 +2071,20 @@
       "teaser": "Wegen vermeintlich zu hohen Kosten, will Wirtschaftsministerin Reiche den Erneuerbaren Ausbau bremsen und lieber Gaskraftwerke zur Versorgungssicherheit fördern. Zahlen eines neuen Gutachtens sprechen eine völlig andere Sprache.",
       "link": "https://www.energiezukunft.eu/wirtschaft/gutachten-widerspricht-reiches-maer-von-hohen-energiewende-systemkosten",
       "source": "energiezukunft",
-      "published": "Wed, 29 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-29T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "Virginia’s new law blocks counties from banning solar",
+      "teaser": "As data centers drive electricity demand to new heights and consumers struggle with rising energy costs, cheap, clean power remains out of reach in much of Virginia: Nearly two-thirds of counties outright ban or severely restrict large…",
+      "link": "https://www.canarymedia.com/articles/solar/virginia-blocks-counties-from-banning-solar",
+      "source": "canarymedia",
+      "published": "2026-04-28T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -975,7 +2092,7 @@
       "teaser": "Im Strategiepapier AccelerateEU liegt der Fokus auf Energieeffizienz für Energiesicherheit, Preisstabilität und Energieunabhängigkeit. Doch parallel und kontraproduktiv dazu irritiert die deutsche Regierung mit Abschwächung zentraler…",
       "link": "https://www.energiezukunft.eu/politik/energieeffizienz-ist-kein-nice-to-have-in-zeiten-von-energiekrisen",
       "source": "energiezukunft",
-      "published": "Tue, 28 Apr 2026 06:03:00 +0100",
+      "published": "2026-04-28T05:03:00+00:00",
       "matched_keywords": [
         "energiekrise",
         "energiesicherheit"
@@ -986,9 +2103,60 @@
       "teaser": "Eine Studie des BMWE zeigt, wie wichtig die Erneuerbaren für regionale Wertschöpfung sind. Doch das passt nicht in das Bild, das Ministerin Reiche von den Erneuerbaren zeichnen will. Sie stellt den Ausbau der Erneuerbaren vor allem als…",
       "link": "https://www.energiezukunft.eu/wirtschaft/wertschoepfung-in-den-regionen-gefaehrdet",
       "source": "energiezukunft",
-      "published": "Tue, 28 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-28T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "Trump is blocking solar for farmers. Can the Farm Bill fix that?",
+      "teaser": "President Donald Trump has dealt blow after blow to the Rural Energy for America Program, which has helped farmers save on their energy bills by going solar for nearly two decades. Now, REAP’s proponents see a chance to undo some of the…",
+      "link": "https://www.canarymedia.com/articles/food-and-farms/trump-blocking-solar-farm-bill",
+      "source": "canarymedia",
+      "published": "2026-04-27T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Fossil fuel promoters tied to campaign to keep Ohio county renewable ban",
+      "teaser": "A group fighting to uphold an Ohio county’s ban on renewable energy has significant financial ties to individuals and organizations that promote fossil fuels, as a campaign finance report filed this week reveals. Last summer, Richland…",
+      "link": "https://www.canarymedia.com/articles/politics/fossil-fuel-campaign-tied-renewables-ban",
+      "source": "canarymedia",
+      "published": "2026-04-24T23:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Solar power soared last year — and it’s not slowing down",
+      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. Last year was a huge one for renewable energy around the globe — but nothing showed up quite like solar power. This week, energy…",
+      "link": "https://www.canarymedia.com/articles/solar/solar-power-record-2025",
+      "source": "canarymedia",
+      "published": "2026-04-24T16:39:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Duke Energy’s proactive grid upgrades under fire from electric co-ops",
+      "teaser": "A narrow complaint to a federal energy commission could have wide implications for the solar industry and the electric grid — both in North Carolina, where it originated, as well as nationwide. At issue is a unique planning scheme that’s…",
+      "link": "https://www.canarymedia.com/articles/utilities/duke-energy-proactive-grid-upgrades",
+      "source": "canarymedia",
+      "published": "2026-04-24T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Which countries lead the way on nuclear energy?",
+      "teaser": "See more from Canary Media’s ​“Chart of the Week” column . Nuclear energy is experiencing a global resurgence. In the U.S. and Europe, a long-wary public has started to warm once again to the sector. Taiwan, which shuttered its last…",
+      "link": "https://www.canarymedia.com/articles/nuclear/which-countries-lead-nuclear",
+      "source": "canarymedia",
+      "published": "2026-04-24T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -996,7 +2164,7 @@
       "teaser": "Kostenexplosionen, Sicherheitsrisiken - auch durch den Klimawandel – und geopolitische Abhängigkeiten machen Atomkraft zu einer schlechten Wahl. Experten fordern stattdessen den konsequenten Ausbau Erneuerbarer Energiesysteme.",
       "link": "https://www.energiezukunft.eu/politik/das-risiko-der-atomkraft-finanzierung",
       "source": "energiezukunft",
-      "published": "Fri, 24 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-24T05:00:00+00:00",
       "matched_keywords": [
         "atomkraft",
         "erneuerbare",
@@ -1004,11 +2172,32 @@
       ]
     },
     {
+      "title": "Maryland bill trades cost-saving energy efficiency for short-term relief",
+      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy and the environment. Sign up for their newsletter. Maryland lawmakers’ new solution for rising utility bills…",
+      "link": "https://www.canarymedia.com/articles/politics/maryland-bill-trades-energy-efficiency",
+      "source": "canarymedia",
+      "published": "2026-04-23T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "An Ohio court may OK fracking-waste wells despite pollution concerns",
+      "teaser": "Ohio is a notoriously difficult state for building renewable energy. Many counties ban wind and solar outright, but even in those that don’t, state regulators often rely on local opposition to deny permits for developers. Fossil fuel…",
+      "link": "https://www.canarymedia.com/articles/fossil-fuels/ohio-court-fracking-waste",
+      "source": "canarymedia",
+      "published": "2026-04-23T07:30:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Entwürfe zu EEG-Novelle und Netzpaket enttäuschen",
       "teaser": "Die überfälligen Gesetzentwürfe für das EEG 2027 und das Netzpaket hat das BMWE nun vorgelegt. Die vielfach kritisierten Knackpunkte sind weiterhin enthalten – Redispatch-Vorbehalt und Wegfall der Vergütung für kleine Solaranlagen.",
       "link": "https://www.energiezukunft.eu/politik/entwuerfe-zu-eeg-novelle-und-netzpaket-enttaeuschen",
       "source": "energiezukunft",
-      "published": "Thu, 23 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-23T05:00:00+00:00",
       "matched_keywords": [
         "eeg"
       ]
@@ -1018,10 +2207,20 @@
       "teaser": "Der Petersberger Klimadialog 2026 rückt die Energiewende als Sicherheitsfaktor in den Fokus. Als Wegbereiter der COP 31 debattierten 30 Nationen in Berlin über fossile Unabhängigkeit und internationale Klimafinanzierung.",
       "link": "https://www.energiezukunft.eu/politik/weichenstellen-fuer-die-globale-energiewende-in-krisenzeiten",
       "source": "energiezukunft",
-      "published": "Thu, 23 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-23T05:00:00+00:00",
       "matched_keywords": [
         "energiewende",
         "klima"
+      ]
+    },
+    {
+      "title": "Why smartphone cameras could unlock cheaper, faster rooftop solar",
+      "teaser": "Chaz Weatherford has a busy schedule. On a typical workday, the solar inspection technician for major U.S. rooftop solar company Freedom Forever drives to eight or nine homes across southern Arizona, checking to make sure their newly…",
+      "link": "https://www.canarymedia.com/articles/solar/smartphones-rooftop-solar-cheaper-easier",
+      "source": "canarymedia",
+      "published": "2026-04-22T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -1029,9 +2228,19 @@
       "teaser": "Die erneute Energiekrise verunsichert die Menschen im Land. Sie fürchten sich vor steigenden Preisen. Mit einem neuen Stromtarif will der Ökoenergieversorger naturstrom dem entgegenwirken: Ein Energiepreis, der bis Ende 2030 fix ist.",
       "link": "https://www.energiezukunft.eu/wirtschaft/sicherer-stromvertrag-bis-ende-2030",
       "source": "energiezukunft",
-      "published": "Wed, 22 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-22T05:00:00+00:00",
       "matched_keywords": [
         "energiekrise"
+      ]
+    },
+    {
+      "title": "US judge halts Trump admin’s blockade on new wind and solar projects",
+      "teaser": "A federal judge has ordered the Trump administration to lift its blockade on new U.S. wind and solar projects. On Tuesday, Chief U.S. District Judge Denise Casper in Boston sided with nine clean energy organizations that sued to stop the…",
+      "link": "https://www.canarymedia.com/articles/clean-energy/us-judge-halts-trump-admins-blockade-on-new-wind-and-solar-projects",
+      "source": "canarymedia",
+      "published": "2026-04-22T00:55:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -1039,7 +2248,7 @@
       "teaser": "Der Umweltrat gibt der Bundesregierung Empfehlungen für kreislaufgerechtes Bauen und Bestandserhalt. Sie zielen darauf ab, den Klima- und Umweltschutz zu stärken, Sekundärbauprodukte attraktiver zu machen und neue Geschäftsmodelle…",
       "link": "https://www.energiezukunft.eu/bauen/zirkulaeres-bauen-bringt-chancen-fuer-umwelt-und-wirtschaft",
       "source": "energiezukunft",
-      "published": "Tue, 21 Apr 2026 06:02:00 +0100",
+      "published": "2026-04-21T05:02:00+00:00",
       "matched_keywords": [
         "klima"
       ]
@@ -1049,9 +2258,20 @@
       "teaser": "Mit 1,75 Milliarden Euro Fördergeld will Bundesumweltminister Carsten Schneider in Deutschland die Wiedervernässung von 90.000 Hektar Land ermöglichen. Die Flächen sollen dann nass bewirtschaftet werden. Die EU gab ihr beihilferechtliches…",
       "link": "https://www.energiezukunft.eu/umweltschutz/foerderung-zur-wiedervernaessung-von-mooren-startet",
       "source": "energiezukunft",
-      "published": "Tue, 21 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-21T05:00:00+00:00",
       "matched_keywords": [
         "förderung"
+      ]
+    },
+    {
+      "title": "Are long-promised solar perovskites finally hitting mass production?",
+      "teaser": "Perovskites hold a place of honor in the pantheon of much-heralded clean energy breakthroughs that have yet to actually arrive, alongside small modular nuclear reactors and solid-state batteries. In theory, these crystal structures could…",
+      "link": "https://www.canarymedia.com/articles/solar/perovskites-mass-production-tandem-fremont",
+      "source": "canarymedia",
+      "published": "2026-04-20T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear",
+        "solar"
       ]
     },
     {
@@ -1059,7 +2279,7 @@
       "teaser": "Im Frühjahr 2026 steht die Europäische Union erneut vor der Herausforderung, die wirtschaftlichen Folgen einer volatilen Energieversorgung zu bewältigen. Kurzfristige Entlastungen treffen auf eine strukturelle Neugestaltung der Märkte.",
       "link": "https://www.energiezukunft.eu/politik/massnahmen-gegen-die-preiskrise",
       "source": "energiezukunft",
-      "published": "Mon, 20 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-20T05:00:00+00:00",
       "matched_keywords": [
         "forderung"
       ]
@@ -1069,7 +2289,7 @@
       "teaser": "Südbayerns geologische Formationen bieten ein bislang unterschätztes Potenzial zur Speicherung großer Mengen Wasserstoff und könnten laut einer Studie der TU München bis zu 25,2 Terawattstunden speichern.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/grosses-wasserstoff-speicherpotenzial-in-bayern",
       "source": "energiezukunft",
-      "published": "Fri, 17 Apr 2026 06:05:00 +0100",
+      "published": "2026-04-17T05:05:00+00:00",
       "matched_keywords": [
         "speicher",
         "wasserstoff"
@@ -1080,7 +2300,7 @@
       "teaser": "Die niedersächsische Stadt Helmstedt steht exemplarisch für den Wandel von einer fossilen Bergbauregion zu einem modernen Standort für Erneuerbare Energien, eine starke regionale Gemeinschaft, Innovation und nachhaltige Wärmeversorgung.",
       "link": "https://www.energiezukunft.eu/buergerenergie/strukturwandel-im-revier-helmstedt-gestaltet-die-energiewende",
       "source": "energiezukunft",
-      "published": "Thu, 16 Apr 2026 06:02:00 +0100",
+      "published": "2026-04-16T05:02:00+00:00",
       "matched_keywords": [
         "energiewende",
         "erneuerbare"
@@ -1091,7 +2311,7 @@
       "teaser": "Klimaschutz passé? Ganz und gar nicht! Es gibt gute Gründe positiv auf technologische, soziale und politische Dynamiken in Sachen Klima zu schauen.",
       "link": "https://www.energiezukunft.eu/politik/zeit-fuer-klimaoptimismus",
       "source": "energiezukunft",
-      "published": "Thu, 16 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-16T05:00:00+00:00",
       "matched_keywords": [
         "klima",
         "klimaschutz"
@@ -1102,7 +2322,7 @@
       "teaser": "Die Meeres-Wärmepumpe auf der ostfriesischen Insel Borkum arbeitet seit März 2025 mit selbstreinigenden Wärmetauschern im salinen Umfeld – eine Novität in Europa. Ihren ersten, besonders kalten Winter, hat sie erfolgreich überstanden.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/viel-meer-grosse-pumpe-und-friedliche-waerme",
       "source": "energiezukunft",
-      "published": "Wed, 15 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-15T05:00:00+00:00",
       "matched_keywords": [
         "wärmepumpe"
       ]
@@ -1112,7 +2332,7 @@
       "teaser": "Von der Nordsee bis zu den Alpen – im ganzen Land sollen neue Gasinfrastrukturen, wie Kraftwerke, LNG-Terminals und Förderstätten entstehen. Umweltorganisationen zeigen, auf einer interaktiven Karte, wo.",
       "link": "https://www.energiezukunft.eu/wirtschaft/gas-statt-tempo-bei-erneuerbaren-karte-zeigt-neue-bohrplaene-in-deutschland",
       "source": "energiezukunft",
-      "published": "Wed, 15 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-15T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare",
         "lng"
@@ -1123,7 +2343,7 @@
       "teaser": "Ein Tempolimit in Deutschland könnte für Autofahrende jährlich Milliarden Euro an Tankkosten und Millionen Tonnen CO2 sparen sowie mehr Verkehrssicherheit schaffen. Die Politik setzt vorläufig jedoch weiter auf fossile Rabatte.",
       "link": "https://www.energiezukunft.eu/mobilitaet/milliarden-weniger-tankkosten-durch-tempolimit-moeglich",
       "source": "energiezukunft",
-      "published": "Wed, 15 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-15T05:00:00+00:00",
       "matched_keywords": [
         "co2"
       ]
@@ -1133,7 +2353,7 @@
       "teaser": "Im Innovationswettbewerb der DGNB stehen die Finalisten fest. Ihre Themen reichen von regenerativen Baumaterialien über alternative Bauweisen bis hin zur Regenwassernutzung und CO2-neutraler Energieversorgung in Quartieren.",
       "link": "https://www.energiezukunft.eu/bauen/vom-bio-klebstoff-bis-zur-klimaneutralen-speicherstadt",
       "source": "energiezukunft",
-      "published": "Tue, 14 Apr 2026 06:02:00 +0100",
+      "published": "2026-04-14T05:02:00+00:00",
       "matched_keywords": [
         "co2",
         "klimaneutral",
@@ -1145,7 +2365,7 @@
       "teaser": "Rumänien geht mit großen Schritten ins Gigawatt-Zeitalter der Erneuerbaren Energien. Projekte der Superlative entstehen, oft in Kombination mit Batteriespeichersystemen. Demnächst soll im Schwarzen Meer aber auch Gas gefördert werden.",
       "link": "https://www.energiezukunft.eu/wirtschaft/rumaenien-setzt-auf-grossanlagen-mit-speichern",
       "source": "energiezukunft",
-      "published": "Tue, 14 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-14T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare",
         "speicher"
@@ -1156,9 +2376,70 @@
       "teaser": "Und wieder hat eine Bundesregierung einen Tankrabatt beschlossen. Ein solcher zeigte schon 2022 nur begrenzte Wirkung. Weitere Maßnahmen gegen die Energiekrise werden debattiert, fehlen bislang jedoch.",
       "link": "https://www.energiezukunft.eu/mobilitaet/ein-tankrabatt-der-schon-einmal-nicht-die-erhoffte-wirkung-zeigte",
       "source": "energiezukunft",
-      "published": "Tue, 14 Apr 2026 06:00:00 +0100",
+      "published": "2026-04-14T05:00:00+00:00",
       "matched_keywords": [
         "energiekrise"
+      ]
+    },
+    {
+      "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
+      "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
+      "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
+      "source": "cleanenergywire",
+      "published": "2026-03-24T15:29:11+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Climate change meets sport: Wildfire-recovering Los Angeles gears up to host Summer Olympic Games",
+      "teaser": "Climate change meets sport: Wildfire-recovering Los Angeles gears up to host Summer Olympic Games waiyilam Tue, 10 Mar 2026 - 15:38 23 June 2026 at 16.00-17.00 CEST / 15.00-16.00 BST Berlin Everyone Over five billion people are expected to…",
+      "link": "https://www.cleanenergywire.org/webinar/climate-change-meets-sport-wildfire-recovering-los-angeles-gears-host-summer-olympic-games",
+      "source": "cleanenergywire",
+      "published": "2026-03-10T14:38:55+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "CLEW Webinar: Staying on track? What's next for climate and energy in Germany and Europe in 2026",
+      "teaser": "CLEW Webinar: Staying on track? What's next for climate and energy in Germany and Europe in 2026 c.kyllmann Tue, 20 Jan 2026 - 17:00 28 January 2026 at 16.00-17.00 CET Berlin Everyone 2026 is shaping up to be a decisive year for climate…",
+      "link": "https://www.cleanenergywire.org/webinar/clew-webinar-staying-track-whats-next-climate-and-energy-germany-and-europe-2026",
+      "source": "cleanenergywire",
+      "published": "2026-01-20T16:00:08+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "India–Germany Climate and Energy Journalism Programme",
+      "teaser": "India–Germany Climate and Energy Journalism Programme c.kyllmann Tue, 20 Jan 2026 - 15:53 Deadline to apply: 27 January, 23.59 CET Berlin Journalists based in India and Germany Amid rising geopolitical tensions and the consequences of…",
+      "link": "https://www.cleanenergywire.org/grants/india-germany-climate-and-energy-journalism-programme",
+      "source": "cleanenergywire",
+      "published": "2026-01-20T14:53:09+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Zukunft KlimaSozial",
+      "teaser": "Zukunft KlimaSozial c.kyllmann Thu, 8 Jan 2026 - 11:43 Zukunft KlimaSozial Environmental groups Germany Sina Lippmann presse@zukunft-klimasozial.de The think tank aims to feed proposals into the debate and policymaking that integrate…",
+      "link": "https://www.cleanenergywire.org/experts/zukunft-klimasozial",
+      "source": "cleanenergywire",
+      "published": "2026-01-08T10:43:31+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Gesetz zur Aufhebung des Treibhausgas-Emissionshandelsgesetzes und des Brennstoffemissionshandelsgesetzes (CO2-Preis Abschaffungsgesetz)",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aufhebung-des-treibhausgas-emissionshandelsgesetzes-und-des-brennstoffemissionshandelsgesetzes-co2-preis-abschaffungsgesetz",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "co2-preis",
+        "emission"
       ]
     },
     {
@@ -1399,43 +2680,13 @@
       ]
     },
     {
-      "title": "Eurowind Energy Romania décroche les permis du parc hybride Siminoc de 49,6 MW",
-      "teaser": "Eurowind Energy Romania a obtenu les permis de construire pour le projet Siminoc, premier parc hybride éolien-solaire de la société dans le comté de Constanța, pour un investissement estimé à 65 millions d'euros.",
-      "link": "https://energynews.pro/eurowind-energy-romania-decroche-les-permis-du-parc-hybride-siminoc-de-496-mw",
-      "source": "energynews-pro",
-      "published": "Wed, 10 Jun 2026 12:41:04 GMT",
+      "title": "EU imports of Russian LNG expected to increase while legal",
+      "teaser": "Huangluolun Zhou",
+      "link": "https://www.montelnews.com/news/c294db80-944d-4e11-9864-e56946cf33fa/eu-imports-of-russian-lng-to-increase-while-legal-analyst",
+      "source": "montelnews",
+      "published": null,
       "matched_keywords": [
-        "wind energy"
-      ]
-    },
-    {
-      "title": "Air Liquide déploie une unité pilote Cryocap pour décarboner le ciment",
-      "teaser": "Air Liquide déploie sa première unité pilote industrielle Cryocap™ FG pour le secteur du ciment au sein du CaptureLab de Holcim en France, une technologie visant à capter plus de 95 % du CO2 issu des fumées industrielles.",
-      "link": "https://energynews.pro/air-liquide-deploie-une-unite-pilote-cryocap-pour-decarboner-le-ciment",
-      "source": "energynews-pro",
-      "published": "Wed, 10 Jun 2026 10:00:06 GMT",
-      "matched_keywords": [
-        "co2"
-      ]
-    },
-    {
-      "title": "Trinasolar et Ecohope Solar signent un accord de distribution de 600 MW",
-      "teaser": "Trinasolar et Ecohope Solar ont signé un protocole d'accord portant sur la distribution de 600 MW de modules solaires Vertex G3 en Asie du Sud-Est, au Moyen-Orient et en Afrique sur trois ans.",
-      "link": "https://energynews.pro/trinasolar-et-ecohope-solar-signent-un-accord-de-distribution-de-600-mw",
-      "source": "energynews-pro",
-      "published": "Wed, 10 Jun 2026 08:47:03 GMT",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "La Norvège remet en cause sa subvention de 3,7 milliards pour l'éolien flottant",
-      "teaser": "Le parlement norvégien a voté la révision d'une enveloppe de 35 milliards de couronnes (3,70 milliards de dollars) destinée au premier parc éolien flottant commercial du pays, fragilisant les plans de deux consortiums internationaux.",
-      "link": "https://energynews.pro/la-norvege-remet-en-cause-sa-subvention-de-37-milliards-pour-leolien-flottant",
-      "source": "energynews-pro",
-      "published": "Wed, 10 Jun 2026 06:00:20 GMT",
-      "matched_keywords": [
-        "subvention"
+        "lng"
       ]
     },
     {
@@ -1622,1102 +2873,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Germany’s energy network awaits September to ignite next LNG link in FSRU chain",
-      "teaser": "Germany’s Deutsche Energy Terminal (DET), part of the German Federal Ministry for Economic Affairs and Climate Action and a state-owned operator of four liquefied natural gas (LNG) terminals, has revealed the timeline for the commissioning…",
-      "link": "https://www.offshore-energy.biz/germanys-energy-network-awaits-september-to-ignite-next-lng-link-in-fsru-chain/",
-      "source": "offshore-energy",
-      "published": "Wed, 10 Jun 2026 11:21:54 +0000",
-      "matched_keywords": [
-        "climate",
-        "lng"
-      ]
-    },
-    {
-      "title": "Shell’s new oil discovery adds fuel to Namibia’s black gold rush",
-      "teaser": "Shell Namibia Upstream, a subsidiary of the UK-headquartered energy giant Shell, has found more oil in the Orange Basin off the coast of Namibia. The post Shell&#8217;s new oil discovery adds fuel to Namibia’s black gold rush appeared…",
-      "link": "https://www.offshore-energy.biz/shells-new-oil-discovery-adds-fuel-to-namibias-black-gold-rush/",
-      "source": "offshore-energy",
-      "published": "Wed, 10 Jun 2026 08:17:14 +0000",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "EU clears $26.5bn of Italian State aid to boost renewable power capacity",
-      "teaser": "The EC has authorised a €23bn ($26.5bn) State aid scheme from Italy intended to increase electricity generation from renewable energy sources.",
-      "link": "https://www.energymonitor.ai/news/eu-clears-italian-state-aid/",
-      "source": "energymonitor",
-      "published": "Tue, 09 Jun 2026 07:13:37 +0000",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Oman issues Marsa solar IPP consultancy tender",
-      "teaser": "Nama Power & Water Procurement Company invited bids for a contract to supervise the construction of the Marsa solar power project.",
-      "link": "https://www.energymonitor.ai/news/oman-issues-marsa-solar-ipp-consultancy-tender/",
-      "source": "energymonitor",
-      "published": "Mon, 08 Jun 2026 11:49:13 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Ark Energy’s Richmond Valley project approved for grid connection",
-      "teaser": "Ark Energy has received approval to connect its Richmond Valley Solar Farm and BESS in NSW, to the National Electricity Market (NEM).",
-      "link": "https://www.energymonitor.ai/news/richmond-valley-approval-grid-connection/",
-      "source": "energymonitor",
-      "published": "Mon, 08 Jun 2026 07:29:19 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Rolls-Royce to build four BESS facilities for Sunly in Latvia",
-      "teaser": "Rolls-Royce Power Systems and Sunly have formalised contracts for the construction of four large-scale battery storage facilities in Latvia.",
-      "link": "https://www.energymonitor.ai/news/rolls-royce-sunly-bess-latvia/",
-      "source": "energymonitor",
-      "published": "Fri, 05 Jun 2026 10:05:07 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Prysmian completes cable installation for Sofia offshore wind farm",
-      "teaser": "Prysmian Group has completed its cable installation contract for RWE’s 1.4GW Sofia offshore wind farm on Dogger Bank in the North Sea.",
-      "link": "https://www.energymonitor.ai/news/prysmian-completes-cable-installation-sofia/",
-      "source": "energymonitor",
-      "published": "Thu, 04 Jun 2026 07:40:49 +0000",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "EDF and Masdar sign 15-year PPAs for BigBeau Solar+Storage output",
-      "teaser": "EDF power solutions North America and Masdar have signed 15-year power purchase agreements (PPAs) for the output of the BigBeau Solar+Storage Project in Kern County, California.",
-      "link": "https://www.energymonitor.ai/news/edf-masdar-sign-15-year-ppas-bigbeau-output/",
-      "source": "energymonitor",
-      "published": "Wed, 03 Jun 2026 08:08:38 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Chinese-Saudi joint venture to build 18GWh battery storage plant",
-      "teaser": "The first phase of the manufacturing facility is scheduled to begin operations in the first quarter of 2027.",
-      "link": "https://www.energymonitor.ai/news/battery-storage-plant-china-saudi-arabia/",
-      "source": "energymonitor",
-      "published": "Tue, 02 Jun 2026 11:18:28 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Data centres are becoming a defining force in power markets – can renewables keep up?",
-      "teaser": "AI-driven growth in computing is turning data centres into one of the largest new sources of electricity demand – can renewables keep up?",
-      "link": "https://www.energymonitor.ai/analysis/powering-data-centres/",
-      "source": "energymonitor",
-      "published": "Tue, 02 Jun 2026 08:37:48 +0000",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "OX2 starts work on solar and battery projects in Poland",
-      "teaser": "OX2 has commenced construction on two renewable energy projects in Poland, following investment decisions for both.",
-      "link": "https://www.energymonitor.ai/news/ox2-starts-work-solar-poland/",
-      "source": "energymonitor",
-      "published": "Tue, 02 Jun 2026 07:26:55 +0000",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Countries pledge €3.4bn for climate adaptation, biodiversity protection and water security",
-      "teaser": "Representatives from 186 nations agreed the Global Environment Facility fund, which will support projects in 144 countries.",
-      "link": "http://www.euronews.com/2026/06/10/countries-pledge-34bn-for-climate-adaptation-biodiversity-protection-and-water-security",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 15:37:59 +0200",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Baku Energy Week highlights a new era of energy connectivity and cooperation",
-      "teaser": "At Baku Energy Week 2026, global leaders and industry experts discussed energy security, diversification, renewables and connectivity, highlighting the growing role of cooperation and innovation in shaping future energy systems.",
-      "link": "http://www.euronews.com/2026/06/10/baku-energy-week-highlights-a-new-era-of-energy-connectivity-and-cooperation",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 15:00:30 +0200",
-      "matched_keywords": [
-        "energy security",
-        "renewable"
-      ]
-    },
-    {
-      "title": "'Europe should evolve its carbon market, not dilute it,' investors say",
-      "teaser": "A group of investors managing €11.4 trillion in funds are advocating for complementary industrial policies such as grids, electrification and clean tech financing, reflecting a broader shift in European climate policy from setting targets…",
-      "link": "http://www.euronews.com/my-europe/2026/06/10/europe-should-evolve-its-carbon-market-not-dilute-it-investors-say",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 14:50:37 +0200",
-      "matched_keywords": [
-        "climate policy"
-      ]
-    },
-    {
-      "title": "Defying Russia: Poland and Germany plan massive offshore wind farms in the Baltic Sea",
-      "teaser": "Despite hybrid attacks from Russia, Poland is betting on offshore wind power from the Baltic Sea. At a forum in Berlin, one message was clear: the region could become Europe’s next major energy hub. Will Europe seize this opportunity?",
-      "link": "http://www.euronews.com/my-europe/2026/06/10/defying-russia-poland-and-germany-plan-massive-offshore-wind-farms-in-the-baltic-sea",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 13:16:02 +0200",
-      "matched_keywords": [
-        "wind farm",
-        "wind power"
-      ]
-    },
-    {
-      "title": "‘Coal power has lost its status’: Solar power outstrips coal in US despite Trump's attacks",
-      "teaser": "States won by Trump in the 2024 election accounted for 74 per cent of all solar capacity installed in the first quarter of 2026.",
-      "link": "http://www.euronews.com/2026/06/10/coal-power-has-lost-its-status-solar-power-outstrips-coal-in-us-despite-trumps-attacks",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 11:06:25 +0200",
-      "matched_keywords": [
-        "coal power",
-        "solar"
-      ]
-    },
-    {
-      "title": "Europe Today: US and Iran exchange fresh attacks as EU unveils new Russia sanctions",
-      "teaser": "Iran has launched a missile attack on a US air base in Jordan after President Donald Trump blamed Tehran for the downing of an American Apache helicopter. In Europe, Jorge Liboreiro reports on the EU's new package of sanctions against…",
-      "link": "http://www.euronews.com/my-europe/2026/06/10/europe-today-us-and-iran-exchange-fresh-attacks-as-eu-unveils-new-russia-sanctions",
-      "source": "euronews-green",
-      "published": "Wed, 10 Jun 2026 07:57:24 +0200",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "New QCells plant doubles current US capacity to make solar cells",
-      "teaser": "Qcells has officially begun commercial production of silicon solar cells at its factory in Cartersville, Georgia, the company said Tuesday. That factory is the largest of its kind in the country — and a long-awaited boost to the U.S. solar…",
-      "link": "https://www.canarymedia.com/articles/solar/qcells-solar-plant-double-capacity",
-      "source": "canarymedia",
-      "published": "Tue, 09 Jun 2026 15:00:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "North Carolina bill would prop up coal until new nuclear is approved",
-      "teaser": "North Carolina’s Republican-led House of Representatives passed a sweeping energy bill last week called the Ratepayer Protection Act, with backers saying it would reduce energy costs for families across the state. But Democrats and other…",
-      "link": "https://www.canarymedia.com/articles/fossil-fuels/north-carolina-bill-coal-nuclear",
-      "source": "canarymedia",
-      "published": "Tue, 09 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Want a deal on a heat pump? Team up with your neighbors.",
-      "teaser": "Last year, Marie Tai needed a better way to keep her condo cool. Her window air-conditioning units were borderline ineffective, even running at full blast. Summers have been getting more intense in Tai’s Boston neighborhood because of a…",
-      "link": "https://www.canarymedia.com/articles/heat-pumps/heat-pump-deal-neighbors",
-      "source": "canarymedia",
-      "published": "Mon, 08 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "heat pump"
-      ]
-    },
-    {
-      "title": "Where does balcony solar stand in your state?",
-      "teaser": "This article was originally published on April 6, 2026, and last updated on June 8, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
-      "link": "https://www.canarymedia.com/articles/solar/states-passing-balcony-solar-laws",
-      "source": "canarymedia",
-      "published": "Mon, 08 Jun 2026 03:00:00 -0400",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Ohio has blocked a lot of wind and solar. Its residents pay the price.",
-      "teaser": "Last week, the Ohio Supreme Court blocked a permit for what would be the state’s largest solar installation. The 800-megawatt Oak Run Solar Project still has a pathway to completion — the court reversed only one part of the state siting…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/ohio-blocked-wind-solar",
-      "source": "canarymedia",
-      "published": "Fri, 05 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "DOE bars homes from using rebates to ditch fossil-fueled heating",
-      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. Federal energy efficiency rebate programs will no longer…",
-      "link": "https://www.canarymedia.com/articles/electrification/doe-homes-using-rebates",
-      "source": "canarymedia",
-      "published": "Wed, 03 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "A safer nuclear fuel is gaining steam — but cost remains a hurdle",
-      "teaser": "As the U.S. looks to revive its stagnant nuclear industry, a group of companies is racing to realize the promise of a “meltdown-proof” fuel that for decades has struggled to progress beyond federal lab experiments. Tri-structural isotropic…",
-      "link": "https://www.canarymedia.com/articles/nuclear/safer-nuclear-fuel-gaining-steam",
-      "source": "canarymedia",
-      "published": "Tue, 02 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "California makes controversial change to cap-and-invest program",
-      "teaser": "The California Air Resources Board on Friday approved major changes to the state’s cap-and-invest program , including a controversial plan to allow polluting industries to earn free emissions allowances if they invest in decarbonizing…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-controversial-cap-and-invest-program",
-      "source": "canarymedia",
-      "published": "Mon, 01 Jun 2026 13:30:00 -0400",
-      "matched_keywords": [
-        "decarbon",
-        "emission"
-      ]
-    },
-    {
-      "title": "Thanks to two new laws, more Virginians can save with community solar",
-      "teaser": "When Steve Ault got an offer about six years ago to lease a bit of his 100-acre family farm in Prince Edward County, Virginia, for solar panels, he let the letter sit on the kitchen table for a few days. Then he showed it to his wife,…",
-      "link": "https://www.canarymedia.com/articles/solar/two-new-laws-virginia-community-solar",
-      "source": "canarymedia",
-      "published": "Mon, 01 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "In new attack on solar, lawmakers spread myths about potato farms",
-      "teaser": "Is Frito-Lay categorically refusing to buy potatoes grown on farmland that has hosted solar installations? No, the company says. That hasn&#039;t stopped lawmakers in Michigan and Pennsylvania from spreading the false claim about one of…",
-      "link": "https://www.canarymedia.com/articles/solar/attack-solar-myths-potato-farms",
-      "source": "canarymedia",
-      "published": "Mon, 01 Jun 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Voters in 9 states will pick the people overseeing their power bills",
-      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. The 2026 election season is officially upon us, and with electricity prices on the rise, energy affordability is sure to factor…",
-      "link": "https://www.canarymedia.com/articles/utilities/voters-in-9-states-get-to-pick-the-people-who-oversee-their-power-bills",
-      "source": "canarymedia",
-      "published": "Fri, 29 May 2026 13:36:00 -0400",
-      "matched_keywords": [
-        "electricity price"
-      ]
-    },
-    {
-      "title": "The tax credit cliff has hit EV sales hard",
-      "teaser": "This article is part of our ​“Chart of the Week” series . Once upon a time, Americans could get big federal tax incentives for buying electric vehicles, heat pumps, rooftop solar, and home batteries. But the Trump administration scrapped…",
-      "link": "https://www.canarymedia.com/articles/electric-vehicles/the-tax-credit-cliff-has-hit-ev-sales-hard",
-      "source": "canarymedia",
-      "published": "Fri, 29 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "heat pump",
-        "solar"
-      ]
-    },
-    {
-      "title": "The hidden innovation behind Antora’s massive new heat battery",
-      "teaser": "A giant energy-storage project in South Dakota will soon turn cheap wind energy into clean industrial steam for a neighboring biofuels facility. The startup Antora Energy said it recently began booting up a 5-gigawatt-hour thermal energy…",
-      "link": "https://www.canarymedia.com/articles/energy-storage/innovation-antora-massive-heat-battery",
-      "source": "canarymedia",
-      "published": "Wed, 27 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "wind energy"
-      ]
-    },
-    {
-      "title": "New York state gives up on its most ambitious climate targets",
-      "teaser": "Seven years ago, New York passed what leaders touted as one of the nation’s most ambitious climate laws. Now, the state has kneecapped it ahead of a crucial end-of-decade deadline. On Tuesday, the Democratic-controlled legislature approved…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/new-york-gives-up-ambitious-climate-targets",
-      "source": "canarymedia",
-      "published": "Wed, 27 May 2026 00:00:00 -0400",
-      "matched_keywords": [
-        "climate law",
-        "climate target"
-      ]
-    },
-    {
-      "title": "This AI tool helps community solar developers connect to the grid sooner",
-      "teaser": "Forrest Bagley was eager to dive into Illinois’ community solar market. The solar company he owns with his father and brother had successfully developed arrays in Maine, Massachusetts, and New York, and generous state incentives for…",
-      "link": "https://www.canarymedia.com/articles/solar/ai-helps-community-solar-connect-grid",
-      "source": "canarymedia",
-      "published": "Tue, 26 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "The grid is in better shape this summer. Thank solar and batteries.",
-      "teaser": "It’s set to be an abnormally hot summer this year — but the U.S. grid appears to be in decent shape to handle the heat. The credit goes to a boatload of new solar and storage and a handful of new gas plants. That’s the upshot of the new…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/grid-better-shape-this-summer",
-      "source": "canarymedia",
-      "published": "Tue, 26 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Denver has a plan to heat and cool buildings with — wait for it — sewage",
-      "teaser": "This story was originally published by Colorado Public Radio . Sign up for CPR’s weekly climate newsletter. DENVER — Like in many American cities, Denver&#039;s largest source of climate pollution is its buildings. Powering, heating, and…",
-      "link": "https://www.canarymedia.com/articles/geothermal/denver-heat-cool-buildings-sewage",
-      "source": "canarymedia",
-      "published": "Mon, 25 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Another first for renewables: Wind and solar outgenerate gas in April",
-      "teaser": "See more from Canary Media’s “Chart of the week” column . April 2026: Remember the date for the energy-transition history books. It’s the first month when wind and solar combined to produce more electricity than natural gas did, per new…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/wind-solar-outgenerate-gas-april",
-      "source": "canarymedia",
-      "published": "Fri, 22 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "24/7 renewables could happen sooner than you think",
-      "teaser": "One of the biggest knocks against renewables — their intermittency — could soon be defanged. As technology prices fall and industry prowess compounds, a new type of clean megaproject is starting to look not only possible but also…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/24-7-renewables-could-happen-soon",
-      "source": "canarymedia",
-      "published": "Thu, 21 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "This Vermont town embraced a wind farm. Solar is a different story.",
-      "teaser": "LOWELL, Vt. — Doug Manning built his three-story home for the views. Mountain peaks ring the 800-person town of Lowell, and just beyond his back porch stretches a hayfield that the community uses as a kind of public square. The 44-acre…",
-      "link": "https://www.canarymedia.com/articles/solar/lowell-vermont-opposition-clean-energy-farmland",
-      "source": "canarymedia",
-      "published": "Thu, 21 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "California cap-and-invest proposal would threaten state climate goals",
-      "teaser": "California’s top air regulator wants to overhaul the state’s two-decade-old carbon market. But key lawmakers and environmental groups say the effort will undermine the program — and the state’s decarbonization goals. Last month, the…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-cap-and-invest-proposal",
-      "source": "canarymedia",
-      "published": "Wed, 20 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "climate",
-        "decarbon"
-      ]
-    },
-    {
-      "title": "Bay Area looks to exempt some households from gas water-heater phaseout",
-      "teaser": "In 2023, the San Francisco Bay Area’s air district passed first-in-the-nation rules setting zero-emissions limits on home heating systems and water heaters. Now, the agency is working to address affordability concerns ahead of the…",
-      "link": "https://www.canarymedia.com/articles/electrification/bay-area-exempt-gas-water-heater",
-      "source": "canarymedia",
-      "published": "Wed, 20 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
-      "title": "How big can solar go? These 3 projects show us the gigascale future",
-      "teaser": "Until recently, pacesetting solar projects were measured in the hundreds of megawatts. But panels keep getting cheaper, and developers keep getting better at installing them. As a result, power companies are undertaking projects that are…",
-      "link": "https://www.canarymedia.com/articles/solar/how-big-can-solar-go",
-      "source": "canarymedia",
-      "published": "Tue, 19 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Trump admin defends its coal must-run orders in court",
-      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy, and the environment. Sign up for their newsletter. The Trump administration on Friday defended its legal…",
-      "link": "https://www.canarymedia.com/articles/fossil-fuels/trump-admin-defends-coal-order",
-      "source": "canarymedia",
-      "published": "Tue, 19 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "X-energy gets federal environmental approval for Texas nuclear reactors",
-      "teaser": "X-energy, the Amazon-backed nuclear startup looking to revive the United States’ high-temperature gas-cooled reactor efforts, just took a major step toward securing federal permits to start construction on its debut plant. On Monday, the…",
-      "link": "https://www.canarymedia.com/articles/nuclear/x-energy-gets-federal-approval-reactors",
-      "source": "canarymedia",
-      "published": "Mon, 18 May 2026 16:00:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Solar to overtake coal on Texas grid for the first time ever this year",
-      "teaser": "The Texas sun keeps rising, as Texas coal wanes. For the first time ever, solar is set to generate more electricity than coal in the power market managed by the Electric Reliability Council of Texas. Nobody is building new coal power…",
-      "link": "https://www.canarymedia.com/articles/solar/solar-overtakes-coal-texas-first",
-      "source": "canarymedia",
-      "published": "Mon, 18 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "coal power",
-        "solar"
-      ]
-    },
-    {
-      "title": "Soaring gas prices have drivers turning to EVs — except in the US",
-      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. As the war in Iran spikes gasoline prices around the globe, drivers in many countries have headed for an obvious emergency exit:…",
-      "link": "https://www.canarymedia.com/articles/electric-vehicles/chinese-evs-europe-us-gas-prices",
-      "source": "canarymedia",
-      "published": "Fri, 15 May 2026 13:54:00 -0400",
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "The world is installing grid batteries at a blistering pace",
-      "teaser": "See more from Canary Media’s “Chart of the Week” column . First came the solar. Now, the batteries have arrived. Installations of grid batteries, which can store solar and other energy for later use, surged by 48% in 2025 from the year…",
-      "link": "https://www.canarymedia.com/articles/batteries/world-installing-grid-batteries",
-      "source": "canarymedia",
-      "published": "Fri, 15 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "North Carolina groups fight regulator’s order to cancel solar for 2026",
-      "teaser": "Last month, North Carolina’s top utility regulator abruptly halted Duke Energy’s solar farm investments for the year — an unforeseen blow to an industry already reeling from tariffs and a hostile federal government. Now, clean energy…",
-      "link": "https://www.canarymedia.com/articles/solar/north-carolina-groups-fight-regulator-order",
-      "source": "canarymedia",
-      "published": "Thu, 14 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Mid-sized solar could help bring down electricity bills in Pennsylvania",
-      "teaser": "Pennsylvania needs more energy. Data centers are pushing demand skyward, utilities can&#039;t build new capacity fast enough, and electric bills are on the rise. Medium-sized solar installations — smaller than utility-scale farms but…",
-      "link": "https://www.canarymedia.com/articles/solar/mid-sized-solar-electricity-bills-pennsylvania",
-      "source": "canarymedia",
-      "published": "Wed, 13 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Amazon bets on what could be a game-changing heat pump",
-      "teaser": "Amazon has signed a deal for a novel kind of rooftop heat pump that will provide all-electric heating, superefficient cooling, and cheaper energy bills at an undisclosed number of the company’s commercial buildings. After a successful…",
-      "link": "https://www.canarymedia.com/articles/heat-pumps/amazon-game-changing-heat-pump",
-      "source": "canarymedia",
-      "published": "Wed, 13 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "heat pump"
-      ]
-    },
-    {
-      "title": "Software is helping this real estate giant burn less gas in NYC",
-      "teaser": "New York City’s biggest buildings face a huge change: By 2050, they must reduce their planet-warming pollution to net-zero, thanks to the metropolis’s Local Law 97 . In other words, tens of thousands of structures will need to yank out…",
-      "link": "https://www.canarymedia.com/articles/carbon-free-buildings/software-avalonbay-parity-nyc",
-      "source": "canarymedia",
-      "published": "Tue, 12 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "net-zero"
-      ]
-    },
-    {
-      "title": "Confusing ballot wording may have tipped Ohio vote on renewables ban",
-      "teaser": "Confusing ballot language could be the reason an Ohio county upheld a ban on renewable energy last week. An early analysis of exit poll responses suggests a majority of voters likely meant to vote against Richland County’s ban on most…",
-      "link": "https://www.canarymedia.com/articles/land-use/confusing-ballot-wording-ohio-renewables-ban",
-      "source": "canarymedia",
-      "published": "Mon, 11 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Balcony solar bill dies in Illinois after union voices opposition",
-      "teaser": "Lawmakers backing an Illinois bill that would clear the way for balcony solar have ended their push to pass the measure this year. With three weeks still to go in the legislative session, they hit a stalemate as opponents, including the…",
-      "link": "https://www.canarymedia.com/articles/solar/balcony-solar-bill-dies-illinois",
-      "source": "canarymedia",
-      "published": "Fri, 08 May 2026 15:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Maine’s community solar boom is going bust",
-      "teaser": "For years, community solar in Maine grew at a breakneck pace, elevating the state to the top of the list for most capacity per capita in the U.S. Now, however, development has slowed to a standstill, and the industry faces an uncertain…",
-      "link": "https://www.canarymedia.com/articles/solar/maine-community-solar-going-bust",
-      "source": "canarymedia",
-      "published": "Fri, 08 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "We bet you can’t guess which states rely most on wind and solar power",
-      "teaser": "See more from Canary Media’s “Chart of the Week” column . Quick — ignore the map above and take a guess: Which three states get the highest share of their power from wind and solar? If you said Iowa, South Dakota, and New Mexico, well…",
-      "link": "https://www.canarymedia.com/articles/wind/which-states-most-wind-solar-power",
-      "source": "canarymedia",
-      "published": "Fri, 08 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Resident-led campaign fails to reverse Ohio county’s ban on renewables",
-      "teaser": "Residents in Richland County, Ohio, voted narrowly Tuesday to keep a ban on utility-scale solar and wind across much of the community — a setback for those who hoped the referendum could serve as a blueprint for overcoming local…",
-      "link": "https://www.canarymedia.com/articles/land-use/resident-campaign-fails-ohio-renewables-ban",
-      "source": "canarymedia",
-      "published": "Wed, 06 May 2026 13:00:00 -0400",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "America’s nuclear dry spell is over",
-      "teaser": "March 1, 2024, marked a bittersweet milestone in the American nuclear industry’s modern history. Exactly 3,755 days after construction started on the second of two new state-of-the-art Westinghouse AP1000 reactors at Southern Company’s…",
-      "link": "https://www.canarymedia.com/articles/nuclear/americas-nuclear-dry-spell-is-over",
-      "source": "canarymedia",
-      "published": "Tue, 05 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Can a carbon price lower power bills? Virginia is betting yes.",
-      "teaser": "This story was originally published by Grist . Sign up for Grist’s weekly newsletter here . Abigail Spanberger won a landslide victory in the Virginia governor’s race last November with a platform that focused on reining in rising…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/virginia-rggi-carbon-price-energy-affordability",
-      "source": "canarymedia",
-      "published": "Tue, 05 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "carbon price"
-      ]
-    },
-    {
-      "title": "Top US nuclear regulator is rewriting its rules for new era of reactors",
-      "teaser": "The United States has taken one of its biggest steps yet to encourage the construction of commercial microreactors — the latest move in its broader push to overhaul the country’s nuclear regulatory processes. In late April, the U.S.…",
-      "link": "https://www.canarymedia.com/articles/nuclear/us-nuclear-regulator-rewriting-rules",
-      "source": "canarymedia",
-      "published": "Mon, 04 May 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "SoCalGas customers spared paying $266M for hydrogen pipeline project",
-      "teaser": "California regulators have denied utility Southern California Gas permission to collect $266 million from its customers to fund a sprawling hydrogen pipeline network it hopes to build across Southern and Central California. Environmental…",
-      "link": "https://www.canarymedia.com/articles/hydrogen/socalgas-customers-spared-hydrogen-pipeline-plans",
-      "source": "canarymedia",
-      "published": "Fri, 01 May 2026 15:30:00 -0400",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Two California bills would push utilities to get more out of their grids",
-      "teaser": "Could California’s major utilities control their rapidly rising electricity rates by using their power grids more efficiently? State lawmakers want to find out. A set of bills introduced this year would order Pacific Gas &amp; Electric,…",
-      "link": "https://www.canarymedia.com/articles/distributed-energy-resources/two-california-bills-utilities-grids",
-      "source": "canarymedia",
-      "published": "Thu, 30 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "power grid"
-      ]
-    },
-    {
-      "title": "New winter rates saved at least $37M for Massachusetts heat-pump owners",
-      "teaser": "New electric rates for heat pump owners helped more than 140,000 Massachusetts households save money on their heating bills this winter. Massachusetts consumers with home heat pumps saved some $37 million on their power bills — an average…",
-      "link": "https://www.canarymedia.com/articles/heat-pumps/winter-rates-massachusetts-heat-pump-owners",
-      "source": "canarymedia",
-      "published": "Thu, 30 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "heat pump"
-      ]
-    },
-    {
-      "title": "America’s big new aluminum smelter is still waiting on a power deal",
-      "teaser": "The Middle East crisis is straining global supplies of aluminum — a metal that’s key to making everything from fighter jets and soda cans to clean-energy technologies like solar panels and electric vehicles. Iran’s strikes on two Gulf…",
-      "link": "https://www.canarymedia.com/articles/clean-aluminum/americas-new-aluminum-smelter-needs-power",
-      "source": "canarymedia",
-      "published": "Thu, 30 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Virginia’s new law blocks counties from banning solar",
-      "teaser": "As data centers drive electricity demand to new heights and consumers struggle with rising energy costs, cheap, clean power remains out of reach in much of Virginia: Nearly two-thirds of counties outright ban or severely restrict large…",
-      "link": "https://www.canarymedia.com/articles/solar/virginia-blocks-counties-from-banning-solar",
-      "source": "canarymedia",
-      "published": "Tue, 28 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Trump is blocking solar for farmers. Can the Farm Bill fix that?",
-      "teaser": "President Donald Trump has dealt blow after blow to the Rural Energy for America Program, which has helped farmers save on their energy bills by going solar for nearly two decades. Now, REAP’s proponents see a chance to undo some of the…",
-      "link": "https://www.canarymedia.com/articles/food-and-farms/trump-blocking-solar-farm-bill",
-      "source": "canarymedia",
-      "published": "Mon, 27 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Fossil fuel promoters tied to campaign to keep Ohio county renewable ban",
-      "teaser": "A group fighting to uphold an Ohio county’s ban on renewable energy has significant financial ties to individuals and organizations that promote fossil fuels, as a campaign finance report filed this week reveals. Last summer, Richland…",
-      "link": "https://www.canarymedia.com/articles/politics/fossil-fuel-campaign-tied-renewables-ban",
-      "source": "canarymedia",
-      "published": "Fri, 24 Apr 2026 19:30:00 -0400",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Solar power soared last year — and it’s not slowing down",
-      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. Last year was a huge one for renewable energy around the globe — but nothing showed up quite like solar power. This week, energy…",
-      "link": "https://www.canarymedia.com/articles/solar/solar-power-record-2025",
-      "source": "canarymedia",
-      "published": "Fri, 24 Apr 2026 12:39:00 -0400",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Duke Energy’s proactive grid upgrades under fire from electric co-ops",
-      "teaser": "A narrow complaint to a federal energy commission could have wide implications for the solar industry and the electric grid — both in North Carolina, where it originated, as well as nationwide. At issue is a unique planning scheme that’s…",
-      "link": "https://www.canarymedia.com/articles/utilities/duke-energy-proactive-grid-upgrades",
-      "source": "canarymedia",
-      "published": "Fri, 24 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Which countries lead the way on nuclear energy?",
-      "teaser": "See more from Canary Media’s ​“Chart of the Week” column . Nuclear energy is experiencing a global resurgence. In the U.S. and Europe, a long-wary public has started to warm once again to the sector. Taiwan, which shuttered its last…",
-      "link": "https://www.canarymedia.com/articles/nuclear/which-countries-lead-nuclear",
-      "source": "canarymedia",
-      "published": "Fri, 24 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Maryland bill trades cost-saving energy efficiency for short-term relief",
-      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, nonpartisan news organization that covers climate, energy and the environment. Sign up for their newsletter. Maryland lawmakers’ new solution for rising utility bills…",
-      "link": "https://www.canarymedia.com/articles/politics/maryland-bill-trades-energy-efficiency",
-      "source": "canarymedia",
-      "published": "Thu, 23 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "An Ohio court may OK fracking-waste wells despite pollution concerns",
-      "teaser": "Ohio is a notoriously difficult state for building renewable energy. Many counties ban wind and solar outright, but even in those that don’t, state regulators often rely on local opposition to deny permits for developers. Fossil fuel…",
-      "link": "https://www.canarymedia.com/articles/fossil-fuels/ohio-court-fracking-waste",
-      "source": "canarymedia",
-      "published": "Thu, 23 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why smartphone cameras could unlock cheaper, faster rooftop solar",
-      "teaser": "Chaz Weatherford has a busy schedule. On a typical workday, the solar inspection technician for major U.S. rooftop solar company Freedom Forever drives to eight or nine homes across southern Arizona, checking to make sure their newly…",
-      "link": "https://www.canarymedia.com/articles/solar/smartphones-rooftop-solar-cheaper-easier",
-      "source": "canarymedia",
-      "published": "Wed, 22 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "US judge halts Trump admin’s blockade on new wind and solar projects",
-      "teaser": "A federal judge has ordered the Trump administration to lift its blockade on new U.S. wind and solar projects. On Tuesday, Chief U.S. District Judge Denise Casper in Boston sided with nine clean energy organizations that sued to stop the…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/us-judge-halts-trump-admins-blockade-on-new-wind-and-solar-projects",
-      "source": "canarymedia",
-      "published": "Tue, 21 Apr 2026 20:55:00 -0400",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Are long-promised solar perovskites finally hitting mass production?",
-      "teaser": "Perovskites hold a place of honor in the pantheon of much-heralded clean energy breakthroughs that have yet to actually arrive, alongside small modular nuclear reactors and solid-state batteries. In theory, these crystal structures could…",
-      "link": "https://www.canarymedia.com/articles/solar/perovskites-mass-production-tandem-fremont",
-      "source": "canarymedia",
-      "published": "Mon, 20 Apr 2026 03:30:00 -0400",
-      "matched_keywords": [
-        "nuclear",
-        "solar"
-      ]
-    },
-    {
-      "title": "Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges",
-      "teaser": "New report shows small businesses leading renewable uptake, with solar, PPAs and flexible energy models gaining momentum The post Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges appeared first on…",
-      "link": "https://www.energylivenews.com/2026/06/08/irish-smes-emerging-as-key-force-in-irelands-energy-transition-as-solar-adoption-surges/",
-      "source": "energylivenews",
-      "published": "Mon, 08 Jun 2026 12:00:00 +0000",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Fishy tales could set back Hinkley even more",
-      "teaser": "Trade body warns extra environmental objections could further delay the giant nuclear plant The post Fishy tales could set back Hinkley even more appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/06/08/fishy-tales-could-set-back-hinkley-even-more/",
-      "source": "energylivenews",
-      "published": "Mon, 08 Jun 2026 11:00:00 +0000",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Safety fears raised over plug-in solar",
-      "teaser": "The electrical industry says cheap plug-in kits need to be treated with caution over the risk of fire The post Safety fears raised over plug-in solar appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/06/08/safety-fears-raised-over-plug-in-solar/",
-      "source": "energylivenews",
-      "published": "Mon, 08 Jun 2026 10:00:00 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Thermal energy storage tech analysis: Rondo, Antora, Malta Inc, MGA, 1414, EnergyNest, Polar Night and Brenmiller",
-      "teaser": "We go through the main movers and shakers commercialising large-scale thermal energy storage technologies today.",
-      "link": "https://www.energy-storage.news/thermal-energy-storage-tech-analysis-rondo-antora-malta-inc-mga-1414-energynest-polar-night-and-brenmiller/",
-      "source": "energy-storage-news",
-      "published": "Wed, 10 Jun 2026 13:28:42 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Chile’s president attends inauguration of 3.5GWh BESS at Grenergy’s Oasis de Atacama solar-plus-storage complex",
-      "teaser": "The president of Chile, José Antonio Kast Rist, was in attendance as IPP Grenergy inaugurated a 3.5GWh battery energy storage system (BESS).",
-      "link": "https://www.energy-storage.news/chiles-president-attends-inauguration-of-3-5gwh-bess-at-grenergys-oasis-de-atacama-solar-plus-storage-complex/",
-      "source": "energy-storage-news",
-      "published": "Wed, 10 Jun 2026 10:23:06 +0000",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "General Motors plots sodium-ion tech leapfrog into grid-scale energy storage market",
-      "teaser": "General Motors (GM) has partnered with sodium-ion (Na-ion) battery storage startup Peak Energy to target the grid-scale energy storage market.",
-      "link": "https://www.energy-storage.news/general-motors-plots-sodium-ion-tech-leapfrog-into-grid-scale-energy-storage-market/",
-      "source": "energy-storage-news",
-      "published": "Wed, 10 Jun 2026 10:22:33 +0000",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Germany Roundup: ‘First fully merchant financing’, 180MWh M&A, analytics deal on 282MWh project",
-      "teaser": "A trio of notable Germany announcements: Aquila Clean Energy EMEA has financed a merchant project, Chint Solar has sold a portfolio to Second Foundation while Twaice will provide analytics on behalf of BayWa r.e..",
-      "link": "https://www.energy-storage.news/germany-roundup-first-fully-merchant-financing-180mwh-ma-analytics-deal-on-282mwh-project/",
-      "source": "energy-storage-news",
-      "published": "Wed, 10 Jun 2026 09:59:13 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Gamuda Renewables acquires interest in 1.8GWh solar-plus-storage site in Victoria, Australia",
-      "teaser": "Gamuda Renewables has secured an interest in the 1,800MWh Hazelwood North solar-plus-storage project in Victoria, Australia.",
-      "link": "https://www.energy-storage.news/gamuda-renewables-acquires-interest-in-1-8gwh-solar-plus-storage-site-in-victoria-australia/",
-      "source": "energy-storage-news",
-      "published": "Wed, 10 Jun 2026 01:59:22 +0000",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "German BESS market has moved beyond peak hype",
-      "teaser": "“The word tsunami describes very well the hype that was in Germany,” said Cristina Yandiola at this week’s Energy Storage Summit.",
-      "link": "https://www.energy-storage.news/german-bess-market-moved-beyond-peak-tsunami-hype/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 13:22:18 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Energy storage ‘needs to last longer as heatwaves and data centres strain infrastructure’",
-      "teaser": "ESN Premium speaks with Dr Thomas Sisto, of flow battery developer XL Batteries, about using LDES to combat grid strain from heatwaves and data centres.",
-      "link": "https://www.energy-storage.news/energy-storage-needs-to-last-longer-as-heatwaves-and-data-centres-strain-infrastructure/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 12:10:53 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "‘Critical’ for Germany’s capacity market design to enable battery storage participation",
-      "teaser": "The upcoming German capacity market must be designed in such a way that enables BESS to generate revenue, according to industry experts.",
-      "link": "https://www.energy-storage.news/capacity-market-design-critical-facilitating-bess-involvement-german-market/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 11:41:13 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Policy clarity on FCAs, grid fees needed to realise the potential of German BESS",
-      "teaser": "Greater clarity in both government policy and market mechanisms could be essential if the German BESS industry is to realise its potential.",
-      "link": "https://www.energy-storage.news/policy-and-fca-clarity-needed-realise-potential-german-bess/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 10:45:01 +0000",
-      "matched_keywords": [
-        "grid fee"
-      ]
-    },
-    {
-      "title": "SNEC 2026: Energy storage launches and tech spec reveals at China’s biggest clean energy trade show",
-      "teaser": "The solar PV and energy storage expo SNEC 2026 in Shanghai, China, was the place to see product launches and showcases from the big players.",
-      "link": "https://www.energy-storage.news/snec-2026-energy-storage-launches-and-tech-spec-reveals-at-chinas-biggest-clean-energy-trade-show/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 08:43:40 +0000",
-      "matched_keywords": [
-        "energy storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "CATL to supply 2,400MWh of battery storage for Edify Energy’s Australian hybrid projects",
-      "teaser": "Chinese battery manufacturer CATL will supply 2,400MWh of battery energy storage systems (BESS) for Edify Energy's Smoky Creek and Guthrie's Gap Solar Power Stations in central Queensland.",
-      "link": "https://www.energy-storage.news/catl-to-supply-2400mwh-of-battery-storage-for-edify-energys-australian-hybrid-projects/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 05:29:27 +0000",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Eku Energy submits 10-hour duration Griffith BESS to Australia’s EPBC Act",
-      "teaser": "Eku Energy has submitted its 1,000MWh Griffith battery energy storage system (BESS) for environmental assessment under Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/eku-energy-submits-10-hour-duration-griffith-bess-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 02:00:06 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Ark Energy’s 3.1GWh solar-plus-storage site in Australia bags AEMO grid connection",
-      "teaser": "Ark Energy has received approval from AEMO and Transgrid to connect its 3,148MWh Richmond Valley solar-plus-storage site to the NEM.",
-      "link": "https://www.energy-storage.news/ark-energys-3-1gwh-solar-plus-storage-site-in-australia-bags-aemo-grid-connection/",
-      "source": "energy-storage-news",
-      "published": "Tue, 09 Jun 2026 01:55:04 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "esVolta closes US$450 million expanded credit facility to expand US BESS portfolio",
-      "teaser": "California-headquartered developer esVolta has closed an expanded corporate credit facility providing up to US$450 million of capital to expand new utility-scale energy storage projects in the US.",
-      "link": "https://www.energy-storage.news/esvolta-closes-us450-million-expanded-credit-facility-to-expand-us-bess-portfolio/",
-      "source": "energy-storage-news",
-      "published": "Mon, 08 Jun 2026 11:34:49 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Data centre developer DayOne signs solar and BESS PPAs in Malaysia with TNB subsidiaries",
-      "teaser": "Data centre developer DayOne has signed agreements through Malaysia’s government-launched Corporate Renewable Energy Supply Scheme (CRESS).",
-      "link": "https://www.energy-storage.news/data-centre-developer-dayone-signs-solar-and-bess-ppas-in-malaysia-with-tnb-subsidiaries/",
-      "source": "energy-storage-news",
-      "published": "Mon, 08 Jun 2026 10:46:38 +0000",
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "subsid"
-      ]
-    },
-    {
-      "title": "EDF and Masdar enter 15-year PPAs for 160MWh hybrid California BESS",
-      "teaser": "Developer EDF power solutions North America and developer-operator Abu Dhabi Future Energy Company – Masdar, have entered into 15-year power purchase agreements (PPAs) for a California, US solar-plus-storage project.",
-      "link": "https://www.energy-storage.news/edf-and-masdar-enter-15-year-ppas-for-160mwh-hybrid-california-bess/",
-      "source": "energy-storage-news",
-      "published": "Fri, 05 Jun 2026 09:09:35 +0000",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Modelling approaches to detecting and preventing thermal runaway risk in Li-ion BESS",
-      "teaser": "Liam Critchley examines the modelling, safety standards and analytics that aim to mitigate the risk of thermal runaway in lithium-ion battery energy storage systems (BESS).",
-      "link": "https://www.energy-storage.news/modelling-approaches-to-detecting-and-preventing-thermal-runaway-risk-in-li-ion-bess/",
-      "source": "energy-storage-news",
-      "published": "Fri, 05 Jun 2026 08:37:33 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia’s Victoria fast-tracks 1,390MW of battery storage Development Facilitation Program approval round",
-      "teaser": "Australia's Victorian government has approved four new energy projects worth a combined AU$2.4 billion via its DFP, including 1,390MW of BESS.",
-      "link": "https://www.energy-storage.news/australias-victoria-fast-tracks-1390mw-of-battery-storage-development-facilitation-program-approval-round/",
-      "source": "energy-storage-news",
-      "published": "Fri, 05 Jun 2026 02:20:29 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "US solar startup T1 Energy to acquire BESS company KORE Power for US$32 million",
-      "teaser": "US solar manufacturer T1 Energy has entered into a definitive agreement to acquire vertically integrated battery energy storage system (BESS) company KORE Power.",
-      "link": "https://www.energy-storage.news/us-solar-startup-t1-energy-to-acquire-bess-company-kore-power-for-us32-million/",
-      "source": "energy-storage-news",
-      "published": "Thu, 04 Jun 2026 12:35:13 +0000",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Brazil’s first energy storage auctions are coming this year, regulatory framework approved",
-      "teaser": "Two potential game-changing developments for Brazil’s energy storage sector were announced this week by its regulator and its energy ministry.",
-      "link": "https://www.energy-storage.news/brazils-first-energy-storage-auctions-are-coming-this-year-regulatory-framework-approved/",
-      "source": "energy-storage-news",
-      "published": "Thu, 04 Jun 2026 11:33:12 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Europe must support role of long-duration energy storage in electrification, security and competitiveness, trade groups say",
-      "teaser": "The European Commission must “acknowledge the clear role of long-duration energy storage,” organisations including Energy Storage Europe and the LDES Council have urged.",
-      "link": "https://www.energy-storage.news/europe-must-support-role-of-long-duration-energy-storage-in-electrification-security-and-competitiveness-trade-groups-say/",
-      "source": "energy-storage-news",
-      "published": "Thu, 04 Jun 2026 08:08:12 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Taiwan’s Recharge Power partners with Energy Decarb for 292MWh battery storage pipeline in Australia",
-      "teaser": "Recharge Power, a Taiwanese battery energy storage system (BESS) developer and integrator, has signed a strategic cooperation agreement with Australian renewable energy developer Energy Decarb to establish a joint venture targeting the…",
-      "link": "https://www.energy-storage.news/taiwans-recharge-power-partners-with-energy-decarb-for-292mwh-battery-storage-pipeline-in-australia/",
-      "source": "energy-storage-news",
-      "published": "Thu, 04 Jun 2026 01:52:41 +0000",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "NTPC Green Energy floats 3.3GWh BESS EPC tender for Khavda Solar Park in Gujarat, India",
-      "teaser": "NTPC Green Energy is tendering EPC contracts to develop 3,300MWh of battery storage at Khavda hybrid renewable energy park in Gujarat, India.",
-      "link": "https://www.energy-storage.news/ntpc-green-energy-3-3gwh-bess-epc-tender-khavda-solar-gujarat-india/",
-      "source": "energy-storage-news",
-      "published": "Wed, 03 Jun 2026 10:30:30 +0000",
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why BESS performance guarantees are more complex than they seem",
-      "teaser": "BESS performance guarantees are essential and ubiquitous, yet can be challenging to navigate, writes Intertek CEA senior energy storage engineer Yilin Huang.",
-      "link": "https://www.energy-storage.news/why-bess-performance-guarantees-are-more-complex-than-they-seem/",
-      "source": "energy-storage-news",
-      "published": "Wed, 03 Jun 2026 10:22:16 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Third-party technologies for preventing or dealing with thermal runaway in BESS assets",
-      "teaser": "Liam Critchley examines a selection of third-party technologies for preventing thermal runaway events in battery storage systems.",
-      "link": "https://www.energy-storage.news/third-party-technologies-for-preventing-or-dealing-with-thermal-runaway-in-bess-assets/",
-      "source": "energy-storage-news",
-      "published": "Wed, 03 Jun 2026 08:09:46 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Australia’s Queensland opens AU$200 million fund for battery storage and generation projects",
-      "teaser": "Queensland Investment Corporation has opened a formal call for proposals under the state government's AU$200 million North West Energy Fund.",
-      "link": "https://www.energy-storage.news/australias-queensland-opens-au200-million-fund-for-battery-storage-and-generation-projects/",
-      "source": "energy-storage-news",
-      "published": "Wed, 03 Jun 2026 01:51:11 +0000",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Why some US BESS developers are forgoing the investment tax credit",
-      "teaser": "Energy-Storage.news Premium speaks with Ravi Manghani at Anza Renewables about why some BESS developers are forgoing the ITC altogether.",
-      "link": "https://www.energy-storage.news/why-some-us-bess-developers-are-forgoing-the-investment-tax-credit/",
-      "source": "energy-storage-news",
-      "published": "Tue, 02 Jun 2026 12:00:23 +0000",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Germany: interaction between grid fees, BKZ and FCAs still need to be solved",
-      "teaser": "We hear from Christina Hepp, strategy director at battery energy storage system (BESS) owner-operator Green Flexibility, on the big successes and challenges in the German market today.",
-      "link": "https://www.energy-storage.news/germany-interaction-between-grid-fees-bkz-and-fcas-still-need-to-be-solved/",
-      "source": "energy-storage-news",
-      "published": "Tue, 02 Jun 2026 11:35:17 +0000",
-      "matched_keywords": [
-        "energy storage",
-        "grid fee"
-      ]
-    },
-    {
-      "title": "US BESS integrator Prevalon becomes Nextpower’s latest acquisition for US$365 million",
-      "teaser": "Solar PV solutions provider Nextpower has entered into a definitive agreement to acquire BESS system integrator Prevalon Energy for up to US$365 million.",
-      "link": "https://www.energy-storage.news/us-bess-integrator-prevalon-becomes-nextpowers-latest-acquisition-for-us365-million/",
-      "source": "energy-storage-news",
-      "published": "Tue, 02 Jun 2026 11:01:36 +0000",
-      "matched_keywords": [
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "EU approves Spain’s €9 billion capacity market for generation, demand response and energy storage",
-      "teaser": "The European Commission has approved a €9 billion (US$10.5 billion) scheme to shore up its energy capacity, which will be open to new and existing projects including energy storage.",
-      "link": "https://www.energy-storage.news/eu-approves-spain-euro-9-billion-capacity-market-generation-demand-response-energy-storage/",
-      "source": "energy-storage-news",
-      "published": "Tue, 02 Jun 2026 09:49:47 +0000",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia: Queensland BESS fleet pushes state to 79.5% renewables-plus-storage share",
-      "teaser": "Queensland's growing battery energy storage system (BESS) fleet set new instantaneous records for both the renewables-plus-storage (RES) share of consumption and the battery storage share of consumption on 31 May 2026.",
-      "link": "https://www.energy-storage.news/australia-queensland-bess-fleet-pushes-state-to-79-5-renewables-plus-storage-share/",
-      "source": "energy-storage-news",
-      "published": "Tue, 02 Jun 2026 02:47:33 +0000",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "renewable"
       ]
     }
   ]
