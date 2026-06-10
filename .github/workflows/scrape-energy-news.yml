@@ -2,8 +2,9 @@ name: Scrape Energy News
 
 on:
   schedule:
-    # Daily at 05:00 UTC. Note: GitHub's scheduler may delay runs under load.
-    - cron: "0 5 * * *"
+    # Every 3h during the day: 04–19 UTC = 06–21 German summer time
+    # (05–20 in winter). Note: GitHub's scheduler may delay runs under load.
+    - cron: "0 4-19/3 * * *"
   workflow_dispatch: {}
 
 permissions:

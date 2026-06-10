@@ -57,6 +57,8 @@
     display: flex; align-items: center; gap: 6px;
   }
   .btn-reset:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-reset.loading .icon-spin { animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   /* KEYWORD CHIPS */
   .chip-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
@@ -189,6 +191,7 @@
       <option value="source">Nach Quelle</option>
     </select>
     <button class="btn-reset" onclick="resetFilters()"><i data-lucide="rotate-ccw" style="width:13px;height:13px;"></i> Reset</button>
+    <button class="btn-reset" id="refreshBtn" onclick="refreshData()"><i data-lucide="refresh-cw" class="icon-spin" style="width:13px;height:13px;"></i> Aktualisieren</button>
   </div>
 
   <div class="chip-bar" id="chipBar"></div>
@@ -217,15 +220,14 @@ let activeKeywords = new Set();
 let showAllChips = false;
 const CHIP_LIMIT = 20;
 
-async function init() {
-  try {
-    const res = await fetch('energy_news.json');
-    DATA = await res.json();
-  } catch (e) {
-    document.getElementById('articlesGrid').innerHTML =
-      '<div class="state-msg"><div class="big">⚠</div>energy_news.json konnte nicht geladen werden.</div>';
-    return;
-  }
+const AUTO_REFRESH_MS = 10 * 60 * 1000;
+
+async function loadData() {
+  // Cache buster: skip the Pages CDN cache so a fresh scrape shows up
+  // without a hard refresh.
+  const res = await fetch('energy_news.json?t=' + Date.now(), { cache: 'no-store' });
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  DATA = await res.json();
 
   document.getElementById('articleTotal').textContent = DATA.count;
   document.getElementById('sourceTotal').textContent = DATA.sources.length;
@@ -241,8 +243,32 @@ async function init() {
   lucide.createIcons();
 }
 
+async function init() {
+  try {
+    await loadData();
+  } catch (e) {
+    document.getElementById('articlesGrid').innerHTML =
+      '<div class="state-msg"><div class="big">⚠</div>energy_news.json konnte nicht geladen werden.</div>';
+  }
+  setInterval(() => refreshData(true), AUTO_REFRESH_MS);
+}
+
+async function refreshData(silent) {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('loading');
+  try {
+    await loadData();
+  } catch (e) {
+    if (!silent) alert('Aktualisierung fehlgeschlagen: ' + e.message);
+  } finally {
+    btn.classList.remove('loading');
+  }
+}
+
 function buildSourceSelect() {
   const sel = document.getElementById('sourceSelect');
+  const current = sel.value;
+  sel.length = 1; // keep "Alle Quellen", drop stale options on reload
   DATA.sources
     .filter(s => s.items_matched > 0)
     .sort((a, b) => b.items_matched - a.items_matched)
@@ -252,6 +278,8 @@ function buildSourceSelect() {
       opt.textContent = `${s.name} (${s.items_matched})`;
       sel.appendChild(opt);
     });
+  sel.value = current;
+  if (sel.selectedIndex === -1) sel.value = '';
 }
 
 function buildStatusPanel() {
