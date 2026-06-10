@@ -178,6 +178,16 @@
     <select class="control-select" id="sourceSelect" onchange="render()">
       <option value="">Alle Quellen</option>
     </select>
+    <select class="control-select" id="rangeSelect" onchange="render()">
+      <option value="">Alle Zeiträume</option>
+      <option value="1">Letzte 24 Std.</option>
+      <option value="7">Letzte 7 Tage</option>
+      <option value="30">Letzte 30 Tage</option>
+    </select>
+    <select class="control-select" id="sortSelect" onchange="render()">
+      <option value="date">Neueste zuerst</option>
+      <option value="source">Nach Quelle</option>
+    </select>
     <button class="btn-reset" onclick="resetFilters()"><i data-lucide="rotate-ccw" style="width:13px;height:13px;"></i> Reset</button>
   </div>
 
@@ -304,6 +314,8 @@ function resetFilters() {
   activeKeywords.clear();
   document.getElementById('searchInput').value = '';
   document.getElementById('sourceSelect').value = '';
+  document.getElementById('rangeSelect').value = '';
+  document.getElementById('sortSelect').value = 'date';
   renderChips(window._allChips);
   render();
 }
@@ -312,8 +324,15 @@ function render() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
   const sourceFilter = document.getElementById('sourceSelect').value;
 
-  let articles = DATA.articles;
+  const rangeDays = parseInt(document.getElementById('rangeSelect').value, 10);
+  const sortMode = document.getElementById('sortSelect').value;
+
+  let articles = DATA.articles.slice();
   if (sourceFilter) articles = articles.filter(a => a.source === sourceFilter);
+  if (rangeDays) {
+    const cutoff = Date.now() - rangeDays * 86400000;
+    articles = articles.filter(a => a.published && new Date(a.published).getTime() >= cutoff);
+  }
   if (activeKeywords.size) {
     articles = articles.filter(a => (a.matched_keywords || []).some(k => activeKeywords.has(k)));
   }
@@ -322,6 +341,13 @@ function render() {
       (a.title && a.title.toLowerCase().includes(q)) ||
       (a.teaser && a.teaser.toLowerCase().includes(q))
     );
+  }
+
+  if (sortMode === 'source') {
+    articles.sort((a, b) => a.source.localeCompare(b.source) || (b.published || '').localeCompare(a.published || ''));
+  } else {
+    // Newest first; undated items last.
+    articles.sort((a, b) => (b.published || '').localeCompare(a.published || ''));
   }
 
   const grid = document.getElementById('articlesGrid');
@@ -357,6 +383,10 @@ function formatDate(str) {
   if (!str) return '';
   const d = new Date(str);
   if (isNaN(d)) return '';
+  const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
+  if (diffMin >= 0 && diffMin < 60) return `vor ${diffMin} Min.`;
+  if (diffMin >= 0 && diffMin < 1440) return `vor ${Math.round(diffMin / 60)} Std.`;
+  if (diffMin >= 0 && diffMin < 10080) return `vor ${Math.round(diffMin / 1440)} Tg.`;
   return d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
