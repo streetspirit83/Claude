@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isochrone Map — Travel Time Visualization</title>
+<style>
+  :root{
+    --bg:#0c0f14; --panel:#151a22ee; --panel-border:#2a3340;
+    --text:#e8ecf2; --muted:#8b97a8; --accent:#46d442;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height:100vh; display:flex; flex-direction:column; align-items:center;
+    padding:18px 14px 30px;
+  }
+  h1{font-size:20px; font-weight:600; letter-spacing:.3px;}
+  .sub{color:var(--muted); font-size:13px; margin-top:2px;}
+  .topbar{
+    width:100%; max-width:1200px; display:flex; flex-wrap:wrap; gap:12px;
+    align-items:flex-end; justify-content:space-between; margin-bottom:12px;
+  }
+  .modes{display:flex; gap:6px; flex-wrap:wrap;}
+  .modes button{
+    background:#1b212b; color:var(--muted); border:1px solid var(--panel-border);
+    padding:7px 14px; border-radius:8px; font-size:13px; cursor:pointer;
+    transition:all .15s; font-family:inherit;
+  }
+  .modes button:hover{color:var(--text); border-color:#3d4a5c;}
+  .modes button.active{background:#243140; color:#fff; border-color:#4a6a8a; font-weight:600;}
+  .modes button .spd{display:block; font-size:10px; font-weight:400; opacity:.65;}
+  #newcity{
+    background:#1b212b; color:var(--muted); border:1px solid var(--panel-border);
+    padding:7px 14px; border-radius:8px; font-size:13px; cursor:pointer; font-family:inherit;
+  }
+  #newcity:hover{color:var(--text); border-color:#3d4a5c;}
+  .mapwrap{
+    position:relative; width:100%; max-width:1200px; aspect-ratio:3/2;
+    border-radius:12px; overflow:hidden; border:1px solid var(--panel-border);
+    box-shadow:0 12px 40px #0009; background:#14181f;
+  }
+  .mapwrap canvas{position:absolute; inset:0; width:100%; height:100%; display:block;}
+  #uiCanvas{cursor:crosshair;}
+  #tooltip{
+    position:absolute; pointer-events:none; display:none; z-index:5;
+    background:var(--panel); border:1px solid var(--panel-border); border-radius:8px;
+    padding:6px 10px; font-size:12px; line-height:1.5; white-space:nowrap;
+    backdrop-filter:blur(4px);
+  }
+  #tooltip b{font-size:14px;}
+  .card{
+    position:absolute; z-index:4; background:var(--panel); backdrop-filter:blur(6px);
+    border:1px solid var(--panel-border); border-radius:10px; padding:10px 14px;
+    font-size:12px;
+  }
+  #hint{left:12px; top:12px; color:var(--muted); max-width:330px; line-height:1.5;}
+  #hint b{color:var(--text);}
+  #stats{right:12px; top:12px; min-width:230px;}
+  #stats h3{font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.8px; margin-bottom:8px;}
+  #stats table{width:100%; border-collapse:collapse;}
+  #stats td{padding:3px 0; font-size:12px;}
+  #stats td:nth-child(2),#stats td:nth-child(3){text-align:right; font-variant-numeric:tabular-nums;}
+  #stats .chip{display:inline-block; width:10px; height:10px; border-radius:3px; margin-right:7px; vertical-align:-1px;}
+  #stats .head td{color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.5px;}
+  #route{left:12px; bottom:54px; display:none; line-height:1.6;}
+  #route b{font-size:15px; color:var(--accent);}
+  #legend{left:12px; bottom:12px; right:auto; padding:8px 14px 9px;}
+  #legend .bar{width:300px; height:10px; border-radius:5px; overflow:hidden; display:flex;}
+  #legend .bar i{flex:1;}
+  #legend .ticks{display:flex; justify-content:space-between; color:var(--muted);
+    font-size:10px; margin-top:3px; font-variant-numeric:tabular-nums;}
+  #legend .cap{color:var(--muted); font-size:10px; text-transform:uppercase;
+    letter-spacing:.7px; margin-bottom:5px;}
+  footer{
+    width:100%; max-width:1200px; margin-top:10px; color:#5a6678; font-size:11.5px;
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;
+  }
+  @media (max-width:760px){
+    #stats{display:none;}
+    #hint{max-width:240px; font-size:11px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <h1>Isochrone Map</h1>
+    <div class="sub">How far can you travel? Every color band is 5 minutes. City of <b id="cityname">Aldermoor</b> — procedurally generated.</div>
+  </div>
+  <div class="modes" id="modes"></div>
+  <button id="newcity">⟳ New city</button>
+</div>
+
+<div class="mapwrap" id="mapwrap">
+  <canvas id="baseCanvas" width="1200" height="800"></canvas>
+  <canvas id="isoCanvas"  width="1200" height="800"></canvas>
+  <canvas id="uiCanvas"   width="1200" height="800"></canvas>
+  <div class="card" id="hint"></div>
+  <div class="card" id="stats"></div>
+  <div class="card" id="route"></div>
+  <div class="card" id="legend">
+    <div class="cap">Travel time from origin</div>
+    <div class="bar" id="legendbar"></div>
+    <div class="ticks"><span>0</span><span>15</span><span>30</span><span>45</span><span>60 min</span></div>
+  </div>
+  <div id="tooltip"></div>
+</div>
+
+<footer>
+  <span id="seedinfo"></span>
+  <span>Exact shortest paths: Dijkstra over a 38,400-node street &amp; metro network · river crossings only at bridges · metro tunnels under the river</span>
+</footer>
+
+<script>
+'use strict';
+/* ============================================================
+   Isochrone Map — self-contained travel-time visualization.
+   A city is generated deterministically from a seed: river with
+   bridges, highway ring, arterial grid, local streets, parks and
+   three metro lines. Travel times are exact shortest paths
+   (Dijkstra) on a grid graph; each cell is 100 m.
+   ============================================================ */
+
+// ---------- constants ----------
+const GW = 240, GH = 160;        // grid cells
+const S  = 5;                    // px per cell
+const CW = GW * S, CH = GH * S;  // canvas px
+const GN = GW * GH;              // grid node count
+const CELL_KM = 0.1;
+const MAX_T = 60, BAND = 5;      // minutes
+const BIG = 1e9;
+
+const OPEN=0, LOCAL=1, ART=2, HWY=3, RIVER=4, PARK=5, BRIDGE=6;
+
+// km/h per cell class: [OPEN, LOCAL, ART, HWY, RIVER, PARK, BRIDGE]
+const MODES = {
+  walk:    {label:'🚶 Walking', spd:'4.8 km/h',  speeds:[4.2, 4.8, 4.8,  0, 0, 4.5, 4.8], metro:false},
+  bike:    {label:'🚲 Cycling', spd:'~16 km/h',  speeds:[7,   15,  17,   0, 0, 11,  16 ], metro:false},
+  transit: {label:'🚇 Transit', spd:'walk+metro',speeds:[4.2, 4.8, 4.8,  0, 0, 4.5, 4.8], metro:true},
+  car:     {label:'🚗 Driving', spd:'up to 95',  speeds:[5,   24,  42,  95, 0, 5,   38 ], metro:false},
+};
+const METRO_KMH = 65, METRO_DWELL = 0.7, METRO_ENTER = 3.5, METRO_EXIT = 0.8;
+
+// 12 bands of 5 min
+const PALETTE = ['#00e5a0','#46d442','#a8d51f','#e8c51b','#f7a428','#f97e2b',
+                 '#f25a3c','#e03f5c','#c5307f','#9b2da0','#6a34b5','#3f48bb'];
+const PALETTE_RGB = PALETTE.map(h => [parseInt(h.slice(1,3),16), parseInt(h.slice(3,5),16), parseInt(h.slice(5,7),16)]);
+
+// ---------- canvases ----------
+const baseCtx = document.getElementById('baseCanvas').getContext('2d');
+const isoCtx  = document.getElementById('isoCanvas').getContext('2d');
+const uiCtx   = document.getElementById('uiCanvas').getContext('2d');
+const uiCanvas = document.getElementById('uiCanvas');
+
+// ---------- state ----------
+let seed = 1337;
+let cls, popGrid, riverX, riverW, parks, hwySegs, metroLines, stations, stAdj, enterMap, labels;
+let dist, prev, totNodes;
+let mode = 'transit';
+let origin = -1, dest = -1, clickState = 0; // 0:need origin 1:need dest 2:have both
+let hoverCell = -1;
+
+// ---------- utils ----------
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
+const idx = (x,y) => y*GW + x;
+const inb = (x,y) => x>=0 && y>=0 && x<GW && y<GH;
+
+function dens(x,y){
+  const d1 = Math.hypot(x-92, y-76), d2 = Math.hypot(x-172, y-88);
+  return Math.min(1, Math.exp(-d1*d1/(2*38*38)) + 0.75*Math.exp(-d2*d2/(2*26*26)));
+}
+
+// ---------- city generation ----------
+function genCity(sd){
+  const rng = mulberry32(sd);
+  cls = new Uint8Array(GN);
+
+  // river: a meandering, mostly north-south band
+  const rp1 = rng()*6.28, rp2 = rng()*6.28, ramp = 15 + rng()*10;
+  riverX = y => 132 + ramp*Math.sin(y*0.035 + rp1) + 7*Math.sin(y*0.11 + rp2);
+  riverW = y => 2.3 + 0.9*Math.sin(y*0.06 + rp2);
+  for(let y=0; y<GH; y++){
+    const cx = riverX(y), w = riverW(y);
+    for(let x=Math.floor(cx-w-1); x<=Math.ceil(cx+w+1); x++)
+      if(inb(x,y) && Math.abs(x-cx) <= w) cls[idx(x,y)] = RIVER;
+  }
+
+  // parks: blobs kept off the river
+  parks = [];
+  for(let i=0; i<6; i++){
+    for(let tries=0; tries<12; tries++){
+      const px = 30+rng()*180, py = 20+rng()*120, r = 6+rng()*9;
+      if(Math.abs(px - riverX(py)) < r + 5) continue;
+      parks.push({x:px, y:py, r, ph:rng()*6.28});
+      break;
+    }
+  }
+  for(const p of parks){
+    for(let y=Math.floor(p.y-p.r-2); y<=p.y+p.r+2; y++)
+      for(let x=Math.floor(p.x-p.r-2); x<=p.x+p.r+2; x++){
+        if(!inb(x,y)) continue;
+        const a = Math.atan2(y-p.y, x-p.x);
+        const rr = p.r * (1 + 0.22*Math.sin(a*3 + p.ph));
+        if(Math.hypot(x-p.x, y-p.y) <= rr && cls[idx(x,y)] === OPEN) cls[idx(x,y)] = PARK;
+      }
+  }
+
+  // highways: ring + one east-west crossing (viaduct over the river)
+  const L=16+((rng()*4)|0), R=224-((rng()*4)|0), T=14+((rng()*3)|0), B=146-((rng()*3)|0);
+  const MY = 74 + ((rng()*10)|0);
+  hwySegs = [[L,T,R,T],[R,T,R,B],[L,B,R,B],[L,T,L,B],[L,MY,R,MY]];
+  for(const [x0,y0,x1,y1] of hwySegs){
+    if(y0===y1){ for(let x=Math.min(x0,x1); x<=Math.max(x0,x1); x++) cls[idx(x,y0)] = HWY; }
+    else       { for(let y=Math.min(y0,y1); y<=Math.max(y0,y1); y++) cls[idx(x0,y)] = HWY; }
+  }
+
+  // arterials: vertical + horizontal; horizontals may bridge the river,
+  // and arterials overwrite highway cells = at-grade interchange / overpass
+  const putArt = (x,y,bridge) => {
+    const c = cls[idx(x,y)];
+    if(c === RIVER){ if(bridge) cls[idx(x,y)] = BRIDGE; }
+    else cls[idx(x,y)] = ART;
+  };
+  for(let x = 28 + ((rng()*6)|0); x < 218; x += 19 + ((rng()*8)|0)){
+    for(let y=T; y<=B; y++) putArt(x,y,false);
+  }
+  for(let y = 20 + ((rng()*5)|0); y < 145; y += 14 + ((rng()*7)|0)){
+    const bridge = rng() < 0.5;
+    for(let x=L; x<=R; x++) putArt(x,y,bridge);
+  }
+
+  // local streets: denser near the cores; never cross river/park/highway
+  for(let y=0; y<GH; y++)
+    for(let x=0; x<GW; x++){
+      if(cls[idx(x,y)] !== OPEN) continue;
+      const d = dens(x,y);
+      if(((x%4===0 || y%4===0) && d > 0.5) || ((x%8===0 || y%8===0) && d > 0.22))
+        cls[idx(x,y)] = LOCAL;
+    }
+
+  // metro: 3 lines, tunnels under the river, stations every ~900 m
+  metroLines = [
+    {color:'#e0445a', name:'A', pts:[[20,76],[92,76],[134,82],[172,88],[222,88]]},
+    {color:'#2fb6c9', name:'B', pts:[[92,14],[92,76],[108,116],[148,144]]},
+    {color:'#e3b341', name:'C', pts:[[56,132],[92,104],[134,62],[178,34]]},
+  ];
+  stations = [];           // {x, y, line}
+  const stKey = new Map(); // "x,y" -> station index (shared = interchange-by-street)
+  for(let li=0; li<metroLines.length; li++){
+    const line = metroLines[li];
+    line.st = [];
+    const pts = line.pts;
+    let prevSt = -1;
+    for(let p=0; p<pts.length-1; p++){
+      const [ax,ay] = pts[p], [bx,by] = pts[p+1];
+      const len = Math.hypot(bx-ax, by-ay);
+      const n = Math.max(1, Math.ceil(len/9));
+      for(let j = (p===0?0:1); j<=n; j++){
+        const sx = Math.round(ax + (bx-ax)*j/n), sy = Math.round(ay + (by-ay)*j/n);
+        let si = stations.length;
+        stations.push({x:sx, y:sy, line:li});
+        line.st.push(si);
+        if(prevSt >= 0){
+          const dkm = Math.hypot(stations[si].x - stations[prevSt].x,
+                                 stations[si].y - stations[prevSt].y) * CELL_KM;
+          const t = dkm / METRO_KMH * 60 + METRO_DWELL;
+          (stAdjTmp[prevSt] = stAdjTmp[prevSt] || []).push([si, t]);
+          (stAdjTmp[si]     = stAdjTmp[si]     || []).push([prevSt, t]);
+        }
+        prevSt = si;
+        stKey.set(sx+','+sy, si);
+      }
+    }
+  }
+  // finalize station adjacency + ground links
+  stAdj = stations.map((_,i) => stAdjTmp[i] || []);
+  stAdjTmp = [];
+  enterMap = new Map();
+  for(let si=0; si<stations.length; si++){
+    const g = nearestPassable(stations[si].x, stations[si].y);
+    stations[si].ground = g;
+    if(g >= 0){
+      if(!enterMap.has(g)) enterMap.set(g, []);
+      enterMap.get(g).push(si);
+    }
+  }
+  totNodes = GN + stations.length;
+  dist = new Float64Array(totNodes);
+  prev = new Int32Array(totNodes);
+
+  // population surface, normalized to 1.25 M inhabitants
+  popGrid = new Float32Array(GN);
+  let sum = 0;
+  for(let y=0; y<GH; y++)
+    for(let x=0; x<GW; x++){
+      const c = cls[idx(x,y)];
+      if(c === RIVER || c === HWY || c === PARK) continue;
+      const v = Math.pow(dens(x,y), 1.5);
+      popGrid[idx(x,y)] = v; sum += v;
+    }
+  const k = 1250000 / sum;
+  for(let i=0; i<GN; i++) popGrid[i] *= k;
+
+  // district labels anchored to generated features
+  labels = [
+    {x:92,  y:66, t:'OLD TOWN'},
+    {x:172, y:78, t:'EASTBANK'},
+    {x:60,  y:30, t:'NORTHGATE'},
+    {x:170, y:132,t:'SOUTHMEAD'},
+  ];
+  if(parks[0]) labels.push({x:parks[0].x, y:parks[0].y, t:'GREENFIELD PARK'});
+
+  document.getElementById('seedinfo').textContent =
+    'Seed ' + sd + ' · 24 × 16 km · 100 m resolution · pop. 1.25 M · ' + stations.length + ' metro stations';
+}
+let stAdjTmp = []; // scratch used during generation
+
+function nearestPassable(x0, y0, maxR = 8){
+  for(let r=0; r<=maxR; r++)
+    for(let dy=-r; dy<=r; dy++)
+      for(let dx=-r; dx<=r; dx++){
+        if(Math.max(Math.abs(dx), Math.abs(dy)) !== r) continue;
+        const x=x0+dx, y=y0+dy;
+        if(!inb(x,y)) continue;
+        const c = cls[idx(x,y)];
+        if(c !== RIVER && c !== HWY) return idx(x,y);
+      }
+  return -1;
+}
+
+// ---------- Dijkstra ----------
+const NB = [[1,0,1],[-1,0,1],[0,1,1],[0,-1,1],[1,1,Math.SQRT2],[1,-1,Math.SQRT2],[-1,1,Math.SQRT2],[-1,-1,Math.SQRT2]];
+
+function dijkstra(src){
+  const m = MODES[mode];
+  const ct = m.speeds.map(s => s > 0 ? 6/s : Infinity); // minutes per 100 m
+  dist.fill(BIG); prev.fill(-1);
+  // binary min-heap (lazy deletion)
+  const hn = [src], hk = [0];
+  dist[src] = 0;
+  const push = (n,k) => {
+    let i = hn.length; hn.push(n); hk.push(k);
+    while(i>0){ const p=(i-1)>>1; if(hk[p]<=hk[i]) break;
+      [hn[p],hn[i]]=[hn[i],hn[p]]; [hk[p],hk[i]]=[hk[i],hk[p]]; i=p; }
+  };
+  const pop = () => {
+    const n=hn[0], last=hn.length-1;
+    hn[0]=hn[last]; hk[0]=hk[last]; hn.pop(); hk.pop();
+    let i=0;
+    while(true){ const l=2*i+1, r=l+1; let s=i;
+      if(l<hn.length && hk[l]<hk[s]) s=l;
+      if(r<hn.length && hk[r]<hk[s]) s=r;
+      if(s===i) break;
+      [hn[s],hn[i]]=[hn[i],hn[s]]; [hk[s],hk[i]]=[hk[i],hk[s]]; i=s; }
+    return n;
+  };
+  while(hn.length){
+    const k0 = hk[0], u = pop();
+    if(k0 > dist[u]) continue;
+    if(u < GN){
+      const ux = u % GW, uy = (u / GW) | 0;
+      const ctu = ct[cls[u]];
+      for(const [dx,dy,step] of NB){
+        const x = ux+dx, y = uy+dy;
+        if(!inb(x,y)) continue;
+        const v = idx(x,y);
+        const ctv = ct[cls[v]];
+        if(ctv === Infinity) continue;
+        if(step > 1){ // no cutting corners across water / motorways
+          if(ct[cls[idx(ux+dx,uy)]] === Infinity || ct[cls[idx(ux,uy+dy)]] === Infinity) continue;
+        }
+        const nk = k0 + (ctu + ctv) * 0.5 * step;
+        if(nk < dist[v]){ dist[v] = nk; prev[v] = u; push(v, nk); }
+      }
+      if(m.metro && enterMap.has(u)){
+        for(const si of enterMap.get(u)){
+          const v = GN + si, nk = k0 + METRO_ENTER;
+          if(nk < dist[v]){ dist[v] = nk; prev[v] = u; push(v, nk); }
+        }
+      }
+    } else {
+      const si = u - GN;
+      for(const [sj, t] of stAdj[si]){
+        const v = GN + sj, nk = k0 + t;
+        if(nk < dist[v]){ dist[v] = nk; prev[v] = u; push(v, nk); }
+      }
+      const g = stations[si].ground;
+      if(g >= 0){
+        const nk = k0 + METRO_EXIT;
+        if(nk < dist[g]){ dist[g] = nk; prev[g] = u; push(g, nk); }
+      }
+    }
+  }
+}
+
+// ---------- base map rendering ----------
+function drawRuns(ctx, matchFn){
+  ctx.beginPath();
+  for(let y=0; y<GH; y++){
+    let run = -1;
+    for(let x=0; x<=GW; x++){
+      const m = x<GW && matchFn(cls[idx(x,y)]);
+      if(m && run<0) run = x;
+      else if(!m && run>=0){
+        if(x-run >= 2){ ctx.moveTo((run+0.5)*S, (y+0.5)*S); ctx.lineTo((x-0.5)*S, (y+0.5)*S); }
+        run = -1;
+      }
+    }
+  }
+  for(let x=0; x<GW; x++){
+    let run = -1;
+    for(let y=0; y<=GH; y++){
+      const m = y<GH && matchFn(cls[idx(x,y)]);
+      if(m && run<0) run = y;
+      else if(!m && run>=0){
+        if(y-run >= 2){ ctx.moveTo((x+0.5)*S, (run+0.5)*S); ctx.lineTo((x+0.5)*S, (y-0.5)*S); }
+        run = -1;
+      }
+    }
+  }
+  ctx.stroke();
+}
+
+function drawBase(){
+  const ctx = baseCtx;
+  ctx.clearRect(0,0,CW,CH);
+  ctx.fillStyle = '#14181f';
+  ctx.fillRect(0,0,CW,CH);
+
+  // building texture: faint blocks scaled by density
+  const hashRng = mulberry32(seed ^ 0x9e3779b9);
+  for(let y=0; y<GH; y++)
+    for(let x=0; x<GW; x++){
+      if(cls[idx(x,y)] !== OPEN) continue;
+      const d = dens(x,y);
+      if(d < 0.12) continue;
+      const h = hashRng();
+      ctx.fillStyle = 'rgba(205,215,235,' + (0.015 + d*0.05*h).toFixed(3) + ')';
+      ctx.fillRect(x*S + 1, y*S + 1, S-2, S-2);
+    }
+
+  // parks
+  ctx.fillStyle = '#1d2f24';
+  for(let y=0; y<GH; y++)
+    for(let x=0; x<GW; x++)
+      if(cls[idx(x,y)] === PARK) ctx.fillRect(x*S, y*S, S, S);
+
+  // river: smooth stroked centerline, width matching the raster
+  ctx.lineCap = 'round';
+  for(const [col, extra] of [['#11243d', 2.5], ['#1d3a5e', 0]]){
+    ctx.strokeStyle = col;
+    for(let y=0; y<GH-1; y++){
+      ctx.beginPath();
+      ctx.lineWidth = (riverW(y)*2 + 1)*S + extra*2;
+      ctx.moveTo(riverX(y)*S + S/2, (y+0.5)*S);
+      ctx.lineTo(riverX(y+1)*S + S/2, (y+1.5)*S);
+      ctx.stroke();
+    }
+  }
+
+  // local streets
+  ctx.strokeStyle = '#2c333d'; ctx.lineWidth = 1.6;
+  drawRuns(ctx, c => c === LOCAL);
+
+  // arterials + bridges (casing then fill)
+  ctx.strokeStyle = '#171b22'; ctx.lineWidth = 5.5;
+  drawRuns(ctx, c => c === ART || c === BRIDGE);
+  ctx.strokeStyle = '#4a5462'; ctx.lineWidth = 3.2;
+  drawRuns(ctx, c => c === ART || c === BRIDGE);
+
+  // highways: continuous vectors over everything (viaduct over river)
+  ctx.lineJoin = 'round';
+  for(const [w, col] of [[8,'#11141a'], [5.5,'#5e5746'], [1,'#9a8a5e']]){
+    ctx.strokeStyle = col; ctx.lineWidth = w;
+    ctx.setLineDash(w === 1 ? [10,8] : []);
+    ctx.beginPath();
+    for(const [x0,y0,x1,y1] of hwySegs){
+      ctx.moveTo((x0+0.5)*S, (y0+0.5)*S); ctx.lineTo((x1+0.5)*S, (y1+0.5)*S);
+    }
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  // metro lines + stations
+  for(const line of metroLines){
+    ctx.strokeStyle = line.color; ctx.globalAlpha = 0.75;
+    ctx.lineWidth = 2.4; ctx.setLineDash([7,5]);
+    ctx.beginPath();
+    line.pts.forEach(([x,y],i) => i ? ctx.lineTo((x+0.5)*S,(y+0.5)*S) : ctx.moveTo((x+0.5)*S,(y+0.5)*S));
+    ctx.stroke();
+  }
+  ctx.setLineDash([]); ctx.globalAlpha = 1;
+  for(const st of stations){
+    ctx.beginPath();
+    ctx.arc((st.x+0.5)*S, (st.y+0.5)*S, 3.4, 0, 7);
+    ctx.fillStyle = '#0c0f14'; ctx.fill();
+    ctx.beginPath();
+    ctx.arc((st.x+0.5)*S, (st.y+0.5)*S, 2.2, 0, 7);
+    ctx.fillStyle = '#e8ecf2'; ctx.fill();
+  }
+
+  // district labels
+  ctx.font = '600 11px Segoe UI, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillStyle = 'rgba(170,185,205,0.5)';
+  for(const lb of labels){
+    ctx.save();
+    ctx.shadowColor = '#000a'; ctx.shadowBlur = 4;
+    ctx.fillText(lb.t.split('').join('  '), lb.x*S, lb.y*S);
+    ctx.restore();
+  }
+
+  // scale bar + north arrow
+  const bx = CW - 130, by = CH - 24;
+  ctx.strokeStyle = '#8b97a8'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(bx + 10*S, by);
+  ctx.moveTo(bx, by-4); ctx.lineTo(bx, by+4);
+  ctx.moveTo(bx+10*S, by-4); ctx.lineTo(bx+10*S, by+4);
+  ctx.stroke();
+  ctx.fillStyle = '#8b97a8'; ctx.font = '10px Segoe UI, sans-serif';
+  ctx.fillText('1 km', bx + 5*S, by - 7);
+  ctx.font = '600 13px Segoe UI, sans-serif';
+  ctx.fillText('N', CW - 26, 26);
+  ctx.beginPath(); ctx.moveTo(CW-26, 32); ctx.lineTo(CW-30, 42); ctx.lineTo(CW-26, 39);
+  ctx.lineTo(CW-22, 42); ctx.closePath(); ctx.fill();
+  ctx.textAlign = 'left';
+}
+
+// ---------- isochrone field rendering ----------
+function drawIso(){
+  isoCtx.clearRect(0,0,CW,CH);
+  if(origin < 0) return;
+  const img = isoCtx.createImageData(CW, CH);
+  const px = img.data;
+  const cap = MAX_T + 15;
+  const prevBand = new Int16Array(CW).fill(-2);
+  const curBand  = new Int16Array(CW);
+  for(let y=0; y<CH; y++){
+    const gy = (y+0.5)/S - 0.5;
+    let y0 = Math.floor(gy); if(y0 < 0) y0 = 0; if(y0 > GH-2) y0 = GH-2;
+    const fy = Math.min(1, Math.max(0, gy - y0));
+    const rowA = y0*GW, rowB = (y0+1)*GW;
+    for(let x=0; x<CW; x++){
+      const gx = (x+0.5)/S - 0.5;
+      let x0 = Math.floor(gx); if(x0 < 0) x0 = 0; if(x0 > GW-2) x0 = GW-2;
+      const fx = Math.min(1, Math.max(0, gx - x0));
+      const a = Math.min(dist[rowA+x0],   cap), b = Math.min(dist[rowA+x0+1], cap);
+      const c = Math.min(dist[rowB+x0],   cap), d = Math.min(dist[rowB+x0+1], cap);
+      const t = (a*(1-fx)+b*fx)*(1-fy) + (c*(1-fx)+d*fx)*fy;
+      const o = (y*CW + x)*4;
+      let band;
+      if(t <= MAX_T){
+        band = Math.min(11, (t/BAND)|0);
+        const rgb = PALETTE_RGB[band];
+        // contour: band boundary against left/top neighbor pixel
+        const edge = (x>0 && curBand[x-1] !== band && curBand[x-1] >= 0) ||
+                     (prevBand[x] !== band && prevBand[x] >= 0);
+        if(edge){
+          px[o] = rgb[0]*0.45; px[o+1] = rgb[1]*0.45; px[o+2] = rgb[2]*0.45; px[o+3] = 215;
+        } else {
+          px[o] = rgb[0]; px[o+1] = rgb[1]; px[o+2] = rgb[2]; px[o+3] = 105;
+        }
+      } else {
+        band = -1;
+        px[o] = 4; px[o+1] = 7; px[o+2] = 12; px[o+3] = 110; // beyond-60-min veil
+      }
+      curBand[x] = band;
+    }
+    prevBand.set(curBand);
+  }
+  isoCtx.putImageData(img, 0, 0);
+}
+
+// ---------- UI layer (markers, route, hover) ----------
+function nodeXY(n){
+  if(n < GN) return [(n % GW + 0.5)*S, (((n / GW)|0) + 0.5)*S];
+  const st = stations[n - GN];
+  return [(st.x + 0.5)*S, (st.y + 0.5)*S];
+}
+
+function buildRoute(){
+  if(dest < 0 || dist[dest] >= BIG) return null;
+  const nodes = [];
+  let n = dest;
+  while(n !== -1){ nodes.push(n); n = prev[n]; }
+  nodes.reverse();
+  let km = 0;
+  for(let i=1; i<nodes.length; i++){
+    const [ax,ay] = nodeXY(nodes[i-1]), [bx,by] = nodeXY(nodes[i]);
+    km += Math.hypot(bx-ax, by-ay) / S * CELL_KM;
+  }
+  return {nodes, km, t: dist[dest]};
+}
+
+let pulse = 0;
+function drawUI(){
+  const ctx = uiCtx;
+  ctx.clearRect(0,0,CW,CH);
+
+  const route = buildRoute();
+  if(route){
+    ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    // glow
+    ctx.strokeStyle = 'rgba(255,255,255,0.25)'; ctx.lineWidth = 8;
+    ctx.beginPath();
+    route.nodes.forEach((n,i) => { const [x,y] = nodeXY(n); i ? ctx.lineTo(x,y) : ctx.moveTo(x,y); });
+    ctx.stroke();
+    // segments: metro legs in line color, street legs white
+    for(let i=1; i<route.nodes.length; i++){
+      const a = route.nodes[i-1], b = route.nodes[i];
+      const [ax,ay] = nodeXY(a), [bx,by] = nodeXY(b);
+      const metroLeg = a >= GN && b >= GN;
+      ctx.strokeStyle = metroLeg ? metroLines[stations[b-GN].line].color : '#ffffff';
+      ctx.lineWidth = metroLeg ? 4.5 : 3;
+      ctx.beginPath(); ctx.moveTo(ax,ay); ctx.lineTo(bx,by); ctx.stroke();
+    }
+  }
+
+  if(hoverCell >= 0 && origin >= 0){
+    const [x,y] = nodeXY(hoverCell);
+    ctx.beginPath(); ctx.arc(x, y, 7, 0, 7);
+    ctx.strokeStyle = 'rgba(255,255,255,0.8)'; ctx.lineWidth = 1.5; ctx.stroke();
+  }
+
+  const marker = (n, fill, letter) => {
+    const [x,y] = nodeXY(n);
+    ctx.beginPath(); ctx.arc(x, y, 11 + Math.sin(pulse)*1.5, 0, 7);
+    ctx.strokeStyle = fill; ctx.globalAlpha = 0.45; ctx.lineWidth = 3; ctx.stroke();
+    ctx.globalAlpha = 1;
+    ctx.beginPath(); ctx.arc(x, y, 8, 0, 7);
+    ctx.fillStyle = fill; ctx.fill();
+    ctx.strokeStyle = '#0c0f14'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.fillStyle = '#0c0f14'; ctx.font = '700 10px Segoe UI, sans-serif';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(letter, x, y+0.5);
+    ctx.textBaseline = 'alphabetic'; ctx.textAlign = 'left';
+  };
+  if(origin >= 0) marker(origin, '#46d442', 'A');
+  if(dest >= 0)   marker(dest, '#f25a3c', 'B');
+}
+
+function animate(){
+  pulse += 0.09;
+  drawUI();
+  requestAnimationFrame(animate);
+}
+
+// ---------- stats / route cards ----------
+function fmtPop(p){
+  return p >= 1e6 ? (p/1e6).toFixed(2)+' M' : Math.round(p/1000)+' k';
+}
+function updateStats(){
+  const el = document.getElementById('stats');
+  if(origin < 0){ el.style.display = 'none'; return; }
+  el.style.display = '';
+  const TH = [15, 30, 45, 60];
+  const area = [0,0,0,0], pop = [0,0,0,0];
+  for(let i=0; i<GN; i++){
+    const d = dist[i];
+    if(d > 60) continue;
+    for(let k=0; k<4; k++) if(d <= TH[k]){ area[k] += 0.01; pop[k] += popGrid[i]; }
+  }
+  let rows = '<tr class="head"><td></td><td>area</td><td>people</td></tr>';
+  for(let k=0; k<4; k++){
+    const chip = PALETTE[TH[k]/5 - 1];
+    rows += `<tr><td><i class="chip" style="background:${chip}"></i>≤ ${TH[k]} min</td>
+             <td>${area[k].toFixed(1)} km²</td><td>${fmtPop(pop[k])}</td></tr>`;
+  }
+  el.innerHTML = '<h3>Reachable · ' + MODES[mode].label.replace(/^\S+\s/,'') + '</h3><table>' + rows + '</table>';
+}
+
+function updateRouteCard(){
+  const el = document.getElementById('route');
+  const route = buildRoute();
+  if(!route){ el.style.display = 'none'; return; }
+  el.style.display = '';
+  const usesMetro = route.nodes.some(n => n >= GN);
+  el.innerHTML = `A → B: <b>${route.t.toFixed(1)} min</b> · ${route.km.toFixed(1)} km route` +
+    (usesMetro ? ' · via metro' : '') + `<br><span style="color:var(--muted)">${MODES[mode].label}</span>`;
+}
+
+function updateHint(){
+  const h = document.getElementById('hint');
+  if(clickState === 0)      h.innerHTML = '<b>Click anywhere</b> to set your starting point. Color bands show travel time — 5 minutes each.';
+  else if(clickState === 1) h.innerHTML = '<b>Click again</b> to set a destination and see the fastest route — or switch travel mode above.';
+  else                      h.innerHTML = '<b>Click</b> to choose a new starting point. Notice how bridges and metro stations bend the bands.';
+}
+
+// ---------- interaction ----------
+function recompute(){
+  if(origin >= 0) dijkstra(origin);
+  drawIso();
+  updateStats();
+  updateRouteCard();
+  updateHint();
+}
+
+function canvasCell(ev){
+  const r = uiCanvas.getBoundingClientRect();
+  const x = Math.floor((ev.clientX - r.left) / r.width * GW);
+  const y = Math.floor((ev.clientY - r.top) / r.height * GH);
+  if(!inb(x,y)) return -1;
+  return idx(x,y);
+}
+
+uiCanvas.addEventListener('click', ev => {
+  let cell = canvasCell(ev);
+  if(cell < 0) return;
+  const c = cls[cell];
+  if(c === RIVER || c === HWY){
+    cell = nearestPassable(cell % GW, (cell/GW)|0, 5);
+    if(cell < 0) return;
+  }
+  if(clickState === 1){
+    dest = cell; clickState = 2;
+    updateRouteCard(); updateHint();
+  } else {
+    origin = cell; dest = -1; clickState = 1;
+    recompute();
+  }
+});
+
+const tooltip = document.getElementById('tooltip');
+uiCanvas.addEventListener('mousemove', ev => {
+  hoverCell = canvasCell(ev);
+  if(hoverCell < 0 || origin < 0){ tooltip.style.display = 'none'; return; }
+  const d = dist[hoverCell];
+  const [ox,oy] = nodeXY(origin), [hx,hy] = nodeXY(hoverCell);
+  const km = Math.hypot(hx-ox, hy-oy)/S*CELL_KM;
+  tooltip.innerHTML = (d >= BIG ? '<b>unreachable</b>' : '<b>' + d.toFixed(1) + ' min</b>')
+                    + '<br>' + km.toFixed(1) + ' km away';
+  const wrap = document.getElementById('mapwrap').getBoundingClientRect();
+  tooltip.style.display = 'block';
+  tooltip.style.left = Math.min(ev.clientX - wrap.left + 16, wrap.width - 120) + 'px';
+  tooltip.style.top  = (ev.clientY - wrap.top + 16) + 'px';
+});
+uiCanvas.addEventListener('mouseleave', () => { hoverCell = -1; tooltip.style.display = 'none'; });
+
+// mode buttons
+const modesEl = document.getElementById('modes');
+for(const key of Object.keys(MODES)){
+  const b = document.createElement('button');
+  b.innerHTML = MODES[key].label + '<span class="spd">' + MODES[key].spd + '</span>';
+  b.dataset.mode = key;
+  if(key === mode) b.classList.add('active');
+  b.onclick = () => {
+    mode = key;
+    for(const x of modesEl.children) x.classList.toggle('active', x.dataset.mode === key);
+    recompute();
+  };
+  modesEl.appendChild(b);
+}
+
+// legend bar
+const lb = document.getElementById('legendbar');
+for(const c of PALETTE){ const i = document.createElement('i'); i.style.background = c; lb.appendChild(i); }
+
+// new city
+const CITYNAMES = ['Aldermoor','Veltbach','Norhaven','Eastmere','Carroway','Lindport','Ashveil','Brockfield'];
+document.getElementById('newcity').onclick = () => {
+  seed = (Math.random()*1e9)|0;
+  document.getElementById('cityname').textContent = CITYNAMES[seed % CITYNAMES.length];
+  rebuild();
+};
+
+// ---------- boot ----------
+function rebuild(){
+  stAdjTmp = [];
+  genCity(seed);
+  drawBase();
+  origin = nearestPassable(92, 76);
+  dest = -1; clickState = 1;
+  recompute();
+}
+rebuild();
+animate();
+</script>
+</body>
+</html>
