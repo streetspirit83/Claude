@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T18:42:49+00:00",
+  "generated_at": "2026-06-11T21:14:33+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 10
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -275,37 +275,37 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 4
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 4
     },
     {
       "name": "iea-news",
@@ -368,8 +368,19 @@
       "items_matched": 0
     }
   ],
-  "count": 264,
+  "count": 263,
   "articles": [
+    {
+      "title": "Corporate climate plans arbiter draws critics on new ‘net zero’ rule book",
+      "teaser": "Companies able to claim they have made ‘best efforts’ even if they fall short of climate goals",
+      "link": "https://www.ft.com/content/d98a876a-1ea0-40ae-bf3e-b9acf1aca27f",
+      "source": "ft-energy",
+      "published": "2026-06-11T18:34:36+00:00",
+      "matched_keywords": [
+        "climate",
+        "net zero"
+      ]
+    },
     {
       "title": "EnQuest makes $833 million play to expand its Southeast Asian oil & gas arsenal",
       "teaser": "EnQuest Petroleum Production Malaysia, a wholly owned subsidiary of London Stock Exchange-listed energy firm EnQuest, has set the wheels in motion to enlarge its oil and gas footprint in Southeast Asia through a proposed acquisition of…",
@@ -567,6 +578,17 @@
       ]
     },
     {
+      "title": "Wartsila tests large-scale hydrogen-fired engine on Spanish power grid",
+      "teaser": "Energy technology group Wartsila has begun testing a large-scale engine running on 100% hydrogen, supplying power to Spain&apos;s national grid, the company said in a statement on June 11. The trial of the Wartsila 31H2 engine in Bermeo,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/061126-wartsila-tests-large-scale-hydrogen-fired-engine-on-spanish-power-grid",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-11T02:00:30+00:00",
+      "matched_keywords": [
+        "hydrogen",
+        "power grid"
+      ]
+    },
+    {
       "title": "World will cross 1.5°C warming limit by 2030 if emissions continue at current rate - report",
       "teaser": "The rate of human-induced warming remains at an all-time high, according to the latest Indicators of Global Climate Change report.",
       "link": "http://www.euronews.com/2026/06/11/world-will-cross-15c-warming-limit-by-2030-if-emissions-continue-at-current-rate-report",
@@ -585,6 +607,17 @@
       "published": "2026-06-10T21:00:00+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Google, American Airlines sign SAF agreement for 35 million gallons",
+      "teaser": "American Airlines and Google have signed a sustainable aviation fuel certificate agreement covering 35 million gallons over three years and targeting nearly 300,000 metric tons of CO2 equivalent emissions reductions. Under the agreement,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/061026-google-american-airlines-sign-saf-agreement-for-35-million-gallons",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-10T19:12:12+00:00",
+      "matched_keywords": [
+        "co2",
+        "emission"
       ]
     },
     {
@@ -635,6 +668,18 @@
       "published": "2026-06-10T12:53:36+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "European Commission lays out core priorities for ETS July review",
+      "teaser": "The European Commission has laid out its key priorities for the upcoming review of the Emissions Trading System, eyeing a predictable carbon price, strengthening investment and ensuring an even playing field for sectors covered by the…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/061026-european-commission-lays-out-core-priorities-for-ets-july-review",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-10T12:13:25+00:00",
+      "matched_keywords": [
+        "carbon price",
+        "emissions trading",
+        "ets"
       ]
     },
     {
@@ -781,6 +826,16 @@
       "published": "2026-06-09T13:05:44+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "Technip Energies, Airbus, Safran form eSAF venture at Dunkirk",
+      "teaser": "A consortium of industrial leaders has formed a joint venture to develop one of Europe&apos;s largest alcohol-to-jet facilities, aiming to help meet rapidly rising EU mandates and contribute to energy security. Technip Energies, Airbus,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/060926-technip-energies-airbus-safran-form-esaf-venture-at-dunkirk",
+      "source": "spglobal-energy-transition",
+      "published": "2026-06-09T12:53:06+00:00",
+      "matched_keywords": [
+        "energy security"
       ]
     },
     {
@@ -948,6 +1003,16 @@
       ]
     },
     {
+      "title": "Federal subsidies for coal plants may not save struggling sector, analysts say",
+      "teaser": "With hundreds of millions of dollars in additional federal subsidies recently announced for coal-fired power plants across the US, questions remain over whether the funding will move the needle for a sector that continues to lose ground to…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-federal-subsidies-for-coal-plants-may-not-save-struggling-sector-analysts-say",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-08T20:18:39+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
       "title": "EU-Sanktionen gegen die iranische Marine",
       "teaser": "Die iranischen Beschränkungen für die Schifffahrt durch die Straße von Hormus haben einen Energieschock in den EU-Volkswirtschaften ausgelöst und die Union im Mai dazu veranlasst, ihr Sanktionsregime auszuweiten.",
       "link": "https://euractiv.com/de/news/die-iranische-marine-von-eu-sanktionen-getroffen/",
@@ -955,6 +1020,17 @@
       "published": "2026-06-08T17:30:53+00:00",
       "matched_keywords": [
         "sanktion"
+      ]
+    },
+    {
+      "title": "INTERVIEW: Xcel Energy&apos;s renewables-rich footprint is primed for hyperscalers, CEO says",
+      "teaser": "Xcel Energy Inc. sees itself as uniquely positioned to continue leading on US power-sector emission reductions while accommodating a surge in demand from large-load customers such as data centers, Bob Frenzel, the company&apos;s chairman,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-interview-xcel-energys-renewables-rich-footprint-is-primed-for-hyperscalers-ceo-says",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-08T15:29:55+00:00",
+      "matched_keywords": [
+        "emission",
+        "renewable"
       ]
     },
     {
@@ -1105,6 +1181,16 @@
       ]
     },
     {
+      "title": "INTERVIEW: Australia&apos;s NH3 Clean Energy targeting WAH2 project FID by year-end: chairman",
+      "teaser": "Australia&apos;s NH3 Clean Energy aims to take a final investment decision on its WAH2 project by year-end, with commercial ammonia-bunkering operations set to start in 2030, aiding the use of cleaner fuels to accelerate decarbonization,…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/060526-interview-australias-nh3-clean-energy-targeting-wah2-project-fid-by-year-end-chairman",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-05T10:31:27+00:00",
+      "matched_keywords": [
+        "decarbon"
+      ]
+    },
+    {
       "title": "Rolls-Royce to build four BESS facilities for Sunly in Latvia",
       "teaser": "Rolls-Royce Power Systems and Sunly have formalised contracts for the construction of four large-scale battery storage facilities in Latvia.",
       "link": "https://www.energymonitor.ai/news/rolls-royce-sunly-bess-latvia/",
@@ -1192,6 +1278,16 @@
       "published": "2026-06-05T02:20:29+00:00",
       "matched_keywords": [
         "battery storage"
+      ]
+    },
+    {
+      "title": "Trump announces $700M in funding for US coal plants, export facility",
+      "teaser": "The Trump administration is bolstering its fossil fuel-focused energy agenda with another $700 million in federal subsidies for new and existing coal-fired power plants in 12 states. The funding, some of which will be released under the…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060426-trump-announces-700m-in-funding-for-us-coal-plants-export-facility",
+      "source": "spglobal-electric-power",
+      "published": "2026-06-04T23:31:27+00:00",
+      "matched_keywords": [
+        "subsid"
       ]
     },
     {
@@ -2792,110 +2888,6 @@
       "published": null,
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
-      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
-      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende",
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Warum der geplante Redispatch-Vorbehalt für Erneuerbare die Energiewende ausbremst",
-      "teaser": "Die vom Bundeswirtschaftsministerium (BMWE) vorgeschlagene Einführung eines Redispatch-Vorbehalts für sogenannte Engpassgebiete birgt das Risiko, dass...",
-      "link": "https://www.agora-energiewende.de/aktuelles/warum-der-geplante-redispatch-vorbehalt-fuer-erneuerbare-die-energiewende-ausbremst",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende",
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
-      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
-      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "emission",
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 436",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 91",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 158",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
-      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
