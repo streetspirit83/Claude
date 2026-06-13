@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T21:00:24+00:00",
+  "generated_at": "2026-06-13T07:40:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 23
+      "items_matched": 22
     },
     {
       "name": "politico-energy-climate",
@@ -280,32 +280,32 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 4
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 272,
+  "count": 264,
   "articles": [
     {
       "title": "Erneuter Brand in einem Haus mit Photovoltaik-Dachziegeln in Deutschland",
@@ -764,17 +764,6 @@
       ]
     },
     {
-      "title": "Wartsila tests large-scale hydrogen-fired engine on Spanish power grid",
-      "teaser": "Energy technology group Wartsila has begun testing a large-scale engine running on 100% hydrogen, supplying power to Spain&apos;s national grid, the company said in a statement on June 11. The trial of the Wartsila 31H2 engine in Bermeo,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/061126-wartsila-tests-large-scale-hydrogen-fired-engine-on-spanish-power-grid",
-      "source": "spglobal-energy-transition",
-      "published": "2026-06-11T02:00:30+00:00",
-      "matched_keywords": [
-        "hydrogen",
-        "power grid"
-      ]
-    },
-    {
       "title": "World will cross 1.5°C warming limit by 2030 if emissions continue at current rate - report",
       "teaser": "The rate of human-induced warming remains at an all-time high, according to the latest Indicators of Global Climate Change report.",
       "link": "http://www.euronews.com/2026/06/11/world-will-cross-15c-warming-limit-by-2030-if-emissions-continue-at-current-rate-report",
@@ -796,17 +785,6 @@
       ]
     },
     {
-      "title": "Google, American Airlines sign SAF agreement for 35 million gallons",
-      "teaser": "American Airlines and Google have signed a sustainable aviation fuel certificate agreement covering 35 million gallons over three years and targeting nearly 300,000 metric tons of CO2 equivalent emissions reductions. Under the agreement,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/061026-google-american-airlines-sign-saf-agreement-for-35-million-gallons",
-      "source": "spglobal-energy-transition",
-      "published": "2026-06-10T19:12:12+00:00",
-      "matched_keywords": [
-        "co2",
-        "emission"
-      ]
-    },
-    {
       "title": "Countries pledge €3.4bn for climate adaptation, biodiversity protection and water security",
       "teaser": "Representatives from 186 nations agreed the Global Environment Facility fund, which will support projects in 144 countries.",
       "link": "http://www.euronews.com/2026/06/10/countries-pledge-34bn-for-climate-adaptation-biodiversity-protection-and-water-security",
@@ -824,18 +802,6 @@
       "published": "2026-06-10T13:28:42+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "European Commission lays out core priorities for ETS July review",
-      "teaser": "The European Commission has laid out its key priorities for the upcoming review of the Emissions Trading System, eyeing a predictable carbon price, strengthening investment and ensuring an even playing field for sectors covered by the…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/061026-european-commission-lays-out-core-priorities-for-ets-july-review",
-      "source": "spglobal-energy-transition",
-      "published": "2026-06-10T12:13:25+00:00",
-      "matched_keywords": [
-        "carbon price",
-        "emissions trading",
-        "ets"
       ]
     },
     {
@@ -1149,16 +1115,6 @@
       ]
     },
     {
-      "title": "Federal subsidies for coal plants may not save struggling sector, analysts say",
-      "teaser": "With hundreds of millions of dollars in additional federal subsidies recently announced for coal-fired power plants across the US, questions remain over whether the funding will move the needle for a sector that continues to lose ground to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-federal-subsidies-for-coal-plants-may-not-save-struggling-sector-analysts-say",
-      "source": "spglobal-electric-power",
-      "published": "2026-06-08T20:18:39+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "EU-Sanktionen gegen die iranische Marine",
       "teaser": "Die iranischen Beschränkungen für die Schifffahrt durch die Straße von Hormus haben einen Energieschock in den EU-Volkswirtschaften ausgelöst und die Union im Mai dazu veranlasst, ihr Sanktionsregime auszuweiten.",
       "link": "https://euractiv.com/de/news/die-iranische-marine-von-eu-sanktionen-getroffen/",
@@ -1166,17 +1122,6 @@
       "published": "2026-06-08T17:30:53+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "INTERVIEW: Xcel Energy&apos;s renewables-rich footprint is primed for hyperscalers, CEO says",
-      "teaser": "Xcel Energy Inc. sees itself as uniquely positioned to continue leading on US power-sector emission reductions while accommodating a surge in demand from large-load customers such as data centers, Bob Frenzel, the company&apos;s chairman,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060826-interview-xcel-energys-renewables-rich-footprint-is-primed-for-hyperscalers-ceo-says",
-      "source": "spglobal-electric-power",
-      "published": "2026-06-08T15:29:55+00:00",
-      "matched_keywords": [
-        "emission",
-        "renewable"
       ]
     },
     {
@@ -1307,16 +1252,6 @@
       ]
     },
     {
-      "title": "INTERVIEW: Australia&apos;s NH3 Clean Energy targeting WAH2 project FID by year-end: chairman",
-      "teaser": "Australia&apos;s NH3 Clean Energy aims to take a final investment decision on its WAH2 project by year-end, with commercial ammonia-bunkering operations set to start in 2030, aiding the use of cleaner fuels to accelerate decarbonization,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/060526-interview-australias-nh3-clean-energy-targeting-wah2-project-fid-by-year-end-chairman",
-      "source": "spglobal-electric-power",
-      "published": "2026-06-05T10:31:27+00:00",
-      "matched_keywords": [
-        "decarbon"
-      ]
-    },
-    {
       "title": "Rolls-Royce to build four BESS facilities for Sunly in Latvia",
       "teaser": "Rolls-Royce Power Systems and Sunly have formalised contracts for the construction of four large-scale battery storage facilities in Latvia.",
       "link": "https://www.energymonitor.ai/news/rolls-royce-sunly-bess-latvia/",
@@ -1394,16 +1329,6 @@
       "published": "2026-06-05T02:20:29+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Trump announces $700M in funding for US coal plants, export facility",
-      "teaser": "The Trump administration is bolstering its fossil fuel-focused energy agenda with another $700 million in federal subsidies for new and existing coal-fired power plants in 12 states. The funding, some of which will be released under the…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/060426-trump-announces-700m-in-funding-for-us-coal-plants-export-facility",
-      "source": "spglobal-electric-power",
-      "published": "2026-06-04T23:31:27+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1763,16 +1688,6 @@
         "co2",
         "emission",
         "klima"
-      ]
-    },
-    {
-      "title": "Record heat has ‘fingerprints of climate change all over it’. What can Europe expect this summer?",
-      "teaser": "\"The climate we are living in today is simply not the one we grew up with, and our buildings and infrastructure are woefully unprepared for what's next.”",
-      "link": "http://www.euronews.com/2026/05/27/record-heat-has-fingerprints-of-climate-change-all-over-it-what-can-europe-expect-this-sum",
-      "source": "euronews-green",
-      "published": "2026-05-27T10:02:23+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -2808,13 +2723,13 @@
       ]
     },
     {
-      "title": "Energiesprong on TECHNIKtour: #Sarstedt",
-      "teaser": "Im Rahmen unserer Exkursion stellen wir Ihnen vier innovative Lösungen für serielle Sanierungsvorhaben oder bereits gedämmte Gebäude vor, die einen schnellen und wirtschaftlichen Umstieg auf klimafreundliche Energielösungen ermöglichen.",
-      "link": "https://www.dena.de/infocenter/energiesprong-on-techniktour-sarstedt/",
+      "title": "Mit Daten gemeinsam Werte generieren – Datenräume für die Energiewende",
+      "teaser": "Wie datenbasierte Anwendungen im Energiesystem sicher, interoperabel und wirksam skalieren, zeigen wir im Future Energy Lab Berlin.",
+      "link": "https://www.dena.de/infocenter/mit-daten-gemeinsam-werte-generieren-datenraeume-fuer-die-energiewende/",
       "source": "dena-newsroom",
       "published": null,
       "matched_keywords": [
-        "klima"
+        "energiewende"
       ]
     },
     {
