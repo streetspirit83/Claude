@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T07:40:39+00:00",
+  "generated_at": "2026-06-13T14:56:01+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "montelnews",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "euronews-green",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -370,6 +370,16 @@
   ],
   "count": 264,
   "articles": [
+    {
+      "title": "RWE franchit 1 GW de capacité énergétique en Illinois avec Emily Solar",
+      "teaser": "RWE inaugure Emily Solar, un projet de 273,6 MW dans les comtés de Clark et Cumberland, et franchit le cap de 1 GW de capacité énergétique opérationnelle en Illinois.",
+      "link": "https://energynews.pro/rwe-franchit-1-gw-de-capacite-energetique-en-illinois-avec-emily-solar",
+      "source": "energynews-pro",
+      "published": "2026-06-13T13:18:54+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "Erneuter Brand in einem Haus mit Photovoltaik-Dachziegeln in Deutschland",
       "teaser": "Zwei Brände innerhalb eines Monats in Deutschland rücken die Sicherheit von Photovoltaik-Dachziegeln in den Fokus. Der Hersteller versichert auf Anfrage von pv magazine, dass die Brände nicht mit den Dachziegeln in Zusammenhang stehen. Er…",
@@ -1415,16 +1425,6 @@
       "published": "2026-06-03T15:35:19+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "EDF and Masdar sign 15-year PPAs for BigBeau Solar+Storage output",
-      "teaser": "EDF power solutions North America and Masdar have signed 15-year power purchase agreements (PPAs) for the output of the BigBeau Solar+Storage Project in Kern County, California.",
-      "link": "https://www.energymonitor.ai/news/edf-masdar-sign-15-year-ppas-bigbeau-output/",
-      "source": "energymonitor",
-      "published": "2026-06-03T08:08:38+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
