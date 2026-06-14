@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T20:11:37+00:00",
+  "generated_at": "2026-06-14T08:09:52+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 22
+      "items_matched": 21
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 265,
+  "count": 261,
   "articles": [
+    {
+      "title": "Arctic on foot: Meet the British artist turning a 600km climate journey into theatre",
+      "teaser": "Bristol-based artist Tom Bailey has spent six weeks immersing himself in a region changing faster than almost anywhere on Earth.",
+      "link": "http://www.euronews.com/2026/06/14/arctic-on-foot-meet-the-british-artist-turning-a-600km-climate-journey-into-theatre",
+      "source": "euronews-green",
+      "published": "2026-06-14T05:01:50+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "RWE franchit 1 GW de capacité énergétique en Illinois avec Emily Solar",
       "teaser": "RWE inaugure Emily Solar, un projet de 273,6 MW dans les comtés de Clark et Cumberland, et franchit le cap de 1 GW de capacité énergétique opérationnelle en Illinois.",
@@ -389,16 +399,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Australian gas project’s LNG comes to Japan as JERA brings in first cargo",
-      "teaser": "Japan’s power generation major JERA has taken delivery of its first liquefied natural gas (LNG) cargo from a giant gas project off the coast of Australia’s Northern Territory. The post Australian gas project’s LNG comes to Japan as JERA…",
-      "link": "https://www.offshore-energy.biz/australian-gas-projects-lng-comes-to-japan-as-jera-brings-in-first-cargo/",
-      "source": "offshore-energy",
-      "published": "2026-06-12T13:13:56+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -473,16 +473,6 @@
       "matched_keywords": [
         "photovoltaik",
         "speicher"
-      ]
-    },
-    {
-      "title": "Greek player doubles US LNG supplies with expansion of Venture Global deal",
-      "teaser": "Venture Global, an American producer of liquefied natural gas (LNG) sourced from North American basins, has revealed a twofold LNG supply increase in its two-decade-long arrangement with Greece’s Atlantic-SEE LNG Trade, a newly formed…",
-      "link": "https://www.offshore-energy.biz/greek-player-doubles-us-lng-supplies-with-expansion-of-venture-global-deal/",
-      "source": "offshore-energy",
-      "published": "2026-06-12T09:51:22+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1095,16 +1085,6 @@
       ]
     },
     {
-      "title": "‘Age of electricity’ lights the path for Sun King’s solar success",
-      "teaser": "Company’s off-grid energy infrastructure is used by more than 50mn customers across sub-Saharan Africa",
-      "link": "https://www.ft.com/content/635957a4-7212-45fa-a399-89e5cea867f6",
-      "source": "ft-energy",
-      "published": "2026-06-09T04:00:05+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Eku Energy submits 10-hour duration Griffith BESS to Australia’s EPBC Act",
       "teaser": "Eku Energy has submitted its 1,000MWh Griffith battery energy storage system (BESS) for environmental assessment under Australia's EPBC Act.",
       "link": "https://www.energy-storage.news/eku-energy-submits-10-hour-duration-griffith-bess-to-australias-epbc-act/",
@@ -1656,26 +1636,6 @@
       "published": "2026-05-28T09:05:52+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "A ‘brutal reminder of climate change’: Europe’s May heatwave sparks UN calls to shift to clean power",
-      "teaser": "The United Nations is warning that the main culprit behind Europe's blistering temperatures is the world's \"addiction\" to burning fossil fuels.",
-      "link": "http://www.euronews.com/2026/05/28/a-brutal-reminder-of-climate-change-europes-may-heatwave-sparks-un-calls-to-shift-to-clean",
-      "source": "euronews-green",
-      "published": "2026-05-28T07:00:48+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "EU powerhouses like Germany ‘on track’ to miss 2030 emissions goal while Spain may smash its target",
-      "teaser": "Time is running out for EU powerhouses to change their ways, or risk missing legally-binding commitments to cut greenhouse gas emissions.",
-      "link": "http://www.euronews.com/2026/05/28/eu-powerhouses-like-germany-on-track-to-miss-2030-emissions-goal-while-spain-may-smash-its",
-      "source": "euronews-green",
-      "published": "2026-05-28T05:00:26+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
