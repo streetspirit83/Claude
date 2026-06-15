@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:38:19+00:00",
+  "generated_at": "2026-06-15T19:38:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -371,8 +371,28 @@
   "count": 275,
   "articles": [
     {
+      "title": "Rolls-Royce wins contract to build small nuclear reactors for Sweden",
+      "teaser": "UK firm’s SMR unit beats competition from GE Vernova Hitachi for its third major contract",
+      "link": "https://www.ft.com/content/69e92d5c-44f7-4a40-b251-b62c69c645b9",
+      "source": "ft-energy",
+      "published": "2026-06-15T16:19:58+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "TRIG cède 17,5% du parc offshore Beatrice pour 197 M$ à Equitix",
+      "teaser": "The Renewables Infrastructure Group accepte une offre contraignante d'Equitix Investment Management pour céder 17,5% du parc éolien offshore Beatrice, pour environ 197 M$ (155 M£), via un droit de préemption.",
+      "link": "https://energynews.pro/trig-cede-175-du-parc-offshore-beatrice-pour-197-m-a-equitix",
+      "source": "energynews-pro",
+      "published": "2026-06-15T16:02:07+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "Thermondo bietet Kommunen und Stadtwerken strategische Unterstützung bei Wärmepumpen-Einbau an",
-      "teaser": "In Leinfelden-Echterdingen hat sich das Berliner Unternehmen gegen etwa 20 Konkurrenten durchgesetzt. Es ist nun offizieller Installationspartner der Stadt und hat 160 Haushalten bereits Angebote für den Einbau einer Wärmepumpe…",
+      "teaser": "In Leinfelden-Echterdingen hat sich das Berliner Unternehmen gegen etwa 20 Konkurrenten durchgesetzt. Es ist nun offizieller Installationspartner der Stadt und kann 160 Haushalten ein Angebot für den Einbau einer Wärmepumpe unterbreitet.",
       "link": "https://www.pv-magazine.de/2026/06/15/thermondo-bietet-kommunen-und-stadtwerken-strategische-unterstuetzung-bei-waermepumpen-einbau-an/",
       "source": "pv-magazine-de",
       "published": "2026-06-15T15:29:28+00:00",
@@ -864,16 +884,6 @@
       "matched_keywords": [
         "climate",
         "net zero"
-      ]
-    },
-    {
-      "title": "Why opposition to battery storage projects is growing across the US",
-      "teaser": "Resistance is rising as the technology becomes more essential to meet surging power demand",
-      "link": "https://www.ft.com/content/64cfbf8a-8394-4e8b-a3e7-6ad5b3da1b45",
-      "source": "ft-energy",
-      "published": "2026-06-11T11:00:04+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2766,16 +2776,6 @@
       ]
     },
     {
-      "title": "Enteignung von Wohnkonzernen : Warum die Idee für Immobilienexperten nur Verlierer kennt",
-      "teaser": "In Berlin gewinnt die Forderung nach einer Vergesellschaftung großer Wohnungskonzerne an Gewicht. Eine Analyse warnt jedoch vor massiven Risiken.",
-      "link": "https://www.tagesspiegel.de/wirtschaft/vergesellschaftung-von-wohnkonzernen-generiert-laut-experten-nur-verlierer-15714983.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -3064,6 +3064,17 @@
       ]
     },
     {
+      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "King Charles honours ex-WindEurope chief Giles Dickson",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
@@ -3078,17 +3089,6 @@
       "title": "Analysts slash this year’s offshore wind investment forecast",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/energy-security-worries-seen-boosting-offshore-wind-long-term/2-1-2003891",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3119,9 +3119,9 @@
       ]
     },
     {
-      "title": "Korea 'collision' could stretch Siemens Gamesa, analyst warns",
+      "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/korea-collision-could-stretch-siemens-gamesa-analyst-warns/2-1-2001707",
+      "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3152,9 +3152,9 @@
       ]
     },
     {
-      "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
+      "title": "Korea 'collision' could stretch Siemens Gamesa, analyst warns",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
+      "link": "https://www.rechargenews.com/offshore-wind/korea-collision-could-stretch-siemens-gamesa-analyst-warns/2-1-2001707",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
