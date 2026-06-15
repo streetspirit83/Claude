@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T15:05:17+00:00",
+  "generated_at": "2026-06-15T09:53:38+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -104,8 +104,8 @@
       "method": "feed",
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
-      "items_found": 50,
-      "items_matched": 4
+      "items_found": 49,
+      "items_matched": 5
     },
     {
       "name": "cleanenergywire",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 2
     },
     {
       "name": "rechargenews",
@@ -230,12 +230,12 @@
     {
       "name": "windpowermonthly",
       "url": "https://www.windpowermonthly.com",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.windpowermonthly.com/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.windpowermonthly.com/rss",
+      "error": null,
+      "items_found": 20,
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 11
     },
     {
       "name": "reuters-energy",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 30
+      "items_matched": 31
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,133 @@
       "items_matched": 0
     }
   ],
-  "count": 263,
+  "count": 275,
   "articles": [
+    {
+      "title": "Nächster Photovoltaik-Fördercall in Österreich startet",
+      "teaser": "Nachdem der erste Fördercall des laufenden Jahres ein Gesamtvolumen von 70 Millionen Euro erreichte, stehen für die zweite Runde 12 Millionen bereit. Nach der Ticktziehung können bis zum 30. Juni Anträge eingereicht werden. Der…",
+      "link": "https://www.pv-magazine.de/2026/06/15/naechster-photovoltaik-foerdercall-in-oesterreich-startet/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-15T09:42:15+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Die EU begrüßt das Abkommen zwischen den USA und Iran zur Beendigung des „kostspieligen Krieges“",
+      "teaser": "„Die Waffen müssen nun schweigen“, forderte Costa und erklärte, die „Europäische Union sei bereit, zur Förderung einer umfassenden Strategie für dauerhaften Frieden im gesamten Nahen Osten beizutragen“.",
+      "link": "https://euractiv.com/de/news/die-eu-begrust-das-abkommen-zwischen-den-usa-und-dem-iran-zur-beendigung-des-kostspieligen-krieges/",
+      "source": "euractiv-energie",
+      "published": "2026-06-15T08:33:18+00:00",
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
+      "title": "Der Mittelstand braucht neue Energie – Wege aus dem PPA-Abseits",
+      "teaser": "Der deutsche PPA-Markt ist seit 2023 – ein Jahr, in dem die extremen Strompreise in Folge der Ukraine-Krise zu einer Sondersituation geführt haben – um etwa zwei Drittel geschrumpft, während die Politik nun über das Ende der EEG-Förderung…",
+      "link": "https://www.pv-magazine.de/2026/06/15/der-mittelstand-braucht-neue-energie-wege-aus-dem-ppa-abseits/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-15T08:30:00+00:00",
+      "matched_keywords": [
+        "eeg",
+        "förderung",
+        "strompreis"
+      ]
+    },
+    {
+      "title": "Cadeler completes installation of 100 turbines at Sofia Wind Farm",
+      "teaser": "Cadeler has concluded the installation of all 100 Siemens Gamesa wind turbines at RWE’s 1.4GW Sofia offshore wind farm.",
+      "link": "https://www.power-technology.com/news/cadeler-completes-installation-turbines-sofia/",
+      "source": "power-technology",
+      "published": "2026-06-15T08:28:53+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Wind power patents: Windey | Vestas | Envision | GE Vernova | Dongfang",
+      "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
+      "link": "https://www.windpowermonthly.com/article/1961474/wind-power-patents-windey-vestas-envision-ge-vernova-dongfang",
+      "source": "windpowermonthly",
+      "published": "2026-06-15T08:00:00+00:00",
+      "matched_keywords": [
+        "wind power"
+      ]
+    },
+    {
+      "title": "Solar and wind try to navigate Trump’s obstacle course for tax credits",
+      "teaser": "Wind and solar developers in the U.S. have just a few more weeks to secure lucrative federal tax incentives. After that crucial deadline, the hard part begins. Last summer, President Donald Trump signed the One Big Beautiful Bill Act into…",
+      "link": "https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits",
+      "source": "canarymedia",
+      "published": "2026-06-15T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "VIDEO: Germany’s ramp constraints, grid limitations and their impact on the energy storage business case",
+      "teaser": "Energy-Storage.news presents this sponsored webinar with Clean Horizon, on how Germany’s grid connection agreements can affect the business case for battery storage projects.",
+      "link": "https://www.energy-storage.news/video-germanys-ramp-constraints-grid-limitations-and-their-impact-on-the-energy-storage-business-case/",
+      "source": "energy-storage-news",
+      "published": "2026-06-15T07:21:57+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Revival of interest in nuclear power gives hope to start-ups",
+      "teaser": "Investment in both fission and fusion suggests attitudes are changing",
+      "link": "https://www.ft.com/content/7ffcf9ee-fd34-419d-b5f8-8ac06faa3615",
+      "source": "ft-energy",
+      "published": "2026-06-15T04:00:07+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Energy shocks push Italian businesses to decarbonise",
+      "teaser": "Companies are pressing ahead with emissions cuts to boost efficiency and competitiveness",
+      "link": "https://www.ft.com/content/a076a057-94ad-4c2e-b3bc-642949c6f6fc",
+      "source": "ft-energy",
+      "published": "2026-06-15T04:00:07+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "emission"
+      ]
+    },
+    {
+      "title": "First movers risk losing out in EU green policy pullback",
+      "teaser": "Companies that acted early to decarbonise now face uncertainty as Brussels waters down climate targets",
+      "link": "https://www.ft.com/content/49d95e72-0fa5-4902-858e-9dbae9443d85",
+      "source": "ft-energy",
+      "published": "2026-06-15T04:00:07+00:00",
+      "matched_keywords": [
+        "climate target",
+        "decarbon"
+      ]
+    },
+    {
+      "title": "China slams Indonesia investment climate over nickel curbs",
+      "teaser": "Regulatory changes could threaten $50bn of investment, embassy warns",
+      "link": "https://www.ft.com/content/a25da305-f018-43a6-bb8c-c7a42024672e",
+      "source": "ft-energy",
+      "published": "2026-06-15T02:54:45+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "APAC data centres risk a fossil fuel dependency long-duration energy storage can help end",
+      "teaser": "APAC’s AI data centres look set to lock in a decade of coal and gas dependency, but long-duration energy storage can break that cycle, says Pavina Adunratanasee of ArkTerra Partners.",
+      "link": "https://www.energy-storage.news/apac-data-centres-risk-a-fossil-fuel-dependency-long-duration-energy-storage-can-help-end/",
+      "source": "energy-storage-news",
+      "published": "2026-06-15T00:57:29+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "Electrification jumps up corporate agenda after energy crisis, survey finds",
       "teaser": "Security and cost concerns elevate business push for overhaul of power systems",
@@ -485,6 +610,16 @@
       ]
     },
     {
+      "title": "Renewables groups sue Pentagon to ease US wind permitting freeze",
+      "teaser": "Renewable energy groups have sued the US Department of War in a bid to halt the Trump administration’s allegedly illegal freeze on permitting wind projects.",
+      "link": "https://www.windpowermonthly.com/article/1961408/renewables-groups-sue-pentagon-ease-us-wind-permitting-freeze",
+      "source": "windpowermonthly",
+      "published": "2026-06-12T10:46:56+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "E3/DC-Kunden können Flexibilitäten von Eon vermarkten lassen",
       "teaser": "Die Kunden von E3/DC können einen Festpreis-Stromtarif von Eon abschließen und erhalten einen Einmalbonus von 120 Euro. Dies ist als Vorbereitung gedacht, denn ab 2027 können sie ihre Flexibilitäten aus Photovoltaik-Heimspeicher, Wallboxen…",
       "link": "https://www.pv-magazine.de/2026/06/12/e3-dc-kunden-koennen-flexibilitaeten-von-eon-vermarkten-lassen/",
@@ -536,13 +671,13 @@
       ]
     },
     {
-      "title": "La Bulgarie autorise une dérogation aux sanctions européennes pour la centrale de Kozloduy",
-      "teaser": "Le Conseil des ministres bulgare a accordé une dérogation au règlement européen sur les sanctions pour permettre la passation de marchés publics avec des fournisseurs russes, indispensables à la sûreté des réacteurs VVER-1000 de la…",
-      "link": "https://energynews.pro/la-bulgarie-autorise-une-derogation-aux-sanctions-europeennes-pour-la-centrale-de-kozloduy",
-      "source": "energynews-pro",
-      "published": "2026-06-12T07:52:03+00:00",
+      "title": "New podcast: Floating wind is 'dangerously close' to becoming commercially viable",
+      "teaser": "In the final part of a four-episode series recorded at the recent WindEurope conference in Madrid, three floating wind specialists spoke to the Wind Power podcast about the prospects for this technology.",
+      "link": "https://www.windpowermonthly.com/article/1961383/new-podcast-floating-wind-dangerously-close-becoming-commercially-viable",
+      "source": "windpowermonthly",
+      "published": "2026-06-12T09:24:11+00:00",
       "matched_keywords": [
-        "sanction"
+        "wind power"
       ]
     },
     {
@@ -682,16 +817,6 @@
       ]
     },
     {
-      "title": "Salzstrom erhält Auftrag für drei Natrium-Eisenphosphat-Batteriespeicher mit 7 Megawattstunden aus Deutschland",
-      "teaser": "Der österreichische Hersteller kann einen ersten Großauftrag vermelden und läutet damit die kommerzielle Produktion ein. Drei seiner Natrium-Ionen-Batteriecontainer mit je 2,3 Megawattstunden Kapazität werden an Standorten des deutschen…",
-      "link": "https://www.pv-magazine.de/2026/06/11/salzstrom-erhaelt-auftrag-fuer-drei-natrium-eisenphosphat-batteriespeicher-mit-7-megawattstunden-aus-deutschland/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-11T11:15:00+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "Why opposition to battery storage projects is growing across the US",
       "teaser": "Resistance is rising as the technology becomes more essential to meet surging power demand",
       "link": "https://www.ft.com/content/64cfbf8a-8394-4e8b-a3e7-6ad5b3da1b45",
@@ -730,16 +855,6 @@
       "matched_keywords": [
         "energy storage",
         "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "TOYO signs $185.6m solar module supply deals with US operators",
-      "teaser": "TOYO has executed two agreements, worth approximately $185.6m, with undisclosed energy developers in the US for the supply of solar modules.",
-      "link": "https://www.power-technology.com/news/toyo-signs-solar-module-deals/",
-      "source": "power-technology",
-      "published": "2026-06-11T09:21:29+00:00",
-      "matched_keywords": [
         "solar"
       ]
     },
@@ -888,6 +1003,27 @@
       ]
     },
     {
+      "title": "Equinor and EDF face further delay as Norway backs subsidy review",
+      "teaser": "Norway is to review the support scheme for two 500MW floating wind farms in the North Sea, delaying the plans of project development groups led by Equinor and EDF.",
+      "link": "https://www.windpowermonthly.com/article/1961085/equinor-edf-face-further-delay-norway-backs-subsidy-review",
+      "source": "windpowermonthly",
+      "published": "2026-06-10T09:03:56+00:00",
+      "matched_keywords": [
+        "subsid",
+        "wind farm"
+      ]
+    },
+    {
+      "title": "German renewables developer Juwi to cut jobs amid ‘increased competition’",
+      "teaser": "German developer Juwi has announced plans to cut jobs and reduce its management team as it restructures in a bid to keep pace with an increasingly competitive renewables market.",
+      "link": "https://www.windpowermonthly.com/article/1961086/german-renewables-developer-juwi-cut-jobs-amid-increased-competition",
+      "source": "windpowermonthly",
+      "published": "2026-06-10T09:01:17+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "Who gets a seat at the table? UN climate conference accused of shrinking civic space and visa delays",
       "teaser": "Climate activists and members of the press are facing unprecedented barriers to one of the most important environmental conferences of the year.",
       "link": "http://www.euronews.com/2026/06/10/who-gets-a-seat-at-the-table-un-climate-talks-slammed-over-visa-delays-and-shrinking-civic",
@@ -918,16 +1054,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "GM bets on sodium battery tech to challenge China dominance",
-      "teaser": "US carmakers pivot to energy storage batteries for AI as they seek to counter weak electric vehicle sales",
-      "link": "https://www.ft.com/content/6a26c6e1-ec55-4a6a-8ddc-18405ca52c9a",
-      "source": "ft-energy",
-      "published": "2026-06-09T21:00:00+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1028,6 +1154,27 @@
       "published": "2026-06-09T10:45:01+00:00",
       "matched_keywords": [
         "grid fee"
+      ]
+    },
+    {
+      "title": "US wind wins tax credit reprieve as key deadline looms",
+      "teaser": "A federal judge has scrapped a Trump administration bid to limit tax credits for wind and solar projects ahead of a crucial deadline for claiming support.",
+      "link": "https://www.windpowermonthly.com/article/1960950/us-wind-wins-tax-credit-reprieve-key-deadline-looms",
+      "source": "windpowermonthly",
+      "published": "2026-06-09T10:18:15+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Energy security to drive offshore wind surge – Global Wind Energy Council",
+      "teaser": "The race to bolster domestic energy security will boost new offshore wind capacity additions in the coming years with annual installations expected to double this year and increase steadily beyond that, according to the Global Wind Energy…",
+      "link": "https://www.windpowermonthly.com/article/1960949/energy-security-drive-offshore-wind-surge-%E2%80%93-global-wind-energy-council",
+      "source": "windpowermonthly",
+      "published": "2026-06-09T10:07:55+00:00",
+      "matched_keywords": [
+        "energy security",
+        "wind energy"
       ]
     },
     {
@@ -1272,6 +1419,16 @@
       ]
     },
     {
+      "title": "Wind power patents: Siemens Gamesa | CSSC | LM Wind Power | CRRC",
+      "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
+      "link": "https://www.windpowermonthly.com/article/1960633/wind-power-patents-siemens-gamesa-cssc-lm-wind-power-crrc",
+      "source": "windpowermonthly",
+      "published": "2026-06-05T11:32:57+00:00",
+      "matched_keywords": [
+        "wind power"
+      ]
+    },
+    {
       "title": "Rolls-Royce to build four BESS facilities for Sunly in Latvia",
       "teaser": "Rolls-Royce Power Systems and Sunly have formalised contracts for the construction of four large-scale battery storage facilities in Latvia.",
       "link": "https://www.energymonitor.ai/news/rolls-royce-sunly-bess-latvia/",
@@ -1383,6 +1540,17 @@
       ]
     },
     {
+      "title": "Suzlon sets growth targets for 'electrification supercycle'",
+      "teaser": "Suzlon has unveiled a series of medium-term targets as it undergoes a structural shift that will see it broaden its focus from just wind power to a wider renewables portfolio.",
+      "link": "https://www.windpowermonthly.com/article/1960461/suzlon-sets-growth-targets-electrification-supercycle",
+      "source": "windpowermonthly",
+      "published": "2026-06-04T11:04:41+00:00",
+      "matched_keywords": [
+        "renewable",
+        "wind power"
+      ]
+    },
+    {
       "title": "Europe must support role of long-duration energy storage in electrification, security and competitiveness, trade groups say",
       "teaser": "The European Commission must “acknowledge the clear role of long-duration energy storage,” organisations including Energy Storage Europe and the LDES Council have urged.",
       "link": "https://www.energy-storage.news/europe-must-support-role-of-long-duration-energy-storage-in-electrification-security-and-competitiveness-trade-groups-say/",
@@ -1413,18 +1581,6 @@
         "emission",
         "energiewende",
         "klima"
-      ]
-    },
-    {
-      "title": "Taiwan’s Recharge Power partners with Energy Decarb for 292MWh battery storage pipeline in Australia",
-      "teaser": "Recharge Power, a Taiwanese battery energy storage system (BESS) developer and integrator, has signed a strategic cooperation agreement with Australian renewable energy developer Energy Decarb to establish a joint venture targeting the…",
-      "link": "https://www.energy-storage.news/taiwans-recharge-power-partners-with-energy-decarb-for-292mwh-battery-storage-pipeline-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-06-04T01:52:41+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "renewable"
       ]
     },
     {
@@ -2510,16 +2666,6 @@
       ]
     },
     {
-      "title": "US judge halts Trump admin’s blockade on new wind and solar projects",
-      "teaser": "A federal judge has ordered the Trump administration to lift its blockade on new U.S. wind and solar projects. On Tuesday, Chief U.S. District Judge Denise Casper in Boston sided with nine clean energy organizations that sued to stop the…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/us-judge-halts-trump-admins-blockade-on-new-wind-and-solar-projects",
-      "source": "canarymedia",
-      "published": "2026-04-22T00:55:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Zirkuläres Bauen bringt Chancen für Umwelt und Wirtschaft",
       "teaser": "Der Umweltrat gibt der Bundesregierung Empfehlungen für kreislaufgerechtes Bauen und Bestandserhalt. Sie zielen darauf ab, den Klima- und Umweltschutz zu stärken, Sekundärbauprodukte attraktiver zu machen und neue Geschäftsmodelle…",
       "link": "https://www.energiezukunft.eu/bauen/zirkulaeres-bauen-bringt-chancen-fuer-umwelt-und-wirtschaft",
@@ -2912,7 +3058,7 @@
     },
     {
       "title": "ICIS: EU gas prices must rise amid refilling, El Nino risks",
-      "teaser": "Huangluolun Zhou",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/e878c757-3400-4aa7-867b-e61d70900d09/eu-gas-prices-must-rise-amid-refilling-el-nino-risks-icis",
       "source": "montelnews",
       "published": null,
@@ -2921,30 +3067,9 @@
       ]
     },
     {
-      "title": "Return of Hormuz LNG flows “certain” despite threats",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/4fe21275-1319-4588-b78e-cec7fe81e4cd/return-of-hormuz-lng-flows-certain-despite-threats-equinor",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "Nuclear could curb Italy power prices by displacing gas",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/98dbe54b-f6ed-4b4a-8aa7-8fd976398c7a/nuclear-set-to-curb-italy-power-prices-by-displacing-gas",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear",
-        "power price"
-      ]
-    },
-    {
-      "title": "New York targets low-risk renewables after offshore wind turmoil",
+      "title": "Could a radical new plan finally solve 'wind theft' disputes?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/new-york-targets-low-risk-renewables-after-offshore-wind-turmoil/2-1-2003437",
+      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2953,9 +3078,32 @@
       ]
     },
     {
-      "title": "Recharge 40 Under 40 – last chance to nominate",
+      "title": "UK taps Japan for $12bn floating wind project warchest",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/recharge-40-under-40-last-chance-to-nominate/2-1-1992254",
+      "link": "https://www.rechargenews.com/offshore-wind/uk-taps-japan-for-12bn-floating-wind-project-warchest/2-1-2003900",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Energy security worries seen boosting offshore wind long-term",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/energy-security-worries-seen-boosting-offshore-wind-long-term/2-1-2003891",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "energy security",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "New York targets low-risk renewables after offshore wind turmoil",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/new-york-targets-low-risk-renewables-after-offshore-wind-turmoil/2-1-2003437",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3008,31 +3156,9 @@
       ]
     },
     {
-      "title": "TotalEnergies: Talks to return massive German offshore wind site have failed so far",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/totalenergies-talks-to-return-massive-german-offshore-wind-site-have-failed-so-far/2-1-2002683",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "The floating wind revolution is delayed: here's why",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/the-floating-wind-revolution-is-delayed-heres-why/2-1-2001008",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3074,31 +3200,31 @@
       ]
     },
     {
+      "title": "The floating wind revolution is delayed: here's why",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/floating-wind/the-floating-wind-revolution-is-delayed-heres-why/2-1-2001008",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "TotalEnergies: Talks to return massive German offshore wind site have failed so far",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/totalenergies-talks-to-return-massive-german-offshore-wind-site-have-failed-so-far/2-1-2002683",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Siemens Gamesa, Vestas and others carry $45bn risk from past German offshore wind tenders",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/siemens-gamesa-vestas-and-others-carry-45bn-risk-from-past-german-offshore-wind-tenders/2-1-2001518",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EU grids package misses key obstacle to renewable connections, industry warns",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/eu-grids-package-misses-key-obstacle-to-renewable-connections-industry-warns/2-1-2001715",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why the UK power sector needs a digital orchestrator – and what that means",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/why-the-uk-power-sector-needs-a-digital-orchestrator-and-what-that-means/2-1-1998836",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
