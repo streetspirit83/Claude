@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:58:38+00:00",
+  "generated_at": "2026-06-16T19:29:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,59 @@
       "items_matched": 0
     }
   ],
-  "count": 283,
+  "count": 281,
   "articles": [
+    {
+      "title": "Trump envisage de rétablir des sanctions sur le pétrole russe au G7",
+      "teaser": "Au sommet du G7 à Évian, Donald Trump a déclaré être disposé à rétablir des sanctions visant les exportations de pétrole russe, invoquant l'abondance de l'offre mondiale. Aucune mesure ni calendrier n'ont été précisés.",
+      "link": "https://energynews.pro/trump-envisage-de-retablir-des-sanctions-sur-le-petrole-russe-au-g7",
+      "source": "energynews-pro",
+      "published": "2026-06-16T17:57:31+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Energy Dome, Invinity Energy Systems advance non-lithium LDES projects in the US",
+      "teaser": "Energy Dome is advancing a 10-hour CO2 Battery project in Arizona, with SRP and Google, while Invinity announces the sale of North America’s largest VRFB, in California.",
+      "link": "https://www.energy-storage.news/energy-dome-invinity-energy-systems-advance-non-lithium-ldes-projects-in-the-us/",
+      "source": "energy-storage-news",
+      "published": "2026-06-16T15:03:45+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
+    {
+      "title": "Bundesnetzagentur geht von knapp 1336 Megawatt Photovoltaik-Zubau im Mai aus",
+      "teaser": "Während weiterhin Stecker-Solar-Geräte auf hohem Niveau bleiben, ist die Zahl neuer Photovoltaik-Dachanlagen im Marktstammdatenregister eher rückläufig. In diesem Jahr haben die Photovoltaik-Freiflächenanlagen immer noch mehr als 50…",
+      "link": "https://www.pv-magazine.de/2026/06/16/bundesnetzagentur-geht-von-knapp-1336-megawatt-photovoltaik-zubau-im-mai-aus/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-16T15:03:14+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "solar"
+      ]
+    },
+    {
+      "title": "Malaysia to surpass 2040 renewable energy target by 2031, forecasts GlobalData",
+      "teaser": "Malaysia is poised to exceed its National Energy Policy’s (NEP) 2040 renewable energy capacity target of 18.43GW by 2031.",
+      "link": "https://www.power-technology.com/analyst-comment/malaysia-surpass-2040-renewable-energy-target/",
+      "source": "power-technology",
+      "published": "2026-06-16T14:57:35+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Global SMR capacity to surge nearly sixfold during 2025-2030, forecasts GlobalData",
+      "teaser": "SMRs are set to play a key role in cutting carbon emissions, and supporting the transition to a low-carbon economy across the globe.",
+      "link": "https://www.power-technology.com/analyst-comment/global-smr-capacity-to-surge-nearly-sixfold/",
+      "source": "power-technology",
+      "published": "2026-06-16T14:35:50+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
     {
       "title": "Trump hints US could resume oil sanctions on Russia as G7 ups pressure on Kremlin",
       "teaser": "Leaders are using the summit to kickstart efforts to end the war in Ukraine.",
@@ -694,46 +745,6 @@
       ]
     },
     {
-      "title": "Diskussion um Photovoltaik-Zubau: „Der Solarstrom versickert im Ortsnetz“",
-      "teaser": "E3/DC-Geschäftsführer Andreas Piepenbrink widerspricht der These, dass vor allem Photovoltaik-Dachanlagen die Netze überlasten. Im Interview erklärt er, warum die Spannungsmessungen in 110.000 Anlagen zeigen, dass die Debatte über…",
-      "link": "https://www.pv-magazine.de/2026/06/15/diskussion-um-photovoltaik-zubau-der-solarstrom-versickert-im-ortsnetz/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-15T15:11:49+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "TRIG agrees sale of Beatrice offshore wind farm stake to Equitix",
-      "teaser": "TRIG has agreed to sell its entire 17.5% stake in the 588MW Beatrice offshore wind farm in Scotland to funds managed by Equitix.",
-      "link": "https://www.power-technology.com/news/trig-beatrice-offshore-wind-farm-equitix/",
-      "source": "power-technology",
-      "published": "2026-06-15T13:05:57+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "La France porte la subvention GNR agricole à 0,15 €/L jusqu'en août",
-      "teaser": "Un décret paru au Journal officiel étend l'aide au gazole non routier agricole et forestier à 0,15 €/L pour les livraisons de mai à août 2026, dans le cadre d'un plan de 710 millions d'euros.",
-      "link": "https://energynews.pro/la-france-porte-la-subvention-gnr-agricole-a-015-l-jusquen-aout",
-      "source": "energynews-pro",
-      "published": "2026-06-15T12:58:01+00:00",
-      "matched_keywords": [
-        "subvention"
-      ]
-    },
-    {
-      "title": "Eternia Solar attribue à Elektrotim un contrat de 5 millions d'euros en Pologne",
-      "teaser": "Eternia Solar, développeur lituanien, a confié à Elektrotim la construction de l'infrastructure réseau de son projet photovoltaïque de 30 MW à Kłodzko, pour 21,95 millions de PLN, soit environ 5 millions d'euros.",
-      "link": "https://energynews.pro/eternia-solar-attribue-a-elektrotim-un-contrat-de-5-millions-deuros-en-pologne",
-      "source": "energynews-pro",
-      "published": "2026-06-15T12:21:49+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Spain dismisses threat that national team’s assets could be seized at World Cup",
       "teaser": "A U.S. investment fund is targeting companies with financial ties to Spain's national football team in a bid to recover renewable energy claims worth nearly €500M.",
       "link": "https://www.politico.eu/article/spain-dismisses-threat-football-teams-assets-seized-world-cup/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -762,17 +773,6 @@
       "published": "2026-06-15T10:35:56+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Shell prepares $1bn wind farm sale as focus shifts from renewables",
-      "teaser": "Shell is preparing to sell its offshore wind farms in a transaction that could exceed $1bn as its focus shifts from renewables.",
-      "link": "https://www.power-technology.com/news/shell-prepares-wind-farm-sale/",
-      "source": "power-technology",
-      "published": "2026-06-15T10:11:49+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
       ]
     },
     {
@@ -1019,26 +1019,6 @@
       "matched_keywords": [
         "eeg",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "Norway challenges EU to call US gas ‘safer’ than Arctic reserves",
-      "teaser": "PM Jonas Gahr Støre tells FT that Europe should seek energy security as he presses bloc to scrap drilling ban in High North",
-      "link": "https://www.ft.com/content/a579f744-e4b3-4a8c-a5e3-6d34818b9ca4",
-      "source": "ft-energy",
-      "published": "2026-06-12T04:00:30+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
-      "title": "Is it time to go solar to cut your energy bills?",
-      "teaser": "It depends on electricity rates, where you live and how much time you spend at home — as well as your broader motivation",
-      "link": "https://www.ft.com/content/aec1fe2d-6efc-452f-b337-e544cc6a9008",
-      "source": "ft-energy",
-      "published": "2026-06-12T04:00:11+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1693,16 +1673,6 @@
       "published": "2026-06-05T04:31:40+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Australia’s Victoria fast-tracks 1,390MW of battery storage Development Facilitation Program approval round",
-      "teaser": "Australia's Victorian government has approved four new energy projects worth a combined AU$2.4 billion via its DFP, including 1,390MW of BESS.",
-      "link": "https://www.energy-storage.news/australias-victoria-fast-tracks-1390mw-of-battery-storage-development-facilitation-program-approval-round/",
-      "source": "energy-storage-news",
-      "published": "2026-06-05T02:20:29+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2819,6 +2789,16 @@
       ]
     },
     {
+      "title": "Zwischenfall im Ärmelkanal : Russische Fregatte feuert Warnschüsse auf britische Jacht",
+      "teaser": "Trump will Öl-Sanktionen gegen Russland „bald“ wieder in Kraft setzen + Selenskyj: Putin hat Treffen bei G7 abgelehnt + Lukaschenko ruft Putin und Selenskyj zu Kompromissen auf + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/zwischenfall-im-armelkanal-russische-fregatte-feuert-warnschusse-auf-britische-jacht-4309180.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -3026,7 +3006,7 @@
       ]
     },
     {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 92",
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
       "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
       "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
       "source": "agora-energiewende-news",
@@ -3046,7 +3026,7 @@
       ]
     },
     {
-      "title": "Szenarien und klimapolitische Instrumente 159",
+      "title": "Szenarien und klimapolitische Instrumente 158",
       "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
       "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
       "source": "agora-energiewende-news",
@@ -3192,17 +3172,6 @@
       ]
     },
     {
-      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "King Charles honours ex-WindEurope chief Giles Dickson",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
@@ -3247,9 +3216,20 @@
       ]
     },
     {
-      "title": "How a Super El Niño could impact wind and solar output in Europe",
+      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/how-a-super-el-ni-o-could-impact-wind-and-solar-output-in-europe/2-1-2001082",
+      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3269,20 +3249,9 @@
       ]
     },
     {
-      "title": "Why Iberdrola's fraud claim could sink GE Vernova in Vineyard Wind dispute",
+      "title": "How a Super El Niño could impact wind and solar output in Europe",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/why-iberdrolas-fraud-claim-could-sink-ge-vernova-in-vineyard-wind-dispute/2-1-1988719",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Siemens Gamesa chief warns over 'existential threat' to industry",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/siemens-gamesa-chief-warns-over-existential-threat-to-industry/2-1-2003283",
+      "link": "https://www.rechargenews.com/analysis/how-a-super-el-ni-o-could-impact-wind-and-solar-output-in-europe/2-1-2001082",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3302,9 +3271,20 @@
       ]
     },
     {
-      "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
+      "title": "Siemens Gamesa chief warns over 'existential threat' to industry",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
+      "link": "https://www.rechargenews.com/offshore-wind/siemens-gamesa-chief-warns-over-existential-threat-to-industry/2-1-2003283",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Deals of the Week: A $1bn renewables deal; Nordex and Mingyang orders",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/deals-of-the-week-a-1bn-renewables-deal-nordex-and-mingyang-orders/2-1-2003206",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
