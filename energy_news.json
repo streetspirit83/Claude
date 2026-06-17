@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T08:54:40+00:00",
+  "generated_at": "2026-06-17T13:37:50+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 58
+      "items_matched": 57
     },
     {
       "name": "erneuerbareenergien",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "rechargenews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 9
+      "items_matched": 12
     },
     {
       "name": "energymonitor",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "ft-energy",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 34
+      "items_matched": 33
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,111 @@
       "items_matched": 0
     }
   ],
-  "count": 275,
+  "count": 270,
   "articles": [
+    {
+      "title": "EU greenhouse gas emissions rose in 2025, data shows",
+      "teaser": "The bloc's pollution-slashing efforts have been stagnating in recent years.",
+      "link": "https://www.politico.eu/article/eu-greenhouse-emissions-rose-2025-data-shows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-06-17T12:00:56+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Octopus Energy bietet neues Komplettpaket „SolarUp“ für ausgeförderte Photovoltaik-Anlagen und Neukunden an",
+      "teaser": "In dem Paket, was mit einem Stromtarif kombiniert ist, enthalten sind ein Photovoltaik-Heimspeicher und eine Pauschale für den eingespeisten Solarstrom. Octopus Energy will damit Betreiber von Photovoltaik-Anlagen motivieren, ihre Anlagen…",
+      "link": "https://www.pv-magazine.de/2026/06/17/octopus-energy-bietet-neues-komplettpaket-solarup-fuer-ausgefoerderte-photovoltaik-anlagen-und-neukunden-an/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-17T11:37:12+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Ocean Sun leading floating solar-desalination demonstrator in Canary Islands",
+      "teaser": "Norway’s Ocean Sun has secured approximately NOK 2.1 million (around €193,000) in EU funding [&#8230;] The post Ocean Sun leading floating solar-desalination demonstrator in Canary Islands appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/ocean-sun-leading-floating-solar-desalination-demonstrator-in-canary-islands/",
+      "source": "offshore-energy",
+      "published": "2026-06-17T10:45:53+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Europe’s emissions trading system is not working for industry",
+      "teaser": "The choice is between a climate strategy that strengthens economic security and one that hollows it out",
+      "link": "https://www.ft.com/content/59ea85a0-355e-4f5c-a3d4-5c3c9df27892",
+      "source": "ft-energy",
+      "published": "2026-06-17T10:40:50+00:00",
+      "matched_keywords": [
+        "climate",
+        "emissions trading"
+      ]
+    },
+    {
+      "title": "The key to post-Iran conflict energy security lies in natural gas tech",
+      "teaser": "The Iran war has spotlighted the need for tech solutions to stop wasting existing natural gas if similar shocks emerge.",
+      "link": "https://www.energymonitor.ai/analyst-comment/the-key-to-post-iran-conflict-energy-security-lies-in-natural-gas-tech/",
+      "source": "energymonitor",
+      "published": "2026-06-17T10:10:06+00:00",
+      "matched_keywords": [
+        "energy security"
+      ]
+    },
+    {
+      "title": "Ørsted appoints new Germany CEO",
+      "teaser": "Danish renewables major Ørsted announced today (17 June) that Josche Muth would take on the role of CEO of its Germany-based subsidiary, starting from 1 July.",
+      "link": "https://www.windpowermonthly.com/article/1961923/orsted-appoints-new-germany-ceo",
+      "source": "windpowermonthly",
+      "published": "2026-06-17T10:03:56+00:00",
+      "matched_keywords": [
+        "renewable",
+        "subsid"
+      ]
+    },
+    {
+      "title": "ECOnnect tasked with jettyless transfer solution for Colombia’s new LNG terminal",
+      "teaser": "Norway’s technology company ECOnnect Energy has been hired to deliver its IQuay F-Class jettyless transfer system for Puerto Bahía´s fast-tracked liquefied natural gas (LNG) import terminal in Cartagena Bay, Colombia. The post ECOnnect…",
+      "link": "https://www.offshore-energy.biz/econnect-tasked-with-jettyless-transfer-solution-for-colombias-new-lng-terminal/",
+      "source": "offshore-energy",
+      "published": "2026-06-17T09:29:00+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Phelan licenses Johnson Matthey tech for Saldanha Bay eSAF plant",
+      "teaser": "Phelan Green Hydrogen has licensed technologies from Johnson Matthey for a proposed eSAF plant in South Africa’s Western Cape.",
+      "link": "https://www.energymonitor.ai/news/phelan-licenses-jm-esaf-plant/",
+      "source": "energymonitor",
+      "published": "2026-06-17T09:21:24+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Equinor ‘never chased’ renewables target it is set to miss",
+      "teaser": "Equinor will not hit its target of at least 10GW renewables capacity by 2030 and has “never chased” the goal either, the oil major’s CEO admitted.",
+      "link": "https://www.windpowermonthly.com/article/1961913/equinor-never-chased-renewables-target-set-miss",
+      "source": "windpowermonthly",
+      "published": "2026-06-17T09:18:26+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Analysis: Chinese floating wind prototypes could drive 'game-changing' cost reductions",
+      "teaser": "The massive floating wind prototypes currently being installed in China could drastically reduce the cost of floating wind if they proved to be successful, according to wind power experts.",
+      "link": "https://www.windpowermonthly.com/article/1961910/analysis-chinese-floating-wind-prototypes-drive-game-changing-cost-reductions",
+      "source": "windpowermonthly",
+      "published": "2026-06-17T08:45:58+00:00",
+      "matched_keywords": [
+        "wind power"
+      ]
+    },
     {
       "title": "Solar Energy Corporation of India invites bids for 4.8GWh of energy storage-backed FDRE capacity",
       "teaser": "SECI is inviting bids for 4,800MWh of firm and dispatchable renewable energy (FDRE) capacity supported by co-located energy storage.",
@@ -441,16 +544,6 @@
       "link": "https://www.politico.eu/article/g7-promises-ukraine-support-sanctions-russia-joint-declaration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "politico-energy-climate",
       "published": "2026-06-16T23:36:31+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "Trump envisage de rétablir des sanctions sur le pétrole russe au G7",
-      "teaser": "Au sommet du G7 à Évian, Donald Trump a déclaré être disposé à rétablir des sanctions visant les exportations de pétrole russe, invoquant l'abondance de l'offre mondiale. Aucune mesure ni calendrier n'ont été précisés.",
-      "link": "https://energynews.pro/trump-envisage-de-retablir-des-sanctions-sur-le-petrole-russe-au-g7",
-      "source": "energynews-pro",
-      "published": "2026-06-16T17:57:31+00:00",
       "matched_keywords": [
         "sanction"
       ]
@@ -579,38 +672,6 @@
       ]
     },
     {
-      "title": "OMV Petrom moves ahead with Gabare project in Bulgaria",
-      "teaser": "OMV Petrom has announced a final investment decision for the Gabare solar energy and battery storage project in Bulgaria.",
-      "link": "https://www.power-technology.com/news/omv-petrom-moves-ahead-gabare/",
-      "source": "power-technology",
-      "published": "2026-06-16T09:45:55+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Metrify und GridX bieten integrierte Lösung aus Messsystem und HEMS für Energieversorger und Installateure",
-      "teaser": "Die beiden Unternehmen bieten ein Paket aus intelligentem Messsystem (iMSys), Steuereinheit und Heimenergiemanagementsystem (HEMS). Die Lösung erfüllt den Angaben zufolge die Anforderungen aus Paragraf 14a EnWG und Paragraf 9 EEG.…",
-      "link": "https://www.pv-magazine.de/2026/06/16/metrify-und-gridx-bieten-integrierte-loesung-aus-messsystem-und-hems-fuer-energieversorger-und-installateure/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-16T09:15:00+00:00",
-      "matched_keywords": [
-        "eeg",
-        "forderung"
-      ]
-    },
-    {
-      "title": "EWS: Nachfragebelebung im Handel zeigt sich weiter nicht in monatlichen Photovoltaik-Zubauzahlen",
-      "teaser": "Auch im Mai bleibt die neu installierte Photovoltaik-Leistung mit 1230,5 Megawatt unter den Erwartungen vieler Marktteilnehmer zurück. Nach Analyse vom Großhändler EWS sind das fast zwölf Prozent weniger als im Monat davor und fast fünf…",
-      "link": "https://www.pv-magazine.de/2026/06/16/ews-nachfragebelebung-im-handel-zeigt-sich-weiter-nicht-in-monatlichen-photovoltaik-zubauzahlen/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-16T09:12:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "State-seized former Fortum subsidiary wins Russian wind power auction",
       "teaser": "The Russian government-controlled Forward Energy has secured the rights to develop more than 200MW of wind power capacity in the south-west of the country through a national auction.",
       "link": "https://www.windpowermonthly.com/article/1961734/state-seized-former-fortum-subsidiary-wins-russian-wind-power-auction",
@@ -629,16 +690,6 @@
       "published": "2026-06-16T08:27:40+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "EU approves $2.2bn TotalEnergies and Masdar renewables JV",
-      "teaser": "The European Commission has granted approval for the creation of a joint venture between TotalEnergies, and Masdar.",
-      "link": "https://www.power-technology.com/news/eu-approves-totalenergies-masdar-jv/",
-      "source": "power-technology",
-      "published": "2026-06-16T07:59:21+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -898,18 +949,6 @@
       "published": "2026-06-12T11:47:29+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Corporate climate scheme SBTi walks delicate tightrope with new rule book",
-      "teaser": "Revised Corporate Net-zero Standard faces criticism over renewable energy rules",
-      "link": "https://www.ft.com/content/05a39c09-da90-4842-ab42-22570ae7b593",
-      "source": "ft-energy",
-      "published": "2026-06-12T11:26:05+00:00",
-      "matched_keywords": [
-        "climate",
-        "net-zero",
-        "renewable"
       ]
     },
     {
@@ -1399,16 +1438,6 @@
       ]
     },
     {
-      "title": "EU clears $26.5bn of Italian State aid to boost renewable power capacity",
-      "teaser": "The EC has authorised a €23bn ($26.5bn) State aid scheme from Italy intended to increase electricity generation from renewable energy sources.",
-      "link": "https://www.energymonitor.ai/news/eu-clears-italian-state-aid/",
-      "source": "energymonitor",
-      "published": "2026-06-09T07:13:37+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "CATL to supply 2,400MWh of battery storage for Edify Energy’s Australian hybrid projects",
       "teaser": "Chinese battery manufacturer CATL will supply 2,400MWh of battery energy storage systems (BESS) for Edify Energy's Smoky Creek and Guthrie's Gap Solar Power Stations in central Queensland.",
       "link": "https://www.energy-storage.news/catl-to-supply-2400mwh-of-battery-storage-for-edify-energys-australian-hybrid-projects/",
@@ -1471,16 +1500,6 @@
       ]
     },
     {
-      "title": "EU-Sanktionen gegen die iranische Marine",
-      "teaser": "Die iranischen Beschränkungen für die Schifffahrt durch die Straße von Hormus haben einen Energieschock in den EU-Volkswirtschaften ausgelöst und die Union im Mai dazu veranlasst, ihr Sanktionsregime auszuweiten.",
-      "link": "https://euractiv.com/de/news/die-iranische-marine-von-eu-sanktionen-getroffen/",
-      "source": "euractiv-energie",
-      "published": "2026-06-08T17:30:53+00:00",
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges",
       "teaser": "New report shows small businesses leading renewable uptake, with solar, PPAs and flexible energy models gaining momentum The post Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges appeared first on…",
       "link": "https://www.energylivenews.com/2026/06/08/irish-smes-emerging-as-key-force-in-irelands-energy-transition-as-solar-adoption-surges/",
@@ -1488,16 +1507,6 @@
       "published": "2026-06-08T12:00:00+00:00",
       "matched_keywords": [
         "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Oman issues Marsa solar IPP consultancy tender",
-      "teaser": "Nama Power & Water Procurement Company invited bids for a contract to supervise the construction of the Marsa solar power project.",
-      "link": "https://www.energymonitor.ai/news/oman-issues-marsa-solar-ipp-consultancy-tender/",
-      "source": "energymonitor",
-      "published": "2026-06-08T11:49:13+00:00",
-      "matched_keywords": [
         "solar"
       ]
     },
@@ -1582,16 +1591,6 @@
       "link": "http://www.euronews.com/2026/06/05/sky-spectacle-where-to-see-the-northern-lights-in-germany-this-weekend",
       "source": "euronews-green",
       "published": "2026-06-05T16:27:45+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "EDF and Masdar enter 15-year PPAs for 160MWh hybrid California BESS",
-      "teaser": "Developer EDF power solutions North America and developer-operator Abu Dhabi Future Energy Company – Masdar, have entered into 15-year power purchase agreements (PPAs) for a California, US solar-plus-storage project.",
-      "link": "https://www.energy-storage.news/edf-and-masdar-enter-15-year-ppas-for-160mwh-hybrid-california-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-06-05T09:09:35+00:00",
       "matched_keywords": [
         "solar"
       ]
@@ -1721,18 +1720,6 @@
       ]
     },
     {
-      "title": "Germany is a leader in renewables, so why does it have one of the highest EU electricity prices?",
-      "teaser": "Germany generated more electricity from solar and wind in 2025 than any other EU country – but its prices remain tied to volatile fossil fuels.",
-      "link": "http://www.euronews.com/2026/06/01/germany-is-a-leader-in-renewables-so-why-does-it-have-one-of-the-highest-eu-electricity-pr",
-      "source": "euronews-green",
-      "published": "2026-06-01T10:02:41+00:00",
-      "matched_keywords": [
-        "electricity price",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Thanks to two new laws, more Virginians can save with community solar",
       "teaser": "When Steve Ault got an offer about six years ago to lease a bit of his 100-acre family farm in Prince Edward County, Virginia, for solar panels, he let the letter sit on the kitchen table for a few days. Then he showed it to his wife,…",
       "link": "https://www.canarymedia.com/articles/solar/two-new-laws-virginia-community-solar",
@@ -1749,18 +1736,6 @@
       "source": "canarymedia",
       "published": "2026-06-01T07:30:00+00:00",
       "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Is Europe's heatwave bad news for renewables? Surge in solar turns power prices negative",
-      "teaser": "Soaring temperatures can actually hinder some kinds of renewable energy output, even sun-absorbing solar.",
-      "link": "http://www.euronews.com/2026/06/01/is-europes-heatwave-bad-news-for-renewables-surge-in-solar-turns-power-prices-negative",
-      "source": "euronews-green",
-      "published": "2026-06-01T05:00:38+00:00",
-      "matched_keywords": [
-        "power price",
-        "renewable",
         "solar"
       ]
     },
@@ -2658,16 +2633,6 @@
       ]
     },
     {
-      "title": "Maßnahmen gegen die Preiskrise",
-      "teaser": "Im Frühjahr 2026 steht die Europäische Union erneut vor der Herausforderung, die wirtschaftlichen Folgen einer volatilen Energieversorgung zu bewältigen. Kurzfristige Entlastungen treffen auf eine strukturelle Neugestaltung der Märkte.",
-      "link": "https://www.energiezukunft.eu/politik/massnahmen-gegen-die-preiskrise",
-      "source": "energiezukunft",
-      "published": "2026-04-20T05:00:00+00:00",
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2718,18 +2683,8 @@
       ]
     },
     {
-      "title": "Der Tagesspiegel",
-      "teaser": "Das Geld für die iranische Wirtschaft soll nur aus privaten Kanälen kommen. Alle Sanktionen gegen den Iran sollen zudem aufgehoben werden.",
-      "link": "https://www.tagesspiegel.de",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Entwurf des USA-Iran-Abkommens durchgesickert : 300 Milliarden Dollar für Teheran und Ende der Sanktionen",
-      "teaser": "Das Geld für die iranische Wirtschaft soll nur aus privaten Kanälen kommen. Alle Sanktionen gegen den Iran sollen zudem aufgehoben werden.",
+      "teaser": "Das Geld für die iranische Wirtschaft soll wohl von privaten Investoren aus der Golfregion und den USA kommen. Alle Sanktionen gegen den Iran sollen zudem aufgehoben werden. Das sagen Experten zu der Vereinbarung.",
       "link": "https://www.tagesspiegel.de/internationales/300-milliarden-dollar-fur-teheran-entwurf-des-abkommens-zwischen-den-usa-und-dem-iran-durchgesickert-15721345.html",
       "source": "tagesspiegel-energie",
       "published": null,
@@ -3006,8 +2961,38 @@
       ]
     },
     {
-      "title": "EU nations approve ETS benchmarks, with caveat, says source",
+      "title": "Qatari LNG return “urgent” for European winter",
       "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/36601a4e-7ff0-4fb3-88fd-4746160495d7/qatari-lng-return-urgent-for-european-winter-totalenergies",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "EDF may revise up this year’s nuclear output outlook",
+      "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/50ebedad-9b60-44ce-ac45-fe4e5708208a/edf-may-revise-up-2026-nuclear-output-outlook-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Analysts see 2% LNG 2026 supply rise if Hormuz reopens",
+      "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/7c3f4643-6bec-4c6e-b22e-8195b9ad0cf0/lng-supply-could-rise-2-in-2026-if-hormuz-reopens-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "EU nations approve ETS benchmarks, with caveat, says source",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/3912394f-1c37-4a71-9ef6-1caf411ccb5a/eu-nations-approve-ets-benchmarks-with-caveat-source",
       "source": "montelnews",
       "published": null,
@@ -3017,7 +3002,7 @@
     },
     {
       "title": "Ember: green surge shields Spanish power prices in Iran crisis",
-      "teaser": "Fintan Devenney",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/d0e798ca-0172-43e8-9bfc-f32431ed8668/green-surge-shields-spanish-power-prices-in-iran-crisis-ember",
       "source": "montelnews",
       "published": null,
@@ -3026,47 +3011,18 @@
       ]
     },
     {
-      "title": "Faster wind growth could cut Italy power prices 20%, analyst says",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/576f503f-6e70-46e8-b6d0-f996e65fc5ba/faster-wind-growth-could-cut-italy-power-prices-20-analyst",
-      "source": "montelnews",
+      "title": "How Equinor has quietly raised its bar for offshore wind investment",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "power price"
+        "renewable",
+        "solar"
       ]
     },
     {
-      "title": "TTF gas prices seen to remain elevated despite peace deal",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/1d2ea0a6-f3b2-4802-85ef-a93da849732e/ttf-gas-prices-to-remain-elevated-despite-peace-deal-analysts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "LNG cargo may have taken Hormuz “dark vessel route”",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/3c2dda51-d096-4825-9337-aacdfb7b57fd/lng-cargo-may-have-taken-hormuz-dark-vessel-route-expert",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "French power price jumps on heatwave threat to reactors, analysts say",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/202d5f72-76bf-43a5-9c59-8cf2043dcde8/french-power-prices-surge-amid-heatwave-threat-to-reactors",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
-      "title": "The UK is abuzz over floating wind alternatives, but there is a snag",
+      "title": "New foundations promise cheaper UK deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/the-uk-is-abuzz-over-floating-wind-alternatives-but-there-is-a-snag/2-1-2004506",
       "source": "rechargenews",
@@ -3144,17 +3100,6 @@
       ]
     },
     {
-      "title": "King Charles honours ex-WindEurope chief Giles Dickson",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
@@ -3210,9 +3155,9 @@
       ]
     },
     {
-      "title": "Analysts slash this year’s offshore wind investment forecast",
+      "title": "King Charles honours ex-WindEurope chief Giles Dickson",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/analysts-slash-this-year-s-offshore-wind-investment-forecast/2-1-2003891",
+      "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3221,9 +3166,9 @@
       ]
     },
     {
-      "title": "UK taps Japan for $12bn floating wind project warchest",
+      "title": "Analysts slash this year’s offshore wind investment forecast",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/uk-taps-japan-for-12bn-floating-wind-project-warchest/2-1-2003900",
+      "link": "https://www.rechargenews.com/offshore-wind/analysts-slash-this-year-s-offshore-wind-investment-forecast/2-1-2003891",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
