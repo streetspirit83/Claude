@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T18:09:46+00:00",
+  "generated_at": "2026-06-17T21:01:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 275,
+  "count": 276,
   "articles": [
+    {
+      "title": "Phelan Green retient Johnson Matthey pour son usine eSAF en Afrique du Sud",
+      "teaser": "Phelan Green Hydrogen a sélectionné les technologies de Johnson Matthey pour son usine d'eSAF à Saldanha Bay, en Afrique du Sud. La première phase viserait une production de 35 000 tonnes par an.",
+      "link": "https://energynews.pro/phelan-green-retient-johnson-matthey-pour-son-usine-esaf-en-afrique-du-sud",
+      "source": "energynews-pro",
+      "published": "2026-06-17T18:48:35+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Circularity Fuels convertit du biogaz laitier en carburant d'aviation durable en Californie",
+      "teaser": "Circularity Fuels a achevé un pilote de six mois démontrant la conversion directe de biogaz agricole brut en carburant d'aviation durable, sans séparation préalable du CO2, près de Madera, en Californie.",
+      "link": "https://energynews.pro/circularity-fuels-convertit-du-biogaz-laitier-en-carburant-daviation-durable-en-californie",
+      "source": "energynews-pro",
+      "published": "2026-06-17T18:22:56+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
     {
       "title": "La Belgique et le Royaume-Uni renforcent leur coopération pour le transport CO2",
       "teaser": "La Belgique et le Royaume-Uni ont signé le 16 juin 2026 un protocole d'accord bilatéral pour encadrer le transport transfrontalier de CO2 vers des sites de stockage géologique, avec Fluxys comme acteur clé du dispositif.",
@@ -419,6 +439,18 @@
       "published": "2026-06-17T14:27:57+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Renewable energy hydraulics: How to protect productivity, profitability and performance",
+      "teaser": "Hydraulic systems play a crucial role in capturing the greatest yields in solar and wind energy generation. Learn how to protect them here:",
+      "link": "https://www.power-technology.com/sponsored/how-to-protect-productivity-in-renewable-energy/",
+      "source": "power-technology",
+      "published": "2026-06-17T14:24:48+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind energy"
       ]
     },
     {
@@ -982,16 +1014,6 @@
       "published": "2026-06-15T00:57:29+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Electrification jumps up corporate agenda after energy crisis, survey finds",
-      "teaser": "Security and cost concerns elevate business push for overhaul of power systems",
-      "link": "https://www.ft.com/content/336ad7d4-15b3-4033-9ff3-3ae03111eb1f",
-      "source": "ft-energy",
-      "published": "2026-06-14T11:00:10+00:00",
-      "matched_keywords": [
-        "energy crisis"
       ]
     },
     {
@@ -2746,16 +2768,6 @@
       ]
     },
     {
-      "title": "Entwurf des USA-Iran-Abkommens durchgesickert : 300 Milliarden Dollar für Teheran und Ende der Sanktionen",
-      "teaser": "Das Geld für die iranische Wirtschaft soll wohl von privaten Investoren aus der Golfregion und den USA kommen. Alle Sanktionen gegen den Iran sollen zudem aufgehoben werden. Das sagen Experten zu der Vereinbarung.",
-      "link": "https://www.tagesspiegel.de/internationales/300-milliarden-dollar-fur-teheran-entwurf-des-abkommens-zwischen-den-usa-und-dem-iran-durchgesickert-15721345.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Ergebnisse des BDEW-Wasserstoffmonitors müssen ein Weckruf sein, den Markthochlauf zu stärken",
       "teaser": "17.06.2026",
       "link": "https://www.bdew.de/presse/ergebnisse-des-bdew-wasserstoffmonitors-muessen-ein-weckruf-sein-den-markthochlauf-zu-staerken/",
@@ -3064,6 +3076,17 @@
       ]
     },
     {
+      "title": "Trump buys back more US offshore wind leases in continued war on sector",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/trump-buys-back-more-us-offshore-wind-leases-in-continued-war-on-sector/2-1-2005696",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "How Equinor has quietly raised its bar for offshore wind investment",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
@@ -3142,17 +3165,6 @@
       ]
     },
     {
-      "title": "Europe's battery boom hits wall as lenders balk at uncertain revenues",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/europes-battery-boom-hits-wall-as-lenders-balk-at-uncertain-revenues/2-1-2003601",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
@@ -3208,9 +3220,9 @@
       ]
     },
     {
-      "title": "King Charles honours ex-WindEurope chief Giles Dickson",
+      "title": "Europe's battery boom hits wall as lenders balk at uncertain revenues",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
+      "link": "https://www.rechargenews.com/interviews/europes-battery-boom-hits-wall-as-lenders-balk-at-uncertain-revenues/2-1-2003601",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3219,9 +3231,9 @@
       ]
     },
     {
-      "title": "Analysts slash this year’s offshore wind investment forecast",
+      "title": "King Charles honours ex-WindEurope chief Giles Dickson",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/analysts-slash-this-year-s-offshore-wind-investment-forecast/2-1-2003891",
+      "link": "https://www.rechargenews.com/people/king-charles-honours-ex-windeurope-chief-giles-dickson/2-1-2004073",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
