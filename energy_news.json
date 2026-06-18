@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T16:22:39+00:00",
+  "generated_at": "2026-06-18T21:17:51+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "cleanenergywire",
@@ -195,17 +195,17 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "montelnews",
       "url": "https://www.montelnews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 4
+      "error": "HTTPSConnectionPool(host='montelnews.com', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "rechargenews",
@@ -260,12 +260,12 @@
     {
       "name": "politico-energy-climate",
       "url": "https://www.politico.eu/energy-climate",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.politico.eu/section/energy/feed/",
-      "error": null,
-      "items_found": 31,
-      "items_matched": 10
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.politico.eu', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "ft-energy",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 56
+      "items_matched": 55
     },
     {
       "name": "power-technology",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 255,
   "articles": [
+    {
+      "title": "Chrysalis et Hanwha acquièrent 357 MWdc solaire en Arizona via un partenariat stratégique",
+      "teaser": "Chrysalis Renewables, plateforme adossée à Morrison, annonce l'acquisition des projets solaires Atlas V et Atlas VI en Arizona, d'une capacité combinée de 357 MWdc. Première transaction du partenariat stratégique avec Hanwha Renewables.",
+      "link": "https://energynews.pro/chrysalis-et-hanwha-acquierent-357-mwdc-solaire-en-arizona-via-un-partenariat-strategique",
+      "source": "energynews-pro",
+      "published": "2026-06-18T21:04:34+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "A.P. Moller Capital acquiert Mainstream Renewable Power en Afrique du Sud",
+      "teaser": "Le fonds EMIF II d'A.P. Moller Capital a conclu un accord pour acquérir la totalité de Mainstream Renewable Power South Africa, développeur d'énergie renouvelable doté d'un pipeline de 11,6 GW en Afrique du Sud.",
+      "link": "https://energynews.pro/ap-moller-capital-acquiert-mainstream-renewable-power-en-afrique-du-sud",
+      "source": "energynews-pro",
+      "published": "2026-06-18T20:03:47+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Energy Start-up Map: Von Projektentwicklung über Batterie-Hardware und Batteriediagnostik bis zur Flexibilitätsvermarktung",
       "teaser": "Im Rahmen unserer Serie „Start-up des Monats“, die pv magazine zusammen mit Vireo Ventures veröffentlicht, haben wir Start-ups aufgerufen, uns Informationen zu ihren Unternehmen zu schicken. 91 haben geantwortet. Wir haben sie…",
@@ -706,16 +726,6 @@
       ]
     },
     {
-      "title": "EU greenhouse gas emissions rose in 2025, data shows",
-      "teaser": "The bloc's pollution-slashing efforts have been stagnating in recent years.",
-      "link": "https://www.politico.eu/article/eu-greenhouse-emissions-rose-2025-data-shows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-17T12:00:56+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Europe’s emissions trading system is not working for industry",
       "teaser": "The choice is between a climate strategy that strengthens economic security and one that hollows it out",
       "link": "https://www.ft.com/content/59ea85a0-355e-4f5c-a3d4-5c3c9df27892",
@@ -822,26 +832,6 @@
       ]
     },
     {
-      "title": "Europe must choose between AI and climate goals, data center lobby says",
-      "teaser": "Tech sector says only carbon-emitting gas plants are reliable enough today to power the EU's AI goals.",
-      "link": "https://www.politico.eu/article/europe-choose-ai-climate-goals-data-center-chief-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-17T04:00:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "G7 promises to support Ukraine and sanction Russia in joint declaration",
-      "teaser": "U.S. President Donald Trump signed the common statement after leaders in Evian unexpectedly converged on backing Kyiv.",
-      "link": "https://www.politico.eu/article/g7-promises-ukraine-support-sanctions-russia-joint-declaration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-16T23:36:31+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Mysterious Atlantic 'cold blob': the only place on Earth that keeps getting colder",
       "teaser": "Climate puzzle: a new study probes the only place on Earth that has cooled in recent years, linking the 'Cold Blob' mainly to the Atlantic Meridional Overturning Circulation, AMOC.",
       "link": "http://www.euronews.com/2026/06/16/mysterious-atlantic-cold-blob-the-only-place-on-earth-that-keeps-getting-colder",
@@ -859,16 +849,6 @@
       "published": "2026-06-16T15:03:45+00:00",
       "matched_keywords": [
         "co2"
-      ]
-    },
-    {
-      "title": "Trump hints US could resume oil sanctions on Russia as G7 ups pressure on Kremlin",
-      "teaser": "Leaders are using the summit to kickstart efforts to end the war in Ukraine.",
-      "link": "https://www.politico.eu/article/g7-pressure-russia-ukraine-war-oil-sanctions-donald-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-16T14:18:46+00:00",
-      "matched_keywords": [
-        "sanction"
       ]
     },
     {
@@ -986,28 +966,6 @@
       ]
     },
     {
-      "title": "Steel and chemicals giants demand freeze to EU’s flagship climate policy",
-      "teaser": "The attack on the Emissions Trading System is among industry's most direct calls yet for the EU to change course on climate.",
-      "link": "https://www.politico.eu/article/steel-and-chemicals-giants-demand-freeze-to-eus-flagship-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-15T16:14:09+00:00",
-      "matched_keywords": [
-        "climate",
-        "climate policy",
-        "emissions trading"
-      ]
-    },
-    {
-      "title": "Spain dismisses threat that national team’s assets could be seized at World Cup",
-      "teaser": "A U.S. investment fund is targeting companies with financial ties to Spain's national football team in a bid to recover renewable energy claims worth nearly €500M.",
-      "link": "https://www.politico.eu/article/spain-dismisses-threat-football-teams-assets-seized-world-cup/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-15T11:59:18+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Wärtsilä wraps energy storage business into joint venture with solar manufacturer RCT Solutions",
       "teaser": "There has been another twist in the long-running saga of Wärtsilä’s energy storage business and how the company aims to run it going forward.",
       "link": "https://www.energy-storage.news/wartsila-wraps-energy-storage-business-into-joint-venture-with-solar-manufacturer-rct-solutions/",
@@ -1016,16 +974,6 @@
       "matched_keywords": [
         "energy storage",
         "solar"
-      ]
-    },
-    {
-      "title": "China slams Indonesia investment climate over nickel curbs",
-      "teaser": "Regulatory changes could threaten $50bn of investment, embassy warns",
-      "link": "https://www.ft.com/content/a25da305-f018-43a6-bb8c-c7a42024672e",
-      "source": "ft-energy",
-      "published": "2026-06-15T10:35:56+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1453,26 +1401,6 @@
       ]
     },
     {
-      "title": "EU kündigt im Rahmen des neuen Russland-Sanktionspakets ein Einfrieren der Öl-Preisobergrenze an",
-      "teaser": "„Unsere Sanktionen treffen hart und schneiden tief“, sagte Ursula von der Leyen und verwies dabei auf das „schleppende“ Wachstum Russlands und den „wachsenden Druck“ auf den Moskauer Haushalt.",
-      "link": "https://euractiv.com/de/news/eu-kuendigt-im-rahmen-des-neuen-russland-sanktionspakets-ein-einfrieren-der-oel-preisobergrenze-an/",
-      "source": "euractiv-energie",
-      "published": "2026-06-09T14:57:36+00:00",
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
-      "title": "EU targets Russian economy and soldiers in newest sanctions package",
-      "teaser": "EU Commission chief Ursula von der Leyen said Russia’s economy was \"slowing sharply\" as she presented the bloc’s 21st sanctions package.",
-      "link": "https://www.politico.eu/article/eu-russia-economy-soldiers-sanction-package/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-09T13:56:53+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "German BESS market has moved beyond peak hype",
       "teaser": "“The word tsunami describes very well the hype that was in Germany,” said Cristina Yandiola at this week’s Energy Storage Summit.",
       "link": "https://www.energy-storage.news/german-bess-market-moved-beyond-peak-tsunami-hype/",
@@ -1480,26 +1408,6 @@
       "published": "2026-06-09T13:22:18+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "EU wants African sunlight to power Europe’s electric revolution",
-      "teaser": "Brussels hopes solar panels in the sun-soaked Sahara Desert can supply Europe with clean electricity.",
-      "link": "https://www.politico.eu/article/eu-to-invest-e5-billion-in-renewables-in-north-africa-and-middle-east/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-09T13:05:44+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "EU proposes freezing Russian oil price cap to prevent windfall for Kremlin’s war chest",
-      "teaser": "EU Commission President Ursula von der Leyen made the announcement as she presented the bloc’s 21st package of sanctions on Moscow.",
-      "link": "https://www.politico.eu/article/eu-proposes-freezing-russian-oil-price-cap-to-prevent-windfall-for-kremlins-war-chest/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-09T12:14:10+00:00",
-      "matched_keywords": [
-        "sanction"
       ]
     },
     {
@@ -1520,16 +1428,6 @@
       "published": "2026-06-09T11:41:13+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Turkey, Australia to push for global electrification goal at UN climate summit",
-      "teaser": "Faster switch from fossil fuels to electricity will be a \"defining\" priority of the Antalya conference.",
-      "link": "https://www.politico.eu/article/turkey-australia-global-electrification-goal-cop31-climate-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-09T11:01:00+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1635,7 +1533,7 @@
     },
     {
       "title": "Where does balcony solar stand in your state?",
-      "teaser": "This article was originally published on April 6, 2026, and last updated on June 15, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
+      "teaser": "This article was originally published on April 6, 2026, and last updated on June 18, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
       "link": "https://www.canarymedia.com/articles/solar/states-passing-balcony-solar-laws",
       "source": "canarymedia",
       "published": "2026-06-08T07:00:00+00:00",
@@ -2590,16 +2488,6 @@
       ]
     },
     {
-      "title": "Which countries lead the way on nuclear energy?",
-      "teaser": "See more from Canary Media’s ​“Chart of the Week” column . Nuclear energy is experiencing a global resurgence. In the U.S. and Europe, a long-wary public has started to warm once again to the sector. Taiwan, which shuttered its last…",
-      "link": "https://www.canarymedia.com/articles/nuclear/which-countries-lead-nuclear",
-      "source": "canarymedia",
-      "published": "2026-04-24T07:30:00+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Das Risiko der Atomkraft-Finanzierung",
       "teaser": "Kostenexplosionen, Sicherheitsrisiken - auch durch den Klimawandel – und geopolitische Abhängigkeiten machen Atomkraft zu einer schlechten Wahl. Experten fordern stattdessen den konsequenten Ausbau Erneuerbarer Energiesysteme.",
       "link": "https://www.energiezukunft.eu/politik/das-risiko-der-atomkraft-finanzierung",
@@ -2969,46 +2857,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Qatar LNG vessel enters Gulf to reload for 1st time since war",
-      "teaser": "Fintan Devenney",
-      "link": "https://www.montelnews.com/news/ab912729-2b0a-4fc6-9287-6608639cfc21/qatar-lng-vessel-enters-gulf-to-reload-for-1st-time-since-war",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "Uncertainty over Hormuz control “buoys gas prices”",
-      "teaser": "Fintan Devenney",
-      "link": "https://www.montelnews.com/news/52134c2d-edde-410b-a426-d66e6037347b/uncertainty-over-hormuz-control-buoys-gas-prices-analysts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "EU ETS divides Italy’s energy sector ahead of reform review",
-      "teaser": "Fintan Devenney",
-      "link": "https://www.montelnews.com/news/2629d527-5d2f-43d8-9d26-1f1bcbbf0c84/eu-ets-divides-italy-s-energy-sector-ahead-of-reform-review",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "ets"
-      ]
-    },
-    {
-      "title": "Qatari LNG return “urgent” for European winter",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/36601a4e-7ff0-4fb3-88fd-4746160495d7/qatari-lng-return-urgent-for-european-winter-totalenergies",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
