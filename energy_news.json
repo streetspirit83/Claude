@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:29:16+00:00",
+  "generated_at": "2026-06-19T17:48:35+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,39 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 267,
   "articles": [
+    {
+      "title": "Amazon et Skyborn Renewables signent le plus grand PPA éolien offshore d'Allemagne",
+      "teaser": "Amazon et Skyborn Renewables ont signé un contrat d'achat d'énergie de 600 MW pour le parc éolien offshore Gennaker en mer Baltique allemande, le plus grand PPA individuel jamais conclu en Allemagne.",
+      "link": "https://energynews.pro/amazon-et-skyborn-renewables-signent-le-plus-grand-ppa-eolien-offshore-dallemagne",
+      "source": "energynews-pro",
+      "published": "2026-06-19T14:48:36+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "BDEW macht Vorschläge für einen schnelleren Netzausbau",
+      "teaser": "Ein Positionspapier mit zwölf Punkten benennt planungs- und umweltrechtliche Anforderungen, die aus Sicht des BDEW ersetzt oder geändert werden sollten. Angesichts des dringenden Bedarfs seien durchschnittlich zehn Jahre…",
+      "link": "https://www.pv-magazine.de/2026/06/19/bdew-macht-vorschlaege-fuer-einen-schnelleren-netzausbau/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-19T13:50:26+00:00",
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "Skyborn, Amazon sign 600MW PPA for Gennaker offshore wind farm",
+      "teaser": "Skyborn Renewables and Amazon have reached an agreement on a 600MW power purchase agreement (PPA) for electricity from the Gennaker offshore wind farm, located in the German Baltic Sea.",
+      "link": "https://www.power-technology.com/news/skyborn-amazon-600mw-ppa-gennaker-wind-farm/",
+      "source": "power-technology",
+      "published": "2026-06-19T12:28:18+00:00",
+      "matched_keywords": [
+        "renewable",
+        "wind farm"
+      ]
+    },
     {
       "title": "Maxsolar schließt förderfreien 76 Megawatt-Solarpark an Netz an",
       "teaser": "Für 70 Prozent des erzeugten Solarstroms aus dem Photovoltaik-Kraftwerk gibt es einen PPA. Die restlichen Mengen will Maxsolar direkt an der Börse vermarkten. Zudem hat das Unternehmen mit Entrix eine Vereinbarung zur Vermarktung seines…",
@@ -378,6 +409,16 @@
       "published": "2026-06-19T11:55:15+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "Nuclear energy hiring is slowing in North America – but leaders can see where capacity and risk are shifting",
+      "teaser": null,
+      "link": "https://www.power-technology.com/sponsored/nuclear-energy-hiring-is-slowing-in-north-america-but-leaders-can-see-where-capacity-and-risk-are-shifting/",
+      "source": "power-technology",
+      "published": "2026-06-19T11:40:39+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -462,6 +503,26 @@
       ]
     },
     {
+      "title": "Inter-array cabling completed at Nordseecluster A offshore wind farm",
+      "teaser": "The inter-array cable installation campaign at the Nordseecluster A offshore wind farm in Germany [&#8230;] The post Inter-array cabling completed at Nordseecluster A offshore wind farm appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/inter-array-cabling-completed-at-nordseecluster-a-offshore-wind-farm/",
+      "source": "offshore-energy",
+      "published": "2026-06-19T08:41:46+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Regulatory setback puts appraisal of gas discovery at risk in Southeast Asia",
+      "teaser": "A regulatory notice over a missed drilling deadline has placed a production sharing contract (PSC) for a gas asset under threat unless SundaGas Banda Unipessoal, a wholly owned subsidiary of the UK-based and AIM-listed Sunda Energy, shows…",
+      "link": "https://www.offshore-energy.biz/regulatory-setback-puts-appraisal-of-gas-discovery-at-risk-in-southeast-asia/",
+      "source": "offshore-energy",
+      "published": "2026-06-19T08:38:17+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
       "title": "Tiefgreifende Änderungen stehen an",
       "teaser": "Regulierung: Die Bundesregierung arbeitet aktuell unter anderem an der EEG-Novelle 2027 und dem Netzpaket. Kabinettsbeschlüsse stehen noch aus, allerdings sickerten die Pläne in den Referentenentwürfen bereits durch, die grundlegende…",
       "link": "https://www.pv-magazine.de/2026/06/19/tiefgreifende-aenderungen-stehen-an/",
@@ -474,8 +535,8 @@
     {
       "title": "Pattern Energy launches SunZia energy project in US",
       "teaser": "Pattern Energy has announced the full operational launch of the SunZia renewable energy project, which involves a 3,650MW wind facility.",
-      "link": "https://www.power-technology.com/news/pattern-energy-launches-sunzia/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/news/pattern-energy-launches-sunzia/",
+      "source": "energymonitor",
       "published": "2026-06-19T08:11:51+00:00",
       "matched_keywords": [
         "renewable"
@@ -566,16 +627,6 @@
       ]
     },
     {
-      "title": "A.P. Moller Capital acquiert Mainstream Renewable Power en Afrique du Sud",
-      "teaser": "Le fonds EMIF II d'A.P. Moller Capital a conclu un accord pour acquérir la totalité de Mainstream Renewable Power South Africa, développeur d'énergie renouvelable doté d'un pipeline de 11,6 GW en Afrique du Sud.",
-      "link": "https://energynews.pro/ap-moller-capital-acquiert-mainstream-renewable-power-en-afrique-du-sud",
-      "source": "energynews-pro",
-      "published": "2026-06-18T20:03:47+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "UN summit collides with reality that talking won’t solve climate change",
       "teaser": "The future of climate negotiations is uncertain as focus shifts from discussing treaties to actually implementing them.",
       "link": "https://www.politico.eu/article/un-summit-collides-with-reality-that-talking-wont-solve-climate-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -606,16 +657,6 @@
       ]
     },
     {
-      "title": "L'AIEA engage les négociations pour encadrer la dilution de l'uranium iranien",
-      "teaser": "Un protocole d'accord américano-iranien engage Téhéran à diluer ses stocks d'uranium enrichi sous supervision de l'AIEA, dans un cadre de négociations de 60 jours en échange d'une levée des sanctions.",
-      "link": "https://energynews.pro/laiea-engage-les-negociations-pour-encadrer-la-dilution-de-luranium-iranien",
-      "source": "energynews-pro",
-      "published": "2026-06-18T15:36:59+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Electrification, climate finance and Just Transition: Key outcomes of Bonn Climate Change Conference",
       "teaser": "Despite backsliding on some commitments, the UN climate conference showed glimmers of hope ahead of COP31.",
       "link": "http://www.euronews.com/2026/06/18/held-hostage-by-fossil-fuels-what-was-actually-achieved-at-the-un-climate-conference-in-bo",
@@ -636,30 +677,6 @@
         "solar",
         "speicher",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Energieprojekte: Einstufung als überragendes öffentliches Interesse hilft – aber nicht unbegrenzt",
-      "teaser": "Die Stiftung Umweltenergierecht hat untersucht, wie sich die gesetzlichen Einzelregelungen zum „überragenden öffentlichen Interesse“ von Windkraft- und Photovoltaik-Anlagen, Batteriespeichern und anderen Energiewendeprojekten auswirken.…",
-      "link": "https://www.pv-magazine.de/2026/06/18/energieprojekte-einstufung-als-ueberragendes-oeffentliches-interesse-hilft-aber-nicht-unbegrenzt/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-18T14:23:52+00:00",
-      "matched_keywords": [
-        "energiewende",
-        "photovoltaik",
-        "speicher",
-        "windkraft"
-      ]
-    },
-    {
-      "title": "KfW startet Förderprogramm mit Krediten für Erneuerbaren-Vorhaben außerhalb des EEG",
-      "teaser": "Pro Vorhaben können Kredite bis zu 150 Millionen Euro über das Programm \"Erneuerbare Energien Plus\" bei Finanzierungspartnern beantragt werden. Damit soll insbesondere die Vermarktung von Strom über sogenannte Direktlieferverträge zu…",
-      "link": "https://www.pv-magazine.de/2026/06/18/kfw-startet-foerderprogramm-mit-krediten-fuer-erneuerbaren-vorhaben-ausserhalb-des-eeg/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-18T12:53:36+00:00",
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare"
       ]
     },
     {
@@ -744,16 +761,6 @@
       ]
     },
     {
-      "title": "The future of bioleaching in mining",
-      "teaser": "Advances in microbiology, growing demand for CRMs and the search for lower-emission processing are bringing bioleaching back into focus.",
-      "link": "https://www.power-technology.com/news/the-future-of-bioleaching-in-mining/",
-      "source": "power-technology",
-      "published": "2026-06-18T07:00:00+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Trump’s ‘nuclear bros’ race to deliver US atomic revival",
       "teaser": "Young founders backed by Silicon Valley vie to start reactors despite experts’ safety fears",
       "link": "https://www.ft.com/content/0d074795-e54a-41d7-9c97-baf2bd6deb94",
@@ -781,29 +788,6 @@
       "published": "2026-06-17T14:51:19+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Renewable energy hydraulics: How to protect productivity, profitability and performance",
-      "teaser": "Hydraulic systems play a crucial role in capturing the greatest yields in solar and wind energy generation. Learn how to protect them here:",
-      "link": "https://www.power-technology.com/sponsored/how-to-protect-productivity-in-renewable-energy/",
-      "source": "power-technology",
-      "published": "2026-06-17T14:24:48+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind energy"
-      ]
-    },
-    {
-      "title": "Austria to reach 11TWh of solar PV target well before 2030, forecasts GlobalData",
-      "teaser": "In 2023, Austria added about 2.5GW of new solar PV capacity, bringing the cumulative total to approximately 6.2GW.",
-      "link": "https://www.power-technology.com/analyst-comment/austria-reach-11twh-solar-pv/",
-      "source": "power-technology",
-      "published": "2026-06-17T14:02:55+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
       ]
     },
     {
@@ -1127,16 +1111,6 @@
       "published": "2026-06-15T08:33:18+00:00",
       "matched_keywords": [
         "förderung"
-      ]
-    },
-    {
-      "title": "Cadeler completes installation of 100 turbines at Sofia Wind Farm",
-      "teaser": "Cadeler has concluded the installation of all 100 Siemens Gamesa wind turbines at RWE’s 1.4GW Sofia offshore wind farm.",
-      "link": "https://www.energymonitor.ai/news/cadeler-completes-installation-turbines-sofia/",
-      "source": "energymonitor",
-      "published": "2026-06-15T08:28:53+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -2693,16 +2667,6 @@
       ]
     },
     {
-      "title": "Nova-Ausstellung zum Hamas-Terror : Wie der Berliner Senat hinter den Kulissen um die Millionen-Förderung rang",
-      "teaser": "1,4 Millionen Euro erhielten die Macher der Ausstellung zur Erinnerung an den 7. Oktober 2023 vom Land Berlin. Interne Dokumente zeigen, wie um die Gelder gestritten wurde – bis kurz vor der Eröffnung.",
-      "link": "https://www.tagesspiegel.de/berlin/nova-ausstellung-zum-hamas-terror-wie-der-berliner-senat-hinter-den-kulissen-um-die-millionen-forderung-rang-15723695.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
-      ]
-    },
-    {
       "title": "ETS I weiterentwickeln und Klimaschutzwirkung sicherstellen",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/ets-i-weiterentwickeln-und-klimaschutzwirkung-sicherstellen/",
@@ -2972,6 +2936,26 @@
       ]
     },
     {
+      "title": "Swiss parliament lifts ban on building new nuclear reactors",
+      "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/a36e0da8-1f7f-4b28-bf4b-7f4e69a29b52/swiss-parliament-lifts-ban-on-building-new-nuclear-reactors",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "German renewables plan stuck in government dispute",
+      "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/9628f28a-3bb1-4a36-9c53-6a0767f414b4/german-renewables-plan-stuck-in-government-dispute",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "German solar output to jump 20% above norm amid heatwave",
       "teaser": "Fintan Devenney",
       "link": "https://www.montelnews.com/news/e8064cc3-5a41-4386-b735-938734448313/german-solar-output-to-jump-20-above-norm-amid-heatwave",
@@ -2983,7 +2967,7 @@
     },
     {
       "title": "Qatar LNG vessel enters Gulf to reload for 1st time since war",
-      "teaser": "Fintan Devenney",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/ab912729-2b0a-4fc6-9287-6608639cfc21/qatar-lng-vessel-enters-gulf-to-reload-for-1st-time-since-war",
       "source": "montelnews",
       "published": null,
@@ -2992,23 +2976,14 @@
       ]
     },
     {
-      "title": "Uncertainty over Hormuz control “buoys gas prices”",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/52134c2d-edde-410b-a426-d66e6037347b/uncertainty-over-hormuz-control-buoys-gas-prices-analysts",
-      "source": "montelnews",
+      "title": "Demand for new German offshore wind auctions amid uncertainty over sites",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/demand-for-new-german-offshore-wind-auctions-amid-uncertainty-over-sites/2-1-2007126",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "EU ETS divides Italy’s energy sector ahead of reform review",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/2629d527-5d2f-43d8-9d26-1f1bcbbf0c84/eu-ets-divides-italy-s-energy-sector-ahead-of-reform-review",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "ets"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3091,17 +3066,6 @@
       ]
     },
     {
-      "title": "Renewables and grids beat oil and gas as energy leaders rank security fixes",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-security/the-three-specific-renewables-measures-that-can-stop-security-threats-even-the-oil-bosses-are-on-board/2-1-2006084",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "How Equinor has quietly raised its bar for offshore wind investment",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
@@ -3157,9 +3121,9 @@
       ]
     },
     {
-      "title": "UK and Denmark join battle to meet data centre power demand",
+      "title": "Renewables and grids beat oil and gas as energy leaders rank security fixes",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/uk-and-denmark-join-battle-to-meet-data-centre-power-demand/2-1-2006107",
+      "link": "https://www.rechargenews.com/energy-security/the-three-specific-renewables-measures-that-can-stop-security-threats-even-the-oil-bosses-are-on-board/2-1-2006084",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3168,9 +3132,9 @@
       ]
     },
     {
-      "title": "Trump in new buyout deal to kill four more US offshore wind projects",
+      "title": "UK and Denmark join battle to meet data centre power demand",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/trump-buys-back-more-us-offshore-wind-leases-in-continued-war-on-sector/2-1-2005696",
+      "link": "https://www.rechargenews.com/corporate-power/uk-and-denmark-join-battle-to-meet-data-centre-power-demand/2-1-2006107",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
