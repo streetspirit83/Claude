@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T08:21:55+00:00",
+  "generated_at": "2026-06-21T12:06:34+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "403 Client Error: Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 267,
+  "count": 268,
   "articles": [
+    {
+      "title": "Michael Bloomberg arms green lobby for fight against oil interests",
+      "teaser": "Billionaire pledges $285mn to renewable industry associations as nations face energy policy decisions in wake of Iran war",
+      "link": "https://www.ft.com/content/5d02676c-60cb-4d11-b719-9ece20d11849",
+      "source": "ft-energy",
+      "published": "2026-06-21T10:15:21+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Climate protesters to take aim at FIFA’s Saudi oil sponsor",
       "teaser": "FIFA announced Aramco as a major worldwide partner in 2024, drawing pushback from climate and human rights groups.",
@@ -3001,21 +3011,9 @@
       ]
     },
     {
-      "title": "Amazon strikes 'record power deal' for German offshore wind farm",
+      "title": "Amazon pact propels offshore wind project with Siemens Gamesa turbines to finish line",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/amazon-strikes-record-power-deal-for-german-offshore-wind-farm/2-1-2006647",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Deals of the Week: Siemens Energy's big home win",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/deals-of-the-week-siemens-energys-big-home-win/2-1-2006426",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3046,17 +3044,6 @@
       ]
     },
     {
-      "title": "Why a local UK election has global renewables giants on edge",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/burnham-vs-reform-sets-alarm-bells-ringing-again-for-uk-clean-energy-investors/2-1-2005565",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "New foundations promise cheaper UK deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/the-uk-is-abuzz-over-floating-wind-alternatives-but-there-is-a-snag/2-1-2004506",
@@ -3071,6 +3058,28 @@
       "title": "How Equinor has quietly raised its bar for offshore wind investment",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Deals of the Week: Siemens Energy's big home win",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/deals-of-the-week-siemens-energys-big-home-win/2-1-2006426",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Why a local UK election has global renewables giants on edge",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/burnham-vs-reform-sets-alarm-bells-ringing-again-for-uk-clean-energy-investors/2-1-2005565",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
