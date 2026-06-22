@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T15:13:58+00:00",
+  "generated_at": "2026-06-22T19:19:12+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 269,
+  "count": 268,
   "articles": [
     {
       "title": "PipeChina prépare le terminal de Longkou pour les cargaisons russes d'Arctic LNG 2",
@@ -524,16 +524,6 @@
       "matched_keywords": [
         "solar",
         "speicher"
-      ]
-    },
-    {
-      "title": "L'Iran pourrait relancer plus lentement sa production pétrolière que ses voisins",
-      "teaser": "La production pétrolière iranienne, tombée à 2,5 millions de barils par jour en mai, pourrait mettre plus de temps à se redresser que celle de ses voisins du Golfe, en raison des sanctions et des dommages subis par les infrastructures.",
-      "link": "https://energynews.pro/liran-pourrait-relancer-plus-lentement-sa-production-petroliere-que-ses-voisins",
-      "source": "energynews-pro",
-      "published": "2026-06-22T09:34:03+00:00",
-      "matched_keywords": [
-        "sanction"
       ]
     },
     {
@@ -2680,14 +2670,13 @@
       ]
     },
     {
-      "title": "Gesetz zur Aufhebung des Treibhausgas-Emissionshandelsgesetzes und des Brennstoffemissionshandelsgesetzes (CO2-Preis Abschaffungsgesetz)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aufhebung-des-treibhausgas-emissionshandelsgesetzes-und-des-brennstoffemissionshandelsgesetzes-co2-preis-abschaffungsgesetz",
-      "source": "tagesspiegel-background-energie",
+      "title": "Rund 30.000 Einwohner betroffen : Diese Wohnviertel in Berlin sollen jetzt zum Klima-Sanierungsgebiet werden",
+      "teaser": "Mehr Grün, bessere Verkehrswege: Drei Kieze des Bezirks Pankow sollen mit großem Aufwand in den kommenden Jahren umgestaltet werden. Nun läuft die Öffentlichkeitsbeteiligung an.",
+      "link": "https://www.tagesspiegel.de/berlin/bezirke/pankow/rund-30000-einwohner-betroffen-diese-wohnviertel-in-berlin-sollen-jetzt-zum-klima-sanierungsgebiet-werden-15741280.html",
+      "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "co2-preis",
-        "emission"
+        "klima"
       ]
     },
     {
