@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:44:00+00:00",
+  "generated_at": "2026-06-23T17:46:05+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 10
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 5
     },
     {
       "name": "euronews-green",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 257,
   "articles": [
     {
       "title": "Google et Energy Dome lancent une batterie CO2 de 200 MWh en Irlande",
@@ -1138,16 +1138,6 @@
       ]
     },
     {
-      "title": "The key to post-Iran conflict energy security lies in natural gas tech",
-      "teaser": "The Iran war has spotlighted the need for tech solutions to stop wasting existing natural gas if similar shocks emerge.",
-      "link": "https://www.energymonitor.ai/analyst-comment/the-key-to-post-iran-conflict-energy-security-lies-in-natural-gas-tech/",
-      "source": "energymonitor",
-      "published": "2026-06-17T10:10:06+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
       "title": "Ørsted appoints new Germany CEO",
       "teaser": "Danish renewables major Ørsted announced today (17 June) that Josche Muth would take on the role of CEO of its Germany-based subsidiary, starting from 1 July.",
       "link": "https://www.windpowermonthly.com/article/1961923/orsted-appoints-new-germany-ceo",
@@ -1156,16 +1146,6 @@
       "matched_keywords": [
         "renewable",
         "subsid"
-      ]
-    },
-    {
-      "title": "Phelan licenses Johnson Matthey tech for Saldanha Bay eSAF plant",
-      "teaser": "Phelan Green Hydrogen has licensed technologies from Johnson Matthey for a proposed eSAF plant in South Africa’s Western Cape.",
-      "link": "https://www.energymonitor.ai/news/phelan-licenses-jm-esaf-plant/",
-      "source": "energymonitor",
-      "published": "2026-06-17T09:21:24+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -2702,16 +2682,6 @@
       ]
     },
     {
-      "title": "Die Lehrerausbildung den Unis wegnehmen? : Steffen Krachs Forderung ist pure Symbolpolitik und würde Berlin bloß lähmen",
-      "teaser": "Bildungsexpertin Achour antwortet auf die Idee des SPD-Spitzenkandidaten, die Lehramtsausbildung den Unis wegzunehmen und in einer neuen Hochschule zu zentralisieren. Die echten Probleme würde das nicht lösen.",
-      "link": "https://www.tagesspiegel.de/wissen/die-lehrerausbildung-den-unis-wegnehmen-steffen-krachs-forderung-ist-pure-symbolpolitik-und-wurde-berlin-bloss-lahmen-15736855.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2853,110 +2823,6 @@
       "published": null,
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
-      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
-      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende",
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Warum der geplante Redispatch-Vorbehalt für Erneuerbare die Energiewende ausbremst",
-      "teaser": "Die vom Bundeswirtschaftsministerium (BMWE) vorgeschlagene Einführung eines Redispatch-Vorbehalts für sogenannte Engpassgebiete birgt das Risiko, dass...",
-      "link": "https://www.agora-energiewende.de/aktuelles/warum-der-geplante-redispatch-vorbehalt-fuer-erneuerbare-die-energiewende-ausbremst",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende",
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
-      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
-      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "emission",
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 438",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 158",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
-      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
