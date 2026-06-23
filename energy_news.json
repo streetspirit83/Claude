@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T19:19:12+00:00",
+  "generated_at": "2026-06-23T07:41:13+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 32
+      "items_matched": 31
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 268,
+  "count": 266,
   "articles": [
+    {
+      "title": "Saipem wins $1 billion contract for Eni and BP’s recently sanctioned project",
+      "teaser": "Azule Energy, a joint venture between Italy’s Eni and the UK’s BP, has awarded Saipem [&#8230;] The post Saipem wins $1 billion contract for Eni and BP&#8217;s recently sanctioned project appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/saipem-wins-1-billion-contract-for-eni-and-bps-recently-sanctioned-project/",
+      "source": "offshore-energy",
+      "published": "2026-06-23T06:48:57+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "L'unité 4 Hualong One de Changjiang entre en phase de rinçage",
+      "teaser": "La China National Nuclear Corporation a lancé les opérations de rinçage de l'unité 4 de Changjiang, en Chine. Cette étape précède les essais à froid et à chaud du réacteur Hualong One, attendu opérationnel début 2027.",
+      "link": "https://energynews.pro/lunite-4-hualong-one-de-changjiang-entre-en-phase-de-rincage",
+      "source": "energynews-pro",
+      "published": "2026-06-23T06:34:29+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Les États-Unis suspendent les sanctions pétrolières contre l'Iran jusqu'au 21 août",
+      "teaser": "Le ministère américain des Finances autorise toutes les transactions liées aux hydrocarbures iraniens jusqu'au 21 août. Le Brent recule à 77,6 dollars le baril. Des négociations au Bürgenstock ouvrent un cycle de 60 jours.",
+      "link": "https://energynews.pro/les-etats-unis-suspendent-les-sanctions-petrolieres-contre-liran-jusquau-21-aout",
+      "source": "energynews-pro",
+      "published": "2026-06-23T05:25:07+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
     {
       "title": "PipeChina prépare le terminal de Longkou pour les cargaisons russes d'Arctic LNG 2",
       "teaser": "La Chine s'apprête à ouvrir un second terminal GNL à Longkou pour accueillir les livraisons d'Arctic LNG 2, projet russe sous sanctions américaines depuis fin 2023. PipeChina opèrerait cette installation, opérationnelle avant octobre.",
@@ -723,16 +753,6 @@
       ]
     },
     {
-      "title": "Maxsolar schließt förderfreien 76 Megawatt-Solarpark an Netz an",
-      "teaser": "Für 70 Prozent des erzeugten Solarstroms aus dem Photovoltaik-Kraftwerk gibt es einen PPA. Die restlichen Mengen will Maxsolar direkt an der Börse vermarkten. Zudem hat das Unternehmen mit Entrix eine Vereinbarung zur Vermarktung seines…",
-      "link": "https://www.pv-magazine.de/2026/06/19/maxsolar-schliesst-foerderfreien-76-megawatt-solarpark-an-netz-an/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-19T11:55:15+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Nuclear energy hiring is slowing in North America – but leaders can see where capacity and risk are shifting",
       "teaser": null,
       "link": "https://www.energymonitor.ai/sponsored/nuclear-energy-hiring-is-slowing-in-north-america-but-leaders-can-see-where-capacity-and-risk-are-shifting/",
@@ -830,17 +850,6 @@
       "source": "canarymedia",
       "published": "2026-06-19T07:30:00+00:00",
       "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Permanent Power Company finalises $600m for Grape project",
-      "teaser": "Permanent Power Company, part of CIM Group, has closed an approximately $600m construction financing facility to advance its Grape solar and energy storage project in California.",
-      "link": "https://www.power-technology.com/news/permanent-power-company-600m-grape-project/",
-      "source": "power-technology",
-      "published": "2026-06-19T07:23:15+00:00",
-      "matched_keywords": [
-        "energy storage",
         "solar"
       ]
     },
@@ -1006,17 +1015,6 @@
       "published": "2026-06-17T12:00:56+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Europe’s emissions trading system is not working for industry",
-      "teaser": "The choice is between a climate strategy that strengthens economic security and one that hollows it out",
-      "link": "https://www.ft.com/content/59ea85a0-355e-4f5c-a3d4-5c3c9df27892",
-      "source": "ft-energy",
-      "published": "2026-06-17T10:40:50+00:00",
-      "matched_keywords": [
-        "climate",
-        "emissions trading"
       ]
     },
     {
@@ -1565,17 +1563,6 @@
       "published": "2026-06-10T13:28:42+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Chile’s president attends inauguration of 3.5GWh BESS at Grenergy’s Oasis de Atacama solar-plus-storage complex",
-      "teaser": "The president of Chile, José Antonio Kast Rist, was in attendance as IPP Grenergy inaugurated a 3.5GWh battery energy storage system (BESS).",
-      "link": "https://www.energy-storage.news/chiles-president-attends-inauguration-of-3-5gwh-bess-at-grenergys-oasis-de-atacama-solar-plus-storage-complex/",
-      "source": "energy-storage-news",
-      "published": "2026-06-10T10:23:06+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
       ]
     },
     {
@@ -2670,13 +2657,13 @@
       ]
     },
     {
-      "title": "Rund 30.000 Einwohner betroffen : Diese Wohnviertel in Berlin sollen jetzt zum Klima-Sanierungsgebiet werden",
-      "teaser": "Mehr Grün, bessere Verkehrswege: Drei Kieze des Bezirks Pankow sollen mit großem Aufwand in den kommenden Jahren umgestaltet werden. Nun läuft die Öffentlichkeitsbeteiligung an.",
-      "link": "https://www.tagesspiegel.de/berlin/bezirke/pankow/rund-30000-einwohner-betroffen-diese-wohnviertel-in-berlin-sollen-jetzt-zum-klima-sanierungsgebiet-werden-15741280.html",
+      "title": "Teheran erklärt dauerhafte Verwaltung der Meerenge : „Straße von Hormus wird niemals in den Zustand vor dem Krieg zurückkehren“",
+      "teaser": "USA und Iran vereinbaren Arbeitsgruppen zu Atomprogramm und Sanktionen + USA und Iran einigen sich auf Fahrplan für Abkommen + Schiffsverkehr in Straße von Hormus bricht nach Iran-Blockade wieder ein + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/teheran-erklart-dauerhafte-verwaltung-der-meerenge-strasse-von-hormus-wird-niemals-in-den-zustand-vor-dem-krieg-zuruckkehren-10586281.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "klima"
+        "sanktion"
       ]
     },
     {
@@ -2760,13 +2747,14 @@
       ]
     },
     {
-      "title": "Massengeschäftstaugliche Direktvermarktung kleiner PV-Anlagen: Best Practices",
-      "teaser": "Schlüssel für eine effiziente Direktvermarktung im Interesse der Betreiber von kleinen PV-Anlagen sind massengeschäftstaugliche Prozesse. Das Factsheet zeigt Best Practices.",
-      "link": "https://www.dena.de/infocenter/massengeschaeftstaugliche-direktvermarktung-kleiner-pv-anlagen-best-practices/",
+      "title": "Energiekrise: Deutschland sollte Erneuerbare und Partnerschaften ausbauen",
+      "teaser": "Wie lässt sich die europäische Souveränität im Energiebereich stärken? Kim Lakeit skizziert zwei Lösungswege.",
+      "link": "https://www.dena.de/infocenter/energiekrise-deutschland-sollte-erneuerbare-und-partnerschaften-ausbauen/",
       "source": "dena-newsroom",
       "published": null,
       "matched_keywords": [
-        "pv"
+        "energiekrise",
+        "erneuerbare"
       ]
     },
     {
@@ -2949,7 +2937,7 @@
     },
     {
       "title": "Forced EU retrofit would “slow solar, raise prices”",
-      "teaser": "Fintan Devenney",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/9dd18645-43ee-4056-b8d9-57ed00591917/forced-eu-retrofit-would-slow-solar-raise-prices-analysts",
       "source": "montelnews",
       "published": null,
@@ -2978,13 +2966,26 @@
       ]
     },
     {
-      "title": "Swiss parliament lifts ban on building new nuclear reactors",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/a36e0da8-1f7f-4b28-bf4b-7f4e69a29b52/swiss-parliament-lifts-ban-on-building-new-nuclear-reactors",
-      "source": "montelnews",
+      "title": "RWE buys majority in TSO, turning regulated grids into third growth pillar",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/grid/rwe-buys-majority-in-amprion-turning-regulated-grids-into-third-growth-pillar/2-1-2007953",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Hormuz crisis hits 'world's largest' onshore wind farm under construction",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/onshore-wind/hormuz-crisis-hits-worlds-largest-onshore-wind-farm-under-construction/2-1-2007812",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
       ]
     },
     {
@@ -3066,31 +3067,20 @@
       ]
     },
     {
-      "title": "Amazon pact propels offshore wind project with Siemens Gamesa turbines to finish line",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/amazon-strikes-record-power-deal-for-german-offshore-wind-farm/2-1-2006647",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "New foundations promise cheaper UK deepwater wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "How Equinor has quietly raised its bar for offshore wind investment",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3110,9 +3100,9 @@
       ]
     },
     {
-      "title": "How the EU's growing cyber-anxiety could change wind and solar procurement",
+      "title": "Amazon pact propels offshore wind project with Siemens Gamesa turbines to finish line",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/how-the-eus-growing-cyber-anxiety-could-change-wind-and-solar-procurement/2-1-1999035",
+      "link": "https://www.rechargenews.com/corporate-power/amazon-strikes-record-power-deal-for-german-offshore-wind-farm/2-1-2006647",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3132,20 +3122,9 @@
       ]
     },
     {
-      "title": "Canada wins dispute with US offshore wind developer over stymied project",
+      "title": "New foundations promise cheaper UK deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/canada-wins-dispute-over-stymied-offshore-wind-project-with-us-developer/2-1-2006413",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Deals of the Week: Siemens Energy's big home win",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/deals-of-the-week-siemens-energys-big-home-win/2-1-2006426",
+      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
