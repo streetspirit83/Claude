@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T17:46:05+00:00",
+  "generated_at": "2026-06-23T20:58:28+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 10
     },
     {
       "name": "energynews-pro",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 267,
   "articles": [
+    {
+      "title": "Virginia slaps data centers with big new tax — but no climate rules",
+      "teaser": "Virginia Gov. Abigail Spanberger and her fellow state Democrats romped to a governing trifecta last year, pledging to curtail rising electric bills and ensure power-hungry data centers pay their fair share without undermining the state’s…",
+      "link": "https://www.canarymedia.com/articles/data-centers/virginia-data-centers-new-tax",
+      "source": "canarymedia",
+      "published": "2026-06-23T19:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Google et Energy Dome lancent une batterie CO2 de 200 MWh en Irlande",
       "teaser": "Google et Energy Dome annoncent leur premier contrat bilatéral pour une batterie CO2 de 23 MW/200 MWh dans le comté d'Offaly, en Irlande. Implanté sur un ancien site de centrale à tourbe, le projet est attendu pour 2028.",
@@ -2601,16 +2611,6 @@
       ]
     },
     {
-      "title": "Virginia’s new law blocks counties from banning solar",
-      "teaser": "As data centers drive electricity demand to new heights and consumers struggle with rising energy costs, cheap, clean power remains out of reach in much of Virginia: Nearly two-thirds of counties outright ban or severely restrict large…",
-      "link": "https://www.canarymedia.com/articles/solar/virginia-blocks-counties-from-banning-solar",
-      "source": "canarymedia",
-      "published": "2026-04-28T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Energieeffizienz ist kein Nice-to-have in Zeiten von Energiekrisen",
       "teaser": "Im Strategiepapier AccelerateEU liegt der Fokus auf Energieeffizienz für Energiesicherheit, Preisstabilität und Energieunabhängigkeit. Doch parallel und kontraproduktiv dazu irritiert die deutsche Regierung mit Abschwächung zentraler…",
       "link": "https://www.energiezukunft.eu/politik/energieeffizienz-ist-kein-nice-to-have-in-zeiten-von-energiekrisen",
@@ -2826,6 +2826,110 @@
       ]
     },
     {
+      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
+      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende",
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Warum der geplante Redispatch-Vorbehalt für Erneuerbare die Energiewende ausbremst",
+      "teaser": "Die vom Bundeswirtschaftsministerium (BMWE) vorgeschlagene Einführung eines Redispatch-Vorbehalts für sogenannte Engpassgebiete birgt das Risiko, dass...",
+      "link": "https://www.agora-energiewende.de/aktuelles/warum-der-geplante-redispatch-vorbehalt-fuer-erneuerbare-die-energiewende-ausbremst",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
+      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
+      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 438",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 158",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
+      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
       "title": "43C heat cuts 6% of French nuclear capacity, more curbs possible",
       "teaser": "Fintan Devenney",
       "link": "https://www.montelnews.com/news/71fed808-f624-4bc4-8b9b-b4db6a863f70/43c-heat-cuts-6-of-french-nuclear-capacity-more-curbs-possible",
@@ -2863,6 +2967,17 @@
       "published": null,
       "matched_keywords": [
         "power price"
+      ]
+    },
+    {
+      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -2944,18 +3059,6 @@
       ]
     },
     {
-      "title": "Vestas and GE Vernova celebrate historic US wind farm powering up",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/largest-renewable-energy-project-in-us-history-comes-online/2-1-2006709",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Amazon pact propels offshore wind project with Siemens Gamesa turbines to finish line",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/amazon-strikes-record-power-deal-for-german-offshore-wind-farm/2-1-2006647",
@@ -3022,14 +3125,15 @@
       ]
     },
     {
-      "title": "Why a local UK election has global renewables giants on edge",
+      "title": "Vestas and GE Vernova celebrate historic US wind farm powering up",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/burnham-vs-reform-sets-alarm-bells-ringing-again-for-uk-clean-energy-investors/2-1-2005565",
+      "link": "https://www.rechargenews.com/onshore-wind/largest-renewable-energy-project-in-us-history-comes-online/2-1-2006709",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar"
+        "solar",
+        "wind farm"
       ]
     }
   ]
