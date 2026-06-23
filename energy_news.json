@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T12:28:44+00:00",
+  "generated_at": "2026-06-23T15:44:00+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -175,7 +175,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -252,10 +252,10 @@
       "url": "https://www.euronews.com/green",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.euronews.com/rss/",
+      "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 2
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,90 @@
       "items_matched": 0
     }
   ],
-  "count": 251,
+  "count": 270,
   "articles": [
+    {
+      "title": "Google et Energy Dome lancent une batterie CO2 de 200 MWh en Irlande",
+      "teaser": "Google et Energy Dome annoncent leur premier contrat bilatéral pour une batterie CO2 de 23 MW/200 MWh dans le comté d'Offaly, en Irlande. Implanté sur un ancien site de centrale à tourbe, le projet est attendu pour 2028.",
+      "link": "https://energynews.pro/google-et-energy-dome-lancent-une-batterie-co2-de-200-mwh-en-irlande",
+      "source": "energynews-pro",
+      "published": "2026-06-23T14:57:36+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
+    {
+      "title": "Trois fabricants solaires américains réclament une enquête anti-contournement sur les cellules coréennes",
+      "teaser": "Canadian Solar, SEG Solar et Heliene ont saisi le Département du Commerce américain le 18 juin pour réclamer une enquête sur les importations de cellules solaires sud-coréennes, accusant notamment Qcells de contourner les droits…",
+      "link": "https://energynews.pro/trois-fabricants-solaires-americains-reclament-une-enquete-anti-contournement-sur-les-cellules-coreennes",
+      "source": "energynews-pro",
+      "published": "2026-06-23T14:00:20+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Montel: Hitzewelle treibt europäische Strompreise auf Rekordniveau",
+      "teaser": "Hohe Temperaturen, eine steigende Nachfrage nach Kühlung und eine schwache Windstromerzeugung haben nach einer Analyse von Montel am Dienstag zu historischen Preisspitzen auf den Viertelstundenmärkten in mehreren europäischen Ländern…",
+      "link": "https://www.pv-magazine.de/2026/06/23/montel-hitzewelle-treibt-europaeische-strompreise-auf-rekordniveau/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-23T13:51:42+00:00",
+      "matched_keywords": [
+        "strompreis"
+      ]
+    },
+    {
+      "title": "Solar Foods reçoit 77,8 millions d'euros pour construire sa Factory 02 en Finlande",
+      "teaser": "Business Finland accorde à Solar Foods un financement de 77,8 millions d'euros, combinant subvention et prêt R&D, pour la construction de Factory 02 à Lappeenranta, dans le cadre de l'IPCEI hydrogène européen.",
+      "link": "https://energynews.pro/solar-foods-recoit-778-millions-deuros-pour-construire-sa-factory-02-en-finlande",
+      "source": "energynews-pro",
+      "published": "2026-06-23T13:12:43+00:00",
+      "matched_keywords": [
+        "solar",
+        "subvention"
+      ]
+    },
+    {
+      "title": "GridX und Nomos entwickeln gemeinsame White-Label-Lösung für die Photovoltaik-Direktvermarktung",
+      "teaser": "Angesichts der geplanten Abschaffung der festen Einspeisevergütung für neue Photovoltaik-Dachanlagen ab 2027 haben GridX und Nomos ein gemeinsames White-Label-Angebot für Direktvermarktung, Energiemanagement und dynamische Stromtarife…",
+      "link": "https://www.pv-magazine.de/2026/06/23/gridx-und-nomos-entwickeln-gemeinsame-white-label-loesung-fuer-die-photovoltaik-direktvermarktung/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-23T13:11:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "China and the US, accidental climate saviours of the world",
+      "teaser": "The EU carbon pricing model is being supplanted by Beijing’s green tech spending and Donald Trump’s oil price shock",
+      "link": "https://www.ft.com/content/3adb041e-8f7b-4a1f-8359-bdc4f81ea631",
+      "source": "ft-energy",
+      "published": "2026-06-23T12:43:55+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "rPlus Energies’ 1,600MWh Utah solar-plus-storage project begins commercial operation",
+      "teaser": "Renewables developer rPlus Energies has announced start of commercial operations for the 400MW/1,600MWh Green River Energy Centre in Emery County, Utah, US.",
+      "link": "https://www.energy-storage.news/rplus-energies-1600mwh-utah-solar-plus-storage-project-begins-commercial-operation/",
+      "source": "energy-storage-news",
+      "published": "2026-06-23T12:43:48+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Varco Energy partners with NHOA, IQA-Elecnor for 100MW BESS in UK",
+      "teaser": "Varco Energy has selected NHOA Energy, working in consortium with IQA-Elecnor, to deliver a 100MW/244MWh battery energy storage system (BESS) at the Old Allen Road site in West Yorkshire, UK.",
+      "link": "https://www.power-technology.com/news/varco-energy-nhoa-iqa-elecnor-100mw-bess/",
+      "source": "power-technology",
+      "published": "2026-06-23T12:33:04+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "REV Renewables and LS Power commission California’s first 8-hour duration lithium-ion BESS",
       "teaser": "LS Power-owned REV Renewables and US development and investment company LS Power have commissioned the Tumbleweed Energy Storage facility in Kern County, California, US.",
@@ -399,16 +481,6 @@
       "published": "2026-06-23T11:56:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "Spain sounds the alarm on the future of EU green cash",
-      "teaser": "Ahead of an environment ministers’ meeting in Brussels, Spain warns that the EU risks undermining its credibility on climate and biodiversity unless it protects dedicated funding tools that have delivered environmental results for more…",
-      "link": "http://www.euronews.com/my-europe/2026/06/23/spain-sounds-the-alarm-on-the-future-of-eu-green-cash",
-      "source": "euronews-green",
-      "published": "2026-06-23T11:18:13+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -543,36 +615,6 @@
       ]
     },
     {
-      "title": "L'unité 4 Hualong One de Changjiang entre en phase de rinçage",
-      "teaser": "La China National Nuclear Corporation a lancé les opérations de rinçage de l'unité 4 de Changjiang, en Chine. Cette étape précède les essais à froid et à chaud du réacteur Hualong One, attendu opérationnel début 2027.",
-      "link": "https://energynews.pro/lunite-4-hualong-one-de-changjiang-entre-en-phase-de-rincage",
-      "source": "energynews-pro",
-      "published": "2026-06-23T06:34:29+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Les États-Unis suspendent les sanctions pétrolières contre l'Iran jusqu'au 21 août",
-      "teaser": "Le ministère américain des Finances autorise toutes les transactions liées aux hydrocarbures iraniens jusqu'au 21 août. Le Brent recule à 77,6 dollars le baril. Des négociations au Bürgenstock ouvrent un cycle de 60 jours.",
-      "link": "https://energynews.pro/les-etats-unis-suspendent-les-sanctions-petrolieres-contre-liran-jusquau-21-aout",
-      "source": "energynews-pro",
-      "published": "2026-06-23T05:25:07+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "From hydrogen planes to AI data centres: Bertrand Piccard's blueprint for a green tech future",
-      "teaser": "'Be a pioneer, not a dinosaur’: Swiss explorer Bertrand Piccard is betting on hydrogen-powered flights to inspire a generation",
-      "link": "http://www.euronews.com/next/2026/06/23/from-hydrogen-planes-to-ai-data-centres-bertrand-piccards-blueprint-for-a-green-tech-futur",
-      "source": "euronews-green",
-      "published": "2026-06-23T05:00:02+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Digitale Lösungen für die Energiewende – dvlp.energy",
       "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup dvlp.energy bietet eine Art Google Maps für die Energiewende. Der Beipackzettel zum Pitch.",
       "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-dvlpenergy",
@@ -614,17 +656,6 @@
       ]
     },
     {
-      "title": "Studie: Auslegung entscheidet über Erlöspotenzial von Grünstromspeichern",
-      "teaser": "Die Konfiguration von Photovoltaik-Anlage und Batteriespeicher hat erheblichen Einfluss auf die Wirtschaftlichkeit von Co-Location-Projekten. Nach einer Studie von Suena Energy können sich die Erlöse je nach Auslegung mehr als verdoppeln.",
-      "link": "https://www.pv-magazine.de/2026/06/22/studie-auslegung-entscheidet-uber-erlospotenzial-von-grunstromspeichern/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-22T13:20:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
-      ]
-    },
-    {
       "title": "Nextpower enters $378m deal to acquire Zimmermann PV-Steel Group",
       "teaser": "Nextpower has agreed to acquire Zimmermann PV-Steel Group, a Germany-based solar technology company with operations in over 58 countries.",
       "link": "https://www.power-technology.com/news/nextpower-acquisition-zimmermann/",
@@ -643,16 +674,6 @@
       "published": "2026-06-22T12:52:49+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "Capac Energy baut Zink-Bromid-Großspeicher in Bruchsal",
-      "teaser": "Im badischen Bruchsal soll einer der ersten Großspeicher auf Basis von Zink-Bromid-Batterien in Europa entstehen. Parallel haben Capac Energy und der US-Hersteller Eos Energy einen exklusiven Liefervertrag über zwei Gigawattstunden…",
-      "link": "https://www.pv-magazine.de/2026/06/22/capac-energy-baut-zink-bromid-grossspeicher-in-bruchsal/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-22T12:00:46+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -758,6 +779,16 @@
       ]
     },
     {
+      "title": "Europe’s heat pumps replace Middle East gas imports twice over. Which country is leading the way?",
+      "teaser": "A new analysis says that heat pumps avoided a staggering €9.7 billion in import costs alone last year.",
+      "link": "http://www.euronews.com/2026/06/22/europes-heat-pumps-replace-middle-east-gas-imports-twice-over-which-country-is-leading-the",
+      "source": "euronews-green",
+      "published": "2026-06-22T05:00:24+00:00",
+      "matched_keywords": [
+        "heat pump"
+      ]
+    },
+    {
       "title": "Digitale Lösungen für die Energiewende – SPiNE",
       "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup SPiNE bietet eine smarte Grundlage für Energiemanagement. Der Beipackzettel zum Pitch.",
       "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-spine",
@@ -820,6 +851,17 @@
       ]
     },
     {
+      "title": "Europeans are making the most of cheap solar panels – by creating green garden fences",
+      "teaser": "Solar fences are gaining ground in Europe, as households continue to invest in renewables amid the war on Iran.",
+      "link": "http://www.euronews.com/2026/06/21/europeans-are-making-the-most-of-cheap-solar-panels-by-creating-green-garden-fences",
+      "source": "euronews-green",
+      "published": "2026-06-21T05:00:20+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Perowskit-Silizium-Solarzellen in Matrix-Schindel-Verschaltung",
       "teaser": "Hersteller Oxford PV und Fraunhofer ISE kombinierten zwei Technologien in einem Photovoltaikmodul: Perowskit-Silizium-Solarzellen wurden in einer Matrix-Schindel-Anordnung verschaltet und ein Modul-Wirkungsgrad von 25,6 Prozent erreicht.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/perowskit-silizium-solarzellen-in-matrix-schindel-verschaltung",
@@ -828,17 +870,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Skyborn, Amazon sign 600MW PPA for Gennaker offshore wind farm",
-      "teaser": "Skyborn Renewables and Amazon have reached an agreement on a 600MW power purchase agreement (PPA) for electricity from the Gennaker offshore wind farm, located in the German Baltic Sea.",
-      "link": "https://www.power-technology.com/news/skyborn-amazon-600mw-ppa-gennaker-wind-farm/",
-      "source": "power-technology",
-      "published": "2026-06-19T12:28:18+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
       ]
     },
     {
@@ -889,6 +920,16 @@
       "published": "2026-06-19T10:26:46+00:00",
       "matched_keywords": [
         "wind farm"
+      ]
+    },
+    {
+      "title": "‘Held hostage’ by fossil fuels: How oil-rich nations influenced the UN climate conference in Bonn",
+      "teaser": "Experts warn that fossil fuel interests and 'attacks on science' have stalled one of the most contentious climate debates once again.",
+      "link": "http://www.euronews.com/2026/06/19/held-hostage-by-fossil-fuels-how-oil-rich-nations-influenced-the-un-climate-conference-in-",
+      "source": "euronews-green",
+      "published": "2026-06-19T10:26:30+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -944,6 +985,17 @@
       ]
     },
     {
+      "title": "Gas expansion in the guise of security: Is Europe making the energy crisis permanent?",
+      "teaser": "Flexible power and energy security are being used to lock Europe deeper into fossil fuels, a new report warns.",
+      "link": "http://www.euronews.com/2026/06/19/gas-expansion-in-the-guise-of-security-is-europe-making-the-energy-crisis-permanent",
+      "source": "euronews-green",
+      "published": "2026-06-19T05:02:59+00:00",
+      "matched_keywords": [
+        "energy crisis",
+        "energy security"
+      ]
+    },
+    {
       "title": "Eku Energy submits two 1,200MWh battery storage projects to Australia’s EPBC Act",
       "teaser": "Energy storage developer Eku Energy has submitted two BESS, each sized at 300MW and 1,200MWh, for assessment under Australia's EPBC Act.",
       "link": "https://www.energy-storage.news/eku-energy-submits-two-1200mwh-battery-storage-projects-to-australias-epbc-act/",
@@ -972,6 +1024,16 @@
       "published": "2026-06-18T16:02:45+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Electrification, climate finance and Just Transition: Key outcomes of Bonn Climate Change Conference",
+      "teaser": "Despite backsliding on some commitments, the UN climate conference showed glimmers of hope ahead of COP31.",
+      "link": "http://www.euronews.com/2026/06/18/held-hostage-by-fossil-fuels-what-was-actually-achieved-at-the-un-climate-conference-in-bo",
+      "source": "euronews-green",
+      "published": "2026-06-18T15:01:19+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1149,6 +1211,17 @@
       ]
     },
     {
+      "title": "Solar-powered fridges are boosting farmers’ incomes by 50% while cutting food waste",
+      "teaser": "Renewable energy is saving crops from going to waste.",
+      "link": "http://www.euronews.com/2026/06/17/solar-powered-fridges-are-boosting-farmers-incomes-by-50-while-cutting-food-waste",
+      "source": "euronews-green",
+      "published": "2026-06-17T04:00:52+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Europe must choose between AI and climate goals, data center lobby says",
       "teaser": "Tech sector says only carbon-emitting gas plants are reliable enough today to power the EU's AI goals.",
       "link": "https://www.politico.eu/article/europe-choose-ai-climate-goals-data-center-chief-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1166,6 +1239,16 @@
       "published": "2026-06-16T23:36:31+00:00",
       "matched_keywords": [
         "sanction"
+      ]
+    },
+    {
+      "title": "Mysterious Atlantic 'cold blob': the only place on Earth that keeps getting colder",
+      "teaser": "Climate puzzle: a new study probes the only place on Earth that has cooled in recent years, linking the 'Cold Blob' mainly to the Atlantic Meridional Overturning Circulation, AMOC.",
+      "link": "http://www.euronews.com/2026/06/16/mysterious-atlantic-cold-blob-the-only-place-on-earth-that-keeps-getting-colder",
+      "source": "euronews-green",
+      "published": "2026-06-16T15:33:56+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1209,6 +1292,16 @@
       ]
     },
     {
+      "title": "'I'll have to buy new nets': Killer pufferfish are devastating Crete's fishing industry",
+      "teaser": "Fishermen are calling for an immediate subsidy scheme to cull toxic pufferfish, while scientists look for ways to neutralise their lethal toxin.",
+      "link": "http://www.euronews.com/2026/06/16/ill-have-to-buy-new-nets-killer-pufferfish-are-devastating-cretes-fishing-industry",
+      "source": "euronews-green",
+      "published": "2026-06-16T08:27:40+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
       "title": "Will New York Gov. Kathy Hochul sign a balcony solar bill?",
       "teaser": "Apartment and condo dwellers of New York have long been unable to tap solar power at home to lower their energy bills. But that could soon change. Late last month, state legislators passed the Solar Up Now New York (SUNNY) Act to legalize…",
       "link": "https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill",
@@ -1237,6 +1330,17 @@
       "matched_keywords": [
         "klima",
         "klimaneutral"
+      ]
+    },
+    {
+      "title": "Spain’s renewables revolution is paying off: Electricity bills are lower despite energy crisis",
+      "teaser": "Homes and business are benefitting from Spain's commitment to clean energy.",
+      "link": "http://www.euronews.com/2026/06/16/spains-renewables-revolution-is-paying-off-electricity-bills-are-lower-despite-energy-cris",
+      "source": "euronews-green",
+      "published": "2026-06-16T04:00:52+00:00",
+      "matched_keywords": [
+        "energy crisis",
+        "renewable"
       ]
     },
     {
@@ -1345,6 +1449,16 @@
       ]
     },
     {
+      "title": "Arctic on foot: Meet the British artist turning a 600km climate journey into theatre",
+      "teaser": "Bristol-based artist Tom Bailey has spent six weeks immersing himself in a region changing faster than almost anywhere on Earth.",
+      "link": "http://www.euronews.com/2026/06/14/arctic-on-foot-meet-the-british-artist-turning-a-600km-climate-journey-into-theatre",
+      "source": "euronews-green",
+      "published": "2026-06-14T05:01:50+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
       "title": "New Jersey Senators advance bill to incentivise customer-sited energy storage installations",
       "teaser": "Legislation to create an incentive programme for behind-the-meter (BTM) energy storage in New Jersey has been advanced by the US state’s Senate Environment and Energy Committee.",
       "link": "https://www.energy-storage.news/new-jersey-senators-advance-bill-to-incentivise-customer-sited-energy-storage-installations/",
@@ -1365,6 +1479,16 @@
       ]
     },
     {
+      "title": "'One of the strongest since 1950': What is El Niño and why does it matter?",
+      "teaser": "Forecasters say a newly formed El Niño could become one of the strongest on record since 1950. The climate pattern can influence temperatures, storms, droughts and floods worldwide, with impacts varying from region to region.",
+      "link": "http://www.euronews.com/2026/06/12/one-of-the-strongest-since-1950-what-is-el-nino-and-why-does-it-matter",
+      "source": "euronews-green",
+      "published": "2026-06-12T09:28:39+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
       "title": "Portion of Czech hydropower station to be transformed into 154MW/750MWh pumped storage plant",
       "teaser": "The Czech Republic's fourth pumped hydro energy storage plant is to be built within an existing hydropower complex, converting convention run-of-river into reversible units, creating 750MWh of energy storage capacity.",
       "link": "https://www.energy-storage.news/portion-of-czech-hydropower-station-to-be-transformed-into-154mw-750mwh-pumped-storage-plant/",
@@ -1382,6 +1506,16 @@
       "published": "2026-06-12T07:30:00+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "Rare coastal floods now 12 times more likely – human-driven climate change is a major contributor",
+      "teaser": "Since the 1960s, human-caused warming has been the main reason sea levels are rising, new research shows.",
+      "link": "http://www.euronews.com/2026/06/12/rare-coastal-floods-now-12-times-more-likely-human-driven-climate-change-is-a-major-contri",
+      "source": "euronews-green",
+      "published": "2026-06-12T07:02:09+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1438,18 +1572,6 @@
       ]
     },
     {
-      "title": "SNEC 2026: BESS overtakes PV modules in expo floor space, more than 97GWh of deals signed",
-      "teaser": "Carrie Xiao reports back from this year's edition of SNEC in Shanghai, China, the world's biggest solar and energy storage expo.",
-      "link": "https://www.energy-storage.news/snec-2026-bess-overtakes-pv-modules-in-expo-floor-space-more-than-97gwh-of-deals-signed/",
-      "source": "energy-storage-news",
-      "published": "2026-06-11T09:48:52+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
       "title": "Want a job drilling for geothermal? A Northeast training hub is coming.",
       "teaser": "Geothermal networks are taking off across the U.S., with roughly 30 such projects in various stages in Massachusetts, Colorado, and elsewhere. These systems — which use electric heat pumps and thermal energy from underground to warm and…",
       "link": "https://www.canarymedia.com/articles/geothermal/want-job-drilling-geothermal",
@@ -1480,6 +1602,17 @@
       ]
     },
     {
+      "title": "World will cross 1.5°C warming limit by 2030 if emissions continue at current rate - report",
+      "teaser": "The rate of human-induced warming remains at an all-time high, according to the latest Indicators of Global Climate Change report.",
+      "link": "http://www.euronews.com/2026/06/11/world-will-cross-15c-warming-limit-by-2030-if-emissions-continue-at-current-rate-report",
+      "source": "euronews-green",
+      "published": "2026-06-10T22:01:44+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
+    {
       "title": "Clean energy and efficiency spared in Rhode Island budget process",
       "teaser": "Rhode Island Gov. Dan McKee’s efforts to slash funding for energy efficiency and roll back renewable energy targets appear poised to fail after the legislature advanced the state budget on Tuesday evening. Earlier this year, McKee, a…",
       "link": "https://www.canarymedia.com/articles/energy-efficiency/clean-energy-efficiency-rhode-island-budget",
@@ -1487,6 +1620,37 @@
       "published": "2026-06-10T21:00:00+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Countries pledge €3.4bn for climate adaptation, biodiversity protection and water security",
+      "teaser": "Representatives from 186 nations agreed the Global Environment Facility fund, which will support projects in 144 countries.",
+      "link": "http://www.euronews.com/2026/06/10/countries-pledge-34bn-for-climate-adaptation-biodiversity-protection-and-water-security",
+      "source": "euronews-green",
+      "published": "2026-06-10T13:37:59+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "‘Coal power has lost its status’: Solar power outstrips coal in US despite Trump's attacks",
+      "teaser": "States won by Trump in the 2024 election accounted for 74 per cent of all solar capacity installed in the first quarter of 2026.",
+      "link": "http://www.euronews.com/2026/06/10/coal-power-has-lost-its-status-solar-power-outstrips-coal-in-us-despite-trumps-attacks",
+      "source": "euronews-green",
+      "published": "2026-06-10T09:06:25+00:00",
+      "matched_keywords": [
+        "coal power",
+        "solar"
+      ]
+    },
+    {
+      "title": "Who gets a seat at the table? UN climate conference accused of shrinking civic space and visa delays",
+      "teaser": "Climate activists and members of the press are facing unprecedented barriers to one of the most important environmental conferences of the year.",
+      "link": "http://www.euronews.com/2026/06/10/who-gets-a-seat-at-the-table-un-climate-talks-slammed-over-visa-delays-and-shrinking-civic",
+      "source": "euronews-green",
+      "published": "2026-06-10T05:30:52+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1529,6 +1693,26 @@
       "published": "2026-06-09T07:30:00+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "NASA astronaut films Southern Lights from SpaceX Dragon spacecraft",
+      "teaser": "NASA astronaut Jessica Meir shared a stunning timelapse of the Southern Lights filmed from a SpaceX Dragon spacecraft. The aurora, triggered by recent solar activity, appears to dance across the atmosphere above Antarctica.",
+      "link": "http://www.euronews.com/2026/06/09/nasa-astronaut-films-southern-lights-from-spacex-dragon-spacecraft",
+      "source": "euronews-green",
+      "published": "2026-06-09T07:25:29+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Plug-in solar is soaring across Europe – but is it better than traditional rooftop panels?",
+      "teaser": "Solar is helping rescue Europeans from the soaring cost of fossil fuels, but experts warn that energy bills may still increase due to the ‘rebound’ effect.",
+      "link": "http://www.euronews.com/2026/06/09/plug-in-solar-is-set-to-soar-across-europe-but-is-it-better-than-traditional-rooftop-panel",
+      "source": "euronews-green",
+      "published": "2026-06-09T05:00:54+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -2518,6 +2702,16 @@
       ]
     },
     {
+      "title": "Die Lehrerausbildung den Unis wegnehmen? : Steffen Krachs Forderung ist pure Symbolpolitik und würde Berlin bloß lähmen",
+      "teaser": "Bildungsexpertin Achour antwortet auf die Idee des SPD-Spitzenkandidaten, die Lehramtsausbildung den Unis wegzunehmen und in einer neuen Hochschule zu zentralisieren. Die echten Probleme würde das nicht lösen.",
+      "link": "https://www.tagesspiegel.de/wissen/die-lehrerausbildung-den-unis-wegnehmen-steffen-krachs-forderung-ist-pure-symbolpolitik-und-wurde-berlin-bloss-lahmen-15736855.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2617,17 +2811,6 @@
       "matched_keywords": [
         "pv",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Nahwärmenetze – Zwischen Wärmewende und Finanzierungsrealität",
-      "teaser": "Vor allem im ländlichen Raum ist die Finanzierung von Wärmenetzen eine Herausforderung. Mika Hasselbring, Experte für klimaneutrale Quartiere und lokale Transformationskonzepte bei der dena, erklärt...",
-      "link": "https://www.dena.de/infocenter/nahwaermenetze-zwischen-waermewende-und-finanzierungsrealitaet/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "forderung",
-        "klimaneutral"
       ]
     },
     {
@@ -2777,9 +2960,19 @@
       ]
     },
     {
-      "title": "Germany’s 15-minute spot power price hits record EUR 615/MWh",
+      "title": "43C heat cuts 6% of French nuclear capacity, more curbs possible",
       "teaser": "Fintan Devenney",
-      "link": "https://www.montelnews.com/news/9852c4c5-2991-495f-ac89-3a31012f2e39/germany-s-15-minute-spot-power-price-hits-record-eur-615-mwh",
+      "link": "https://www.montelnews.com/news/71fed808-f624-4bc4-8b9b-b4db6a863f70/43c-heat-cuts-6-of-french-nuclear-capacity-more-curbs-possible",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Belgian 15-minute spot power price hits 1,038/MWh as records fall",
+      "teaser": "Fintan Devenney",
+      "link": "https://www.montelnews.com/news/194eca56-56ab-427e-ae98-7120adb10774/belgium-s-15-minute-spot-power-price-hits-record-for-2nd-day",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2787,23 +2980,23 @@
       ]
     },
     {
-      "title": "Forced EU retrofit would “slow solar, raise prices”",
+      "title": "Spanish power price outlook for H2 “very worrying”",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/9dd18645-43ee-4056-b8d9-57ed00591917/forced-eu-retrofit-would-slow-solar-raise-prices-analysts",
+      "link": "https://www.montelnews.com/news/1cb58a70-3f12-44a2-b517-2234b23e490b/spanish-power-price-outlook-for-h2-very-worrying-industry",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "solar"
+        "power price"
       ]
     },
     {
-      "title": "German PPA growth defies poor outlook for solar margins",
+      "title": "Germany’s 15-minute spot power price hits record EUR 615/MWh",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/edde8ffc-c88f-4ae0-9b54-8b0d2f8bf8e0/german-ppa-growth-defies-poor-outlook-for-solar-margins",
+      "link": "https://www.montelnews.com/news/9852c4c5-2991-495f-ac89-3a31012f2e39/germany-s-15-minute-spot-power-price-hits-record-eur-615-mwh",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "solar"
+        "power price"
       ]
     },
     {
