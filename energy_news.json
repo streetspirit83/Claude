@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T18:04:30+00:00",
+  "generated_at": "2026-06-25T20:52:40+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 267,
+  "count": 268,
   "articles": [
+    {
+      "title": "Electricity prices soar as Europe battles heatwave",
+      "teaser": "Record June temperatures are fuelling demand for air conditioning and putting pressure on energy systems",
+      "link": "https://www.ft.com/content/5609310d-923b-47d0-b690-37a1c89e6097",
+      "source": "ft-energy",
+      "published": "2026-06-25T17:09:35+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
+    {
+      "title": "TotalEnergies to account for role in greenhouse gas emissions, court rules",
+      "teaser": "Partial victory for campaigners and city of Paris in attempt to attribute corporate responsibility for global warming",
+      "link": "https://www.ft.com/content/bb08a4cd-a3b2-4719-8b71-66eb4aa170df",
+      "source": "ft-energy",
+      "published": "2026-06-25T16:52:10+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
     {
       "title": "L'Inde et l'Iran explorent une coopération énergétique sous dérogation américaine",
       "teaser": "Le ministre indien du Pétrole Hardeep Singh Puri a rencontré son homologue iranien Mohsen Paknejad à New Delhi, explorant des pistes de coopération énergétique après l'émission par Washington d'une dérogation de 60 jours aux sanctions…",
@@ -2699,16 +2719,6 @@
       "link": "https://www.cleanenergywire.org/experts/zukunft-klimasozial",
       "source": "cleanenergywire",
       "published": "2026-01-08T10:43:31+00:00",
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Bleibt die Hitze bis September? : DWD-Klimatologin erklärt, wie es weitergeht",
-      "teaser": "So ungewöhnlich ist diese Hitzewelle wirklich: Eine DWD-Klimatologin erklärt, was die Temperaturen so stark steigen lässt, welche Rolle der Klimawandel spielt – und wann es wieder kühler wird.",
-      "link": "https://www.tagesspiegel.de/wissen/bleibt-die-hitze-bis-september-dwd-klimatologin-erklart-wie-es-weitergeht-15744350.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
       "matched_keywords": [
         "klima"
       ]
