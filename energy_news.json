@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T07:35:51+00:00",
+  "generated_at": "2026-06-25T12:12:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 10
     },
     {
       "name": "energynews-pro",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -220,22 +220,22 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
       "url": "https://www.windpowermonthly.com",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.windpowermonthly.com/rss",
-      "error": null,
-      "items_found": 20,
-      "items_matched": 11
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.windpowermonthly.com', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energymonitor",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "euronews-green",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 16
+      "items_matched": 14
     },
     {
       "name": "politico-energy-climate",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 57
+      "items_matched": 56
     },
     {
       "name": "power-technology",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,81 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 253,
   "articles": [
+    {
+      "title": "Nationaler Wasserstoffrat legt neue Bedarfsprognose vor",
+      "teaser": "Die Chemie- und die Stahlindustrie haben mittel- und langfristig den mit Abstand größten Wasserstoffbedarf. Nach Meinung der Experten verläuft der Hochlauf der Wasserstoffwirtschaft aber nicht annähernd mit dem nötigen Tempo. Der…",
+      "link": "https://www.pv-magazine.de/2026/06/25/nationaler-wasserstoffrat-legt-neue-bedarfsprognose-vor/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-25T11:30:00+00:00",
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Nextpower and Prevalon CEOs discuss acquisition background and future strategy",
+      "teaser": "ESN Premium speaks with Nextpower CEO Dan Shugar and Prevalon’s Tom Cornell about the solar PV solutions company’s (re)entry into the energy storage space.",
+      "link": "https://www.energy-storage.news/nextpower-and-prevalon-ceos-discuss-acquisition-background-and-future-strategy/",
+      "source": "energy-storage-news",
+      "published": "2026-06-25T10:54:25+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "pv",
+        "solar"
+      ]
+    },
+    {
+      "title": "Egypt and SANY sign MoU for 2GW wind farm and turbine plant",
+      "teaser": "SANY, the EETC and the NREA have signed a MoU for establishing a wind turbine manufacturing facility and developing a 2GW wind farm.",
+      "link": "https://www.power-technology.com/news/egypt-sany-sign-mou/",
+      "source": "power-technology",
+      "published": "2026-06-25T10:05:29+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Schnellerer Zubau von Großspeichern entlastet Verbraucher 2035 um bis zu 2,8 Milliarden Euro",
+      "teaser": "Ein Gutachten des Energiewirtschaftlichen Institut an der Universität Köln zeigt, dass ein beschleunigter Zubau großer Batteriespeicher erheblich niedrigere Kosten, stabilere Strompreise und mehr Resilienz bringen würde. Allein die Kosten…",
+      "link": "https://www.pv-magazine.de/2026/06/25/schnellerer-zubau-von-grossspeichern-entlastet-verbraucher-2035-um-bis-zu-28-milliarden-euro/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-25T10:00:00+00:00",
+      "matched_keywords": [
+        "speicher",
+        "strompreis"
+      ]
+    },
+    {
+      "title": "Protected: Why the European LNG hiring aggregate is normalising, but the cross-section is not",
+      "teaser": "European LNG hiring is normalising, but operator-by-operator differences reveal strategic growth signals across roles and markets.",
+      "link": "https://www.energymonitor.ai/sponsored/why-the-european-lng-hiring-aggregate-is-normalising-but-the-cross-section-is-not/",
+      "source": "energymonitor",
+      "published": "2026-06-25T09:46:26+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Microquanta bringt farbige Perowskit-Silizium-Tandem-Module mit 26 Prozent Wirkungsgrad für gebäudeintegrierte Photovoltaik auf den Markt",
+      "teaser": "Microquanta bietet individuell anpassbare, farbige Perowskit-Silizium-Tandem-Module, die architektonische Oberflächen wie Marmoroptiken mit der Vier-Anschluss-Tandem-Technologie des Unternehmens kombinieren. Das soll Leistungseinbußen…",
+      "link": "https://www.pv-magazine.de/2026/06/25/microquanta-bringt-farbige-perowskit-silizium-tandem-module-mit-26-prozent-wirkungsgrad-fuer-gebaeudeintegrierte-photovoltaik-auf-den-markt/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-25T08:45:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "DeepOcean completes inter-array cable work at 660MW Nordseecluster A",
+      "teaser": "DeepOcean has completed the installation and testing of all the inter-array cables at the 660MW Nordseecluster A offshore wind farm site located around 50km north of Juist island in the German North Sea.",
+      "link": "https://www.power-technology.com/news/deepocean-cable-work-660mw-nordseecluster-a/",
+      "source": "power-technology",
+      "published": "2026-06-25T07:31:10+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
     {
       "title": "Bertelsmann Stiftung: Energiepolitischer Kurswechsel der Bundesregierung gefährdet tausende Jobs",
       "teaser": "Die Erneuerbare-Branche beschäftigte 2025 in Deutschland 436.000 Menschen. Die Politik hat großen Einfluss auf den Arbeitsmarkt, so die Bertelsmann Stiftung: Union und SPD setzen mit EEG-Novelle, Netzpaket, Gebäudemodernisierungs- und…",
@@ -382,13 +455,25 @@
       ]
     },
     {
-      "title": "Greenpeace criticises EU's 'deep incoherence' over Hormuz energy shock",
-      "teaser": "The NGO says European countries missed the chance to back renewables and cut fossil dependence exposed by the Strait of Hormuz’s closure, calling Spain’s action ‘one of the best bets’.",
+      "title": "EU countries are bailing out fossil fuels instead of funding the green transition, Greenpeace warns",
+      "teaser": "Spain leads EU energy crisis spending, but Greenpeace says blanket fuel subsidies are propping up fossil fuels at the planet's expense.",
       "link": "http://www.euronews.com/2026/06/25/greenpeace-criticises-eus-deep-incoherence-over-hormuz-energy-shock",
       "source": "euronews-green",
       "published": "2026-06-25T06:00:33+00:00",
       "matched_keywords": [
-        "renewable"
+        "energy crisis",
+        "subsid"
+      ]
+    },
+    {
+      "title": "Digitale Lösungen für die Energiewende – Up-Cell",
+      "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup Up-Cell hat einen nachhaltigen Energiespeicher aus geupcycelten Li-Ion-Zellen entwickelt. Der Beipackzettel zum…",
+      "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-up-cell",
+      "source": "energiezukunft",
+      "published": "2026-06-25T05:00:00+00:00",
+      "matched_keywords": [
+        "energiewende",
+        "speicher"
       ]
     },
     {
@@ -410,16 +495,6 @@
       "published": "2026-06-24T16:04:25+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Investigation into tragic incident ongoing: 13 dead, 66 injured in explosion and fire at QatarEnergy’s gas asset",
-      "teaser": "Qatar’s state-owned oil and gas giant QatarEnergy has confirmed the launch of a probe into an explosion and fire incident that occurred at its liquefied natural gas (LNG) production and export hub, in which multiple workers lost their…",
-      "link": "https://www.offshore-energy.biz/investigation-into-tragic-incident-ongoing-13-dead-66-injured-in-explosion-and-fire-at-qatarenergys-gas-asset/",
-      "source": "offshore-energy",
-      "published": "2026-06-24T14:21:42+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -462,16 +537,6 @@
       "published": "2026-06-24T12:30:00+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "'Flesh-eating' bacteria threat spreads on Europe's beaches as seas warm",
-      "teaser": "Summer starts with millions of tourists by the sea, but climate change is spreading Vibrio “flesh-eating” bacteria, forcing beach closures in Spain and alarming authorities, especially in the Mediterranean.",
-      "link": "http://www.euronews.com/2026/06/24/flesh-eating-bacteria-threat-spreads-on-europes-beaches-as-seas-warm",
-      "source": "euronews-green",
-      "published": "2026-06-24T12:00:34+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -526,16 +591,6 @@
       ]
     },
     {
-      "title": "Yinson Production’s Southeast Asia-bound FSO gets its name",
-      "teaser": "Yinson Production, a subsidiary of Kuala Lumpur-based energy infrastructure and technology company Yinson Holdings, has held a naming ceremony for a floating storage and offloading (FSO) unit slated for deployment at an oil field off the…",
-      "link": "https://www.offshore-energy.biz/yinson-productions-southeast-asia-bound-fso-gets-its-name/",
-      "source": "offshore-energy",
-      "published": "2026-06-24T10:36:59+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Seeluft, Stürme, Schneefall: Longi präsentiert neue Photovoltaik-Module für besondere Anforderungen",
       "teaser": "Longi erweitert sein Portfolio an Rückkontakt-Modulen der Hi-MO 9-Serie um vier Produkte für anspruchsvolle Umgebungsbedingungen. Der chinesische Hersteller wendet sich damit an Projektentwickler. Die Module werden bereits in Serie…",
       "link": "https://www.pv-magazine.de/2026/06/24/seeluft-stuerme-schneefall-longi-praesentiert-neue-photovoltaik-module-fuer-besondere-anforderungen/",
@@ -544,16 +599,6 @@
       "matched_keywords": [
         "forderung",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "UK wind curtailment rises due to slow grid expansion",
-      "teaser": "The slow pace of electrification could see much of the UK’s rapid progress on offshore wind go to waste, according to a new report from the country’s climate watchdog.",
-      "link": "https://www.windpowermonthly.com/article/1962651/uk-wind-curtailment-rises-due-slow-grid-expansion",
-      "source": "windpowermonthly",
-      "published": "2026-06-24T10:16:10+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -609,16 +654,6 @@
       ]
     },
     {
-      "title": "Arbitration tribunal set up in dispute over revoked gas-to-power and LNG terminal permits",
-      "teaser": "Sinolam International, a Singapore-based investment company focused on oil, gas, and power investments in emerging markets in Asia and Latin America, has confirmed the formation of an independent tribunal in an arbitration case related to…",
-      "link": "https://www.offshore-energy.biz/arbitration-tribunal-set-up-in-dispute-over-revoked-gas-to-power-and-lng-terminal-permits/",
-      "source": "offshore-energy",
-      "published": "2026-06-24T08:02:08+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Matrix completes $1.3bn US solar and battery financing",
       "teaser": "TPG Rise-backed Matrix Renewables has completed a financing package totalling over $1.3bn for a portfolio of utility-scale solar and battery storage projects across the US.",
       "link": "https://www.power-technology.com/news/matrix-1-3bn-us-solar-battery-financing/",
@@ -628,16 +663,6 @@
         "battery storage",
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Solarpower Europe: Großspeicher treiben Europas Batteriemarkt auf Rekordniveau",
-      "teaser": "Der europäische Markt für Batteriespeicher ist 2025 um 48 Prozent auf 36 Gigawattstunden neu zugebaute Kapazität gewachsen. Erstmals entfiel dabei mehr als die Hälfte des Zubaus auf Großspeicher. Bis 2030 erwartet Solarpower Europe eine…",
-      "link": "https://www.pv-magazine.de/2026/06/24/solarpower-europe-grossspeicher-treiben-europas-batteriemarkt-auf-rekordniveau/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-24T07:03:00+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -755,26 +780,6 @@
       ]
     },
     {
-      "title": "Montel: Hitzewelle sorgt für Rekord-Strompreise in Europa",
-      "teaser": "Hohe Temperaturen, eine steigende Nachfrage nach Kühlung und eine schwache Windstromerzeugung haben nach einer Analyse von Montel am Dienstag zu historischen Preisspitzen auf den Viertelstundenmärkten in mehreren europäischen Ländern…",
-      "link": "https://www.pv-magazine.de/2026/06/23/montel-hitzewelle-sorgt-fuer-rekord-strompreise-in-europa/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-23T13:51:42+00:00",
-      "matched_keywords": [
-        "strompreis"
-      ]
-    },
-    {
-      "title": "GridX und Nomos entwickeln gemeinsame White-Label-Lösung für die Photovoltaik-Direktvermarktung",
-      "teaser": "Angesichts der geplanten Abschaffung der festen Einspeisevergütung für neue Photovoltaik-Dachanlagen ab 2027 haben GridX und Nomos ein gemeinsames White-Label-Angebot für Direktvermarktung, Energiemanagement und dynamische Stromtarife…",
-      "link": "https://www.pv-magazine.de/2026/06/23/gridx-und-nomos-entwickeln-gemeinsame-white-label-loesung-fuer-die-photovoltaik-direktvermarktung/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-23T13:11:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "China and the US, accidental climate saviours of the world",
       "teaser": "The EU carbon pricing model is being supplanted by Beijing’s green tech spending and Donald Trump’s oil price shock",
       "link": "https://www.ft.com/content/3adb041e-8f7b-4a1f-8359-bdc4f81ea631",
@@ -814,26 +819,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Goldwind re-routes wind turbine parts to avoid Hormuz crisis",
-      "teaser": "Goldwind has re-routed the first set of wind turbine components it is supplying to two major onshore wind farm projects in Saudi Arabia following delays linked to the US-Israeli war on Iran.",
-      "link": "https://www.windpowermonthly.com/article/1962499/goldwind-re-routes-wind-turbine-parts-avoid-hormuz-crisis",
-      "source": "windpowermonthly",
-      "published": "2026-06-23T09:57:04+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Wind power patents: LM Wind Power | Sinoma | Vestas | Technip Energies | Nordex",
-      "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
-      "link": "https://www.windpowermonthly.com/article/1962331/wind-power-patents-lm-wind-power-sinoma-vestas-technip-energies-nordex",
-      "source": "windpowermonthly",
-      "published": "2026-06-23T08:18:00+00:00",
-      "matched_keywords": [
-        "wind power"
       ]
     },
     {
@@ -909,17 +894,6 @@
       ]
     },
     {
-      "title": "Skyborn Renewables to sell 25% stake in German offshore wind farm",
-      "teaser": null,
-      "link": "https://www.windpowermonthly.com/article/1962336/skyborn-renewables-sell-25-stake-german-offshore-wind-farm",
-      "source": "windpowermonthly",
-      "published": "2026-06-22T09:43:54+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Big gas is trying to cash in on Europe’s fossil fuel crisis",
       "teaser": "Fossil fuel companies are exploiting Europe’s energy price crisis to weaken EU methane rules designed to reduce powerful greenhouse gas emissions. Evidence shows their claims are unfounded.",
       "link": "https://www.politico.eu/sponsored-content/big-gas-is-trying-to-cash-in-on-europes-fossil-fuel-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -927,16 +901,6 @@
       "published": "2026-06-22T08:44:01+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "New podcast: Floating wind giants | US merger | Wake effect | Chinese OEMs",
-      "teaser": "Welcome to the Wind Power News Review – hosted by Windpower Monthly's senior reporter, Robyn White, and Windpower Monthly's reporter, Orlando Jenkinson – along with our regular panellist, Sorcha Versteeg.",
-      "link": "https://www.windpowermonthly.com/article/1962178/new-podcast-floating-wind-giants-us-merger-wake-effect-chinese-oems",
-      "source": "windpowermonthly",
-      "published": "2026-06-22T08:18:00+00:00",
-      "matched_keywords": [
-        "wind power"
       ]
     },
     {
@@ -1084,16 +1048,6 @@
       ]
     },
     {
-      "title": "Pattern Energy commissions 3.6GW SunZia wind farm",
-      "teaser": "The largest wind project in the US is fully operational. The 3.65GW SunZia Wind farm in New Mexico has been commissioned, developer Pattern Energy announced yesterday (18 June).",
-      "link": "https://www.windpowermonthly.com/article/1962227/pattern-energy-commissions-36gw-sunzia-wind-farm",
-      "source": "windpowermonthly",
-      "published": "2026-06-19T11:23:08+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "US BESS integrator FlexGen, LDES tech provider Eos enter European market with first deals",
       "teaser": "FlexGen and Eos Energy Enterprises, two US energy storage sector companies with different specialisations, have entered the European market.",
       "link": "https://www.energy-storage.news/us-bess-integrator-flexgen-ldes-tech-provider-eos-enter-european-market-with-first-deals/",
@@ -1114,16 +1068,6 @@
       ]
     },
     {
-      "title": "Canada wins lengthy dispute over US developer's dormant offshore wind project",
-      "teaser": "The government of Canada has won a near-decade long legal case against a US developer over compensation for an offshore wind farm in Lake Ontario that was never built.",
-      "link": "https://www.windpowermonthly.com/article/1962214/canada-wins-lengthy-dispute-us-developers-dormant-offshore-wind-project",
-      "source": "windpowermonthly",
-      "published": "2026-06-19T10:26:46+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "‘Held hostage’ by fossil fuels: How oil-rich nations influenced the UN climate conference in Bonn",
       "teaser": "Experts warn that fossil fuel interests and 'attacks on science' have stalled one of the most contentious climate debates once again.",
       "link": "http://www.euronews.com/2026/06/19/held-hostage-by-fossil-fuels-how-oil-rich-nations-influenced-the-un-climate-conference-in-",
@@ -1141,27 +1085,6 @@
       "published": "2026-06-19T09:25:17+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Amazon signs largest PPA in Germany with Skyborn",
-      "teaser": "Amazon has signed a 600MW power purchase agreement (PPA) with Skyborn Renewables for electricity generated by the Gennaker offshore wind farm in the German Baltic Sea.",
-      "link": "https://www.windpowermonthly.com/article/1962195/amazon-signs-largest-ppa-germany-skyborn",
-      "source": "windpowermonthly",
-      "published": "2026-06-19T09:23:46+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Pattern Energy launches SunZia energy project in US",
-      "teaser": "Pattern Energy has announced the full operational launch of the SunZia renewable energy project, which involves a 3,650MW wind facility.",
-      "link": "https://www.energymonitor.ai/news/pattern-energy-launches-sunzia/",
-      "source": "energymonitor",
-      "published": "2026-06-19T08:11:51+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -1215,16 +1138,6 @@
       "published": "2026-06-18T17:40:40+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Renewable investment enters a new phase as grids become the limiting factor",
-      "teaser": "Renewable energy investment is reported to exceed $700bn in 2026. Yet the industry's central challenge is changing.",
-      "link": "https://www.energymonitor.ai/analysis/renewable-energy-investment/",
-      "source": "energymonitor",
-      "published": "2026-06-18T16:02:45+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -1285,37 +1198,6 @@
       "published": "2026-06-17T12:00:56+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Ørsted appoints new Germany CEO",
-      "teaser": "Danish renewables major Ørsted announced today (17 June) that Josche Muth would take on the role of CEO of its Germany-based subsidiary, starting from 1 July.",
-      "link": "https://www.windpowermonthly.com/article/1961923/orsted-appoints-new-germany-ceo",
-      "source": "windpowermonthly",
-      "published": "2026-06-17T10:03:56+00:00",
-      "matched_keywords": [
-        "renewable",
-        "subsid"
-      ]
-    },
-    {
-      "title": "Equinor drops renewables target it ‘never chased'",
-      "teaser": "Equinor has dropped its target of at least 10GW renewables capacity by 2030 and has “never chased” the goal either, the oil major’s CEO admitted.",
-      "link": "https://www.windpowermonthly.com/article/1961913/equinor-drops-renewables-target-never-chased",
-      "source": "windpowermonthly",
-      "published": "2026-06-17T09:18:26+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Analysis: Chinese floating wind prototypes could drive 'game-changing' cost reductions",
-      "teaser": "The massive floating wind prototypes currently being installed in China could drastically reduce the cost of floating wind if they proved to be successful, according to wind power experts.",
-      "link": "https://www.windpowermonthly.com/article/1961910/analysis-chinese-floating-wind-prototypes-drive-game-changing-cost-reductions",
-      "source": "windpowermonthly",
-      "published": "2026-06-17T08:45:58+00:00",
-      "matched_keywords": [
-        "wind power"
       ]
     },
     {
@@ -1579,16 +1461,6 @@
       ]
     },
     {
-      "title": "New Jersey Senators advance bill to incentivise customer-sited energy storage installations",
-      "teaser": "Legislation to create an incentive programme for behind-the-meter (BTM) energy storage in New Jersey has been advanced by the US state’s Senate Environment and Energy Committee.",
-      "link": "https://www.energy-storage.news/new-jersey-senators-advance-bill-to-incentivise-customer-sited-energy-storage-installations/",
-      "source": "energy-storage-news",
-      "published": "2026-06-12T11:47:29+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "'One of the strongest since 1950': What is El Niño and why does it matter?",
       "teaser": "Forecasters say a newly formed El Niño could become one of the strongest on record since 1950. The climate pattern can influence temperatures, storms, droughts and floods worldwide, with impacts varying from region to region.",
       "link": "http://www.euronews.com/2026/06/12/one-of-the-strongest-since-1950-what-is-el-nino-and-why-does-it-matter",
@@ -1667,17 +1539,6 @@
       "published": "2026-06-11T05:00:00+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "World will cross 1.5°C warming limit by 2030 if emissions continue at current rate - report",
-      "teaser": "The rate of human-induced warming remains at an all-time high, according to the latest Indicators of Global Climate Change report.",
-      "link": "http://www.euronews.com/2026/06/11/world-will-cross-15c-warming-limit-by-2030-if-emissions-continue-at-current-rate-report",
-      "source": "euronews-green",
-      "published": "2026-06-10T22:01:44+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
       ]
     },
     {
@@ -2566,16 +2427,6 @@
       ]
     },
     {
-      "title": "America’s big new aluminum smelter is still waiting on a power deal",
-      "teaser": "The Middle East crisis is straining global supplies of aluminum — a metal that’s key to making everything from fighter jets and soda cans to clean-energy technologies like solar panels and electric vehicles. Iran’s strikes on two Gulf…",
-      "link": "https://www.canarymedia.com/articles/clean-aluminum/americas-new-aluminum-smelter-needs-power",
-      "source": "canarymedia",
-      "published": "2026-04-30T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Water, Energy, Circularity – Technologien für eine resiliente Zukunft",
       "teaser": "Von der Schwermetallentfernung über Rohstoffrückgewinnung seltener Metalle bis hin zum Recycling von Windkraftanlagen – auf der IFAT Munich präsentieren Fraunhofer Forscher wegweisende Lösungen für die nachhaltige Wasser- und…",
       "link": "https://www.energiezukunft.eu/umweltschutz/water-energy-circularity-technologien-fuer-eine-resiliente-zukunft",
@@ -2639,16 +2490,6 @@
       ]
     },
     {
-      "title": "Wertschöpfung in den Regionen gefährdet",
-      "teaser": "Eine Studie des BMWE zeigt, wie wichtig die Erneuerbaren für regionale Wertschöpfung sind. Doch das passt nicht in das Bild, das Ministerin Reiche von den Erneuerbaren zeichnen will. Sie stellt den Ausbau der Erneuerbaren vor allem als…",
-      "link": "https://www.energiezukunft.eu/wirtschaft/wertschoepfung-in-den-regionen-gefaehrdet",
-      "source": "energiezukunft",
-      "published": "2026-04-28T05:00:00+00:00",
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2699,13 +2540,23 @@
       ]
     },
     {
-      "title": "Gesetz zur Verbesserung der Rahmenbedingungen für die Erprobung von Innovationen in Reallaboren und zur Förderung des regulatorischen Lernens (Reallabore-Gesetz – ReallaboreG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-verbesserung-der-rahmenbedingungen-fuer-die-erprobung-von-innovationen-in-reallaboren-und-zur-foerderung-des-regulatorischen-lernens-reallabore-gesetz-reallaboreg-2",
-      "source": "tagesspiegel-background-energie",
+      "title": "Über 40 Grad – und der Sommer hat gerade erst begonnen : Warum diese Hitzewelle eine Zäsur ist",
+      "teaser": "So ungewöhnlich ist diese Hitzewelle wirklich: Eine DWD-Klimatologin erklärt, was die Temperaturen so stark steigen lässt, welche Rolle der Klimawandel spielt – und wann es wieder kühler wird.",
+      "link": "https://www.tagesspiegel.de/wissen/uber-40-grad--und-der-sommer-hat-gerade-erst-begonnen-warum-diese-hitzewelle-eine-zasur-ist-15744350.html",
+      "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "förderung"
+        "klima"
+      ]
+    },
+    {
+      "title": "Wenn die Hitze zur Gefahr wird : Ausreichend Trinken und Siesta sind nicht alles",
+      "teaser": "Hitzewellen werden im Klimawandel häufiger und intensiver. Anhaltend hohe Temperaturen sind besonders für Vorerkrankte, Ältere und Kinder eine Gefahr. Fachleute geben Tipps für die heißen Tage.",
+      "link": "https://www.tagesspiegel.de/gesundheit/wenn-die-hitzewelle-zur-gefahr-wird-kinder-verlieren-in-ruhe-bis-zu-700-milliliter-flussigkeit--pro-stunde-15719450.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
       ]
     },
     {
@@ -2853,6 +2704,120 @@
       ]
     },
     {
+      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
+      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende",
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Warum der geplante Redispatch-Vorbehalt für Erneuerbare die Energiewende ausbremst",
+      "teaser": "Die vom Bundeswirtschaftsministerium (BMWE) vorgeschlagene Einführung eines Redispatch-Vorbehalts für sogenannte Engpassgebiete birgt das Risiko, dass...",
+      "link": "https://www.agora-energiewende.de/aktuelles/warum-der-geplante-redispatch-vorbehalt-fuer-erneuerbare-die-energiewende-ausbremst",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
+      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
+      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 438",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 158",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
+      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "EDF slashes 10% of nuclear output amid record-breaking heatwave",
+      "teaser": "Jean-Paul Harreman",
+      "link": "https://www.montelnews.com/news/17fa06d7-e957-43e3-9e12-127fc24528e4/edf-slashes10-of-nuclear-output-amid-heatwave",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
       "title": "Can Britain Still Deliver Net Zero? Chris Stark on “ungumming the system” and the UK's Energy Future",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/podcasts/pluggedin/19396766/can-britain-still-deliver-net-zero-chris-stark-on-ungumming-the-system-and-the-uks-energy-future",
@@ -2873,6 +2838,18 @@
       ]
     },
     {
+      "title": "Wind power in demand as corporate giants face new rules",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/corporate-power/wind-power-in-demand-as-corporate-giants-face-new-rules/2-1-2009134",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind power"
+      ]
+    },
+    {
       "title": "Investigation: How Israel controversy rocked a European wind giant",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/investigation-how-israel-controversy-rocked-a-european-wind-giant/2-1-2007729",
@@ -2887,6 +2864,17 @@
       "title": "'Unacceptable': Wind giant condemns manager who wore IDF clothing to townhall event",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/unacceptable-wind-giant-condemns-manager-who-wore-idf-clothing-to-townhall-event/2-1-2009147",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Orsted defeats huge damages claim concerning Danish power unit",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/legal/orsted-defeats-huge-damages-claim-concerning-danish-power-unit/2-1-2009426",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2932,17 +2920,6 @@
       "title": "RWE buys majority in TSO, turning regulated grids into third growth pillar",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/grid/rwe-buys-majority-in-amprion-turning-regulated-grids-into-third-growth-pillar/2-1-2007953",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Germany to reshuffle offshore wind sites to tackle wake effects",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/germany-to-reshuffle-offshore-wind-sites-to-tackle-wake-effects/2-1-2008020",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3007,31 +2984,20 @@
       ]
     },
     {
-      "title": "Skyborn sells stake in huge Baltic Sea wind project",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/utility-buys-stake-in-german-offshore-wind-project-after-amazon-deal/2-1-2007400",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Enercon to outsource generator and tower production to embattled market outside EU",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/enercon-to-outsource-generator-and-tower-production-to-embattled-market-outside-eu/2-1-2007332",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Miliband and wind face uncertainty after UK's latest 'nervous breakdown'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/miliband-and-wind-face-uncertainty-after-uks-latest-nervous-breakdown/2-1-2007571",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Germany to reshuffle offshore wind sites to tackle wake effects",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/germany-to-reshuffle-offshore-wind-sites-to-tackle-wake-effects/2-1-2008020",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
