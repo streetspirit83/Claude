@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:07:08+00:00",
+  "generated_at": "2026-06-26T15:21:02+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 15
+      "items_matched": 14
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,49 @@
       "items_matched": 0
     }
   ],
-  "count": 278,
+  "count": 276,
   "articles": [
+    {
+      "title": "Was gegen die Hitzeflaute in Europa hilft",
+      "teaser": "Der Bundesverband Neue Energiewirtschaft hat, ähnlich wie vor Pfingsten, als lange Phasen mit negativen Strompreisen anstanden, die Bundesregierung erneut zum Handeln aufgefordert. Die Maßnahmen, die dem Strommarkt in der aktuellen…",
+      "link": "https://www.pv-magazine.de/2026/06/26/was-gegen-die-hitzeflaute-in-europa-hilft/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-26T14:24:00+00:00",
+      "matched_keywords": [
+        "strompreis"
+      ]
+    },
+    {
+      "title": "OLG-Urteil zur Installation von Photovoltaik-Anlagen durch Handwerksbetriebe",
+      "teaser": "Das Oberlandesgericht Koblenz hat klargestellt, dass grundsätzlich eine Eintragung in die Handwerksrolle erforderlich ist, wenn ein Betrieb Photovoltaik-Anlagen plant, installiert, in Betrieb nimmt und wartet. Dachdecker- und…",
+      "link": "https://www.pv-magazine.de/2026/06/26/olg-urteil-zur-installation-von-photovoltaik-anlagen-durch-handwerksbetriebe/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-26T13:40:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Uniper signs PPA with Skyborn for Gennaker offshore wind project",
+      "teaser": "Uniper has signed a long-term power purchase agreement (PPA) with Skyborn Renewables for electricity generated from the Gennaker offshore wind project in the German Baltic Sea.",
+      "link": "https://www.power-technology.com/news/uniper-ppa-skyborn-gennaker-offshore-wind/",
+      "source": "power-technology",
+      "published": "2026-06-26T13:04:05+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Experten auf dem pv magazine Focus: Direktvermarktung ja – Pflicht ab 2027 nein",
+      "teaser": "Die Direktvermarktung gilt vielen als nächster Schritt, um kleinen Photovoltaik-Anlagen das richtige Signal zu geben, wann sie einspeisen sollen. Auf dem pv magazine Focus warnten Experten jedoch vor einem verpflichtenden Start bereits…",
+      "link": "https://www.pv-magazine.de/2026/06/26/experten-auf-dem-pv-magazine-focus-direktvermarktung-ja-pflicht-ab-2027-nein/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-26T12:53:02+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
     {
       "title": "Enlight secures financing for 1.2GW/4GWh Arizona solar and storage ‘Complex’",
       "teaser": "IPP Enlight Renewable Energy has announced that its US subsidiary Clēnera Holdings has entered into a debt financing framework agreement for the CO Bar Complex in Arizona, US.",
@@ -456,6 +497,16 @@
       ]
     },
     {
+      "title": "Germany joins push to delay EU methane rules",
+      "teaser": "A growing number of countries want to delay the EU's landmark rules governing methane emissions.",
+      "link": "https://www.politico.eu/article/germany-joins-push-to-delay-eu-methane-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-06-26T09:24:03+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
       "title": "Spain authorises $240m Hy2USE reallocation for Castellón hydrogen hub",
       "teaser": "Iberdrola España and BP have secured approval from Spain for the reallocation of up to €$240m in funding from the IPCEI Hy2USE programme.",
       "link": "https://www.energymonitor.ai/news/spain-reallocation-castellon-hydrogen-hub/",
@@ -488,6 +539,16 @@
       ]
     },
     {
+      "title": "Strukturwandel im Heimspeichermarkt 2025: Marktanteile der Hersteller zeigen hohe Dynamik",
+      "teaser": "Nach mehreren Jahren starken Wachstums befindet sich der deutsche Markt für Heimspeicher in einer Phase der strukturellen Neuordnung. Marktanteile, Wettbewerbsdynamiken und relevante Marktsegmente verändern sich spürbar. Zwei Entwicklungen…",
+      "link": "https://www.pv-magazine.de/2026/06/26/strukturwandel-im-heimspeichermarkt-2025-marktanteile-der-hersteller-zeigen-hohe-dynamik/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-26T08:43:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
       "title": "Deutsche Ausrüster liefern Produktionsequipment für 1,4-Gigawatt-Solarzellfabrik in Indien",
       "teaser": "Der indische Photovoltaik-Hersteller EMMVEE hat eine 1,4-Gigawatt-Produktionslinie für Topcon-Solarzellen in Betrieb genommen. Das Unternehmen erzielt damit auf M10-Wafern Zellwirkungsgrade von bis zu 25,4 Prozent. Nach dem Hochlauf haben…",
       "link": "https://www.pv-magazine.de/2026/06/26/deutsche-ausruester-liefern-produktionsequipment-fuer-14-gigawatt-solarzellfabrik-in-indien/",
@@ -495,6 +556,19 @@
       "published": "2026-06-26T08:30:00+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "LNG and decarbonization on Orlen-Naftogaz collaboration’s agenda",
+      "teaser": "Ukraine’s state-owned energy company Naftogaz Group and Poland’s Orlen have teamed up to fortify the liquefied natural gas (LNG) arsenal and efforts to curb greenhouse gas (GHG) emissions in a bid to bolster Ukraine’s energy security and…",
+      "link": "https://www.offshore-energy.biz/lng-and-decarbonization-on-orlen-naftogaz-collaborations-agenda/",
+      "source": "offshore-energy",
+      "published": "2026-06-26T08:26:29+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "emission",
+        "energy security",
+        "lng"
       ]
     },
     {
@@ -515,16 +589,6 @@
       "published": "2026-06-26T07:50:03+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "Dutch floating power hub for remote subsea assets secures €3.2M gov’t push",
-      "teaser": "Dutch offshore floating solar company SolarDuck and the Maritime Research Institute Netherlands (MARIN) have [&#8230;] The post Dutch floating power hub for remote subsea assets secures €3.2M gov&#8217;t push appeared first on Offshore…",
-      "link": "https://www.offshore-energy.biz/dutch-floating-power-hub-for-remote-subsea-assets-secures-e3-2m-govt-push/",
-      "source": "offshore-energy",
-      "published": "2026-06-26T07:38:00+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -683,27 +747,7 @@
       ]
     },
     {
-      "title": "Gazprom Neft confirme des négociations en cours pour céder ses parts dans NIS",
-      "teaser": "Le directeur général de Gazprom Neft, Alexander Dyukov, a confirmé que des négociations sont en cours pour céder les 56 % détenus par des filiales russes dans la compagnie pétrolière serbe NIS, sous sanctions américaines depuis janvier…",
-      "link": "https://energynews.pro/gazprom-neft-confirme-des-negociations-en-cours-pour-ceder-ses-parts-dans-nis",
-      "source": "energynews-pro",
-      "published": "2026-06-25T15:31:14+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "Enlight lève 2,6 milliards de dollars pour le complexe CO Bar en Arizona",
-      "teaser": "Clēnera Holdings, filiale américaine d'Enlight Renewable Energy, a finalisé un financement de 2,6 milliards de dollars pour le complexe CO Bar en Arizona, regroupant 1,2 GW solaire et 4,0 GWh de stockage.",
-      "link": "https://energynews.pro/enlight-leve-26-milliards-de-dollars-pour-le-complexe-co-bar-en-arizona",
-      "source": "energynews-pro",
-      "published": "2026-06-25T15:11:18+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "France takes nuclear reactors offline amid record heatwave",
+      "title": "France heatwave: Rising river temperatures trigger shutdown of nuclear reactors",
       "teaser": "EDF cites environmental rules protecting river ecosystems as rising water temperatures force output cuts at sites on the Seine and Rhone.",
       "link": "http://www.euronews.com/2026/06/25/france-takes-nuclear-reactors-offline-amid-record-heatwave",
       "source": "euronews-green",
@@ -807,17 +851,6 @@
       ]
     },
     {
-      "title": "Schnellerer Zubau von Großspeichern entlastet Verbraucher 2035 um bis zu 2,8 Milliarden Euro",
-      "teaser": "Ein Gutachten des Energiewirtschaftlichen Institut an der Universität Köln zeigt, dass ein beschleunigter Zubau großer Batteriespeicher erheblich niedrigere Kosten, stabilere Strompreise und mehr Resilienz bringen würde. Allein die Kosten…",
-      "link": "https://www.pv-magazine.de/2026/06/25/schnellerer-zubau-von-grossspeichern-entlastet-verbraucher-2035-um-bis-zu-28-milliarden-euro/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-25T10:00:00+00:00",
-      "matched_keywords": [
-        "speicher",
-        "strompreis"
-      ]
-    },
-    {
       "title": "Why the European LNG hiring aggregate is normalising, but the cross-section is not",
       "teaser": "European LNG hiring is normalising, but operator-by-operator differences reveal strategic growth signals across roles and markets.",
       "link": "https://www.power-technology.com/sponsored/why-the-european-lng-hiring-aggregate-is-normalising-but-the-cross-section-is-not/",
@@ -838,16 +871,6 @@
       ]
     },
     {
-      "title": "Microquanta bringt farbige Perowskit-Silizium-Tandem-Module mit 26 Prozent Wirkungsgrad für gebäudeintegrierte Photovoltaik auf den Markt",
-      "teaser": "Microquanta bietet individuell anpassbare, farbige Perowskit-Silizium-Tandem-Module, die architektonische Oberflächen wie Marmoroptiken mit der Vier-Anschluss-Tandem-Technologie des Unternehmens kombinieren. Das soll Leistungseinbußen…",
-      "link": "https://www.pv-magazine.de/2026/06/25/microquanta-bringt-farbige-perowskit-silizium-tandem-module-mit-26-prozent-wirkungsgrad-fuer-gebaeudeintegrierte-photovoltaik-auf-den-markt/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-25T08:45:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "DeepOcean completes inter-array cable work at 660MW Nordseecluster A",
       "teaser": "DeepOcean has completed the installation and testing of all the inter-array cables at the 660MW Nordseecluster A offshore wind farm site located around 50km north of Juist island in the German North Sea.",
       "link": "https://www.power-technology.com/news/deepocean-cable-work-660mw-nordseecluster-a/",
@@ -855,17 +878,6 @@
       "published": "2026-06-25T07:31:10+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Bertelsmann Stiftung: Energiepolitischer Kurswechsel der Bundesregierung gefährdet tausende Jobs",
-      "teaser": "Die Erneuerbare-Branche beschäftigte 2025 in Deutschland 436.000 Menschen. Die Politik hat großen Einfluss auf den Arbeitsmarkt, so die Bertelsmann Stiftung: Union und SPD setzen mit EEG-Novelle, Netzpaket, Gebäudemodernisierungs- und…",
-      "link": "https://www.pv-magazine.de/2026/06/25/bertelsmann-stiftung-energiepolitischer-kurswechsel-der-bundesregierung-gefaehrdet-tausende-jobs/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-25T07:15:42+00:00",
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare"
       ]
     },
     {
@@ -919,18 +931,6 @@
       "published": "2026-06-24T13:44:00+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Schutz für das Stromnetz: Forscher entwickeln Technologie für supraleitende Strombegrenzer",
-      "teaser": "Der Erneuerbare-Ausbau erhöht die elektrotechnischen Anforderungen an die Übertragungsnetze. Um die Infrastruktur bei Kurzschlüssen im Höchstspannungsnetz zu schützen, untersucht ein deutsches Forscherteam jetzt den Einsatz supraleitender…",
-      "link": "https://www.pv-magazine.de/2026/06/24/schutz-fuer-das-stromnetz-forscher-entwickeln-technologie-fuer-supraleitende-strombegrenzer/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-24T13:35:21+00:00",
-      "matched_keywords": [
-        "erneuerbare",
-        "forderung",
-        "stromnetz"
       ]
     },
     {
@@ -1748,18 +1748,6 @@
       ]
     },
     {
-      "title": "Steel and chemicals giants demand freeze to EU’s flagship climate policy",
-      "teaser": "The attack on the Emissions Trading System is among industry's most direct calls yet for the EU to change course on climate.",
-      "link": "https://www.politico.eu/article/steel-and-chemicals-giants-demand-freeze-to-eus-flagship-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-15T16:14:09+00:00",
-      "matched_keywords": [
-        "climate",
-        "climate policy",
-        "emissions trading"
-      ]
-    },
-    {
       "title": "Solar and wind try to navigate Trump’s obstacle course for tax credits",
       "teaser": "Wind and solar developers in the U.S. have just a few more weeks to secure lucrative federal tax incentives. After that crucial deadline, the hard part begins. Last summer, President Donald Trump signed the One Big Beautiful Bill Act into…",
       "link": "https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits",
@@ -1777,16 +1765,6 @@
       "published": "2026-06-15T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "Arctic on foot: Meet the British artist turning a 600km climate journey into theatre",
-      "teaser": "Bristol-based artist Tom Bailey has spent six weeks immersing himself in a region changing faster than almost anywhere on Earth.",
-      "link": "http://www.euronews.com/2026/06/14/arctic-on-foot-meet-the-british-artist-turning-a-600km-climate-journey-into-theatre",
-      "source": "euronews-green",
-      "published": "2026-06-14T05:01:50+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -2807,9 +2785,9 @@
       ]
     },
     {
-      "title": "Der Tagesspiegel",
-      "teaser": "Die aktuelle Hitze in Europa ist kein Zufall: Laut einer aktuellen Untersuchung ist sie Folge des Klimawandels, angeheizt vom Menschen selbst. Eine prominente Klimaforscherin richtet nun einen emotionalen Appell an die Öffentlichkeit: So…",
-      "link": "https://www.tagesspiegel.de",
+      "title": "Hitzewelle in Berlin : „Der erste Schwung ist weg“ – Ventilatoren, Klimageräte und Luftkühler vielerorts ausverkauft",
+      "teaser": "Die Hauptstadtregion erlebt eine extreme Hitzewelle. Zahlreiche Veranstaltungen fallen aus, die Feuerwehr rüstet sich für mehr Einsätze, die Polizei verstärkt ihre Präsenz. Alle Entwicklungen im Newsblog.",
+      "link": "https://www.tagesspiegel.de/berlin/hitzewelle-in-berlin-der-erste-schwung-ist-weg--ventilatoren-klimagerate-und-luftkuhler-vielerorts-ausverkauft-15762498.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2820,16 +2798,6 @@
       "title": "„Ja, das ist der Klimawandel. Ja, wir sind es“ : Ein Sommer, den es früher nicht gegeben hätte",
       "teaser": "Die aktuelle Hitze in Europa ist kein Zufall: Laut einer aktuellen Untersuchung ist sie Folge des Klimawandels, angeheizt vom Menschen selbst. Eine prominente Klimaforscherin richtet nun einen emotionalen Appell an die Öffentlichkeit: So…",
       "link": "https://www.tagesspiegel.de/wissen/ja-das-ist-der-klimawandel-ja-wir-sind-esein-sommer-den-es-fruher-nicht-gegeben-hatte-15757035.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Bleibt die Hitze bis September? : DWD-Klimatologin erklärt, wie es weitergeht",
-      "teaser": "So ungewöhnlich ist diese Hitzewelle wirklich: Eine DWD-Klimatologin erklärt, was die Temperaturen so stark steigen lässt, welche Rolle der Klimawandel spielt – und wann es wieder kühler wird.",
-      "link": "https://www.tagesspiegel.de/wissen/bleibt-die-hitze-bis-september-dwd-klimatologin-erklart-wie-es-weitergeht-15744350.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -3062,6 +3030,16 @@
       ]
     },
     {
+      "title": "LNG crossings of Hormuz more than triple in June, vessel data shows",
+      "teaser": "Jean-Paul Harreman",
+      "link": "https://www.montelnews.com/news/5edb05e8-c95b-465a-a7eb-59438af36548/lng-crossings-of-hormuz-more-than-triple-in-june-vessel-data",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "France, Italy urge EU to cut fossil reliance, reform ETS",
       "teaser": "Jean-Paul Harreman",
       "link": "https://www.montelnews.com/news/0820d434-73d2-424b-95bd-bb8fbb8bc260/france-italy-urge-eu-to-cut-fossil-reliance-reform-ets",
@@ -3072,16 +3050,6 @@
       ]
     },
     {
-      "title": "France faces July heat threat as current hot spell slashes nuclear output",
-      "teaser": "Jean-Paul Harreman",
-      "link": "https://www.montelnews.com/news/9765b6b1-50a5-44b3-96c1-e7595abd4af4/france-faces-july-heat-threat-as-current-hot-spell-slashes-nuclear-output",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Can Britain Still Deliver Net Zero? Chris Stark on “ungumming the system” and the UK's Energy Future",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/podcasts/pluggedin/19396766/can-britain-still-deliver-net-zero-chris-stark-on-ungumming-the-system-and-the-uks-energy-future",
@@ -3089,6 +3057,16 @@
       "published": null,
       "matched_keywords": [
         "net zero"
+      ]
+    },
+    {
+      "title": "France faces July heat threat as current hot spell slashes nuclear output",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/9765b6b1-50a5-44b3-96c1-e7595abd4af4/france-faces-july-heat-threat-as-current-hot-spell-slashes-nuclear-output",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -3170,17 +3148,6 @@
       ]
     },
     {
-      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Hormuz crisis hits 'world's largest' onshore wind farm under construction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/onshore-wind/hormuz-crisis-hits-worlds-largest-onshore-wind-farm-under-construction/2-1-2007812",
@@ -3240,6 +3207,17 @@
       "title": "Miliband and wind face uncertainty after UK's latest 'nervous breakdown'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/miliband-and-wind-face-uncertainty-after-uks-latest-nervous-breakdown/2-1-2007571",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
