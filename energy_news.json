@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:52:40+00:00",
+  "generated_at": "2026-06-26T07:43:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 14
+      "items_matched": 15
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 56
+      "items_matched": 57
     },
     {
       "name": "power-technology",
@@ -368,8 +368,71 @@
       "items_matched": 0
     }
   ],
-  "count": 268,
+  "count": 272,
   "articles": [
+    {
+      "title": "Jüngste Innovationsausschreibung ist wieder weit überzeichnet",
+      "teaser": "Die Bundesnetzagentur hatte 475 Megawatt ausgeschrieben, es gingen Gebote mit einem Volumen von 749 Megawatt ein – allesamt für Photovoltaik-Speicher-Kombinationen. Der durchschnittliche mengengewichtete Zuschlagswert lag bei 5,34 Cent pro…",
+      "link": "https://www.pv-magazine.de/2026/06/26/juengste-innovationsausschreibung-ist-wieder-weit-ueberzeichnet/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-26T07:00:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "‘This is climate change’: European heat wave impossible without warming, scientists say",
+      "teaser": "Man-made warming made this heat wave far more likely and hotter than it would have been even a few decades ago, research finds.",
+      "link": "https://www.politico.eu/article/this-is-climate-change-european-heat-wave-impossible-without-warming-scientists-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-06-26T04:01:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "‘Climate change is running rampant’: Europe’s heatwave ‘virtually impossible’ 50 years ago",
+      "teaser": "“Continued fossil-fuel emissions are directly responsible for the disruption people are experiencing this week,” climate scientists warn.",
+      "link": "http://www.euronews.com/2026/06/26/climate-change-is-running-rampant-europes-heatwave-virtually-impossible-50-years-ago",
+      "source": "euronews-green",
+      "published": "2026-06-26T04:00:57+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
+    {
+      "title": "Asian Development Bank supports 500MWh grid-forming battery energy storage project in Cambodia",
+      "teaser": "ADB has approved a Royal Government of Cambodia application for financial support for a 250MW/500MWh battery storage project.",
+      "link": "https://www.energy-storage.news/asian-development-bank-supports-500mwh-grid-forming-battery-energy-storage-project-in-cambodia/",
+      "source": "energy-storage-news",
+      "published": "2026-06-26T03:01:56+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Goldwind Capital submits 1GWh wind-plus-storage site to Australia’s EPBC Act",
+      "teaser": "Goldwind Capital has submitted the Milpulling Wind Farm, a 1GWh wind-plus-storage site for assessment under Australia's EPBC Act.",
+      "link": "https://www.energy-storage.news/goldwind-capital-submits-1gwh-wind-plus-storage-site-to-australias-epbc-act/",
+      "source": "energy-storage-news",
+      "published": "2026-06-26T02:50:56+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Trends to look out for at Energy Storage Summit Asia 2026",
+      "teaser": "Energy Storage Summit Asia 2026 convenes in Bangkok as Vietnam's tariff reform, Cambodia's grid milestone, and AI demand reshape the region.",
+      "link": "https://www.energy-storage.news/trends-to-look-out-for-at-energy-storage-summit-asia-2026/",
+      "source": "energy-storage-news",
+      "published": "2026-06-26T00:02:19+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "Electricity prices soar as Europe battles heatwave",
       "teaser": "Record June temperatures are fuelling demand for air conditioning and putting pressure on energy systems",
@@ -796,16 +859,6 @@
       ]
     },
     {
-      "title": "Sachsen will Photovoltaik-Anlagen auf Waldflächen mit Bundesratsinitiative verhindern",
-      "teaser": "Die sächsische Landesregierung fordert vom Bund, den Bau von Photovoltaik-Anlagen nicht länger als vorrangig gegenüber dem Waldschutz einzustufen. Die zuständigen Behörden sollen bei Genehmigungsverfahren forstfachliche und ökologische…",
-      "link": "https://www.pv-magazine.de/2026/06/24/sachsen-will-photovoltaik-anlagen-auf-waldflaechen-mit-bundesratsinitiative-verhindern/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-24T09:00:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Europa schwitzt unter Rekordhitze, während die Verkäufe von Klimaanlagen in die Höhe schnellen",
       "teaser": "Wetterlagen halten die heiße Luft tagelang fest und lassen die Temperaturen stetig steigen – ein Phänomen, das laut Experten durch die globale Erwärmung noch verstärkt wird.",
       "link": "https://euractiv.com/de/news/europa-schwitzt-unter-rekordhitze-wahrend-die-verkaufe-von-klimaanlagen-in-die-hohe-schnellen/",
@@ -1001,6 +1054,16 @@
       "published": "2026-06-23T08:10:50+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Your morning coffee is killing the planet",
+      "teaser": "Canary Media’s ​“ Eating the Earth ” column explores the connections between the food we eat and the climate we live in. Not so long ago, the Central Highlands of Vietnam were blanketed by forests so dense they blotted out the sun. The…",
+      "link": "https://www.canarymedia.com/articles/food-and-farms/we-are-drinking-the-earth",
+      "source": "canarymedia",
+      "published": "2026-06-23T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1580,17 +1643,6 @@
       ]
     },
     {
-      "title": "Australia’s Energy Security Corporation’s debut investment backs 650MW Ausgrid battery storage platform",
-      "teaser": "The NSW Energy Security Corporation has deployed its first investment, committing AU$100 million to a large-scale battery storage platform.",
-      "link": "https://www.energy-storage.news/australias-energy-security-corporations-debut-investment-backs-650mw-ausgrid-battery-storage-platform/",
-      "source": "energy-storage-news",
-      "published": "2026-06-16T01:22:14+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy security"
-      ]
-    },
-    {
       "title": "Steel and chemicals giants demand freeze to EU’s flagship climate policy",
       "teaser": "The attack on the Emissions Trading System is among industry's most direct calls yet for the EU to change course on climate.",
       "link": "https://www.politico.eu/article/steel-and-chemicals-giants-demand-freeze-to-eus-flagship-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1613,17 +1665,6 @@
       ]
     },
     {
-      "title": "Wärtsilä wraps energy storage business into joint venture with solar manufacturer RCT Solutions",
-      "teaser": "There has been another twist in the long-running saga of Wärtsilä’s energy storage business and how the company aims to run it going forward.",
-      "link": "https://www.energy-storage.news/wartsila-wraps-energy-storage-business-into-joint-venture-with-solar-manufacturer-rct-solutions/",
-      "source": "energy-storage-news",
-      "published": "2026-06-15T11:13:09+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
       "title": "Solar and wind try to navigate Trump’s obstacle course for tax credits",
       "teaser": "Wind and solar developers in the U.S. have just a few more weeks to secure lucrative federal tax incentives. After that crucial deadline, the hard part begins. Last summer, President Donald Trump signed the One Big Beautiful Bill Act into…",
       "link": "https://www.canarymedia.com/articles/solar/solar-wind-trump-obstacles-tax-credits",
@@ -1631,17 +1672,6 @@
       "published": "2026-06-15T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "VIDEO: Germany’s ramp constraints, grid limitations and their impact on the energy storage business case",
-      "teaser": "Energy-Storage.news presents this sponsored webinar with Clean Horizon, on how Germany’s grid connection agreements can affect the business case for battery storage projects.",
-      "link": "https://www.energy-storage.news/video-germanys-ramp-constraints-grid-limitations-and-their-impact-on-the-energy-storage-business-case/",
-      "source": "energy-storage-news",
-      "published": "2026-06-15T07:21:57+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
       ]
     },
     {
@@ -2724,6 +2754,16 @@
       ]
     },
     {
+      "title": "Der Checkpoint am Morgen : Das Coming-out der Berliner Spitzenpolitiker",
+      "teaser": "+ Bäume fällen für die Energiewende + Schulleiter Ralf Treptow verabschiedet seinen 4000. Abiturienten + Wie ein Tempo-30-Schild spurlos verschwand – und niemand zuständig ist +",
+      "link": "https://www.tagesspiegel.de/checkpoint/der-checkpoint-am-morgen-das-coming-out-der-berliner-spitzenpolitiker-15760572.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2992,6 +3032,17 @@
       ]
     },
     {
+      "title": "'Why not copy Iberdrola?': RWE grids play makes sense, say experts",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/grid/why-not-copy-iberdrola-rwe-grids-play-makes-sense-say-experts/2-1-2009787",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Wind power in demand as corporate giants face new rules",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/wind-power-in-demand-as-corporate-giants-face-new-rules/2-1-2009134",
@@ -3015,17 +3066,6 @@
       ]
     },
     {
-      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Investigation: How Israel controversy rocked a European wind giant",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/investigation-how-israel-controversy-rocked-a-european-wind-giant/2-1-2007729",
@@ -3040,6 +3080,17 @@
       "title": "'Unacceptable': Wind giant condemns manager who wore IDF clothing to townhall event",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/unacceptable-wind-giant-condemns-manager-who-wore-idf-clothing-to-townhall-event/2-1-2009147",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3141,17 +3192,6 @@
       "title": "RWE buys majority in TSO, turning regulated grids into third growth pillar",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/grid/rwe-buys-majority-in-amprion-turning-regulated-grids-into-third-growth-pillar/2-1-2007953",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Germany to reshuffle offshore wind sites to tackle wake effects",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/germany-to-reshuffle-offshore-wind-sites-to-tackle-wake-effects/2-1-2008020",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
