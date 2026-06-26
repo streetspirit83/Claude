@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T17:41:28+00:00",
+  "generated_at": "2026-06-26T20:28:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -252,10 +252,10 @@
       "url": "https://www.euronews.com/green",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
+      "feed_url": "https://www.euronews.com/rss/",
       "error": null,
       "items_found": 50,
-      "items_matched": 14
+      "items_matched": 4
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 274,
+  "count": 263,
   "articles": [
     {
       "title": "Britain backs electricity storage projects as heatwave strains grid",
@@ -388,6 +388,16 @@
       "published": "2026-06-26T15:50:26+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "EU energy ministers secure greater role in bloc's future power grid after rows with Brussels",
+      "teaser": "The EU's Cypriot Presidency has successfully reached an agreement among EU countries that paves the way for talks between the European Parliament and the Council.",
+      "link": "http://www.euronews.com/my-europe/2026/06/26/eu-energy-ministers-secure-greater-role-in-blocs-future-power-grid-after-rows-with-brussel",
+      "source": "euronews-green",
+      "published": "2026-06-26T15:21:42+00:00",
+      "matched_keywords": [
+        "power grid"
       ]
     },
     {
@@ -432,6 +442,26 @@
       ]
     },
     {
+      "title": "The jobs most exposed to extreme heat — and why it matters for Europe's economy",
+      "teaser": "Construction and agriculture are Europe's most heat-exposed industries, with transport, manufacturing and energy also facing growing disruption as climate change pushes temperatures higher.",
+      "link": "http://www.euronews.com/business/2026/06/26/the-jobs-most-exposed-to-extreme-heat-and-why-it-matters-for-europes-economy",
+      "source": "euronews-green",
+      "published": "2026-06-26T12:48:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Oil, cod, Kirill: friction points emerge in new EU sanctions against Russia",
+      "teaser": "The EU wants to agree on a new round of measures targeting Moscow before 15 July, but the closed-door negotiations have difficult obstacles to navigate.",
+      "link": "http://www.euronews.com/my-europe/2026/06/26/oil-cod-kirill-friction-points-emerge-in-new-eu-sanctions-against-russia",
+      "source": "euronews-green",
+      "published": "2026-06-26T12:02:34+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
       "title": "Enlight secures financing for 1.2GW/4GWh Arizona solar and storage ‘Complex’",
       "teaser": "IPP Enlight Renewable Energy has announced that its US subsidiary Clēnera Holdings has entered into a debt financing framework agreement for the CO Bar Complex in Arizona, US.",
       "link": "https://www.energy-storage.news/enlight-secures-financing-for-1-2gw-4gwh-arizona-solar-and-storage-complex/",
@@ -451,6 +481,16 @@
       "published": "2026-06-26T11:54:20+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "'Measures needed to face extreme heat or it will kill us,' Copernicus director says",
+      "teaser": "As scorching weather hits Europe, climate expert Carlo Buontempo told Euronews' flagship morning show Europe Today that \"record-breaking temperatures should not be breaking news\" and that strategies are needed to face extreme weather lest…",
+      "link": "http://www.euronews.com/my-europe/2026/06/26/measures-needed-to-face-extreme-heat-or-it-will-kill-us-copernicus-director-says",
+      "source": "euronews-green",
+      "published": "2026-06-26T11:49:29+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -612,17 +652,6 @@
       ]
     },
     {
-      "title": "​​Paris court rules TotalEnergies must account for indirect emissions and tighten climate policies",
-      "teaser": "A partial victory, the ruling stopped short of making TotalEnergies directly liable for its customers’ actions.",
-      "link": "http://www.euronews.com/2026/06/26/paris-court-rules-totalenergies-must-account-for-indirect-emissions-and-tighten-climate-po",
-      "source": "euronews-green",
-      "published": "2026-06-26T07:14:17+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
-      ]
-    },
-    {
       "title": "Jüngste Innovationsausschreibung ist wieder weit überzeichnet",
       "teaser": "Die Bundesnetzagentur hatte 475 Megawatt ausgeschrieben, es gingen Gebote mit einem Volumen von 749 Megawatt ein – allesamt für Photovoltaik-Speicher-Kombinationen. Der durchschnittliche mengengewichtete Zuschlagswert lag bei 5,34 Cent pro…",
       "link": "https://www.pv-magazine.de/2026/06/26/juengste-innovationsausschreibung-ist-wieder-weit-ueberzeichnet/",
@@ -671,17 +700,6 @@
       "published": "2026-06-26T04:01:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "‘Climate change is running rampant’: Europe’s heatwave ‘virtually impossible’ 50 years ago",
-      "teaser": "“Continued fossil-fuel emissions are directly responsible for the disruption people are experiencing this week,” climate scientists warn.",
-      "link": "http://www.euronews.com/2026/06/26/climate-change-is-running-rampant-europes-heatwave-virtually-impossible-50-years-ago",
-      "source": "euronews-green",
-      "published": "2026-06-26T04:00:57+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
       ]
     },
     {
@@ -744,16 +762,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "France heatwave: Rising river temperatures trigger shutdown of nuclear reactors",
-      "teaser": "EDF cites environmental rules protecting river ecosystems as rising water temperatures force output cuts at sites on the Seine and Rhone.",
-      "link": "http://www.euronews.com/2026/06/25/france-takes-nuclear-reactors-offline-amid-record-heatwave",
-      "source": "euronews-green",
-      "published": "2026-06-25T14:37:53+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -881,17 +889,6 @@
       ]
     },
     {
-      "title": "EU countries are bailing out fossil fuels instead of funding the green transition, Greenpeace warns",
-      "teaser": "Spain leads EU energy crisis spending, but Greenpeace says blanket fuel subsidies are propping up fossil fuels at the planet's expense.",
-      "link": "http://www.euronews.com/2026/06/25/greenpeace-criticises-eus-deep-incoherence-over-hormuz-energy-shock",
-      "source": "euronews-green",
-      "published": "2026-06-25T06:00:33+00:00",
-      "matched_keywords": [
-        "energy crisis",
-        "subsid"
-      ]
-    },
-    {
       "title": "Digitale Lösungen für die Energiewende – Up-Cell",
       "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup Up-Cell hat einen nachhaltigen Energiespeicher aus geupcycelten Li-Ion-Zellen entwickelt. Der Beipackzettel zum…",
       "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-up-cell",
@@ -962,16 +959,6 @@
       "published": "2026-06-24T11:56:07+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Red heatwave alerts spread across Europe with hottest day ever in France and 40 deaths from drowning",
-      "teaser": "Extreme weather is getting worse as climate change speeds up.",
-      "link": "http://www.euronews.com/2026/06/24/red-heatwave-alerts-spread-across-europe-with-hottest-day-ever-in-france-and-40-deaths-fro",
-      "source": "euronews-green",
-      "published": "2026-06-24T10:49:45+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1335,16 +1322,6 @@
       ]
     },
     {
-      "title": "Europe’s heat pumps replace Middle East gas imports twice over. Which country is leading the way?",
-      "teaser": "A new analysis says that heat pumps avoided a staggering €9.7 billion in import costs alone last year.",
-      "link": "http://www.euronews.com/2026/06/22/europes-heat-pumps-replace-middle-east-gas-imports-twice-over-which-country-is-leading-the",
-      "source": "euronews-green",
-      "published": "2026-06-22T05:00:24+00:00",
-      "matched_keywords": [
-        "heat pump"
-      ]
-    },
-    {
       "title": "Digitale Lösungen für die Energiewende – SPiNE",
       "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup SPiNE bietet eine smarte Grundlage für Energiemanagement. Der Beipackzettel zum Pitch.",
       "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-spine",
@@ -1394,17 +1371,6 @@
       "published": "2026-06-21T05:51:43+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Europeans are making the most of cheap solar panels – by creating green garden fences",
-      "teaser": "Solar fences are gaining ground in Europe, as households continue to invest in renewables amid the war on Iran.",
-      "link": "http://www.euronews.com/2026/06/21/europeans-are-making-the-most-of-cheap-solar-panels-by-creating-green-garden-fences",
-      "source": "euronews-green",
-      "published": "2026-06-21T05:00:20+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -1459,16 +1425,6 @@
       ]
     },
     {
-      "title": "‘Held hostage’ by fossil fuels: How oil-rich nations influenced the UN climate conference in Bonn",
-      "teaser": "Experts warn that fossil fuel interests and 'attacks on science' have stalled one of the most contentious climate debates once again.",
-      "link": "http://www.euronews.com/2026/06/19/held-hostage-by-fossil-fuels-how-oil-rich-nations-influenced-the-un-climate-conference-in-",
-      "source": "euronews-green",
-      "published": "2026-06-19T10:26:30+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Investment under uncertainty: How AI, volatility and real-options thinking are reshaping battery storage economics",
       "teaser": "Battery storage is effectively a hardware-backed multi-strategy trading platform, writes Partha Sharma, president of BBNR Capital Management.",
       "link": "https://www.energy-storage.news/investment-under-uncertainty-how-ai-volatility-and-real-options-thinking-are-reshaping-battery-storage-economics/",
@@ -1511,17 +1467,6 @@
       ]
     },
     {
-      "title": "Gas expansion in the guise of security: Is Europe making the energy crisis permanent?",
-      "teaser": "Flexible power and energy security are being used to lock Europe deeper into fossil fuels, a new report warns.",
-      "link": "http://www.euronews.com/2026/06/19/gas-expansion-in-the-guise-of-security-is-europe-making-the-energy-crisis-permanent",
-      "source": "euronews-green",
-      "published": "2026-06-19T05:02:59+00:00",
-      "matched_keywords": [
-        "energy crisis",
-        "energy security"
-      ]
-    },
-    {
       "title": "Eku Energy submits two 1,200MWh battery storage projects to Australia’s EPBC Act",
       "teaser": "Energy storage developer Eku Energy has submitted two BESS, each sized at 300MW and 1,200MWh, for assessment under Australia's EPBC Act.",
       "link": "https://www.energy-storage.news/eku-energy-submits-two-1200mwh-battery-storage-projects-to-australias-epbc-act/",
@@ -1538,16 +1483,6 @@
       "link": "https://www.politico.eu/article/un-summit-collides-with-reality-that-talking-wont-solve-climate-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "politico-energy-climate",
       "published": "2026-06-18T17:40:40+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Electrification, climate finance and Just Transition: Key outcomes of Bonn Climate Change Conference",
-      "teaser": "Despite backsliding on some commitments, the UN climate conference showed glimmers of hope ahead of COP31.",
-      "link": "http://www.euronews.com/2026/06/18/held-hostage-by-fossil-fuels-what-was-actually-achieved-at-the-un-climate-conference-in-bo",
-      "source": "euronews-green",
-      "published": "2026-06-18T15:01:19+00:00",
       "matched_keywords": [
         "climate"
       ]
@@ -1625,17 +1560,6 @@
       ]
     },
     {
-      "title": "Solar-powered fridges are boosting farmers’ incomes by 50% while cutting food waste",
-      "teaser": "Renewable energy is saving crops from going to waste.",
-      "link": "http://www.euronews.com/2026/06/17/solar-powered-fridges-are-boosting-farmers-incomes-by-50-while-cutting-food-waste",
-      "source": "euronews-green",
-      "published": "2026-06-17T04:00:52+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Europe must choose between AI and climate goals, data center lobby says",
       "teaser": "Tech sector says only carbon-emitting gas plants are reliable enough today to power the EU's AI goals.",
       "link": "https://www.politico.eu/article/europe-choose-ai-climate-goals-data-center-chief-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1656,16 +1580,6 @@
       ]
     },
     {
-      "title": "Mysterious Atlantic 'cold blob': the only place on Earth that keeps getting colder",
-      "teaser": "Climate puzzle: a new study probes the only place on Earth that has cooled in recent years, linking the 'Cold Blob' mainly to the Atlantic Meridional Overturning Circulation, AMOC.",
-      "link": "http://www.euronews.com/2026/06/16/mysterious-atlantic-cold-blob-the-only-place-on-earth-that-keeps-getting-colder",
-      "source": "euronews-green",
-      "published": "2026-06-16T15:33:56+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Energy Dome, Invinity Energy Systems advance non-lithium LDES projects in the US",
       "teaser": "Energy Dome is advancing a 10-hour CO2 Battery project in Arizona, with SRP and Google, while Invinity announces the sale of North America’s largest VRFB, in California.",
       "link": "https://www.energy-storage.news/energy-dome-invinity-energy-systems-advance-non-lithium-ldes-projects-in-the-us/",
@@ -1683,16 +1597,6 @@
       "published": "2026-06-16T14:18:46+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "'I'll have to buy new nets': Killer pufferfish are devastating Crete's fishing industry",
-      "teaser": "Fishermen are calling for an immediate subsidy scheme to cull toxic pufferfish, while scientists look for ways to neutralise their lethal toxin.",
-      "link": "http://www.euronews.com/2026/06/16/ill-have-to-buy-new-nets-killer-pufferfish-are-devastating-cretes-fishing-industry",
-      "source": "euronews-green",
-      "published": "2026-06-16T08:27:40+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1724,17 +1628,6 @@
       "matched_keywords": [
         "klima",
         "klimaneutral"
-      ]
-    },
-    {
-      "title": "Spain’s renewables revolution is paying off: Electricity bills are lower despite energy crisis",
-      "teaser": "Homes and business are benefitting from Spain's commitment to clean energy.",
-      "link": "http://www.euronews.com/2026/06/16/spains-renewables-revolution-is-paying-off-electricity-bills-are-lower-despite-energy-cris",
-      "source": "euronews-green",
-      "published": "2026-06-16T04:00:52+00:00",
-      "matched_keywords": [
-        "energy crisis",
-        "renewable"
       ]
     },
     {
@@ -2762,16 +2655,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Änderung des Preisangabenrechts zur Sanktionierung von Verstößen gegen nationale und europäische Regelungen über Preisangaben",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-preisangabenrechts-zur-sanktionierung-von-verstoessen-gegen-nationale-und-europaeische-regelungen-ueber-preisangaben",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
       ]
     },
     {
