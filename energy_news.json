@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T16:59:54+00:00",
+  "generated_at": "2026-06-27T20:04:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -210,22 +210,22 @@
     {
       "name": "rechargenews",
       "url": "https://www.rechargenews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 15
+      "error": "502 Server Error: Bad Gateway for url: https://www.rechargenews.com/?zephr_sso_ott=GhKQIN",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 274,
+  "count": 260,
   "articles": [
     {
       "title": "Rooftop solar can provide five hours of 'free' air conditioning a day. But is it green?",
@@ -587,6 +587,19 @@
       "published": "2026-06-26T08:30:00+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "LNG and decarbonization on Orlen-Naftogaz collaboration’s agenda",
+      "teaser": "Ukraine’s state-owned energy company Naftogaz Group and Poland’s Orlen have teamed up to fortify the liquefied natural gas (LNG) arsenal and efforts to curb greenhouse gas (GHG) emissions in a bid to bolster Ukraine’s energy security and…",
+      "link": "https://www.offshore-energy.biz/lng-and-decarbonization-on-orlen-naftogaz-collaborations-agenda/",
+      "source": "offshore-energy",
+      "published": "2026-06-26T08:26:29+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "emission",
+        "energy security",
+        "lng"
       ]
     },
     {
@@ -2762,13 +2775,13 @@
       ]
     },
     {
-      "title": "Neue heiße Gegenwart : Subventioniert Bäume statt Benzin und Flugtickets!",
-      "teaser": "Zwei Milliarden Euro kostet es, Sprit und Flüge zu vergünstigen. Wo das Geld besser investiert wäre: in Bäume und Schatten. Das ist keine Hippie-Romantik, sondern ein Gebot der Vernunft.",
-      "link": "https://www.tagesspiegel.de/politik/neue-heisse-gegenwart-subventioniert-baume-statt-benzin-und-flugtickets-15642789.html",
+      "title": "Klimaforscher Rahmstorf im Interview : „Unsere ganz frühen Prognosen treten ziemlich genau ein“",
+      "teaser": "Dass das Wetter extremer wird, überrascht Stefan Rahmstorf nicht. Der renommierte Forscher sagt: Durch die Erderwärmung drohen drastische Veränderungen – auch in Deutschland.",
+      "link": "https://www.tagesspiegel.de/wissen/klimaforscher-rahmstorf-im-interview-unsere-ganz-fruhen-prognosen-treten-ziemlich-genau-ein-15761076.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "subvention"
+        "klima"
       ]
     },
     {
@@ -3044,173 +3057,6 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Equinor quits another offshore wind market after abandoning renewables target",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/equinor-quits-another-offshore-wind-market-after-abandoning-renewables-target/2-1-2010029",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Deals of the Week: One offshore wind project scores three big deals",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/deals-of-the-week-one-offshore-wind-project-scores-three-big-deals/2-1-2009850",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "'Why not copy Iberdrola?': RWE grids play makes sense, say experts",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/grid/why-not-copy-iberdrola-rwe-grids-play-makes-sense-say-experts/2-1-2009787",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Investigation: How Israel controversy rocked a European wind giant",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/investigation-how-israel-controversy-rocked-a-european-wind-giant/2-1-2007729",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "'Unacceptable': Wind giant condemns manager who wore IDF clothing to townhall event",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/unacceptable-wind-giant-condemns-manager-who-wore-idf-clothing-to-townhall-event/2-1-2009147",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Wind power in demand as corporate giants face new rules",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/wind-power-in-demand-as-corporate-giants-face-new-rules/2-1-2009134",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind power"
-      ]
-    },
-    {
-      "title": "Orsted defeats huge damages claim concerning Danish power unit",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/orsted-defeats-huge-damages-claim-concerning-danish-power-unit/2-1-2009426",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Hormuz crisis hits 'world's largest' onshore wind farm under construction",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/hormuz-crisis-hits-worlds-largest-onshore-wind-farm-under-construction/2-1-2007812",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "How Equinor has quietly raised its bar for offshore wind investment",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/how-equinor-has-quietly-raised-its-bar-for-offshore-wind-investment/2-1-2005424",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Could a radical new plan finally solve ‘wind theft’ disputes?",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/a-radical-new-plan-could-finally-solve-wind-theft-disputes/2-1-2002916",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Europe's battery boom hits wall as lenders balk at uncertain revenues",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/europes-battery-boom-hits-wall-as-lenders-balk-at-uncertain-revenues/2-1-2003601",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "New foundations promise cheaper UK deepwater wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Miliband and wind face uncertainty after UK's latest 'nervous breakdown'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/miliband-and-wind-face-uncertainty-after-uks-latest-nervous-breakdown/2-1-2007571",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "California fights Trump offshore wind buyout scheme threatening US project pipeline",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/california-fights-trump-offshore-wind-buyout-scheme-threatening-us-project-pipeline/2-1-2008562",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Turkey reveals offshore tender plan with return option for developers",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/turkey-reveals-offshore-tender-plan-with-return-option-for-developers/2-1-2008718",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
