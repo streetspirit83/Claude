@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T18:04:14+00:00",
+  "generated_at": "2026-06-29T20:47:14+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "energynews-pro",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 260,
+  "count": 268,
   "articles": [
     {
       "title": "Greece will use EU funds to pay fishermen to catch invasive pufferfish",
@@ -2701,16 +2701,6 @@
       ]
     },
     {
-      "title": "„Union muss entscheiden, ob sie Verantwortung übernimmt“ : SPD will bei Steuerreform stärkere Belastung von Top-Verdienern",
-      "teaser": "Die Reform der Einkommensteuer gilt als dickster Brocken beim geplanten Paket der schwarz-roten Koalition. Die SPD antwortet nun auf Unions-Forderungen.",
-      "link": "https://www.tagesspiegel.de/politik/union-muss-entscheiden-ob-sie-verantwortung-ubernimmt-spd-will-bei-steuerreform-starkere-belastung-von-top-verdienern-15774519.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2830,6 +2820,99 @@
       "published": null,
       "matched_keywords": [
         "energiewende"
+      ]
+    },
+    {
+      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
+      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende",
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
+      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
+      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 438",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 158",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
+      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
