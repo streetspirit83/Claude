@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:58:59+00:00",
+  "generated_at": "2026-06-29T18:04:14+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "politico-energy-climate",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 268,
+  "count": 260,
   "articles": [
+    {
+      "title": "Greece will use EU funds to pay fishermen to catch invasive pufferfish",
+      "teaser": "EU money will be used to support fishers whose livelihoods are threatened by climate change.",
+      "link": "http://www.euronews.com/2026/06/29/greece-will-use-eu-funds-to-pay-fishermen-to-catch-invasive-pufferfish",
+      "source": "euronews-green",
+      "published": "2026-06-29T14:51:13+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Fraunhofer-ISE entwickelt Photovoltaik-/Elektrolysemodul mit III-V-Solarzellen zur direkten Wasserstofferzeugung",
       "teaser": "Ein Entwicklungsteam des Solarforschungsinstituts nutzt die hohe Photospannung von Mehrfachsolarzellen zur direkten Spaltung von Wassermolekülen. Ein Demonstrator erreichte einen Umwandlungswirkungsgrad von 31,3 Prozent. Nun werden…",
@@ -379,16 +389,6 @@
       "matched_keywords": [
         "photovoltaik",
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "Eni widens South American footprint with block trio linked to Argentina LNG",
-      "teaser": "Italy’s energy giant Eni has set the wheels in motion to expand its upstream portfolio with three blocks in Argentina, connected to a liquefied natural gas (LNG) export project planned for development in the South American country. The…",
-      "link": "https://www.offshore-energy.biz/eni-widens-south-american-footprint-with-block-trio-linked-to-argentina-lng/",
-      "source": "offshore-energy",
-      "published": "2026-06-29T13:20:39+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -443,6 +443,16 @@
       ]
     },
     {
+      "title": "Eni widens South American footprint with block trio linked to Argentina LNG",
+      "teaser": "Italy’s energy giant Eni has set the wheels in motion to expand its upstream portfolio with three blocks in Argentina, connected to a liquefied natural gas (LNG) export project planned for development in the South American country. The…",
+      "link": "https://www.offshore-energy.biz/eni-widens-south-american-footprint-with-block-trio-linked-to-argentina-lng/",
+      "source": "offshore-energy",
+      "published": "2026-06-29T09:28:39+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Europe’s industrial wake-up call",
       "teaser": "Europe’s climate ambitions must integrate with industrial competitiveness. The upcoming EU ETS reform should support decarbonization while ensuring affordable energy, investment certainty, energy security and a level playing field.",
       "link": "https://www.politico.eu/sponsored-content/europes-industrial-wake-up-call/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -453,16 +463,6 @@
         "decarbon",
         "energy security",
         "ets"
-      ]
-    },
-    {
-      "title": "EPCI contract with Vår Energi among ‘largest awards in Ocean Installer’s history’",
-      "teaser": "Norway’s Ocean Installer, a wholly owned subsidiary of Moreld Group, has secured a fast-track [&#8230;] The post EPCI contract with Vår Energi among &#8216;largest awards in Ocean Installer’s history&#8217; appeared first on Offshore…",
-      "link": "https://www.offshore-energy.biz/epci-contract-with-var-energi-among-largest-awards-in-ocean-installers-history/",
-      "source": "offshore-energy",
-      "published": "2026-06-29T08:49:14+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -2701,6 +2701,16 @@
       ]
     },
     {
+      "title": "„Union muss entscheiden, ob sie Verantwortung übernimmt“ : SPD will bei Steuerreform stärkere Belastung von Top-Verdienern",
+      "teaser": "Die Reform der Einkommensteuer gilt als dickster Brocken beim geplanten Paket der schwarz-roten Koalition. Die SPD antwortet nun auf Unions-Forderungen.",
+      "link": "https://www.tagesspiegel.de/politik/union-muss-entscheiden-ob-sie-verantwortung-ubernimmt-spd-will-bei-steuerreform-starkere-belastung-von-top-verdienern-15774519.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2823,99 +2833,6 @@
       ]
     },
     {
-      "title": "So können Bund, Länder und Kommunen die Eigenkapitallücke der kommunalen Energieversorger schließen",
-      "teaser": "Eine Studie von Dezernat Zukunft, Stiftung Klimaneutralität und Agora Energiewende zeigt, wie die Eigenkapitallücke kommunaler Energieversorger beim Ausbau von...",
-      "link": "https://www.agora-energiewende.de/aktuelles/so-koennen-bund-laender-und-kommunen-die-eigenkapitalluecke-der-kommunalen-energieversorger-schliessen",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende",
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
-      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
-      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "emission",
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 438",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 158",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
-      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
       "title": "Germany’s 15-minute spot power price surpasses EUR 500/MWh",
       "teaser": "Jean-Paul Harreman",
       "link": "https://www.montelnews.com/news/12c78690-dc77-4e66-9578-077f05c03c45/germany-s-15-minute-spot-power-price-surpasses-eur-500-mwh",
@@ -2926,13 +2843,13 @@
       ]
     },
     {
-      "title": "French nuclear cuts continue amid ongoing hot spell",
+      "title": "EU parliament’s biggest group mulls free ETS permits for power",
       "teaser": "Jean-Paul Harreman",
-      "link": "https://www.montelnews.com/news/46a9a5cc-ebbc-4fcb-ba48-fb9a92aa6301/edf-cuts-10-of-french-nuclear-capacity-as-hot-spell-persists",
+      "link": "https://www.montelnews.com/news/46cf76aa-5a17-4926-9d1a-210214abf15f/eu-parliament-s-biggest-group-mulls-free-ets-permits-for-power",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "ets"
       ]
     },
     {
@@ -2956,13 +2873,13 @@
       ]
     },
     {
-      "title": "EU parliament’s biggest group mulls free ETS permits for power",
+      "title": "French nuclear cuts continue amid ongoing hot spell",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/46cf76aa-5a17-4926-9d1a-210214abf15f/eu-parliament-s-biggest-group-mulls-free-ets-permits-for-power",
+      "link": "https://www.montelnews.com/news/46a9a5cc-ebbc-4fcb-ba48-fb9a92aa6301/edf-cuts-10-of-french-nuclear-capacity-as-hot-spell-persists",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "ets"
+        "nuclear"
       ]
     },
     {
@@ -2983,6 +2900,28 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Another US offshore wind developer falls as Trump buyouts shrink pipeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/another-us-offshore-wind-developer-falls-as-trump-buyouts-shrink-pipeline/2-1-2011117",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "UK's likely next prime minister calls to safeguard domestic energy",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/uks-likely-next-prime-minister-calls-to-safeguard-domestic-energy/2-1-2011100",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3022,28 +2961,6 @@
       "title": "Europe is swapping its fossil fuel dependence for vulnerable subsea infrastructure",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/opinion/europe-is-swapping-its-fossil-fuel-dependence-for-vulnerable-subsea-infrastructure/2-1-2008001",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Timeline: How Siemens Gamesa blade shipment disaster unfolded",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/accidents-and-casualties/timeline-how-siemens-gamesa-blade-shipment-disaster-unfolded/2-1-2010216",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Equinor quits another offshore wind market after abandoning renewables target",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/equinor-quits-another-offshore-wind-market-after-abandoning-renewables-target/2-1-2010029",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3118,9 +3035,9 @@
       ]
     },
     {
-      "title": "'Why not copy Iberdrola?': RWE grids play makes sense, say experts",
+      "title": "Timeline: How Siemens Gamesa blade shipment disaster unfolded",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/grid/why-not-copy-iberdrola-rwe-grids-play-makes-sense-say-experts/2-1-2009787",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/timeline-how-siemens-gamesa-blade-shipment-disaster-unfolded/2-1-2010216",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3129,21 +3046,20 @@
       ]
     },
     {
-      "title": "Wind power in demand as corporate giants face new rules",
+      "title": "Equinor quits another offshore wind market after abandoning renewables target",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/wind-power-in-demand-as-corporate-giants-face-new-rules/2-1-2009134",
+      "link": "https://www.rechargenews.com/offshore-wind/equinor-quits-another-offshore-wind-market-after-abandoning-renewables-target/2-1-2010029",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar",
-        "wind power"
+        "solar"
       ]
     },
     {
-      "title": "Deals of the Week: One offshore wind project scores three big deals",
+      "title": "'Why not copy Iberdrola?': RWE grids play makes sense, say experts",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/deals-of-the-week-one-offshore-wind-project-scores-three-big-deals/2-1-2009850",
+      "link": "https://www.rechargenews.com/grid/why-not-copy-iberdrola-rwe-grids-play-makes-sense-say-experts/2-1-2009787",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
