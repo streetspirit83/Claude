@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T15:23:30+00:00",
+  "generated_at": "2026-06-30T17:47:23+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.offshore-energy.biz', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 11
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 276,
+  "count": 271,
   "articles": [
+    {
+      "title": "Solarstrom vom Eigenheim an der Börse verkaufen – was bringts?",
+      "teaser": "Wenn die Einspeisevergütung für Photovoltaikanlagen auf Einfamilienhäusern wegfallen sollte, was vielleicht nicht sofort, aber doch in den nächsten Jahren geschehen könnte, muss man auch den auf dem Eigenheim erzeugten Solarstrom an der…",
+      "link": "https://www.pv-magazine.de/2026/06/30/solarstrom-vom-eigenheim-an-der-boerse-verkaufen-was-bringts/",
+      "source": "pv-magazine-de",
+      "published": "2026-06-30T15:49:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "Kleine Photovoltaik-Anlagen: Agora macht Vorschläge für Ausstieg aus der Vergütung",
       "teaser": "Die von der Bundesregierung mit der anstehenden EEG-Novelle geplante Überführung kleiner Anlagen von der festen Einspeisevergütung in die Direktvermarktung spart kaum Geld, birgt aber die Gefahr eines Markteinbruchs – so eine Studie von…",
@@ -397,26 +407,6 @@
       "link": "https://www.pv-magazine.de/2026/06/30/flughafen-duesseldorf-nimmt-16-megawatt-photovoltaik-anlage-in-betrieb/",
       "source": "pv-magazine-de",
       "published": "2026-06-30T13:25:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "Two hydrocarbon discoveries enrich Petronas’ oil & gas arsenal in South America",
-      "teaser": "Petronas Suriname E&#38;P, a wholly-owned subsidiary of Malaysia’s state-owned oil and gas heavyweight Petronas, has confirmed two discoveries and a successful appraisal activity in Block 52 off the coast of Suriname. The post Two…",
-      "link": "https://www.offshore-energy.biz/two-hydrocarbon-discoveries-enrich-petronas-oil-gas-arsenal-in-south-america/",
-      "source": "offshore-energy",
-      "published": "2026-06-30T13:24:17+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "Solarstrom vom Eigenheim an der Börse verkaufen – was bringts?",
-      "teaser": "Wenn die Einspeisevergütung für Photovoltaikanlagen auf Einfamilienhäusern wegfallen sollte, was vielleicht nicht sofort, aber doch in den nächsten Jahren geschehen könnte, muss man auch den auf dem Eigenheim erzeugten Solarstrom an der…",
-      "link": "https://www.pv-magazine.de/2026/06/30/solarstrom-vom-eigenheim-an-der-boerse-verkaufen-was-bringts/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-30T12:49:44+00:00",
       "matched_keywords": [
         "photovoltaik"
       ]
@@ -482,33 +472,13 @@
       ]
     },
     {
-      "title": "Duke Energy latest to surrender offshore wind leases to Trump government",
-      "teaser": "US power company Duke Energy has become the latest developer to accept a Trump administration deal to voluntarily renege on US offshore wind leases it won previously and invest its reimbursed lease fees in non-renewable energy…",
-      "link": "https://www.windpowermonthly.com/article/1963217/duke-energy-latest-surrender-offshore-wind-leases-trump-government",
+      "title": "Duke Energy latest to surrender offshore wind lease to Trump government",
+      "teaser": "US power company Duke Energy has become the latest developer to accept a Trump administration deal to voluntarily renege on a US offshore wind lease it won previously and invest its reimbursed lease fees in non-renewable energy…",
+      "link": "https://www.windpowermonthly.com/article/1963217/duke-energy-latest-surrender-offshore-wind-lease-trump-government",
       "source": "windpowermonthly",
       "published": "2026-06-30T10:09:21+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Shell’s LNG forecast anticipates 65% surge in demand by 2050",
-      "teaser": "UK-headquartered energy giant Shell is expecting an uptick in demand for liquefied natural gas (LNG) to nearly 700 million tonnes a year by 2050, following supply disruptions caused by the conflict in the Middle East, which was cushioned…",
-      "link": "https://www.offshore-energy.biz/shells-lng-forecast-anticipates-65-surge-in-demand-by-2050/",
-      "source": "offshore-energy",
-      "published": "2026-06-30T09:37:23+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "‘World’s largest’ vertical continuous vulcanization tower under construction in US",
-      "teaser": "LS GreenLink, the U.S. subsidiary of South Korean LS Cable &#38; System, has started [&#8230;] The post &#8216;World&#8217;s largest&#8217; vertical continuous vulcanization tower under construction in US appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/worlds-largest-vertical-continuous-vulcanization-tower-under-construction-in-us/",
-      "source": "offshore-energy",
-      "published": "2026-06-30T09:21:25+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1769,16 +1739,6 @@
       ]
     },
     {
-      "title": "EU greenhouse gas emissions rose in 2025, data shows",
-      "teaser": "The bloc's pollution-slashing efforts have been stagnating in recent years.",
-      "link": "https://www.politico.eu/article/eu-greenhouse-emissions-rose-2025-data-shows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-17T12:00:56+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Will New York Gov. Kathy Hochul sign a balcony solar bill?",
       "teaser": "Apartment and condo dwellers of New York have long been unable to tap solar power at home to lower their energy bills. But that could soon change. Late last month, state legislators passed the Solar Up Now New York (SUNNY) Act to legalize…",
       "link": "https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill",
@@ -2776,16 +2736,6 @@
       ]
     },
     {
-      "title": "Klimaamnesie : 41,7 Grad und nichts gelernt",
-      "teaser": "Kaum kühlt es ab, ist die Hitze vergessen. Dabei waren die Rekordwerte kein Ausreißer – sondern ein Signal. Und das Zeitfenster zum Handeln schließt sich vor unseren Augen.",
-      "link": "https://www.tagesspiegel.de/wissen/klimaamnesie-417-grad-und-nichts-gelernt-15772864.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "„Ihr tragt eine erhebliche Verantwortung“ : Pariser Vizebürgermeisterin kontert Spott von US-Touristen während der Hitzewelle",
       "teaser": "Nach der Hitzewelle in Europa spotten US-Touristen über fehlende Klimaanlagen. Eine Pariser Politikerin antwortet scharf.",
       "link": "https://www.tagesspiegel.de/gesellschaft/panorama/ihr-tragt-eine-erhebliche-verantwortung-pariser-vizeburgermeisterin-kontert-spott-von-us-touristen-wahrend-der-hitzewelle-15776574.html",
@@ -3227,9 +3177,9 @@
       ]
     },
     {
-      "title": "Miliband and wind face uncertainty after UK's latest 'nervous breakdown'",
+      "title": "New foundations promise cheaper UK deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/miliband-and-wind-face-uncertainty-after-uks-latest-nervous-breakdown/2-1-2007571",
+      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
