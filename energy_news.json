@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T17:47:23+00:00",
+  "generated_at": "2026-06-30T20:52:36+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.offshore-energy.biz', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 4
     },
     {
       "name": "windpowermonthly",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 271,
+  "count": 274,
   "articles": [
     {
       "title": "Solarstrom vom Eigenheim an der Börse verkaufen – was bringts?",
@@ -412,6 +412,16 @@
       ]
     },
     {
+      "title": "Two hydrocarbon discoveries enrich Petronas’ oil & gas arsenal in South America",
+      "teaser": "Petronas Suriname E&#38;P, a wholly-owned subsidiary of Malaysia’s state-owned oil and gas heavyweight Petronas, has confirmed two discoveries and a successful appraisal activity in Block 52 off the coast of Suriname. The post Two…",
+      "link": "https://www.offshore-energy.biz/two-hydrocarbon-discoveries-enrich-petronas-oil-gas-arsenal-in-south-america/",
+      "source": "offshore-energy",
+      "published": "2026-06-30T13:24:17+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
       "title": "Avangrid to build 82MWh Oregon BESS project",
       "teaser": "Spanish utility Iberdrola's subsidiary Avangrid has announced plans to construct a 41MW/82MWh BESS facility in Gilliam County, Oregon.",
       "link": "https://www.energy-storage.news/avangrid-to-build-82mwh-oregon-bess-project/",
@@ -439,6 +449,16 @@
       "published": "2026-06-30T11:36:26+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "13-year deal keeps Baker Hughes busy at African LNG expansion project",
+      "teaser": "U.S.-headquartered energy technology giant Baker Hughes has secured a multi-year assignment at a liquefied natural gas (LNG) expansion project in Nigeria, Africa. The post 13-year deal keeps Baker Hughes busy at African LNG expansion…",
+      "link": "https://www.offshore-energy.biz/13-year-deal-keeps-baker-hughes-busy-at-african-lng-expansion-project/",
+      "source": "offshore-energy",
+      "published": "2026-06-30T11:18:19+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -479,6 +499,26 @@
       "published": "2026-06-30T10:09:21+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Shell’s LNG forecast anticipates 65% surge in demand by 2050",
+      "teaser": "UK-headquartered energy giant Shell is expecting an uptick in demand for liquefied natural gas (LNG) to nearly 700 million tonnes a year by 2050, following supply disruptions caused by the conflict in the Middle East, which was cushioned…",
+      "link": "https://www.offshore-energy.biz/shells-lng-forecast-anticipates-65-surge-in-demand-by-2050/",
+      "source": "offshore-energy",
+      "published": "2026-06-30T09:37:23+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "‘World’s largest’ vertical continuous vulcanization tower under construction in US",
+      "teaser": "LS GreenLink, the U.S. subsidiary of South Korean LS Cable &#38; System, has started [&#8230;] The post &#8216;World&#8217;s largest&#8217; vertical continuous vulcanization tower under construction in US appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/worlds-largest-vertical-continuous-vulcanization-tower-under-construction-in-us/",
+      "source": "offshore-energy",
+      "published": "2026-06-30T09:21:25+00:00",
+      "matched_keywords": [
+        "subsid"
       ]
     },
     {
@@ -2731,16 +2771,6 @@
       "link": "https://www.cleanenergywire.org/experts/zukunft-klimasozial",
       "source": "cleanenergywire",
       "published": "2026-01-08T10:43:31+00:00",
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "„Ihr tragt eine erhebliche Verantwortung“ : Pariser Vizebürgermeisterin kontert Spott von US-Touristen während der Hitzewelle",
-      "teaser": "Nach der Hitzewelle in Europa spotten US-Touristen über fehlende Klimaanlagen. Eine Pariser Politikerin antwortet scharf.",
-      "link": "https://www.tagesspiegel.de/gesellschaft/panorama/ihr-tragt-eine-erhebliche-verantwortung-pariser-vizeburgermeisterin-kontert-spott-von-us-touristen-wahrend-der-hitzewelle-15776574.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
       "matched_keywords": [
         "klima"
       ]
