@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T15:35:03+00:00",
+  "generated_at": "2026-07-01T17:47:37+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "energylivenews",
@@ -370,6 +370,16 @@
   ],
   "count": 262,
   "articles": [
+    {
+      "title": "SSAB et des industriels alertent sur la réforme du marché carbone européen",
+      "teaser": "Le sidérurgiste suédois SSAB et d'autres industriels européens s'inquiètent d'une réforme de l'ETS de l'UE qui pourrait avantager les pollueurs au détriment des pionniers de la décarbonation.",
+      "link": "https://energynews.pro/ssab-et-des-industriels-alertent-sur-la-reforme-du-marche-carbone-europeen",
+      "source": "energynews-pro",
+      "published": "2026-07-01T17:42:06+00:00",
+      "matched_keywords": [
+        "ets"
+      ]
+    },
     {
       "title": "Ronma steigt als strategischer Investor bei Soluxtec ein",
       "teaser": "Der Produktionsstandort des Photovoltaik-Unternehmens in Trier-Föhren soll fortgeführt und langfristig ausgebaut werden. Die Pläne von Ronma sehen vor, die Marke Soluxtec zu erhalten.",
@@ -417,6 +427,16 @@
       "link": "https://www.pv-magazine.de/2026/07/01/trump-regierung-arbeitet-berichten-zufolge-an-einem-verbot-chinesischer-solarwechselrichter/",
       "source": "pv-magazine-de",
       "published": "2026-07-01T12:30:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Einfacher und schneller montieren auf größeren Flächen",
+      "teaser": "Bei immer größer werdenden Photovoltaik-Anlagen und einer zunehmenden Bedeutung von Produktsparten wie Gründach oder Fassade setzen Montagesystem-Hersteller auf eine altbekannte, aber stets aktuelle Devise: Zeit und Kosten sparen.",
+      "link": "https://www.pv-magazine.de/2026/07/01/einfacher-und-schneller-montieren-auf-groesseren-flaechen/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-01T11:35:00+00:00",
       "matched_keywords": [
         "photovoltaik"
       ]
@@ -479,16 +499,6 @@
       "published": "2026-07-01T09:11:24+00:00",
       "matched_keywords": [
         "net-zero"
-      ]
-    },
-    {
-      "title": "Einfacher und schneller montieren auf größeren Flächen",
-      "teaser": "Bei immer größer werdenden Photovoltaik-Anlagen und einer zunehmenden Bedeutung von Produktsparten wie Gründach oder Fassade setzen Montagesystem-Hersteller auf eine altbekannte, aber stets aktuelle Devise: Zeit und Kosten sparen.",
-      "link": "https://www.pv-magazine.de/2026/07/01/einfacher-und-schneller-montieren-auf-groesseren-flaechen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-01T09:05:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
       ]
     },
     {
@@ -665,17 +675,6 @@
       "matched_keywords": [
         "renewable",
         "wind farm"
-      ]
-    },
-    {
-      "title": "SAEL launches 10GW solar manufacturing plant in India",
-      "teaser": "SAEL Industries has commenced construction on a large-scale solar manufacturing facility in Jewar, UP, through its subsidiary SAEL Solar P6.",
-      "link": "https://www.power-technology.com/news/sael-launches-10gw-solar-plant/",
-      "source": "power-technology",
-      "published": "2026-06-30T08:00:32+00:00",
-      "matched_keywords": [
-        "solar",
-        "subsid"
       ]
     },
     {
@@ -3009,17 +3008,6 @@
       ]
     },
     {
-      "title": "Korean heavyweights submit winning bid in 800MW offshore wind tender",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/korean-heavyweights-submit-winning-bid-in-800mw-offshore-wind-tender/2-1-2011170",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Interactive map: The 16 projects chosen to help save UK wind power from itself",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/visual-and-data-journalism/interactive-map-the-16-projects-chosen-to-help-save-uk-wind-power-from-itself/2-1-2011112",
@@ -3029,6 +3017,17 @@
         "renewable",
         "solar",
         "wind power"
+      ]
+    },
+    {
+      "title": "Korean heavyweights submit winning bid in 800MW offshore wind tender",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/korean-heavyweights-submit-winning-bid-in-800mw-offshore-wind-tender/2-1-2011170",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3046,17 +3045,6 @@
       "title": "Envision expands German storage push despite regulatory uncertainty",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/envision-expands-german-storage-push-despite-regulatory-uncertainty/2-1-2010861",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Executive's move to top European wind developer falls through",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/executives-move-to-top-european-wind-developer-falls-through/2-1-2010942",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3090,6 +3078,17 @@
       "title": "'Unacceptable': Wind giant condemns manager who wore IDF clothing to townhall event",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/unacceptable-wind-giant-condemns-manager-who-wore-idf-clothing-to-townhall-event/2-1-2009147",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "New foundations promise cheaper UK deepwater wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
