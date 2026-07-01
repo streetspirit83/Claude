@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:27:57+00:00",
+  "generated_at": "2026-07-01T15:35:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,59 @@
       "items_matched": 0
     }
   ],
-  "count": 264,
+  "count": 262,
   "articles": [
+    {
+      "title": "Ronma steigt als strategischer Investor bei Soluxtec ein",
+      "teaser": "Der Produktionsstandort des Photovoltaik-Unternehmens in Trier-Föhren soll fortgeführt und langfristig ausgebaut werden. Die Pläne von Ronma sehen vor, die Marke Soluxtec zu erhalten.",
+      "link": "https://www.pv-magazine.de/2026/07/01/ronma-steigt-als-strategischer-investor-bei-soluxtec-ein/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-01T15:20:05+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Energy-Charts: Netzeinspeisung aus Photovoltaik-Anlagen steigt um zehn Prozent im ersten Halbjahr",
+      "teaser": "61,8 Prozent der öffentlichen Nettostromerzeugung stammte im ersten Halbjahr aus erneuerbaren Quellen. Die Netzeinspeisung aus Photovoltaik-Anlagen erreichte dabei mit 43,2 Terawattstunden ein Allzeithoch. Auch EU-weit gab es in den ersten…",
+      "link": "https://www.pv-magazine.de/2026/07/01/energy-charts-netzeinspeisung-aus-photovoltaik-anlagen-steigt-um-zehn-prozent-im-ersten-halbjahr/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-01T14:46:06+00:00",
+      "matched_keywords": [
+        "erneuerbare",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "BW ESS begins construction at 1GW BESS site in Germany",
+      "teaser": "BW ESS has commenced construction on a large battery energy storage system (BESS) near the Klostermansfeld substation in Saxony-Anhalt, Germany.",
+      "link": "https://www.power-technology.com/news/bw-ess-construction-1000mw-bess-germany/",
+      "source": "power-technology",
+      "published": "2026-07-01T13:19:33+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Erneuerbare erreichen neuen Halbjahresrekord mit 58 Prozent Anteil am Stromverbrauch",
+      "teaser": "Nach vorläufigen Zahlen von ZSW und BDEW stieg der Anteil erneuerbarer Energien am deutschen Bruttostromverbrauch im ersten Halbjahr gegenüber dem Vorjahreszeitraum um fast drei Prozentpunkte. 58 Prozent stellen hierbei einen erneuten…",
+      "link": "https://www.pv-magazine.de/2026/07/01/erneuerbare-erreichen-neuen-halbjahresrekord-mit-58-prozent-anteil-am-stromverbrauch/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-01T13:10:00+00:00",
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Trump-Regierung arbeitet Berichten zufolge an einem Verbot chinesischer Photovoltaik-Wechselrichter",
+      "teaser": "Das Verbot, das laut Quellen derzeit von der Federal Communications Commission ausgearbeitet wird, könnte bereits in diesem Jahr in Kraft treten und folgt auf Maßnahmen in Europa zur Einschränkung der Finanzierung von Projekten, bei denen…",
+      "link": "https://www.pv-magazine.de/2026/07/01/trump-regierung-arbeitet-berichten-zufolge-an-einem-verbot-chinesischer-solarwechselrichter/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-01T12:30:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "Co-location of solar and BESS still has a long way to go",
       "teaser": "A lot of work and thought still needs to go into maximising the potential for co-location of solar and BESS technology, panellists at the Clean Power 2030 Summit said yesterday (30 June).",
@@ -448,6 +499,16 @@
       "published": "2026-07-01T08:26:47+00:00",
       "matched_keywords": [
         "subsid"
+      ]
+    },
+    {
+      "title": "Siemens Gamesa blade breaks off during lightning storm",
+      "teaser": "A blade broke off a Siemens Gamesa turbine at an Ørsted onshore wind farm in Denmark during stormy weather over the weekend.",
+      "link": "https://www.windpowermonthly.com/article/1963328/siemens-gamesa-blade-breaks-off-during-lightning-storm",
+      "source": "windpowermonthly",
+      "published": "2026-07-01T08:21:12+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -576,16 +637,6 @@
       ]
     },
     {
-      "title": "Flughafen Düsseldorf nimmt 16 Megawatt Photovoltaik-Anlage in Betrieb",
-      "teaser": "Die mehr als 31.000 Solarmodule sind in etwa 100 Metern Entfernung zur der Start—und Landebahn auf Betonfundamenten installiert. Der Solarstrom wird vollständig ins Netz des Flughafens eingespeist und deckt etwa 16 Prozent des…",
-      "link": "https://www.pv-magazine.de/2026/06/30/flughafen-duesseldorf-nimmt-16-megawatt-photovoltaik-anlage-in-betrieb/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-30T13:25:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Avangrid to build 82MWh Oregon BESS project",
       "teaser": "Spanish utility Iberdrola's subsidiary Avangrid has announced plans to construct a 41MW/82MWh BESS facility in Gilliam County, Oregon.",
       "link": "https://www.energy-storage.news/avangrid-to-build-82mwh-oregon-bess-project/",
@@ -593,26 +644,6 @@
       "published": "2026-06-30T12:19:58+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "pv magazine Focus: Qualitätskontrolle als Grundlage für bankable Großspeicheprojekte",
-      "teaser": "Branchenexperten erklärten auf der Veranstaltung „pv magazine Focus“, die im Rahmen der Intersolar 2026 in München stattfand, dass nicht allein die Zellchemie, sondern vielmehr die Qualitätskontrolle, die Vertragsgestaltung und die…",
-      "link": "https://www.pv-magazine.de/2026/06/30/pv-magazine-focus-qualitaetskontrolle-als-grundlage-fuer-bankfaehige-bess-projekte/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-30T12:15:00+00:00",
-      "matched_keywords": [
-        "pv"
-      ]
-    },
-    {
-      "title": "Eku Energy realisiert bis 2029 Batteriespeicher mit 1600 Megawattstunden in Deutschland",
-      "teaser": "Der 4-Stunden-Speicher entsteht im niedersächsischen Lamspringe. Er soll direkt ans Übertragungsnetz angeschlossen werden. Es soll zudem netzbildend und schwarzstartfähig sein.",
-      "link": "https://www.pv-magazine.de/2026/06/30/eku-energy-realisiert-bis-2029-batteriespeicher-mit-1600-megawattstunden-in-deutschland/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-30T10:37:08+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -645,17 +676,6 @@
       "matched_keywords": [
         "solar",
         "subsid"
-      ]
-    },
-    {
-      "title": "Goldbeck Solar will mit „HeliomatiX“ den Bau von Photovoltaik-Kraftwerken schneller und witterungsunabhängig machen",
-      "teaser": "Bislang hält sich die Automatisierung bei der Installation von Solarparks in Grenzen. Mit seiner neuen Lösung lassen sich Goldbeck zufolge 85 Prozent der Mannstunden auf der Baustelle einsparen. Bis zu vier Solarmodule können in der…",
-      "link": "https://www.pv-magazine.de/2026/06/30/goldbeck-solar-will-mit-heliomatix-den-bau-von-photovoltaik-kraftwerken-schneller-und-witterungsunabhaengig-machen/",
-      "source": "pv-magazine-de",
-      "published": "2026-06-30T07:45:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "solar"
       ]
     },
     {
@@ -720,17 +740,6 @@
       "published": "2026-06-29T14:51:13+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Skyborn acquires full ownership of 111MW Nordergründe wind farm",
-      "teaser": "Skyborn Renewables has acquired all shares in the 111MW Nordergründe offshore wind farm in Germany, taking full ownership of the project.",
-      "link": "https://www.power-technology.com/news/skyborn-acquires-111mw-nordergrunde-wind-farm/",
-      "source": "power-technology",
-      "published": "2026-06-29T13:03:38+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
       ]
     },
     {
@@ -1544,16 +1553,6 @@
       ]
     },
     {
-      "title": "Floating wind giants | US merger | Wake effect | Chinese OEMs",
-      "teaser": "Welcome to the Wind Power News Review – hosted by Windpower Monthly's senior reporter, Robyn White, and Windpower Monthly's reporter, Orlando Jenkinson – along with our regular panellist, Sorcha Versteeg.",
-      "link": "https://www.windpowermonthly.com/article/1962178/floating-wind-giants-us-merger-wake-effect-chinese-oems",
-      "source": "windpowermonthly",
-      "published": "2026-06-22T08:18:00+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Multi-day energy storage startup Ore Energy signs 1GWh iron-air battery deal with Dutch utility",
       "teaser": "Startup Ore Energy has signed an agreement with a utility in the Netherlands to deploy up to 1,000MWh of multi-day-duration iron-air batteries.",
       "link": "https://www.energy-storage.news/multi-day-energy-storage-startup-ore-energy-signs-1gwh-iron-air-battery-deal-with-dutch-utility/",
@@ -1623,16 +1622,6 @@
         "solar",
         "speicher",
         "windkraft"
-      ]
-    },
-    {
-      "title": "Climate protesters to take aim at FIFA’s Saudi oil sponsor",
-      "teaser": "FIFA announced Aramco as a major worldwide partner in 2024, drawing pushback from climate and human rights groups.",
-      "link": "https://www.politico.com/live-updates/2026/06/20/world-cup-2026/climate-protest-fifa-aramco-dodgers-00969096?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-21T05:51:43+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -2626,16 +2615,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Preisangabenrechts zur Sanktionierung von Verstößen gegen nationale und europäische Regelungen über Preisangaben",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-preisangabenrechts-zur-sanktionierung-von-verstoessen-gegen-nationale-und-europaeische-regelungen-ueber-preisangaben",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Rekord: Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026",
       "teaser": "30.06.2026",
       "link": "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/",
@@ -2882,14 +2861,23 @@
       ]
     },
     {
-      "title": "UK consent rules may threaten next solar subsidy auction",
+      "title": "Russian EU gas and LNG imports rise this year despite looming ban",
       "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/5b90a563-ef02-44a1-a682-4ccff4788332/uk-consent-rules-may-threaten-next-solar-subsidy-auction",
+      "link": "https://www.montelnews.com/news/52bfb96d-e48a-46b2-9157-c9e47a1646de/russian-eu-gas-and-lng-imports-rise-this-year-despite-looming-ban",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "solar",
-        "subsid"
+        "lng"
+      ]
+    },
+    {
+      "title": "Upcoming EU ETS review “won’t fix underlying flaws”",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/29500159-d53e-40af-a1b2-617affd9eba2/upcoming-eu-ets-review-won-t-fix-underlying-flaws-consultant",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "ets"
       ]
     },
     {
@@ -2900,6 +2888,17 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "UK consent rules may threaten next solar subsidy auction",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/5b90a563-ef02-44a1-a682-4ccff4788332/uk-consent-rules-may-threaten-next-solar-subsidy-auction",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "solar",
+        "subsid"
       ]
     },
     {
@@ -2933,27 +2932,7 @@
       ]
     },
     {
-      "title": "French nuclear cuts ease to 3% of capacity as hot spell wanes",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/dbea2e2b-62a1-471e-ab78-156412b30fd8/french-nuclear-cuts-ease-to-3-of-capacity-as-heatwave-wanes",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Authorities reject “close to 50%” of Italian wind farms",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/93aa2d49-e008-4426-9cf3-40e30e7b995f/close-to-half-italy-wind-farms-rejected-by-authorities-industry",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Could rock-bottom German onshore wind auction prices trigger offshore-style execution risks?",
+      "title": "'Unhealthy, unsustainable': Why German wind industry is worried after latest auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/auctions/could-rock-bottom-german-onshore-wind-auction-prices-trigger-offshore-style-execution-risks-/2-1-2011614",
       "source": "rechargenews",
@@ -2975,9 +2954,9 @@
       ]
     },
     {
-      "title": "A dearth of demo sites is hampering UK plans to unlock deepwater wind",
+      "title": "One key shortage threatens UK plans to unlock cheaper deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/a-dearth-of-demo-sites-is-hampering-uk-plans-to-unlock-deepwater-wind/2-1-2009453",
+      "link": "https://www.rechargenews.com/in-depth/one-key-shortage-threatens-uk-plans-to-unlock-cheaper-deepwater-wind/2-1-2009453",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
