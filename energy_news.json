@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T20:45:53+00:00",
+  "generated_at": "2026-07-02T07:23:54+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "reuters-energy",
@@ -368,8 +368,39 @@
       "items_matched": 0
     }
   ],
-  "count": 251,
+  "count": 250,
   "articles": [
+    {
+      "title": "Aboitiz Renewables inaugure une centrale solaire de 92,55 MWc aux Philippines",
+      "teaser": "Aboitiz Renewables a inauguré sa centrale solaire de San Manuel, d'une puissance de 92,55 MWc dans la province de Pangasinan, portant à trois le nombre de ses parcs solaires dans le nord des Philippines.",
+      "link": "https://energynews.pro/aboitiz-renewables-inaugure-une-centrale-solaire-de-9255-mwc-aux-philippines",
+      "source": "energynews-pro",
+      "published": "2026-07-02T06:43:16+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "EU weighs weaker data centre climate rules in win for Big Tech",
+      "teaser": "Past proposals for strict rules on renewable energy certificates have been dropped after heavy lobbying, draft shows",
+      "link": "https://www.ft.com/content/21358a9a-b93b-443c-8a68-6fed89c8b3a6",
+      "source": "ft-energy",
+      "published": "2026-07-02T04:00:22+00:00",
+      "matched_keywords": [
+        "climate",
+        "renewable"
+      ]
+    },
+    {
+      "title": "Battery start-ups see ‘crazy’ demand to smooth power surges in data centres",
+      "teaser": "Rapid growth of clusters of processors for AI training drives need for energy storage",
+      "link": "https://www.ft.com/content/55c10ef1-1589-47b2-9fa8-a2a04f5cf316",
+      "source": "ft-energy",
+      "published": "2026-07-02T04:00:04+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "SSAB et des industriels alertent sur la réforme du marché carbone européen",
       "teaser": "Le sidérurgiste suédois SSAB et d'autres industriels européens s'inquiètent d'une réforme de l'ETS de l'UE qui pourrait avantager les pollueurs au détriment des pionniers de la décarbonation.",
@@ -870,16 +901,6 @@
       ]
     },
     {
-      "title": "Britain backs electricity storage projects as heatwave strains grid",
-      "teaser": "Provisional approval of battery and hydropower projects comes after high temperatures reduce gas and solar generation",
-      "link": "https://www.ft.com/content/6046abc9-2ae8-47ec-a94c-5f98cb772cff",
-      "source": "ft-energy",
-      "published": "2026-06-26T16:52:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Greece fights poisonous pufferfish invasion",
       "teaser": "Athens is paying subsidies to fishermen to try to contain the proliferation of the marine pest.",
       "link": "https://www.politico.eu/article/greece-fishers-seek-help-to-combat-pufferfish-invasion/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -912,16 +933,6 @@
       ]
     },
     {
-      "title": "US imposes sanctions on Rwanda gold refinery",
-      "teaser": "Operation accused over smuggling from mineral-rich DR Congo",
-      "link": "https://www.ft.com/content/a16d4b42-079f-418f-a792-1c9acd9ece12",
-      "source": "ft-energy",
-      "published": "2026-06-26T10:29:22+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Energy Dome’s second CO2 Battery project with Google will secure carbon-free energy for tech giant while easing grid congestion in Ireland",
       "teaser": "Energy Dome has signed its second low-carbon energy supply contract with Google.",
       "link": "https://www.energy-storage.news/energy-domes-second-co2-battery-project-with-google-will-secure-carbon-free-energy-for-tech-giant-while-easing-grid-congestion-in-ireland/",
@@ -929,16 +940,6 @@
       "published": "2026-06-26T10:25:53+00:00",
       "matched_keywords": [
         "co2"
-      ]
-    },
-    {
-      "title": "UK government to subsidise bank loans for green home improvements",
-      "teaser": "Scheme aims to boost take-up by backing up to 20 per cent of loans for installation",
-      "link": "https://www.ft.com/content/91b764db-ba9f-4f90-95d3-57b4ba5908ac",
-      "source": "ft-energy",
-      "published": "2026-06-26T10:18:06+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1509,17 +1510,6 @@
         "solar",
         "speicher",
         "windkraft"
-      ]
-    },
-    {
-      "title": "Europeans are making the most of cheap solar panels – by creating green garden fences",
-      "teaser": "Solar fences are gaining ground in Europe, as households continue to invest in renewables amid the war on Iran.",
-      "link": "http://www.euronews.com/2026/06/21/europeans-are-making-the-most-of-cheap-solar-panels-by-creating-green-garden-fences",
-      "source": "euronews-green",
-      "published": "2026-06-21T05:00:20+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -2502,6 +2492,16 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Preisangabenrechts zur Sanktionierung von Verstößen gegen nationale und europäische Regelungen über Preisangaben",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-preisangabenrechts-zur-sanktionierung-von-verstoessen-gegen-nationale-und-europaeische-regelungen-ueber-preisangaben",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
       "title": "Rekord: Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026",
       "teaser": "30.06.2026",
       "link": "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/",
@@ -2592,13 +2592,13 @@
       ]
     },
     {
-      "title": "Direktvermarktung kleiner PV-Anlagen – das geht schon heute!",
-      "teaser": "Kleine PV-Anlagen effizient vermarkten: Best Practices für massentaugliche Prozesse – so senken Sie Aufwand und Kosten. Wir freuen uns auf Ihre Teilnahme am Webinar!",
-      "link": "https://www.dena.de/infocenter/direktvermarktung-kleiner-pv-anlagen-das-geht-schon-heute/",
+      "title": "Im Triathlon ans Klimaziel: Schleswig-Holstein",
+      "teaser": "In diesem Online-Kompakttraining erfahren Sie, wie sich kommunale Liegenschaften mit Digitalisierung, Serieller Sanierung und Energiespar-Contracting schnell, einfach und bezahlbar auf Klimakurs bringen lassen.",
+      "link": "https://www.dena.de/infocenter/im-triathlon-ans-klimaziel-schleswig-holstein/",
       "source": "dena-newsroom",
       "published": null,
       "matched_keywords": [
-        "pv"
+        "klima"
       ]
     },
     {
@@ -2748,9 +2748,29 @@
       ]
     },
     {
+      "title": "Analysts see Ras Laffan LNG ramp up facing delays",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/860179ca-2b48-42dd-a2ce-f7c3875992bf/ras-laffan-lng-ramp-up-may-face-delays-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Russian EU gas and LNG imports rise this year despite looming ban",
       "teaser": "Josephine Steppat",
       "link": "https://www.montelnews.com/news/52bfb96d-e48a-46b2-9157-c9e47a1646de/russian-eu-gas-and-lng-imports-rise-this-year-despite-looming-ban",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Will this year’s El Niño deepen Europe’s LNG crunch?",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=126762713",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2768,34 +2788,14 @@
       ]
     },
     {
-      "title": "Will this year’s El Niño deepen Europe’s LNG crunch?",
-      "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=126762713",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "UK consent rules may threaten next solar subsidy auction",
-      "teaser": "Josephine Steppat",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/5b90a563-ef02-44a1-a682-4ccff4788332/uk-consent-rules-may-threaten-next-solar-subsidy-auction",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
         "solar",
         "subsid"
-      ]
-    },
-    {
-      "title": "Can Britain Still Deliver Net Zero? Chris Stark on “ungumming the system” and the UK's Energy Future",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/podcasts/pluggedin/19396766/can-britain-still-deliver-net-zero-chris-stark-on-ungumming-the-system-and-the-uks-energy-future",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "net zero"
       ]
     },
     {
@@ -2809,13 +2809,14 @@
       ]
     },
     {
-      "title": "QatarEnergy extends force majeure on Italy LNG deliveries",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/243a0153-d6e2-4a56-8732-f415cad0f6ec/qatarenergy-extends-force-majeure-on-italy-lng-deliveries",
-      "source": "montelnews",
+      "title": "Why KKR outgunned rivals for $4bn of renewables – and why EDF is selling",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/why-kkr-outgunned-rivals-for-4bn-of-renewables-and-why-edf-is-selling/2-1-2012058",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "lng"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -2966,17 +2967,6 @@
       "title": "'Unacceptable': Wind giant condemns manager who wore IDF clothing to townhall event",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/unacceptable-wind-giant-condemns-manager-who-wore-idf-clothing-to-townhall-event/2-1-2009147",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "New foundations promise cheaper UK deepwater wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/new-foundations-promise-cheaper-uk-deepwater-wind/2-1-2004506",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
