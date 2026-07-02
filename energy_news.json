@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T12:04:04+00:00",
+  "generated_at": "2026-07-02T15:07:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 259,
   "articles": [
+    {
+      "title": "Green Flexibility legt FCA-Blueprint vor",
+      "teaser": "Seit einem Jahr betreibt das Unternehmen seinen netzneutralen Batteriespeicher in Immenstadt nach den Vorgaben des Allgäuer Überlandwerks. Aus diesen Erfahrungen sowie weiteren Verhandlungen über flexible Netzanschlussvereinbarungen…",
+      "link": "https://www.pv-magazine.de/2026/07/02/green-flexibility-legt-fca-blueprint-vor/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-02T13:40:34+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "L'américain REC Solar devient REC Power et diversifie ses technologies distribuées",
+      "teaser": "REC Solar, producteur d'énergie indépendant américain, adopte le nom REC Power pour refléter son activité d'opérateur de ressources d'énergie distribuée multi-technologies, incluant solaire, stockage, microréseaux et piles à combustible.",
+      "link": "https://energynews.pro/lamericain-rec-solar-devient-rec-power-et-diversifie-ses-technologies-distribuees",
+      "source": "energynews-pro",
+      "published": "2026-07-02T13:36:22+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Orica confirme 432 millions de dollars pour son hub hydrogène en Australie",
+      "teaser": "Orica a pris une décision finale d'investissement pour son Hunter Valley Hydrogen Hub, soutenu par le programme australien Hydrogen Headstart. Le projet déploiera 50 MW d'électrolyseurs pour produire environ 4 700 tonnes d'hydrogène…",
+      "link": "https://energynews.pro/orica-confirme-432-millions-de-dollars-pour-son-hub-hydrogene-en-australie",
+      "source": "energynews-pro",
+      "published": "2026-07-02T13:06:38+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Floating hydrogen terminals edge closer to reality with ammonia cracking tech validation",
+      "teaser": "Höegh Evi, a Norwegian owner and operator of liquefied natural gas (LNG) carriers and floating storage and regasification units (FSRUs), and Nord Gas Solutions, formerly Wartsila Gas Solutions, have wrapped up the performance testing of…",
+      "link": "https://www.offshore-energy.biz/floating-hydrogen-terminals-edge-closer-to-reality-with-ammonia-cracking-tech-validation/",
+      "source": "offshore-energy",
+      "published": "2026-07-02T13:05:04+00:00",
+      "matched_keywords": [
+        "hydrogen",
+        "lng"
+      ]
+    },
+    {
+      "title": "Actis enters Polish market with Klara Renewables acquisition",
+      "teaser": "UK-based infrastructure investment firm Actis has entered the Polish renewable energy market through the acquisition of Klara Renewables from infrastructure equity fund manager CVC DIF.",
+      "link": "https://www.power-technology.com/news/actis-polish-market-klara-renewables-acquisition/",
+      "source": "power-technology",
+      "published": "2026-07-02T12:26:59+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Wir führen die falsche Flächendebatte",
+      "teaser": "Die größte und günstigste Photovoltaik-Reserve liegt auf den Dächern der Gewerbegebiete. Warum sie trotzdem leer bleiben, erklären Christian Ahrenkiel und Isabelle Fischer von Charged Elements.",
+      "link": "https://www.pv-magazine.de/2026/07/02/wir-fuehren-die-falsche-flaechendebatte/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-02T12:20:41+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "Shell tasks AGR with workforce provision for its ops in Norway",
       "teaser": "Norske Shell, a subsidiary of the UK-headquartered energy giant Shell, has entrusted AGR, part of the Oslo-listed energy and marine consultancy Aqualis (formerly ABL Group), with the task of supplying the human capital for its onshore and…",
@@ -378,6 +439,16 @@
       "published": "2026-07-02T11:17:10+00:00",
       "matched_keywords": [
         "subsid"
+      ]
+    },
+    {
+      "title": "Scottish Renewables head to leave to join SSE",
+      "teaser": null,
+      "link": "https://www.windpowermonthly.com/article/1963497/scottish-renewables-head-leave-join-sse",
+      "source": "windpowermonthly",
+      "published": "2026-07-02T11:14:40+00:00",
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -476,16 +547,6 @@
       ]
     },
     {
-      "title": "Aboitiz Renewables inaugure une centrale solaire de 92,55 MWc aux Philippines",
-      "teaser": "Aboitiz Renewables a inauguré sa centrale solaire de San Manuel, d'une puissance de 92,55 MWc dans la province de Pangasinan, portant à trois le nombre de ses parcs solaires dans le nord des Philippines.",
-      "link": "https://energynews.pro/aboitiz-renewables-inaugure-une-centrale-solaire-de-9255-mwc-aux-philippines",
-      "source": "energynews-pro",
-      "published": "2026-07-02T06:43:16+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Neue Ökonomie für elektrische Fahrzeugflotten",
       "teaser": "Auf dem Intersolar Forum vorgestellte Projekte zeigen, wie das Zusammenspiel von PV, Batteriespeicher, Ladeinfrastruktur, Energiemanagement-Software und Marktintegration E-Lkw- und Busdepots zu ertragsstarken Vermögenswerten macht.",
       "link": "https://www.energiezukunft.eu/mobilitaet/neue-oekonomie-fuer-elektrische-fahrzeugflotten",
@@ -536,16 +597,6 @@
       "published": "2026-07-02T04:00:04+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "SSAB et des industriels alertent sur la réforme du marché carbone européen",
-      "teaser": "Le sidérurgiste suédois SSAB et d'autres industriels européens s'inquiètent d'une réforme de l'ETS de l'UE qui pourrait avantager les pollueurs au détriment des pionniers de la décarbonation.",
-      "link": "https://energynews.pro/ssab-et-des-industriels-alertent-sur-la-reforme-du-marche-carbone-europeen",
-      "source": "energynews-pro",
-      "published": "2026-07-01T17:42:06+00:00",
-      "matched_keywords": [
-        "ets"
       ]
     },
     {
@@ -600,16 +651,6 @@
       ]
     },
     {
-      "title": "Einfacher und schneller montieren auf größeren Flächen",
-      "teaser": "Bei immer größer werdenden Photovoltaik-Anlagen und einer zunehmenden Bedeutung von Produktsparten wie Gründach oder Fassade setzen Montagesystem-Hersteller auf eine altbekannte, aber stets aktuelle Devise: Zeit und Kosten sparen.",
-      "link": "https://www.pv-magazine.de/2026/07/01/einfacher-und-schneller-montieren-auf-groesseren-flaechen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-01T11:35:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Co-location of solar and BESS still has a long way to go",
       "teaser": "A lot of work and thought still needs to go into maximising the potential for co-location of solar and BESS technology, panellists at the Clean Power 2030 Summit said yesterday (30 June).",
       "link": "https://www.energy-storage.news/co-location-of-solar-and-bess-still-has-a-long-way-to-go/",
@@ -640,16 +681,6 @@
       ]
     },
     {
-      "title": "Green Flexibility übernimmt Batteriespeicher-Portfolio mit drei Gigawattstunden im Reifegradverfahren von Kajoni",
-      "teaser": "Im Zuge des laufenden Reifegradverfahrens wird Kajoni die Projekte mit 750 Megawatt Leistung und rund 3000 Megawattstunde Kapazität zur Baureife bringen. Green Flexibility hilft, den notwendigen Kapitalbedarf zu decken und will die Anlagen…",
-      "link": "https://www.pv-magazine.de/2026/07/01/green-flexibility-uebernimmt-batteriespeicher-portfolio-mit-drei-gigawattstunden-im-reifegradverfahren-von-kajoni/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-01T10:22:44+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "Føn Energy Services secures multi-year O&M contract for Polish offshore wind farm",
       "teaser": "Føn Energy Services Poland has signed a long-term, multi-million-euro agreement with the joint venture [&#8230;] The post Føn Energy Services secures multi-year O&amp;M contract for Polish offshore wind farm appeared first on Offshore…",
       "link": "https://www.offshore-energy.biz/fon-energy-services-secures-multi-year-om-contract-for-polish-offshore-wind-farm/",
@@ -670,16 +701,6 @@
       ]
     },
     {
-      "title": "Shell offloads stakes in certain US Gulf deepwater oil assets for $1.7 billion",
-      "teaser": "Shell Offshore, a subsidiary of the UK-headquartered energy giant Shell, has struck deals to divest a non-operated working interest in certain oil assets in the Gulf of America (U.S. Gulf of Mexico). The post Shell offloads stakes in…",
-      "link": "https://www.offshore-energy.biz/shell-offloads-stakes-in-certain-us-gulf-deepwater-oil-assets-for-1-7-billion/",
-      "source": "offshore-energy",
-      "published": "2026-07-01T08:26:47+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Siemens Gamesa blade breaks off during lightning storm",
       "teaser": "A blade broke off a Siemens Gamesa turbine at an Ørsted onshore wind farm in Denmark during stormy weather over the weekend.",
       "link": "https://www.windpowermonthly.com/article/1963328/siemens-gamesa-blade-breaks-off-during-lightning-storm",
@@ -690,16 +711,6 @@
       ]
     },
     {
-      "title": "DNV assessment clears Fred. Olsen 1848’s floating solar system for rougher conditions",
-      "teaser": "Energy expert and assurance provider DNV has completed an independent technical review of Fred. [&#8230;] The post DNV assessment clears Fred. Olsen 1848’s floating solar system for rougher conditions appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/dnv-assessment-clears-fred-olsen-1848s-floating-solar-system-for-rougher-conditions/",
-      "source": "offshore-energy",
-      "published": "2026-07-01T08:04:14+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Martha’s Vineyard solar array will cut bills for low-income islanders",
       "teaser": "A new solar installation on Martha’s Vineyard is set to lower utility costs for hundreds of low-income, year-round residents on the island best known as an upscale vacation destination. The project is the first to come out of a new program…",
       "link": "https://www.canarymedia.com/articles/solar/marthas-vineyard-rooftop-array-cut-bills",
@@ -707,16 +718,6 @@
       "published": "2026-07-01T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "NHOA Energy wins contract for 215MW Culcairn Battery in Australia",
-      "teaser": "NHOA Energy has received notice to proceed from Neoen for the Culcairn Battery project, a 215MW/963 MWh energy storage facility to be installed in New South Wales (NSW), Australia.",
-      "link": "https://www.power-technology.com/news/nhoa-energy-contract-culcairn-battery-australia/",
-      "source": "power-technology",
-      "published": "2026-07-01T07:04:54+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1526,26 +1527,6 @@
       ]
     },
     {
-      "title": "Goldwind re-routes wind turbine parts to avoid Hormuz crisis",
-      "teaser": "Goldwind has re-routed the first set of wind turbine components it is supplying to two major onshore wind farm projects in Saudi Arabia following delays linked to the US-Israeli war on Iran.",
-      "link": "https://www.windpowermonthly.com/article/1962499/goldwind-re-routes-wind-turbine-parts-avoid-hormuz-crisis",
-      "source": "windpowermonthly",
-      "published": "2026-06-23T09:57:04+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Wind power patents: LM Wind Power | Sinoma | Vestas | Technip Energies | Nordex",
-      "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
-      "link": "https://www.windpowermonthly.com/article/1962331/wind-power-patents-lm-wind-power-sinoma-vestas-technip-energies-nordex",
-      "source": "windpowermonthly",
-      "published": "2026-06-23T08:18:00+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Your morning coffee is killing the planet",
       "teaser": "Canary Media’s ​“ Eating the Earth ” column explores the connections between the food we eat and the climate we live in. Not so long ago, the Central Highlands of Vietnam were blanketed by forests so dense they blotted out the sun. The…",
       "link": "https://www.canarymedia.com/articles/food-and-farms/we-are-drinking-the-earth",
@@ -1907,7 +1888,7 @@
     },
     {
       "title": "Where does balcony solar stand in your state?",
-      "teaser": "This article was originally published on April 6, 2026, and last updated on June 18, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
+      "teaser": "This article was originally published on April 6, 2026, and last updated on July 2, 2026. Balcony solar is one of the hottest ideas in renewable energy right now. Boosters say the systems — DIY kits that can be plugged right into a…",
       "link": "https://www.canarymedia.com/articles/solar/states-passing-balcony-solar-laws",
       "source": "canarymedia",
       "published": "2026-06-08T07:00:00+00:00",
@@ -2792,18 +2773,20 @@
       ]
     },
     {
-      "title": "Die Energiewende in Deutschland: Stand der Dinge 2025",
-      "teaser": "Im Jahr 2025 sind Deutschlands Treibhausgasemissionen im Vergleich zum Vorjahr um 1,5 Prozent auf 640 Millionen Tonnen CO 2-Äq gesunken. Damit sind die Emissionseinsparungen nur noch halb so hoch wie 2024 – die Bundesrepublik verliert…",
-      "link": "https://www.agora-energiewende.de/publikationen/die-energiewende-in-deutschland-stand-der-dinge-2025",
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
       "source": "agora-energiewende-news",
       "published": null,
       "matched_keywords": [
-        "emission",
-        "energiewende"
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
       ]
     },
     {
-      "title": "Klimaneutrales Stromsystem 441",
+      "title": "Klimaneutrales Stromsystem 440",
       "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
       "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
       "source": "agora-energiewende-news",
@@ -2874,13 +2857,13 @@
       ]
     },
     {
-      "title": "Analysts see Ras Laffan LNG ramp up facing delays",
+      "title": "Scientists expect soaring heat to strain grid amid climate change",
       "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/860179ca-2b48-42dd-a2ce-f7c3875992bf/ras-laffan-lng-ramp-up-may-face-delays-analysts",
+      "link": "https://www.montelnews.com/news/bf1805df-e08b-4e09-84a9-6466052cca99/soaring-heat-to-strain-energy-grid-on-climate-change-scientists",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "lng"
+        "climate"
       ]
     },
     {
@@ -2894,8 +2877,18 @@
       ]
     },
     {
+      "title": "Analysts see Ras Laffan LNG ramp up facing delays",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/860179ca-2b48-42dd-a2ce-f7c3875992bf/ras-laffan-lng-ramp-up-may-face-delays-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Russian EU gas and LNG imports rise this year despite looming ban",
-      "teaser": "Josephine Steppat",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/52bfb96d-e48a-46b2-9157-c9e47a1646de/russian-eu-gas-and-lng-imports-rise-this-year-despite-looming-ban",
       "source": "montelnews",
       "published": null,
@@ -2911,17 +2904,6 @@
       "published": null,
       "matched_keywords": [
         "ets"
-      ]
-    },
-    {
-      "title": "UK consent rules may threaten next solar subsidy auction",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/5b90a563-ef02-44a1-a682-4ccff4788332/uk-consent-rules-may-threaten-next-solar-subsidy-auction",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "solar",
-        "subsid"
       ]
     },
     {
