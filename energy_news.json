@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T20:14:28+00:00",
+  "generated_at": "2026-07-03T06:55:05+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,21 +80,21 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
       "url": "https://www.tagesspiegel.de/themen/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.tagesspiegel.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -175,7 +175,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "agora-energiewende-news",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "euronews-green",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "reuters-energy",
@@ -368,8 +368,29 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 251,
   "articles": [
+    {
+      "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
+      "teaser": "More than 150,000 households left without power as temperatures near 40C strain utility grids",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "source": "ft-energy",
+      "published": "2026-07-02T23:04:45+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
+    {
+      "title": "EU shipyard races to service Putin’s LNG fleet before sanctions bite",
+      "teaser": "If the ships are serviced now, they'll be able to continue working despite looming EU sanctions.",
+      "link": "https://www.politico.eu/article/eu-shipyard-races-to-service-russia-vladimir-putin-lng-fleet-before-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-02T16:00:11+00:00",
+      "matched_keywords": [
+        "lng",
+        "sanction"
+      ]
+    },
     {
       "title": "Mögliche Fehlanreize führen zu Verzögerung bei Mispel-Festlegung",
       "teaser": "Der BVES fordert von der Bundesnetzagentur eine schnelle Entscheidung, denn die Festlegung ist von zentraler Bedeutung für die Marktintegration von Speichern. Die Behörde hat jedoch in den Konsultationen Hinweise auf „Fehlanreize in…",
@@ -500,6 +521,16 @@
       "matched_keywords": [
         "pv",
         "speicher"
+      ]
+    },
+    {
+      "title": "ACCIONA Energía starts work on 235MWp solar farm in Kentucky, US",
+      "teaser": "ACCIONA Energía will soon begin preparatory work on its Fleming Solar Farm, with the goal of bringing the site online in May 2028.",
+      "link": "https://www.energymonitor.ai/news/acciona-energia-starts-work-solar-farm/",
+      "source": "energymonitor",
+      "published": "2026-07-02T08:29:02+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -997,16 +1028,6 @@
       ]
     },
     {
-      "title": "Spanish import hub chief urges EU to delay ban on Russian gas",
-      "teaser": "LNG shipments to the bloc have risen in the wake of the Middle East war",
-      "link": "https://www.ft.com/content/8606fc3c-6576-4ab2-8d28-9e8a46515a2c",
-      "source": "ft-energy",
-      "published": "2026-06-28T04:00:21+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Rooftop solar can provide five hours of 'free' air conditioning a day. But is it green?",
       "teaser": "Energy analysts say solar power and air conditioning are ‘complementary technologies’ – but is the race to cool Europe down backfiring?",
       "link": "http://www.euronews.com/2026/06/27/rooftop-solar-can-provide-five-hours-of-free-air-conditioning-a-day-but-is-it-green",
@@ -1014,17 +1035,6 @@
       "published": "2026-06-27T05:00:42+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Extreme heat elevates national security risk at London climate week",
-      "teaser": "Focus shifts to physical dangers as well as energy security as temperatures break fresh records",
-      "link": "https://www.ft.com/content/d96518b8-e8e0-4e80-bac7-a286108fcc40",
-      "source": "ft-energy",
-      "published": "2026-06-27T04:00:45+00:00",
-      "matched_keywords": [
-        "climate",
-        "energy security"
       ]
     },
     {
@@ -1098,26 +1108,6 @@
       "published": "2026-06-26T09:24:03+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Spain authorises $240m Hy2USE reallocation for Castellón hydrogen hub",
-      "teaser": "Iberdrola España and BP have secured approval from Spain for the reallocation of up to €$240m in funding from the IPCEI Hy2USE programme.",
-      "link": "https://www.energymonitor.ai/news/spain-reallocation-castellon-hydrogen-hub/",
-      "source": "energymonitor",
-      "published": "2026-06-26T09:15:25+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Enlight’s Clēnera secures $2.6bn debt financing for CO Bar Complex",
-      "teaser": "Enlight’s US subsidiary Clēnera has agreed to a debt financing framework for the CO Bar Complex in Arizona, securing approximately $2.6bn.",
-      "link": "https://www.energymonitor.ai/news/clenera-financing-co-bar-complex/",
-      "source": "energymonitor",
-      "published": "2026-06-26T07:50:03+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1485,16 +1475,6 @@
       ]
     },
     {
-      "title": "3 reasons why Europe can’t stop sweating this week",
-      "teaser": "Climate change, poor infrastructure and distracted politicians all play a role.",
-      "link": "https://www.politico.eu/article/3-reasons-why-europe-cant-stop-sweating-this-week/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-23T16:04:21+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "rPlus Energies’ 1,600MWh Utah solar-plus-storage project begins commercial operation",
       "teaser": "Renewables developer rPlus Energies has announced start of commercial operations for the 400MW/1,600MWh Green River Energy Centre in Emery County, Utah, US.",
       "link": "https://www.energy-storage.news/rplus-energies-1600mwh-utah-solar-plus-storage-project-begins-commercial-operation/",
@@ -1565,16 +1545,6 @@
       "published": "2026-06-23T05:00:00+00:00",
       "matched_keywords": [
         "energiesicherheit"
-      ]
-    },
-    {
-      "title": "EU-UK summit postponed as Keir Starmer resigns",
-      "teaser": "The meeting was meant to take place on July 22 to conclude talks on an agrifood agreement, an emissions trading deal, and a youth mobility scheme.",
-      "link": "https://www.politico.eu/article/eu-uk-summit-postponed-as-keir-starmer-resigns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-22T14:13:12+00:00",
-      "matched_keywords": [
-        "emissions trading"
       ]
     },
     {
@@ -2578,16 +2548,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Preisangabenrechts zur Sanktionierung von Verstößen gegen nationale und europäische Regelungen über Preisangaben",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-preisangabenrechts-zur-sanktionierung-von-verstoessen-gegen-nationale-und-europaeische-regelungen-ueber-preisangaben",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Rekord: Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/",
@@ -2675,16 +2635,6 @@
       "published": null,
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Im Triathlon ans Klimaziel: Schleswig-Holstein",
-      "teaser": "In diesem Online-Kompakttraining erfahren Sie, wie sich kommunale Liegenschaften mit Digitalisierung, Serieller Sanierung und Energiespar-Contracting schnell, einfach und bezahlbar auf Klimakurs bringen lassen.",
-      "link": "https://www.dena.de/infocenter/im-triathlon-ans-klimaziel-schleswig-holstein/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "klima"
       ]
     },
     {
@@ -2876,13 +2826,14 @@
       ]
     },
     {
-      "title": "Upcoming EU ETS review “won’t fix underlying flaws”",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/29500159-d53e-40af-a1b2-617affd9eba2/upcoming-eu-ets-review-won-t-fix-underlying-flaws-consultant",
-      "source": "montelnews",
+      "title": "Why RWE's Amprion deal is not as transformative as it appears",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "ets"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -2904,6 +2855,17 @@
       "published": null,
       "matched_keywords": [
         "battery storage",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "US crackdown leaves Massachusetts offshore wind in limbo",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/trump-crackdown-leaves-massachusetts-offshore-wind-in-limbo/2-1-2012842",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
         "renewable",
         "solar"
       ]
@@ -2956,17 +2918,6 @@
       "title": "Wind industry slams watered down grids package after EU states' power grab",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/wind-industry-slams-watered-down-grids-package-after-eu-states-power-grab/2-1-2010171",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Mingyang lands senior hire from Vestas in Europe",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/mingyang-lands-senior-hire-from-vestas-in-europe/2-1-2011531",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3031,20 +2982,9 @@
       ]
     },
     {
-      "title": "CIP and Siemens Gamesa big winners in Korean offshore wind auction",
+      "title": "Mingyang lands senior hire from Vestas in Europe",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/cip-and-siemens-gamesa-big-winners-in-korean-offshore-wind-auction/2-1-2011385",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK 'to miss' 2030 clean power goal: here's what Burnham must do",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/uk-to-miss-2030-clean-power-goal-heres-what-burnham-must-do/2-1-2011303",
+      "link": "https://www.rechargenews.com/people/mingyang-lands-senior-hire-from-vestas-in-europe/2-1-2011531",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
