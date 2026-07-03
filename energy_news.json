@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T09:51:01+00:00",
+  "generated_at": "2026-07-03T12:02:02+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -85,7 +85,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 5,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "euronews-green",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 10
+      "items_matched": 11
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -370,6 +370,80 @@
   ],
   "count": 253,
   "articles": [
+    {
+      "title": "Wann kann die Direktvermarktung für kleine Photovoltaik-Anlagen funktionieren?",
+      "teaser": "Der Markt für die Direktvermarktung kleiner Anlagen formiert sich und erste Angebote gibt es bereits. Offen ist, wann daraus ein ausreichend günstiges Massenprodukt für den normalen Installationsbetrieb wird, wie eine pv…",
+      "link": "https://www.pv-magazine.de/2026/07/03/wann-kann-die-direktvermarktung-fuer-kleine-photovoltaik-anlagen-funktionieren/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-03T11:34:14+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "Texas LNG project’s momentum builds as Kiewit gets go-ahead for early work",
+      "teaser": "Texas LNG Brownsville, part of Glenfarne Group, has given conditional authorization to Kiewit Energy Group (KOS), a construction and engineering services provider, for work on a liquefied natural gas (LNG) export project being developed in…",
+      "link": "https://www.offshore-energy.biz/texas-lng-projects-momentum-builds-as-kiewit-gets-go-ahead-for-early-work/",
+      "source": "offshore-energy",
+      "published": "2026-07-03T10:51:19+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Eisen als Langzeit-Energiespeicher: KIT untersucht Potenzial in der Stromerzeugung",
+      "teaser": "Eisen wäre eine sinnvolle Option zur Langzeitspeicherung der Energie aus Photovoltaik und Windkraft – so der zentrale Befund einer Studie des KIT. Das CO2-neutrale Verbrennen und anschließende Rückführen in den Ausgangszustand hat demnach…",
+      "link": "https://www.pv-magazine.de/2026/07/03/eisen-als-langzeit-energiespeicher-kit-untersucht-potenzial-in-der-stromerzeugung/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-03T10:25:00+00:00",
+      "matched_keywords": [
+        "co2",
+        "photovoltaik",
+        "speicher",
+        "windkraft"
+      ]
+    },
+    {
+      "title": "Trump victorious in legal battle to erase climate change and slavery signs from national parks",
+      "teaser": "Donald Trump wants to “restore truth and sanity” to US history by removing signage on climate change, slavery and other topics.",
+      "link": "http://www.euronews.com/2026/07/03/trump-victorious-in-legal-battle-to-erase-climate-change-and-slavery-signs-from-national-p",
+      "source": "euronews-green",
+      "published": "2026-07-03T10:15:55+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "VIDEO: Fluence’s Lars Stephan on what data centres and cybersecurity developments mean for BESS in Europe",
+      "teaser": "We sat down with Lars Stephan, EMEA director of marketing, policy and public affairs for system integrator Fluence, to discuss energy storage, data centres and cybersecurity at Intersolar last month.",
+      "link": "https://www.energy-storage.news/video-fluences-lars-stephan-on-what-data-centres-and-cybersecurity-developments-mean-for-bess-in-europe/",
+      "source": "energy-storage-news",
+      "published": "2026-07-03T10:15:13+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Vopak finalises GES acquisition and approves Dutch battery project",
+      "teaser": "Vopak has concluded the acquisition of a 79% controlling stake in Green Energy Storage, a Dutch developer of battery energy storage systems.",
+      "link": "https://www.power-technology.com/news/vopak-finalises-ges-acquisition/",
+      "source": "power-technology",
+      "published": "2026-07-03T10:13:04+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "‘It’s really about flexibility’: FERC issues ‘show cause’ orders to US grid operators on large load integration",
+      "teaser": "Energy-Storage.news Premium speaks with energy storage market experts Raafe Khan of Camelot Energy Group and Oliver Kerr of Aurora Energy Research on FERC’s recently issued show cause orders.",
+      "link": "https://www.energy-storage.news/its-really-about-flexibility-ferc-issues-show-cause-orders-to-us-grid-operators-on-large-load-integration/",
+      "source": "energy-storage-news",
+      "published": "2026-07-03T10:04:29+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "Denkmalschutz und Photovoltaik: Eisengraue Solarmodule schaffen Präzedenzfall in Salzburg",
       "teaser": "Die Altstadtschutzkommission der österreichischen Stadt genehmigte nun eine Photovoltaik-Anlage. Eisengraue Solarmodule von Roofit Solar ermöglichen den Bau in der historischen Altstadt, die zum Unesco-Weltkulturerbe gehört.",
@@ -579,17 +653,6 @@
       ]
     },
     {
-      "title": "Floating hydrogen terminals edge closer to reality with ammonia cracking tech validation",
-      "teaser": "Höegh Evi, a Norwegian owner and operator of liquefied natural gas (LNG) carriers and floating storage and regasification units (FSRUs), and Nord Gas Solutions, formerly Wartsila Gas Solutions, have wrapped up the performance testing of…",
-      "link": "https://www.offshore-energy.biz/floating-hydrogen-terminals-edge-closer-to-reality-with-ammonia-cracking-tech-validation/",
-      "source": "offshore-energy",
-      "published": "2026-07-02T13:05:04+00:00",
-      "matched_keywords": [
-        "hydrogen",
-        "lng"
-      ]
-    },
-    {
       "title": "Actis enters Polish market with Klara Renewables acquisition",
       "teaser": "UK-based infrastructure investment firm Actis has entered the Polish renewable energy market through the acquisition of Klara Renewables from infrastructure equity fund manager CVC DIF.",
       "link": "https://www.power-technology.com/news/actis-polish-market-klara-renewables-acquisition/",
@@ -617,16 +680,6 @@
       "published": "2026-07-02T11:14:40+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Koalitionsausschuss: Verteilnetzausbau beschleunigen, „Smart Meter light“ – aber kein Wort zum EEG",
-      "teaser": "Wenn es nach den Parteispitzen von Union und SPD geht, soll sich der Zeitraum für die Realisierung von Netzprojekten halbieren. Zudem wollen sie den Smart-Meter-Rollout verschärfen, so dass bis Ende 2030 mehr als 90 Prozent der…",
-      "link": "https://www.pv-magazine.de/2026/07/02/koalitionsausschuss-verteilnetzausbau-beschleunigen-smart-meter-light-aber-kein-wort-zum-eeg/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-02T09:47:39+00:00",
-      "matched_keywords": [
-        "eeg"
       ]
     },
     {
@@ -868,17 +921,6 @@
       "published": "2026-06-30T10:09:21+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Masdar begins construction of 1GW wind farm in Kazakhstan",
-      "teaser": "Masdar has started construction on a 1GW wind farm in Kazakhstan's Zhambyl region, marking its first renewable energy project in the country.",
-      "link": "https://www.energymonitor.ai/news/masdar-construction-1gw-wind-farm-kazakhstan/",
-      "source": "energymonitor",
-      "published": "2026-06-30T08:09:24+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
       ]
     },
     {
@@ -1448,17 +1490,6 @@
       ]
     },
     {
-      "title": "Australia awards 4.2GW/16.1GWh of battery storage under Capacity Investment Scheme Tender 8",
-      "teaser": "The Australian government has announced the results of Capacity Investment Scheme (CIS) Tender 8, selecting 15 battery energy storage projects across the National Electricity Market (NEM), totalling 4.2GW/16.1GWh.",
-      "link": "https://www.energy-storage.news/australia-awards-4-2gw-16-1gwh-of-battery-storage-under-capacity-investment-scheme-tender-8/",
-      "source": "energy-storage-news",
-      "published": "2026-06-24T05:12:01+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
       "title": "Digitale Lösungen für die Energiewende – avori",
       "teaser": "In diesem Jahr werden beim Startup-Pitch auf dem BEE-Sommerfest digitale Lösungen für die Energiewende gesucht. Das Startup avori hat eine Software entwickelt, um etwa Ladeinfrastruktur schnell und digital zu planen. Der Beipackzettel zum…",
       "link": "https://www.energiezukunft.eu/wirtschaft/startup-pitch-2026-avori",
@@ -1490,31 +1521,11 @@
       ]
     },
     {
-      "title": "Hong Kong energy storage stock rally gains new contenders: Cubenergy files for IPO, Anker Innovation clears listing hearing",
-      "teaser": "The trend for mainland China-listed energy storage firms to seek secondary listings on the Hong Kong Stock Exchange shows no sign of abating, writes Carrie Xiao.",
-      "link": "https://www.energy-storage.news/hong-kong-energy-storage-stock-rally-gains-new-contenders-cubenergy-files-for-ipo-anker-innovation-clears-listing-hearing/",
-      "source": "energy-storage-news",
-      "published": "2026-06-23T23:09:53+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Virginia slaps data centers with big new tax — but no climate rules",
       "teaser": "Virginia Gov. Abigail Spanberger and her fellow state Democrats romped to a governing trifecta last year, pledging to curtail rising electric bills and ensure power-hungry data centers pay their fair share without undermining the state’s…",
       "link": "https://www.canarymedia.com/articles/data-centers/virginia-data-centers-new-tax",
       "source": "canarymedia",
       "published": "2026-06-23T19:00:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "London climate week disrupted by … the climate",
-      "teaser": "A talk about the dangers of extreme heat has been cancelled because of extreme heat.",
-      "link": "https://www.politico.eu/article/london-climate-week-upended-by-the-climate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-23T16:54:10+00:00",
       "matched_keywords": [
         "climate"
       ]
@@ -2571,16 +2582,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Rekord: Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/",
@@ -2849,6 +2850,29 @@
       ]
     },
     {
+      "title": "North Sea wind sell-off – but Japanese giant insists Europe appetite intact",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/japanese-giant-insists-europe-appetite-intact-after-north-sea-wind-sale-to-jera-nex-bp/2-1-2013081",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Tesla energy storage rebounds as Musk backs growth prospects",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/tesla-energy-storage-rebounds-as-musk-backs-growth-prospects/2-1-2013025",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "energy storage",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Why RWE's Amprion deal is not as transformative as it appears",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
@@ -2927,28 +2951,6 @@
       ]
     },
     {
-      "title": "US 'plans ban' on key Chinese renewable energy tech",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/us-plans-ban-on-key-chinese-renewable-energy-tech/2-1-2011875",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Wind industry slams watered down grids package after EU states' power grab",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/wind-industry-slams-watered-down-grids-package-after-eu-states-power-grab/2-1-2010171",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "One key shortage threatens UK plans to unlock cheaper deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/one-key-shortage-threatens-uk-plans-to-unlock-cheaper-deepwater-wind/2-1-2009453",
@@ -3005,9 +3007,9 @@
       ]
     },
     {
-      "title": "Mingyang lands senior hire from Vestas in Europe",
+      "title": "US 'plans ban' on key Chinese renewable energy tech",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/mingyang-lands-senior-hire-from-vestas-in-europe/2-1-2011531",
+      "link": "https://www.rechargenews.com/policy/us-plans-ban-on-key-chinese-renewable-energy-tech/2-1-2011875",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
