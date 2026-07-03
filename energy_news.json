@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T15:03:19+00:00",
+  "generated_at": "2026-07-03T17:15:13+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,21 +80,21 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
       "url": "https://www.tagesspiegel.de/themen/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.tagesspiegel.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "montelnews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 256,
   "articles": [
+    {
+      "title": "Radiant réceptionne le combustible TRISO pour lancer les tests du microréacteur Kaleidos",
+      "teaser": "Radiant a réceptionné le combustible TRISO fabriqué par Standard Nuclear pour alimenter son microréacteur Kaleidos. Un programme de tests en cinq phases doit débuter cet été à l'installation DOME, avec un objectif de déploiement commercial…",
+      "link": "https://energynews.pro/radiant-receptionne-le-combustible-triso-pour-lancer-les-tests-du-microreacteur-kaleidos",
+      "source": "energynews-pro",
+      "published": "2026-07-03T15:08:34+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "ESMC: Europa könnte sich auch ohne chinesische Wechselrichter versorgen",
       "teaser": "Eine Analyse vom European Solar Manufacturing Council auf Datenbasis von S&#38;P Global Energy kommt zu dem Ergebnis, dass europäische und andere nicht-chinesische Hersteller den Bedarf weitgehend decken könnten. Laut European Solar…",
@@ -591,16 +601,6 @@
       ]
     },
     {
-      "title": "Export cable installation completed at Inch Cape offshore wind farm",
-      "teaser": "The second export cable installation campaign for the Inch Cape offshore wind farm in [&#8230;] The post Export cable installation completed at Inch Cape offshore wind farm appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/export-cable-installation-completed-at-inch-cape-offshore-wind-farm/",
-      "source": "offshore-energy",
-      "published": "2026-07-03T07:16:28+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "Hudong-Zhonghua confie à GTT la conception des cuves de trois méthaniers GNL",
       "teaser": "Le chantier naval chinois Hudong-Zhonghua Shipbuilding a passé commande à GTT au deuxième trimestre 2026 pour la conception des cuves cryogéniques de trois méthaniers de 174 000 m³ destinés à Bonny Gas Transport, filiale de Nigeria LNG.",
       "link": "https://energynews.pro/hudong-zhonghua-confie-a-gtt-la-conception-des-cuves-de-trois-methaniers-gnl",
@@ -714,9 +714,9 @@
       ]
     },
     {
-      "title": "Scottish Renewables head to leave to join SSE",
+      "title": "Scottish Renewables chief to join SSE",
       "teaser": null,
-      "link": "https://www.windpowermonthly.com/article/1963497/scottish-renewables-head-leave-join-sse",
+      "link": "https://www.windpowermonthly.com/article/1963497/scottish-renewables-chief-join-sse",
       "source": "windpowermonthly",
       "published": "2026-07-02T11:14:40+00:00",
       "matched_keywords": [
@@ -2603,16 +2603,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Rekord: Erneuerbare decken 58 Prozent des Stromverbrauchs im 1. Halbjahr 2026",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/rekord-erneuerbare-decken-58-prozent-des-stromverbrauchs-im-1-halbjahr-2026/",
@@ -2971,9 +2961,9 @@
       ]
     },
     {
-      "title": "Why KKR outgunned rivals for $4bn of renewables – and why EDF is selling",
+      "title": "One key shortage threatens UK plans to unlock cheaper deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/why-kkr-outgunned-rivals-for-4bn-of-renewables-and-why-edf-is-selling/2-1-2012058",
+      "link": "https://www.rechargenews.com/in-depth/one-key-shortage-threatens-uk-plans-to-unlock-cheaper-deepwater-wind/2-1-2009453",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2982,9 +2972,9 @@
       ]
     },
     {
-      "title": "One key shortage threatens UK plans to unlock cheaper deepwater wind",
+      "title": "Why KKR outgunned rivals for $4bn of renewables – and why EDF is selling",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/one-key-shortage-threatens-uk-plans-to-unlock-cheaper-deepwater-wind/2-1-2009453",
+      "link": "https://www.rechargenews.com/finance/why-kkr-outgunned-rivals-for-4bn-of-renewables-and-why-edf-is-selling/2-1-2012058",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
