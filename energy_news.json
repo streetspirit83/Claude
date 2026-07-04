@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T06:40:32+00:00",
+  "generated_at": "2026-07-04T09:14:57+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "politico-energy-climate",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 249,
+  "count": 248,
   "articles": [
+    {
+      "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
+      "teaser": "More than 800,000 households left without power after storms and temperatures near 40C straining utility grids",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "source": "ft-energy",
+      "published": "2026-07-04T09:02:27+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
+    {
+      "title": "Europas unverzeihliche Dummheit",
+      "teaser": "Das 21. Sanktionspaket Brüssels gegen Moskau offenbart das Scheitern seiner Strategie zur Beendigung des Ukraine-Kriegs.",
+      "link": "https://euractiv.com/de/news/europas-unverzeihliche-dummheit/",
+      "source": "euractiv-energie",
+      "published": "2026-07-04T08:07:02+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
     {
       "title": "Top investors oppose £5.7bn private equity bid for energy group DCC",
       "teaser": "Offer from KKR and Bridgepoint subsidiary fails to win support from Ninety One, Aviva Investors and Fidelity International",
@@ -660,16 +680,6 @@
       "published": "2026-07-03T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
-      "teaser": "More than 150,000 households left without power as temperatures near 40C strain utility grids",
-      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
-      "source": "ft-energy",
-      "published": "2026-07-02T23:04:45+00:00",
-      "matched_keywords": [
-        "electricity price"
       ]
     },
     {
@@ -1487,16 +1497,6 @@
       "published": "2026-06-24T11:56:07+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Red heatwave alerts spread across Europe with hottest day ever in France and 40 deaths from drowning",
-      "teaser": "Extreme weather is getting worse as climate change speeds up.",
-      "link": "http://www.euronews.com/2026/06/24/red-heatwave-alerts-spread-across-europe-with-hottest-day-ever-in-france-and-40-deaths-fro",
-      "source": "euronews-green",
-      "published": "2026-06-24T10:49:45+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -2610,16 +2610,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
