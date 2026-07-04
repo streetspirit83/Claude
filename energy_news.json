@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T09:14:57+00:00",
+  "generated_at": "2026-07-04T11:19:30+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "energynews-pro",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
@@ -368,8 +368,19 @@
       "items_matched": 0
     }
   ],
-  "count": 248,
+  "count": 258,
   "articles": [
+    {
+      "title": "US clean power prices set to soar as AI demand coincides with subsidy cuts",
+      "teaser": "Clean power purchase agreements, favoured by companies like Google and Meta, expected to rise sharply as Biden-era support ends",
+      "link": "https://www.ft.com/content/911ad6e1-154d-4d10-a7dc-2bd0fd6fbdc2",
+      "source": "ft-energy",
+      "published": "2026-07-04T10:00:02+00:00",
+      "matched_keywords": [
+        "power price",
+        "subsid"
+      ]
+    },
     {
       "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
       "teaser": "More than 800,000 households left without power after storms and temperatures near 40C straining utility grids",
@@ -2742,6 +2753,102 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
+      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "erneuerbare",
+        "pv"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 440",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 158",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
+      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
