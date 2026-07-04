@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T20:10:50+00:00",
+  "generated_at": "2026-07-04T06:40:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -252,10 +252,10 @@
       "url": "https://www.euronews.com/green",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.euronews.com/rss/",
+      "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 3
+      "items_matched": 11
     },
     {
       "name": "politico-energy-climate",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 247,
+  "count": 249,
   "articles": [
     {
       "title": "Top investors oppose £5.7bn private equity bid for energy group DCC",
@@ -411,6 +411,16 @@
       ]
     },
     {
+      "title": "ExxonMobil passes the baton for Australian oil & gas asset to Woodside",
+      "teaser": "Australia’s oil and gas giant Woodside Energy has taken over the operator helm from the Australian subsidiary of U.S.-headquartered energy major ExxonMobil for assets situated off Victoria’s Gippsland coast. The post ExxonMobil passes the…",
+      "link": "https://www.offshore-energy.biz/exxonmobil-passes-the-baton-for-australian-oil-gas-asset-to-woodside/",
+      "source": "offshore-energy",
+      "published": "2026-07-03T13:14:03+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
       "title": "Velto Renewables s'empare du portefeuille solaire Enersol de 45 MWc en Andalousie",
       "teaser": "Velto Renewables rachète la participation minoritaire d'Equitix dans Enersol, portefeuille de neuf actifs photovoltaïques de 45 MWc en Andalousie, et devient son unique propriétaire.",
       "link": "https://energynews.pro/velto-renewables-sempare-du-portefeuille-solaire-enersol-de-45-mwc-en-andalousie",
@@ -443,24 +453,13 @@
       ]
     },
     {
-      "title": "October deadline for China talks 'not realistic at all', chief trade MEP says",
-      "teaser": "Bernd Lange, head of the European Parliament's trade committee, told Euronews the EU should be pushing China hard on unfair industrial subsidies and other pressing issues.",
-      "link": "http://www.euronews.com/my-europe/2026/07/03/october-deadline-for-china-talks-not-realistic-at-all-chief-trade-mep-says",
-      "source": "euronews-green",
-      "published": "2026-07-03T11:16:24+00:00",
+      "title": "Texas LNG project’s momentum builds as Kiewit gets go-ahead for early work",
+      "teaser": "Texas LNG Brownsville, part of Glenfarne Group, has given conditional authorization to Kiewit Energy Group (KOS), a construction and engineering services provider, for work on a liquefied natural gas (LNG) export project being developed in…",
+      "link": "https://www.offshore-energy.biz/texas-lng-projects-momentum-builds-as-kiewit-gets-go-ahead-for-early-work/",
+      "source": "offshore-energy",
+      "published": "2026-07-03T10:51:19+00:00",
       "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "US Democrats urge Brussels to stick to methane rules",
-      "teaser": "US lawmakers have presented a united front in defence of predictable market rules, arguing that any rollback of methane regulations would send a damaging signal to global investors who have already invested in CO2 emissions monitoring…",
-      "link": "http://www.euronews.com/my-europe/2026/07/03/us-democrats-urge-brussels-to-stick-to-methane-rules",
-      "source": "euronews-green",
-      "published": "2026-07-03T10:53:19+00:00",
-      "matched_keywords": [
-        "co2",
-        "emission"
+        "lng"
       ]
     },
     {
@@ -545,6 +544,16 @@
       "published": "2026-07-03T09:20:00+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Drydocks World hires Svanehoj for LNGC-to-FSU conversion job",
+      "teaser": "Denmark-headquartered marine pumps and liquefied gas safety system specialist Svanehoj has received an order to supply LTD gauging systems for a liquefied natural gas (LNG) carrier (LNGC) to floating storage unit (FSU) (LNGC-to-FSU)…",
+      "link": "https://www.offshore-energy.biz/drydocks-world-hires-svanehoj-for-lngc-to-fsu-conversion-job/",
+      "source": "offshore-energy",
+      "published": "2026-07-03T09:19:46+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -755,6 +764,16 @@
         "energy storage",
         "pv",
         "solar"
+      ]
+    },
+    {
+      "title": "Denmark, Portugal, Lithuania lead the way as EU share of electricity from renewables hits 46%",
+      "teaser": "The EU has hit a renewable energy milestone. Which countries are leading – and which are lagging behind?",
+      "link": "http://www.euronews.com/2026/07/02/denmark-portugal-lithuania-lead-the-way-as-eu-share-of-electricity-from-renewables-hits-46",
+      "source": "euronews-green",
+      "published": "2026-07-02T07:55:14+00:00",
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -1000,6 +1019,16 @@
       ]
     },
     {
+      "title": "Greece will use EU funds to pay fishermen to catch invasive pufferfish",
+      "teaser": "EU money will be used to support fishers whose livelihoods are threatened by climate change.",
+      "link": "http://www.euronews.com/2026/06/29/greece-will-use-eu-funds-to-pay-fishermen-to-catch-invasive-pufferfish",
+      "source": "euronews-green",
+      "published": "2026-06-29T14:51:13+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
       "title": "Wind power patents: Sany | Vestas | Windey | Siemens Gamesa | Enercon",
       "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
       "link": "https://www.windpowermonthly.com/article/1963085/wind-power-patents-sany-vestas-windey-siemens-gamesa-enercon",
@@ -1017,6 +1046,17 @@
       "published": "2026-06-29T09:32:38+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "Kazakhstan and UAE launch construction of €1.2bn wind farm",
+      "teaser": "Kazakhstan and the United Arab Emirates have broken ground on a €1.2 billion wind farm in the Zhambyl region, marking one of Central Asia's largest renewable energy projects as the Kazakhstan accelerates its transition towards cleaner…",
+      "link": "http://www.euronews.com/2026/06/29/kazakhstan-and-uae-launch-construction-of-12bn-wind-farm",
+      "source": "euronews-green",
+      "published": "2026-06-29T09:28:11+00:00",
+      "matched_keywords": [
+        "renewable",
+        "wind farm"
       ]
     },
     {
@@ -1105,6 +1145,27 @@
       ]
     },
     {
+      "title": "A ‘strategic mistake of colossal proportions’: Why Trump is losing the war on renewables",
+      "teaser": "Donald Trump’s efforts to push polluting coal onto Americans appear to be failing, as more households opt for rooftop solar.",
+      "link": "http://www.euronews.com/2026/06/28/a-strategic-mistake-of-colossal-proportions-why-trump-is-losing-the-war-on-renewables",
+      "source": "euronews-green",
+      "published": "2026-06-28T05:00:10+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Rooftop solar can provide five hours of 'free' air conditioning a day. But is it green?",
+      "teaser": "Energy analysts say solar power and air conditioning are ‘complementary technologies’ – but is the race to cool Europe down backfiring?",
+      "link": "http://www.euronews.com/2026/06/27/rooftop-solar-can-provide-five-hours-of-free-air-conditioning-a-day-but-is-it-green",
+      "source": "euronews-green",
+      "published": "2026-06-27T05:00:42+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Greece fights poisonous pufferfish invasion",
       "teaser": "Athens is paying subsidies to fishermen to try to contain the proliferation of the marine pest.",
       "link": "https://www.politico.eu/article/greece-fishers-seek-help-to-combat-pufferfish-invasion/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1188,6 +1249,17 @@
       ]
     },
     {
+      "title": "​​Paris court rules TotalEnergies must account for indirect emissions and tighten climate policies",
+      "teaser": "A partial victory, the ruling stopped short of making TotalEnergies directly liable for its customers’ actions.",
+      "link": "http://www.euronews.com/2026/06/26/paris-court-rules-totalenergies-must-account-for-indirect-emissions-and-tighten-climate-po",
+      "source": "euronews-green",
+      "published": "2026-06-26T07:14:17+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
+    {
       "title": "Poleposition für Strom",
       "teaser": "Ein Systemwechsel im Zuge der Energiewende ist keine Frage der technisch-ökonomischen Machbarkeit. Auf den politischen Willen kommt es an, so das Fazit einer zur Intersolar Europe veröffentlichten Fraunhofer-Studie.",
       "link": "https://www.energiezukunft.eu/wirtschaft/poleposition-fuer-strom",
@@ -1225,6 +1297,17 @@
       "published": "2026-06-26T04:01:00+00:00",
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "‘Climate change is running rampant’: Europe’s heatwave ‘virtually impossible’ 50 years ago",
+      "teaser": "“Continued fossil-fuel emissions are directly responsible for the disruption people are experiencing this week,” climate scientists warn.",
+      "link": "http://www.euronews.com/2026/06/26/climate-change-is-running-rampant-europes-heatwave-virtually-impossible-50-years-ago",
+      "source": "euronews-green",
+      "published": "2026-06-26T04:00:57+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
       ]
     },
     {
@@ -1267,6 +1350,16 @@
       "matched_keywords": [
         "renewable",
         "solar"
+      ]
+    },
+    {
+      "title": "France heatwave: Rising river temperatures trigger shutdown of nuclear reactors",
+      "teaser": "EDF cites environmental rules protecting river ecosystems as rising water temperatures force output cuts at sites on the Seine and Rhone.",
+      "link": "http://www.euronews.com/2026/06/25/france-takes-nuclear-reactors-offline-amid-record-heatwave",
+      "source": "euronews-green",
+      "published": "2026-06-25T14:37:53+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -1320,6 +1413,17 @@
       "published": "2026-06-25T09:29:20+00:00",
       "matched_keywords": [
         "wind farm"
+      ]
+    },
+    {
+      "title": "EU countries are bailing out fossil fuels instead of funding the green transition, Greenpeace warns",
+      "teaser": "Spain leads EU energy crisis spending, but Greenpeace says blanket fuel subsidies are propping up fossil fuels at the planet's expense.",
+      "link": "http://www.euronews.com/2026/06/25/greenpeace-criticises-eus-deep-incoherence-over-hormuz-energy-shock",
+      "source": "euronews-green",
+      "published": "2026-06-25T06:00:33+00:00",
+      "matched_keywords": [
+        "energy crisis",
+        "subsid"
       ]
     },
     {
@@ -1383,6 +1487,16 @@
       "published": "2026-06-24T11:56:07+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "Red heatwave alerts spread across Europe with hottest day ever in France and 40 deaths from drowning",
+      "teaser": "Extreme weather is getting worse as climate change speeds up.",
+      "link": "http://www.euronews.com/2026/06/24/red-heatwave-alerts-spread-across-europe-with-hottest-day-ever-in-france-and-40-deaths-fro",
+      "source": "euronews-green",
+      "published": "2026-06-24T10:49:45+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -2638,102 +2752,6 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
-      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare",
-        "pv"
-      ]
-    },
-    {
-      "title": "Vom Hausdach in den Strommarkt",
-      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
-      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "energiewende",
-        "förderung",
-        "pv"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 440",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 158",
-      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
-      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
