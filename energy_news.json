@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T14:26:00+00:00",
+  "generated_at": "2026-07-05T16:58:28+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "energy-storage-news",
@@ -371,13 +371,13 @@
   "count": 258,
   "articles": [
     {
-      "title": "‘Heat dome’ and storms over eastern US sends electricity prices soaring",
+      "title": "‘Heat dome’ and storms over eastern US send power prices soaring",
       "teaser": "Almost 1mn households left without power after storms and weekend temperatures near 40C disrupt grids",
       "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
       "source": "ft-energy",
-      "published": "2026-07-05T10:09:05+00:00",
+      "published": "2026-07-05T15:06:23+00:00",
       "matched_keywords": [
-        "electricity price"
+        "power price"
       ]
     },
     {
@@ -442,6 +442,16 @@
       ]
     },
     {
+      "title": "Octopus Energy generation reaches £8.5 billion in renewable assets",
+      "teaser": "Renewables investor expands global portfolio to 5.7 GW while accelerating investment into clean energy projects worldwide The post Octopus Energy generation reaches £8.5 billion in renewable assets appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/03/octopus-energy-generation-reaches-8-5-billion-in-renewable-assets/",
+      "source": "energylivenews",
+      "published": "2026-07-03T13:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "Sumitomo to divest stakes in three Belgian offshore wind projects",
       "teaser": "Sumitomo has agreed to divest its equity stakes in three offshore wind power projects located off the Belgian coast as part of a wider strategy to reallocate resources.",
       "link": "https://www.power-technology.com/news/sumitomo-divest-stakes-three-belgian-offshore-wind/",
@@ -494,6 +504,16 @@
       ]
     },
     {
+      "title": "Scots told eat less black pudding and more beans",
+      "teaser": "Changing the Scottish diet to reduce the amount of meat in it could help cut emissions and improve health outcomes The post Scots told eat less black pudding and more beans appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/03/scots-told-eat-less-black-pudding-and-more-beans/",
+      "source": "energylivenews",
+      "published": "2026-07-03T11:29:00+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
       "title": "Texas LNG project’s momentum builds as Kiewit gets go-ahead for early work",
       "teaser": "Texas LNG Brownsville, part of Glenfarne Group, has given conditional authorization to Kiewit Energy Group (KOS), a construction and engineering services provider, for work on a liquefied natural gas (LNG) export project being developed in…",
       "link": "https://www.offshore-energy.biz/texas-lng-projects-momentum-builds-as-kiewit-gets-go-ahead-for-early-work/",
@@ -501,6 +521,16 @@
       "published": "2026-07-03T10:51:19+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "UKAEA and Eni launch fusion venture to support clean energy future",
+      "teaser": "New fusion venture aims to accelerate clean energy and decarbonisation efforts The post UKAEA and Eni launch fusion venture to support clean energy future appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/03/ukaea-and-eni-launch-fusion-venture-to-support-clean-energy-future/",
+      "source": "energylivenews",
+      "published": "2026-07-03T10:30:00+00:00",
+      "matched_keywords": [
+        "decarbon"
       ]
     },
     {
@@ -722,6 +752,16 @@
       "published": "2026-07-02T15:55:39+00:00",
       "matched_keywords": [
         "speicher"
+      ]
+    },
+    {
+      "title": "Winery uses waste energy for perfect tipple",
+      "teaser": "Lanchester Wines is using waste heat from underground mines to cut production emissions The post Winery uses waste energy for perfect tipple appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/02/winery-uses-waste-energy-for-perfect-tipple/",
+      "source": "energylivenews",
+      "published": "2026-07-02T13:00:00+00:00",
+      "matched_keywords": [
+        "emission"
       ]
     },
     {
@@ -1882,37 +1922,6 @@
       ]
     },
     {
-      "title": "Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges",
-      "teaser": "New report shows small businesses leading renewable uptake, with solar, PPAs and flexible energy models gaining momentum The post Irish SMEs emerging as key force in Ireland’s energy transition as solar adoption surges appeared first on…",
-      "link": "https://www.energylivenews.com/2026/06/08/irish-smes-emerging-as-key-force-in-irelands-energy-transition-as-solar-adoption-surges/",
-      "source": "energylivenews",
-      "published": "2026-06-08T12:00:00+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Fishy tales could set back Hinkley even more",
-      "teaser": "Trade body warns extra environmental objections could further delay the giant nuclear plant The post Fishy tales could set back Hinkley even more appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/06/08/fishy-tales-could-set-back-hinkley-even-more/",
-      "source": "energylivenews",
-      "published": "2026-06-08T11:00:00+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Safety fears raised over plug-in solar",
-      "teaser": "The electrical industry says cheap plug-in kits need to be treated with caution over the risk of fire The post Safety fears raised over plug-in solar appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/06/08/safety-fears-raised-over-plug-in-solar/",
-      "source": "energylivenews",
-      "published": "2026-06-08T10:00:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Want a deal on a heat pump? Team up with your neighbors.",
       "teaser": "Last year, Marie Tai needed a better way to keep her condo cool. Her window air-conditioning units were borderline ineffective, even running at full blast. Summers have been getting more intense in Tai’s Boston neighborhood because of a…",
       "link": "https://www.canarymedia.com/articles/heat-pumps/heat-pump-deal-neighbors",
@@ -2611,16 +2620,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
