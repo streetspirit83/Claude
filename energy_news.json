@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T07:18:04+00:00",
+  "generated_at": "2026-07-05T11:24:38+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 259,
+  "count": 261,
   "articles": [
+    {
+      "title": "‘Heat dome’ and storms over eastern US sends electricity prices soaring",
+      "teaser": "Almost 1mn households left without power after storms and weekend temperatures near 40C disrupt grids",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "source": "ft-energy",
+      "published": "2026-07-05T10:09:05+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
     {
       "title": "Italy could be the next country to build a solar railway after Switzerland’s successful trial",
       "teaser": "Solar railways could soon become commonplace in Europe, following a successful trial in Switzerland.",
@@ -389,16 +399,6 @@
       "matched_keywords": [
         "power price",
         "subsid"
-      ]
-    },
-    {
-      "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
-      "teaser": "More than 800,000 households left without power after storms and temperatures near 40C straining utility grids",
-      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
-      "source": "ft-energy",
-      "published": "2026-07-04T09:02:27+00:00",
-      "matched_keywords": [
-        "electricity price"
       ]
     },
     {
@@ -2631,6 +2631,26 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Keine Details zu Schäden und Opfern : Schiff vor Jemens Küste offenbar von „bewaffneten Angreifern“ attackiert",
+      "teaser": "Totengebet für Chamenei in Teheran abgehalten + LNG-Anteil an Gasimporten trotz Konfliktes gestiegen + Iran besteht auf Kontrolle der Straße von Hormus + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/keine-details-zu-schaden-und-opfern-schiff-vor-jemens-kuste-offenbar-von-bewaffneten-angreifern-attackiert-10586281.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
