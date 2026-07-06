@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:05:30+00:00",
+  "generated_at": "2026-07-06T20:47:57+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -130,11 +130,11 @@
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.euwid-energie.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.euwid-energie.de', port=443) at 0x7f57a91c1940>, 'Connection to www.euwid-energie.de timed out. (connect timeout=10)'))",
-      "items_found": 0,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.euwid-energie.de/feed/",
+      "error": null,
+      "items_found": 8,
       "items_matched": 0
     },
     {
