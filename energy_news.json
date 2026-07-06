@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T13:39:02+00:00",
+  "generated_at": "2026-07-06T18:05:30+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -125,16 +125,16 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.euwid-energie.de/feed/",
-      "error": null,
-      "items_found": 8,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.euwid-energie.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.euwid-energie.de', port=443) at 0x7f57a91c1940>, 'Connection to www.euwid-energie.de timed out. (connect timeout=10)'))",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 256,
   "articles": [
+    {
+      "title": "Explodierender Speicher verletzt drei Feuerwehrleute",
+      "teaser": "Nahe Rostock kam es am Wochenende zu einem Zwischenfall, bei dem Feuerwehrleute leicht verletzt wurden. Der Schaden wird auf 40.000 Euro geschätzt.",
+      "link": "https://www.pv-magazine.de/2026/07/06/explodierender-speicher-verletzt-drei-feuerwehrleute/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-06T15:41:20+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
     {
       "title": "Metacon obtient 111 MSEK de Klimatklivet pour son électrolyseur à Uppsala",
       "teaser": "Le suédois Metacon AB bénéficie d'une subvention pouvant atteindre 111 MSEK, soit 55 % d'un investissement total de 202 MSEK, pour ériger un électrolyseur de 10 MW à Uppsala.",
@@ -401,6 +411,16 @@
         "lng",
         "pv",
         "subsid"
+      ]
+    },
+    {
+      "title": "Ecowende’s 760MW offshore wind farm delivers first power to Dutch grid",
+      "teaser": "Ecowende’s 760MW Hollandse Kust West offshore wind farm, developed by a joint venture of Shell, Chubu Electric Power, and Eneco, has been connected to TenneT's offshore grid in the Netherlands and has delivered its first green electricity.",
+      "link": "https://www.power-technology.com/news/ecowendes-760mw-offshore-wind-farm-first-power/",
+      "source": "power-technology",
+      "published": "2026-07-06T12:46:48+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -445,6 +465,17 @@
       ]
     },
     {
+      "title": "Belectric baut weiter Photovoltaik-Speicher-Kraftwerke – nur derzeit kaum in Deutschland",
+      "teaser": "Zum 25-jährigen Bestehen blickt Geschäftsführer Thorsten Blanke auf sechs Gigawatt realisierte Projekte zurück. Im Interview auf der The smarter E hat er erklärt, warum reine Solarparks in Deutschland derzeit schwierig sind und warum…",
+      "link": "https://www.pv-magazine.de/2026/07/06/belectric-baut-weiter-photovoltaik-speicher-kraftwerke-nur-derzeit-kaum-in-deutschland/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-06T10:19:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
       "title": "PPAs brauchen einen Markt, der Bankfähigkeit liefert",
       "teaser": "Deutschland verfügt über ausreichend genehmigte Wind- und Solarprojekte. Die eigentliche Herausforderung liegt nicht mehr in der Genehmigung, sondern in der wirtschaftlichen Realisierung. Power Purchase Agreements können dabei eine…",
       "link": "https://www.pv-magazine.de/2026/07/06/ppas-brauchen-einen-markt-der-bankfaehigkeit-liefert/",
@@ -482,17 +513,6 @@
       "published": "2026-07-06T08:47:28+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "Belectric baut weiter Photovoltaik-Speicher-Kraftwerke – nur derzeit kaum in Deutschland",
-      "teaser": "Zum 25-jährigen Bestehen blickt Geschäftsführer Thorsten Blanke auf sechs Gigawatt realisierte Projekte zurück. Im Interview auf der The smarter E hat er erklärt, warum reine Solarparks in Deutschland derzeit schwierig sind und warum…",
-      "link": "https://www.pv-magazine.de/2026/07/06/belectric-baut-weiter-photovoltaik-speicher-kraftwerke-nur-derzeit-kaum-in-deutschland/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-06T08:19:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
       ]
     },
     {
@@ -724,19 +744,6 @@
       ]
     },
     {
-      "title": "Eisen als Langzeit-Energiespeicher: KIT untersucht Potenzial in der Stromerzeugung",
-      "teaser": "Eisen wäre eine sinnvolle Option zur Langzeitspeicherung der Energie aus Photovoltaik und Windkraft – so der zentrale Befund einer Studie des KIT. Das CO2-neutrale Verbrennen und anschließende Rückführen in den Ausgangszustand hat demnach…",
-      "link": "https://www.pv-magazine.de/2026/07/03/eisen-als-langzeit-energiespeicher-kit-untersucht-potenzial-in-der-stromerzeugung/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-03T10:25:00+00:00",
-      "matched_keywords": [
-        "co2",
-        "photovoltaik",
-        "speicher",
-        "windkraft"
-      ]
-    },
-    {
       "title": "Jera Nex BP buys deeper into Belgian offshore wind",
       "teaser": "Jera Nex BP has deepened its involvement in offshore wind in Belgium by buying greater stakes in two operational offshore wind farms in the country.",
       "link": "https://www.windpowermonthly.com/article/1963600/jera-nex-bp-buys-deeper-belgian-offshore-wind",
@@ -784,17 +791,6 @@
       "published": "2026-07-03T10:04:29+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Denkmalschutz und Photovoltaik: Eisengraue Solarmodule schaffen Präzedenzfall in Salzburg",
-      "teaser": "Die Altstadtschutzkommission der österreichischen Stadt genehmigte nun eine Photovoltaik-Anlage. Eisengraue Solarmodule von Roofit Solar ermöglichen den Bau in der historischen Altstadt, die zum Unesco-Weltkulturerbe gehört.",
-      "link": "https://www.pv-magazine.de/2026/07/03/denkmalschutz-und-photovoltaik-eisengraue-solarmodule-schaffen-praezedenzfall-in-salzburg/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-03T09:25:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "solar"
       ]
     },
     {
@@ -2636,16 +2632,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Umsetzung der Richtlinie (EU) 2024/1785 zur Änderung der Richtlinie 2010/75/EU über Industrieemissionen",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-umsetzung-der-richtlinie-eu-2024-1785-zur-aenderung-der-richtlinie-2010-75-eu-ueber-industrieemissionen",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2865,7 +2851,7 @@
     },
     {
       "title": "German Q3 power prices may rise on heat, solar spikes",
-      "teaser": "Josephine Steppat",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/611ed190-a3dc-4900-8721-bb9fdcbb568a/german-q3-power-prices-may-rise-on-heat-solar-spikes-analysts",
       "source": "montelnews",
       "published": null,
@@ -2895,9 +2881,9 @@
       ]
     },
     {
-      "title": "The German offshore wind sites in question, as TotalEnergies eyes exit",
+      "title": "UK to support new hybrid offshore wind that can slash deepwater costs in next auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/as-totalenergies-eyes-exit-which-other-german-offshore-wind-sites-are-under-threat-/2-1-2009629",
+      "link": "https://www.rechargenews.com/technology/uk-to-support-new-hybrid-offshore-wind-that-can-slash-deepwater-costs-in-next-auction/2-1-2013756",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2917,14 +2903,37 @@
       ]
     },
     {
-      "title": "UK to support new hybrid offshore wind that can slash deepwater costs in next auction",
+      "title": "Major change for floating offshore wind in UK renewables auction rules",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/uk-to-support-new-hybrid-offshore-wind-that-can-slash-deepwater-costs-in-next-auction/2-1-2013756",
+      "link": "https://www.rechargenews.com/floating-wind/uk-unveils-major-change-for-floating-offshore-wind-auction-rules/2-1-2013813",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
         "solar"
+      ]
+    },
+    {
+      "title": "The German offshore wind sites in question, as TotalEnergies eyes exit",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/as-totalenergies-eyes-exit-which-other-german-offshore-wind-sites-are-under-threat-/2-1-2009629",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "RWE defends 'rigorous' consent of offshore wind farm challenged by Equinor",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/legal/rwe-defends-rigorous-consent-of-offshore-wind-farm-challenged-by-equinor/2-1-2013798",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
       ]
     },
     {
@@ -2968,28 +2977,6 @@
       "published": null,
       "matched_keywords": [
         "energy storage",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why RWE's Amprion deal is not as transformative as it appears",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Team Trump targets New York solar in widening renewables crackdown",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/team-trump-targets-new-york-solar-in-widening-renewables-crackdown/2-1-2012241",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
         "renewable",
         "solar"
       ]
@@ -3051,9 +3038,9 @@
       ]
     },
     {
-      "title": "US crackdown leaves Massachusetts offshore wind in limbo",
+      "title": "Why RWE's Amprion deal is not as transformative as it appears",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/trump-crackdown-leaves-massachusetts-offshore-wind-in-limbo/2-1-2012842",
+      "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
