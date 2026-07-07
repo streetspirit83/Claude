@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:40:27+00:00",
+  "generated_at": "2026-07-07T17:52:59+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "energynews-pro",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 250,
+  "count": 259,
   "articles": [
+    {
+      "title": "Airbus to make first foray into engine manufacturing with hydrogen tie-up",
+      "teaser": "European aircraft maker to form joint venture with Germany’s MTU Aero Engines to take on China and US rivals",
+      "link": "https://www.ft.com/content/e8be97c7-af28-42f2-8d81-ce619d4c0de1",
+      "source": "ft-energy",
+      "published": "2026-07-07T15:50:01+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
     {
       "title": "Stadtwerke Husum mandate DMT pour une étude de faisabilité géothermique en Allemagne",
       "teaser": "Stadtwerke Husum a mandaté DMT GmbH & Co. KG pour une étude de faisabilité géothermique en Schleswig-Holstein, financée par 152 000 € de subvention régionale. Les résultats sont attendus fin 2026.",
@@ -1201,18 +1211,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Why Britain’s electricity prices risk remaining high",
-      "teaser": "Analysts argue that household bills will rise as lower wholesale costs are offset by higher spending on electricity networks and renewables subsidies",
-      "link": "https://www.ft.com/content/3d62dc10-1b99-4166-89d5-82f4fda9737b",
-      "source": "ft-energy",
-      "published": "2026-07-01T04:00:06+00:00",
-      "matched_keywords": [
-        "electricity price",
-        "renewable",
-        "subsid"
       ]
     },
     {
@@ -2783,6 +2781,102 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
+      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "erneuerbare",
+        "pv"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 440",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 158",
+      "teaser": "18. Juni 2026, 10:30 - 12:00 (CEST) | 17:30 – 19:00 (KST)",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Eigenkapital für die Energiewende: Wie die Finanzierung der Energieversorger gelingt",
+      "teaser": "Deutschlands Energieversorgern fehlen 13 Milliarden Euro an zusätzlichem Eigenkapital für Investitionen in Strom- und Wärmenetze. Wir zeigen, wie Bund, Länder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/wie-die-finanzierung-der-energieversorger-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
