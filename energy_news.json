@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T11:42:44+00:00",
+  "generated_at": "2026-07-08T15:11:22+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 11
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 4
     },
     {
       "name": "energy-storage-news",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 28
+      "items_matched": 27
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,83 @@
       "items_matched": 0
     }
   ],
-  "count": 262,
+  "count": 261,
   "articles": [
+    {
+      "title": "Plug Power décroche 50 MW pour le plus grand hub hydrogène renouvelable d'Australie",
+      "teaser": "Plug Power a remporté une commande de 50 MW d'électrolyseurs PEM pour le Hunter Valley Hydrogen Hub d'Orica en Australie, premier projet Hydrogen Headstart à franchir la décision finale d'investissement.",
+      "link": "https://energynews.pro/plug-power-decroche-50-mw-pour-le-plus-grand-hub-hydrogene-renouvelable-daustralie",
+      "source": "energynews-pro",
+      "published": "2026-07-08T15:09:12+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Netzausbau, Speicher und Flexibilität hinken dem Wachstum der erneuerbaren Energien in Europa hinterher",
+      "teaser": "Einem neuen Bericht des European Climate Neutrality Observatory zufolge schreiten der Netzausbau, die Batteriespeicher-Zubau und die Flexibilität, die für eine großflächige Nutzung Photovoltaik, Windkraft &#38; Co. in Europa erforderlich…",
+      "link": "https://www.pv-magazine.de/2026/07/08/netzausbau-speicher-und-flexibilitaet-hinken-dem-wachstum-der-erneuerbaren-energien-in-europa-hinterher/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-08T14:55:18+00:00",
+      "matched_keywords": [
+        "climate",
+        "erneuerbare",
+        "photovoltaik",
+        "speicher",
+        "windkraft"
+      ]
+    },
+    {
+      "title": "Consultation to strengthen UK nuclear manufacturing",
+      "teaser": "HVM Catapult says more than £100bn of nuclear investment presents a major opportunity for UK manufacturing and supply chains The post Consultation to strengthen UK nuclear manufacturing appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/08/consultation-to-strengthen-uk-nuclear-manufacturing/",
+      "source": "energylivenews",
+      "published": "2026-07-08T14:00:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "BESS developer opts for California Energy Commission fast-track approval after facing local county ordinance obstacles",
+      "teaser": "Developer New Leaf Energy withdrew its application for a battery energy storage system (BESS) in Santa Cruz County, California, US, choosing to seek approval through the California Energy Commission (CEC).",
+      "link": "https://www.energy-storage.news/bess-developer-opts-for-california-energy-commission-fast-track-approval-after-facing-local-county-ordinance-obstacles/",
+      "source": "energy-storage-news",
+      "published": "2026-07-08T13:43:13+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Shipping incident: Projectile hits LNG carrier in Strait of Hormuz",
+      "teaser": "Qatar Gas Transport Company (Nakilat), Qatar’s shipping and maritime player, has reported a vessel incident in the Strait of Hormuz. The post Shipping incident: Projectile hits LNG carrier in Strait of Hormuz appeared first on Offshore…",
+      "link": "https://www.offshore-energy.biz/shipping-incident-projectile-hits-lng-carrier-in-strait-of-hormuz/",
+      "source": "offshore-energy",
+      "published": "2026-07-08T13:14:33+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Hydrogen industry calls for stronger support",
+      "teaser": "Industry groups are urging EU policymakers to give hydrogen infrastructure equal priority with electricity networks in upcoming legislation The post Hydrogen industry calls for stronger support appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/08/hydrogen-industry-calls-for-stronger-support/",
+      "source": "energylivenews",
+      "published": "2026-07-08T13:00:00+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Photovoltaik-Installateure im rechtsfreien Raum",
+      "teaser": "pv+ online: Ein neues Urteil des OLG Koblenz zur Eintragungspflicht in die Handwerksrolle hat die alte Frage „Wer darf was?“ wieder ins Rampenlicht gerückt. Darf also ein Elektroinstallateur einen Dachhaken einschrauben? pv magazine hat…",
+      "link": "https://www.pv-magazine.de/2026/07/08/photovoltaik-installateure-im-rechtsfreien-raum/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-08T12:04:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
     {
       "title": "Kurzgutachten: EEG-Förderlücke droht",
       "teaser": "Für alle Erneuerbaren-Anlagen, die vor Ende des Jahres ans Netz gehen oder einen Zuschlag in Ausschreibungen erhalten haben, gibt es einen Bestandsschutz bezüglich der Förderung. In einem Rechtsgutachten der Kanzlei Raue wird aufgezeigt,…",
@@ -390,6 +465,16 @@
       "published": "2026-07-08T10:28:09+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Enersea’s LNG solution for South American project offers ‘cost-effective’ alternative to jetties",
+      "teaser": "The Netherlands-headquartered offshore energy engineering player Enersea has unveiled a liquefied natural gas (LNG) loading platform concept as part of a major LNG infrastructure development in South America, spotlighting innovation’s role…",
+      "link": "https://www.offshore-energy.biz/enerseas-lng-solution-for-south-american-project-offers-cost-effective-alternative-to-jetties/",
+      "source": "offshore-energy",
+      "published": "2026-07-08T10:24:02+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -663,16 +748,6 @@
       ]
     },
     {
-      "title": "TotalEnergies, BluEnergies enhancing Liberia’s oil & gas offshore exploration prospects",
-      "teaser": "A Liberian upstream subsidiary of France’s energy giant TotalEnergies (TTE) and BluEnergies (BLU), a Canadian-based international oil and gas exploration and development company with a focus on operations in West Africa, are conducting a…",
-      "link": "https://www.offshore-energy.biz/totalenergies-bluenergies-enhancing-liberias-oil-gas-offshore-exploration-prospects/",
-      "source": "offshore-energy",
-      "published": "2026-07-07T10:51:03+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "„Sprechende Batterie“ soll selbsttätig Hitze oder Gasbildung melden",
       "teaser": "Ein an der Uni Kiel entwickeltes Sensorsystem könnte frühzeitig potenziell gefährliche Zustände in stationären Batteriespeichern oder Elektroauto-Batterien melden. Eigene Datenleitung sind hierfür nicht nötig, das System nutzt die bereits…",
       "link": "https://www.pv-magazine.de/2026/07/07/sprechende-batterie-soll-selbsttaetig-hitze-oder-gasbildung-melden/",
@@ -713,17 +788,6 @@
       ]
     },
     {
-      "title": "UAE’s giant LNG project lines up new deal as Inpex and ADNOC strengthen ties",
-      "teaser": "Inpex Energy Trading Singapore (IETS), a Singapore-based subsidiary of Japan’s largest exploration and production (E&#38;P) player Inpex, has struck a new deal with ADNOC Ruwais Liquefied Natural Gas (ARLNG), an UAE-based subsidiary of Abu…",
-      "link": "https://www.offshore-energy.biz/uaes-giant-lng-project-lines-up-new-deal-as-inpex-and-adnoc-strengthen-ties/",
-      "source": "offshore-energy",
-      "published": "2026-07-07T09:55:59+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
-      ]
-    },
-    {
       "title": "Brandgefahr bei Halbzellen-Solarmodulen: Thermografie als Muss",
       "teaser": "pv+: Auch bei Qualitätsmarken lässt sich eine steigende Anzahl von Substring-Fehlern beobachten. Für moderne Halbzellenmodule geht dies mit erhöhtem Brandrisiko einher – ein wichtiger Grund für Untersuchungen bei Inbetriebnahme und auch…",
       "link": "https://www.pv-magazine.de/2026/07/07/brandgefahr-bei-halbzellen-solarmodulen-thermografie-als-muss/",
@@ -752,16 +816,6 @@
       "published": "2026-07-07T09:11:24+00:00",
       "matched_keywords": [
         "net-zero"
-      ]
-    },
-    {
-      "title": "Sponsored: Solax stellt AC-Wallbox für Vehicle-to-Home-Anwendungen vor",
-      "teaser": "Solax Power hat auf der Intersolar Europe 2026 eine „Vehicle-to-Home“ (V2H)-Lösung, die „Binary Series“, vorgestellt. Sie bietet eine AC-Lademöglichkeit für Elektrofahrzeuge und eröffnet Privathaushalten mit Photovoltaik-Anlagen und…",
-      "link": "https://www.pv-magazine.de/2026/07/07/sponsored-solax-stellt-ac-wallbox-fuer-vehicle-to-home-anwendungen-vor/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-07T09:00:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
       ]
     },
     {
@@ -896,16 +950,6 @@
       "published": "2026-07-07T01:50:30+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Europe versus China: who is ready to take over the Southeast Asian power industry?",
-      "teaser": "Southeast Asia is now feeling the impact of one of the largest oil shocks in history, and its reliance on Gulf oil and LNG has come back to bite.",
-      "link": "https://www.power-technology.com/analyst-comment/europe-versus-china-southeast-asian-power-industry/",
-      "source": "power-technology",
-      "published": "2026-07-06T15:16:08+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1272,27 +1316,6 @@
       ]
     },
     {
-      "title": "EU weighs weaker data centre climate rules in win for Big Tech",
-      "teaser": "Past proposals for strict rules on renewable energy certificates have been dropped after heavy lobbying, draft shows",
-      "link": "https://www.ft.com/content/21358a9a-b93b-443c-8a68-6fed89c8b3a6",
-      "source": "ft-energy",
-      "published": "2026-07-02T04:00:22+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Battery start-ups see ‘crazy’ demand to smooth power surges in data centres",
-      "teaser": "Rapid growth of clusters of processors for AI training drives need for energy storage",
-      "link": "https://www.ft.com/content/55c10ef1-1589-47b2-9fa8-a2a04f5cf316",
-      "source": "ft-energy",
-      "published": "2026-07-02T04:00:04+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Co-location of solar and BESS still has a long way to go",
       "teaser": "A lot of work and thought still needs to go into maximising the potential for co-location of solar and BESS technology, panellists at the Clean Power 2030 Summit said yesterday (30 June).",
       "link": "https://www.energy-storage.news/co-location-of-solar-and-bess-still-has-a-long-way-to-go/",
@@ -1616,28 +1639,6 @@
       ]
     },
     {
-      "title": "Enlight secures financing for 1.2GW/4GWh Arizona solar and storage ‘Complex’",
-      "teaser": "IPP Enlight Renewable Energy has announced that its US subsidiary Clēnera Holdings has entered into a debt financing framework agreement for the CO Bar Complex in Arizona, US.",
-      "link": "https://www.energy-storage.news/enlight-secures-financing-for-1-2gw-4gwh-arizona-solar-and-storage-complex/",
-      "source": "energy-storage-news",
-      "published": "2026-06-26T11:55:31+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "subsid"
-      ]
-    },
-    {
-      "title": "UK’s Ofgem goes big on LDES cap-and-floor window 1; 18-hour lithium-ion among winners",
-      "teaser": "UK energy regulator Ofgem has shortlisted 16 projects for the first ever long-duration energy storage (LDES) cap-and-floor scheme, totalling 7.6GW of capacity ranging from 8- to 22-hour durations.",
-      "link": "https://www.energy-storage.news/uks-ofgem-goes-big-on-ldes-cap-and-floor-window-1-18-hour-lithium-ion-among-winners/",
-      "source": "energy-storage-news",
-      "published": "2026-06-26T11:54:20+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Equinor quits another offshore wind market",
       "teaser": "Equinor is quitting the Japanese offshore wind power market, shortly after dropping its broader capacity target for renewable energy deployment.",
       "link": "https://www.windpowermonthly.com/article/1962913/equinor-quits-offshore-wind-market",
@@ -1717,16 +1718,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Rare artefacts found at Hornsea 3 offshore wind site",
-      "teaser": "Investigators have found rare lead ingots on a 17th century shipwreck at the site of Ørsted’s Hornsea 3 project, which is due to become one of the world’s largest offshore wind farms.",
-      "link": "https://www.windpowermonthly.com/article/1962783/rare-artefacts-found-hornsea-3-offshore-wind-site",
-      "source": "windpowermonthly",
-      "published": "2026-06-25T10:15:24+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -2917,7 +2908,7 @@
     },
     {
       "title": "France’s heat-related nuclear cuts to reach 4.6% of output",
-      "teaser": "Josephine Steppat",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/af04d53b-fa73-4466-9edd-08983efae99b/france-s-heat-related-nuclear-cuts-to-reach-4-6-of-output-2",
       "source": "montelnews",
       "published": null,
@@ -2933,6 +2924,17 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Green light for Technip Energies-X1 floater project that could halve hull weight",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/green-light-for-technip-backed-floater-project-that-could-halve-hull-weight/2-1-2014670",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3013,17 +3015,6 @@
       ]
     },
     {
-      "title": "UK freezes administrative strike prices for next renewables auction",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/uk-freezes-administrative-strike-prices-for-next-renewables-auction/2-1-2013752",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "The German offshore wind sites in question, as TotalEnergies eyes exit",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/as-totalenergies-eyes-exit-which-other-german-offshore-wind-sites-are-under-threat-/2-1-2009629",
@@ -3079,9 +3070,9 @@
       ]
     },
     {
-      "title": "Major change for floating offshore wind in UK renewables auction rules",
+      "title": "UK freezes administrative strike prices for next renewables auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/uk-unveils-major-change-for-floating-offshore-wind-auction-rules/2-1-2013813",
+      "link": "https://www.rechargenews.com/auctions/uk-freezes-administrative-strike-prices-for-next-renewables-auction/2-1-2013752",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3090,9 +3081,9 @@
       ]
     },
     {
-      "title": "RWE defends approval of huge offshore wind project challenged by Equinor",
+      "title": "Major change for floating offshore wind in UK renewables auction rules",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/rwe-defends-rigorous-consent-of-offshore-wind-farm-challenged-by-equinor/2-1-2013798",
+      "link": "https://www.rechargenews.com/floating-wind/uk-unveils-major-change-for-floating-offshore-wind-auction-rules/2-1-2013813",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
