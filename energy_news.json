@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:11:22+00:00",
+  "generated_at": "2026-07-08T17:21:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 264,
   "articles": [
+    {
+      "title": "LRE inaugure un portefeuille solaire de 725 MW en Oklahoma pour Google",
+      "teaser": "LRE (Leeward Renewable Energy) franchit des jalons majeurs sur ses cinq projets solaires en Oklahoma, représentant 725 MW et environ 1,5 milliard de dollars d'investissement, en soutien aux opérations de Google dans l'État.",
+      "link": "https://energynews.pro/lre-inaugure-un-portefeuille-solaire-de-725-mw-en-oklahoma-pour-google",
+      "source": "energynews-pro",
+      "published": "2026-07-08T16:59:07+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Vallourec certifié par le Global Steel Climate Council pour sa décarbonation de l'acier",
+      "teaser": "Vallourec obtient la certification du Global Steel Climate Council pour sa trajectoire climatique, avec une intensité carbone de l'acier ramenée à 1,16 tCO₂e par tonne en 2025, trois ans avant l'échéance fixée.",
+      "link": "https://energynews.pro/vallourec-certifie-par-le-global-steel-climate-council-pour-sa-decarbonation-de-lacier",
+      "source": "energynews-pro",
+      "published": "2026-07-08T16:08:12+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Velto Renewables refinance 800 millions d'euros de solaire photovoltaïque en Espagne",
+      "teaser": "Velto Renewables boucle un refinancement de plus de 800 millions d'euros pour 76 centrales photovoltaïques opérationnelles en Espagne, totalisant 218 MWp, avec la participation de huit banques internationales.",
+      "link": "https://energynews.pro/velto-renewables-refinance-800-millions-deuros-de-solaire-photovoltaique-en-espagne",
+      "source": "energynews-pro",
+      "published": "2026-07-08T15:29:24+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Plug Power décroche 50 MW pour le plus grand hub hydrogène renouvelable d'Australie",
       "teaser": "Plug Power a remporté une commande de 50 MW d'électrolyseurs PEM pour le Hunter Valley Hydrogen Hub d'Orica en Australie, premier projet Hydrogen Headstart à franchir la décision finale d'investissement.",
@@ -382,7 +412,7 @@
     },
     {
       "title": "Netzausbau, Speicher und Flexibilität hinken dem Wachstum der erneuerbaren Energien in Europa hinterher",
-      "teaser": "Einem neuen Bericht des European Climate Neutrality Observatory zufolge schreiten der Netzausbau, die Batteriespeicher-Zubau und die Flexibilität, die für eine großflächige Nutzung Photovoltaik, Windkraft &#38; Co. in Europa erforderlich…",
+      "teaser": "Einem neuen Bericht des European Climate Neutrality Observatory zufolge schreiten der Netzausbau, die Batteriespeicher-Zubau und die Flexibilität, die für eine großflächige Nutzung von Photovoltaik, Windkraft &#38; Co. in Europa…",
       "link": "https://www.pv-magazine.de/2026/07/08/netzausbau-speicher-und-flexibilitaet-hinken-dem-wachstum-der-erneuerbaren-energien-in-europa-hinterher/",
       "source": "pv-magazine-de",
       "published": "2026-07-08T14:55:18+00:00",
@@ -436,7 +466,7 @@
     },
     {
       "title": "Photovoltaik-Installateure im rechtsfreien Raum",
-      "teaser": "pv+ online: Ein neues Urteil des OLG Koblenz zur Eintragungspflicht in die Handwerksrolle hat die alte Frage „Wer darf was?“ wieder ins Rampenlicht gerückt. Darf also ein Elektroinstallateur einen Dachhaken einschrauben? pv magazine hat…",
+      "teaser": "pv+: Ein neues Urteil des OLG Koblenz zur Eintragungspflicht in die Handwerksrolle hat die alte Frage „Wer darf was?“ wieder ins Rampenlicht gerückt. Darf also ein Elektroinstallateur einen Dachhaken einschrauben? pv magazine hat bei den…",
       "link": "https://www.pv-magazine.de/2026/07/08/photovoltaik-installateure-im-rechtsfreien-raum/",
       "source": "pv-magazine-de",
       "published": "2026-07-08T12:04:00+00:00",
@@ -529,6 +559,16 @@
         "energy storage",
         "hydrogen",
         "wind farm"
+      ]
+    },
+    {
+      "title": "Nigeria’s gas ambitions ignite as batch of deals pushes energy security agenda forward",
+      "teaser": "The Nigerian National Petroleum Company (NNPC) has sealed multiple gas agreements to unleash Nigeria’s gas aspirations as a catalyst for industrial growth and enhance the African nation’s energy security. The post Nigeria’s gas ambitions…",
+      "link": "https://www.offshore-energy.biz/nigerias-gas-ambitions-ignite-as-batch-of-deals-pushes-energy-security-agenda-forward/",
+      "source": "offshore-energy",
+      "published": "2026-07-08T07:51:19+00:00",
+      "matched_keywords": [
+        "energy security"
       ]
     },
     {
@@ -717,16 +757,6 @@
       ]
     },
     {
-      "title": "Encore for Ventura Offshore rig as Eni and Petronas extend Southeast Asian drilling gig",
-      "teaser": "Eni Muara Bakau, a subsidiary of Searah that represents a joint venture between Eni and Petronas, has prolonged a drilling assignment being conducted off the coast of Indonesia by a semi-submersible rig owned by Brazil’s deepwater offshore…",
-      "link": "https://www.offshore-energy.biz/encore-for-ventura-offshore-rig-as-eni-and-petronas-extend-southeast-asian-drilling-gig/",
-      "source": "offshore-energy",
-      "published": "2026-07-07T13:17:06+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Brazil to phase out diesel subsidy more gradually",
       "teaser": "Brazil will remove its gasoline subsidy quickly while phasing out diesel support more gradually to avoid market disruption The post Brazil to phase out diesel subsidy more gradually appeared first on Energy Live News .",
       "link": "https://www.energylivenews.com/2026/07/07/brazil-to-phase-out-diesel-subsidy-more-gradually/",
@@ -785,16 +815,6 @@
       "published": "2026-07-07T09:59:29+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Brandgefahr bei Halbzellen-Solarmodulen: Thermografie als Muss",
-      "teaser": "pv+: Auch bei Qualitätsmarken lässt sich eine steigende Anzahl von Substring-Fehlern beobachten. Für moderne Halbzellenmodule geht dies mit erhöhtem Brandrisiko einher – ein wichtiger Grund für Untersuchungen bei Inbetriebnahme und auch…",
-      "link": "https://www.pv-magazine.de/2026/07/07/brandgefahr-bei-halbzellen-solarmodulen-thermografie-als-muss/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-07T09:28:00+00:00",
-      "matched_keywords": [
-        "pv"
       ]
     },
     {
@@ -2696,6 +2716,17 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Weniger Geld für Wärmepumpen : Regierung kürzt die Förderung trotz gegenteiliger Versprechen",
+      "teaser": "Die Wärmepumpenförderung galt bisher als unantastbar, jetzt wird sie doch gekürzt. Nicht alle in der Koalition sind darüber glücklich. Was ändert sich für Hausbesitzer?",
+      "link": "https://www.tagesspiegel.de/politik/weniger-geld-fur-warmepumpen-regierung-kurzt-die-forderung-trotz-gegenteiliger-versprechen-15815883.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "förderung",
+        "wärmepumpe"
       ]
     },
     {
