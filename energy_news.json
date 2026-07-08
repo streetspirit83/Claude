@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:21:21+00:00",
+  "generated_at": "2026-07-08T20:16:50+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 264,
+  "count": 261,
   "articles": [
     {
       "title": "LRE inaugure un portefeuille solaire de 725 MW en Oklahoma pour Google",
@@ -589,16 +589,6 @@
       "published": "2026-07-08T07:45:00+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "The Nuclear Company renforce sa gouvernance avec la nomination de Brad Buss",
-      "teaser": "The Nuclear Company intègre Brad Buss à son conseil d'administration comme directeur indépendant et président du comité d'audit. Vétéran des marchés de capitaux, il a participé à plus de 65 milliards de dollars de transactions.",
-      "link": "https://energynews.pro/the-nuclear-company-renforce-sa-gouvernance-avec-la-nomination-de-brad-buss",
-      "source": "energynews-pro",
-      "published": "2026-07-08T07:34:12+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1720,16 +1710,6 @@
       ]
     },
     {
-      "title": "‘This is climate change’: European heat wave impossible without warming, scientists say",
-      "teaser": "Man-made warming made this heat wave far more likely and hotter than it would have been even a few decades ago, research finds.",
-      "link": "https://www.politico.eu/article/this-is-climate-change-european-heat-wave-impossible-without-warming-scientists-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-26T04:01:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Massachusetts Senate preserves energy-efficiency funding in new bill",
       "teaser": "The Massachusetts Senate on Wednesday unveiled its long-awaited energy legislation, a wide-ranging bill that touches on dozens of topics from plug-in solar to renewable energy procurement. Sponsors say the measures could save consumers…",
       "link": "https://www.canarymedia.com/articles/energy-efficiency/massachusetts-senate-preserves-energy-efficiency-funding",
@@ -2716,17 +2696,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Weniger Geld für Wärmepumpen : Regierung kürzt die Förderung trotz gegenteiliger Versprechen",
-      "teaser": "Die Wärmepumpenförderung galt bisher als unantastbar, jetzt wird sie doch gekürzt. Nicht alle in der Koalition sind darüber glücklich. Was ändert sich für Hausbesitzer?",
-      "link": "https://www.tagesspiegel.de/politik/weniger-geld-fur-warmepumpen-regierung-kurzt-die-forderung-trotz-gegenteiliger-versprechen-15815883.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "förderung",
-        "wärmepumpe"
       ]
     },
     {
