@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:46:09+00:00",
+  "generated_at": "2026-07-08T06:22:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 12
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 9
     },
     {
       "name": "ft-energy",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 32
+      "items_matched": 30
     },
     {
       "name": "smart-energy",
@@ -368,14 +368,66 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 263,
   "articles": [
+    {
+      "title": "Solar-mad Germans turn to battery storage to shield themselves against fossil fuel price shocks",
+      "teaser": "“Consumers have recognised how useful and profitable batteries are, especially in combination with solar systems, heat pumps and EVs.”",
+      "link": "http://www.euronews.com/2026/07/08/solar-mad-germans-turn-to-battery-storage-to-shield-themselves-against-fossil-fuel-price-s",
+      "source": "euronews-green",
+      "published": "2026-07-08T05:00:42+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "heat pump",
+        "solar"
+      ]
+    },
+    {
+      "title": "More ‘deadly’ heat is on the way: Can Europe’s waterways cool us down and replace air con?",
+      "teaser": "“District cooling offers clear benefits for cities aiming to safeguard public health and cut emissions.”",
+      "link": "http://www.euronews.com/2026/07/08/more-deadly-heat-is-on-the-way-can-europes-waterways-cool-us-down-and-replace-air-con",
+      "source": "euronews-green",
+      "published": "2026-07-08T04:30:26+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "‘Battery storage may be important, but we also welcome long-duration storage’: QIC on Queensland’s North West Energy Fund",
+      "teaser": "Arash Shojaie of QIC Infrastructure outlines how Queensland's North West Energy Fund will approach cost reduction, technology selection and more.",
+      "link": "https://www.energy-storage.news/battery-storage-may-be-important-but-we-also-welcome-long-duration-storage-qic-on-queenslands-north-west-energy-fund/",
+      "source": "energy-storage-news",
+      "published": "2026-07-08T03:12:58+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Trump administration reimposes sanctions on Iran oil sales",
+      "teaser": "The Trump administration on Tuesday revoked a general license that had authorized the sale of Iranian oil after several tankers were attacked while transiting the Strait of Hormuz. The development is a sign that the peace agreement reached…",
+      "link": "https://www.politico.com/news/2026/07/07/trump-reimposes-sanctions-iran-oil-sanctions-00989081?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-07T21:47:15+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
     {
       "title": "‘Can you help us?’: US oil execs turn to Trump to topple Europe’s climate rules",
       "teaser": "An inside look at how a climate regulation became a battleground between the U.S. and Europe.",
       "link": "https://www.politico.com/news/2026/07/07/oil-executives-trump-europe-climate-00987782?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "politico-energy-climate",
       "published": "2026-07-07T18:38:37+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Europe’s cows get a geopolitical upgrade",
+      "teaser": "The EU's plan to support livestock farmers recasts a climate problem as a strategic asset.",
+      "link": "https://www.politico.eu/article/eu-livestock-strategy-food-security-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-07T18:02:15+00:00",
       "matched_keywords": [
         "climate"
       ]
@@ -1610,17 +1662,6 @@
       ]
     },
     {
-      "title": "‘Climate change is running rampant’: Europe’s heatwave ‘virtually impossible’ 50 years ago",
-      "teaser": "“Continued fossil-fuel emissions are directly responsible for the disruption people are experiencing this week,” climate scientists warn.",
-      "link": "http://www.euronews.com/2026/06/26/climate-change-is-running-rampant-europes-heatwave-virtually-impossible-50-years-ago",
-      "source": "euronews-green",
-      "published": "2026-06-26T04:00:57+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
-      ]
-    },
-    {
       "title": "Asian Development Bank supports 500MWh grid-forming battery energy storage project in Cambodia",
       "teaser": "ADB has approved a Royal Government of Cambodia application for financial support for a 250MW/500MWh battery storage project.",
       "link": "https://www.energy-storage.news/asian-development-bank-supports-500mwh-grid-forming-battery-energy-storage-project-in-cambodia/",
@@ -1642,16 +1683,6 @@
       ]
     },
     {
-      "title": "Trends to look out for at Energy Storage Summit Asia 2026",
-      "teaser": "Energy Storage Summit Asia 2026 convenes in Bangkok as Vietnam's tariff reform, Cambodia's grid milestone, and AI demand reshape the region.",
-      "link": "https://www.energy-storage.news/trends-to-look-out-for-at-energy-storage-summit-asia-2026/",
-      "source": "energy-storage-news",
-      "published": "2026-06-26T00:02:19+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Massachusetts Senate preserves energy-efficiency funding in new bill",
       "teaser": "The Massachusetts Senate on Wednesday unveiled its long-awaited energy legislation, a wide-ranging bill that touches on dozens of topics from plug-in solar to renewable energy procurement. Sponsors say the measures could save consumers…",
       "link": "https://www.canarymedia.com/articles/energy-efficiency/massachusetts-senate-preserves-energy-efficiency-funding",
@@ -1660,27 +1691,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Tesla, Sunrun, Renew Home announce 16GW VPP framework, focus on PJM",
-      "teaser": "US residential solar and energy storage installer Sunrun, energy management platform Renew Home, and Tesla have announced an agreement to deliver more than 16GW of flexible energy capacity to US hyperscalers and utilities.",
-      "link": "https://www.energy-storage.news/tesla-sunrun-renew-home-announce-16gw-vpp-framework-focus-on-pjm/",
-      "source": "energy-storage-news",
-      "published": "2026-06-25T14:00:52+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "US ROUNDUP: e-Storage, Spearmint Energy, and OCI Energy advance BESS projects in Michigan and Texas",
-      "teaser": "In this US news roundup, e-Storage, Spearmint Energy, and OCI Energy advance battery energy storage system (BESS) projects and financing in Michigan and Texas.",
-      "link": "https://www.energy-storage.news/us-roundup-e-storage-spearmint-energy-and-oci-energy-advance-bess-projects-in-michigan-and-texas/",
-      "source": "energy-storage-news",
-      "published": "2026-06-25T13:56:08+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2683,9 +2693,19 @@
       ]
     },
     {
-      "title": "Nach Angriffen auf Tanker in Straße von Hormus : USA setzen Ölsanktionen gegen Iran wieder in Kraft",
-      "teaser": "Katar bestellt iranischen Diplomaten ein + Inhaftiertes britisches Paar im Iran offenbar seit Wochen im Hungerstreik + Wadephul warnt vor Schwächung der Palästinensischen Autonomiebehörde + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de/internationales/liveblog/nach-angriffen-auf-tanker-in-strasse-von-hormus-usa-setzen-olsanktionen-gegen-iran-wieder-in-kraft-10586281.html",
+      "title": "Der Tagesspiegel",
+      "teaser": "USA setzen Ölsanktionen gegen Iran wieder in Kraft + Katar bestellt iranischen Diplomaten ein + Inhaftiertes britisches Paar im Iran offenbar seit Wochen im Hungerstreik + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
+      "title": "Als Reaktion auf Schiffsattacken : Rutte bezeichnet US-Angriff auf Iran als „absolut notwendig“",
+      "teaser": "USA setzen Ölsanktionen gegen Iran wieder in Kraft + Katar bestellt iranischen Diplomaten ein + Inhaftiertes britisches Paar im Iran offenbar seit Wochen im Hungerstreik + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/als-reaktion-auf-schiffsattacken-rutte-bezeichnet-us-angriff-auf-iran-als-absolut-notwendig--teheran-droht-mit-entschiedener-antwort-10586281.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2921,6 +2941,28 @@
       ]
     },
     {
+      "title": "Mapped | Every offshore wind project competing in next UK auction",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/visual-and-data-journalism/mapped-every-offshore-wind-project-competing-in-next-uk-auction/2-1-2014323",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Taiwan rewrites offshore wind auction rules to revive stalled gigawatts",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/taiwan-rewrites-offshore-wind-auction-rules-to-revive-stalled-gigawatts/2-1-2014370",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "UK renewables auction: Six key takeaways from government announcements",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/uk-renewables-auction-six-key-takeaways-from-government-announcements/2-1-2013865",
@@ -2998,28 +3040,6 @@
       ]
     },
     {
-      "title": "Modern slavery, geopolitics and just-in-time pressures expose risks in wind's supply chain",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/modern-slavery-geopolitics-and-just-in-time-pressures-expose-risks-in-winds-supply-chain/2-1-2011627",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "RWE defends approval of huge offshore wind project challenged by Equinor",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/rwe-defends-rigorous-consent-of-offshore-wind-farm-challenged-by-equinor/2-1-2013798",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "One key shortage threatens UK plans to unlock cheaper deepwater wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/one-key-shortage-threatens-uk-plans-to-unlock-cheaper-deepwater-wind/2-1-2009453",
@@ -3054,6 +3074,17 @@
       ]
     },
     {
+      "title": "RWE defends approval of huge offshore wind project challenged by Equinor",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/legal/rwe-defends-rigorous-consent-of-offshore-wind-farm-challenged-by-equinor/2-1-2013798",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Why KKR outgunned rivals for $4bn of renewables – and why EDF is selling",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/why-kkr-outgunned-rivals-for-4bn-of-renewables-and-why-edf-is-selling/2-1-2012058",
@@ -3065,20 +3096,9 @@
       ]
     },
     {
-      "title": "Why RWE's Amprion deal is not as transformative as it appears",
+      "title": "Modern slavery, geopolitics and just-in-time pressures expose risks in wind's supply chain",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Equinor and SSE seek judicial review of RWE's Dogger Bank South: report",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/equinor-and-sse-seek-judicial-review-of-rwes-dogger-bank-south-report/2-1-2013550",
+      "link": "https://www.rechargenews.com/opinion/modern-slavery-geopolitics-and-just-in-time-pressures-expose-risks-in-winds-supply-chain/2-1-2011627",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
