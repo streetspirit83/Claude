@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:52:59+00:00",
+  "generated_at": "2026-07-09T17:48:46+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 254,
+  "count": 255,
   "articles": [
+    {
+      "title": "Octopus Energy France déploie un réseau national de partenaires pour le solaire résidentiel",
+      "teaser": "Octopus Energy France lance un programme de partenaires certifiés pour étendre son offre Solar Boost à l'ensemble des régions françaises. Ce réseau d'installateurs indépendants cible la quasi-totalité du territoire d'ici la fin de l'année.",
+      "link": "https://energynews.pro/octopus-energy-france-deploie-un-reseau-national-de-partenaires-pour-le-solaire-residentiel",
+      "source": "energynews-pro",
+      "published": "2026-07-09T16:48:17+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Flower acquiert sept projets BESS prêts à construire de 112 MW en Allemagne",
+      "teaser": "Flower, société de technologie énergétique basée à Stockholm, acquiert sept projets BESS auprès de Chint Solar Europe pour une capacité combinée de 112 MW / 332,5 MWh, portant son portefeuille allemand annoncé à environ 300 MW.",
+      "link": "https://energynews.pro/flower-acquiert-sept-projets-bess-prets-a-construire-de-112-mw-en-allemagne",
+      "source": "energynews-pro",
+      "published": "2026-07-09T16:33:54+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "L'UE envisage d'intégrer les incinérateurs de déchets dans son marché carbone",
       "teaser": "L'Union européenne propose d'assujettir les incinérateurs de déchets à l'EU ETS. La mesure, encore en débat, vise à créer un signal prix pour réduire les émissions de CO2 et orienter les filières vers le recyclage.",
@@ -598,16 +618,6 @@
       ]
     },
     {
-      "title": "Activ8 Solar Energies commence la plus grande installation solaire en toiture d'Irlande",
-      "teaser": "Activ8 Solar Energies a démarré les travaux d'une installation solaire en toiture de 6 MW pour Mannok dans le comté de Cavan, structurée sous forme de contrat d'achat d'électricité avec SSE Airtricity.",
-      "link": "https://energynews.pro/activ8-solar-energies-commence-la-plus-grande-installation-solaire-en-toiture-dirlande",
-      "source": "energynews-pro",
-      "published": "2026-07-09T05:03:28+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Cooling your home and lessening eco-anxiety: What are the hidden benefits of rooftop solar panels?",
       "teaser": "Solar panels have been proven to help keep houses cool during extreme temperatures and may even increase the value of your home.",
       "link": "http://www.euronews.com/2026/07/09/cooling-your-home-and-lessening-eco-anxiety-what-are-the-hidden-benefits-of-rooftop-solar-",
@@ -626,20 +636,6 @@
       "matched_keywords": [
         "net zero",
         "nuclear"
-      ]
-    },
-    {
-      "title": "Netzausbau, Speicher und Flexibilität hinken dem Wachstum der erneuerbaren Energien in Europa hinterher",
-      "teaser": "Einem neuen Bericht des European Climate Neutrality Observatory zufolge schreiten der Netzausbau, die Batteriespeicher-Zubau und die Flexibilität, die für eine großflächige Nutzung von Photovoltaik, Windkraft &#38; Co. in Europa…",
-      "link": "https://www.pv-magazine.de/2026/07/08/netzausbau-speicher-und-flexibilitaet-hinken-dem-wachstum-der-erneuerbaren-energien-in-europa-hinterher/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-08T14:55:18+00:00",
-      "matched_keywords": [
-        "climate",
-        "erneuerbare",
-        "photovoltaik",
-        "speicher",
-        "windkraft"
       ]
     },
     {
@@ -1135,16 +1131,6 @@
       "published": "2026-07-04T08:07:02+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "Top investors oppose £5.7bn private equity bid for energy group DCC",
-      "teaser": "Offer from KKR and Bridgepoint subsidiary fails to win support from Ninety One, Aviva Investors and Fidelity International",
-      "link": "https://www.ft.com/content/8e4e34b4-f41d-4e79-9151-7f28bc66650a",
-      "source": "ft-energy",
-      "published": "2026-07-03T18:23:43+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -2584,6 +2570,26 @@
       ]
     },
     {
+      "title": "Der Tagesspiegel",
+      "teaser": "Am Freitagabend treffen sich die CDU-Kreischefs zur Krisenrunde mit dem Regierenden. Sein Verhalten sorgt intern für Fassungslosigkeit – und eine Rücktrittsforderung.",
+      "link": "https://www.tagesspiegel.de",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "CDU-Krisentreffen nach Falschaussage : Rückzug von Kai Wegner als Spitzenkandidat scheint nicht mehr ausgeschlossen",
+      "teaser": "Am Freitagabend treffen sich die CDU-Kreischefs zur Krisenrunde mit dem Regierenden. Sein Verhalten sorgt intern für Fassungslosigkeit – und eine Rücktrittsforderung.",
+      "link": "https://www.tagesspiegel.de/berlin/cdu-krisentreffen-nach-falschaussage-ruckzug-von-kai-wegner-als-spitzenkandidat-scheint-nicht-mehr-ausgeschlossen-15821194.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Kirsten Westphal erneut in den Nationalen Wasserstoffrat berufen",
       "teaser": "09.07.2026",
       "link": "https://www.bdew.de/presse/kirsten-westphal-erneut-in-den-nationalen-wasserstoffrat-berufen/",
@@ -2852,17 +2858,6 @@
       ]
     },
     {
-      "title": "Cause of Siemens Gamesa blade shipment disaster revealed",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/accidents-and-casualties/cause-of-siemens-gamesa-blade-shipment-disaster-revealed/2-1-2015038",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Why Italy can't get enough wind built to help its power price battle",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/why-italy-cant-get-enough-wind-built-to-help-its-power-price-battle/2-1-2014501",
@@ -2897,6 +2892,17 @@
       ]
     },
     {
+      "title": "Cause of Siemens Gamesa blade shipment disaster revealed",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/cause-of-siemens-gamesa-blade-shipment-disaster-revealed/2-1-2015038",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Why this new wind CEO dismisses standalone storage as a 'pure capex play'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/why-this-new-wind-ceo-dismisses-standalone-storage-as-a-pure-capex-play/2-1-2011545",
@@ -2922,17 +2928,6 @@
       "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Green light for Technip Energies-X1 floater project that could halve hull weight",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/green-light-for-technip-backed-floater-project-that-could-halve-hull-weight/2-1-2014670",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2999,6 +2994,17 @@
       "title": "UK renewables auction: Six key takeaways from government announcements",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/uk-renewables-auction-six-key-takeaways-from-government-announcements/2-1-2013865",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Green light for Technip Energies-X1 floater project that could halve hull weight",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/green-light-for-technip-backed-floater-project-that-could-halve-hull-weight/2-1-2014670",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
