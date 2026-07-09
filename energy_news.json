@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T12:27:11+00:00",
+  "generated_at": "2026-07-09T15:52:59+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 6
     },
     {
       "name": "euwid-energie",
@@ -134,7 +134,7 @@
       "method": "feed",
       "feed_url": "https://www.euwid-energie.de/feed/",
       "error": null,
-      "items_found": 8,
+      "items_found": 10,
       "items_matched": 0
     },
     {
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 5
     },
     {
       "name": "rechargenews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "energylivenews",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 26
+      "items_matched": 27
     },
     {
       "name": "smart-energy",
@@ -368,16 +368,79 @@
       "items_matched": 0
     }
   ],
-  "count": 252,
+  "count": 254,
   "articles": [
     {
+      "title": "L'UE envisage d'intégrer les incinérateurs de déchets dans son marché carbone",
+      "teaser": "L'Union européenne propose d'assujettir les incinérateurs de déchets à l'EU ETS. La mesure, encore en débat, vise à créer un signal prix pour réduire les émissions de CO2 et orienter les filières vers le recyclage.",
+      "link": "https://energynews.pro/lue-envisage-dintegrer-les-incinerateurs-de-dechets-dans-son-marche-carbone",
+      "source": "energynews-pro",
+      "published": "2026-07-09T14:23:02+00:00",
+      "matched_keywords": [
+        "co2",
+        "ets"
+      ]
+    },
+    {
+      "title": "Marktübersicht Heimspeicher: Eigenverbrauch, Notstrom und Vermarktung im Fokus",
+      "teaser": "Jedes Jahr zeigen wir in unserer Juni-Ausgabe die Marktübersicht Heimspeicher. Den Begleitartikel, der die Trends aus der Datenerhebung aufgreift, stellen wir in diesem Jahr frei zur Verfügung. Kaum eine Photovoltaikanlage wird heute noch…",
+      "link": "https://www.pv-magazine.de/2026/07/09/marktuebersicht-heimspeicher-eigenverbrauch-notstrom-und-vermarktung-im-fokus/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-09T14:20:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Postman delivers carbon savings!",
+      "teaser": "Royal Mail has cut its emissions by a third in five years with fleet electrification and more efficiency The post Postman delivers carbon savings! appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/09/postman-delivers-carbon-savings/",
+      "source": "energylivenews",
+      "published": "2026-07-09T14:00:00+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Opdenergy closes US$227 million financing for Chile renewables and BESS portfolio",
+      "teaser": "Independent power producer (IPP) Opdenergy has closed a US$227 million financing for its operating renewable energy portfolio in Chile.",
+      "link": "https://www.energy-storage.news/opdenergy-closes-us227-million-financing-for-chile-renewables-and-bess-portfolio/",
+      "source": "energy-storage-news",
+      "published": "2026-07-09T13:28:18+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Frontier Power USA picks four sites to deploy 920MWh of Eos zinc hybrid-cathode BESS",
+      "teaser": "Long-duration energy storage (LDES) development and investment company Frontier Power USA (FPUSA) has exercised its exclusive Selection Right with respect to four BESS projects from clean energy platform Stella Energy Solutions.",
+      "link": "https://www.energy-storage.news/frontier-power-usa-picks-four-sites-to-deploy-920mwh-of-eos-zinc-hybrid-cathode-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-07-09T13:25:52+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Marktwert Solar steigt im Juni auf 6,19 Cent pro Kilowattstunde",
+      "teaser": "Der durchschnittliche Spotmarktpreis stieg im Vormonat ebenfalls an, was auch an den Preisspitzen am Morgen und Abend lag, wenn Gaskraftwerke aufgrund von fehlendem Solar- und Windstrom preissetzend waren. Insgesamt gab es 155 Stunden oder…",
+      "link": "https://www.pv-magazine.de/2026/07/09/marktwert-solar-steigt-im-juni-auf-619-cent-pro-kilowattstunde/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-09T12:49:50+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Dynamische Stromtarife in Kombination mit Photovoltaikanlagen: Wirkungsgrade der Wechselrichter werden wichtiger",
-      "teaser": "In der Stromspeicher-Inspektion 2026 wurde erstmalig auch die Umwandlungseffizienz der Batteriesysteme beim Speichern von Netzstrom näher beleuchtet. Warum geringe Wechselrichterverluste entscheidend sind, damit sich für Haushalte mit…",
+      "teaser": "pv+: In der Stromspeicher-Inspektion 2026 wurde erstmalig auch die Umwandlungseffizienz der Batteriesysteme beim Speichern von Netzstrom näher beleuchtet. Warum geringe Wechselrichterverluste entscheidend sind, damit sich für Haushalte mit…",
       "link": "https://www.pv-magazine.de/2026/07/09/dynamische-stromtarife-in-kombination-mit-photovoltaikanlagen-wirkungsgrade-der-wechselrichter-werden-wichtiger/",
       "source": "pv-magazine-de",
       "published": "2026-07-09T12:15:17+00:00",
       "matched_keywords": [
         "photovoltaik",
+        "pv",
         "speicher"
       ]
     },
@@ -495,6 +558,16 @@
       ]
     },
     {
+      "title": "TotalEnergies ships first LNG cargo from Mexican project to Asia",
+      "teaser": "France’s energy giant TotalEnergies has shipped the first cargo to Asia from the first [&#8230;] The post TotalEnergies ships first LNG cargo from Mexican project to Asia appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/totalenergies-ships-first-lng-cargo-from-mexican-project-to-asia/",
+      "source": "offshore-energy",
+      "published": "2026-07-09T07:40:35+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "TotalEnergies prépare sa première expédition de GNL mexicain vers les marchés d'Asie",
       "teaser": "TotalEnergies s'apprête à expédier un premier cargo de GNL depuis le terminal ECA LNG, implanté sur la côte Pacifique mexicaine. Une route commerciale inédite vers l'Asie, dans un contexte de tensions persistantes autour du détroit d'Ormuz.",
       "link": "https://energynews.pro/totalenergies-prepare-sa-premiere-expedition-de-gnl-mexicain-vers-les-marches-dasie",
@@ -556,26 +629,6 @@
       ]
     },
     {
-      "title": "LRE inaugure un portefeuille solaire de 725 MW en Oklahoma pour Google",
-      "teaser": "LRE (Leeward Renewable Energy) franchit des jalons majeurs sur ses cinq projets solaires en Oklahoma, représentant 725 MW et environ 1,5 milliard de dollars d'investissement, en soutien aux opérations de Google dans l'État.",
-      "link": "https://energynews.pro/lre-inaugure-un-portefeuille-solaire-de-725-mw-en-oklahoma-pour-google",
-      "source": "energynews-pro",
-      "published": "2026-07-08T16:59:07+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Vallourec certifié par le Global Steel Climate Council pour sa décarbonation de l'acier",
-      "teaser": "Vallourec obtient la certification du Global Steel Climate Council pour sa trajectoire climatique, avec une intensité carbone de l'acier ramenée à 1,16 tCO₂e par tonne en 2025, trois ans avant l'échéance fixée.",
-      "link": "https://energynews.pro/vallourec-certifie-par-le-global-steel-climate-council-pour-sa-decarbonation-de-lacier",
-      "source": "energynews-pro",
-      "published": "2026-07-08T16:08:12+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Netzausbau, Speicher und Flexibilität hinken dem Wachstum der erneuerbaren Energien in Europa hinterher",
       "teaser": "Einem neuen Bericht des European Climate Neutrality Observatory zufolge schreiten der Netzausbau, die Batteriespeicher-Zubau und die Flexibilität, die für eine großflächige Nutzung von Photovoltaik, Windkraft &#38; Co. in Europa…",
       "link": "https://www.pv-magazine.de/2026/07/08/netzausbau-speicher-und-flexibilitaet-hinken-dem-wachstum-der-erneuerbaren-energien-in-europa-hinterher/",
@@ -610,36 +663,23 @@
       ]
     },
     {
-      "title": "Hydrogen industry calls for stronger support",
-      "teaser": "Industry groups are urging EU policymakers to give hydrogen infrastructure equal priority with electricity networks in upcoming legislation The post Hydrogen industry calls for stronger support appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/08/hydrogen-industry-calls-for-stronger-support/",
-      "source": "energylivenews",
-      "published": "2026-07-08T13:00:00+00:00",
+      "title": "Shipping incident: Projectile hits LNG carrier in Strait of Hormuz",
+      "teaser": "Qatar Gas Transport Company (Nakilat), Qatar’s shipping and maritime player, has reported a vessel incident in the Strait of Hormuz. The post Shipping incident: Projectile hits LNG carrier in Strait of Hormuz appeared first on Offshore…",
+      "link": "https://www.offshore-energy.biz/shipping-incident-projectile-hits-lng-carrier-in-strait-of-hormuz/",
+      "source": "offshore-energy",
+      "published": "2026-07-08T13:14:33+00:00",
       "matched_keywords": [
-        "hydrogen"
+        "lng"
       ]
     },
     {
-      "title": "Photovoltaik-Installateure im rechtsfreien Raum",
-      "teaser": "pv+: Ein neues Urteil des OLG Koblenz zur Eintragungspflicht in die Handwerksrolle hat die alte Frage „Wer darf was?“ wieder ins Rampenlicht gerückt. Darf also ein Elektroinstallateur einen Dachhaken einschrauben? pv magazine hat bei den…",
-      "link": "https://www.pv-magazine.de/2026/07/08/photovoltaik-installateure-im-rechtsfreien-raum/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-08T12:04:00+00:00",
+      "title": "Enersea’s LNG solution for South American project offers ‘cost-effective’ alternative to jetties",
+      "teaser": "The Netherlands-headquartered offshore energy engineering player Enersea has unveiled a liquefied natural gas (LNG) loading platform concept as part of a major LNG infrastructure development in South America, spotlighting innovation’s role…",
+      "link": "https://www.offshore-energy.biz/enerseas-lng-solution-for-south-american-project-offers-cost-effective-alternative-to-jetties/",
+      "source": "offshore-energy",
+      "published": "2026-07-08T10:24:02+00:00",
       "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
-      "title": "Kurzgutachten: EEG-Förderlücke droht",
-      "teaser": "Für alle Erneuerbaren-Anlagen, die vor Ende des Jahres ans Netz gehen oder einen Zuschlag in Ausschreibungen erhalten haben, gibt es einen Bestandsschutz bezüglich der Förderung. In einem Rechtsgutachten der Kanzlei Raue wird aufgezeigt,…",
-      "link": "https://www.pv-magazine.de/2026/07/08/kurzgutachten-eeg-foerderluecke-droht/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-08T11:09:00+00:00",
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare",
-        "förderung"
+        "lng"
       ]
     },
     {
@@ -650,17 +690,6 @@
       "published": "2026-07-08T09:42:00+00:00",
       "matched_keywords": [
         "eeg"
-      ]
-    },
-    {
-      "title": "Regierung will Förderung von Wärmepumpen kurzfristig kürzen",
-      "teaser": "Der Haushaltsausschuss soll über die geplanten Änderungen beraten. Mit den Änderungen im BEG sollen die förderfähigen Kosten abgesenkt werden – direkt und alle halbe Jahre. Ein \"Made in Europe\"-Bonus soll dabei neu eingeführt werden.",
-      "link": "https://www.pv-magazine.de/2026/07/08/regierung-will-foerderung-von-waermepumpen-kurzfristig-kuerzen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-08T08:45:16+00:00",
-      "matched_keywords": [
-        "förderung",
-        "wärmepumpe"
       ]
     },
     {
@@ -684,16 +713,6 @@
       "published": "2026-07-08T07:47:43+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Octopus Energy bringt Plug-in-Heimspeicher auf den Markt",
-      "teaser": "Octopus Energy hat einen steckbaren Zwei-Kilowattstunden-Heimspeicher und ein 5-Kilowattstunden-Wandsystem vorgestellt, deren Markteinführung ab 2027 in fünf europäischen Märkten geplant ist. Darunter auch in Deutschland",
-      "link": "https://www.pv-magazine.de/2026/07/08/octopus-energy-bringt-plug-in-heimspeicher-auf-den-markt/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-08T07:45:00+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -807,17 +826,6 @@
       "published": "2026-07-07T15:50:01+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Hartek Power secures 400MW utility-scale solar project in Rajasthan",
-      "teaser": "Hartek Power’s Renewables Business Unit has been awarded an engineering, procurement and construction (EPC) contract for a 400MW utility-scale solar project in the Indian state of Rajasthan.",
-      "link": "https://www.power-technology.com/news/hartek-power-400mw-solar-project-rajasthan/",
-      "source": "power-technology",
-      "published": "2026-07-07T13:41:43+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -1452,19 +1460,6 @@
       ]
     },
     {
-      "title": "Neoen Australia begins construction on 963MWh battery storage system at 440MWp solar PV plant",
-      "teaser": "French independent power producer (IPP) Neoen Australia has begun construction of a 215MW/963MWh battery energy storage system (BESS) at its 440MWp Culcairn Solar Farm in New South Wales, Australia.",
-      "link": "https://www.energy-storage.news/neoen-australia-begins-construction-on-963mwh-battery-storage-system-at-440mwp-solar-pv-plant/",
-      "source": "energy-storage-news",
-      "published": "2026-06-30T03:31:27+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
       "title": "Greece will use EU funds to pay fishermen to catch invasive pufferfish",
       "teaser": "EU money will be used to support fishers whose livelihoods are threatened by climate change.",
       "link": "http://www.euronews.com/2026/06/29/greece-will-use-eu-funds-to-pay-fishermen-to-catch-invasive-pufferfish",
@@ -1579,16 +1574,6 @@
       "published": "2026-06-26T15:18:46+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "Germany joins push to delay EU methane rules",
-      "teaser": "A growing number of countries want to delay the EU's landmark rules governing methane emissions.",
-      "link": "https://www.politico.eu/article/germany-joins-push-to-delay-eu-methane-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-26T09:24:03+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -2589,6 +2574,16 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
       "title": "Kirsten Westphal erneut in den Nationalen Wasserstoffrat berufen",
       "teaser": "09.07.2026",
       "link": "https://www.bdew.de/presse/kirsten-westphal-erneut-in-den-nationalen-wasserstoffrat-berufen/",
@@ -2737,7 +2732,7 @@
     },
     {
       "title": "Klimaneutrales Stromsystem 440",
-      "teaser": "7. Oktober 2026, 16:00 - 18:00",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
       "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
       "source": "agora-energiewende-news",
       "published": null,
@@ -2747,7 +2742,7 @@
     },
     {
       "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "7. Oktober 2026, 16:00 - 18:00",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
       "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
       "source": "agora-energiewende-news",
       "published": null,
@@ -2757,7 +2752,7 @@
     },
     {
       "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 18:00",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
       "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
       "source": "agora-energiewende-news",
       "published": null,
@@ -2767,7 +2762,7 @@
     },
     {
       "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 18:00",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
       "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
       "source": "agora-energiewende-news",
       "published": null,
@@ -2807,13 +2802,33 @@
       ]
     },
     {
-      "title": "EC targets 100 GW more renewables a year to cut gas 66%",
+      "title": "Egypt LNG imports hit record high, tightens European supply",
       "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/98525d83-9939-4f81-9d83-63ed728561b4/ec-targets-100-gw-more-renewables-a-year-to-cut-gas-66-draft",
+      "link": "https://www.montelnews.com/news/7679a49b-008b-43ad-a66d-9a6336b58878/egypt-lng-imports-hit-record-high-tightens-european-supply",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "renewable"
+        "lng"
+      ]
+    },
+    {
+      "title": "Solar lobby calls for clarity on EU “high-risk” supplier curbs",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/b3e00c7f-9e52-43a4-96a1-7b28641bcaff/solar-lobby-calls-for-clarity-on-eu-high-risk-supplier-curbs",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Italy battery trading expected to increase as solar expands",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/92273875-54de-4935-8d3b-36d7b6f1588b/italy-battery-trading-set-to-increase-as-solar-expands-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -2827,13 +2842,13 @@
       ]
     },
     {
-      "title": "France’s heat-related nuclear cuts to reach 4.6% of output",
+      "title": "EC targets 100 GW more renewables a year to cut gas 66%",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/af04d53b-fa73-4466-9edd-08983efae99b/france-s-heat-related-nuclear-cuts-to-reach-4-6-of-output-2",
+      "link": "https://www.montelnews.com/news/98525d83-9939-4f81-9d83-63ed728561b4/ec-targets-100-gw-more-renewables-a-year-to-cut-gas-66-draft",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "renewable"
       ]
     },
     {
