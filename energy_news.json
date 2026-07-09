@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T20:16:50+00:00",
+  "generated_at": "2026-07-09T07:40:42+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 5
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 13
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 265,
   "articles": [
+    {
+      "title": "TotalEnergies prépare sa première expédition de GNL mexicain vers les marchés d'Asie",
+      "teaser": "TotalEnergies s'apprête à expédier un premier cargo de GNL depuis le terminal ECA LNG, implanté sur la côte Pacifique mexicaine. Une route commerciale inédite vers l'Asie, dans un contexte de tensions persistantes autour du détroit d'Ormuz.",
+      "link": "https://energynews.pro/totalenergies-prepare-sa-premiere-expedition-de-gnl-mexicain-vers-les-marches-dasie",
+      "source": "energynews-pro",
+      "published": "2026-07-09T07:34:47+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "UK Government approves 740MW One Earth Solar Farm",
+      "teaser": "The UK government has approved 740MW One Earth Solar Farm, located in Nottinghamshire, which is expected to become the country’s second-largest solar installation.",
+      "link": "https://www.power-technology.com/news/uk-approves-740mw-one-earth-solar/",
+      "source": "power-technology",
+      "published": "2026-07-09T07:23:32+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Costs more, cools more: Eco construction keeps buildings cool during heatwaves",
+      "teaser": "Eco construction techniques keep buildings cool and produce less emissions.",
+      "link": "http://www.euronews.com/2026/07/09/costs-more-cools-more-eco-construction-keeps-buildings-cool-during-heatwaves",
+      "source": "euronews-green",
+      "published": "2026-07-09T05:30:51+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Activ8 Solar Energies commence la plus grande installation solaire en toiture d'Irlande",
+      "teaser": "Activ8 Solar Energies a démarré les travaux d'une installation solaire en toiture de 6 MW pour Mannok dans le comté de Cavan, structurée sous forme de contrat d'achat d'électricité avec SSE Airtricity.",
+      "link": "https://energynews.pro/activ8-solar-energies-commence-la-plus-grande-installation-solaire-en-toiture-dirlande",
+      "source": "energynews-pro",
+      "published": "2026-07-09T05:03:28+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Cooling your home and lessening eco-anxiety: What are the hidden benefits of rooftop solar panels?",
+      "teaser": "Solar panels have been proven to help keep houses cool during extreme temperatures and may even increase the value of your home.",
+      "link": "http://www.euronews.com/2026/07/09/cooling-your-home-and-lessening-eco-anxiety-what-are-the-hidden-benefits-of-rooftop-solar-",
+      "source": "euronews-green",
+      "published": "2026-07-09T05:00:37+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Sizewell nuclear plant extended as part of UK’s net zero push",
+      "teaser": "Suffolk facility started running in 1995 and remains Britain’s most recently built nuclear installation",
+      "link": "https://www.ft.com/content/939c04ec-0136-44cd-9a41-7475dd00bcfd",
+      "source": "ft-energy",
+      "published": "2026-07-08T21:30:06+00:00",
+      "matched_keywords": [
+        "net zero",
+        "nuclear"
+      ]
+    },
     {
       "title": "LRE inaugure un portefeuille solaire de 725 MW en Oklahoma pour Google",
       "teaser": "LRE (Leeward Renewable Energy) franchit des jalons majeurs sur ses cinq projets solaires en Oklahoma, représentant 725 MW et environ 1,5 milliard de dollars d'investissement, en soutien aux opérations de Google dans l'État.",
@@ -536,16 +597,6 @@
       "published": "2026-07-08T08:38:23+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "Peabody reçoit une subvention du DOE pour les terres rares du Wyoming",
-      "teaser": "Le producteur de charbon américain Peabody a été sélectionné par le département de l'Énergie des États-Unis pour un financement visant à développer la production de terres rares et de minéraux critiques dans le bassin de Powder River.",
-      "link": "https://energynews.pro/peabody-recoit-une-subvention-du-doe-pour-les-terres-rares-du-wyoming",
-      "source": "energynews-pro",
-      "published": "2026-07-08T08:33:35+00:00",
-      "matched_keywords": [
-        "subvention"
       ]
     },
     {
@@ -747,16 +798,6 @@
       ]
     },
     {
-      "title": "Brazil to phase out diesel subsidy more gradually",
-      "teaser": "Brazil will remove its gasoline subsidy quickly while phasing out diesel support more gradually to avoid market disruption The post Brazil to phase out diesel subsidy more gradually appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/07/brazil-to-phase-out-diesel-subsidy-more-gradually/",
-      "source": "energylivenews",
-      "published": "2026-07-07T13:00:00+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Jinko Solar: „Neue Impulse ab 2028“",
       "teaser": "Die globale Solarindustrie steht vor zwei schwierigen Jahren. Der Photovoltaik-Zubau weltweit wird in diesem Jahr wohl rückläufig sein und auch 2027 könnte es bei einer Stagnation bleiben, sagt Frank Niendorf, Vice President bei…",
       "link": "https://www.pv-magazine.de/2026/07/07/jinko-solar-neue-impulse-ab-2028/",
@@ -857,16 +898,6 @@
       "matched_keywords": [
         "pv",
         "solar"
-      ]
-    },
-    {
-      "title": "Envision, Pulse Clean Energy announce 310MWh BESS project in UK",
-      "teaser": "Envision Energy has partnered with Pulse Clean Energy to deliver a 129MW/310MWh battery energy storage system (BESS) project in Wolverhampton, West Midlands, UK.",
-      "link": "https://www.power-technology.com/news/envision-pulse-clean-energy-310mwh-bess-uk/",
-      "source": "power-technology",
-      "published": "2026-07-07T07:38:38+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1398,16 +1429,6 @@
       ]
     },
     {
-      "title": "Brüssel weist die Forderungen der AfD nach einer Rückkehr zu russischem Gas zurück",
-      "teaser": "Im März trat die EU-Gesetzgebung in Kraft, die einen schrittweisen Ausstieg aus russischem Gas vorsieht. „Dieses Gesetz ist in Kraft, daher wäre ein Rückzieher nicht möglich“, erklärte ein Sprecher der Kommission.",
-      "link": "https://euractiv.com/de/news/bruessel-weist-die-forderungen-der-afd-nach-einer-rueckkehr-zu-russischem-gas-zurueck/",
-      "source": "euractiv-energie",
-      "published": "2026-06-30T14:11:46+00:00",
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Avangrid to build 82MWh Oregon BESS project",
       "teaser": "Spanish utility Iberdrola's subsidiary Avangrid has announced plans to construct a 41MW/82MWh BESS facility in Gilliam County, Oregon.",
       "link": "https://www.energy-storage.news/avangrid-to-build-82mwh-oregon-bess-project/",
@@ -1425,16 +1446,6 @@
       "published": "2026-06-30T10:09:21+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Lernen Sie die Europaabgeordneten hinter der Herausforderung der französischen Rechtsextremen kennen",
-      "teaser": "Teil 2: Französische Nationalisten und Populisten, die einst als jenseits der Grenzen akzeptabler Meinungen abgetan wurden, sind heute wichtige Mitstreiter.",
-      "link": "https://euractiv.com/de/news/lernen-sie-die-europaabgeordneten-hinter-der-herausforderung-der-franzoesischen-rechtsextremen-kennen/",
-      "source": "euractiv-energie",
-      "published": "2026-06-30T07:43:32+00:00",
-      "matched_keywords": [
-        "forderung"
       ]
     },
     {
@@ -2699,6 +2710,26 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Absprachen nicht eingehalten? : Umweltminister Schneider rüffelt Kollegin Katherina Reiche",
+      "teaser": "Die EU-Methanverordnung soll helfen, das klimaschädliche Gas zu reduzieren. Daran entzündet sich ein öffentlicher Streit zwischen Umwelt- und Wirtschaftsministerium.",
+      "link": "https://www.tagesspiegel.de/politik/bundestag-umweltminister-schneider-ruffelt-kollegin-katherina-reiche-15819553.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -2907,6 +2938,16 @@
       ]
     },
     {
+      "title": "Renewables Roll-Out: Saturation Reached?",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/podcasts/pluggedin/19454042/renewables-roll-out-saturation-reached",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
       "title": "France’s heat-related nuclear cuts to reach 4.6% of output",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/af04d53b-fa73-4466-9edd-08983efae99b/france-s-heat-related-nuclear-cuts-to-reach-4-6-of-output-2",
@@ -2924,6 +2965,28 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Nordex orders jump a third as US bet pays off big in Q2",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/nordex-orders-jump-a-third-as-us-bet-pays-off-big-in-q2/2-1-2014910",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -2993,28 +3056,6 @@
       ]
     },
     {
-      "title": "COP lures offshore wind veteran to lead hybrid foundation joint venture",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/cop-lures-offshore-wind-veteran-to-lead-hybrid-foundation-joint-venture/2-1-2013860",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK to support new hybrid offshore wind that can slash deepwater costs in next auction",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/uk-to-support-new-hybrid-offshore-wind-that-can-slash-deepwater-costs-in-next-auction/2-1-2013756",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "The German offshore wind sites in question, as TotalEnergies eyes exit",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/as-totalenergies-eyes-exit-which-other-german-offshore-wind-sites-are-under-threat-/2-1-2009629",
@@ -3070,9 +3111,9 @@
       ]
     },
     {
-      "title": "UK freezes administrative strike prices for next renewables auction",
+      "title": "COP lures offshore wind veteran to lead hybrid foundation joint venture",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/uk-freezes-administrative-strike-prices-for-next-renewables-auction/2-1-2013752",
+      "link": "https://www.rechargenews.com/technology/cop-lures-offshore-wind-veteran-to-lead-hybrid-foundation-joint-venture/2-1-2013860",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3081,9 +3122,9 @@
       ]
     },
     {
-      "title": "Major change for floating offshore wind in UK renewables auction rules",
+      "title": "UK to support new hybrid offshore wind that can slash deepwater costs in next auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/uk-unveils-major-change-for-floating-offshore-wind-auction-rules/2-1-2013813",
+      "link": "https://www.rechargenews.com/technology/uk-to-support-new-hybrid-offshore-wind-that-can-slash-deepwater-costs-in-next-auction/2-1-2013756",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
