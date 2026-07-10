@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T15:27:17+00:00",
+  "generated_at": "2026-07-10T17:41:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -368,8 +368,30 @@
       "items_matched": 0
     }
   ],
-  "count": 256,
+  "count": 255,
   "articles": [
+    {
+      "title": "Abruptes Förderende – Neue Rahmenbedingungen im Heizungsmarkt",
+      "teaser": "pv+: Trotz guter Absatzzahlen, beliebter Förderung und einer hohen Zufriedenheit steht die Wärmepumpenbranche erneut vor einschneidenden Veränderungen. Von den neuen Förderbedingungen könnten einige Haushalte profitieren, für die meisten…",
+      "link": "https://www.pv-magazine.de/2026/07/10/abruptes-foerderende-neue-rahmenbedingungen-im-heizungsmarkt/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-10T15:33:36+00:00",
+      "matched_keywords": [
+        "förderung",
+        "pv",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "America’s first nuclear plant restart may be near the finish line",
+      "teaser": "Up until recently, the U.S. was in a yearslong dry spell in the construction of new nuclear power plants. The hiatus finally ended in April , when two next-generation nuclear developers broke ground on their debut plants. Though those…",
+      "link": "https://www.canarymedia.com/articles/nuclear/americas-first-nuclear-plant-restart",
+      "source": "canarymedia",
+      "published": "2026-07-10T15:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Tata Power inaugure le projet éolien Jewali de 100,8 MW au Maharashtra",
       "teaser": "Tata Power Renewable Energy a mis en service son parc éolien Jewali de 100,8 MW dans le district de Dharashiv, au Maharashtra. L'installation alimentera Tata Power Mumbai Distribution pour satisfaire ses obligations d'achat d'électricité…",
@@ -389,16 +411,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Die Energiewende im Mittelstand scheitert nicht am Willen – sie scheitert an der Umsetzung",
-      "teaser": "Die nächste Phase der Energiewende im Mittelstand entscheidet sich nicht in Sonntagsreden. Sie entscheidet sich dort, wo Projekte finanziert, strukturiert und umgesetzt werden, wie Lisa Bross und Paul Herrmann von Seicon Energy schreiben.",
-      "link": "https://www.pv-magazine.de/2026/07/10/die-energiewende-im-mittelstand-scheitert-nicht-am-willen-sie-scheitert-an-der-umsetzung/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-10T13:43:00+00:00",
-      "matched_keywords": [
-        "energiewende"
       ]
     },
     {
@@ -511,6 +523,16 @@
       "published": "2026-07-10T09:13:37+00:00",
       "matched_keywords": [
         "energy security"
+      ]
+    },
+    {
+      "title": "Die Energiewende im Mittelstand scheitert nicht am Willen – sie scheitert an der Umsetzung",
+      "teaser": "Die nächste Phase der Energiewende im Mittelstand entscheidet sich nicht in Sonntagsreden. Sie entscheidet sich dort, wo Projekte finanziert, strukturiert und umgesetzt werden, wie Lisa Bross und Paul Herrmann von Seicon Energy schreiben.",
+      "link": "https://www.pv-magazine.de/2026/07/10/die-energiewende-im-mittelstand-scheitert-nicht-am-willen-sie-scheitert-an-der-umsetzung/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-10T08:43:00+00:00",
+      "matched_keywords": [
+        "energiewende"
       ]
     },
     {
@@ -2473,16 +2495,6 @@
       ]
     },
     {
-      "title": "North Carolina groups fight regulator’s order to cancel solar for 2026",
-      "teaser": "Last month, North Carolina’s top utility regulator abruptly halted Duke Energy’s solar farm investments for the year — an unforeseen blow to an industry already reeling from tariffs and a hostile federal government. Now, clean energy…",
-      "link": "https://www.canarymedia.com/articles/solar/north-carolina-groups-fight-regulator-order",
-      "source": "canarymedia",
-      "published": "2026-05-14T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Gemeinsam Kraft tanken für die Energiewende aus Bürgerhand",
       "teaser": "Unter dem Motto „Starke Gemeinschaften, starke Regionen – für eine krisenfeste Zukunft“ kamen am vergangen Wochenende Bürgerenergie-Aktive aus ganz Deutschland zusammen.",
       "link": "https://www.energiezukunft.eu/buergerenergie/gemeinsam-kraft-tanken-fuer-die-energiewende-aus-buergerhand",
@@ -2550,26 +2562,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "CDU-Urgestein Wolfgang Bosbach über Wegner : „Mir tun die Berliner CDU-Kandidaten leid“",
-      "teaser": "In der Bundes-CDU herrscht Kopfschütteln über Berlins Regierungschef Kai Wegner. Der einst langjährige Bundestagsabgeordnete und CDU-Kenner Wolfgang Bosbach versteht die Rücktrittsforderungen.",
-      "link": "https://www.tagesspiegel.de/politik/cdu-urgestein-wolfgang-bosbach-mir-tun-die-berliner-cdu-kandidaten-leid-15826258.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
       ]
     },
     {
