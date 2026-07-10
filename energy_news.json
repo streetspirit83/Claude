@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:20:57+00:00",
+  "generated_at": "2026-07-10T15:27:17+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 13
+      "items_matched": 14
     },
     {
       "name": "politico-energy-climate",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,60 @@
       "items_matched": 0
     }
   ],
-  "count": 257,
+  "count": 256,
   "articles": [
+    {
+      "title": "Tata Power inaugure le projet éolien Jewali de 100,8 MW au Maharashtra",
+      "teaser": "Tata Power Renewable Energy a mis en service son parc éolien Jewali de 100,8 MW dans le district de Dharashiv, au Maharashtra. L'installation alimentera Tata Power Mumbai Distribution pour satisfaire ses obligations d'achat d'électricité…",
+      "link": "https://energynews.pro/tata-power-inaugure-le-projet-eolien-jewali-de-1008-mw-au-maharashtra",
+      "source": "energynews-pro",
+      "published": "2026-07-10T14:42:58+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Energy Sharing: Mehr Fragen als Antworten",
+      "teaser": "pv+: Seit dem 1. Juni müssen alle deutschen Netzbetreiber die Umsetzung von Energy Sharing ermöglichen. Das könnte gerade für die Photovoltaik enorme Impulse mit sich bringen. Oder, wie Fachleute warnen, mit einer aufwendigen Minimallösung…",
+      "link": "https://www.pv-magazine.de/2026/07/10/energy-sharing-mehr-fragen-als-antworten/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-10T14:30:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "Die Energiewende im Mittelstand scheitert nicht am Willen – sie scheitert an der Umsetzung",
+      "teaser": "Die nächste Phase der Energiewende im Mittelstand entscheidet sich nicht in Sonntagsreden. Sie entscheidet sich dort, wo Projekte finanziert, strukturiert und umgesetzt werden, wie Lisa Bross und Paul Herrmann von Seicon Energy schreiben.",
+      "link": "https://www.pv-magazine.de/2026/07/10/die-energiewende-im-mittelstand-scheitert-nicht-am-willen-sie-scheitert-an-der-umsetzung/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-10T13:43:00+00:00",
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "25.000 Antragsteller gehen bei Solarförderung in Österreich leer aus",
+      "teaser": "Nur rund 3000 Anträge konnte die EAG-Förderstelle aufgrund der begrenzten Mittel in Höhe von 20 Millionen Euro bewilligen. Das zuständige Ministerium für Wirtschaft, Energie und Tourismus sieht die Notwendigkeit, die Zuschüsse stärker auf…",
+      "link": "https://www.pv-magazine.de/2026/07/10/25-000-antragsteller-gehen-bei-solarfoerderung-in-oesterreich-leer-aus/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-10T13:04:41+00:00",
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
+      "title": "Sweeping victory for Europe as 15 nations top climate scoreboard – see the full list",
+      "teaser": "Europe has come top in the latest Environmental Performance Index, partly due to the boom in renewables. But experts warn that more progress is needed.",
+      "link": "http://www.euronews.com/2026/07/10/sweeping-victory-for-europe-as-15-nations-top-climate-scoreboard-see-the-full-list",
+      "source": "euronews-green",
+      "published": "2026-07-10T12:28:11+00:00",
+      "matched_keywords": [
+        "climate",
+        "renewable"
+      ]
+    },
     {
       "title": "La Russie propose son aide sécuritaire au Mozambique pour stabiliser Cabo Delgado",
       "teaser": "Moscou offre un soutien militaire à Maputo contre l'insurrection à Cabo Delgado, province qui concentre les grands projets gaziers du pays, dont Mozambique LNG de TotalEnergies.",
@@ -392,7 +444,7 @@
     },
     {
       "title": "Stimmen der Energiewende: Bundesnetzagentur-Vize Barbie Haller über steigende Netzkosten und Prosumer-Beiträge",
-      "teaser": "Wir diskutieren mit Barbie Haller, Vizepräsidentin der Bundesnetzagentur, wie sich die steigenden Netzkosten senken und besser auf die Nutzer des Stromnetzes verteilen lassen.",
+      "teaser": "Wir diskutieren mit Barbie Haller, Vizepräsidentin der Bundesnetzagentur, wie sich die steigenden Netzkosten senken und besser auf die Nutzer des Stromnetzes verteilen lassen. Außerdem spechen wir mit ihr über die Frage, wie flexible…",
       "link": "https://www.pv-magazine.de/2026/07/10/stimmen-der-energiewende-bundesnetzagentur-vize-barbie-haller-uber-steigende-netzkosten-und-prosumer-beitrage/",
       "source": "pv-magazine-de",
       "published": "2026-07-10T11:11:33+00:00",
@@ -409,6 +461,16 @@
       "published": "2026-07-10T11:01:05+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Avantus raises over $525m financing for Aratina 2 project in US",
+      "teaser": "Avantus has completed a financing round worth over $525m for the construction of the Aratina 2 solar and BESS project in eastern Kern County.",
+      "link": "https://www.energymonitor.ai/news/avantus-raises-financing-aratina-2/",
+      "source": "energymonitor",
+      "published": "2026-07-10T10:07:26+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -452,6 +514,18 @@
       ]
     },
     {
+      "title": "Ukraine plans 700MW wind power auction in energy security bid",
+      "teaser": "The Ukrainian government aims to support wind farms with a combined capacity of up to 700MW through auctions later this year in a bid to increase the war-torn country’s energy security.",
+      "link": "https://www.windpowermonthly.com/article/1964233/ukraine-plans-700mw-wind-power-auction-energy-security-bid",
+      "source": "windpowermonthly",
+      "published": "2026-07-10T08:37:56+00:00",
+      "matched_keywords": [
+        "energy security",
+        "wind farm",
+        "wind power"
+      ]
+    },
+    {
       "title": "US-based BESS companies Peak Energy, ESS Inc and Unigrid aim to commercialise sodium-ion in US, Europe",
       "teaser": "Peak Energy, ESS Tech Inc, and Unigrid have made recent announcements advancing sodium-ion energy storage technology in the US and Europe.",
       "link": "https://www.energy-storage.news/us-based-bess-companies-peak-energy-ess-inc-and-unigrid-aim-to-commercialise-sodium-ion-in-us-europe/",
@@ -475,8 +549,8 @@
     {
       "title": "BYD to supply 11.28GWh of energy for Abu Dhabi RTC project",
       "teaser": "Masdar has awarded a contract to BYD to supply 11.275GWh of its Haohan energy storage system for the RTC renewable energy project.",
-      "link": "https://www.power-technology.com/news/byd-to-supply-11-275gwh-energy/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/news/byd-to-supply-11-275gwh-energy/",
+      "source": "energymonitor",
       "published": "2026-07-10T08:16:23+00:00",
       "matched_keywords": [
         "energy storage",
@@ -620,37 +694,6 @@
       ]
     },
     {
-      "title": "Octopus Energy France déploie un réseau national de partenaires pour le solaire résidentiel",
-      "teaser": "Octopus Energy France lance un programme de partenaires certifiés pour étendre son offre Solar Boost à l'ensemble des régions françaises. Ce réseau d'installateurs indépendants cible la quasi-totalité du territoire d'ici la fin de l'année.",
-      "link": "https://energynews.pro/octopus-energy-france-deploie-un-reseau-national-de-partenaires-pour-le-solaire-residentiel",
-      "source": "energynews-pro",
-      "published": "2026-07-09T16:48:17+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Flower acquiert sept projets BESS prêts à construire de 112 MW en Allemagne",
-      "teaser": "Flower, société de technologie énergétique basée à Stockholm, acquiert sept projets BESS auprès de Chint Solar Europe pour une capacité combinée de 112 MW / 332,5 MWh, portant son portefeuille allemand annoncé à environ 300 MW.",
-      "link": "https://energynews.pro/flower-acquiert-sept-projets-bess-prets-a-construire-de-112-mw-en-allemagne",
-      "source": "energynews-pro",
-      "published": "2026-07-09T16:33:54+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Marktübersicht Heimspeicher: Eigenverbrauch, Notstrom und Vermarktung im Fokus",
-      "teaser": "Jedes Jahr zeigen wir in unserer Juni-Ausgabe die Marktübersicht Heimspeicher. Den Begleitartikel, der die Trends aus der Datenerhebung aufgreift, stellen wir in diesem Jahr frei zur Verfügung. Kaum eine Photovoltaikanlage wird heute noch…",
-      "link": "https://www.pv-magazine.de/2026/07/09/marktuebersicht-heimspeicher-eigenverbrauch-notstrom-und-vermarktung-im-fokus/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-09T14:20:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
-      ]
-    },
-    {
       "title": "Opdenergy closes US$227 million financing for Chile renewables and BESS portfolio",
       "teaser": "Independent power producer (IPP) Opdenergy has closed a US$227 million financing for its operating renewable energy portfolio in Chile.",
       "link": "https://www.energy-storage.news/opdenergy-closes-us227-million-financing-for-chile-renewables-and-bess-portfolio/",
@@ -668,16 +711,6 @@
       "published": "2026-07-09T13:25:52+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Marktwert Solar steigt im Juni auf 6,19 Cent pro Kilowattstunde",
-      "teaser": "Der durchschnittliche Spotmarktpreis stieg im Vormonat ebenfalls an, was auch an den Preisspitzen am Morgen und Abend lag, wenn Gaskraftwerke aufgrund von fehlendem Solar- und Windstrom preissetzend waren. Insgesamt gab es 155 Stunden oder…",
-      "link": "https://www.pv-magazine.de/2026/07/09/marktwert-solar-steigt-im-juni-auf-619-cent-pro-kilowattstunde/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-09T12:49:50+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1114,26 +1147,6 @@
       ]
     },
     {
-      "title": "Dutch cabinet pledges $513m for underground hydrogen storage project",
-      "teaser": "The Dutch cabinet has announced plans to allocate €450m to Gasunie to support the development of an underground hydrogen storage facility.",
-      "link": "https://www.energymonitor.ai/news/dutch-pledges-underground-hydrogen-storage/",
-      "source": "energymonitor",
-      "published": "2026-07-06T10:20:27+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Tata Power commissions 100.8MW wind facility in Maharashtra, India",
-      "teaser": "Tata Power Renewable Energy has commissioned a 100.8MW wind facility at Jewali in the Dharashiv district of Maharashtra, India.",
-      "link": "https://www.energymonitor.ai/news/tata-power-100-8mw-wind-facility/",
-      "source": "energymonitor",
-      "published": "2026-07-06T08:17:23+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Amazon pens battery storage PPA for 220MWh solar-plus-storage site in Australia",
       "teaser": "Tech giant Amazon has signed a new power purchase agreement (PPA) to procure energy from IPP European Energy’s 220MWh Winton North solar-plus-storage project in northeast Victoria, Australia.",
       "link": "https://www.energy-storage.news/amazon-pens-battery-storage-ppa-for-220mwh-solar-plus-storage-site-in-australia/",
@@ -1475,16 +1488,6 @@
       "matched_keywords": [
         "battery storage",
         "energy storage"
-      ]
-    },
-    {
-      "title": "Duke Energy latest to surrender offshore wind lease to Trump government",
-      "teaser": "US power company Duke Energy has become the latest developer to accept a Trump administration deal to voluntarily renege on a US offshore wind lease it won previously and invest its reimbursed lease fees in non-renewable energy…",
-      "link": "https://www.windpowermonthly.com/article/1963217/duke-energy-latest-surrender-offshore-wind-lease-trump-government",
-      "source": "windpowermonthly",
-      "published": "2026-06-30T10:09:21+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2550,19 +2553,19 @@
       ]
     },
     {
-      "title": "CDU-Urgestein Wolfgang Bosbach über Wegner : „Mir tun die Berliner CDU-Kandidaten leid“",
-      "teaser": "In der Bundes-CDU herrscht Kopfschütteln über Berlins Regierungschef Kai Wegner. Der einst langjährige Bundestagsabgeordnete und CDU-Kenner Wolfgang Bosbach versteht die Rücktrittsforderungen.",
-      "link": "https://www.tagesspiegel.de/politik/cdu-urgestein-wolfgang-bosbach-mir-tun-die-berliner-cdu-kandidaten-leid-15826258.html",
-      "source": "tagesspiegel-energie",
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
       "published": null,
       "matched_keywords": [
-        "forderung"
+        "erneuerbare"
       ]
     },
     {
-      "title": "CDU-Krisentreffen nach Falschaussage : Rückzug von Kai Wegner als Spitzenkandidat scheint nicht mehr ausgeschlossen",
-      "teaser": "Am Freitag treffen sich die CDU-Kreischefs zur Krisenrunde mit Berlins Regierendem. Sein Verhalten sorgt intern für Fassungslosigkeit. Es gibt erste Rücktrittsforderungen, ein Quintett rechnet ab.",
-      "link": "https://www.tagesspiegel.de/berlin/cdu-krisentreffen-nach-falschaussage-ruckzug-von-kai-wegner-als-spitzenkandidat-scheint-nicht-mehr-ausgeschlossen-15821194.html",
+      "title": "CDU-Urgestein Wolfgang Bosbach über Wegner : „Mir tun die Berliner CDU-Kandidaten leid“",
+      "teaser": "In der Bundes-CDU herrscht Kopfschütteln über Berlins Regierungschef Kai Wegner. Der einst langjährige Bundestagsabgeordnete und CDU-Kenner Wolfgang Bosbach versteht die Rücktrittsforderungen.",
+      "link": "https://www.tagesspiegel.de/politik/cdu-urgestein-wolfgang-bosbach-mir-tun-die-berliner-cdu-kandidaten-leid-15826258.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2809,9 +2812,9 @@
       ]
     },
     {
-      "title": "Sweden urges ETS carbon cut at 4.4% to boost EU green transition",
+      "title": "Watchdog backs financial traders’ ETS role ahead of updates",
       "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/14ff8afd-0436-4ca5-9bef-140467db93c6/sweden-urges-ets-carbon-cut-at-4-4-to-boost-eu-transition",
+      "link": "https://www.montelnews.com/news/3e027604-f5bf-4a4e-80ec-62cc57ac73f2/watchdog-backs-financial-traders-ets-role-ahead-of-updates",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2819,33 +2822,13 @@
       ]
     },
     {
-      "title": "Sunny days, low wind could lead to German power price spikes",
+      "title": "Sweden urges ETS carbon cut at 4.4% to boost EU green transition",
       "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/7d24c7ac-415e-49fe-9660-28a37a95bd9a/sunny-days-low-wind-could-lead-to-german-power-price-spikes",
+      "link": "https://www.montelnews.com/news/14ff8afd-0436-4ca5-9bef-140467db93c6/sweden-urges-ets-carbon-cut-at-4-4-to-boost-eu-transition",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
-      "title": "TTF gas price hits EUR 50/MWh for first time in a month",
-      "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/8c93968e-58e4-45d8-a907-6c344880fd32/ttf-gas-price-hits-eur-50-mwh-for-first-time-in-a-month",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "Egypt LNG imports hit record high, tightens European supply",
-      "teaser": "Josephine Steppat",
-      "link": "https://www.montelnews.com/news/7679a49b-008b-43ad-a66d-9a6336b58878/egypt-lng-imports-hit-record-high-tightens-european-supply",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
+        "ets"
       ]
     },
     {
@@ -2859,23 +2842,33 @@
       ]
     },
     {
-      "title": "Solar lobby calls for clarity on EU “high-risk” supplier curbs",
+      "title": "Sunny days, low wind could lead to German power price spikes",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/b3e00c7f-9e52-43a4-96a1-7b28641bcaff/solar-lobby-calls-for-clarity-on-eu-high-risk-supplier-curbs",
+      "link": "https://www.montelnews.com/news/7d24c7ac-415e-49fe-9660-28a37a95bd9a/sunny-days-low-wind-could-lead-to-german-power-price-spikes",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "solar"
+        "power price"
       ]
     },
     {
-      "title": "EC targets 100 GW more renewables a year to cut gas 66%",
+      "title": "TTF gas price hits EUR 50/MWh for first time in a month",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/98525d83-9939-4f81-9d83-63ed728561b4/ec-targets-100-gw-more-renewables-a-year-to-cut-gas-66-draft",
+      "link": "https://www.montelnews.com/news/8c93968e-58e4-45d8-a907-6c344880fd32/ttf-gas-price-hits-eur-50-mwh-for-first-time-in-a-month",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "renewable"
+        "gas price"
+      ]
+    },
+    {
+      "title": "Egypt LNG imports hit record high, tightens European supply",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/7679a49b-008b-43ad-a66d-9a6336b58878/egypt-lng-imports-hit-record-high-tightens-european-supply",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
