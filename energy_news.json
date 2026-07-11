@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T20:15:49+00:00",
+  "generated_at": "2026-07-11T06:07:14+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 256,
+  "count": 254,
   "articles": [
     {
       "title": "Abruptes Förderende – Neue Rahmenbedingungen im Heizungsmarkt",
@@ -1219,16 +1219,6 @@
       "matched_keywords": [
         "speicher",
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "UK ministers changed stance on biofuels after officials’ US lobbying tour",
-      "teaser": "Revelation raises concerns that US commercial pressure could weaken Britain’s efforts to reduce carbon emissions",
-      "link": "https://www.ft.com/content/d4b53746-0e71-4443-a9c7-83b1052a4058",
-      "source": "ft-energy",
-      "published": "2026-07-06T04:00:23+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -2565,16 +2555,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
       "title": "Kirsten Westphal erneut in den Nationalen Wasserstoffrat berufen",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/kirsten-westphal-erneut-in-den-nationalen-wasserstoffrat-berufen/",
@@ -2874,9 +2854,9 @@
       ]
     },
     {
-      "title": "Vestas secures Japanese funding for wind turbine factory plan",
+      "title": "Mingyang, Cubico and Orsted top this week's wind industry moves",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/vestas-secures-japanese-funding-for-wind-turbine-factory-plan/2-1-2015596",
+      "link": "https://www.rechargenews.com/people/mingyang-cubico-and-orsted-top-this-weeks-wind-industry-moves/2-1-2015281",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2885,9 +2865,9 @@
       ]
     },
     {
-      "title": "Mingyang, Cubico and Orsted top this week's wind industry moves",
+      "title": "Vestas secures Japanese funding for wind turbine factory plan",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/mingyang-cubico-and-orsted-top-this-weeks-wind-industry-moves/2-1-2015281",
+      "link": "https://www.rechargenews.com/offshore-wind/vestas-secures-japanese-funding-for-wind-turbine-factory-plan/2-1-2015596",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2952,9 +2932,20 @@
       ]
     },
     {
-      "title": "Why this new wind CEO dismisses standalone storage as a 'pure capex play'",
+      "title": "Nordex orders jump a third as US bet pays off big in Q2",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/why-this-new-wind-ceo-dismisses-standalone-storage-as-a-pure-capex-play/2-1-2011545",
+      "link": "https://www.rechargenews.com/suppliers/nordex-orders-jump-a-third-as-us-bet-pays-off-big-in-q2/2-1-2014910",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2985,28 +2976,6 @@
       ]
     },
     {
-      "title": "Why RWE's Amprion deal is not as transformative as it appears",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-rwes-amprion-deal-is-not-as-transformative-as-it-appears/2-1-2012103",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why KKR outgunned rivals for $4bn of renewables – and why EDF is selling",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/why-kkr-outgunned-rivals-for-4bn-of-renewables-and-why-edf-is-selling/2-1-2012058",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "UK renewables auction: Six key takeaways from government announcements",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/uk-renewables-auction-six-key-takeaways-from-government-announcements/2-1-2013865",
@@ -3018,9 +2987,9 @@
       ]
     },
     {
-      "title": "Nordex orders jump a third as US bet pays off big in Q2",
+      "title": "Why this new wind CEO dismisses standalone storage as a 'pure capex play'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/nordex-orders-jump-a-third-as-us-bet-pays-off-big-in-q2/2-1-2014910",
+      "link": "https://www.rechargenews.com/energy-storage/why-this-new-wind-ceo-dismisses-standalone-storage-as-a-pure-capex-play/2-1-2011545",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3029,9 +2998,20 @@
       ]
     },
     {
-      "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
+      "title": "BP wants to quit Japanese offshore wind project: report",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
+      "link": "https://www.rechargenews.com/offshore-wind/bp-wants-to-quit-japanese-offshore-wind-project-report/2-1-2014232",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Green light for Technip Energies-X1 floater project that could halve hull weight",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/green-light-for-technip-backed-floater-project-that-could-halve-hull-weight/2-1-2014670",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
