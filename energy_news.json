@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T06:07:14+00:00",
+  "generated_at": "2026-07-11T08:42:40+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -230,12 +230,12 @@
     {
       "name": "windpowermonthly",
       "url": "https://www.windpowermonthly.com",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.windpowermonthly.com/rss",
-      "error": null,
-      "items_found": 20,
-      "items_matched": 7
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.windpowermonthly.com/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energymonitor",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 254,
+  "count": 247,
   "articles": [
     {
       "title": "Abruptes Förderende – Neue Rahmenbedingungen im Heizungsmarkt",
@@ -533,18 +533,6 @@
       "published": "2026-07-10T08:43:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "Ukraine plans 700MW wind power auction in energy security bid",
-      "teaser": "The Ukrainian government aims to support wind farms with a combined capacity of up to 700MW through auctions later this year in a bid to increase the war-torn country’s energy security.",
-      "link": "https://www.windpowermonthly.com/article/1964233/ukraine-plans-700mw-wind-power-auction-energy-security-bid",
-      "source": "windpowermonthly",
-      "published": "2026-07-10T08:37:56+00:00",
-      "matched_keywords": [
-        "energy security",
-        "wind farm",
-        "wind power"
       ]
     },
     {
@@ -763,16 +751,6 @@
       "published": "2026-07-09T10:07:43+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "New Zealand takes 'important first step' in offshore wind – but risks remain",
-      "teaser": "New Zealand has approved its first framework for offshore wind development in the country, but the country's national wind power association has flagged risks that the government is yet to address.",
-      "link": "https://www.windpowermonthly.com/article/1964124/new-zealand-takes-important-first-step-offshore-wind-%E2%80%93-risks-remain",
-      "source": "windpowermonthly",
-      "published": "2026-07-09T10:00:42+00:00",
-      "matched_keywords": [
-        "wind power"
       ]
     },
     {
@@ -1014,16 +992,6 @@
       ]
     },
     {
-      "title": "UK to support deepwater offshore wind at next renewables auction",
-      "teaser": "The UK government will include a pot for fixed-bottom deepwater offshore wind in its upcoming renewable energy auction, allocation round 8 (AR8), which is due to open later this year.",
-      "link": "https://www.windpowermonthly.com/article/1963861/uk-support-deepwater-offshore-wind-next-renewables-auction",
-      "source": "windpowermonthly",
-      "published": "2026-07-07T10:06:15+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "‘Climate risk is a daily operational reality’ for BESS developers in Southeast Asia",
       "teaser": "Developers must use all the tools at their disposal and be aware of the frontline climate risks that battery storage projects in Southeast Asia will be subject to.",
       "link": "https://www.energy-storage.news/climate-risk-is-a-daily-operational-reality-for-bess-developers-in-southeast-asia/",
@@ -1159,16 +1127,6 @@
       ]
     },
     {
-      "title": "Wind power patents: Dongfang | Siemens Gamesa | Goldwind | Nordex | ZF",
-      "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
-      "link": "https://www.windpowermonthly.com/article/1963730/wind-power-patents-dongfang-siemens-gamesa-goldwind-nordex-zf",
-      "source": "windpowermonthly",
-      "published": "2026-07-06T10:35:12+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Amazon pens battery storage PPA for 220MWh solar-plus-storage site in Australia",
       "teaser": "Tech giant Amazon has signed a new power purchase agreement (PPA) to procure energy from IPP European Energy’s 220MWh Winton North solar-plus-storage project in northeast Victoria, Australia.",
       "link": "https://www.energy-storage.news/amazon-pens-battery-storage-ppa-for-220mwh-solar-plus-storage-site-in-australia/",
@@ -1239,16 +1197,6 @@
       "published": "2026-07-04T08:07:02+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "Jera Nex BP buys deeper into Belgian offshore wind",
-      "teaser": "Jera Nex BP has deepened its involvement in offshore wind in Belgium by buying greater stakes in two operational offshore wind farms in the country.",
-      "link": "https://www.windpowermonthly.com/article/1963600/jera-nex-bp-buys-deeper-belgian-offshore-wind",
-      "source": "windpowermonthly",
-      "published": "2026-07-03T10:22:17+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1345,16 +1293,6 @@
       ]
     },
     {
-      "title": "Scottish Renewables chief to join SSE",
-      "teaser": null,
-      "link": "https://www.windpowermonthly.com/article/1963497/scottish-renewables-chief-join-sse",
-      "source": "windpowermonthly",
-      "published": "2026-07-02T11:14:40+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Vena Energy secures AU$1.4 billion to scale Australian platform with solar and battery storage infrastructure",
       "teaser": "Singapore-headquartered clean energy developer Vena Energy has raised AU$1.4 billion (US$970 million) in green finance to support 614MW of solar PV capacity and 1,141MWh of battery energy storage systems (BESS) in Australia.",
       "link": "https://www.energy-storage.news/vena-energy-secures-au1-4-billion-to-scale-australian-platform-with-solar-and-battery-storage-infrastructure/",
@@ -1448,16 +1386,6 @@
       "published": "2026-07-01T11:16:18+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Siemens Gamesa blade breaks off during lightning storm",
-      "teaser": "A blade broke off a Siemens Gamesa turbine at an Ørsted onshore wind farm in Denmark during stormy weather over the weekend.",
-      "link": "https://www.windpowermonthly.com/article/1963328/siemens-gamesa-blade-breaks-off-during-lightning-storm",
-      "source": "windpowermonthly",
-      "published": "2026-07-01T08:21:12+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
