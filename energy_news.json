@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T14:18:38+00:00",
+  "generated_at": "2026-07-11T16:44:42+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 247,
+  "count": 246,
   "articles": [
     {
       "title": "Abruptes Förderende – Neue Rahmenbedingungen im Heizungsmarkt",
@@ -513,16 +513,6 @@
       "published": "2026-07-10T09:19:37+00:00",
       "matched_keywords": [
         "co2"
-      ]
-    },
-    {
-      "title": "Nigeria’s long-term energy security strategy backed with new oil discovery",
-      "teaser": "Nigerian integrated energy company Renaissance Africa Energy has made a new oil discovery offshore [&#8230;] The post Nigeria&#8217;s long-term energy security strategy backed with new oil discovery appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/nigerias-long-term-energy-security-strategy-backed-with-new-oil-discovery/",
-      "source": "offshore-energy",
-      "published": "2026-07-10T09:13:37+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -782,16 +772,6 @@
       "published": "2026-07-09T08:04:10+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "TotalEnergies ships first LNG cargo from Mexican project to Asia",
-      "teaser": "France’s energy giant TotalEnergies has shipped the first cargo to Asia from the first [&#8230;] The post TotalEnergies ships first LNG cargo from Mexican project to Asia appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/totalenergies-ships-first-lng-cargo-from-mexican-project-to-asia/",
-      "source": "offshore-energy",
-      "published": "2026-07-09T07:40:35+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -2473,13 +2453,23 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
+      "title": "Migration, Rundfunk, Demokratieförderung : AfD präsentiert 100-Tage-Plan für Sachsen-Anhalt",
+      "teaser": "Nun hat die AfD offiziell vorgestellt, was sie im Falle einer Regierungsmehrheit in Sachsen-Anhalt tun will. Zehn zentrale Punkte hat der rechtsextreme Landesverband festgelegt.",
+      "link": "https://www.tagesspiegel.de/politik/migration-rundfunk-demokratieforderung-afd-prasentiert-100-tage-plan-fur-sachsen-anhalt-15829992.html",
+      "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "erneuerbare"
+        "förderung"
+      ]
+    },
+    {
+      "title": "Auch Greta Thunberg nimmt teil : Hunderte demonstrieren vor Rheinmetall-Werk in Berlin-Wedding",
+      "teaser": "Hunderte Menschen nehmen an einem Demonstrationszug gegen Rüstungsproduktion teil, der vor dem Rheinmetall-Werk in Wedding endet. Auch Klimaaktivistin Greta Thunberg ist dabei.",
+      "link": "https://www.tagesspiegel.de/berlin/auch-greta-thunberg-nimmt-teil-hunderte-demonstrieren-vor-rheinmetall-werk-in-berlin-wedding-15830481.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
       ]
     },
     {
