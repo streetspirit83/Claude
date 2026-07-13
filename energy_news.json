@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:38:51+00:00",
+  "generated_at": "2026-07-13T17:49:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -371,6 +371,17 @@
   "count": 259,
   "articles": [
     {
+      "title": "Shell sells Indian wind and solar business for $1.8bn",
+      "teaser": "Aditya Birla Renewables takes on Shell’s renewable assets in India as energy major continues to refocus on oil and gas",
+      "link": "https://www.ft.com/content/e9a826a4-db60-458b-8886-a94a3a111cff",
+      "source": "ft-energy",
+      "published": "2026-07-13T16:39:07+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Drax, premier émetteur du Royaume-Uni en 2025 avec 14,1 MtCO2e selon Ember",
       "teaser": "Pour la onzième année consécutive, la centrale biomasse Drax s'impose comme le plus grand émetteur individuel de CO2e du Royaume-Uni avec 14,1 MtCO2e en 2025, percevant simultanément 999 millions de livres de subventions publiques selon…",
       "link": "https://energynews.pro/drax-premier-emetteur-du-royaume-uni-en-2025-avec-141-mtco2e-selon-ember",
@@ -401,7 +412,7 @@
       ]
     },
     {
-      "title": "VDE FNN und DKE gegen „Smart Meter Light“",
+      "title": "VDE FNN und DKE gegen „Smart Meter light“",
       "teaser": "Die nun auch von der Bundesregierung vorgeschlagene Einführung einer „Light“-Variante könne den Rollout der zur Steuerung von Photovoltaik-Anlagen und anderen Systemen erforderlichen Messsysteme mit Gateway behindern. Für…",
       "link": "https://www.pv-magazine.de/2026/07/13/vde-fnn-und-dke-gegen-smart-meter-light/",
       "source": "pv-magazine-de",
@@ -418,18 +429,6 @@
       "published": "2026-07-13T13:49:33+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "Kilowattstunde ist alles – eine Plattitüde?!",
-      "teaser": "Wie weiter mit Photovoltaik-Anlagen, die nach 20 Jahren aus der EEG-Förderung laufen? Dieser Frage geht Thomas Vorderwülbecke in seinem Beitrag nach.",
-      "link": "https://www.pv-magazine.de/2026/07/13/kilowattstunde-ist-alles-eine-plattituede/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-13T13:11:24+00:00",
-      "matched_keywords": [
-        "eeg",
-        "förderung",
-        "photovoltaik"
       ]
     },
     {
@@ -563,6 +562,18 @@
       "published": "2026-07-13T09:37:17+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "Kilowattstunde ist alles – eine Plattitüde?!",
+      "teaser": "Wie weiter mit Photovoltaik-Anlagen, die nach 20 Jahren aus der EEG-Förderung laufen? Dieser Frage geht Thomas Vorderwülbecke in seinem Beitrag nach.",
+      "link": "https://www.pv-magazine.de/2026/07/13/kilowattstunde-ist-alles-eine-plattituede/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-13T09:11:24+00:00",
+      "matched_keywords": [
+        "eeg",
+        "förderung",
+        "photovoltaik"
       ]
     },
     {
@@ -728,16 +739,6 @@
       "published": "2026-07-10T15:30:00+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Tata Power inaugure le projet éolien Jewali de 100,8 MW au Maharashtra",
-      "teaser": "Tata Power Renewable Energy a mis en service son parc éolien Jewali de 100,8 MW dans le district de Dharashiv, au Maharashtra. L'installation alimentera Tata Power Mumbai Distribution pour satisfaire ses obligations d'achat d'électricité…",
-      "link": "https://energynews.pro/tata-power-inaugure-le-projet-eolien-jewali-de-1008-mw-au-maharashtra",
-      "source": "energynews-pro",
-      "published": "2026-07-10T14:42:58+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -1216,16 +1217,6 @@
       "published": "2026-07-07T18:02:15+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Airbus to make first foray into engine manufacturing with hydrogen tie-up",
-      "teaser": "European aircraft maker to form joint venture with Germany’s MTU Aero Engines to take on China and US rivals",
-      "link": "https://www.ft.com/content/e8be97c7-af28-42f2-8d81-ce619d4c0de1",
-      "source": "ft-energy",
-      "published": "2026-07-07T15:50:01+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -2632,6 +2623,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
       ]
     },
     {
