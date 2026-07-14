@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T20:06:55+00:00",
+  "generated_at": "2026-07-14T06:04:38+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 13
+      "items_matched": 14
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 8
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "energy-storage-news",
@@ -371,6 +371,50 @@
   "count": 259,
   "articles": [
     {
+      "title": "Solar generated record 25% of EU power in June with Germany, Spain and Poland leading the race",
+      "teaser": "Solar was ahead of coal, gas, nuclear, wind and hydropower.",
+      "link": "http://www.euronews.com/2026/07/14/solar-generated-record-25-of-eu-power-in-june-with-germany-spain-and-poland-leading-the-ra",
+      "source": "euronews-green",
+      "published": "2026-07-14T05:00:12+00:00",
+      "matched_keywords": [
+        "nuclear",
+        "solar"
+      ]
+    },
+    {
+      "title": "Google backs major US solar project to offset fossil fuel emissions",
+      "teaser": "Deal signals continued demand for renewable energy despite Trump administration’s efforts to end tax credits and stall plans",
+      "link": "https://www.ft.com/content/e9db6384-b295-4ab2-96bf-55025db9ee1d",
+      "source": "ft-energy",
+      "published": "2026-07-14T04:00:19+00:00",
+      "matched_keywords": [
+        "emission",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Thailand is creating a ‘flexible and competitive environment’ for energy storage market participation",
+      "teaser": "New market rules will encourage investment in energy storage as a key component of Thailand’s national energy vision, according to the country’s energy ministry.",
+      "link": "https://www.energy-storage.news/thailand-is-creating-a-flexible-and-competitive-environment-for-energy-storage-market-participation/",
+      "source": "energy-storage-news",
+      "published": "2026-07-14T03:37:49+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "China’s vast air clean-up marred by wartime coal power surge",
+      "teaser": "FT analysis shows extent of enormous progress since ‘airpocalypse’ — and latest emissions increase",
+      "link": "https://www.ft.com/content/e67f40b6-48d6-4057-8d57-a9f5f6b0a741",
+      "source": "ft-energy",
+      "published": "2026-07-14T01:30:22+00:00",
+      "matched_keywords": [
+        "coal power",
+        "emission"
+      ]
+    },
+    {
       "title": "Shell sells Indian wind and solar business for $1.8bn",
       "teaser": "Aditya Birla Renewables takes on Shell’s renewable assets in India as energy major continues to refocus on oil and gas",
       "link": "https://www.ft.com/content/e9a826a4-db60-458b-8886-a94a3a111cff",
@@ -389,6 +433,16 @@
       "published": "2026-07-13T17:44:40+00:00",
       "matched_keywords": [
         "sanction"
+      ]
+    },
+    {
+      "title": "Warming Europe complicates France’s bet on nuclear power",
+      "teaser": "With extreme heat forcing the country to shut down nuclear reactors, just as the appetite for cheap, carbon-free electricity is set to explode.",
+      "link": "https://www.politico.eu/article/warming-europe-complicate-france-nuclear-power/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-13T16:10:55+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -462,17 +516,6 @@
       ]
     },
     {
-      "title": "Petronas expands three-decade-long LNG ties with Shizuoka Gas up to 2039",
-      "teaser": "Petronas LNG Ltd. (PLL), a subsidiary of Malaysia’s energy giant Petroliam Nasional Berhad (Petronas), has sealed a new liquefied natural gas (LNG) deal with Japan’s Shizuoka Gas, building on a partnership spanning three decades, as the…",
-      "link": "https://www.offshore-energy.biz/petronas-expands-three-decade-long-lng-ties-with-shizuoka-gas-up-to-2039/",
-      "source": "offshore-energy",
-      "published": "2026-07-13T12:31:40+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
-      ]
-    },
-    {
       "title": "Leaked EU Electrification Action Plan recognises need for 200GW of energy storage by 2030",
       "teaser": "According to a leaked draft of its Electrification Action Plan, the European Union (EU) must deploy 200GW of energy storage by 2030 to meet energy system flexibility needs.",
       "link": "https://www.energy-storage.news/leaked-eu-electrification-action-plan-recognises-need-for-200gw-of-energy-storage-by-2030/",
@@ -480,17 +523,6 @@
       "published": "2026-07-13T11:43:52+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "New player eyes coming aboard Greece’s FSRU project with Aktor-Motor Oil deal",
-      "teaser": "Greece's Motor Oil Hellas (MOH) has struck a deal with its compatriot Aktor to divest half of its subsidiary's stake in a floating storage and regasification unit (FSRU) project, which is anticipated to boost liquefied natural gas (LNG)…",
-      "link": "https://www.offshore-energy.biz/new-player-eyes-coming-aboard-greeces-fsru-project-with-aktor-motor-oil-deal/",
-      "source": "offshore-energy",
-      "published": "2026-07-13T11:42:00+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
       ]
     },
     {
@@ -584,16 +616,6 @@
         "eeg",
         "förderung",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "Third ORESA innovation call for offshore energy solutions open for applications",
-      "teaser": "Offshore Renewable Energy Sustainability Alliance (ORESA), an Interreg North-West Europe project, is inviting small [&#8230;] The post Third ORESA innovation call for offshore energy solutions open for applications appeared first on…",
-      "link": "https://www.offshore-energy.biz/third-oresa-innovation-call-for-offshore-energy-solutions-open-for-applications/",
-      "source": "offshore-energy",
-      "published": "2026-07-13T08:53:50+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -760,16 +782,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Economic uncertainty slows energy transition despite net zero ambitions",
-      "teaser": "Three quarters of businesses say economic uncertainty is delaying net zero investments The post Economic uncertainty slows energy transition despite net zero ambitions appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/10/economic-uncertainty-slows-energy-transition-despite-net-zero-ambitions/",
-      "source": "energylivenews",
-      "published": "2026-07-10T13:00:00+00:00",
-      "matched_keywords": [
-        "net zero"
       ]
     },
     {
@@ -1633,16 +1645,6 @@
       "published": "2026-07-01T11:31:26+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Neoen awarded capacity contract for 1,600MWh Ontario BESS through LT2 procurement",
-      "teaser": "French independent power producer (IPP) Neoen has been awarded a 20-year capacity services contract for its 200MW/1,600MWh energy storage project in Ontario.",
-      "link": "https://www.energy-storage.news/neoen-awarded-capacity-contract-for-1600mwh-ontario-bess-through-lt2-procurement/",
-      "source": "energy-storage-news",
-      "published": "2026-07-01T11:16:18+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2905,6 +2907,17 @@
       ]
     },
     {
+      "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Shell sells wind and solar arm in new dash from renewables",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/shell-sells-wind-and-solar-arm-in-new-dash-from-renewables/2-1-2016301",
@@ -2993,18 +3006,6 @@
       ]
     },
     {
-      "title": "Why Italy can't get enough wind built to help its power price battle",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-italy-cant-get-enough-wind-built-to-help-its-power-price-battle/2-1-2014501",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "power price",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Why this new wind CEO dismisses standalone storage as a 'pure capex play'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/why-this-new-wind-ceo-dismisses-standalone-storage-as-a-pure-capex-play/2-1-2011545",
@@ -3038,6 +3039,18 @@
       ]
     },
     {
+      "title": "Why Italy can't get enough wind built to help its power price battle",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/why-italy-cant-get-enough-wind-built-to-help-its-power-price-battle/2-1-2014501",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "power price",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
@@ -3052,17 +3065,6 @@
       "title": "Green light for Technip Energies-X1 floater project that could halve hull weight",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/green-light-for-technip-backed-floater-project-that-could-halve-hull-weight/2-1-2014670",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Largest US blade maker targets growth after bankruptcy debt wipeout",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/largest-us-blade-maker-targets-growth-after-bankruptcy-debt-wipeout/2-1-2015276",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
