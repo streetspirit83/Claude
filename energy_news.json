@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:05:21+00:00",
+  "generated_at": "2026-07-14T20:05:46+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 268,
+  "count": 266,
   "articles": [
     {
       "title": "EU’s Arctic LNG appetite hits new high with €5.96 billion bill for 136 Russian cargoes in H1 2026",
@@ -2674,26 +2674,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Der Tagesspiegel",
-      "teaser": "USA greifen den Iran in dritter Nacht in Folge an + Hunderte Millionen Euro für Wiederaufbau in Gaza zugesagt + Deutschland bremst Debatte um Israel-Sanktionen aus + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
-      "title": "Streit um Straße von Hormus : Trump will nun doch keine Gebühren für Durchfahrten erheben",
-      "teaser": "USA greifen den Iran in dritter Nacht in Folge an + Hunderte Millionen Euro für Wiederaufbau in Gaza zugesagt + Deutschland bremst Debatte um Israel-Sanktionen aus + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de/internationales/liveblog/streit-um-strasse-von-hormus-trump-will-nun-doch-keine-gebuhren-fur-durchfahrten-erheben-10586281.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
       ]
     },
     {
