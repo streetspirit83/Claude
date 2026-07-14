@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:43:01+00:00",
+  "generated_at": "2026-07-14T17:05:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "euronews-green",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "energylivenews",
@@ -403,6 +403,16 @@
       ]
     },
     {
+      "title": "TotalEnergies secures $502m for 789MW battery projects in Germany",
+      "teaser": "TotalEnergies has secured approximately €440m ($501.6m) in debt financing for a portfolio of 11 battery energy storage projects with a combined capacity of 789MW in Germany.",
+      "link": "https://www.power-technology.com/news/totalenergies-502m-789mw-battery-projects-germany/",
+      "source": "power-technology",
+      "published": "2026-07-14T13:07:48+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
       "title": "Climate mitigation plans are ignoring gender and population growth factors",
       "teaser": "Women are at more risk from the damaging effects of climate change warns study The post Climate mitigation plans are ignoring gender and population growth factors appeared first on Energy Live News .",
       "link": "https://www.energylivenews.com/2026/07/14/climate-mitigation-plans-are-ignoring-gender-and-population-growth-factors/",
@@ -434,7 +444,7 @@
     },
     {
       "title": "EnBW findet keinen Investor – Neukundengeschäft von Senec wird eingestellt",
-      "teaser": "Die im Februar gestartete Investorensuche für den Leipziger Speicheranbieter hat EnBW ohne Erfolg erfolglos abgeschlossen. Als Konsequenz wird sich Senec künftig auf das Bestandskundengeschäft konzentrieren, der auch mit einem Stellenabbau…",
+      "teaser": "Die im Februar gestartete Investorensuche für den Leipziger Speicheranbieter hat EnBW ohne Erfolg abgeschlossen. Als Konsequenz wird sich Senec künftig auf das Bestandskundengeschäft konzentrieren, was auch mit einem Stellenabbau…",
       "link": "https://www.pv-magazine.de/2026/07/14/enbw-findet-keinen-investor-neukundengeschaeft-von-senec-wird-eingestellt/",
       "source": "pv-magazine-de",
       "published": "2026-07-14T10:50:48+00:00",
@@ -450,6 +460,16 @@
       "published": "2026-07-14T10:23:04+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "OMV secures $512m EIB loan for green hydrogen plant in Austria",
+      "teaser": "OMV has received a €450m ($512m) loan from EIB to support the construction of its flagship green hydrogen production facility.",
+      "link": "https://www.energymonitor.ai/news/omv-secures-eib-loan/",
+      "source": "energymonitor",
+      "published": "2026-07-14T10:05:56+00:00",
+      "matched_keywords": [
+        "hydrogen"
       ]
     },
     {
@@ -1795,17 +1815,6 @@
       ]
     },
     {
-      "title": "Ireland prepares to play dealmaker on EU’s biggest climate fight of the year",
-      "teaser": "Some countries desperately want to gut the Emissions Trading System, others are determined to protect it. Ireland has its work cut out.",
-      "link": "https://www.politico.eu/article/ireland-prepares-eu-presidency-play-dealmaker-climate-change-fight-of-the-year/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-06-29T02:00:00+00:00",
-      "matched_keywords": [
-        "climate",
-        "emissions trading"
-      ]
-    },
-    {
       "title": "Heat pumps may soon outsell air conditioners in US",
       "teaser": "This article is part of our ​“Chart of the Week” series . Summer is officially here — and more Americans than ever are cooling their homes with heat pumps. A decade ago, two conventional air-conditioning systems were sold for every one…",
       "link": "https://www.canarymedia.com/articles/heat-pumps/heat-pumps-air-conditioners",
@@ -2668,19 +2677,9 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Harte US-Sanktionen gegen Russland : Geht Lindsey Grahams letzter großer Plan auf?",
-      "teaser": "Am Samstag ist Senator Lindsey Graham überraschend verstorben. Mit ihm verliert die Ukraine einen ihrer größten Unterstützer in den USA. Doch der Republikaner hat vorgesorgt.",
-      "link": "https://www.tagesspiegel.de/internationales/harte-us-sanktionen-gegen-russland-geht-lindsey-grahams-letzter-grosser-plan-auf-15834275.html",
+      "title": "Der Tagesspiegel",
+      "teaser": "USA greifen den Iran in dritter Nacht in Folge an + Hunderte Millionen Euro für Wiederaufbau in Gaza zugesagt + Deutschland bremst Debatte um Israel-Sanktionen aus + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2688,13 +2687,12 @@
       ]
     },
     {
-      "title": "Hafenstadt mit einzigem iranischen Atomkraftwerk : Iran meldet US-Angriffe auf Buschehr und weitere Städte",
+      "title": "Streit um Straße von Hormus : Trump will nun doch keine Gebühren für Durchfahrten erheben",
       "teaser": "USA greifen den Iran in dritter Nacht in Folge an + Hunderte Millionen Euro für Wiederaufbau in Gaza zugesagt + Deutschland bremst Debatte um Israel-Sanktionen aus + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de/internationales/liveblog/hafenstadt-mit-einzigem-iranischen-atomkraftwerk-iran-meldet-us-angriffe-auf-buschehr-und-weitere-stadte-10586281.html",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/streit-um-strasse-von-hormus-trump-will-nun-doch-keine-gebuhren-fur-durchfahrten-erheben-10586281.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "atomkraft",
         "sanktion"
       ]
     },
@@ -2988,9 +2986,9 @@
       ]
     },
     {
-      "title": "TotalEnergies' floating turbine hits the water in boost to big oil’s green ambitions",
+      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/totalenergies-floating-turbine-hits-the-water-in-boost-to-big-oil-s-green-ambitions/2-1-2016366",
+      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3002,17 +3000,6 @@
       "title": "Six years after spin-off, Siemens Energy and Siemens Gamesa rebrand",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/suppliers/six-years-after-spin-off-siemens-energy-and-siemens-gamesa-rebrand/2-1-2016762",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3043,9 +3030,9 @@
       ]
     },
     {
-      "title": "Cadeler secures loan to build new offshore wind installation vessel",
+      "title": "TotalEnergies' floating turbine hits the water in boost to big oil’s green ambitions",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/vessels/cadeler-secures-loan-to-build-new-offshore-wind-installation-vessel/2-1-2016744",
+      "link": "https://www.rechargenews.com/technology/totalenergies-floating-turbine-hits-the-water-in-boost-to-big-oil-s-green-ambitions/2-1-2016366",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3057,6 +3044,17 @@
       "title": "Turkey kicks off 2.4GW onshore wind and solar tender with pledge for more",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/auctions/turkey-kicks-off-2-4gw-onshore-wind-and-solar-tender-with-pledge-for-more/2-1-2016489",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Cadeler secures loan to build new offshore wind installation vessel",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/vessels/cadeler-secures-loan-to-build-new-offshore-wind-installation-vessel/2-1-2016744",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
