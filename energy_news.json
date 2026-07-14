@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:19:21+00:00",
+  "generated_at": "2026-07-14T14:43:01+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 29
+      "items_matched": 30
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,60 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 268,
   "articles": [
+    {
+      "title": "EU’s Arctic LNG appetite hits new high with €5.96 billion bill for 136 Russian cargoes in H1 2026",
+      "teaser": "The European Union (EU) has become the primary destination of Russia's Arctic liquefied natural gas (LNG) exports by turning into a backbone of the Russian LNG business in the first six months of 2026, dishing out billions of euros to…",
+      "link": "https://www.offshore-energy.biz/eus-arctic-lng-appetite-hits-new-high-with-e5-96-billion-bill-for-136-russian-cargoes-in-h1-2026/",
+      "source": "offshore-energy",
+      "published": "2026-07-14T14:03:54+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "EEBus Initiative und ZVEH bieten neues Handwerkertool für Nachweis der Steuerbarkeit von Verbrauchern an",
+      "teaser": "„EEBUS Handwerkertool” soll Fachbetriebe bei der Einrichtung von steuerbaren Verbrauchseinrichtungen nach Paragraf 14a EnWG und Paragraf 9 EEG unterstützen. Es geht dabei um den Nachweis der Steuerbarkeit von Photovoltaik-Anlagen,…",
+      "link": "https://www.pv-magazine.de/2026/07/14/eebus-initiative-und-zveh-bieten-neues-handwerkertool-fuer-nachweis-der-steuerbarkeit-von-verbrauchern-an/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-14T14:00:18+00:00",
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "VIDEO: Scaling solar-coupled, distributed sodium-ion NFPP battery storage with startup Moonwatt",
+      "teaser": "We caught up with the CCO of Netherlands-headquartered startup Moonwatt at last month's Smarter E Europe trade show in Munich for a video interview.",
+      "link": "https://www.energy-storage.news/video-scaling-solar-coupled-distributed-sodium-ion-nfpp-battery-storage-with-startup-moonwatt/",
+      "source": "energy-storage-news",
+      "published": "2026-07-14T13:55:54+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Climate mitigation plans are ignoring gender and population growth factors",
+      "teaser": "Women are at more risk from the damaging effects of climate change warns study The post Climate mitigation plans are ignoring gender and population growth factors appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/14/climate-mitigation-plans-are-ignoring-gender-and-population-growth-factors/",
+      "source": "energylivenews",
+      "published": "2026-07-14T13:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Golar LNG tasks Axess with work on FLNG pair bound for South American project",
+      "teaser": "Norway-headquartered asset integrity management company Axess Group has picked up new assignments with Golar LNG, the Bermuda-headquartered owner and operator of liquefied natural gas (LNG) midstream infrastructure, for two floating LNG…",
+      "link": "https://www.offshore-energy.biz/golar-lng-tasks-axess-with-work-on-flng-pair-bound-for-south-american-project/",
+      "source": "offshore-energy",
+      "published": "2026-07-14T12:39:11+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "British firms face £800m EU carbon tax bill",
       "teaser": "UK and EU should allow each other to be exempt from emissions trading charges or costs will rocket The post British firms face £800m EU carbon tax bill appeared first on Energy Live News .",
@@ -422,9 +474,9 @@
       ]
     },
     {
-      "title": "Deutlich mehr Photovoltaik-Zubau auf Wohngebäuden: BSW-Solar nennt Sondereffekte als Grund",
+      "title": "Photovoltaik-Zubau auf Wohngebäuden zieht deutlich an: BSW-Solar nennt Sondereffekte als Grund",
       "teaser": "Der Bundesverband Solarwirtschaft registriert für das erste Halbjahr 2026 zwar rund neun Prozent mehr neu installierte Leistung als im Vorjahreszeitraum, warnt aber dennoch vor einer „politischen Ausbaubremse“. Hauptgrund für das…",
-      "link": "https://www.pv-magazine.de/2026/07/14/deutlich-mehr-photovoltaik-zubau-auf-wohngebaeuden-bsw-solar-nennt-sondereffekte-als-grund/",
+      "link": "https://www.pv-magazine.de/2026/07/14/photovoltaik-zubau-auf-wohngebauden-zieht-deutlich-an-bsw-solar-nennt-sondereffekte-als-grund/",
       "source": "pv-magazine-de",
       "published": "2026-07-14T09:49:29+00:00",
       "matched_keywords": [
@@ -484,7 +536,7 @@
     },
     {
       "title": "Solar-Markisen: Gleichzeitig Solarstrom für den Eigenverbrauch erzeugen und Schatten spenden",
-      "teaser": "Ein Essener Start-up setzt mittlerweile die ersten Projekte deutschlandweit um. Nach Angaben von Solar Markise ist das Produkt etwa 10 bis 15 Prozent teurer als herkömmlicher Sonnenschutz, doch die höhere Investition lohnt sich durch die…",
+      "teaser": "Ein Essener Start-up setzt mittlerweile die ersten Projekte deutschlandweit um. Nach Angaben von Solar Markise ist das Produkt etwa 10 bis 15 Prozent teurer als herkömmlicher Sonnenschutz, doch die höhere Investition lohne sich durch die…",
       "link": "https://www.pv-magazine.de/2026/07/14/solar-markisen-gleichzeitig-solarstrom-fuer-den-eigenverbrauch-erzeugen-und-schatten-spenden/",
       "source": "pv-magazine-de",
       "published": "2026-07-14T07:30:00+00:00",
@@ -698,17 +750,6 @@
       ]
     },
     {
-      "title": "Petronas expands three-decade-long LNG ties with Shizuoka Gas up to 2039",
-      "teaser": "Petronas LNG Ltd. (PLL), a subsidiary of Malaysia’s energy giant Petroliam Nasional Berhad (Petronas), has sealed a new liquefied natural gas (LNG) deal with Japan’s Shizuoka Gas, building on a partnership spanning three decades, as the…",
-      "link": "https://www.offshore-energy.biz/petronas-expands-three-decade-long-lng-ties-with-shizuoka-gas-up-to-2039/",
-      "source": "offshore-energy",
-      "published": "2026-07-13T12:31:40+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
-      ]
-    },
-    {
       "title": "Leaked EU Electrification Action Plan recognises need for 200GW of energy storage by 2030",
       "teaser": "According to a leaked draft of its Electrification Action Plan, the European Union (EU) must deploy 200GW of energy storage by 2030 to meet energy system flexibility needs.",
       "link": "https://www.energy-storage.news/leaked-eu-electrification-action-plan-recognises-need-for-200gw-of-energy-storage-by-2030/",
@@ -739,16 +780,6 @@
       ]
     },
     {
-      "title": "Umweltbank finanziert Stand-alone-Speicher ohne Tolling-Absicherung",
-      "teaser": "Der Batteriespeicher in Sachsen-Anhalt hat eine Leistung von 11 Megawatt und eine Kapazität von 22 Megawattstunden. Die strukturierte Finanzierung durch die Umweltbank erfolgt rein auf Markterlösen.",
-      "link": "https://www.pv-magazine.de/2026/07/13/umweltbank-finanziert-stand-alone-speicher-ohne-tolling-absicherung/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-13T10:48:01+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "La CRE sélectionne 326 lauréats PV bâtiment et 39 éoliens pour la PPE2",
       "teaser": "La Commission de régulation de l'énergie publie ses délibérations pour la 12e période PV Bâtiment et la 11e période éolienne de la PPE2, marquées par des baisses de prix significatives et une forte sursouscription.",
       "link": "https://energynews.pro/la-cre-selectionne-326-laureats-pv-batiment-et-39-eoliens-pour-la-ppe2",
@@ -766,17 +797,6 @@
       "published": "2026-07-13T10:01:51+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Hoymiles reagiert auf Sicherheitslücke in alten Mikro-Wechselrichtern",
-      "teaser": "Der Chaos Computer Club hat kürzlich auf eine gefährliche Sicherheitslücke bei Photovoltaik-Anlagen mit Hoymiles-Wechselrichtern hingewiesen. Das chinesische Unternehmen erklärte auf Nachfrage von pv magazine, dass bis Ende August ein…",
-      "link": "https://www.pv-magazine.de/2026/07/13/hoymiles-reagiert-auf-sicherheitsluecke-in-alten-mikro-wechselrichtern/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-13T09:50:01+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
@@ -2648,6 +2668,37 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Harte US-Sanktionen gegen Russland : Geht Lindsey Grahams letzter großer Plan auf?",
+      "teaser": "Am Samstag ist Senator Lindsey Graham überraschend verstorben. Mit ihm verliert die Ukraine einen ihrer größten Unterstützer in den USA. Doch der Republikaner hat vorgesorgt.",
+      "link": "https://www.tagesspiegel.de/internationales/harte-us-sanktionen-gegen-russland-geht-lindsey-grahams-letzter-grosser-plan-auf-15834275.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
+      "title": "Hafenstadt mit einzigem iranischen Atomkraftwerk : Iran meldet US-Angriffe auf Buschehr und weitere Städte",
+      "teaser": "USA greifen den Iran in dritter Nacht in Folge an + Hunderte Millionen Euro für Wiederaufbau in Gaza zugesagt + Deutschland bremst Debatte um Israel-Sanktionen aus + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/hafenstadt-mit-einzigem-iranischen-atomkraftwerk-iran-meldet-us-angriffe-auf-buschehr-und-weitere-stadte-10586281.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "atomkraft",
+        "sanktion"
+      ]
+    },
+    {
       "title": "Kirsten Westphal erneut in den Nationalen Wasserstoffrat berufen",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/kirsten-westphal-erneut-in-den-nationalen-wasserstoffrat-berufen/",
@@ -2897,6 +2948,16 @@
       ]
     },
     {
+      "title": "Analysts warn EU gas prices could double on winter freeze",
+      "teaser": "Josephine Steppat",
+      "link": "https://www.montelnews.com/news/947822f0-cbed-4d14-b8c2-7c0c4109fc85/analysts-warn-eu-gas-prices-could-double-on-winter-freeze",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
       "title": "ETS reforms to aid industry, won’t “fundamentally weaken” scheme",
       "teaser": "Josephine Steppat",
       "link": "https://www.montelnews.com/news/b438c4bc-6509-414d-8f46-4818845a0ddd/ets-reforms-to-aid-industry-won-t-fundamentally-weaken-scheme",
@@ -2917,9 +2978,52 @@
       ]
     },
     {
+      "title": "Heatwave drives record French nuclear cuts, Swiss reactor shutdown",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/2a1dc06d-2e00-4b3f-a0fd-d00998d905fa/heatwave-drives-record-french-nuclear-cuts-swiss-reactor-shutdown",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
       "title": "TotalEnergies' floating turbine hits the water in boost to big oil’s green ambitions",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/totalenergies-floating-turbine-hits-the-water-in-boost-to-big-oil-s-green-ambitions/2-1-2016366",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Six years after spin-off, Siemens Energy and Siemens Gamesa rebrand",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/six-years-after-spin-off-siemens-energy-and-siemens-gamesa-rebrand/2-1-2016762",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2939,9 +3043,9 @@
       ]
     },
     {
-      "title": "Turkey kicks off 2.4GW onshore wind and solar tender with pledge for more",
+      "title": "Cadeler secures loan to build new offshore wind installation vessel",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/turkey-kicks-off-2-4gw-onshore-wind-and-solar-tender-with-pledge-for-more/2-1-2016489",
+      "link": "https://www.rechargenews.com/vessels/cadeler-secures-loan-to-build-new-offshore-wind-installation-vessel/2-1-2016744",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2950,9 +3054,9 @@
       ]
     },
     {
-      "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
+      "title": "Turkey kicks off 2.4GW onshore wind and solar tender with pledge for more",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
+      "link": "https://www.rechargenews.com/auctions/turkey-kicks-off-2-4gw-onshore-wind-and-solar-tender-with-pledge-for-more/2-1-2016489",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2975,39 +3079,6 @@
       "title": "Shell sells wind and solar arm in new dash from renewables",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/shell-sells-wind-and-solar-arm-in-new-dash-from-renewables/2-1-2016301",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EU approves aid aimed at massive French offshore wind tender",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/eu-approves-aid-aimed-at-massive-french-offshore-wind-tender/2-1-2016150",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Dogger Bank South dispute: What happens now and why it matters",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/dogger-bank-south-dispute-what-happens-now-and-why-it-matters/2-1-2015747",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orlen and Northland send historic first offshore power to Polish grid",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/orlen-and-northland-send-historic-first-offshore-power-to-polish-grid/2-1-2015946",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3072,9 +3143,9 @@
       ]
     },
     {
-      "title": "Energy industry veteran named CEO at Scottish wind body",
+      "title": "EU approves aid aimed at massive French offshore wind tender",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/energy-industry-veteran-named-ceo-at-scottish-wind-body/2-1-2016103",
+      "link": "https://www.rechargenews.com/policy/eu-approves-aid-aimed-at-massive-french-offshore-wind-tender/2-1-2016150",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
