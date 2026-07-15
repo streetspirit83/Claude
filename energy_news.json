@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:07:46+00:00",
+  "generated_at": "2026-07-15T20:03:30+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 273,
   "articles": [
+    {
+      "title": "European industries expected to win more time to emit carbon",
+      "teaser": "Heavy lobbying by polluting companies and countries over review of EU emissions trading scheme",
+      "link": "https://www.ft.com/content/36f19b62-b42c-4f84-ac3c-d416f059472f",
+      "source": "ft-energy",
+      "published": "2026-07-15T18:52:04+00:00",
+      "matched_keywords": [
+        "emissions trading"
+      ]
+    },
+    {
+      "title": "EU fails to strike Russia sanctions deal after 3 days of talks",
+      "teaser": "Envoys will reconvene next week in a bid to prevent the price cap on Russian crude from ratcheting higher at the end of July.",
+      "link": "https://www.politico.eu/article/eu-russia-oil-price-cap-sanctions-delayed/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-15T18:16:00+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Google buys power from record-busting solar-battery site in Arkansas",
+      "teaser": "Longtime solar developer Cypress Creek Energy has not only broken ground on what could be the largest solar-plus-storage plant in the country, but also secured a blue-chip customer to pay for the clean power. Google will buy all the…",
+      "link": "https://www.canarymedia.com/articles/corporate-procurement/google-solar-battery-site-arkansas",
+      "source": "canarymedia",
+      "published": "2026-07-15T17:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "La Chine rejette le projet américain de sanctions sur le pétrole russe",
       "teaser": "Quatre sénateurs américains ont relancé un projet de loi visant à pénaliser les pays acheteurs de pétrole russe, avec l'aval de la Maison Blanche. La Chine, qui représente 41 % des revenus fossiles russes à l'export, dénonce des sanctions…",
@@ -2657,16 +2687,6 @@
       ]
     },
     {
-      "title": "Bay Area looks to exempt some households from gas water-heater phaseout",
-      "teaser": "In 2023, the San Francisco Bay Area’s air district passed first-in-the-nation rules setting zero-emissions limits on home heating systems and water heaters. Now, the agency is working to address affordability concerns ahead of the…",
-      "link": "https://www.canarymedia.com/articles/electrification/bay-area-exempt-gas-water-heater",
-      "source": "canarymedia",
-      "published": "2026-05-20T07:30:00+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Von Annäherung bis dynamischer Entwicklung, die Energiewende auf dem Balkan",
       "teaser": "Im Rahmen ihrer EU-Beitrittsbemühungen sind die Westbalkanstaaten aufgefordert, ihre Energiewirtschaften zu reformieren und zu ökologisieren. In ihren EU-Nachbarstaaten boomen die Erneuerbaren Energien bereits.",
       "link": "https://www.energiezukunft.eu/wirtschaft/von-annaeherung-bis-dynamischer-entwicklung-die-energiewende-auf-dem-balkan",
@@ -2725,6 +2745,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "„Kinder dürfen nicht die Leidtragenden sein“ : Berlins Familiensenatorin stellt sich gegen Priens Kürzungspläne beim Unterhaltsvorschuss",
+      "teaser": "Familienministerin Karin Prien (CDU) möchte beim Unterhaltsvorschuss sparen. Ihre Parteikollegin Günther-Wünsch sieht das kritisch. Bei Sanktionen gegen säumige Eltern will sie aber weitergehen.",
+      "link": "https://www.tagesspiegel.de/berlin/kinder-durfen-nicht-die-leidtragenden-sein-berlins-familiensenatorin-gunther-wunsch-erteilt-kurzungsplanen-der-familienministerin-eine-absage-15839660.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
       ]
     },
     {
