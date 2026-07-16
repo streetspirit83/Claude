@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:10:53+00:00",
+  "generated_at": "2026-07-16T09:08:50+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 9
+      "items_matched": 11
     },
     {
       "name": "cleanenergywire",
@@ -195,17 +195,17 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "montelnews",
       "url": "https://www.montelnews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 3
+      "error": "502 Server Error: Bad Gateway for url: https://montelnews.com/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "rechargenews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 16
+      "items_matched": 17
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 50
+      "items_matched": 48
     },
     {
       "name": "power-technology",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,78 @@
       "items_matched": 0
     }
   ],
-  "count": 275,
+  "count": 267,
   "articles": [
+    {
+      "title": "Europe's booming solar fleet has saved €20 billion in gas imports since Iran war, finds new analysis",
+      "teaser": "New data shows that solar installations across Europe are cushioning the continent from volatile fossil fuel price shocks.",
+      "link": "http://www.euronews.com/2026/07/16/solar-saved-europe-3bn-in-fossil-fuel-imports-in-march-which-country-is-leading-the-way",
+      "source": "euronews-green",
+      "published": "2026-07-16T09:00:37+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Durchschnittlicher Zuschlagswert für Photovoltaik-Dachanlagen mit 9,72 Cent pro Kilowattstunde nur knapp unter Höchstwert",
+      "teaser": "Das Ausschreibungsvolumen ist trotz eines Anstiegs der Gebotsmenge gegenüber der Vorrunde erneut nicht ausgeschöpft worden. Die Zuschlagswerte reichten von 8,4 bis 10,0 Cent pro Kilowattstunde.",
+      "link": "https://www.pv-magazine.de/2026/07/16/durchschnittlicher-zuschlagswert-fuer-photovoltaik-dachanlagen-mit-972-cent-pro-kilowattstunde-nur-knapp-unter-hoechstwert/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-16T08:40:27+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Hithium on the European C&I BESS market and its need for a 4-hour solution",
+      "teaser": "A shift is happening in Europe’s commercial &#038; industrial (C&#038;I) energy storage market, and integrated energy storage solutions provider Hithium is addressing this demand with a purpose-built 4-hour solution.",
+      "link": "https://www.energy-storage.news/hithium-on-the-european-ci-bess-market-and-its-need-for-a-4-hour-solution/",
+      "source": "energy-storage-news",
+      "published": "2026-07-16T08:34:05+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Standard Nuclear fixe son IPO à 15 dollars par action sur le NYSE",
+      "teaser": "Standard Nuclear, producteur de carburant TRISO indépendant des types de réacteurs, a fixé le prix de son introduction en bourse à 15 dollars par action pour 10 millions de titres de classe A cotés sur le NYSE sous le symbole STDN.",
+      "link": "https://energynews.pro/standard-nuclear-fixe-son-ipo-a-15-dollars-par-action-sur-le-nyse",
+      "source": "energynews-pro",
+      "published": "2026-07-16T08:04:21+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Les ambassadeurs de l'UE échouent à adopter le 21e paquet de sanctions antirusses",
+      "teaser": "Les ambassadeurs de l'UE n'ont pas trouvé de compromis sur le 21e paquet de sanctions antirusses le 15 juillet, date butoir officielle. Les négociations reprennent le 23 juillet, le plafond pétrolier à 44 $/baril restant en vigueur.",
+      "link": "https://energynews.pro/les-ambassadeurs-de-lue-echouent-a-adopter-le-21e-paquet-de-sanctions-antirusses",
+      "source": "energynews-pro",
+      "published": "2026-07-16T07:05:35+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Beamte gedenken der Opfer des Klimawandels, während Europa schmilzt",
+      "teaser": "In den vergangenen Monaten gab es rund 10.000 überdurchschnittliche Todesfälle, als eine Hitzewelle nach der anderen weite Teile Westeuropas heimsuchte. Allein in Deutschland gab es um die 5.000 überdurchschnittliche Todesfälle.",
+      "link": "https://euractiv.com/de/news/beamte-gedenken-der-opfer-des-klimawandels-waehrend-europa-schmilzt/",
+      "source": "euractiv-energie",
+      "published": "2026-07-16T06:32:59+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Rapporteur | 16. Juli 2026",
+      "teaser": "Willkommen bei Rapporteur! Jeden Tag liefern wir Ihnen die wichtigsten Nachrichten und Hintergründe aus der EU- und Europapolitik. &#160; Das Wichtigste: 🟢 Bericht aus einem gebeutelten Kyjiw 🟢 Streit um Russland-Sanktionen: EU friert…",
+      "link": "https://euractiv.com/de/news/rapporteur-16-juli-2026/",
+      "source": "euractiv-energie",
+      "published": "2026-07-16T06:20:36+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
     {
       "title": "Les tarifs du projet de sanctions américain contre la Russie divisent le Congrès",
       "teaser": "Un projet de loi bipartisan au Sénat américain prévoit des tarifs de 100% sur les importateurs de pétrole et gaz russes. Des élus démocrates craignent qu'il transfère à Trump un pouvoir tarifaire sans limites.",
@@ -421,7 +491,7 @@
       ]
     },
     {
-      "title": "Athens opposes new EU sanctions on Russia to shield Greek shipping company",
+      "title": "Athens blocks new EU sanctions on Russia to shield Greek shipping company",
       "teaser": "George Prokopiou’s Dynagas specialises in transporting cargoes from Moscow’s Arctic LNG",
       "link": "https://www.ft.com/content/fe5298b6-499b-4647-984f-fdcf3917e696",
       "source": "ft-energy",
@@ -472,6 +542,16 @@
       ]
     },
     {
+      "title": "Entr, Unitech win contract for Bellrock project’s electrical studies",
+      "teaser": "Entr and Unitech Power Systems to deliver electrical infrastructure studies for the 1.8GW Bellrock Offshore Wind Farm in Scotland.",
+      "link": "https://www.power-technology.com/news/entr-unitech-bellrock-electrical-studies/",
+      "source": "power-technology",
+      "published": "2026-07-15T13:59:41+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
       "title": "Bundesnetzagentur erwartet Netto-Zubau von 1268 Megawatt im Juni",
       "teaser": "Im ersten Halbjahr sind nach den aktuellen Zahlen knapp 7400 Megawatt Photovoltaik-Leistung in Deutschland hinzugekommen. Auch im Juni lag der Zubau bei Freiflächenanlagen weiterhin höher als bei Dachanlagen.",
       "link": "https://www.pv-magazine.de/2026/07/15/bundesnetzagentur-erwartet-netto-zubau-von-1268-megawatt-im-juni/",
@@ -489,16 +569,6 @@
       "published": "2026-07-15T12:45:59+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Half a billion investment paving way for LNG project’s FID in Lone Star State",
-      "teaser": "Texas LNG Brownsville, part of Glenfarne Group, has crossed another key item off its list of requirements for a final investment decision (FID) on a liquefied natural gas (LNG) export development project planned in the Port of Brownsville,…",
-      "link": "https://www.offshore-energy.biz/half-a-billion-investment-paving-way-for-lng-projects-fid-in-lone-star-state/",
-      "source": "offshore-energy",
-      "published": "2026-07-15T12:36:43+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -563,17 +633,6 @@
       ]
     },
     {
-      "title": "Shell expands Caribbean LNG footprint with go-ahead for Bahamas regasification terminal",
-      "teaser": "Shell Bahamas Power Company, a subsidiary of the UK-headquartered energy giant Shell, has taken a final investment decision (FID) and broken ground on a liquefied natural gas (LNG) regasification terminal in The Bahamas. The post Shell…",
-      "link": "https://www.offshore-energy.biz/shell-expands-caribbean-lng-footprint-with-go-ahead-for-bahamas-regasification-terminal/",
-      "source": "offshore-energy",
-      "published": "2026-07-15T10:57:13+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
-      ]
-    },
-    {
       "title": "Nuclear fusion industry attracts record annual funding of $4.48bn",
       "teaser": "The global nuclear fusion industry raised a record $4.48bn in the last 12 months, bringing total private investment since 2021 to $14.24bn.",
       "link": "https://www.power-technology.com/news/nuclear-fusion-industry-attracts-record-annual-funding-of-4-48bn/",
@@ -581,16 +640,6 @@
       "published": "2026-07-15T10:42:11+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Siemens Energy lance sa transition vers la marque indépendante Omterra",
-      "teaser": "Siemens Energy prépare son passage à une marque indépendante baptisée Omterra, qui regroupera également Siemens Gamesa Renewable Energy. La transition, progressive, débutera avant la fin de l'année civile en cours.",
-      "link": "https://energynews.pro/siemens-energy-lance-sa-transition-vers-la-marque-independante-omterra",
-      "source": "energynews-pro",
-      "published": "2026-07-15T10:28:15+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -612,17 +661,6 @@
       "published": "2026-07-15T10:11:36+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Terra-Gen met en service 80 MW solaires en Californie et dépasse 530 MW",
-      "teaser": "Terra-Gen annonce la mise en service de Lockhart Solar PV IV, 80 MW en Californie. La quatrième phase complète le complexe Lockhart Solar and Storage, désormais doté de 365 MW solaires et 173,7 MW de stockage.",
-      "link": "https://energynews.pro/terra-gen-met-en-service-80-mw-solaires-en-californie-et-depasse-530-mw",
-      "source": "energynews-pro",
-      "published": "2026-07-15T10:00:14+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
       ]
     },
     {
@@ -658,16 +696,6 @@
       ]
     },
     {
-      "title": "Korean shipyard hosts naming ceremony for QatarEnergy’s 174,000-cbm LNG carrier",
-      "teaser": "Qatar’s state-owned oil and gas giant QatarEnergy has strengthened its global shipping fleet with the naming ceremony for a liquefied natural gas (LNG) carrier (LNGC) at HD Hyundai Heavy Industries’ shipyard in South Korea. The post Korean…",
-      "link": "https://www.offshore-energy.biz/korean-shipyard-hosts-naming-ceremony-for-qatarenergys-174000-cbm-lng-carrier/",
-      "source": "offshore-energy",
-      "published": "2026-07-15T08:39:41+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "What does a bankable route-to-market strategy for battery storage in Europe actually look like?",
       "teaser": "With technology risk now largely removed from the equation, assessing how a battery storage project will perform across market opportunities is now the main object of financiers’ scrutiny, writes Ryan Alexander of enspired.",
       "link": "https://www.energy-storage.news/what-does-a-bankable-route-to-market-strategy-for-battery-storage-in-europe-actually-look-like/",
@@ -675,16 +703,6 @@
       "published": "2026-07-15T07:59:18+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "CS Energy transfère 50 % de Boulder Creek Wind Farm à Aula Energy",
-      "teaser": "CS Energy cède la moitié de sa participation dans le parc éolien Boulder Creek, dans le Queensland, à Aula Energy, tout en conservant l'intégralité du contrat d'approvisionnement en énergie renouvelable.",
-      "link": "https://energynews.pro/cs-energy-transfere-50-de-boulder-creek-wind-farm-a-aula-energy",
-      "source": "energynews-pro",
-      "published": "2026-07-15T07:49:26+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -842,26 +860,6 @@
       ]
     },
     {
-      "title": "EnBW findet keinen Investor – Neukundengeschäft von Senec wird eingestellt",
-      "teaser": "Die im Februar gestartete Investorensuche für den Leipziger Speicheranbieter hat EnBW ohne Erfolg abgeschlossen. Als Konsequenz wird sich Senec künftig auf das Bestandskundengeschäft konzentrieren, was auch mit einem Stellenabbau…",
-      "link": "https://www.pv-magazine.de/2026/07/14/enbw-findet-keinen-investor-neukundengeschaeft-von-senec-wird-eingestellt/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-14T10:50:48+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
-      "title": "Shell agrees $1.8bn sale of Sprng Energy to Aditya Birla Renewables",
-      "teaser": "Aditya Birla Renewables has signed an agreement to acquire the Sprng Energy group of companies from Shell Overseas Investment for $1.8bn.",
-      "link": "https://www.power-technology.com/news/shell-agrees-sale-sprng-energy/",
-      "source": "power-technology",
-      "published": "2026-07-14T10:23:04+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "OMV secures $512m EIB loan for green hydrogen plant in Austria",
       "teaser": "OMV has received a €450m ($512m) loan from EIB to support the construction of its flagship green hydrogen production facility.",
       "link": "https://www.energymonitor.ai/news/omv-secures-eib-loan/",
@@ -908,16 +906,6 @@
       "link": "https://www.windpowermonthly.com/article/1964504/shell-sell-its-indian-renewable-energy-arm-18bn-deal",
       "source": "windpowermonthly",
       "published": "2026-07-14T08:24:35+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Masdar closes $6.1bn deal for first gigascale 24/7 renewable project",
-      "teaser": "Clean energy company Masdar has achieved financial close on the world’s first gigascale, round-the-clock (RTC) renewable energy project, with a total investment of $6.1bn.",
-      "link": "https://www.power-technology.com/news/masdar-6-1bn-first-gigascale-renewable-project/",
-      "source": "power-technology",
-      "published": "2026-07-14T07:42:49+00:00",
       "matched_keywords": [
         "renewable"
       ]
@@ -1079,7 +1067,7 @@
     },
     {
       "title": "Leaked EU Electrification Action Plan recognises need for 200GW of energy storage by 2030",
-      "teaser": "According to a leaked draft of its Electrification Action Plan, the European Union (EU) must deploy 200GW of energy storage by 2030 to meet energy system flexibility needs.",
+      "teaser": "Update 16 July 2026: Energy Storage Europe sent a statement to Energy-Storage.news on the leaked plan.",
       "link": "https://www.energy-storage.news/leaked-eu-electrification-action-plan-recognises-need-for-200gw-of-energy-storage-by-2030/",
       "source": "energy-storage-news",
       "published": "2026-07-13T11:43:52+00:00",
@@ -1735,17 +1723,6 @@
       "published": "2026-07-06T10:35:12+00:00",
       "matched_keywords": [
         "wind power"
-      ]
-    },
-    {
-      "title": "Amazon pens battery storage PPA for 220MWh solar-plus-storage site in Australia",
-      "teaser": "Tech giant Amazon has signed a new power purchase agreement (PPA) to procure energy from IPP European Energy’s 220MWh Winton North solar-plus-storage project in northeast Victoria, Australia.",
-      "link": "https://www.energy-storage.news/amazon-pens-battery-storage-ppa-for-220mwh-solar-plus-storage-site-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-07-06T08:10:23+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "solar"
       ]
     },
     {
@@ -2686,17 +2663,6 @@
       ]
     },
     {
-      "title": "This Vermont town embraced a wind farm. Solar is a different story.",
-      "teaser": "LOWELL, Vt. — Doug Manning built his three-story home for the views. Mountain peaks ring the 800-person town of Lowell, and just beyond his back porch stretches a hayfield that the community uses as a kind of public square. The 44-acre…",
-      "link": "https://www.canarymedia.com/articles/solar/lowell-vermont-opposition-clean-energy-farmland",
-      "source": "canarymedia",
-      "published": "2026-05-21T07:30:00+00:00",
-      "matched_keywords": [
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Jetzt kommt es auf die Elektrifizierung an",
       "teaser": "Für die Abkehr von fossilen Brennstoffen reicht es nicht mehr, nur die Erneuerbaren auszubauen. Die Elektrifizierung von Verkehr, Gebäudesektor und der Industrie muss nun stärker in den Blick genommen werden, fordert die IRENA.",
       "link": "https://www.energiezukunft.eu/wirtschaft/jetzt-kommt-es-auf-die-elektrifizierung-an",
@@ -2704,17 +2670,6 @@
       "published": "2026-05-21T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "California cap-and-invest proposal would threaten state climate goals",
-      "teaser": "California’s top air regulator wants to overhaul the state’s two-decade-old carbon market. But key lawmakers and environmental groups say the effort will undermine the program — and the state’s decarbonization goals. Last month, the…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-cap-and-invest-proposal",
-      "source": "canarymedia",
-      "published": "2026-05-20T07:30:00+00:00",
-      "matched_keywords": [
-        "climate",
-        "decarbon"
       ]
     },
     {
@@ -2776,16 +2731,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
       ]
     },
     {
@@ -3025,36 +2970,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "French power prices hit multi-year highs on bullish complex",
-      "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/985e620d-21c1-4b17-9909-2b4060302495/french-power-prices-hit-multi-year-highs-on-bullish-complex",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
-      "title": "EC plans methane penalty break on LNG imports amid concerns",
-      "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/51a8174a-b407-40e9-ab99-2fd8f5f9d9b8/ec-plans-methane-penalty-break-on-lng-imports-amid-concerns",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "Analysts warn EU gas prices could double on winter freeze",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/947822f0-cbed-4d14-b8c2-7c0c4109fc85/analysts-warn-eu-gas-prices-could-double-on-winter-freeze",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
       ]
     },
     {
