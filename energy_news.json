@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:27:27+00:00",
+  "generated_at": "2026-07-16T14:52:52+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 32
+      "items_matched": 31
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,61 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 271,
   "articles": [
+    {
+      "title": "Weder besser noch schlechter gestellt: Grundlagen der Abregelung von Photovoltaikanlagen",
+      "teaser": "pv+: Die Rechtsgrundlage für die Regelbarkeit von Photovoltaikanlagen durch die Netzbetreiber ist vielschichtig – erst recht, wenn es um Eigenverbrauch geht. Rechtsanwältin Christina Bönning-Huber erläutert die wichtigsten juristischen…",
+      "link": "https://www.pv-magazine.de/2026/07/16/weder-besser-noch-schlechter-gestellt-grundlagen-der-abregelung-von-photovoltaikanlagen/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-16T14:32:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "Zelestra, EnBW sign agreement for 300MW Italian battery storage project",
+      "teaser": "Zelestra and EnBW have entered into a long-term tolling agreement for a 300MW share of a battery energy storage project planned in Emilia-Romagna, Italy.",
+      "link": "https://www.power-technology.com/news/zelestra-enbw-agreement-300mw-battery-storage/",
+      "source": "power-technology",
+      "published": "2026-07-16T12:50:02+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Argent LNG, Naftogaz pool resources to look into multi-path LNG supply and distribution",
+      "teaser": "Argent LNG, a U.S.-based liquefied natural gas (LNG) export developer headquartered in Louisiana, has signed off on a cooperation with Ukraine’s state-owned energy company Naftogaz Group to establish a framework agreement to explore…",
+      "link": "https://www.offshore-energy.biz/argent-lng-naftogaz-pool-resources-to-look-into-multi-path-lng-supply-and-distribution/",
+      "source": "offshore-energy",
+      "published": "2026-07-16T12:35:07+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "WAR stützt Pläne der Bundesnetzagentur bei Netzentgeltreform",
+      "teaser": "Der wissenschaftliche Arbeitskreis für Regulierungsfragen hat Stellung zur geplanten Regulierung der Stromnetze in Deutschland bezogen. Im Kern stützt er die Vorschläge der Bundesnetzagentur und gibt fünf Empfehlungen ab.",
+      "link": "https://www.pv-magazine.de/2026/07/16/war-stuetzt-plaene-der-bundesnetzagentur-bei-netzentgeltreform/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-16T12:19:00+00:00",
+      "matched_keywords": [
+        "netzentgelt",
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "GTT’s new LR-approved NO96 criteria expand LNG carrier design flexibility",
+      "teaser": "French technological containment specialist Gaztransport &#38; Technigaz (GTT) has secured the green light from the UK-based classification society Lloyd’s Register (LR) for new NO96 elongation criteria, opening the door to more optimized…",
+      "link": "https://www.offshore-energy.biz/gtts-new-lr-approved-no96-criteria-expand-lng-carrier-design-flexibility/",
+      "source": "offshore-energy",
+      "published": "2026-07-16T11:28:14+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Thailand needs ‘many regulatory reforms’ of electricity sector to catch up with ASEAN leaders on energy storage",
       "teaser": "Electricity sector regulations in Thailand require significant reforms to support the use of energy storage as a critical tool for renewable energy integration.",
@@ -382,20 +435,9 @@
       ]
     },
     {
-      "title": "WAR stützt Pläne der Bundesnetzagentur bei Netzentgeltreform",
-      "teaser": "Der wissenschaftliche Arbeitskreis für Regulierungsfragen hat Stellung zur geplanten Regulierung der Stromnetze in Deutschland bezogen. Im Kern stützt er die Vorschläge der Bundesnetzagentur und gibt fünf Empfehlungen ab.",
-      "link": "https://www.pv-magazine.de/2026/07/16/war-stuetzt-plaene-der-bundesnetzagentur-bei-netzentgeltreform/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-16T10:57:02+00:00",
-      "matched_keywords": [
-        "netzentgelt",
-        "stromnetz"
-      ]
-    },
-    {
-      "title": "Sweden approves two offshore wind farms, rejects 11 over security concerns",
+      "title": "Sweden rejects 11 offshore wind proposals over security concerns",
       "teaser": "The Swedish government has approved two new offshore wind farms and an onshore project while turning down a number of other proposed offshore projects due to national security concerns.",
-      "link": "https://www.windpowermonthly.com/article/1964792/sweden-approves-two-offshore-wind-farms-rejects-11-security-concerns",
+      "link": "https://www.windpowermonthly.com/article/1964792/sweden-rejects-11-offshore-wind-proposals-security-concerns",
       "source": "windpowermonthly",
       "published": "2026-07-16T10:42:09+00:00",
       "matched_keywords": [
@@ -596,9 +638,9 @@
       ]
     },
     {
-      "title": "Interactive map predicts agricultural decline from climate change by end of century",
-      "teaser": "A CSIC team in Barcelona has developed CADI, a platform that uses a 10-kilometre grid to estimate how much farmland will lose productivity to climate by 2100; in Spain, inland areas fare worse than the Cantabrian coast.",
-      "link": "http://www.euronews.com/2026/07/16/interactive-map-predicts-agricultural-decline-from-climate-change-by-end-of-century",
+      "title": "Interactive map predicts climate-driven farm decline by end of century",
+      "teaser": "A CSIC team in Barcelona has developed CADI, a platform that forecasts, on a 10‑kilometre grid, how much farmland will lose productivity to climate change by 2100; Spain’s interior fares worse than the Cantabrian coast.",
+      "link": "http://www.euronews.com/2026/07/16/interactive-map-predicts-climate-driven-farm-decline-by-end-of-century",
       "source": "euronews-green",
       "published": "2026-07-16T04:06:56+00:00",
       "matched_keywords": [
@@ -618,7 +660,7 @@
     {
       "title": "Athens blocks new EU sanctions on Russia to shield Greek shipping company",
       "teaser": "George Prokopiou’s Dynagas specialises in transporting cargoes from Moscow’s Arctic LNG",
-      "link": "https://www.ft.com/content/fe5298b6-499b-4647-984f-fdcf3917e696",
+      "link": "https://www.ft.com/content/fe5298b6-499b-4647-984f-fdcf3917e696?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-07-15T20:17:39+00:00",
       "matched_keywords": [
@@ -657,16 +699,6 @@
       ]
     },
     {
-      "title": "La Chine rejette le projet américain de sanctions sur le pétrole russe",
-      "teaser": "Quatre sénateurs américains ont relancé un projet de loi visant à pénaliser les pays acheteurs de pétrole russe, avec l'aval de la Maison Blanche. La Chine, qui représente 41 % des revenus fossiles russes à l'export, dénonce des sanctions…",
-      "link": "https://energynews.pro/la-chine-rejette-le-projet-americain-de-sanctions-sur-le-petrole-russe",
-      "source": "energynews-pro",
-      "published": "2026-07-15T14:30:32+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Entr, Unitech win contract for Bellrock project’s electrical studies",
       "teaser": "Entr and Unitech Power Systems to deliver electrical infrastructure studies for the 1.8GW Bellrock Offshore Wind Farm in Scotland.",
       "link": "https://www.power-technology.com/news/entr-unitech-bellrock-electrical-studies/",
@@ -694,16 +726,6 @@
       "published": "2026-07-15T12:45:59+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Half a billion investment paving way for LNG project’s FID in Lone Star State",
-      "teaser": "Texas LNG Brownsville, part of Glenfarne Group, has crossed another key item off its list of requirements for a final investment decision (FID) on a liquefied natural gas (LNG) export development project planned in the Port of Brownsville,…",
-      "link": "https://www.offshore-energy.biz/half-a-billion-investment-paving-way-for-lng-projects-fid-in-lone-star-state/",
-      "source": "offshore-energy",
-      "published": "2026-07-15T12:36:43+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -807,17 +829,6 @@
       "published": "2026-07-15T08:56:54+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Kostenloser Vergleichsrechner: Alte vs. neue Förderung von Wärmepumpen",
-      "teaser": "Der Bund der Energieverbraucher hat den kostenlosen Rechner entwickelt. Er zeigt, wieviel Förderung Haushalte für den Einbau ihrer Wärmepumpe nach dem Neustart kommende Woche erhalten – auch wie sich der Betrag im Gegensatz zur…",
-      "link": "https://www.pv-magazine.de/2026/07/15/kostenloser-vergleichsrechner-alte-vs-neue-foerderung-von-waermepumpen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-15T08:50:00+00:00",
-      "matched_keywords": [
-        "förderung",
-        "wärmepumpe"
       ]
     },
     {
@@ -1656,16 +1667,6 @@
       ]
     },
     {
-      "title": "Chinese system integrators capture 76% of global BESS market as competition intensifies",
-      "teaser": "Chinese system integrators have cemented their dominance of the global battery energy storage system (BESS) market, capturing 76% of global market share in 2025.",
-      "link": "https://www.energy-storage.news/chinese-system-integrators-capture-76-of-global-bess-market-as-competition-intensifies/",
-      "source": "energy-storage-news",
-      "published": "2026-07-07T08:56:48+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Zukünftige Schocks könnten die europäische Wirtschaft „dauerhaft schädigen“",
       "teaser": "Die Eurozone steht vor „einer beispiellosen Häufung von Herausforderungen“, die „schwierige politische Entscheidungen unvermeidlich“ macht, so der Europäische Stabilitätsmechanismus.",
       "link": "https://euractiv.com/de/news/zukunftige-schocks-konnten-die-europaische-wirtschaft-dauerhaft-schadigen/",
@@ -1684,16 +1685,6 @@
       "matched_keywords": [
         "decarbon",
         "renewable"
-      ]
-    },
-    {
-      "title": "Bevor die Richter über Le Pen entscheiden, müssen sich die Banken zum RN äußern",
-      "teaser": "Im Vorfeld der Wahl 2027 dürfte die größte Herausforderung für die extreme Rechte nicht politischer oder rechtlicher, sondern finanzieller Natur sein.",
-      "link": "https://euractiv.com/de/news/bevor-die-richter-ueber-le-pen-entscheiden-muessen-sich-die-banken-zum-rn-aeussern/",
-      "source": "euractiv-energie",
-      "published": "2026-07-07T07:03:30+00:00",
-      "matched_keywords": [
-        "forderung"
       ]
     },
     {
@@ -2714,6 +2705,26 @@
       ]
     },
     {
+      "title": "Kein Schwitzen mehr in der Berliner S-Bahn : Die neuen Züge bekommen Klimaanlagen, USB-Lader und KI-Assistenz",
+      "teaser": "Ein „quälend langer Prozess“ ist zu Ende: Berlin hat den 15-Milliarden-Auftrag für die 1400 Waggons der S-Bahn mit acht Jahren Verspätung vergeben. Die neuen Züge sollen moderner werden.",
+      "link": "https://www.tagesspiegel.de/berlin/berliner-s-bahn-ab-2032-rollen-350-neue-zuge-durch-die-hauptstadt-15846071.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Licht und Schatten bei Wirtschaftsplan des Klima- und Transformationsfonds",
+      "teaser": "16.07.2026",
+      "link": "https://www.bdew.de/presse/licht-und-schatten-bei-wirtschaftsplan-des-klima-und-transformationsfonds/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
       "title": "Netzentgelte müssen in nationaler Verantwortung bleiben",
       "teaser": "16.07.2026",
       "link": "https://www.bdew.de/presse/netzentgelte-muessen-in-nationaler-verantwortung-bleiben/",
@@ -2721,16 +2732,6 @@
       "published": null,
       "matched_keywords": [
         "netzentgelt"
-      ]
-    },
-    {
-      "title": "EU-Emissionshandel braucht verlässliches CO₂-Preissignal",
-      "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
-      "link": "https://www.bdew.de/presse/eu-emissionshandel-braucht-verlaessliches-co%E2%82%82-preissignal/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -2973,9 +2974,9 @@
       ]
     },
     {
-      "title": "IEA: uranium supply risks cloud nuclear growth",
+      "title": "French nuclear output at risk of another heatwave in August",
       "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/f8cf3c76-8072-4619-8094-8fc985ab0f0f/uranium-supply-risks-cloud-nuclear-growth-iea",
+      "link": "https://www.montelnews.com/news/2ca6acf6-1788-4a24-b897-458678faf9e5/french-nuclear-output-at-risk-of-another-heatwave-in-august",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2983,8 +2984,18 @@
       ]
     },
     {
-      "title": "French power prices hit multi-year highs on bullish complex",
+      "title": "EU carbon sheds 3% amid ETS reform “nervousness”",
       "teaser": "Priyanka Shinde",
+      "link": "https://www.montelnews.com/news/6317b859-d2db-49bb-a469-e7b89d01c340/eu-carbon-sheds-3-amid-ets-reform-nervousness",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "ets"
+      ]
+    },
+    {
+      "title": "French power prices hit multi-year highs on bullish complex",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/985e620d-21c1-4b17-9909-2b4060302495/french-power-prices-hit-multi-year-highs-on-bullish-complex",
       "source": "montelnews",
       "published": null,
@@ -2993,13 +3004,47 @@
       ]
     },
     {
-      "title": "Analysts warn EU gas prices could double on winter freeze",
+      "title": "EC plans methane penalty break on LNG imports amid concerns",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/947822f0-cbed-4d14-b8c2-7c0c4109fc85/analysts-warn-eu-gas-prices-could-double-on-winter-freeze",
+      "link": "https://www.montelnews.com/news/51a8174a-b407-40e9-ab99-2fd8f5f9d9b8/ec-plans-methane-penalty-break-on-lng-imports-amid-concerns",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "gas price"
+        "lng"
+      ]
+    },
+    {
+      "title": "Ten battery giants ranked: why long-term is the new competitive edge for developers",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/ten-battery-giants-ranked-why-long-term-is-the-new-competitive-edge-for-developers/2-1-2016746",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Vattenfall, Skyborn clash with Sweden over offshore wind support and rejections",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/vattenfall-skyborn-clash-with-sweden-over-offshore-wind-support-and-rejections/2-1-2017712",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Statkraft's largest-ever wind farm gets green light",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/onshore-wind/statkrafts-largest-ever-wind-farm-gets-green-light/2-1-2017688",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
       ]
     },
     {
@@ -3070,17 +3115,6 @@
       ]
     },
     {
-      "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Japan moves to boost resilience of current and future offshore wind projects",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/japan-moves-to-boost-resilience-of-current-and-future-offshore-wind-projects/2-1-2017047",
@@ -3092,21 +3126,20 @@
       ]
     },
     {
-      "title": "RWE clears federal hurdle for giant wind farm in Australia",
+      "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/rwe-clears-federal-hurdle-for-giant-wind-farm-in-australia/2-1-2017015",
+      "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar",
-        "wind farm"
+        "solar"
       ]
     },
     {
-      "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
+      "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
+      "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3141,28 +3174,6 @@
       "title": "Novel batteries face bankability test as lithium-ion extends storage lead",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/long-duration-storage-momentum-masks-a-commercial-reality-check/2-1-2012953",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Six years after spin-off, Siemens Energy and Siemens Gamesa rebrand",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/six-years-after-spin-off-siemens-energy-and-siemens-gamesa-rebrand/2-1-2016762",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Japan to unveil support for struggling offshore wind projects after lessons learned",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/japan-to-unveil-support-for-struggling-offshore-wind-projects-after-lessons-learned/2-1-2016823",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
