@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T20:03:30+00:00",
+  "generated_at": "2026-07-16T06:10:53+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 15
+      "items_matched": 16
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 273,
+  "count": 275,
   "articles": [
+    {
+      "title": "Les tarifs du projet de sanctions américain contre la Russie divisent le Congrès",
+      "teaser": "Un projet de loi bipartisan au Sénat américain prévoit des tarifs de 100% sur les importateurs de pétrole et gaz russes. Des élus démocrates craignent qu'il transfère à Trump un pouvoir tarifaire sans limites.",
+      "link": "https://energynews.pro/les-tarifs-du-projet-de-sanctions-americain-contre-la-russie-divisent-le-congres",
+      "source": "energynews-pro",
+      "published": "2026-07-16T06:04:51+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Australia’s New South Wales grants planning consent for 3.6GWh pumped hydro project at former coal mine",
+      "teaser": "Gloucester Coa has received planning approval from the New South Wales government for the 3.6GWh Stratford Pumped Hydro and Solar project.",
+      "link": "https://www.energy-storage.news/australias-new-south-wales-grants-planning-consent-for-3-6gwh-pumped-hydro-project-at-former-coal-mine/",
+      "source": "energy-storage-news",
+      "published": "2026-07-16T04:57:30+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Australia’s Transgrid opens pathway for 900MW of grid-forming battery storage as synchronous condenser costs surge 38%",
+      "teaser": "Australian transmission operator Transgrid has opened a pathway for 900MW of grid-forming inverter-equipped battery storage to contribute to New South Wales' minimum system strength requirements.",
+      "link": "https://www.energy-storage.news/australias-transgrid-opens-pathway-for-900mw-of-grid-forming-battery-storage-as-synchronous-condenser-costs-surge-38/",
+      "source": "energy-storage-news",
+      "published": "2026-07-16T04:52:38+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Interactive map predicts agricultural decline from climate change by end of century",
+      "teaser": "A CSIC team in Barcelona has developed CADI, a platform that uses a 10-kilometre grid to estimate how much farmland will lose productivity to climate by 2100; in Spain, inland areas fare worse than the Cantabrian coast.",
+      "link": "http://www.euronews.com/2026/07/16/interactive-map-predicts-agricultural-decline-from-climate-change-by-end-of-century",
+      "source": "euronews-green",
+      "published": "2026-07-16T04:06:56+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Renewed Hormuz tensions raise chances of a pricey winter",
+      "teaser": "Asia and Europe would end up competing for LNG cargoes during their cold season if market is short, pushing up prices",
+      "link": "https://www.ft.com/content/c5a78b59-8c1f-4ae4-90bd-a5063b7c2a7d",
+      "source": "ft-energy",
+      "published": "2026-07-16T04:00:21+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Athens opposes new EU sanctions on Russia to shield Greek shipping company",
+      "teaser": "George Prokopiou’s Dynagas specialises in transporting cargoes from Moscow’s Arctic LNG",
+      "link": "https://www.ft.com/content/fe5298b6-499b-4647-984f-fdcf3917e696",
+      "source": "ft-energy",
+      "published": "2026-07-15T20:17:39+00:00",
+      "matched_keywords": [
+        "lng",
+        "sanction"
+      ]
+    },
     {
       "title": "European industries expected to win more time to emit carbon",
       "teaser": "Heavy lobbying by polluting companies and countries over review of EU emissions trading scheme",
@@ -438,6 +499,16 @@
       "published": "2026-07-15T12:36:43+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "The 3 letters Brussels won’t be able to shut up about",
+      "teaser": "POLITICO’s guide to the core elements of the Emissions Trading System reform.",
+      "link": "https://www.politico.eu/article/eu-ets-carbon-market-reform-proposal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-15T12:28:28+00:00",
+      "matched_keywords": [
+        "emissions trading"
       ]
     },
     {
@@ -674,16 +745,6 @@
       "published": "2026-07-15T06:38:52+00:00",
       "matched_keywords": [
         "subvention"
-      ]
-    },
-    {
-      "title": "Washington étend ses sanctions contre le réseau pétrolier iranien Shamkhani",
-      "teaser": "Le département américain du Trésor désigne de nouveaux acteurs, sociétés et navires liés au réseau Shamkhani, opérateur présumé du contournement des sanctions sur le pétrole iranien.",
-      "link": "https://energynews.pro/washington-etend-ses-sanctions-contre-le-reseau-petrolier-iranien-shamkhani",
-      "source": "energynews-pro",
-      "published": "2026-07-15T06:31:19+00:00",
-      "matched_keywords": [
-        "sanction"
       ]
     },
     {
@@ -1155,16 +1216,6 @@
       "published": "2026-07-10T12:28:11+00:00",
       "matched_keywords": [
         "climate",
-        "renewable"
-      ]
-    },
-    {
-      "title": "The billionaire dreaming of AI data centres in the desert",
-      "teaser": "Servers should be powered by off-grid renewables, argues Envision founder Zhang Lei",
-      "link": "https://www.ft.com/content/2f46b60d-fef3-48bb-93ba-45bc71df8703",
-      "source": "ft-energy",
-      "published": "2026-07-10T11:01:05+00:00",
-      "matched_keywords": [
         "renewable"
       ]
     },
@@ -1698,16 +1749,6 @@
       ]
     },
     {
-      "title": "Australia’s Zen Energy appoints administrators with wholesale electricity volatility cited as main driver",
-      "teaser": "Zen Energy, a South Australian renewable energy company co-founded by economist Ross Garnaut, has appointed voluntary administrators after its retail business failed to secure a viable buyer.",
-      "link": "https://www.energy-storage.news/australias-zen-energy-appoints-administrators-with-wholesale-electricity-volatility-cited-as-main-driver/",
-      "source": "energy-storage-news",
-      "published": "2026-07-06T08:08:37+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "In this Brooklyn warehouse, stoves are turned into batteries",
       "teaser": "BROOKLYN, N.Y. — When the startup Electra Research launched four years ago, its founders set out to hook more batteries up to the electric grid. Energy storage is key to balancing the coming and going of wind and solar power, and it can…",
       "link": "https://www.canarymedia.com/articles/electrification/electra-brooklyn-induction-stoves-batteries",
@@ -1757,16 +1798,6 @@
       "published": "2026-07-03T10:15:55+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "VIDEO: Fluence’s Lars Stephan on what data centres and cybersecurity developments mean for BESS in Europe",
-      "teaser": "We sat down with Lars Stephan, EMEA director of marketing, policy and public affairs for system integrator Fluence, to discuss energy storage, data centres and cybersecurity at Intersolar last month.",
-      "link": "https://www.energy-storage.news/video-fluences-lars-stephan-on-what-data-centres-and-cybersecurity-developments-mean-for-bess-in-europe/",
-      "source": "energy-storage-news",
-      "published": "2026-07-03T10:15:13+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2748,13 +2779,13 @@
       ]
     },
     {
-      "title": "„Kinder dürfen nicht die Leidtragenden sein“ : Berlins Familiensenatorin stellt sich gegen Priens Kürzungspläne beim Unterhaltsvorschuss",
-      "teaser": "Familienministerin Karin Prien (CDU) möchte beim Unterhaltsvorschuss sparen. Ihre Parteikollegin Günther-Wünsch sieht das kritisch. Bei Sanktionen gegen säumige Eltern will sie aber weitergehen.",
-      "link": "https://www.tagesspiegel.de/berlin/kinder-durfen-nicht-die-leidtragenden-sein-berlins-familiensenatorin-gunther-wunsch-erteilt-kurzungsplanen-der-familienministerin-eine-absage-15839660.html",
-      "source": "tagesspiegel-energie",
+      "title": "Gesetz zur Änderung des Erneuerbare-Energien-Gesetzes und weiterer Vorschriften zur Umsetzung unionsrechtlicher Vorgaben im Stromsektor",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-erneuerbare-energien-gesetzes-und-weiterer-vorschriften-zur-umsetzung-unionsrechtlicher-vorgaben-im-stromsektor",
+      "source": "tagesspiegel-background-energie",
       "published": null,
       "matched_keywords": [
-        "sanktion"
+        "erneuerbare"
       ]
     },
     {
@@ -3017,16 +3048,6 @@
       ]
     },
     {
-      "title": "Renewables Roll-Out: Saturation Reached?",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/podcasts/pluggedin/19454042/renewables-roll-out-saturation-reached",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Analysts warn EU gas prices could double on winter freeze",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/947822f0-cbed-4d14-b8c2-7c0c4109fc85/analysts-warn-eu-gas-prices-could-double-on-winter-freeze",
@@ -3034,6 +3055,17 @@
       "published": null,
       "matched_keywords": [
         "gas price"
+      ]
+    },
+    {
+      "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3104,17 +3136,6 @@
       ]
     },
     {
-      "title": "Six years after spin-off, Siemens Energy and Siemens Gamesa rebrand",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/six-years-after-spin-off-siemens-energy-and-siemens-gamesa-rebrand/2-1-2016762",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
@@ -3171,6 +3192,17 @@
       ]
     },
     {
+      "title": "Six years after spin-off, Siemens Energy and Siemens Gamesa rebrand",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/six-years-after-spin-off-siemens-energy-and-siemens-gamesa-rebrand/2-1-2016762",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Cole on Mingyang ban, Corio – and why it's 2016 again in offshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/cole-on-mingyang-ban-corio-and-why-its-2016-again-in-offshore-wind/2-1-2014650",
@@ -3185,17 +3217,6 @@
       "title": "BP low carbon business expecting $1bn writedown",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/bp-low-carbon-business-expecting-1bn-writedown/2-1-2016543",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "TotalEnergies' floating turbine hits the water in boost to big oil’s green ambitions",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/totalenergies-floating-turbine-hits-the-water-in-boost-to-big-oil-s-green-ambitions/2-1-2016366",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
