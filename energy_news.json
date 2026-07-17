@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T06:09:41+00:00",
+  "generated_at": "2026-07-17T09:03:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 6
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "windpowermonthly",
@@ -368,8 +368,78 @@
       "items_matched": 0
     }
   ],
-  "count": 273,
+  "count": 277,
   "articles": [
+    {
+      "title": "John Cockerill Hydrogen assemble son premier électrolyseur à Belfort et prépare 40 MW",
+      "teaser": "Un an après la reprise des actifs de McPhy, John Cockerill Hydrogen livre son premier électrolyseur assemblé à Belfort et lance la production de 40 MW d'équipements pour un projet aux Pays-Bas.",
+      "link": "https://energynews.pro/john-cockerill-hydrogen-assemble-son-premier-electrolyseur-a-belfort-et-prepare-40-mw",
+      "source": "energynews-pro",
+      "published": "2026-07-17T08:54:08+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Borr Drilling’s Mexican JV closer to being five rigs richer as sale clears regulatory hurdle",
+      "teaser": "Bermuda-headquartered Paratus Energy Services has picked up clearance for the divestment of drilling operations and jack-up fleet belonging to Fontis Finance, an indirect subsidiary, which is divesting its assets to Proyectos Globales de…",
+      "link": "https://www.offshore-energy.biz/borr-drillings-mexican-jv-closer-to-being-five-rigs-richer-as-sale-clears-regulatory-hurdle/",
+      "source": "offshore-energy",
+      "published": "2026-07-17T08:44:34+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "Enfinity, Strioga sign partnership for 150MW BESS in Italy",
+      "teaser": "Enfinity Global and E Energy Invest, the investment arm of the Strioga Family Foundation, have signed a co-investment partnership for the 150MW battery energy storage system (BESS) project in Livorno, Tuscany, Italy.",
+      "link": "https://www.power-technology.com/news/enfinity-strioga-partnership-150mw-bess-italy/",
+      "source": "power-technology",
+      "published": "2026-07-17T08:15:01+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Spain-France hydrogen pipeline exits pre-FEED phase en route to final subsea design",
+      "teaser": "Following the completion of pre-engineering studies (pre-FEED), the BarMar hydrogen pipeline project, which will [&#8230;] The post Spain-France hydrogen pipeline exits pre-FEED phase en route to final subsea design appeared first on…",
+      "link": "https://www.offshore-energy.biz/spain-france-hydrogen-pipeline-exits-pre-feed-phase-en-route-to-final-subsea-design/",
+      "source": "offshore-energy",
+      "published": "2026-07-17T07:57:59+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Nuclear energy could be in for a big decade",
+      "teaser": "This article is part of our ​“Chart of the Week” series . The global nuclear energy industry has been muted since 2011, when the Fukushima Daiichi disaster unfolded in Japan. Some new reactors have been built — especially in China — but a…",
+      "link": "https://www.canarymedia.com/articles/nuclear/nuclear-energy-big-decade",
+      "source": "canarymedia",
+      "published": "2026-07-17T07:30:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "ACME Solar lève 274 M$ pour son projet 450 MW solaire-stockage en Inde",
+      "teaser": "ACME Solar a obtenu 274,4 M$ auprès de REC Ltd pour financer un projet hybride solaire et stockage de 450 MW et 1 800 MWh en Inde, assorti d'un PPA de 25 ans signé avec SJVN Limited.",
+      "link": "https://energynews.pro/acme-solar-leve-274-m-pour-son-projet-450-mw-solaire-stockage-en-inde",
+      "source": "energynews-pro",
+      "published": "2026-07-17T07:29:45+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Aboitiz Renewables propose un parc éolien de 136 MW à Bangui aux Philippines",
+      "teaser": "Luzon Cleanergy Generation, filiale d'Aboitiz Renewables, soumet un projet éolien de 136 MW à Bangui, en Ilocos Norte, pour 136,37 millions de dollars, avec un cadrage public environnemental programmé le 22 juillet 2026.",
+      "link": "https://energynews.pro/aboitiz-renewables-propose-un-parc-eolien-de-136-mw-a-bangui-aux-philippines",
+      "source": "energynews-pro",
+      "published": "2026-07-17T06:50:06+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Why your heat pump isn’t saving you money – and what could change that",
       "teaser": "The right mix of energy upgrades saved houses as much as €1,150 annually, according to a new study.",
@@ -806,16 +876,6 @@
       ]
     },
     {
-      "title": "Bundesnetzagentur erwartet Netto-Zubau von 1268 Megawatt im Juni",
-      "teaser": "Im ersten Halbjahr sind nach den aktuellen Zahlen knapp 7400 Megawatt Photovoltaik-Leistung in Deutschland hinzugekommen. Auch im Juni lag der Zubau bei Freiflächenanlagen weiterhin höher als bei Dachanlagen.",
-      "link": "https://www.pv-magazine.de/2026/07/15/bundesnetzagentur-erwartet-netto-zubau-von-1268-megawatt-im-juni/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-15T13:53:24+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "China risks grid reliability challenges as renewables ramp up, says GlobalData",
       "teaser": "China is witnessing a sweeping energy transformation as rapidly rising electricity demand and ageing coal infrastructure.",
       "link": "https://www.power-technology.com/analyst-comment/china-risks-grid-reliability-renewables-ramp-up/",
@@ -836,16 +896,6 @@
       ]
     },
     {
-      "title": "Ariadne-Report verzeichnet sinkende Heizkosten – vor allem bei Wärmepumpen",
-      "teaser": "Der vom Bundesforschungsministerium geförderte Bericht kommt – wie andere Quellen auch – zu dem Ergebnis, dass Wärmepumpen 2025 erstmals auch in Bestandsgebäuden die am häufigsten eingebaute Heizungsart stellten. Und im Betrieb waren sie…",
-      "link": "https://www.pv-magazine.de/2026/07/15/ariadne-report-verzeichnet-sinkende-heizkosten-vor-allem-bei-waermepumpen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-15T12:19:49+00:00",
-      "matched_keywords": [
-        "wärmepumpe"
-      ]
-    },
-    {
       "title": "Avantus progresses California solar-plus-storage projects, Fluence providing domestic content BESS",
       "teaser": "Avantus, with Fluence, is progressing on two solar-plus-battery energy storage system (BESS) projects in California, US.",
       "link": "https://www.energy-storage.news/avantus-progresses-california-solar-plus-storage-projects-fluence-providing-domestic-content-bess/",
@@ -857,16 +907,6 @@
       ]
     },
     {
-      "title": "Whitepaper: Was Banken bei der Finanzierung von Batteriespeichern wirklich wichtig ist",
-      "teaser": "Capcora und Suena Energy haben die Faktoren zusammengetragen, die Banken bewerten, wenn sie über die Finanzierung von Speichern entscheiden. Je verlässlicher die Zahlungsströme, umso höher ist der Fremdkapitalanteil. Aber auch die…",
-      "link": "https://www.pv-magazine.de/2026/07/15/whitepaper-was-banken-bei-der-finanzierung-von-batteriespeichern-wirklich-wichtig-ist/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-15T11:26:43+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "The energy transition’s last mile",
       "teaser": "Lenders and investors are starting to fund households’ adoption of renewable technology",
       "link": "https://www.ft.com/content/81d7d7a8-25fa-433d-93b4-61b8756e058f",
@@ -874,16 +914,6 @@
       "published": "2026-07-15T11:00:06+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Nuclear fusion industry attracts record annual funding of $4.48bn",
-      "teaser": "The global nuclear fusion industry raised a record $4.48bn in the last 12 months, bringing total private investment since 2021 to $14.24bn.",
-      "link": "https://www.power-technology.com/news/nuclear-fusion-industry-attracts-record-annual-funding-of-4-48bn/",
-      "source": "power-technology",
-      "published": "2026-07-15T10:42:11+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -2670,16 +2700,6 @@
       ]
     },
     {
-      "title": "24/7 renewables could happen sooner than you think",
-      "teaser": "One of the biggest knocks against renewables — their intermittency — could soon be defanged. As technology prices fall and industry prowess compounds, a new type of clean megaproject is starting to look not only possible but also…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/24-7-renewables-could-happen-soon",
-      "source": "canarymedia",
-      "published": "2026-05-21T07:30:00+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Jetzt kommt es auf die Elektrifizierung an",
       "teaser": "Für die Abkehr von fossilen Brennstoffen reicht es nicht mehr, nur die Erneuerbaren auszubauen. Die Elektrifizierung von Verkehr, Gebäudesektor und der Industrie muss nun stärker in den Blick genommen werden, fordert die IRENA.",
       "link": "https://www.energiezukunft.eu/wirtschaft/jetzt-kommt-es-auf-die-elektrifizierung-an",
@@ -2999,13 +3019,13 @@
       ]
     },
     {
-      "title": "French nuclear output at risk of another heatwave in August",
+      "title": "Vattenfall: gas refilling costs will lift winter power prices",
       "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/2ca6acf6-1788-4a24-b897-458678faf9e5/french-nuclear-output-at-risk-of-another-heatwave-in-august",
+      "link": "https://www.montelnews.com/news/ddde7d2d-1080-4991-b1f7-bfcee44331aa/gas-refilling-costs-will-lift-winter-power-prices-vattenfall",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "power price"
       ]
     },
     {
@@ -3016,6 +3036,26 @@
       "published": null,
       "matched_keywords": [
         "ets"
+      ]
+    },
+    {
+      "title": "French nuclear output at risk of another heatwave in August",
+      "teaser": "Priyanka Shinde",
+      "link": "https://www.montelnews.com/news/2ca6acf6-1788-4a24-b897-458678faf9e5/french-nuclear-output-at-risk-of-another-heatwave-in-august",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IEA: uranium supply risks cloud nuclear growth",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/f8cf3c76-8072-4619-8094-8fc985ab0f0f/uranium-supply-risks-cloud-nuclear-growth-iea",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -3036,6 +3076,17 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Engie, Scottish Renewables and Vestas top this week's wind industry moves",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/engie-scottish-renewables-and-vestas-top-this-weeks-wind-industry-moves/2-1-2017784",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3064,17 +3115,6 @@
       "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Financing costs overtake turbine prices as key risk for wind projects",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/financing-costs-overtake-turbine-prices-as-key-risk-for-wind-projects/2-1-2013886",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3140,31 +3180,31 @@
       ]
     },
     {
-      "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/sodium-ion-battery-maker-takes-aim-at-lithiums-grip-on-us-storage/2-1-2017272",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Japan moves to boost resilience of current and future offshore wind projects",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/japan-moves-to-boost-resilience-of-current-and-future-offshore-wind-projects/2-1-2017047",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Financing costs overtake turbine prices as key risk for wind projects",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/financing-costs-overtake-turbine-prices-as-key-risk-for-wind-projects/2-1-2013886",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/sodium-ion-battery-maker-takes-aim-at-lithiums-grip-on-us-storage/2-1-2017272",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
