@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:25:59+00:00",
+  "generated_at": "2026-07-17T17:02:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 4
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 284,
+  "count": 287,
   "articles": [
+    {
+      "title": "Aktionsplan zur Elektrifizierung soll Europa zum „ersten elektro-betriebenen Kontinent“ der Welt machen",
+      "teaser": "Die EU-Kommission will ein EU-weites Elektrifizierungsziel von 46 Prozent bis 2030 einführen. Dafür soll vor allem Strom wettbewerbsfähig zu Gas werden. Auch beim Emissionshandel plant Brüssel Änderungen.",
+      "link": "https://www.pv-magazine.de/2026/07/17/aktionsplan-zur-elektrifizierung-soll-europa-zum-ersten-elektro-betriebenen-kontinent-der-welt-machen/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-17T15:33:29+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Thrive Renewables lève 8,9 M$ via une émission obligataire pour ses projets éoliens",
+      "teaser": "Thrive Renewables a bouclé son émission obligataire 2026 à 8,9 millions de dollars, avec l'entrée de l'Archbishops' Council et de Rathbones. Les fonds financeront deux parcs éoliens en Écosse et au Pays de Galles ainsi que des projets…",
+      "link": "https://energynews.pro/thrive-renewables-leve-89-m-via-une-emission-obligataire-pour-ses-projets-eoliens",
+      "source": "energynews-pro",
+      "published": "2026-07-17T15:11:51+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "EU to give industry more time to pollute and more funds to clean up",
+      "teaser": "Climate commissioner defends extension of free allowances to heavily emitting sectors",
+      "link": "https://www.ft.com/content/c3c33e7b-8faf-4f06-b281-112117aeeb5a?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-17T15:02:59+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Stiftung Umweltenergierecht: Beschränkungen von Netzanschlüssen nach EU-Recht nur unter bestimmten Bedingungen zulässig",
       "teaser": "Redipatch-Vorbehalt und flexible Netzanschlussvereinbarungen sind aktuell in aller Munde, wenn es um den weiteren Ausbau von Erneuerbaren und Batteriespeichern in Deutschland geht. Die Stiftung Umweltenergierecht hat in einer neuen Studie…",
@@ -399,16 +429,6 @@
       "published": "2026-07-17T12:45:29+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "EU to give industry more time to pollute and more funds to clean up",
-      "teaser": "Climate commissioner defends extension of free allowances to heavily polluting sectors",
-      "link": "https://www.ft.com/content/c3c33e7b-8faf-4f06-b281-112117aeeb5a?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-17T11:57:37+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -774,17 +794,6 @@
       "matched_keywords": [
         "battery storage",
         "energy storage"
-      ]
-    },
-    {
-      "title": "WAR stützt Pläne der Bundesnetzagentur bei Netzentgeltreform",
-      "teaser": "Der wissenschaftliche Arbeitskreis für Regulierungsfragen hat Stellung zur geplanten Regulierung der Stromnetze in Deutschland bezogen. Im Kern stützt er die Vorschläge der Bundesnetzagentur und gibt fünf Empfehlungen ab.",
-      "link": "https://www.pv-magazine.de/2026/07/16/war-stuetzt-plaene-der-bundesnetzagentur-bei-netzentgeltreform/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-16T12:19:00+00:00",
-      "matched_keywords": [
-        "netzentgelt",
-        "stromnetz"
       ]
     },
     {
@@ -1340,17 +1349,6 @@
       "published": "2026-07-14T01:30:22+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Shell sells Indian wind and solar business for $1.8bn",
-      "teaser": "Aditya Birla Renewables takes on Shell’s renewable assets in India as energy major continues to refocus on oil and gas",
-      "link": "https://www.ft.com/content/e9a826a4-db60-458b-8886-a94a3a111cff",
-      "source": "ft-energy",
-      "published": "2026-07-13T18:13:33+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -2847,6 +2845,36 @@
       ]
     },
     {
+      "title": "Der Tagesspiegel",
+      "teaser": "Viele CDU-Politiker sind empört über die Doppelmoral ihres Fraktionschefs, Rücktrittsforderungen werden laut. Wie gefährlich wird die Causa für Jens Spahn?",
+      "link": "https://www.tagesspiegel.de",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "Als Politiker gegen Leihmutterschaft, privat dafür? : Der Druck auf Jens Spahn ist immens und wächst von Stunde zu Stunde",
+      "teaser": "Viele CDU-Politiker sind empört über die Doppelmoral ihres Fraktionschefs, Rücktrittsforderungen werden laut. Wie gefährlich wird die Causa für Jens Spahn?",
+      "link": "https://www.tagesspiegel.de/politik/als-politiker-gegen-leihmutterschaft-privat-dafur-der-druck-auf-jens-spahn-ist-immens-und-wachst-von-stunde-zu-stunde-15850206.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "„Am Ende kann nur die Fraktion entscheiden“ : Spahn reagiert auf Rücktrittsforderungen wegen Leihmutter",
+      "teaser": "Die Union ist gegen Leihmutterschaften. Dass ihr Frontmann im Bundestag einen anderen Weg gegangen ist, provoziert Kritik. Jetzt äußert sich Jens Spahn erstmals selbst.",
+      "link": "https://www.tagesspiegel.de/politik/am-ende-kann-nur-die-fraktion-entscheiden-spahn-reagiert-auf-rucktrittsforderungen-wegen-leihmutter-15848089.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Restaurant Qiu am Potsdamer Platz : Kann man in Berlin zu diesem Preis besser essen?",
       "teaser": "Geheimtipp: Im Zweitrestaurant des „Facil“ zeigt Michael Kempf, wie moderne deutsche Küche geht. Auf Wunsch auch rund ums Philharmonie-Konzert. Und mit Klimaanlage.",
       "link": "https://www.tagesspiegel.de/gesellschaft/genuss/restaurant-qiu-am-potsdamer-platz-kann-man-in-berlin-zu-diesem-preis-besser-essen-15802147.html",
@@ -3166,18 +3194,6 @@
       ]
     },
     {
-      "title": "Vattenfall CEO pours cold water on prospects for giant wind farm despite permit",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/vattenfall-ceo-pours-cold-water-on-prospects-for-giant-wind-farm-despite-permit/2-1-2018057",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Offshore wind entrepreneur appointed to House of Lords",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/offshore-wind-entrepreneur-appointed-to-house-of-lords/2-1-2018040",
@@ -3211,74 +3227,6 @@
       ]
     },
     {
-      "title": "Statkraft's largest-ever wind farm gets green light",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/statkrafts-largest-ever-wind-farm-gets-green-light/2-1-2017688",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Sweden to switch to auction system for offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/sweden-to-switch-to-auction-system-for-offshore-wind/2-1-2017585",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vattenfall, Skyborn clash with Sweden over offshore wind support and rejections",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/vattenfall-skyborn-clash-with-sweden-over-offshore-wind-support-and-rejections/2-1-2017712",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Sweden greenlights two offshore wind farms but blocks eleven more",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/sweden-greenlights-two-offshore-wind-farms-but-blocks-eleven-more/2-1-2017496",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Orsted and others see Sweden reject offshore wind projects over security fears",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/orsted-and-others-see-sweden-reject-offshore-wind-projects-over-security-fears/2-1-2017592",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
@@ -3301,6 +3249,41 @@
       ]
     },
     {
+      "title": "Vattenfall CEO pours cold water on prospects for giant wind farm despite permit",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/vattenfall-ceo-pours-cold-water-on-prospects-for-giant-wind-farm-despite-permit/2-1-2018057",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Sweden to switch to auction system for offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/sweden-to-switch-to-auction-system-for-offshore-wind/2-1-2017585",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Sweden greenlights two offshore wind farms but blocks eleven more",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/sweden-greenlights-two-offshore-wind-farms-but-blocks-eleven-more/2-1-2017496",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
+      ]
+    },
+    {
       "title": "Offshore wind push could turn Turkey into a Mediterranean export hub",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/auctions/offshore-wind-push-could-turn-turkey-into-a-mediterranean-export-hub/2-1-2014484",
@@ -3315,6 +3298,51 @@
       "title": "Dogger Bank South dispute: What happens now and why it matters",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/dogger-bank-south-dispute-what-happens-now-and-why-it-matters/2-1-2015747",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Why Italy can't get enough wind built to help its power price battle",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/why-italy-cant-get-enough-wind-built-to-help-its-power-price-battle/2-1-2014501",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "power price",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/sodium-ion-battery-maker-takes-aim-at-lithiums-grip-on-us-storage/2-1-2017272",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
