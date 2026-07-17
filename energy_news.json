@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:56:59+00:00",
+  "generated_at": "2026-07-17T06:09:41+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 10
+      "items_matched": 11
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 17
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 10
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,92 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 273,
   "articles": [
+    {
+      "title": "Why your heat pump isn’t saving you money – and what could change that",
+      "teaser": "The right mix of energy upgrades saved houses as much as €1,150 annually, according to a new study.",
+      "link": "http://www.euronews.com/2026/07/17/why-your-heat-pump-isnt-saving-you-money-and-what-could-change-that",
+      "source": "euronews-green",
+      "published": "2026-07-17T06:02:19+00:00",
+      "matched_keywords": [
+        "heat pump"
+      ]
+    },
+    {
+      "title": "Rapporteur | 17. Juli 2026",
+      "teaser": "Willkommen bei Rapporteur! Jeden Tag liefern wir Ihnen die wichtigsten Nachrichten und Hintergründe aus der EU- und Europapolitik. &#160; Das Wichtigste: 🟢 Kommission will Reform des Emissionshandels vorlegen 🟢 Frankreich und Deutschland…",
+      "link": "https://euractiv.com/de/news/rapporteur-17-juli-2026/",
+      "source": "euractiv-energie",
+      "published": "2026-07-17T05:25:19+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "ib vogt wins approval for 480MWh battery storage site in Australia’s Wagga Wagga Special Activation Precinct",
+      "teaser": "German solar and storage developer ib vogt has received state planning approval for the 120MW/480MWh Wagga North battery energy storage system (BESS) in New South Wales, Australia.",
+      "link": "https://www.energy-storage.news/ib-vogt-wins-approval-for-480mwh-battery-storage-site-in-australias-wagga-wagga-special-activation-precinct/",
+      "source": "energy-storage-news",
+      "published": "2026-07-17T04:21:49+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Port of Newcastle cleared to safely stage grid-scale battery storage systems in New South Wales, Australia",
+      "teaser": "The Port of Newcastle has become the first port in New South Wales, Australia, to be approved to safely store grid-scale lithium-ion battery storage systems.",
+      "link": "https://www.energy-storage.news/port-of-newcastle-cleared-to-safely-stage-grid-scale-battery-storage-systems-in-new-south-wales-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-07-17T04:18:05+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "EU climate chief backs support for heavy industry while delaying emissions curbs",
+      "teaser": "Wopke Hoekstra confirms planned reduction in carbon permits will be softened",
+      "link": "https://www.ft.com/content/c3c33e7b-8faf-4f06-b281-112117aeeb5a?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-17T04:00:40+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
+    {
+      "title": "Modi steps up India’s hunt for uranium and critical minerals",
+      "teaser": "Prime minister has been on a diplomatic tour to shore up supplies exposed by Iran war and strengthen nuclear power sector",
+      "link": "https://www.ft.com/content/c5868e2f-8d19-4393-93be-2ad726a636a1?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-17T04:00:23+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "EU sets up biggest climate fight of 2026 by slamming brakes on carbon market",
+      "teaser": "Brussels wants to let industry pollute more and for longer. Parliament and member countries will have some thoughts on that.",
+      "link": "https://www.politico.eu/article/eu-climate-change-fight-carbon-market-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-16T19:00:39+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "The European Commission’s moment of climate truth",
+      "teaser": "Two policy announcements on Friday will show whether the Commission can keep its emissions-cutting promises.",
+      "link": "https://www.politico.eu/article/european-commission-climate-change-energy-transition-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-16T17:46:16+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
     {
       "title": "Zunehmender Wüstenstaub beeinträchtigt Photovoltaik-Erträge in Europa",
       "teaser": "Eine Studie unter Federführung des Schweizer Paul Scherrer Instituts zeigt eine zunehmende Belastung Europas durch Feinstaub aus den Wüsten Nordafrikas. Das habe Folgen für die Gesundheit und die Solarenergie. Der Klimawandel könne das…",
@@ -565,16 +649,6 @@
       "published": "2026-07-16T08:34:05+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Standard Nuclear fixe son IPO à 15 dollars par action sur le NYSE",
-      "teaser": "Standard Nuclear, producteur de carburant TRISO indépendant des types de réacteurs, a fixé le prix de son introduction en bourse à 15 dollars par action pour 10 millions de titres de classe A cotés sur le NYSE sous le symbole STDN.",
-      "link": "https://energynews.pro/standard-nuclear-fixe-son-ipo-a-15-dollars-par-action-sur-le-nyse",
-      "source": "energynews-pro",
-      "published": "2026-07-16T08:04:21+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1264,26 +1338,6 @@
       ]
     },
     {
-      "title": "Australians ‘going gangbusters’ on Chinese batteries in renewable energy shift",
-      "teaser": "Clean energy, backed by storage, now makes up about half of the country’s energy supply",
-      "link": "https://www.ft.com/content/af10c21d-3502-4d7d-8497-56457701b4fa",
-      "source": "ft-energy",
-      "published": "2026-07-13T04:00:05+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "EU buys record amount of gas from Russia’s flagship plant",
-      "teaser": "Europe purchased almost all the LNG produced by the Yamal facility in the first half of 2026 ahead of import ban",
-      "link": "https://www.ft.com/content/de9bbc3a-c317-4e5f-a324-6ec0dde45722",
-      "source": "ft-energy",
-      "published": "2026-07-13T03:00:02+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Smart meters save money and prevent wasting renewables: Which country is leading Europe’s rollout?",
       "teaser": "Germany is falling far behind the rest of Europe when it comes to smart meter installation.",
       "link": "http://www.euronews.com/2026/07/12/smart-meters-save-money-and-prevent-wasting-renewables-which-country-is-leading-europes-ro",
@@ -1654,27 +1708,6 @@
       "source": "politico-energy-climate",
       "published": "2026-07-07T18:02:15+00:00",
       "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "European battery & BESS manufacturing gets boost with Eni Storage and Hithium gigafactory milestones in Italy, Spain",
-      "teaser": "Eni Storage Systems has broken ground on a gigafactory in Italy set to build LFP cells for energy storage applications, while Chinese firm Hithium has won an €80 million grant from the Spanish government for a battery and BESS plant there.",
-      "link": "https://www.energy-storage.news/european-battery-manufacturing-boost-eni-storage-hithium-lfp-gigafactory-milestones-italy-spain/",
-      "source": "energy-storage-news",
-      "published": "2026-07-07T10:47:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "‘Climate risk is a daily operational reality’ for BESS developers in Southeast Asia",
-      "teaser": "Developers must use all the tools at their disposal and be aware of the frontline climate risks that battery storage projects in Southeast Asia will be subject to.",
-      "link": "https://www.energy-storage.news/climate-risk-is-a-daily-operational-reality-for-bess-developers-in-southeast-asia/",
-      "source": "energy-storage-news",
-      "published": "2026-07-07T09:26:45+00:00",
-      "matched_keywords": [
-        "battery storage",
         "climate"
       ]
     },
@@ -3006,6 +3039,17 @@
       ]
     },
     {
+      "title": "RenewableUK chief talks pragmatism, Telegraph readers and the energy culture war",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Ten battery giants ranked: why long-term is the new competitive edge for developers",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/ten-battery-giants-ranked-why-long-term-is-the-new-competitive-edge-for-developers/2-1-2016746",
@@ -3158,17 +3202,6 @@
       "published": null,
       "matched_keywords": [
         "power price",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
         "renewable",
         "solar"
       ]
