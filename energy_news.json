@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T19:59:41+00:00",
+  "generated_at": "2026-07-18T05:58:11+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "euronews-green",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,19 @@
       "items_matched": 0
     }
   ],
-  "count": 285,
+  "count": 281,
   "articles": [
+    {
+      "title": "Britain’s system for avoiding electricity blackouts faces scrutiny",
+      "teaser": "National Energy System Operator’s task made more difficult by climate change and increasing use of renewables",
+      "link": "https://www.ft.com/content/047f943b-e46b-455e-8f8e-bef1b9c97708?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-18T04:00:41+00:00",
+      "matched_keywords": [
+        "climate",
+        "renewable"
+      ]
+    },
     {
       "title": "Aktionsplan zur Elektrifizierung soll Europa zum „ersten elektro-betriebenen Kontinent“ der Welt machen",
       "teaser": "Die EU-Kommission will ein EU-weites Elektrifizierungsziel von 46 Prozent bis 2030 einführen. Dafür soll vor allem Strom wettbewerbsfähig zu Gas werden. Auch beim Emissionshandel plant Brüssel Änderungen.",
@@ -601,8 +612,8 @@
     {
       "title": "TotalEnergies and partners open hybrid renewable project in South Africa",
       "teaser": "TotalEnergies, alongside Hydra Storage and Reatile Renewables, has inaugurated a hybrid renewable energy project in Northern Cape province.",
-      "link": "https://www.power-technology.com/news/totalenergies-open-hybrid-project-sa/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/news/totalenergies-open-hybrid-project-sa/",
+      "source": "energymonitor",
       "published": "2026-07-17T08:20:28+00:00",
       "matched_keywords": [
         "renewable"
@@ -1402,16 +1413,6 @@
       ]
     },
     {
-      "title": "Baltic Power delivers first electricity to Polish grid",
-      "teaser": "Baltic Power, a 1.1GW offshore wind farm co-owned by Northland Power and ORLEN, has started supplying electricity to Poland’s national grid.",
-      "link": "https://www.energymonitor.ai/news/baltic-power-delivers-first-electricity/",
-      "source": "energymonitor",
-      "published": "2026-07-13T08:06:35+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "A new deal on balcony solar just dropped in the US",
       "teaser": "Do you live in the U.S. and want balcony solar ? A new initiative could help you get a deal on one of these small but mighty systems that plug into a standard outlet and push clean power into your home. Today, California-based nonprofit…",
       "link": "https://www.canarymedia.com/articles/solar/balcony-panel-bright-saver-deal",
@@ -1419,16 +1420,6 @@
       "published": "2026-07-13T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Fujimori’s victory in Peru’s presidential elections brings hope for renewable energy but uncertainty prevails",
-      "teaser": "Fujimori’s victory in Peru’s presidential elections brings hope for mining and renewable energy but uncertainty prevails.",
-      "link": "https://www.energymonitor.ai/analyst-comment/peru-energy-projects-after-election/",
-      "source": "energymonitor",
-      "published": "2026-07-13T07:00:00+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2825,16 +2816,6 @@
       ]
     },
     {
-      "title": "Der Tagesspiegel",
-      "teaser": "Viele CDU-Politiker sind empört über die Doppelmoral ihres Fraktionschefs, Rücktrittsforderungen werden laut. Wie gefährlich wird die Causa für Jens Spahn?",
-      "link": "https://www.tagesspiegel.de",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Als Politiker gegen Leihmutterschaft, privat dafür? : Der Druck auf Jens Spahn ist immens und wächst von Stunde zu Stunde",
       "teaser": "Viele CDU-Politiker sind empört über die Doppelmoral ihres Fraktionschefs, Rücktrittsforderungen werden laut. Wie gefährlich wird die Causa für Jens Spahn?",
       "link": "https://www.tagesspiegel.de/politik/als-politiker-gegen-leihmutterschaft-privat-dafur-der-druck-auf-jens-spahn-ist-immens-und-wachst-von-stunde-zu-stunde-15850206.html",
@@ -2842,26 +2823,6 @@
       "published": null,
       "matched_keywords": [
         "forderung"
-      ]
-    },
-    {
-      "title": "Restaurant Qiu am Potsdamer Platz : Kann man in Berlin zu diesem Preis besser essen?",
-      "teaser": "Geheimtipp: Im Zweitrestaurant des „Facil“ zeigt Michael Kempf, wie moderne deutsche Küche geht. Auf Wunsch auch rund ums Philharmonie-Konzert. Und mit Klimaanlage.",
-      "link": "https://www.tagesspiegel.de/gesellschaft/genuss/restaurant-qiu-am-potsdamer-platz-kann-man-in-berlin-zu-diesem-preis-besser-essen-15802147.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Kompensation bleibt, Solarförderung endet später : Reiche lenkt bei umstrittenen Energiegesetzen ein",
-      "teaser": "Wirtschaftsministerin Katherina Reiche hat ihre Energiepläne überarbeitet. Kritik kam unter anderem von Kabinettskollege und Umweltminister Carsten Schneider.",
-      "link": "https://www.tagesspiegel.de/politik/kompensation-bleibt-solarforderung-endet-spater-reiche-lenkt-bei-umstrittenen-energiegesetzen-ein-15852283.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
       ]
     },
     {
