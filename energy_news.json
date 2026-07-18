@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:58:11+00:00",
+  "generated_at": "2026-07-18T08:44:05+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 11
+      "items_matched": 12
     },
     {
       "name": "cleanenergywire",
@@ -130,11 +130,11 @@
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.euwid-energie.de/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "503 Server Error: Service Unavailable for url: https://www.euwid.de/",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 17
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -368,8 +368,29 @@
       "items_matched": 0
     }
   ],
-  "count": 281,
+  "count": 284,
   "articles": [
+    {
+      "title": "Brüssel schlägt eine Senkung der EU-Eigenkapitalanforderungen für Banken vor",
+      "teaser": "Dieser Schritt ist Teil umfassenderer Bemühungen Brüssels, die Fragmentierung im Bankensektor der Union zu verringern und die Fähigkeit der Kreditinstitute zu stärken, mit den weitaus größeren US-Unternehmen zu konkurrieren.",
+      "link": "https://euractiv.com/de/news/brussel-schlagt-eine-senkung-der-eu-eigenkapitalanforderungen-fur-banken-vor/",
+      "source": "euractiv-energie",
+      "published": "2026-07-18T07:27:23+00:00",
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "Discounted tickets for World Cup and popstar gigs could cut climate costs of ‘mega events’",
+      "teaser": "The 2026 FIFA World Cup generated emissions equal to some countries’ annual output, with fan travel being the biggest driver.",
+      "link": "http://www.euronews.com/2026/07/18/discounted-tickets-for-world-cup-and-popstar-gigs-could-cut-climate-costs-of-mega-events",
+      "source": "euronews-green",
+      "published": "2026-07-18T05:57:23+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
+      ]
+    },
     {
       "title": "Britain’s system for avoiding electricity blackouts faces scrutiny",
       "teaser": "National Energy System Operator’s task made more difficult by climate change and increasing use of renewables",
@@ -1149,7 +1170,7 @@
     {
       "title": "Europe faces fight over a push to direct carbon levy to green industry",
       "teaser": "Brussels risks a row with member states over how emissions trading scheme revenues are spent",
-      "link": "https://www.ft.com/content/2ea22a21-e5c5-4911-b9af-00d4213dda66",
+      "link": "https://www.ft.com/content/2ea22a21-e5c5-4911-b9af-00d4213dda66?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-07-15T04:00:22+00:00",
       "matched_keywords": [
@@ -2823,6 +2844,16 @@
       "published": null,
       "matched_keywords": [
         "forderung"
+      ]
+    },
+    {
+      "title": "Merz’ Schweigen zu den Hitzetoten : Klimaschutz muss wieder ins Zentrum der Aufmerksamkeit rücken",
+      "teaser": "Ganze 5100 Tote forderte die Hitzewelle Ende Juni. Diese Warnung sollten wir ernstnehmen. Wann, wenn nicht jetzt, ist die Zeit für entschlossenes Gegensteuern?",
+      "link": "https://www.tagesspiegel.de/politik/merz-schweigen-zu-den-hitzetoten-klimaschutz-muss-wieder-ins-zentrum-der-aufmerksamkeit-rucken-15847463.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klimaschutz"
       ]
     },
     {
