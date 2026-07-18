@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T10:56:12+00:00",
+  "generated_at": "2026-07-18T14:17:06+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 282,
+  "count": 283,
   "articles": [
     {
       "title": "Brüssel schlägt eine Senkung der EU-Eigenkapitalanforderungen für Banken vor",
@@ -2834,6 +2834,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Nach Kritik wegen Leihmutterschaft : Kanzler Merz nennt Spahns Rücktritt „unvermeidlich“",
+      "teaser": "Der Unionsfraktionschef hatte in den vergangenen Tagen viel Kritik auf sich gezogen, auch Rücktrittsforderungen gab es. Nun zieht Spahn die Konsequenzen.",
+      "link": "https://www.tagesspiegel.de/politik/nach-kritik-wegen-leihmutterschaft-kanzler-merz-nennt-spahns-rucktritt-unvermeidlich-15848089.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
       ]
     },
     {
