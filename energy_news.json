@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:47:43+00:00",
+  "generated_at": "2026-07-19T20:03:41+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -255,17 +255,17 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 18
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
       "url": "https://www.politico.eu/energy-climate",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.politico.eu/section/energy/feed/",
-      "error": null,
-      "items_found": 31,
-      "items_matched": 12
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.politico.eu', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 281,
+  "count": 269,
   "articles": [
+    {
+      "title": "Heading for the North Pole on Tara Polar Station's first expedition",
+      "teaser": "The Tara Polar Station left the port of Lorient on Sunday. For over a year, this floating laboratory will drift with the pack ice to study Arctic Ocean biodiversity and the impacts of climate change in the region.",
+      "link": "http://www.euronews.com/2026/07/19/heading-for-the-north-pole-on-tara-polar-stations-first-expedition",
+      "source": "euronews-green",
+      "published": "2026-07-19T19:24:41+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Das sind die Herausforderungen für den künftigen britischen Premierminister Andy Burnham",
       "teaser": "Oberste Priorität wird es sein, die Wirtschaft anzukurbeln und den Lebensstandard der Wähler zu verbessern, die seit Beginn des Russland-Ukraine-Kriegs unter den steigenden Energie- und Lebensmittelpreisen leiden.",
@@ -533,26 +543,6 @@
       "published": "2026-07-17T10:22:04+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "EU loosens carbon market rules to let industry pollute for longer",
-      "teaser": "Steelmakers, chemical producers and power generators will be able to release emissions well into the 2040s under the proposed law.",
-      "link": "https://www.politico.eu/article/eu-loosens-carbon-market-rules-to-allow-industry-to-pollute-for-longer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-17T10:16:54+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
-      "title": "Ukraine steps up attacks on Russia’s Black Sea fuel network",
-      "teaser": "The strikes aim to prevent Russia from supplying fuel to the occupied regions of Eastern Ukraine and Crimea and curb its effort to circumvent sanctions.",
-      "link": "https://www.politico.eu/article/ukraine-steps-up-attacks-on-russias-black-sea-fuel-network/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-17T10:12:11+00:00",
-      "matched_keywords": [
-        "sanction"
       ]
     },
     {
@@ -782,27 +772,6 @@
       "published": "2026-07-17T04:00:23+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "EU sets up biggest climate fight of 2026 by slamming brakes on carbon market",
-      "teaser": "Brussels wants to let industry pollute more and for longer. Parliament and member countries will have some thoughts on that.",
-      "link": "https://www.politico.eu/article/eu-climate-change-fight-carbon-market-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-16T19:00:39+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "The European Commission’s moment of climate truth",
-      "teaser": "Two policy announcements on Friday will show whether the Commission can keep its emissions-cutting promises.",
-      "link": "https://www.politico.eu/article/european-commission-climate-change-energy-transition-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-16T17:46:16+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
       ]
     },
     {
@@ -1046,16 +1015,6 @@
       ]
     },
     {
-      "title": "EU fails to strike Russia sanctions deal after 3 days of talks",
-      "teaser": "Envoys will reconvene next week in a bid to prevent the price cap on Russian crude from ratcheting higher at the end of July.",
-      "link": "https://www.politico.eu/article/eu-russia-oil-price-cap-sanctions-delayed/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-15T18:16:00+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Google buys power from record-busting solar-battery site in Arkansas",
       "teaser": "Longtime solar developer Cypress Creek Energy has not only broken ground on what could be the largest solar-plus-storage plant in the country, but also secured a blue-chip customer to pay for the clean power. Google will buy all the…",
       "link": "https://www.canarymedia.com/articles/corporate-procurement/google-solar-battery-site-arkansas",
@@ -1063,16 +1022,6 @@
       "published": "2026-07-15T17:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "The 3 letters Brussels won’t be able to shut up about",
-      "teaser": "POLITICO’s guide to the core elements of the Emissions Trading System reform.",
-      "link": "https://www.politico.eu/article/eu-ets-carbon-market-reform-proposal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-15T12:28:28+00:00",
-      "matched_keywords": [
-        "emissions trading"
       ]
     },
     {
@@ -1381,26 +1330,6 @@
       "published": "2026-07-14T03:37:49+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Russia sanctions package pushed toward midweek deadline",
-      "teaser": "EU foreign ministers failed to sign off on 21st sanctions round. Wednesday is the last day to lock in an oil price cap.",
-      "link": "https://www.politico.eu/article/russia-sanctions-package-wednesday-deadline/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-13T17:44:40+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "Warming Europe complicates France’s bet on nuclear power",
-      "teaser": "Extreme heat is forcing the country to shut down nuclear reactors, just as the appetite for cheap, carbon-free electricity is set to explode.",
-      "link": "https://www.politico.eu/article/warming-europe-complicate-france-nuclear-power/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-13T16:10:55+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1799,36 +1728,6 @@
       ]
     },
     {
-      "title": "Trump administration reimposes sanctions on Iran oil sales",
-      "teaser": "The Trump administration on Tuesday revoked a general license that had authorized the sale of Iranian oil after several tankers were attacked while transiting the Strait of Hormuz. The development is a sign that the peace agreement reached…",
-      "link": "https://www.politico.com/news/2026/07/07/trump-reimposes-sanctions-iran-oil-sanctions-00989081?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-07T21:47:15+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "‘Can you help us?’: US oil execs turn to Trump to topple Europe’s climate rules",
-      "teaser": "An inside look at how a climate regulation became a battleground between the U.S. and Europe.",
-      "link": "https://www.politico.com/news/2026/07/07/oil-executives-trump-europe-climate-00987782?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-07T18:38:37+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "The EU’s paradigm shift on cows",
-      "teaser": "Europe's plan to support livestock farmers recasts a climate problem as a strategic asset.",
-      "link": "https://www.politico.eu/article/eu-livestock-strategy-food-security-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-07T18:02:15+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Could hydropower hamper NYC’s building decarbonization law?",
       "teaser": "This story originally appeared in New York Focus , a nonprofit news publication investigating power in New York. Sign up for their newsletter here. When renewable energy credits hit the market as soon as next month, New York City building…",
       "link": "https://www.canarymedia.com/articles/hydropower/hydropower-nyc-building-decarbonization",
@@ -1940,17 +1839,6 @@
       "published": "2026-07-03T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "EU shipyard races to service Putin’s LNG fleet before sanctions bite",
-      "teaser": "If the ships are serviced now, they'll be able to continue working despite looming EU sanctions.",
-      "link": "https://www.politico.eu/article/eu-shipyard-races-to-service-russia-vladimir-putin-lng-fleet-before-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-02T16:00:11+00:00",
-      "matched_keywords": [
-        "lng",
-        "sanction"
       ]
     },
     {
@@ -2814,16 +2702,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "813 Tonnen CO₂ in fünf Wochen : Infantino fliegt während WM Strecke von zweieinhalb Erdumrundungen",
-      "teaser": "Die Fifa hat sich verpflichtet, bis 2040 klimaneutral zu werden. Die Zahlen zu Infantinos Flugkilometern während der WM haben es jedoch in sich. Jedem der 16 Stadien stattete er einen Besuch ab.",
-      "link": "https://www.tagesspiegel.de/sport/813-tonnen-co2-in-funf-wochen-infantino-fliegt-wahrend-wm-strecke-von-zweieinhalb-erdumrundungen-15855824.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
       ]
     },
     {
