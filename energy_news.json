@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T17:30:29+00:00",
+  "generated_at": "2026-07-20T20:16:11+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 0
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 266,
+  "count": 276,
   "articles": [
+    {
+      "title": "Eurowind Energy Romania lance la construction de trois parcs éoliens de 138 MW",
+      "teaser": "Eurowind Energy Romania a obtenu les autorisations de l'ANRE et débute la construction des parcs éoliens Frumușița, Vector et Pecineaga Nord-Est, d'une capacité combinée de 138 MW en Roumanie.",
+      "link": "https://energynews.pro/eurowind-energy-romania-lance-la-construction-de-trois-parcs-eoliens-de-138-mw",
+      "source": "energynews-pro",
+      "published": "2026-07-20T17:47:58+00:00",
+      "matched_keywords": [
+        "wind energy"
+      ]
+    },
     {
       "title": "Wie ein energieintensives Unternehmen CO2-neutral wird",
       "teaser": "pv+: Ein deutsches Aluminium-Strangpresswerk deckt seinen Energiebdarf mit Photovoltaik und Windkraft zu 70 Prozent selbst. Dabei hilft ein Megawatt-Batteriespeicher, der sich in unter drei Jahren amortisieren soll.",
@@ -404,6 +414,16 @@
       "published": "2026-07-20T13:55:19+00:00",
       "matched_keywords": [
         "eeg"
+      ]
+    },
+    {
+      "title": "GTT’s hands full of tank design orders for FLNG unit and multiple LNG carriers",
+      "teaser": "French technological containment specialist Gaztransport &#38; Technigaz (GTT) has seen a spike in new orders, securing additional tank design jobs for liquefied natural gas (LNG) unit carriers (LNGCs) and a floating LNG (FLNG) unit. The…",
+      "link": "https://www.offshore-energy.biz/gtts-hands-full-of-tank-design-orders-for-flng-unit-and-multiple-lng-carriers/",
+      "source": "offshore-energy",
+      "published": "2026-07-20T13:30:27+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -488,6 +508,16 @@
       ]
     },
     {
+      "title": "States join fight against Trump administration’s wind farm blockade",
+      "teaser": "A coalition of 18 states and Washington, D.C., has moved to join an industry lawsuit challenging the Department of Defense’s freeze on onshore wind projects in America. It’s the latest in a nearly yearlong saga during which the Trump…",
+      "link": "https://www.canarymedia.com/articles/wind/states-lawsuit-trump-defense-permitting-freeze",
+      "source": "canarymedia",
+      "published": "2026-07-20T09:30:00+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
       "title": "Baubeschluss für 900 Megawatt-Batteriespeicher Waltrop",
       "teaser": "Die drei Gesellschafter des Projekts melden den gemeinsamen Baubeschluss für Umspannwerk und Infrastrukturmaßnahmen. Damit sei der Weg frei für eines der aktuelle größten deutschen Batteriespeicherprojekte.",
       "link": "https://www.pv-magazine.de/2026/07/20/baubeschluss-fuer-900-megawatt-batteriespeicher-waltrop/",
@@ -566,16 +596,6 @@
       "published": "2026-07-20T06:56:55+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Waaree ESS lance en Inde une usine de conteneurs BESS de 5,15 GWh",
-      "teaser": "Waaree Energy Storage Solutions, filiale de Waaree Energies, a démarré en Inde une unité de fabrication de conteneurs BESS de 5,15 GWh, première étape d'un plan de production intégré de 20 GWh incluant cellules lithium et packs batteries.",
-      "link": "https://energynews.pro/waaree-ess-lance-en-inde-une-usine-de-conteneurs-bess-de-515-gwh",
-      "source": "energynews-pro",
-      "published": "2026-07-20T06:33:55+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1317,26 +1337,6 @@
       ]
     },
     {
-      "title": "Climate mitigation plans are ignoring gender and population growth factors",
-      "teaser": "Women are at more risk from the damaging effects of climate change warns study The post Climate mitigation plans are ignoring gender and population growth factors appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/14/climate-mitigation-plans-are-ignoring-gender-and-population-growth-factors/",
-      "source": "energylivenews",
-      "published": "2026-07-14T13:00:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "British firms face £800m EU carbon tax bill",
-      "teaser": "UK and EU should allow each other to be exempt from emissions trading charges or costs will rocket The post British firms face £800m EU carbon tax bill appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/14/british-firms-face-800m-eu-carbon-tax-bill/",
-      "source": "energylivenews",
-      "published": "2026-07-14T11:00:00+00:00",
-      "matched_keywords": [
-        "emissions trading"
-      ]
-    },
-    {
       "title": "OMV secures $512m EIB loan for green hydrogen plant in Austria",
       "teaser": "OMV has received a €450m ($512m) loan from EIB to support the construction of its flagship green hydrogen production facility.",
       "link": "https://www.energymonitor.ai/news/omv-secures-eib-loan/",
@@ -1344,17 +1344,6 @@
       "published": "2026-07-14T10:05:56+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Solar becomes EU’s largest power source for first time in June",
-      "teaser": "Record solar generation supplied 25% of EU electricity in June, overtaking nuclear, gas and wind The post Solar becomes EU’s largest power source for first time in June appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/14/solar-becomes-eus-largest-power-source-for-first-time-in-june/",
-      "source": "energylivenews",
-      "published": "2026-07-14T10:00:00+00:00",
-      "matched_keywords": [
-        "nuclear",
-        "solar"
       ]
     },
     {
@@ -2739,16 +2728,6 @@
       ]
     },
     {
-      "title": "The grid is in better shape this summer. Thank solar and batteries.",
-      "teaser": "It’s set to be an abnormally hot summer this year — but the U.S. grid appears to be in decent shape to handle the heat. The credit goes to a boatload of new solar and storage and a handful of new gas plants. That’s the upshot of the new…",
-      "link": "https://www.canarymedia.com/articles/clean-energy/grid-better-shape-this-summer",
-      "source": "canarymedia",
-      "published": "2026-05-26T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Gute Noten für die Neuen",
       "teaser": "Lkw mit batterieelektrischen Antrieben sind auf dem Vormarsch, nicht nur bei den Neuzulassungen. Über die Alltagstauglichkeit der emissionsfreien Technologie berichten die Speditionen fast nur Gutes, zeigt eine Umfrage.",
       "link": "https://www.energiezukunft.eu/mobilitaet/gute-noten-fuer-die-neuen",
@@ -2806,6 +2785,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Vermögen, Erbschaften, Immobilienverkäufe : Fünf SPD-Forderungen für mehr Gerechtigkeit – und ihre Erfolgsaussichten",
+      "teaser": "Die SPD lässt nicht von ihrer Forderung nach höheren Steuern für Reiche ab. Was die Sozialdemokraten fordern und was sie sich davon in einer Koalition mit der Union umsetzen lässt.",
+      "link": "https://www.tagesspiegel.de/politik/vermogen-erbschaften-immobilienverkaufe-funf-spd-forderungen-fur-mehr-gerechtigkeit--und-ihre-erfolgsaussichten-15857035.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
       ]
     },
     {
@@ -2931,6 +2920,122 @@
       ]
     },
     {
+      "title": "Statement von Agora Energiewende zum Gebäudemodernisierungsgesetz",
+      "teaser": "Einordnung von Julia Bläsius, Direktorin Deutschland von Agora Energiewende, zum heute im Bundestag verabschiedeten Gebäudemodernisierungsgesetz.",
+      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-gebaeudemodernisierungsgesetz",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
+      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "erneuerbare",
+        "pv"
+      ]
+    },
+    {
+      "title": "Agora stärkt seine globale Arbeit zu Stromnetzen und baut sein Partnernetzwerk aus",
+      "teaser": "Das Sekretariat des Global Power System Transformation Consortium (GPST) arbeitet künftig unter dem Dach der Agora Think Tanks. Damit weitet Agora sein...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-staerkt-seine-globale-arbeit-zu-stromnetzen-und-baut-sein-partnernetzwerk-aus",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 440",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
       "title": "EC delays methane reporting fines for LNG imports to 2030",
       "teaser": "Priyanka Shinde",
       "link": "https://www.montelnews.com/news/94c20131-7283-4817-bf68-6c09afa6deae/ec-delays-methane-reporting-fines-for-lng-imports-to-2030",
@@ -2971,6 +3076,17 @@
       ]
     },
     {
+      "title": "Miliband out as UK energy secretary",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/miliband-out-as-uk-energy-secretary/2-1-2018776",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "UK charts a steady course, but developers may have to dig deeper",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/uk-charts-a-steady-course-but-developers-may-have-to-dig-deeper/2-1-2017245",
@@ -2985,6 +3101,17 @@
       "title": "Wind and solar sectors voice worries over latest EU energy policy spree",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/wind-and-solar-sectors-voice-worries-over-latest-eu-energy-policy-spree/2-1-2017255",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "RenewableUK chief talks pragmatism, Telegraph readers and the energy culture war",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3015,17 +3142,6 @@
       ]
     },
     {
-      "title": "RenewableUK chief talks pragmatism, Telegraph readers and the energy culture war",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "New UK PM Burnham takes office with key energy decisions looming",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/new-uk-pm-burnham-takes-office-with-key-energy-decisions-looming/2-1-2018763",
@@ -3048,28 +3164,6 @@
       ]
     },
     {
-      "title": "Offshore wind entrepreneur appointed to House of Lords",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/offshore-wind-entrepreneur-appointed-to-house-of-lords/2-1-2018040",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Scotland grants consent to huge offshore wind project",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/scotland-grants-consent-to-huge-offshore-wind-project/2-1-2018116",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Vattenfall CEO pours cold water on prospects for giant wind farm despite permit",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/vattenfall-ceo-pours-cold-water-on-prospects-for-giant-wind-farm-despite-permit/2-1-2018057",
@@ -3079,6 +3173,17 @@
         "renewable",
         "solar",
         "wind farm"
+      ]
+    },
+    {
+      "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3104,18 +3209,6 @@
       ]
     },
     {
-      "title": "Why Italy can't get enough wind built to help its power price battle",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-italy-cant-get-enough-wind-built-to-help-its-power-price-battle/2-1-2014501",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "power price",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
@@ -3127,9 +3220,20 @@
       ]
     },
     {
-      "title": "From Orsted to Senvion: What history says about Siemens Energy rebranding",
+      "title": "Offshore wind entrepreneur appointed to House of Lords",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/from-orsted-to-senvion-what-history-says-about-siemens-energy-rebranding/2-1-2017132",
+      "link": "https://www.rechargenews.com/people/offshore-wind-entrepreneur-appointed-to-house-of-lords/2-1-2018040",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Scotland grants consent to huge offshore wind project",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/scotland-grants-consent-to-huge-offshore-wind-project/2-1-2018116",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
