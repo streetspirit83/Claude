@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T17:27:50+00:00",
+  "generated_at": "2026-07-20T17:30:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 11
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "energymonitor",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 279,
+  "count": 266,
   "articles": [
     {
       "title": "Wie ein energieintensives Unternehmen CO2-neutral wird",
@@ -404,16 +404,6 @@
       "published": "2026-07-20T13:55:19+00:00",
       "matched_keywords": [
         "eeg"
-      ]
-    },
-    {
-      "title": "GTT’s hands full of tank design orders for FLNG unit and multiple LNG carriers",
-      "teaser": "French technological containment specialist Gaztransport &#38; Technigaz (GTT) has seen a spike in new orders, securing additional tank design jobs for liquefied natural gas (LNG) unit carriers (LNGCs) and a floating LNG (FLNG) unit. The…",
-      "link": "https://www.offshore-energy.biz/gtts-hands-full-of-tank-design-orders-for-flng-unit-and-multiple-lng-carriers/",
-      "source": "offshore-energy",
-      "published": "2026-07-20T13:30:27+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1738,16 +1728,6 @@
       ]
     },
     {
-      "title": "New Zealand takes 'important first step' in offshore wind – but risks remain",
-      "teaser": "New Zealand has approved its first framework for offshore wind development in the country, but the country's national wind power association has flagged risks that the government is yet to address.",
-      "link": "https://www.windpowermonthly.com/article/1964124/new-zealand-takes-important-first-step-offshore-wind-%E2%80%93-risks-remain",
-      "source": "windpowermonthly",
-      "published": "2026-07-09T10:00:42+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Solar railways and stork villages: Positive environmental stories from 2026",
       "teaser": "Eco anxiety is very real, so we share this year's most uplifting stories to prove there’s hope for our climate.",
       "link": "http://www.euronews.com/2026/07/09/carbon-sucking-fungi-and-forever-chemical-crackdowns-positive-environmental-stories-from-2",
@@ -2948,122 +2928,6 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "Statement von Agora Energiewende zum Gebäudemodernisierungsgesetz",
-      "teaser": "Einordnung von Julia Bläsius, Direktorin Deutschland von Agora Energiewende, zum heute im Bundestag verabschiedeten Gebäudemodernisierungsgesetz.",
-      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-gebaeudemodernisierungsgesetz",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
-      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare",
-        "pv"
-      ]
-    },
-    {
-      "title": "Agora stärkt seine globale Arbeit zu Stromnetzen und baut sein Partnernetzwerk aus",
-      "teaser": "Das Sekretariat des Global Power System Transformation Consortium (GPST) arbeitet künftig unter dem Dach der Agora Think Tanks. Damit weitet Agora sein...",
-      "link": "https://www.agora-energiewende.de/aktuelles/agora-staerkt-seine-globale-arbeit-zu-stromnetzen-und-baut-sein-partnernetzwerk-aus",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "stromnetz"
-      ]
-    },
-    {
-      "title": "Vom Hausdach in den Strommarkt",
-      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
-      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "energiewende",
-        "förderung",
-        "pv"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 440",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
-      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
-      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
