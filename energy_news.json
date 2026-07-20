@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T12:09:58+00:00",
+  "generated_at": "2026-07-20T15:03:45+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 2
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,50 @@
       "items_matched": 0
     }
   ],
-  "count": 270,
+  "count": 279,
   "articles": [
+    {
+      "title": "‘A Trojan horse’: Inside the EU’s 'weakened' plan that could put the brakes on carbon emission cuts",
+      "teaser": "Proposed reforms to the bloc’s emissions trading system (ETS) have been described as a “gift to polluters”.",
+      "link": "http://www.euronews.com/2026/07/20/a-trojan-horse-inside-the-eus-weakened-plan-that-could-put-the-brakes-on-carbon-emission-c",
+      "source": "euronews-green",
+      "published": "2026-07-20T14:00:55+00:00",
+      "matched_keywords": [
+        "emission",
+        "emissions trading",
+        "ets"
+      ]
+    },
+    {
+      "title": "Von „Korrektur eines zentralen Fehlers“ bis „erhebliche Verschlechterungen“: Reaktionen zu EEG und Netzpaket",
+      "teaser": "Zum Start der Verbändeanhörung für EEG und Netzpaket äußern sich naturgemäß die relevanten Verbände sowie auch etliche Einzelunternehmen. Der Tenor lautet: Höchste Zeit, dass es endlich losgeht. Die extrem kurze Frist zur Stellungnahme…",
+      "link": "https://www.pv-magazine.de/2026/07/20/von-korrektur-eines-zentralen-fehlers-bis-erhebliche-verschlechterungen-reaktionen-zu-eeg-und-netzpaket/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-20T13:55:19+00:00",
+      "matched_keywords": [
+        "eeg"
+      ]
+    },
+    {
+      "title": "GTT’s hands full of tank design orders for FLNG unit and multiple LNG carriers",
+      "teaser": "French technological containment specialist Gaztransport &#38; Technigaz (GTT) has seen a spike in new orders, securing additional tank design jobs for liquefied natural gas (LNG) unit carriers (LNGCs) and a floating LNG (FLNG) unit. The…",
+      "link": "https://www.offshore-energy.biz/gtts-hands-full-of-tank-design-orders-for-flng-unit-and-multiple-lng-carriers/",
+      "source": "offshore-energy",
+      "published": "2026-07-20T13:30:27+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Residential BESS ‘access without upfront cash’: Palmetto launches battery subscription in 25 US states",
+      "teaser": "Residential renewable energy solutions company Palmetto recently launched its Palmetto Energy Backup Plan, a residential battery subscription aimed at making residential storage more accessible in 25 US states.",
+      "link": "https://www.energy-storage.news/residential-bess-access-without-upfront-cash-palmetto-launches-battery-subscription-in-25-us-states/",
+      "source": "energy-storage-news",
+      "published": "2026-07-20T13:18:20+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Hitzewelle sorgt für steile Abendrampen: Batterieerlöse im Juni",
       "teaser": "Auch im Juni bot der Strommarkt trotz anhaltender Knappheit attraktive Bedingungen für den Batteriehandel. Hohe Temperaturen, eine anhaltend schwache Windkrafteinspeisung und die Hitzewelle zum Ende des Monats prägten die Preisentwicklung…",
@@ -554,16 +596,6 @@
       ]
     },
     {
-      "title": "Ocean Winds décroche le consentement écossais pour son parc Caledonia de 2 GW",
-      "teaser": "Ocean Winds, coentreprise à parts égales entre EDP Renewables et ENGIE, a obtenu le consentement offshore du gouvernement écossais pour le parc éolien Caledonia de 2 GW, situé dans le Moray Firth. La construction en mer est prévue pour…",
-      "link": "https://energynews.pro/ocean-winds-decroche-le-consentement-ecossais-pour-son-parc-caledonia-de-2-gw",
-      "source": "energynews-pro",
-      "published": "2026-07-20T04:04:43+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Australia moves to legislate net-generator requirement for large-scale data centres",
       "teaser": "Australian Prime Minister Anthony Albanese has said that large-scale data centres will be legally required to put at least as much energy into the grid as they draw from it, and that this supply must be renewable energy.",
       "link": "https://www.energy-storage.news/australia-moves-to-legislate-net-generator-requirement-for-large-scale-data-centres/",
@@ -646,16 +678,6 @@
       ]
     },
     {
-      "title": "Thrive Renewables lève 8,9 M$ via une émission obligataire pour ses projets éoliens",
-      "teaser": "Thrive Renewables a bouclé son émission obligataire 2026 à 8,9 millions de dollars, avec l'entrée de l'Archbishops' Council et de Rathbones. Les fonds financeront deux parcs éoliens en Écosse et au Pays de Galles ainsi que des projets…",
-      "link": "https://energynews.pro/thrive-renewables-leve-89-m-via-une-emission-obligataire-pour-ses-projets-eoliens",
-      "source": "energynews-pro",
-      "published": "2026-07-17T15:11:51+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "EU to give industry more time to pollute and more funds to clean up",
       "teaser": "Climate commissioner defends extension of free allowances to heavily emitting sectors",
       "link": "https://www.ft.com/content/c3c33e7b-8faf-4f06-b281-112117aeeb5a?syn-25a6b1a6=1",
@@ -709,16 +731,6 @@
       ]
     },
     {
-      "title": "TotalEnergies offloading Mexican shallow water block to Grupo Carso",
-      "teaser": "A Mexican subsidiary of France’s energy giant TotalEnergies has struck a deal to divest its stake in a block off the coast of Mexico to Mx Dlta Nrg 1, a subsidiary of Zamajal, a company in which Grupo Carso holds an 80% interest and…",
-      "link": "https://www.offshore-energy.biz/totalenergies-offloading-mexican-shallow-water-block-to-grupo-carso/",
-      "source": "offshore-energy",
-      "published": "2026-07-17T11:33:41+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Scottish government approves 2GW offshore wind farm",
       "teaser": null,
       "link": "https://www.windpowermonthly.com/article/1964938/scottish-government-approves-2gw-offshore-wind-farm",
@@ -736,16 +748,6 @@
       "published": "2026-07-17T10:53:00+00:00",
       "matched_keywords": [
         "grid fee"
-      ]
-    },
-    {
-      "title": "101 European lawmakers urge Danish shipyard to cut its ties with Russia’s Arctic LNG fleet",
-      "teaser": "A cross-party coalition from 16 countries across Europe has called on the last shipyard in the European Union (EU) still servicing the specialized ice-class Arc7 tankers that are perceived to be vital to transporting Russia’s Arctic…",
-      "link": "https://www.offshore-energy.biz/101-european-lawmakers-urge-danish-shipyard-to-cut-its-ties-with-russias-arctic-lng-fleet/",
-      "source": "offshore-energy",
-      "published": "2026-07-17T10:22:04+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -800,16 +802,6 @@
       "published": "2026-07-17T09:37:00+00:00",
       "matched_keywords": [
         "pv",
-        "speicher"
-      ]
-    },
-    {
-      "title": "Warum gebrauchte Elektroauto-Batterien sicherer sein können als manche kommerzielle Heimspeicher — wenn die Steuerung stimmt",
-      "teaser": "Welche vier Bedingungen erfüllt sein müssen, damit Second-Life-Installationen sinnvoll sind, erklärt Jakub Lipiński ist Gründer von BMS-EV in diesem Beitrag.",
-      "link": "https://www.pv-magazine.de/2026/07/17/warum-gebrauchte-elektroauto-batterien-sicherer-sein-koennen-als-manche-kommerzielle-heimspeicher-wenn-die-steuerung-stimmt/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-17T09:35:00+00:00",
-      "matched_keywords": [
         "speicher"
       ]
     },
@@ -1008,16 +1000,6 @@
       "link": "https://www.energymonitor.ai/news/nsw-approves-stratford-project/",
       "source": "energymonitor",
       "published": "2026-07-16T10:12:47+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Financial close achieved on Sol Systems’ 123MWac Peoria Solar Project",
-      "teaser": "Sol Systems reached financial close on its 123MWac Peoria Solar project in Illinois, a step which enables to proceed to construction.",
-      "link": "https://www.power-technology.com/news/financial-close-achieved-peoria-solar/",
-      "source": "power-technology",
-      "published": "2026-07-16T10:09:14+00:00",
       "matched_keywords": [
         "solar"
       ]
@@ -1750,16 +1732,6 @@
       "published": "2026-07-09T13:25:52+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Battery storage business models explored for AI data centres with Nordic reserve market revenues and US household computing power",
-      "teaser": "AI data centre battery storage announcements on both sides of the Atlantic explore the tapping of grid-balancing revenues and distributed computing.",
-      "link": "https://www.energy-storage.news/battery-storage-business-models-explored-for-ai-data-centres-with-nordic-reserve-market-revenues-and-us-household-computing-power/",
-      "source": "energy-storage-news",
-      "published": "2026-07-09T10:07:43+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2976,9 +2948,145 @@
       ]
     },
     {
+      "title": "Statement von Agora Energiewende zum Gebäudemodernisierungsgesetz",
+      "teaser": "Einordnung von Julia Bläsius, Direktorin Deutschland von Agora Energiewende, zum heute im Bundestag verabschiedeten Gebäudemodernisierungsgesetz.",
+      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-gebaeudemodernisierungsgesetz",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
+      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
+      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "erneuerbare",
+        "pv"
+      ]
+    },
+    {
+      "title": "Agora stärkt seine globale Arbeit zu Stromnetzen und baut sein Partnernetzwerk aus",
+      "teaser": "Das Sekretariat des Global Power System Transformation Consortium (GPST) arbeitet künftig unter dem Dach der Agora Think Tanks. Damit weitet Agora sein...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-staerkt-seine-globale-arbeit-zu-stromnetzen-und-baut-sein-partnernetzwerk-aus",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 440",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "EC delays methane reporting fines for LNG imports to 2030",
+      "teaser": "Priyanka Shinde",
+      "link": "https://www.montelnews.com/news/94c20131-7283-4817-bf68-6c09afa6deae/ec-delays-methane-reporting-fines-for-lng-imports-to-2030",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Will Norway turn to nuclear to meet demand growth?",
       "teaser": "Priyanka Shinde",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=122768258",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "French heat-related nuclear curbs to remain at 9.5% tomorrow",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/85374167-5be1-4b9a-8b57-0f37518e9d85/french-heat-related-nuclear-curbs-to-remain-at-9-5-tomorrow",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2996,13 +3104,14 @@
       ]
     },
     {
-      "title": "French nuclear output at risk of another heatwave in August",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/2ca6acf6-1788-4a24-b897-458678faf9e5/french-nuclear-output-at-risk-of-another-heatwave-in-august",
-      "source": "montelnews",
+      "title": "New UK PM Burnham takes office with key energy decisions looming",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/new-uk-pm-burnham-takes-office-with-key-energy-decisions-looming/2-1-2018763",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3017,9 +3126,9 @@
       ]
     },
     {
-      "title": "Cadeler jack-up collides with other vessel, hospitalising one",
+      "title": "Cadeler jack-up collides with another vessel, hospitalising one",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/accidents-and-casualties/cadeler-jack-up-collides-with-other-vessel-hospitalising-one/2-1-2018618",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/cadeler-jack-up-collides-with-another-vessel-hospitalising-one/2-1-2018618",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3154,17 +3263,6 @@
       "title": "Ten battery giants ranked: why long-term is the new competitive edge for developers",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/ten-battery-giants-ranked-why-long-term-is-the-new-competitive-edge-for-developers/2-1-2016746",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Sweden to switch to auction system for offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/sweden-to-switch-to-auction-system-for-offshore-wind/2-1-2017585",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
