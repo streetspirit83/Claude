@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T09:51:17+00:00",
+  "generated_at": "2026-07-20T12:09:58+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 11
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 37
+      "items_matched": 39
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 279,
+  "count": 270,
   "articles": [
+    {
+      "title": "Hitzewelle sorgt für steile Abendrampen: Batterieerlöse im Juni",
+      "teaser": "Auch im Juni bot der Strommarkt trotz anhaltender Knappheit attraktive Bedingungen für den Batteriehandel. Hohe Temperaturen, eine anhaltend schwache Windkrafteinspeisung und die Hitzewelle zum Ende des Monats prägten die Preisentwicklung…",
+      "link": "https://www.pv-magazine.de/2026/07/20/hitzewelle-sorgt-fuer-steile-abendrampen-batterieerloese-im-juni/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-20T11:52:51+00:00",
+      "matched_keywords": [
+        "windkraft"
+      ]
+    },
+    {
+      "title": "1.8GWh Germany BESS moves to construction; 15GWh+ progressed since grid fees decision",
+      "teaser": "The shareholders of the 900MW Waltrop BESS project in Germany have approved key infrastructure works for the project, with full construction scheduled for the next few months.",
+      "link": "https://www.energy-storage.news/1-8gwh-germany-bess-moves-to-construction-15gwh-progressed-since-grid-fees-decision/",
+      "source": "energy-storage-news",
+      "published": "2026-07-20T11:44:23+00:00",
+      "matched_keywords": [
+        "grid fee"
+      ]
+    },
+    {
+      "title": "Reiche schickt Entwürfe für EEG und Netzpaket in die Verbändeanhörung",
+      "teaser": "Nach dem überarbeiteten EEG-Entwurf soll es nicht sofort zur Abschaffung der festen Einspeisevergütung für private Dachanlagen kommen, sondern eine Übergangsfrist bis 2030 geben. Dann wird die Direktvermarktung auch für kleine…",
+      "link": "https://www.pv-magazine.de/2026/07/20/reiche-schickt-entwuerfe-fuer-eeg-und-netzpaket-in-die-verbaendeanhoerung/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-20T11:00:20+00:00",
+      "matched_keywords": [
+        "eeg"
+      ]
+    },
+    {
+      "title": "Masdar reaches financial close on ‘round-the-clock’ hybrid solar project with 19GWh BESS in UAE",
+      "teaser": "UAE state-owned IPP Masdar has reached financial close on what it has claimed is the world’s “first gigascale 24/7 renewable energy project”.",
+      "link": "https://www.energy-storage.news/masdar-reaches-financial-close-on-round-the-clock-hybrid-solar-project-with-19gwh-bess-in-uae/",
+      "source": "energy-storage-news",
+      "published": "2026-07-20T10:36:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "EU releases Electrification Action Plan, reaffirms 200GW 2030 energy storage target",
+      "teaser": "The European Commission has released its final Electrification Action Plan, reaffirming its belief that the bloc needs 200GW of energy storage by 2030.",
+      "link": "https://www.energy-storage.news/eu-releases-electrification-action-plan-reaffirms-200gw-2030-energy-storage-target/",
+      "source": "energy-storage-news",
+      "published": "2026-07-20T10:18:01+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Masdar reçoit les premiers modules JA Solar pour son projet solaire d'Abu Dhabi",
+      "teaser": "Masdar a réceptionné la première livraison de modules photovoltaïques JA Solar destinés à son projet RTC d'Al Dhafra à Abu Dhabi, présenté comme le futur plus grand projet solaire couplé au stockage au monde.",
+      "link": "https://energynews.pro/masdar-recoit-les-premiers-modules-ja-solar-pour-son-projet-solaire-dabu-dhabi",
+      "source": "energynews-pro",
+      "published": "2026-07-20T10:03:58+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "Middle East, Southeast Asia and India emerge as key alternate manufacturing hubs to China",
       "teaser": "As the battery storage market continues its strong growth trajectory, battery manufacturers are ramping up production to meet increased demand.",
@@ -443,12 +504,11 @@
     },
     {
       "title": "Ocean Winds secures consent for 2GW Caledonia offshore project",
-      "teaser": "Ocean Winds, a joint venture between EDP Renewables and ENGIE, has received offshore consent from the Scottish Government for the 2GW Caledonia Offshore Wind Farm, located roughly 40km off the Moray Firth coast in Scotland.",
+      "teaser": "Ocean Winds has received offshore consent from the Scottish Government for the 2GW Caledonia Offshore Wind Farm.",
       "link": "https://www.energymonitor.ai/news/ocean-winds-consent-2gw-caledonia-offshore-project/",
       "source": "energymonitor",
       "published": "2026-07-20T06:56:55+00:00",
       "matched_keywords": [
-        "renewable",
         "wind farm"
       ]
     },
@@ -761,26 +821,6 @@
       "published": "2026-07-17T09:30:03+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Sponsored: Sigenergy launcht Plug-in-Speicher mit KI-Agent",
-      "teaser": "Sigenergy stellt mit dem neuen „SigenMate 2700 Ultra“ einen Plug-in-Batteriespeicher für Haushalte vor. Das System umfasst Batterien mit einer Kapazität von 2,68 bis 56,4 Kilowattstunden, bringt ein KI-gestütztes Energiemanagement und…",
-      "link": "https://www.pv-magazine.de/2026/07/17/sponsored-sigenergy-launcht-plug-in-speicher-mit-ki-agent/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-17T09:30:00+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
-      "title": "WATCH: Floating solar platform installed in Valencia",
-      "teaser": "Spain&#8217;s BlueNewables has installed its Paiporta floating solar platform at the Port of Valencia, [&#8230;] The post WATCH: Floating solar platform installed in Valencia appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/watch-floating-solar-platform-installed-in-valencia/",
-      "source": "offshore-energy",
-      "published": "2026-07-17T08:52:13+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1741,16 +1781,6 @@
       "matched_keywords": [
         "climate",
         "solar"
-      ]
-    },
-    {
-      "title": "UK ROUNDUP: Field closes financing on 1GWh portfolio; Pulse Clean Energy selects Envision for 310MWh project",
-      "teaser": "Field and Pulse Clean Energy have each advanced UK battery storage projects this week, with a combined capacity of over 1.3GWh.",
-      "link": "https://www.energy-storage.news/uk-roundup-field-closes-financing-on-1gwh-portfolio-pulse-clean-energy-selects-envision-for-310mwh-project/",
-      "source": "energy-storage-news",
-      "published": "2026-07-09T08:04:10+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2946,132 +2976,6 @@
       ]
     },
     {
-      "title": "Statement von Agora Energiewende zum Gebäudemodernisierungsgesetz",
-      "teaser": "Einordnung von Julia Bläsius, Direktorin Deutschland von Agora Energiewende, zum heute im Bundestag verabschiedeten Gebäudemodernisierungsgesetz.",
-      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-gebaeudemodernisierungsgesetz",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "EEG-Reform: Wie für kleine PV-Dachanlagen der Schritt in den Markt gelingt",
-      "teaser": "Mit der bevorstehenden Reform des Erneuerbaren-Energien-Gesetzes plant die Bundesregierung, dass Haushalte ihren Dachstrom künftig über Anbieter vermarkten oder...",
-      "link": "https://www.agora-energiewende.de/aktuelles/eeg-reform-wie-fuer-kleine-pv-dachanlagen-der-schritt-in-den-markt-gelingt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare",
-        "pv"
-      ]
-    },
-    {
-      "title": "Agora stärkt seine globale Arbeit zu Stromnetzen und baut sein Partnernetzwerk aus",
-      "teaser": "Das Sekretariat des Global Power System Transformation Consortium (GPST) arbeitet künftig unter dem Dach der Agora Think Tanks. Damit weitet Agora sein...",
-      "link": "https://www.agora-energiewende.de/aktuelles/agora-staerkt-seine-globale-arbeit-zu-stromnetzen-und-baut-sein-partnernetzwerk-aus",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "stromnetz"
-      ]
-    },
-    {
-      "title": "Vom Hausdach in den Strommarkt",
-      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
-      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "energiewende",
-        "förderung",
-        "pv"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 440",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 93",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
-      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
-      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
-      "title": "EU gas prices spike 6% to 4-month high on Iran war escalation",
-      "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/6fe3650b-18d4-49d3-a2f1-0eb3f6eccf0b/eu-gas-prices-spike-6-to-4-month-high-on-iran-war-escalation",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
       "title": "Will Norway turn to nuclear to meet demand growth?",
       "teaser": "Priyanka Shinde",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=122768258",
@@ -3083,7 +2987,7 @@
     },
     {
       "title": "Vattenfall: gas refilling costs will lift winter power prices",
-      "teaser": "Today's fuel mix",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/ddde7d2d-1080-4991-b1f7-bfcee44331aa/gas-refilling-costs-will-lift-winter-power-prices-vattenfall",
       "source": "montelnews",
       "published": null,
@@ -3099,6 +3003,28 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Wind and solar sectors voice worries over latest EU energy policy spree",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/wind-and-solar-sectors-voice-worries-over-latest-eu-energy-policy-spree/2-1-2017255",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Cadeler jack-up collides with other vessel, hospitalising one",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/cadeler-jack-up-collides-with-other-vessel-hospitalising-one/2-1-2018618",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3168,43 +3094,9 @@
       ]
     },
     {
-      "title": "Ten battery giants ranked: why long-term is the new competitive edge for developers",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/ten-battery-giants-ranked-why-long-term-is-the-new-competitive-edge-for-developers/2-1-2016746",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Vattenfall CEO pours cold water on prospects for giant wind farm despite permit",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/vattenfall-ceo-pours-cold-water-on-prospects-for-giant-wind-farm-despite-permit/2-1-2018057",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Sweden to switch to auction system for offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/sweden-to-switch-to-auction-system-for-offshore-wind/2-1-2017585",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Sweden greenlights two offshore wind farms but blocks eleven more",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/sweden-greenlights-two-offshore-wind-farms-but-blocks-eleven-more/2-1-2017496",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3248,9 +3140,9 @@
       ]
     },
     {
-      "title": "Norway was once a world leader in floating wind. Now the whole plan is falling apart",
+      "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/norway-was-once-a-world-leader-in-floating-wind-now-the-whole-plan-is-falling-apart/2-1-2007190",
+      "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3259,9 +3151,20 @@
       ]
     },
     {
-      "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
+      "title": "Ten battery giants ranked: why long-term is the new competitive edge for developers",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/sodium-ion-battery-maker-takes-aim-at-lithiums-grip-on-us-storage/2-1-2017272",
+      "link": "https://www.rechargenews.com/energy-storage/ten-battery-giants-ranked-why-long-term-is-the-new-competitive-edge-for-developers/2-1-2016746",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Sweden to switch to auction system for offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/sweden-to-switch-to-auction-system-for-offshore-wind/2-1-2017585",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
