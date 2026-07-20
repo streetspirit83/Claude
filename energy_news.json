@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T20:03:41+00:00",
+  "generated_at": "2026-07-20T06:39:06+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 10
+      "items_matched": 11
     },
     {
       "name": "cleanenergywire",
@@ -165,7 +165,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 12,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "dena-newsroom",
@@ -260,12 +260,12 @@
     {
       "name": "politico-energy-climate",
       "url": "https://www.politico.eu/energy-climate",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.politico.eu', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.politico.eu/section/energy/feed/",
+      "error": null,
+      "items_found": 31,
+      "items_matched": 12
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,48 @@
       "items_matched": 0
     }
   ],
-  "count": 269,
+  "count": 281,
   "articles": [
+    {
+      "title": "Waaree ESS lance en Inde une usine de conteneurs BESS de 5,15 GWh",
+      "teaser": "Waaree Energy Storage Solutions, filiale de Waaree Energies, a démarré en Inde une unité de fabrication de conteneurs BESS de 5,15 GWh, première étape d'un plan de production intégré de 20 GWh incluant cellules lithium et packs batteries.",
+      "link": "https://energynews.pro/waaree-ess-lance-en-inde-une-usine-de-conteneurs-bess-de-515-gwh",
+      "source": "energynews-pro",
+      "published": "2026-07-20T06:33:55+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Waldbrände wüten in Spanien auf einer Fläche von Tausenden Hektar",
+      "teaser": "Rettungskräfte kämpfen gegen den größten Waldbrand des Jahres, während es in Europa immer heißer und trockener wird. „Das Leugnen des Klimanotstands lässt ihn nicht verschwinden. Es macht uns nur noch anfälliger“, sagte Ministerpräsident…",
+      "link": "https://euractiv.com/de/news/waldbrande-wuten-in-spanien-auf-einer-flache-von-tausenden-hektar/",
+      "source": "euractiv-energie",
+      "published": "2026-07-20T05:39:59+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Ocean Winds décroche le consentement écossais pour son parc Caledonia de 2 GW",
+      "teaser": "Ocean Winds, coentreprise à parts égales entre EDP Renewables et ENGIE, a obtenu le consentement offshore du gouvernement écossais pour le parc éolien Caledonia de 2 GW, situé dans le Moray Firth. La construction en mer est prévue pour…",
+      "link": "https://energynews.pro/ocean-winds-decroche-le-consentement-ecossais-pour-son-parc-caledonia-de-2-gw",
+      "source": "energynews-pro",
+      "published": "2026-07-20T04:04:43+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Australia moves to legislate net-generator requirement for large-scale data centres",
+      "teaser": "Australian Prime Minister Anthony Albanese has said that large-scale data centres will be legally required to put at least as much energy into the grid as they draw from it, and that this supply must be renewable energy.",
+      "link": "https://www.energy-storage.news/australia-moves-to-legislate-net-generator-requirement-for-large-scale-data-centres/",
+      "source": "energy-storage-news",
+      "published": "2026-07-19T22:48:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Heading for the North Pole on Tara Polar Station's first expedition",
       "teaser": "The Tara Polar Station left the port of Lorient on Sunday. For over a year, this floating laboratory will drift with the pack ice to study Arctic Ocean biodiversity and the impacts of climate change in the region.",
@@ -546,6 +586,26 @@
       ]
     },
     {
+      "title": "EU loosens carbon market rules to let industry pollute for longer",
+      "teaser": "Steelmakers, chemical producers and power generators will be able to release emissions well into the 2040s under the proposed law.",
+      "link": "https://www.politico.eu/article/eu-loosens-carbon-market-rules-to-allow-industry-to-pollute-for-longer/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-17T10:16:54+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Ukraine steps up attacks on Russia’s Black Sea fuel network",
+      "teaser": "The strikes aim to prevent Russia from supplying fuel to the occupied regions of Eastern Ukraine and Crimea and curb its effort to circumvent sanctions.",
+      "link": "https://www.politico.eu/article/ukraine-steps-up-attacks-on-russias-black-sea-fuel-network/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-17T10:12:11+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
       "title": "Naturgy to invest $344m in Australian renewables project",
       "teaser": "Naturgy has announced plans to invest over €300m ($344m) in a major renewable energy facility in Fraser Coast region of Queensland.",
       "link": "https://www.power-technology.com/news/naturgy-to-invest-australia-project/",
@@ -681,26 +741,6 @@
       ]
     },
     {
-      "title": "ACME Solar lève 274 M$ pour son projet 450 MW solaire-stockage en Inde",
-      "teaser": "ACME Solar a obtenu 274,4 M$ auprès de REC Ltd pour financer un projet hybride solaire et stockage de 450 MW et 1 800 MWh en Inde, assorti d'un PPA de 25 ans signé avec SJVN Limited.",
-      "link": "https://energynews.pro/acme-solar-leve-274-m-pour-son-projet-450-mw-solaire-stockage-en-inde",
-      "source": "energynews-pro",
-      "published": "2026-07-17T07:29:45+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Aboitiz Renewables propose un parc éolien de 136 MW à Bangui aux Philippines",
-      "teaser": "Luzon Cleanergy Generation, filiale d'Aboitiz Renewables, soumet un projet éolien de 136 MW à Bangui, en Ilocos Norte, pour 136,37 millions de dollars, avec un cadrage public environnemental programmé le 22 juillet 2026.",
-      "link": "https://energynews.pro/aboitiz-renewables-propose-un-parc-eolien-de-136-mw-a-bangui-aux-philippines",
-      "source": "energynews-pro",
-      "published": "2026-07-17T06:50:06+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Why your heat pump isn’t saving you money – and what could change that",
       "teaser": "The right mix of energy upgrades saved houses as much as €1,150 annually, according to a new study.",
       "link": "http://www.euronews.com/2026/07/17/why-your-heat-pump-isnt-saving-you-money-and-what-could-change-that",
@@ -772,6 +812,27 @@
       "published": "2026-07-17T04:00:23+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "EU sets up biggest climate fight of 2026 by slamming brakes on carbon market",
+      "teaser": "Brussels wants to let industry pollute more and for longer. Parliament and member countries will have some thoughts on that.",
+      "link": "https://www.politico.eu/article/eu-climate-change-fight-carbon-market-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-16T19:00:39+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "The European Commission’s moment of climate truth",
+      "teaser": "Two policy announcements on Friday will show whether the Commission can keep its emissions-cutting promises.",
+      "link": "https://www.politico.eu/article/european-commission-climate-change-energy-transition-emissions-trading-system/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-16T17:46:16+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission"
       ]
     },
     {
@@ -1015,6 +1076,16 @@
       ]
     },
     {
+      "title": "EU fails to strike Russia sanctions deal after 3 days of talks",
+      "teaser": "Envoys will reconvene next week in a bid to prevent the price cap on Russian crude from ratcheting higher at the end of July.",
+      "link": "https://www.politico.eu/article/eu-russia-oil-price-cap-sanctions-delayed/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-15T18:16:00+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
       "title": "Google buys power from record-busting solar-battery site in Arkansas",
       "teaser": "Longtime solar developer Cypress Creek Energy has not only broken ground on what could be the largest solar-plus-storage plant in the country, but also secured a blue-chip customer to pay for the clean power. Google will buy all the…",
       "link": "https://www.canarymedia.com/articles/corporate-procurement/google-solar-battery-site-arkansas",
@@ -1022,6 +1093,16 @@
       "published": "2026-07-15T17:00:00+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "The 3 letters Brussels won’t be able to shut up about",
+      "teaser": "POLITICO’s guide to the core elements of the Emissions Trading System reform.",
+      "link": "https://www.politico.eu/article/eu-ets-carbon-market-reform-proposal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-15T12:28:28+00:00",
+      "matched_keywords": [
+        "emissions trading"
       ]
     },
     {
@@ -1330,6 +1411,26 @@
       "published": "2026-07-14T03:37:49+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "Russia sanctions package pushed toward midweek deadline",
+      "teaser": "EU foreign ministers failed to sign off on 21st sanctions round. Wednesday is the last day to lock in an oil price cap.",
+      "link": "https://www.politico.eu/article/russia-sanctions-package-wednesday-deadline/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-13T17:44:40+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Warming Europe complicates France’s bet on nuclear power",
+      "teaser": "Extreme heat is forcing the country to shut down nuclear reactors, just as the appetite for cheap, carbon-free electricity is set to explode.",
+      "link": "https://www.politico.eu/article/warming-europe-complicate-france-nuclear-power/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-13T16:10:55+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -1662,19 +1763,6 @@
       ]
     },
     {
-      "title": "Elestor, Windpark Zeewolde partner on 10-40-hour hydrogen-iron flow battery LDES project in Netherlands",
-      "teaser": "Dutch long-duration energy storage (LDES) developer Elestor has partnered with Windpark Zeewolde to deploy a 20MW/200-800MWh hydrogen-iron flow battery storage system at what is described as Europe's largest onshore wind farm.",
-      "link": "https://www.energy-storage.news/elestor-windpark-zeewolde-partner-on-10-40-hour-hydrogen-iron-flow-battery-ldes-project-in-netherlands/",
-      "source": "energy-storage-news",
-      "published": "2026-07-08T08:01:42+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "hydrogen",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Southern California clean-heat rule survives key legal challenge",
       "teaser": "Southern California’s landmark rule to slash emissions from industrial heating sources just notched a major victory in court. The region has some of the worst air quality in the U.S., and the gas-fueled boilers and water heaters that serve…",
       "link": "https://www.canarymedia.com/articles/electrification/southern-california-clean-heat-rule-survives",
@@ -1725,6 +1813,36 @@
       "published": "2026-07-08T04:30:26+00:00",
       "matched_keywords": [
         "emission"
+      ]
+    },
+    {
+      "title": "Trump administration reimposes sanctions on Iran oil sales",
+      "teaser": "The Trump administration on Tuesday revoked a general license that had authorized the sale of Iranian oil after several tankers were attacked while transiting the Strait of Hormuz. The development is a sign that the peace agreement reached…",
+      "link": "https://www.politico.com/news/2026/07/07/trump-reimposes-sanctions-iran-oil-sanctions-00989081?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-07T21:47:15+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "‘Can you help us?’: US oil execs turn to Trump to topple Europe’s climate rules",
+      "teaser": "An inside look at how a climate regulation became a battleground between the U.S. and Europe.",
+      "link": "https://www.politico.com/news/2026/07/07/oil-executives-trump-europe-climate-00987782?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-07T18:38:37+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "The EU’s paradigm shift on cows",
+      "teaser": "Europe's plan to support livestock farmers recasts a climate problem as a strategic asset.",
+      "link": "https://www.politico.eu/article/eu-livestock-strategy-food-security-climate-policy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-07T18:02:15+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1839,6 +1957,17 @@
       "published": "2026-07-03T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
+      ]
+    },
+    {
+      "title": "EU shipyard races to service Putin’s LNG fleet before sanctions bite",
+      "teaser": "If the ships are serviced now, they'll be able to continue working despite looming EU sanctions.",
+      "link": "https://www.politico.eu/article/eu-shipyard-races-to-service-russia-vladimir-putin-lng-fleet-before-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-02T16:00:11+00:00",
+      "matched_keywords": [
+        "lng",
+        "sanction"
       ]
     },
     {
@@ -2706,22 +2835,12 @@
     },
     {
       "title": "Licht und Schatten bei Wirtschaftsplan des Klima- und Transformationsfonds",
-      "teaser": "16.07.2026",
+      "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/licht-und-schatten-bei-wirtschaftsplan-des-klima-und-transformationsfonds/",
       "source": "bdew-news",
       "published": null,
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Netzentgelte müssen in nationaler Verantwortung bleiben",
-      "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
-      "link": "https://www.bdew.de/presse/netzentgelte-muessen-in-nationaler-verantwortung-bleiben/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "netzentgelt"
       ]
     },
     {
@@ -3003,6 +3122,17 @@
       ]
     },
     {
+      "title": "From RWE to Orsted – how much wind CEOs are paid, and why",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/from-rwe-to-orsted-how-much-wind-ceos-are-paid-and-why/2-1-2018282",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Scotland grants consent to huge offshore wind project",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/scotland-grants-consent-to-huge-offshore-wind-project/2-1-2018116",
@@ -3152,17 +3282,6 @@
       "title": "Sodium-ion battery maker takes aim at lithium's grip on US storage",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/sodium-ion-battery-maker-takes-aim-at-lithiums-grip-on-us-storage/2-1-2017272",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
