@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T09:22:59+00:00",
+  "generated_at": "2026-07-21T11:42:50+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -175,7 +175,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 6
+      "items_matched": 8
     },
     {
       "name": "agora-energiewende-news",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 40
+      "items_matched": 39
     },
     {
       "name": "smart-energy",
@@ -370,6 +370,49 @@
   ],
   "count": 274,
   "articles": [
+    {
+      "title": "Natural gas prices surge as violence in Middle East flares again",
+      "teaser": "Traders fear that they're going to need to permanently price in instability in the Strait of Hormuz as shortages loom and Asian demand heats up.",
+      "link": "https://www.politico.eu/article/natural-gas-prices-surge-as-violence-in-middle-east-flares-again/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-21T11:12:07+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
+      "title": "Spearmint Energy receives permit for 600MWh Minnesota BESS",
+      "teaser": "Battery storage developer-operator Spearmint Energy has received a site permit for the 150MW/600MWh Midwater Energy Storage Project, in Freeborn County, Minnesota, US.",
+      "link": "https://www.energy-storage.news/spearmint-energy-receives-permit-for-600mwh-minnesota-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-07-21T10:15:29+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Westnetz bietet speziellen FCA für schnelleren Anschluss von Co-Location-Graustromspeichern",
+      "teaser": "Das Angebot richtet sich an Investoren, die einen Batteriespeicher an einem gemeinsamen Standort mit einer Photovoltaik- oder Windkraftanlage errichten wollen. In der flexiblen Netzanschlussvereinbarung wird die Begrenzung der Fahrweise…",
+      "link": "https://www.pv-magazine.de/2026/07/21/westnetz-bietet-speziellen-fca-fuer-schnelleren-anschluss-von-co-location-graustromspeichern/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-21T10:10:23+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher",
+        "windkraft"
+      ]
+    },
+    {
+      "title": "FEOC compliance for BESS is a decade-long obligation",
+      "teaser": "Intertek CEA's Daniel Finn-Foley and Paul Wormser dive into the new world US energy storage developers are navigating since the introduction of FEOC restrictions.",
+      "link": "https://www.energy-storage.news/feoc-compliance-for-bess-is-a-decade-long-obligation/",
+      "source": "energy-storage-news",
+      "published": "2026-07-21T09:52:43+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "Romania ROUNDUP: Aukera, ENEVO Group and Kraftfeld Energy, and PPC Renewables advance BESS projects",
       "teaser": "Energy companies are accelerating battery storage deployment in Romania, with Aukera, ENEVO Group and Kraftfeld Energy, and PPC Renewables Romania announcing significant project developments.",
@@ -390,6 +433,16 @@
       "matched_keywords": [
         "photovoltaik",
         "speicher"
+      ]
+    },
+    {
+      "title": "Wind power patents: Goldwind | Sany | LM Wind Power | China Three Gorges",
+      "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
+      "link": "https://www.windpowermonthly.com/article/1964979/wind-power-patents-goldwind-sany-lm-wind-power-china-three-gorges",
+      "source": "windpowermonthly",
+      "published": "2026-07-21T08:24:00+00:00",
+      "matched_keywords": [
+        "wind power"
       ]
     },
     {
@@ -562,16 +615,6 @@
       ]
     },
     {
-      "title": "GTT’s hands full of tank design orders for FLNG unit and multiple LNG carriers",
-      "teaser": "French technological containment specialist Gaztransport &#38; Technigaz (GTT) has seen a spike in new orders, securing additional tank design jobs for liquefied natural gas (LNG) unit carriers (LNGCs) and a floating LNG (FLNG) unit. The…",
-      "link": "https://www.offshore-energy.biz/gtts-hands-full-of-tank-design-orders-for-flng-unit-and-multiple-lng-carriers/",
-      "source": "offshore-energy",
-      "published": "2026-07-20T13:30:27+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Residential BESS ‘access without upfront cash’: Palmetto launches battery subscription in 25 US states",
       "teaser": "Residential renewable energy solutions company Palmetto recently launched its Palmetto Energy Backup Plan, a residential battery subscription aimed at making residential storage more accessible in 25 US states.",
       "link": "https://www.energy-storage.news/residential-bess-access-without-upfront-cash-palmetto-launches-battery-subscription-in-25-us-states/",
@@ -630,6 +673,16 @@
       "published": "2026-07-20T10:18:01+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "EU aims to boost electrification with new action plan and ETS update",
+      "teaser": "The EC has introduced an Electrification Action Plan and a review of the EU ETS as part of efforts to increase Europe’s energy independence.",
+      "link": "https://www.energymonitor.ai/news/eu-aims-to-boost-electrification/",
+      "source": "energymonitor",
+      "published": "2026-07-20T10:14:25+00:00",
+      "matched_keywords": [
+        "ets"
       ]
     },
     {
@@ -711,16 +764,6 @@
       "matched_keywords": [
         "battery storage",
         "energy storage"
-      ]
-    },
-    {
-      "title": "Hitzewelle sorgt für steile Abendrampen: Batterieerlöse im Juni",
-      "teaser": "Auch im Juni bot der Strommarkt trotz anhaltender Knappheit attraktive Bedingungen für den Batteriehandel. Hohe Temperaturen, eine anhaltend schwache Windkrafteinspeisung und die Hitzewelle zum Ende des Monats prägten die Preisentwicklung…",
-      "link": "https://www.pv-magazine.de/2026/07/20/hitzewelle-sorgt-fuer-steile-abendrampen-batterieerloese-im-juni/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-20T07:52:00+00:00",
-      "matched_keywords": [
-        "windkraft"
       ]
     },
     {
@@ -834,16 +877,6 @@
       "matched_keywords": [
         "climate",
         "renewable"
-      ]
-    },
-    {
-      "title": "Aktionsplan zur Elektrifizierung soll Europa zum „ersten elektro-betriebenen Kontinent“ der Welt machen",
-      "teaser": "Die EU-Kommission will ein EU-weites Elektrifizierungsziel von 46 Prozent bis 2030 einführen. Dafür soll vor allem Strom wettbewerbsfähig zu Gas werden. Auch beim Emissionshandel plant Brüssel Änderungen.",
-      "link": "https://www.pv-magazine.de/2026/07/17/aktionsplan-zur-elektrifizierung-soll-europa-zum-ersten-elektro-betriebenen-kontinent-der-welt-machen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-17T15:33:29+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -1490,16 +1523,6 @@
       ]
     },
     {
-      "title": "The execution economy of battery storage",
-      "teaser": "As markets mature, competitive advantage is moving away from deploying capacity and towards executing battergy storage projects better.",
-      "link": "https://www.energymonitor.ai/analysis/the-execution-economy-of-battery-storage/",
-      "source": "energymonitor",
-      "published": "2026-07-14T05:46:29+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Wie der Sommer den Winter heizt",
       "teaser": "Die aktuelle Hitzewelle macht deutlich, vor welcher Herausforderung Städte künftig stehen: Wie lässt sich überschüssige Wärme sinnvoll nutzen, statt sie ungenutzt verpuffen zu lassen? Genau daran forscht die Universität Duisburg-Essen.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/wie-der-sommer-den-winter-heizt",
@@ -1695,26 +1718,6 @@
       ]
     },
     {
-      "title": "US-based BESS companies Peak Energy, ESS Inc and Unigrid aim to commercialise sodium-ion in US, Europe",
-      "teaser": "Peak Energy, ESS Tech Inc, and Unigrid have made recent announcements advancing sodium-ion energy storage technology in the US and Europe.",
-      "link": "https://www.energy-storage.news/us-based-bess-companies-peak-energy-ess-inc-and-unigrid-aim-to-commercialise-sodium-ion-in-us-europe/",
-      "source": "energy-storage-news",
-      "published": "2026-07-10T08:25:47+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "State of health: The critical metric for measuring battery ageing and performance, and why it matters for BESS",
-      "teaser": "Liam Critchley takes a deep dive into battery state of health (SoH), one of the most important metrics for battery storage operational and lifecycle management.",
-      "link": "https://www.energy-storage.news/state-of-health-the-critical-metric-for-measuring-battery-ageing-and-performance-and-why-it-matters-for-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-07-10T07:42:42+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Worried investors and negative electricity prices: Has Spain’s solar boom really turned ‘bust’?",
       "teaser": "Media headlines warn that Spain has over-delivered on solar. But is that really the full story?",
       "link": "http://www.euronews.com/2026/07/10/worried-investors-and-negative-electricity-prices-has-spains-solar-boom-really-turned-bust",
@@ -1733,17 +1736,6 @@
       "published": "2026-07-10T05:00:00+00:00",
       "matched_keywords": [
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "SEC and Energy Dome to deploy 20MW/200MWh compressed CO2 energy storage system in Victoria, Australia",
-      "teaser": "Victoria's State Electricity Commission (SEC) and Italian clean technology company Energy Dome have announced plans to develop the state's first long-duration energy storage (LDES) facility.",
-      "link": "https://www.energy-storage.news/sec-and-energy-dome-to-deploy-20mw-240mwh-compressed-co2-energy-storage-system-in-victoria-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-07-10T04:14:02+00:00",
-      "matched_keywords": [
-        "co2",
-        "energy storage"
       ]
     },
     {
@@ -1993,17 +1985,6 @@
       "published": "2026-07-03T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "EU shipyard races to service Putin’s LNG fleet before sanctions bite",
-      "teaser": "If the ships are serviced now, they'll be able to continue working despite looming EU sanctions.",
-      "link": "https://www.politico.eu/article/eu-shipyard-races-to-service-russia-vladimir-putin-lng-fleet-before-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-02T16:00:11+00:00",
-      "matched_keywords": [
-        "lng",
-        "sanction"
       ]
     },
     {
@@ -2835,6 +2816,28 @@
       ]
     },
     {
+      "title": "Elektrifizierung der Fernwärme: Welche Chancen bietet der Strommarkt? 707.06 KB pdf",
+      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
+      "link": "https://www.dena.de/fileadmin/dena/Publikationen/PDFs/2026/Analyse_Elektrifizierung_der_Fernwaerme.pdf",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "PPAs im Licht der EEG-Novelle",
+      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
+      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
       "title": "Data Spaces für die Energiewende nutzen",
       "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
       "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
@@ -3034,7 +3037,7 @@
     },
     {
       "title": "EC delays methane reporting fines for LNG imports to 2030",
-      "teaser": "Priyanka Shinde",
+      "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/94c20131-7283-4817-bf68-6c09afa6deae/ec-delays-methane-reporting-fines-for-lng-imports-to-2030",
       "source": "montelnews",
       "published": null,
