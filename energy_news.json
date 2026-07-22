@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T20:15:00+00:00",
+  "generated_at": "2026-07-22T06:22:18+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 21
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 39
+      "items_matched": 38
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,60 @@
       "items_matched": 0
     }
   ],
-  "count": 276,
+  "count": 277,
   "articles": [
+    {
+      "title": "Why the EU faces a Russian oil vs LNG sanctions stand-off",
+      "teaser": "Also in this newsletter: more US-EU trade deal jitters",
+      "link": "https://www.ft.com/content/05f08fff-f325-4310-91ac-d64ab12eca3d?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-22T05:00:07+00:00",
+      "matched_keywords": [
+        "lng",
+        "sanction"
+      ]
+    },
+    {
+      "title": "Amazon forest fires fell to all-time low in 2025 but could a super El Niño halt progress?",
+      "teaser": "\"There is no climate security for the world without a protected Amazon\".",
+      "link": "http://www.euronews.com/2026/07/22/amazon-forest-fires-fell-to-all-time-low-in-2025-but-could-a-super-el-nino-halt-progress",
+      "source": "euronews-green",
+      "published": "2026-07-22T05:00:03+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "New UK energy secretary previously called for acceleration of net zero target",
+      "teaser": "Fahnbulleh was head of a think-tank when it pushed for a total end to new drilling in the North Sea basin",
+      "link": "https://www.ft.com/content/23e1a4f0-61d5-4b0c-b355-7e9e9e8d8c34?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-22T04:00:26+00:00",
+      "matched_keywords": [
+        "net zero"
+      ]
+    },
+    {
+      "title": "Samsung C&T submits 1,000MWh solar-plus-storage project in New South Wales to Australia’s EPBC Act",
+      "teaser": "Samsung C&#038;T Renewable Energy Australia has submitted the 1GWh Boro solar-plus-storage project in New South Wales to Australia's EPBC Act.",
+      "link": "https://www.energy-storage.news/samsung-ct-submits-1000mwh-solar-plus-storage-project-in-new-south-wales-to-australias-epbc-act/",
+      "source": "energy-storage-news",
+      "published": "2026-07-22T03:20:25+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Trump says midterms won’t impact his Iran war plan",
+      "teaser": "Republicans are increasingly anxious over the potential ramifications of the war amid rising gas prices and the death of three troops since fighting resumed.",
+      "link": "https://www.politico.com/news/2026/07/21/donald-trump-iran-war-midterms-01006721?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-21T20:02:17+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
     {
       "title": "$6.2-billion FID enables ADNOC, TotalEnergies, Eni, and CNPC to unleash more gas",
       "teaser": "ADNOC Offshore, a subsidiary of Abu Dhabi National Oil Company (ADNOC), and its partners – France’s TotalEnergies, Italy’s Eni, and China National Petroleum Corporation (CNPC) – have unveiled a final investment decision (FID) for a…",
@@ -1316,27 +1368,6 @@
       ]
     },
     {
-      "title": "Renewed Hormuz tensions raise chances of a pricey winter",
-      "teaser": "Asia and Europe would end up competing for LNG cargoes during their cold season if market is short, pushing up prices",
-      "link": "https://www.ft.com/content/c5a78b59-8c1f-4ae4-90bd-a5063b7c2a7d?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-16T04:00:21+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "Athens blocks new EU sanctions on Russia to shield Greek shipping company",
-      "teaser": "George Prokopiou’s Dynagas specialises in transporting cargoes from Moscow’s Arctic LNG",
-      "link": "https://www.ft.com/content/fe5298b6-499b-4647-984f-fdcf3917e696?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-15T20:17:39+00:00",
-      "matched_keywords": [
-        "lng",
-        "sanction"
-      ]
-    },
-    {
       "title": "EU fails to strike Russia sanctions deal after 3 days of talks",
       "teaser": "Envoys will reconvene next week in a bid to prevent the price cap on Russian crude from ratcheting higher at the end of July.",
       "link": "https://www.politico.eu/article/eu-russia-oil-price-cap-sanctions-delayed/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1643,16 +1674,6 @@
       ]
     },
     {
-      "title": "How Dahua is expanding into renewable energy with AI-powered solutions",
-      "teaser": "We catch up with Dahua Technology, one of the world’s largest video-centric AIoT tech companies globally, about its expansion into clean energy technologies like EV charging.",
-      "link": "https://www.energy-storage.news/how-dahua-is-expanding-into-renewable-energy-with-ai-powered-solutions/",
-      "source": "energy-storage-news",
-      "published": "2026-07-13T11:32:53+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "A new deal on balcony solar just dropped in the US",
       "teaser": "Do you live in the U.S. and want balcony solar ? A new initiative could help you get a deal on one of these small but mighty systems that plug into a standard outlet and push clean power into your home. Today, California-based nonprofit…",
       "link": "https://www.canarymedia.com/articles/solar/balcony-panel-bright-saver-deal",
@@ -1670,17 +1691,6 @@
       "published": "2026-07-13T05:00:00+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Battery storage investment at stake as Australia’s AEMC consults on minimum system load market rules",
-      "teaser": "Australia's AEMC is consulting on minimum system load in the NEM, with battery energy storage investment at the heart of the debate.",
-      "link": "https://www.energy-storage.news/battery-storage-investment-at-stake-as-australias-aemc-consults-on-minimum-system-load-market-rules/",
-      "source": "energy-storage-news",
-      "published": "2026-07-13T04:12:10+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
       ]
     },
     {
@@ -3073,6 +3083,28 @@
       ]
     },
     {
+      "title": "Japan and UK eye 'much cheaper' floating wind buildout through subsea robotics",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/japan-and-uk-eye-much-cheaper-floating-wind-buildout-through-subsea-robotics/2-1-2019159",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "US wind PPA prices jump as Trump permitting backlog squeezes supply",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/us-wind-ppa-prices-jump-as-trump-permitting-backlog-squeezes-supply/2-1-2019323",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "'World's first' wooden wind turbine blade factory wins EU funding",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/worlds-first-wooden-wind-turbine-blade-factory-wins-eu-funding/2-1-2019238",
@@ -3095,9 +3127,9 @@
       ]
     },
     {
-      "title": "10% growth in six months masks 17.5GW offshore investment gap in Germany",
+      "title": "UK wind chief warns against fighting ‘culture war’ on energy",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/10-growth-in-six-months-masks-17-5gw-offshore-investment-gap-in-germany/2-1-2019063",
+      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3106,9 +3138,9 @@
       ]
     },
     {
-      "title": "UK wind chief warns against fighting ‘culture war’ on energy",
+      "title": "10% growth in six months masks 17.5GW offshore investment gap in Germany",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
+      "link": "https://www.rechargenews.com/offshore-wind/10-growth-in-six-months-masks-17-5gw-offshore-investment-gap-in-germany/2-1-2019063",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3144,17 +3176,6 @@
       "title": "Wind and solar sectors voice worries over latest EU energy policy spree",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/wind-and-solar-sectors-voice-worries-over-latest-eu-energy-policy-spree/2-1-2017255",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK charts a steady course, but developers may have to dig deeper",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/uk-charts-a-steady-course-but-developers-may-have-to-dig-deeper/2-1-2017245",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3218,20 +3239,9 @@
       ]
     },
     {
-      "title": "Fahnbulleh named UK energy secretary as Miliband moves to Foreign Office",
+      "title": "UK charts a steady course, but developers may have to dig deeper",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/fahnbulleh-named-uk-energy-secretary-as-miliband-moves-to-foreign-office/2-1-2018823",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Miliband out as UK energy secretary",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/miliband-out-as-uk-energy-secretary/2-1-2018776",
+      "link": "https://www.rechargenews.com/technology/uk-charts-a-steady-course-but-developers-may-have-to-dig-deeper/2-1-2017245",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
