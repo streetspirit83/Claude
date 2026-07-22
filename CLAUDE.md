@@ -49,11 +49,12 @@ nicht verwechseln:
 
 ### Projekt-Server (committed, reproduzierbar) — `.mcp.json`
 Im Repo-Root liegt eine versionierte `.mcp.json`, damit alle mit demselben Setup
-arbeiten. Aktuell **ein** Server:
+arbeiten. Aktuell **zwei** Server:
 
 | Server | Paket / Version | Zweck |
 |---|---|---|
-| `playwright` | `@playwright/mcp@0.0.75` (gepinnt) | Tier-3-Scraping: echte Browser-Interaktion (Klicks, Pagination, Logins) |
+| `playwright` | `@playwright/mcp@0.0.78` (gepinnt) | Tier-3-Scraping: echte Browser-Interaktion (Klicks, Pagination, Logins) |
+| `context7` | `@upstash/context7-mcp@3.2.4` (gepinnt) | Versionsaktuelle Framework-/Lib-Doku on demand (verhindert veraltete API-Nutzung) |
 
 - **Version pinnen** – wie bei den CDN-Skripten: fixe Version statt `@latest`,
   sonst brechen Läufe unangekündigt (→ siehe „CDN-Versionen pinnen“).
@@ -87,7 +88,7 @@ und Tool-Kontext, ohne Mehrwert.
 | Server | Status | Kurzbewertung |
 |---|---|---|
 | **GitHub MCP** | ✅ vorhanden | Als Account-Connector aktiv (verifiziert). Nichts zu tun; **nicht** in `.mcp.json` doppeln. |
-| **Context7** | ➕ sinnvoll | Versionsaktuelle Framework-/Lib-Doku on demand. |
+| **Context7** | ✅ eingebunden | Projekt-Server in `.mcp.json` (`@upstash/context7-mcp@3.2.4`). |
 | **Serena (LSP)** | ➖ begrenzt | Symbol-/Refactoring-Semantik per LSP; Nutzen bei No-Build-HTML/JS ohne Typen gering. |
 | Filesystem *(ref)* | ❌ redundant | Native File-Tools vorhanden. |
 | Git *(ref)* | ❌ redundant | `git` läuft über Bash. |
@@ -97,11 +98,12 @@ und Tool-Kontext, ohne Mehrwert.
 
 ### Details zu den empfohlenen Ergänzungen (Vorteil / Voraussetzung / Mehrwert)
 
-- **Context7** (`➕ sinnvoll`)
+- **Context7** (`✅ eingebunden`)
   - *Vorteil:* zieht versionsaktuelle Doku und Codebeispiele direkt in die Session
     und verhindert veraltete API-Nutzung.
-  - *Voraussetzung:* neuer Server `npx -y @upstash/context7-mcp` in `.mcp.json`;
-    optionaler API-Key nur für höhere Limits (Free-Tier genügt uns).
+  - *Nutzung:* im Prompt `use context7` ergänzen (oder Lib gezielt nennen). Der
+    Free-Tier genügt uns; ein API-Key ist nur für höhere Limits nötig und würde
+    über eine Env-Variable gereicht, nie hardgecodet.
   - *Mehrwert:* mittel — v.a. für unsere gepinnten CDN-Libs (Lucide u.a.) und die
     Netlify-Functions-APIs.
 
@@ -126,11 +128,11 @@ und Tool-Kontext, ohne Mehrwert.
 ⚠️ Alle `➕/➖`-Punkte **setzen neue Server voraus** und werden erst nach
 ausdrücklicher Freigabe in `.mcp.json` eingetragen.
 
-### Betriebs-Empfehlungen zu bestehenden Servern (setzen Änderungen voraus)
-- **Playwright-Bump `0.0.75 → 0.0.78`** (aktuelles npm-`latest`, Stand 2026-07):
-  nur die Version in `.mcp.json` erhöhen und kurz gegen eine echte Scrape-Seite
-  testen. Kein neuer Server, nur ein Versionswechsel eines bestehenden.
-- **Firecrawl MCP als Tier 2** (optional): `npx -y firecrawl-mcp` in `.mcp.json`
+### Betriebs-Empfehlungen zu bestehenden Servern
+- **Playwright-Bump `0.0.75 → 0.0.78`** ✅ erledigt (Stand 2026-07, npm-`latest`).
+  Bei künftigen Bumps: Version in `.mcp.json` erhöhen und kurz gegen eine echte
+  Scrape-Seite testen.
+- **Firecrawl MCP als Tier 2** (optional, noch offen): `npx -y firecrawl-mcp` in `.mcp.json`
   eintragen + `FIRECRAWL_API_KEY` via Env. ⚠️ **Setzt einen neuen Server plus
   API-Key voraus** – erst nach ausdrücklicher Freigabe einbinden.
 
