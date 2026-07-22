@@ -62,16 +62,71 @@ arbeiten. Aktuell **ein** Server:
   sind bereits über `.gitignore` ausgeschlossen.
 
 ### Account-Connectoren (Claude Code on the web — **nicht** im Repo)
-In Web-Sessions stehen zusätzlich account-gebundene Connectoren bereit (u.a.
-GitHub, Netlify, Gmail, Google Calendar, Figma, Canva). Diese sind kein Teil des
-Repos, variieren pro Account/Session und gehören **nicht** in `.mcp.json`.
+In Web-Sessions stehen zusätzlich account-gebundene Connectoren bereit. Aktiv u.a.:
+- **GitHub MCP** (`mcp__github__*`) – Repo-Verwaltung, Pull Requests, Issues,
+  Branches, GitHub Actions, Code Reviews. **Deckt unseren GitHub-Workflow bereits
+  vollständig ab** (kein zusätzlicher Server nötig).
+- Netlify, Gmail, Google Calendar, Figma, Canva.
+
+Diese sind kein Teil des Repos, variieren pro Account/Session und gehören **nicht**
+in `.mcp.json` (nicht mit den Projekt-Servern verwechseln).
 
 ### Scraping-Eskalation (siehe Skill `web-scraper`)
 `WebFetch` (statisch) → **Firecrawl MCP** (JS/Anti-Bot, *Empfehlung, noch nicht
 eingebunden*) → **Playwright MCP** (dynamisch, eingebunden). Auf der niedrigsten
 funktionierenden Stufe stoppen; nie rohes HTML in die Session laden.
 
-### Offene Empfehlungen (setzen Änderungen voraus — vor Umsetzung freigeben)
+## Empfohlene MCP-Erweiterungen
+
+Bewertung gängiger MCP-Server gegen unser Setup (Ist-Stand: **ein** Projekt-Server
+`playwright` + Account-Connectoren, darunter live **GitHub MCP**). Grundregel:
+**keine Server einbinden, die native Claude-Code-Bordmittel duplizieren**
+(Read/Write/Edit/Glob/Grep, Bash inkl. `git`, `WebFetch`) — das bläht nur Startup
+und Tool-Kontext, ohne Mehrwert.
+
+| Server | Status | Kurzbewertung |
+|---|---|---|
+| **GitHub MCP** | ✅ vorhanden | Als Account-Connector aktiv (verifiziert). Nichts zu tun; **nicht** in `.mcp.json` doppeln. |
+| **Context7** | ➕ sinnvoll | Versionsaktuelle Framework-/Lib-Doku on demand. |
+| **Serena (LSP)** | ➖ begrenzt | Symbol-/Refactoring-Semantik per LSP; Nutzen bei No-Build-HTML/JS ohne Typen gering. |
+| Filesystem *(ref)* | ❌ redundant | Native File-Tools vorhanden. |
+| Git *(ref)* | ❌ redundant | `git` läuft über Bash. |
+| Fetch *(ref)* | ❌ redundant | `WebFetch` + Playwright/Firecrawl decken ab. |
+| Memory *(ref)* | ➖ optional | Persistenter Knowledge-Graph; CLAUDE.md erfüllt die Rolle heute. |
+| Sequential Thinking *(ref)* | ➖ optional | Strukturiertes Reasoning; moderne Modelle können das nativ. |
+
+### Details zu den empfohlenen Ergänzungen (Vorteil / Voraussetzung / Mehrwert)
+
+- **Context7** (`➕ sinnvoll`)
+  - *Vorteil:* zieht versionsaktuelle Doku und Codebeispiele direkt in die Session
+    und verhindert veraltete API-Nutzung.
+  - *Voraussetzung:* neuer Server `npx -y @upstash/context7-mcp` in `.mcp.json`;
+    optionaler API-Key nur für höhere Limits (Free-Tier genügt uns).
+  - *Mehrwert:* mittel — v.a. für unsere gepinnten CDN-Libs (Lucide u.a.) und die
+    Netlify-Functions-APIs.
+
+- **Serena** (`➖ begrenzt relevant`)
+  - *Vorteil:* symbol-genaue Suche, Definitionen/Referenzen und sicheres
+    Refactoring über LSP statt Textsuche — stark bei großen Codebasen.
+  - *Voraussetzung:* neuer Server (uv/Python), einmalige Projekt-Indexierung;
+    profitiert stark von Typinformationen.
+  - *Mehrwert:* gering bei den kleinen HTML-Tools hier; potenziell mittel im
+    modul-reichen `discovery/ui` (viele ES-Module).
+
+- **Memory / Sequential Thinking** (offizielle Referenzserver, `➖ optional`)
+  - *Vorteil:* sessionübergreifendes Gedächtnis bzw. explizite, nachvollziehbare
+    Denk-Schritte.
+  - *Voraussetzung:* je ein neuer Server in `.mcp.json`.
+  - *Mehrwert:* niedrig — CLAUDE.md plus natives Modell-Reasoning decken den Bedarf
+    bereits ab.
+
+- **Nicht empfohlen:** Filesystem-, Git- und Fetch-Referenzserver — durchweg
+  redundant zu Claude-Code-Bordmitteln.
+
+⚠️ Alle `➕/➖`-Punkte **setzen neue Server voraus** und werden erst nach
+ausdrücklicher Freigabe in `.mcp.json` eingetragen.
+
+### Betriebs-Empfehlungen zu bestehenden Servern (setzen Änderungen voraus)
 - **Playwright-Bump `0.0.75 → 0.0.78`** (aktuelles npm-`latest`, Stand 2026-07):
   nur die Version in `.mcp.json` erhöhen und kurz gegen eine echte Scrape-Seite
   testen. Kein neuer Server, nur ein Versionswechsel eines bestehenden.
