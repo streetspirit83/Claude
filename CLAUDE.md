@@ -49,12 +49,14 @@ nicht verwechseln:
 
 ### Projekt-Server (committed, reproduzierbar) — `.mcp.json`
 Im Repo-Root liegt eine versionierte `.mcp.json`, damit alle mit demselben Setup
-arbeiten. Aktuell **zwei** Server:
+arbeiten. Aktuell **vier** Server:
 
 | Server | Paket / Version | Zweck |
 |---|---|---|
 | `playwright` | `@playwright/mcp@0.0.78` (gepinnt) | Tier-3-Scraping: echte Browser-Interaktion (Klicks, Pagination, Logins) |
 | `context7` | `@upstash/context7-mcp@3.2.4` (gepinnt) | Versionsaktuelle Framework-/Lib-Doku on demand (verhindert veraltete API-Nutzung) |
+| `firecrawl` | `firecrawl-mcp@3.22.4` (gepinnt) | Tier-2-Scraping: JS-Rendering & einfache Anti-Bot-Wände. **Braucht `FIRECRAWL_API_KEY` via Env** (Free-Tier, nie hardcoden) |
+| `chrome-devtools` | `chrome-devtools-mcp@1.6.0` (gepinnt) | Browser-Debugging der HTML-Tools: Konsolen-Fehler, Netzwerk-Requests, Performance. Kein Key nötig |
 
 - **Version pinnen** – wie bei den CDN-Skripten: fixe Version statt `@latest`,
   sonst brechen Läufe unangekündigt (→ siehe „CDN-Versionen pinnen“).
@@ -73,9 +75,9 @@ Diese sind kein Teil des Repos, variieren pro Account/Session und gehören **nic
 in `.mcp.json` (nicht mit den Projekt-Servern verwechseln).
 
 ### Scraping-Eskalation (siehe Skill `web-scraper`)
-`WebFetch` (statisch) → **Firecrawl MCP** (JS/Anti-Bot, *Empfehlung, noch nicht
-eingebunden*) → **Playwright MCP** (dynamisch, eingebunden). Auf der niedrigsten
-funktionierenden Stufe stoppen; nie rohes HTML in die Session laden.
+`WebFetch` (statisch) → **Firecrawl MCP** (JS/Anti-Bot, eingebunden — braucht
+`FIRECRAWL_API_KEY`) → **Playwright MCP** (dynamisch, eingebunden). Auf der
+niedrigsten funktionierenden Stufe stoppen; nie rohes HTML in die Session laden.
 
 ## Empfohlene MCP-Erweiterungen
 
@@ -89,6 +91,8 @@ und Tool-Kontext, ohne Mehrwert.
 |---|---|---|
 | **GitHub MCP** | ✅ vorhanden | Als Account-Connector aktiv (verifiziert). Nichts zu tun; **nicht** in `.mcp.json` doppeln. |
 | **Context7** | ✅ eingebunden | Projekt-Server in `.mcp.json` (`@upstash/context7-mcp@3.2.4`). |
+| **Firecrawl** | ✅ eingebunden | Tier-2-Scraper in `.mcp.json` (`firecrawl-mcp@3.22.4`); Key via Env. |
+| **Chrome DevTools** | ✅ eingebunden | Browser-Debugging in `.mcp.json` (`chrome-devtools-mcp@1.6.0`). |
 | **Serena (LSP)** | ➖ begrenzt | Symbol-/Refactoring-Semantik per LSP; Nutzen bei No-Build-HTML/JS ohne Typen gering. |
 | Filesystem *(ref)* | ❌ redundant | Native File-Tools vorhanden. |
 | Git *(ref)* | ❌ redundant | `git` läuft über Bash. |
@@ -132,9 +136,11 @@ ausdrücklicher Freigabe in `.mcp.json` eingetragen.
 - **Playwright-Bump `0.0.75 → 0.0.78`** ✅ erledigt (Stand 2026-07, npm-`latest`).
   Bei künftigen Bumps: Version in `.mcp.json` erhöhen und kurz gegen eine echte
   Scrape-Seite testen.
-- **Firecrawl MCP als Tier 2** (optional, noch offen): `npx -y firecrawl-mcp` in `.mcp.json`
-  eintragen + `FIRECRAWL_API_KEY` via Env. ⚠️ **Setzt einen neuen Server plus
-  API-Key voraus** – erst nach ausdrücklicher Freigabe einbinden.
+- **Firecrawl MCP als Tier 2** ✅ eingebunden (`firecrawl-mcp@3.22.4`). ⚠️ **Aktiv
+  erst mit gesetztem `FIRECRAWL_API_KEY`** (Free-Tier-Account bei firecrawl.dev,
+  Key als Umgebungsvariable reichen — nie in `.mcp.json` hardcoden).
+- **Chrome-DevTools MCP** ✅ eingebunden (`chrome-devtools-mcp@1.6.0`). Kein Key
+  nötig; startet beim ersten Aufruf einen echten Chrome zum Debuggen.
 
 ## Dieses Repo
 - **Aktuelles Projekt:** `Testen.html` — Link-Manager v1.0 (Jamaica-Design)

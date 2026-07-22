@@ -7,6 +7,15 @@
     "context7": {
       "command": "npx",
       "args": ["-y", "@upstash/context7-mcp@3.2.4"]
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp@3.22.4"],
+      "env": { "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}" }
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@1.6.0"]
     }
   }
 }
