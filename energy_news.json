@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:07:53+00:00",
+  "generated_at": "2026-07-23T06:24:25+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 11
+      "items_matched": 12
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 8
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 38
+      "items_matched": 37
     },
     {
       "name": "smart-energy",
@@ -368,11 +368,62 @@
       "items_matched": 0
     }
   ],
-  "count": 284,
+  "count": 286,
   "articles": [
     {
-      "title": "Greece derails EU’s Russia sanctions plan",
-      "teaser": "A row over gas shipments prevented a deal late Wednesday evening, with talks set to resume just as envoys prepare to leave for the summer.",
+      "title": "What is climate gentrification? Why house prices are rising outside of Europe's city centres",
+      "teaser": "Extreme heat is not only making cities less liveable; it’s also reshaping who can afford to live where.",
+      "link": "http://www.euronews.com/2026/07/23/what-is-climate-gentrification-why-house-prices-are-rising-outside-of-europes-city-centres",
+      "source": "euronews-green",
+      "published": "2026-07-23T05:02:42+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "US and Japan clash over meltdown liability in $40bn nuclear power deal",
+      "teaser": "Project is part of Tokyo’s commitment to invest $550bn in return for lower tariffs",
+      "link": "https://www.ft.com/content/4b9d0e1a-c423-4b14-a7fe-d4988e24c7c0?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-23T01:37:44+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "US and Saudi Arabia agree landmark nuclear energy pact",
+      "teaser": "Critics warn agreement lacks safeguards to prevent future uranium enrichment and reprocessing",
+      "link": "https://www.ft.com/content/2707aeb6-dba0-4640-877b-4839d268c820?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-22T22:37:55+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Russian gas cargoes to remain exempt as EU nears new sanctions deal",
+      "teaser": "Groups such as Greece’s Dynagas will be allowed to continue carrying Russian LNG",
+      "link": "https://www.ft.com/content/3a40d574-41fe-4e04-a958-1173bb07f064?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-22T21:35:26+00:00",
+      "matched_keywords": [
+        "lng",
+        "sanction"
+      ]
+    },
+    {
+      "title": "Moscow-linked nuclear project in northwest Germany gets green light",
+      "teaser": "A new safety assessment from the federal government played a key role in the decision.",
+      "link": "https://www.politico.eu/article/moscow-linked-nuclear-project-in-northwest-germany-to-get-green-light/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-22T19:42:46+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "EU countries weigh fresh plan to salvage Russia sanctions package",
+      "teaser": "Ambassadors will discuss a new proposal Thursday after Greece refused to back the package — which requires unanimous support — over a gas shipments issue.",
       "link": "https://www.politico.eu/article/greece-derail-eu-russia-sanctions-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "politico-energy-climate",
       "published": "2026-07-22T18:15:26+00:00",
@@ -1206,16 +1257,6 @@
       ]
     },
     {
-      "title": "EU to give industry more time to pollute and more funds to clean up",
-      "teaser": "Climate commissioner defends extension of free allowances to heavily emitting sectors",
-      "link": "https://www.ft.com/content/c3c33e7b-8faf-4f06-b281-112117aeeb5a?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-17T15:02:59+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "California batteries missing out on revenue due to suboptimal bidding strategies, Gridmatic analysis finds",
       "teaser": "Battery energy storage systems (BESS) operating in California's grid left approximately US$98 million on the table due to suboptimal bidding strategies, according to a new analysis from Gridmatic.",
       "link": "https://www.energy-storage.news/california-batteries-missing-out-on-revenue-due-to-suboptimal-bidding-strategies-gridmatic-analysis-finds/",
@@ -1715,16 +1756,6 @@
       ]
     },
     {
-      "title": "VIDEO: FEOC and the Future of BESS Procurement, a webinar with Intertek CEA",
-      "teaser": "Energy-Storage.news proudly presents this webinar, sponsored by Intertek CEA, examining the impact of foreign entity of concern (FEOC) restrictions on US battery storage procurement.",
-      "link": "https://www.energy-storage.news/video-feoc-and-the-future-of-bess-procurement-a-webinar-with-intertek-cea/",
-      "source": "energy-storage-news",
-      "published": "2026-07-14T09:50:08+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Shell to sell its Indian renewable energy arm in $1.8bn deal",
       "teaser": "Oil major Shell is selling its Indian renewable energy arm Sprng Energy to Aditya Birla Renewables (ABRen) in a deal worth $1.8 billion.",
       "link": "https://www.windpowermonthly.com/article/1964504/shell-sell-its-indian-renewable-energy-arm-18bn-deal",
@@ -2042,16 +2073,6 @@
       "matched_keywords": [
         "energy storage",
         "solar"
-      ]
-    },
-    {
-      "title": "Wildfires rage in Portugal and Spain as authorities in Greece warn of toxic smoke",
-      "teaser": "The blazes come after a heatwave in June during which thousands of excess deaths were registered and which would have been \"virtually impossible\" without climate change, the World Weather Attribution group said.",
-      "link": "http://www.euronews.com/2026/07/06/wildfires-rage-in-portugal-and-spain-as-authorities-in-greece-warn-of-toxic-smoke",
-      "source": "euronews-green",
-      "published": "2026-07-06T06:57:27+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -3153,6 +3174,17 @@
       ]
     },
     {
+      "title": "Mapped: the global crackdown on data centres over power",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/corporate-power/mapped-the-global-crackdown-on-data-centres-over-power/2-1-2019249",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "CATL named among hundreds of human rights abuse allegations against Chinese overseas transition minerals projects",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/catl-named-among-hundreds-of-human-rights-abuse-allegations-against-chinese-overseas-transition-minerals-projects/2-1-2019268",
@@ -3301,17 +3333,6 @@
       "title": "10% growth in six months masks 17.5GW offshore investment gap in Germany",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/10-growth-in-six-months-masks-17-5gw-offshore-investment-gap-in-germany/2-1-2019063",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "As UK floating wind auction race hots up, one project risks being left in the cold",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/as-uk-floating-wind-auction-race-hots-up-one-project-risks-being-left-in-the-cold/2-1-2018122",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
