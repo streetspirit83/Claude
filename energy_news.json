@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:24:25+00:00",
+  "generated_at": "2026-07-23T09:20:10+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "cleanenergywire",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euronews-green",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 46
+      "items_matched": 45
     },
     {
       "name": "power-technology",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 4
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,129 @@
       "items_matched": 0
     }
   ],
-  "count": 286,
+  "count": 285,
   "articles": [
+    {
+      "title": "RWE’s Nordseecluster A offshore wind farm delivers first electricity",
+      "teaser": "Nordseecluster A offshore wind farm delivered electricity to the German grid for the first time, following installation of its first turbine.",
+      "link": "https://www.power-technology.com/news/nordseecluster-a-delivers-first-electricity/",
+      "source": "power-technology",
+      "published": "2026-07-23T08:50:46+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Les États-Unis encadrent le futur déploiement de réacteurs nucléaires flottants",
+      "teaser": "La Marine Minerals Administration et la Nuclear Regulatory Commission signent un accord encadrant l'instruction de futurs projets de réacteurs nucléaires flottants au large des États-Unis, sans qu'aucun projet commercial ne soit…",
+      "link": "https://energynews.pro/les-etats-unis-encadrent-le-futur-deploiement-de-reacteurs-nucleaires-flottants",
+      "source": "energynews-pro",
+      "published": "2026-07-23T08:32:46+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "EU einigt sich angesichts griechischen Widerstands auf abgeschwächte Sanktionen gegen Russland",
+      "teaser": "Frankreich, Italien, Deutschland und Portugal haben die Maßnahmen, die darauf abzielten, Druck auf Russland auszuüben, nach und nach ausgehöhlt.",
+      "link": "https://euractiv.com/de/news/eu-einigt-sich-angesichts-griechischen-widerstands-auf-abgeschwachte-sanktionen-gegen-russland/",
+      "source": "euractiv-energie",
+      "published": "2026-07-23T08:20:47+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
+      "title": "MN8 Energy to buy Greenbacker in $375m deal",
+      "teaser": "MN8 Energy has agreed to acquire Greenbacker Renewable Energy Company in a cash-and-equity transaction valued at up to $375m.",
+      "link": "https://www.energymonitor.ai/news/mn8-to-buy-greenbacker/",
+      "source": "energymonitor",
+      "published": "2026-07-23T07:42:20+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "pv magazine Podcast: Wie werden flexible Netzanschlussvereinbarungen fair für alle?",
+      "teaser": "In diesem Podcast diskutieren wir mit Allgäu Netz und Green Flexibility über erste Erkenntnisse aus einem Jahr Betrieb eines Großspeichers im Verteilnetz mit einer flexiblen Anschlussvereinbarung, Ideen für die Skalierung des Zubaus und…",
+      "link": "https://www.pv-magazine.de/2026/07/23/pv-magazine-podcast-wie-werden-flexible-netzanschlussvereinbarungen-fair-fuer-alle/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-23T07:35:00+00:00",
+      "matched_keywords": [
+        "pv",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Greek gas concession unlocks EU’s Russia sanctions package",
+      "teaser": "The agreement resolves a dispute over shipping Russian gas to third countries and freezes the bloc’s price cap on Russian crude oil for 12 months.",
+      "link": "https://www.politico.eu/article/eu-countries-clinch-deal-russia-sanctions/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-23T07:33:31+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Solar is booming in Indiana. Not everyone is happy about it.",
+      "teaser": "When the largest solar farm in Indiana came online in early 2025, nearby residents in rural Jasper County were not exactly excited. “It will mess up their fields,” said long-time resident Gena Carlson, referring to solar panels on farmers’…",
+      "link": "https://www.canarymedia.com/articles/solar/indiana-quietly-became-a-solar-giant-not-everyone-is-happy",
+      "source": "canarymedia",
+      "published": "2026-07-23T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Batteriespeicher-Investments und der Investitionsabzugsbetrag: Die Container-Risiken",
+      "teaser": "Direktinvestitionen in Batteriespeicher-Container locken mit hohen Steuervorteilen aus Investitionsabzugsbetrag und Sonderabschreibung, doch ein zentrales Risiko wird in vielen Verkaufsunterlagen nicht thematisiert: Ist das einzeln…",
+      "link": "https://www.pv-magazine.de/2026/07/23/batteriespeicher-investments-und-der-investitionsabzugsbetrag-die-container-risiken/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-23T07:25:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "La Basse-Saxe autorise Framatome à produire du combustible VVER avec Rosatom à Lingen",
+      "teaser": "Le Land allemand de Basse-Saxe a autorisé Advanced Nuclear Fuels, filiale de Framatome, à produire à Lingen des assemblages combustibles VVER avec Rosatom, faute de base juridique pour refuser, malgré des réserves de sécurité nationale.",
+      "link": "https://energynews.pro/la-basse-saxe-autorise-framatome-a-produire-du-combustible-vver-avec-rosatom-a-lingen",
+      "source": "energynews-pro",
+      "published": "2026-07-23T07:18:21+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Studie: Klimawandel verschärft Dürren in Europa",
+      "teaser": "Eine neue Studie hat ergeben, dass das heute heißere Klima den Feuchtigkeitsverlust aus den Böden, Seen und Flüssen Europas beschleunigt hat, wodurch die Wahrscheinlichkeit knochentrockener Bedingungen gestiegen ist.",
+      "link": "https://euractiv.com/de/news/studie-klimawandel-verscharft-durren-in-europa/",
+      "source": "euractiv-energie",
+      "published": "2026-07-23T07:17:48+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Van Oord completes installation of nature-inclusive scour protection at new Dutch offshore wind farm",
+      "teaser": "Van Oord has wrapped up the rock installation works at the Hollandse Kust West [&#8230;] The post Van Oord completes installation of nature-inclusive scour protection at new Dutch offshore wind farm appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/van-oord-completes-installation-of-nature-inclusive-scour-protection-at-new-dutch-offshore-wind-farm/",
+      "source": "offshore-energy",
+      "published": "2026-07-23T07:06:46+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Energy security is reshaping Asia’s investment priorities",
+      "teaser": "The latest tensions around the Strait of Hormuz have reinforced a move already under way across Asia’s energy transition.",
+      "link": "https://www.energymonitor.ai/analysis/asia-energy-transition/",
+      "source": "energymonitor",
+      "published": "2026-07-23T07:00:00+00:00",
+      "matched_keywords": [
+        "energy security"
+      ]
+    },
     {
       "title": "What is climate gentrification? Why house prices are rising outside of Europe's city centres",
       "teaser": "Extreme heat is not only making cities less liveable; it’s also reshaping who can afford to live where.",
@@ -401,8 +522,8 @@
       ]
     },
     {
-      "title": "Russian gas cargoes to remain exempt as EU nears new sanctions deal",
-      "teaser": "Groups such as Greece’s Dynagas will be allowed to continue carrying Russian LNG",
+      "title": "Russian gas cargoes to stay exempt as EU agrees new sanctions deal",
+      "teaser": "Greek shipping company Dynagas will be allowed to continue carrying Russian LNG",
       "link": "https://www.ft.com/content/3a40d574-41fe-4e04-a958-1173bb07f064?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-07-22T21:35:26+00:00",
@@ -531,16 +652,6 @@
       "matched_keywords": [
         "decarbon",
         "heat pump"
-      ]
-    },
-    {
-      "title": "Ignitis Renewables développe un stockage batteries de 107 MW en Lettonie",
-      "teaser": "Ignitis Renewables a pris la décision finale d'investissement pour développer le système de stockage par batteries Tume, 107 MW et 215 MWh, aux côtés du parc solaire du même nom en Lettonie, pour environ 35 millions d'euros.",
-      "link": "https://energynews.pro/ignitis-renewables-developpe-un-stockage-batteries-de-107-mw-en-lettonie",
-      "source": "energynews-pro",
-      "published": "2026-07-22T11:53:23+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -698,16 +809,6 @@
       ]
     },
     {
-      "title": "Plants are heating up hampering their ability to capture carbon",
-      "teaser": "US scientists say plants cannot photosynthesise effectively in continued heat and that means less CO2 absorption The post Plants are heating up hampering their ability to capture carbon appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/22/plants-are-heating-up-hampering-their-ability-to-capture-carbon/",
-      "source": "energylivenews",
-      "published": "2026-07-22T09:00:00+00:00",
-      "matched_keywords": [
-        "co2"
-      ]
-    },
-    {
       "title": "Energy Storage Awards 2026: Judges seek winners with the ambition to solve industry problems",
       "teaser": "With the Energy Storage Awards 2026 entry deadline less than two months away, we speak to four judges to hear what they are looking for from successful entrants.",
       "link": "https://www.energy-storage.news/energy-storage-awards-2026-judges-seek-winners-with-the-ambition-to-solve-industry-problems/",
@@ -715,38 +816,6 @@
       "published": "2026-07-22T08:24:06+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Nuclear Regulation Bill must remain central to UK’s clean energy ambitions",
-      "teaser": "Faster nuclear reforms could strengthen energy security while accelerating Britain's net zero transition The post Nuclear Regulation Bill must remain central to UK&#8217;s clean energy ambitions appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/22/nuclear-regulation-bill-must-remain-central-to-uks-clean-energy-ambitions/",
-      "source": "energylivenews",
-      "published": "2026-07-22T08:03:57+00:00",
-      "matched_keywords": [
-        "energy security",
-        "net zero",
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Chevron’s Cypriot gas project edges closer toward binding supply deal with Egypt",
-      "teaser": "Chevron Cyprus, a subsidiary of the U.S.-headquartered oil major Chevron, and its partners, BG Cyprus (Shell) and NewMed Energy, have made inroads in securing a binding agreement for the sale of gas to Egypt from an offshore gas field…",
-      "link": "https://www.offshore-energy.biz/chevrons-cypriot-gas-project-edges-closer-toward-binding-supply-deal-with-egypt/",
-      "source": "offshore-energy",
-      "published": "2026-07-22T08:03:00+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "Neues Tool für Wirtschaftlichkeitsanalyse marktbasierter Batteriespeicher",
-      "teaser": "Impeto Impact hat das Software-as-a-Service-Tool entwickelt. Mittels Forwardtesting werden 1,3 Millionen historische Datenpunkte der vergangenen fünf Jahre dynamisch mit nutzerdefinierten Annahmen verknüpft. Daraus lassen sich…",
-      "link": "https://www.pv-magazine.de/2026/07/22/neues-tool-fuer-wirtschaftlichkeitsanalyse-marktbasierter-batteriespeicher/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-22T07:39:00+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -865,16 +934,6 @@
       ]
     },
     {
-      "title": "UK’s export emissions fall by a third",
-      "teaser": "Cuts in corporate airline support and oil and gas have helped emissions drop by 34% The post UK&#8217;s export emissions fall by a third appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/21/uks-export-emissions-fall-by-a-third/",
-      "source": "energylivenews",
-      "published": "2026-07-21T14:00:00+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "Yanara secures $171m for Australian renewable energy portfolio",
       "teaser": "Yanara has obtained a €150m ($171.4m) investment from Mirova to support its utility-scale renewable energy portfolio in Australia.",
       "link": "https://www.power-technology.com/news/yanara-171m-australian-renewable-energy/",
@@ -892,26 +951,6 @@
       "published": "2026-07-21T11:12:07+00:00",
       "matched_keywords": [
         "gas price"
-      ]
-    },
-    {
-      "title": "Serbia outlines nuclear plans",
-      "teaser": "Serbia is advancing its first nuclear power programme under the IAEA Milestones Approach, with a goal of starting construction by 2035.",
-      "link": "https://www.power-technology.com/news/serbia-outlines-nuclear-plans/",
-      "source": "power-technology",
-      "published": "2026-07-21T10:55:42+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Kanadevia accelerates its expansion of green hydrogen-related businesses",
-      "teaser": "Kanadevia and Oman’s Bahwan Engineering Company have agreed to cooperate on green hydrogen and e-methane projects in Oman.",
-      "link": "https://www.power-technology.com/news/kanadevia-accelerates-its-expansion-of-green-hydrogen-related-businesses/",
-      "source": "power-technology",
-      "published": "2026-07-21T10:39:36+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -1478,16 +1517,6 @@
       ]
     },
     {
-      "title": "New South Wales approves Yancoal’s Stratford Pumped Hydro and Solar project",
-      "teaser": "The NSW government in Australia has granted planning consent for Yancoal Australia’s 3.6GWh Stratford Pumped Hydro and Solar project.",
-      "link": "https://www.energymonitor.ai/news/nsw-approves-stratford-project/",
-      "source": "energymonitor",
-      "published": "2026-07-16T10:12:47+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Europe's booming solar fleet has saved €20 billion in gas imports since Iran war, finds new analysis",
       "teaser": "New data shows that solar installations across Europe are cushioning the continent from volatile fossil fuel price shocks.",
       "link": "http://www.euronews.com/2026/07/16/solar-saved-europe-3bn-in-fossil-fuel-imports-in-march-which-country-is-leading-the-way",
@@ -1773,16 +1802,6 @@
       "published": "2026-07-14T07:30:00+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "EU einigt sich nicht auf Sanktionen gegen Russland, während die Frist für die Öl-Obergrenze näher rückt",
-      "teaser": "Die EU stehe „ziemlich kurz“ vor einer Einigung, doch es gebe keine „Garantien“, dass das Paket noch vor Mittwoch verabschiedet werde, so Kallas.",
-      "link": "https://euractiv.com/de/news/eu-kann-sich-nicht-auf-sanktionen-gegen-russland-einigen-wahrend-die-frist-fur-die-ol-obergrenze-naher-ruckt/",
-      "source": "euractiv-energie",
-      "published": "2026-07-14T07:20:15+00:00",
-      "matched_keywords": [
-        "sanktion"
       ]
     },
     {
@@ -2782,27 +2801,6 @@
       ]
     },
     {
-      "title": "Voters in 9 states will pick the people overseeing their power bills",
-      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. The 2026 election season is officially upon us, and with electricity prices on the rise, energy affordability is sure to factor…",
-      "link": "https://www.canarymedia.com/articles/utilities/voters-in-9-states-get-to-pick-the-people-who-oversee-their-power-bills",
-      "source": "canarymedia",
-      "published": "2026-05-29T17:36:00+00:00",
-      "matched_keywords": [
-        "electricity price"
-      ]
-    },
-    {
-      "title": "The tax credit cliff has hit EV sales hard",
-      "teaser": "This article is part of our ​“Chart of the Week” series . Once upon a time, Americans could get big federal tax incentives for buying electric vehicles, heat pumps, rooftop solar, and home batteries. But the Trump administration scrapped…",
-      "link": "https://www.canarymedia.com/articles/electric-vehicles/the-tax-credit-cliff-has-hit-ev-sales-hard",
-      "source": "canarymedia",
-      "published": "2026-05-29T07:30:00+00:00",
-      "matched_keywords": [
-        "heat pump",
-        "solar"
-      ]
-    },
-    {
       "title": "Netzentgeltreform mit Konfliktpotenzial",
       "teaser": "Das bisherige System der Stromnetzentgelte passt nicht mehr zur neuen Energiewelt. Neue Regeln müssen her, auch im Sinne der Bezahlbarkeit. Die Bundesnetzagentur hat Vorschläge gemacht, die jedoch auf Kritik stoßen.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/netzentgeltreform-mit-konfliktpotenzial",
@@ -3164,19 +3162,20 @@
       ]
     },
     {
-      "title": "Statkraft: EU ETS reform better than system collapsing",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/4582ce92-772e-4616-a32e-356f0308e7ca/eu-ets-reform-better-than-system-collapsing-statkraft",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "ets"
-      ]
-    },
-    {
       "title": "Mapped: the global crackdown on data centres over power",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/mapped-the-global-crackdown-on-data-centres-over-power/2-1-2019249",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Belgium ready to roll out revamped offshore wind tender",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/belgium-ready-to-roll-out-revamped-offshore-wind-tender/2-1-2019890",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3229,17 +3228,6 @@
       ]
     },
     {
-      "title": "Japan and UK hatch new plan to cut floating wind costs",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/japan-and-uk-eye-much-cheaper-floating-wind-buildout-through-subsea-robotics/2-1-2019159",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "US wind PPA prices jump as Trump permitting backlog squeezes supply",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/us-wind-ppa-prices-jump-as-trump-permitting-backlog-squeezes-supply/2-1-2019323",
@@ -3262,20 +3250,9 @@
       ]
     },
     {
-      "title": "Cadeler jack-up collides with another vessel, hospitalising one",
+      "title": "Japan and UK hatch new plan to cut floating wind costs",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/accidents-and-casualties/cadeler-jack-up-collides-with-another-vessel-hospitalising-one/2-1-2018618",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What you need to know about the new UK energy secretary",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/what-you-need-to-know-about-the-new-uk-energy-secretary/2-1-2019127",
+      "link": "https://www.rechargenews.com/technology/japan-and-uk-eye-much-cheaper-floating-wind-buildout-through-subsea-robotics/2-1-2019159",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3309,6 +3286,17 @@
       "title": "What ‘mother of all co-location projects’ raising $5bn means for 24/7 clean power",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/what-mother-of-all-co-location-projects-raising-5bn-means-for-24-7-clean-power/2-1-2017065",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "What you need to know about the new UK energy secretary",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/what-you-need-to-know-about-the-new-uk-energy-secretary/2-1-2019127",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
