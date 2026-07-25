@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T14:26:43+00:00",
+  "generated_at": "2026-07-25T16:47:31+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -210,22 +210,22 @@
     {
       "name": "rechargenews",
       "url": "https://www.rechargenews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 15
+      "error": "HTTPSConnectionPool(host='www.rechargenews.com', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 284,
+  "count": 265,
   "articles": [
     {
       "title": "Über 100.000 Menschen fliehen, während in Frankreich und Spanien Waldbrände wüten",
@@ -453,16 +453,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Harbour Energy’s US arm advances repair plan after riser leak at Gulf of America oil & gas asset",
-      "teaser": "U.S.-headquartered LLOG Exploration, a subsidiary of Harbour Energy, has seen a drop in output at its asset in the Gulf of America (U.S. Gulf of Mexico) following a riser leak; however, the start-up of a sidetrack well is supporting…",
-      "link": "https://www.offshore-energy.biz/harbour-energys-us-arm-advances-repair-plan-after-riser-leak-at-gulf-of-america-oil-gas-asset/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T12:18:59+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -561,17 +551,6 @@
       ]
     },
     {
-      "title": "North Sea pilot project produces first green hydrogen on operational platform",
-      "teaser": "PosHYdon, the first project in the world to combine offshore wind power, hydrogen production, [&#8230;] The post North Sea pilot project produces first green hydrogen on operational platform appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/north-sea-pilot-project-produces-first-green-hydrogen-on-operational-platform/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T08:18:49+00:00",
-      "matched_keywords": [
-        "hydrogen",
-        "wind power"
-      ]
-    },
-    {
       "title": "Panamint Capital starts construction on $1.7bn solar PV project in Texas",
       "teaser": "Panamint Capital has commenced construction on the $1.7bn solar PV project at its Twin Oaks power station located in Robertson County, Texas.",
       "link": "https://www.energymonitor.ai/news/panamint-starts-construction-solar-project/",
@@ -591,16 +570,6 @@
       "matched_keywords": [
         "pv",
         "solar"
-      ]
-    },
-    {
-      "title": "GTT’s integrated digital toolkit enhances Petronas-chartered LNG vessel fleet",
-      "teaser": "GTT Marine, a division of France's Gaztransport &#38; Technigaz (GTT), has been tasked with deploying its integrated vessel performance solutions across a fleet of liquefied natural gas (LNG) carriers (LNGC) on hire with Malaysia's energy…",
-      "link": "https://www.offshore-energy.biz/gtts-integrated-digital-toolkit-enhances-petronas-chartered-lng-vessel-fleet/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T07:57:40+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -2857,16 +2826,6 @@
       ]
     },
     {
-      "title": "Frankreichs Sommer der Klimarekorde : Ein Land steht in Flammen",
-      "teaser": "Hitze, Feuer, Trockenheit: Kaum ein europäisches Land ist so betroffen. Dennoch hat Frankreich keine robuste Klimapolitik – Präsident Macron hat daraus nie eine Priorität gemacht. Nun muss er EU-Hilfe anfordern.",
-      "link": "https://www.tagesspiegel.de/internationales/frankreichs-sommer-der-klimarekorde-ein-land-im-ausnahmezustand-15870869.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "Elektromobilität",
       "teaser": "Wir bringen die Energiewende in den Verkehrssektor",
       "link": "https://www.bdew.de/energie/elektromobilitaet-dossier/?utm_source=start&utm_id=emobility",
@@ -3154,171 +3113,6 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Batteries beat wind for NextEra as it targets data centre power boom",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/batteries-beat-wind-for-nextera-as-it-targets-data-centre-power-boom/2-1-2020844",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "BP 'finds buyer' for its last renewable power business",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/bp-finds-buyer-for-its-last-renewable-power-business/2-1-2020820",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orsted, Iberdrola and UK government top this week's wind industry moves",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-iberdrola-and-uk-government-top-this-weeks-wind-industry-moves/2-1-2020483",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK 'squandering huge opportunity' on clean power, warns Barclays chief",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/uk-squandering-huge-opportunity-on-clean-power-warns-barclays-chief/2-1-2020385",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "CEO departs at European wind developer amid TotalEnergies integration",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/ceo-departs-at-european-wind-developer-amid-totalenergies-integration/2-1-2020657",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Offshore wind is great at talking about system change – except on this",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/offshore-wind-is-great-at-talking-about-system-change-except-on-this/2-1-2013238",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "The $17bn reason nobody wants to talk about GE Vernova's wind business",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/the-17bn-reason-nobody-wants-to-talk-about-ge-vernovas-wind-business/2-1-2019889",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Mapped: the global crackdown on data centres over power",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/mapped-the-global-crackdown-on-data-centres-over-power/2-1-2019249",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "From RWE to Orsted – how much wind CEOs are paid, and why",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/from-rwe-to-orsted-how-much-wind-ceos-are-paid-and-why/2-1-2018282",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK wind chief warns against fighting ‘culture war’ on energy",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/renewableuk-chief-talks-pragmatism-telegraph-readers-and-the-energy-culture-war/2-1-2017143",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What you need to know about the new UK energy secretary",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/what-you-need-to-know-about-the-new-uk-energy-secretary/2-1-2019127",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Japan and UK hatch new plan to cut floating wind costs",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/japan-and-uk-eye-much-cheaper-floating-wind-buildout-through-subsea-robotics/2-1-2019159",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "States escalate fight over Trump’s War Department wind freeze",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/states-escalate-fight-over-trump-s-war-department-wind-freeze/2-1-2019921",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "The chaotic final minutes in the power market: What is happening and why",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/power-markets/the-chaotic-final-minutes-in-the-power-market-what-is-happening-and-why/2-1-2020078",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
