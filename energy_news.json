@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:21:25+00:00",
+  "generated_at": "2026-07-25T06:10:13+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 22
+      "items_matched": 23
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,29 @@
       "items_matched": 0
     }
   ],
-  "count": 282,
+  "count": 280,
   "articles": [
+    {
+      "title": "Wildfire smoke is crossing borders as climate change intensifies Europe's blazes",
+      "teaser": "\"Climate change, wildfires and air pollution is a vicious circle,\" says Clean Air Fund CEO Jane Burston – and toxic particles can travel thousands of kilometres.",
+      "link": "http://www.euronews.com/2026/07/25/wildfire-air-pollution-can-travel-thousands-of-kilometres-heres-how-to-protect-yourself",
+      "source": "euronews-green",
+      "published": "2026-07-25T05:02:53+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Duh, solar power doesn't work at night — but it excels during the day",
+      "teaser": "Yesterday, the Department of Energy took to social media to try and make a scandal out of a well-known fact: Solar panels do not generate power at night. It’s an old and lazy swipe that critics of renewable energy love to take, even though…",
+      "link": "https://www.canarymedia.com/articles/solar/doe-solar-power-day-night-texas",
+      "source": "canarymedia",
+      "published": "2026-07-24T22:58:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
     {
       "title": "Les États-Unis sanctionnent CEINPET et deux importateurs de gaz cubains",
       "teaser": "Le département d'État américain élargit les sanctions contre Cuba en ciblant le centre de recherche pétrolière CEINPET, filiale de CUPET, ainsi que les importateurs de gaz ENERSA et Einarbo, alors que les importations de brut cubaines…",
@@ -422,16 +443,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Harbour Energy’s US arm advances repair plan after riser leak at Gulf of America oil & gas asset",
-      "teaser": "U.S.-headquartered LLOG Exploration, a subsidiary of Harbour Energy, has seen a drop in output at its asset in the Gulf of America (U.S. Gulf of Mexico) following a riser leak; however, the start-up of a sidetrack well is supporting…",
-      "link": "https://www.offshore-energy.biz/harbour-energys-us-arm-advances-repair-plan-after-riser-leak-at-gulf-of-america-oil-gas-asset/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T12:18:59+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -530,17 +541,6 @@
       ]
     },
     {
-      "title": "North Sea pilot project produces first green hydrogen on operational platform",
-      "teaser": "PosHYdon, the first project in the world to combine offshore wind power, hydrogen production, [&#8230;] The post North Sea pilot project produces first green hydrogen on operational platform appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/north-sea-pilot-project-produces-first-green-hydrogen-on-operational-platform/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T08:18:49+00:00",
-      "matched_keywords": [
-        "hydrogen",
-        "wind power"
-      ]
-    },
-    {
       "title": "Panamint Capital starts construction on $1.7bn solar PV project in Texas",
       "teaser": "Panamint Capital has commenced construction on the $1.7bn solar PV project at its Twin Oaks power station located in Robertson County, Texas.",
       "link": "https://www.energymonitor.ai/news/panamint-starts-construction-solar-project/",
@@ -560,16 +560,6 @@
       "matched_keywords": [
         "pv",
         "solar"
-      ]
-    },
-    {
-      "title": "GTT’s integrated digital toolkit enhances Petronas-chartered LNG vessel fleet",
-      "teaser": "GTT Marine, a division of France's Gaztransport &#38; Technigaz (GTT), has been tasked with deploying its integrated vessel performance solutions across a fleet of liquefied natural gas (LNG) carriers (LNGC) on hire with Malaysia's energy…",
-      "link": "https://www.offshore-energy.biz/gtts-integrated-digital-toolkit-enhances-petronas-chartered-lng-vessel-fleet/",
-      "source": "offshore-energy",
-      "published": "2026-07-24T07:57:40+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -2783,17 +2773,6 @@
       "published": "2026-06-02T07:30:00+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "California makes controversial change to cap-and-invest program",
-      "teaser": "The California Air Resources Board on Friday approved major changes to the state’s cap-and-invest program , including a controversial plan to allow polluting industries to earn free emissions allowances if they invest in decarbonizing…",
-      "link": "https://www.canarymedia.com/articles/emissions-reduction/california-controversial-cap-and-invest-program",
-      "source": "canarymedia",
-      "published": "2026-06-01T17:30:00+00:00",
-      "matched_keywords": [
-        "decarbon",
-        "emission"
       ]
     },
     {
