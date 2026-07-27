@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T15:37:43+00:00",
+  "generated_at": "2026-07-27T17:36:43+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -175,7 +175,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -555,16 +555,6 @@
       "matched_keywords": [
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Evero vise le premier site BECCS du Royaume-Uni avec 217 000 t de CO2",
-      "teaser": "L'opérateur britannique Evero a déposé une demande de permis pour doter sa centrale Ince Bio Power, dans le Cheshire, d'une technologie de captage de carbone, dans le cadre du modèle économique de captage des gaz à effet de serre…",
-      "link": "https://energynews.pro/evero-vise-le-premier-site-beccs-du-royaume-uni-avec-217-000-t-de-co2",
-      "source": "energynews-pro",
-      "published": "2026-07-27T06:36:38+00:00",
-      "matched_keywords": [
-        "co2"
       ]
     },
     {
@@ -2871,6 +2861,16 @@
       ]
     },
     {
+      "title": "Online-Fördertalk zur BEG-Reform",
+      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
+      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
       "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
       "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
       "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
@@ -3059,6 +3059,17 @@
       ]
     },
     {
+      "title": "Vestas breaks UK wind sector record at Scottish project",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/vestas-breaks-uk-wind-sector-record-at-scottish-project/2-1-2021386",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Europe’s fires reveal the cost of failing to replace fossil fuels with wind and solar",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/europe-s-fires-reveal-the-cost-of-failing-to-replace-fossil-fuels-with-wind-and-solar/2-1-2020924",
@@ -3093,6 +3104,17 @@
       ]
     },
     {
+      "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "The winners and losers in TotalEnergies’ portfolio",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/the-winners-and-losers-in-totalenergies-portfolio/2-1-2020815",
@@ -3115,42 +3137,9 @@
       ]
     },
     {
-      "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "UK 'squandering huge opportunity' on clean power, warns Barclays chief",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/uk-squandering-huge-opportunity-on-clean-power-warns-barclays-green-finance-chief/2-1-2020385",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Batteries beat wind for NextEra as it targets data centre power boom",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/batteries-beat-wind-for-nextera-as-it-targets-data-centre-power-boom/2-1-2020844",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orsted, Iberdrola and UK government top this week's wind industry moves",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-iberdrola-and-uk-government-top-this-weeks-wind-industry-moves/2-1-2020483",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3214,9 +3203,20 @@
       ]
     },
     {
-      "title": "BP 'finds buyer' for its last renewable power business",
+      "title": "Batteries beat wind for NextEra as it targets data centre power boom",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/bp-finds-buyer-for-its-last-renewable-power-business/2-1-2020820",
+      "link": "https://www.rechargenews.com/policy/batteries-beat-wind-for-nextera-as-it-targets-data-centre-power-boom/2-1-2020844",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Orsted, Iberdrola and UK government top this week's wind industry moves",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/orsted-iberdrola-and-uk-government-top-this-weeks-wind-industry-moves/2-1-2020483",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
