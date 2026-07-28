@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:12:47+00:00",
+  "generated_at": "2026-07-28T17:20:04+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,39 @@
       "items_matched": 0
     }
   ],
-  "count": 268,
+  "count": 270,
   "articles": [
+    {
+      "title": "Le Malawi installe 20 MW/40 MWh de stockage batterie à Lilongwe",
+      "teaser": "ESCOM et GEAPP ont mis en service à Kanengo un système de stockage de 20 MW/40 MWh, financé par une subvention de 20 millions de dollars, afin de stabiliser le réseau électrique malawite.",
+      "link": "https://energynews.pro/le-malawi-installe-20-mw40-mwh-de-stockage-batterie-a-lilongwe",
+      "source": "energynews-pro",
+      "published": "2026-07-28T16:04:01+00:00",
+      "matched_keywords": [
+        "subvention"
+      ]
+    },
+    {
+      "title": "Spaniens Ministerpräsident Sánchez verteidigt seine Bilanz inmitten einer Flut von Skandalen",
+      "teaser": "Bei seiner letzten Pressekonferenz vor der Sommerpause verteidigte Sänchez die Klima-, Sozial- und Arbeitspolitik, die seiner Aussage nach den Eckpfeiler der von den Sozialisten geführten Regierungskoalition in Spanien gebildet hat.",
+      "link": "https://euractiv.com/de/news/spaniens-sanchez-verteidigt-seine-bilanz/",
+      "source": "euractiv-energie",
+      "published": "2026-07-28T15:52:13+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Northern Irish freight starts lower-emission journey as EVs take the strain",
+      "teaser": "Freeburn begins electric HGV trial across Northern Ireland to help decarbonise goods shipping The post Northern Irish freight starts lower-emission journey as EVs take the strain appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/28/northern-irish-freight-starts-lower-emission-journey-as-evs-take-the-strain/",
+      "source": "energylivenews",
+      "published": "2026-07-28T15:30:00+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "emission"
+      ]
+    },
     {
       "title": "Government told using hydrogen to achieve Net-Zero could net £46 billion",
       "teaser": "Labour told to broaden approach to de-carbonising the UK land-transport sector and lean on H2 more The post Government told using hydrogen to achieve Net-Zero could net £46 billion appeared first on Energy Live News .",
@@ -621,16 +652,6 @@
         "förderung",
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "US renewables surge as clean energy shift away from fossil fuels grows",
-      "teaser": "Renewable energy growth strengthens cleaner electricity while reducing reliance on fossil fuels nationwide The post US renewables surge as clean energy shift away from fossil fuels grows appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/27/us-renewables-surge-as-clean-energy-shift-away-from-fossil-fuels-grows/",
-      "source": "energylivenews",
-      "published": "2026-07-27T13:30:00+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
