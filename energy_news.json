@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T20:11:03+00:00",
+  "generated_at": "2026-07-29T06:24:38+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 13
+      "items_matched": 12
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 30
+      "items_matched": 28
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,58 @@
       "items_matched": 0
     }
   ],
-  "count": 271,
+  "count": 267,
   "articles": [
+    {
+      "title": "Sixth-generation wildfires multiply: why they are more dangerous and how to fight them",
+      "teaser": "Fires like those burning for a week in France and Spain are so intense that they hamper, and at times rule out, direct firefighting. This new pattern, driven by climate change, demands a specific response.",
+      "link": "http://www.euronews.com/2026/07/29/sixth-generation-wildfires-multiply-why-they-are-more-dangerous-and-how-to-fight-them",
+      "source": "euronews-green",
+      "published": "2026-07-29T05:01:58+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Nuclear revival needs $250bn a year, industry says",
+      "teaser": "Banks urged to unlock private capital as governments eye more atomic energy projects",
+      "link": "https://www.ft.com/content/f78ab650-062d-4058-bbcb-315901a1eeb6?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-29T04:00:23+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Neoen Australia begins construction on 907MWh grid-forming BESS in South Australia",
+      "teaser": "Neoen Australia has commenced construction of a 227MW/907MWh grid-forming battery storage system in South Australia.",
+      "link": "https://www.energy-storage.news/neoen-australia-begins-construction-on-907mwh-grid-forming-bess-in-south-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-07-29T03:20:14+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "World’s biggest EV battery maker pivots to AI, grids and ships",
+      "teaser": "CATL aims to become market leader for battery energy storage systems",
+      "link": "https://www.ft.com/content/13351971-76dd-4284-a81e-3ffd8ec4e351?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-28T21:00:08+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "L'ADB finance le premier parc solaire-stockage du Timor-Leste pour 85,7 M$",
+      "teaser": "Manatuto Renewables Power obtient un financement de 85,7 millions de dollars auprès de l'ADB, du Canada, de la JICA et du groupe Banque mondiale pour construire le premier parc solaire et système de batteries du Timor-Leste.",
+      "link": "https://energynews.pro/ladb-finance-le-premier-parc-solaire-stockage-du-timor-leste-pour-857-m",
+      "source": "energynews-pro",
+      "published": "2026-07-28T20:54:18+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Les Pays-Bas obtiennent 103 M€ de Bruxelles pour des navires verts",
       "teaser": "Les Pays-Bas verseront des subventions directes pour l'achat et la conversion de navires au méthanol ou à l'hydrogène renouvelables, un nouveau guichet complétant les dispositifs déjà déployés par La Haye pour le secteur maritime.",
@@ -564,16 +614,6 @@
       "published": "2026-07-28T09:30:00+00:00",
       "matched_keywords": [
         "decarbon"
-      ]
-    },
-    {
-      "title": "Framatome décroche l'aval de la NRC pour enrichir l'uranium à 10% à Richland",
-      "teaser": "La Nuclear Regulatory Commission a approuvé l'amendement de licence permettant à Framatome de fabriquer, sur son site de Richland, du combustible enrichi jusqu'à 10%, une étape vers les combustibles TRISO et HALEU pour réacteurs avancés.",
-      "link": "https://energynews.pro/framatome-decroche-laval-de-la-nrc-pour-enrichir-luranium-a-10-a-richland",
-      "source": "energynews-pro",
-      "published": "2026-07-28T09:03:34+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -954,16 +994,6 @@
       ]
     },
     {
-      "title": "Trump says Saudi nuclear deal depends on relations with Israel",
-      "teaser": "Crown prince has insisted any rapprochement with Israel will depend on steps towards establishing Palestinian state",
-      "link": "https://www.ft.com/content/50793b37-e310-4d38-8f8d-4a2bdb5ee91a?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-23T16:18:59+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Brookfield buys BESS developer Aypa Power from Blackstone",
       "teaser": "Brookfield has agreed to acquire battery storage developer-operator Aypa Power at an enterprise value of ~US$7 billion.",
       "link": "https://www.energy-storage.news/brookfield-buys-bess-developer-aypa-power-from-blackstone/",
@@ -981,26 +1011,6 @@
       "published": "2026-07-23T14:50:18+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Trump throws controversial US-Saudi Arabia nuclear pact into doubt",
-      "teaser": "Also in today’s newsletter, where is the US keeping $13bn of Venezuela’s oil money?",
-      "link": "https://www.ft.com/content/3d5544cd-a1e5-4a33-8db5-1e95fbf17def?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-23T13:40:06+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran war reignites debate over US energy-permitting reform",
-      "teaser": "Changes would enable infrastructure to be built faster in order to bolster the country’s energy security",
-      "link": "https://www.ft.com/content/c1c69ecc-4fe5-4488-9c0f-3611c4f3a1e6?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-23T11:00:06+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -1476,37 +1486,6 @@
       ]
     },
     {
-      "title": "Hithium looks to replicate residential solution ARKVOLT’s Asian success into Europe",
-      "teaser": "Hithium, an integrated energy storage solutions provider known for its leadership in long-duration energy storage, is now seeing strong momentum across its residential businesses and C&#038;I. We discussed this with the company at the…",
-      "link": "https://www.energy-storage.news/hithium-looks-to-replicate-residential-solution-arkvolts-asian-success-into-europe/",
-      "source": "energy-storage-news",
-      "published": "2026-07-20T08:16:31+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "CHINT: Bridging AI infrastructure and energy transition through integrated power solutions",
-      "teaser": "CHINT Global's Beibei Zheng discusses how the company is responding to Europe's dual challenge of AI sovereignty and energy security.",
-      "link": "https://www.energy-storage.news/chint-bridging-ai-infrastructure-and-energy-transition-through-integrated-power-solutions/",
-      "source": "energy-storage-news",
-      "published": "2026-07-20T08:14:53+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
-      "title": "Australia adds 9.1GW of new generation and storage in FY26 with battery storage dominating",
-      "teaser": "Australia's NEM connected 9.1GW of new generation and energy storage to full output in FY26, more than double the result achieved in FY25.",
-      "link": "https://www.energy-storage.news/australia-adds-9-1gw-of-new-generation-and-storage-in-fy26-with-battery-storage-dominating/",
-      "source": "energy-storage-news",
-      "published": "2026-07-20T07:57:48+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
       "title": "Waldbrände wüten in Spanien auf einer Fläche von Tausenden Hektar",
       "teaser": "Rettungskräfte kämpfen gegen den größten Waldbrand des Jahres, während es in Europa immer heißer und trockener wird. „Das Leugnen des Klimanotstands lässt ihn nicht verschwinden. Es macht uns nur noch anfälliger“, sagte Ministerpräsident…",
       "link": "https://euractiv.com/de/news/waldbrande-wuten-in-spanien-auf-einer-flache-von-tausenden-hektar/",
@@ -1846,16 +1825,6 @@
       ]
     },
     {
-      "title": "Russia sanctions package pushed toward midweek deadline",
-      "teaser": "EU foreign ministers failed to sign off on 21st sanctions round. Wednesday is the last day to lock in an oil price cap.",
-      "link": "https://www.politico.eu/article/russia-sanctions-package-wednesday-deadline/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-13T17:44:40+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "A new deal on balcony solar just dropped in the US",
       "teaser": "Do you live in the U.S. and want balcony solar ? A new initiative could help you get a deal on one of these small but mighty systems that plug into a standard outlet and push clean power into your home. Today, California-based nonprofit…",
       "link": "https://www.canarymedia.com/articles/solar/balcony-panel-bright-saver-deal",
@@ -1914,17 +1883,6 @@
       "published": "2026-07-10T09:22:00+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "Worried investors and negative electricity prices: Has Spain’s solar boom really turned ‘bust’?",
-      "teaser": "Media headlines warn that Spain has over-delivered on solar. But is that really the full story?",
-      "link": "http://www.euronews.com/2026/07/10/worried-investors-and-negative-electricity-prices-has-spains-solar-boom-really-turned-bust",
-      "source": "euronews-green",
-      "published": "2026-07-10T05:00:30+00:00",
-      "matched_keywords": [
-        "electricity price",
-        "solar"
       ]
     },
     {
@@ -2965,7 +2923,7 @@
     },
     {
       "title": "New French nuclear cuts likely as heat forecast to hit 40C",
-      "teaser": "Priyanka Shinde",
+      "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/news/29bf1072-458b-4fad-84e1-6d99873c6a25/fresh-nuclear-cuts-likely-this-week-amid-forecast-40c-highs",
       "source": "montelnews",
       "published": null,
@@ -2975,7 +2933,7 @@
     },
     {
       "title": "Another energy crisis – boom or bust for the green transition?",
-      "teaser": "Priyanka Shinde",
+      "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
       "source": "montelnews",
       "published": null,
@@ -2985,7 +2943,7 @@
     },
     {
       "title": "Renewables, heat pumps could “cut EU gas demand 25%”",
-      "teaser": "Priyanka Shinde",
+      "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/news/b26258c7-a6dc-4c55-a0e1-db5ba5f93310/renewables-heat-pumps-could-cut-eu-gas-demand-25-analyst",
       "source": "montelnews",
       "published": null,
@@ -3015,9 +2973,9 @@
       ]
     },
     {
-      "title": "'Stop thinking fixed v floating – right now offshore wind needs something in between'",
+      "title": "GB Energy to start beauty contest for hybrid foundations 'by spring'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/time-to-stop-thinking-fixed-v-floating-right-now-offshore-wind-needs-something-in-between/2-1-2017283",
+      "link": "https://www.rechargenews.com/offshore-wind/gb-energy-to-start-beauty-contest-for-hybrid-foundations-by-spring/2-1-2021320",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3029,6 +2987,17 @@
       "title": "Equinor floating wind pioneer bounces back after Siemens Gamesa turbine faults",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/equinor-floating-wind-pioneer-bounces-back-after-siemens-gamesa-turbine-faults/2-1-2021702",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "'Stop thinking fixed v floating – right now offshore wind needs something in between'",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/time-to-stop-thinking-fixed-v-floating-right-now-offshore-wind-needs-something-in-between/2-1-2017283",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3116,42 +3085,9 @@
       ]
     },
     {
-      "title": "UK 'squandering huge opportunity' on clean power, warns Barclays chief",
+      "title": "Barclays chief: Two things Burnham can do to boost UK clean power rollout",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/barclays-chief-two-things-burnham-can-do-to-boost-uk-clean-power-rollout/2-1-2020385",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK offshore wind site abandoned by BP venture put back up for auction",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/abandoned-uk-offshore-wind-site-put-back-up-for-auction/2-1-2021080",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Batteries beat wind for NextEra as it targets data centre power boom",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/batteries-beat-wind-for-nextera-as-it-targets-data-centre-power-boom/2-1-2020844",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3174,6 +3110,28 @@
       "title": "From RWE to Orsted – how much wind CEOs are paid, and why",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/from-rwe-to-orsted-how-much-wind-ceos-are-paid-and-why/2-1-2018282",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "UK offshore wind site abandoned by BP venture put back up for auction",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/abandoned-uk-offshore-wind-site-put-back-up-for-auction/2-1-2021080",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
