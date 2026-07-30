@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:03:55+00:00",
+  "generated_at": "2026-07-30T17:17:12+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 271,
+  "count": 270,
   "articles": [
+    {
+      "title": "Data centres must balance AI growth with sustainability, says IDTechEx",
+      "teaser": "New research highlights the urgent need for cleaner power, greater efficiency and lower supply chain emissions as AI drives data centre growth The post Data centres must balance AI growth with sustainability, says IDTechEx appeared first…",
+      "link": "https://www.energylivenews.com/2026/07/30/data-centres-must-balance-ai-growth-with-sustainability-says-idtechex/",
+      "source": "energylivenews",
+      "published": "2026-07-30T15:15:00+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
     {
       "title": "Axpo unterzeichnet 10-jährigen Tolling-Vertrag für Speicherprojekt mit 830 Megawattstunden in Italien",
       "teaser": "Axpo hat den Tolling-Vertrag mit mit Zelestra geschlossen. Es handelt sich um ein Batteriespeicher-Projekt mit einer Leistung von 207 Megawatt und einer Kapazität von 830 Megawattstunden im Nordosten Italiens.",
@@ -731,16 +741,6 @@
       ]
     },
     {
-      "title": "Scottish community energy projects get £10m",
-      "teaser": "Money will be spent over the next five years to install renewable power and energy efficiency measures The post Scottish community energy projects get £10m appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/07/29/scottish-community-energy-projects-get-10m/",
-      "source": "energylivenews",
-      "published": "2026-07-29T14:30:00+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Battery storage is an important growth driver, NextEra CEO says, amid merger to create largest regulated utility in US",
       "teaser": "NextEra Energy recorded a 9.5% increase in its net earnings in Q2 2026, as the company advanced its plan to merge with Dominion Energy to form the world's largest regulated power utility.",
       "link": "https://www.energy-storage.news/battery-storage-is-an-important-growth-driver-nextera-ceo-says-amid-merger-to-create-largest-regulated-utility-in-us/",
@@ -942,16 +942,6 @@
       "published": "2026-07-28T15:52:13+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "The nuclear revival will be decided by supply chains—and SMRs will prove it",
-      "teaser": "SMRs are reviving nuclear power by shifting the industry from one-off construction projects to repeatable manufacturing.",
-      "link": "https://www.power-technology.com/analyst-comment/nuclear-revival-decided-supply-chains-smrs/",
-      "source": "power-technology",
-      "published": "2026-07-28T14:48:05+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -2664,9 +2654,9 @@
       ]
     },
     {
-      "title": "Kühlen ohne Reue : Welche Klimaanlage sinnvoll ist",
-      "teaser": "Die Rekordtemperaturen machen vielen Menschen zu schaffen. Und die nächste Hitzephase kommt bestimmt. Doch eine Klimaanlage anschaffen? Die wichtigsten Fragen zur Effizienz – und die größten Fehler.",
-      "link": "https://www.tagesspiegel.de/wissen/kuhlen-ohne-reue-welche-klimaanlage-sinnvoll-ist-15782724.html",
+      "title": "Brandkatastrophen und Extremhitze : Europa lahmt im Kampf gegen den Klimawandel",
+      "teaser": "Die EU sollte beim Umweltschutz zum Vorbild für die ganze Welt werden. Die ambitionierten Ziele werden nun aber nach und nach zurückgeschraubt. Woran liegt das?",
+      "link": "https://www.tagesspiegel.de/internationales/brandkatastrophen-und-extremhitze-europa-lahmt-im-kampf-gegen-den-klimawandel-15896464.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -3006,9 +2996,9 @@
       ]
     },
     {
-      "title": "BP to slash 700 jobs amid renewables retreat",
+      "title": "Trump solar attack revives New York offshore wind-gas pipeline battle",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-transition/bp-to-slash-700-jobs-amid-renewables-retreat/2-1-2023013",
+      "link": "https://www.rechargenews.com/policy/trump-solar-attack-revives-new-york-offshore-wind-gas-pipeline-battle/2-1-2022529",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3020,6 +3010,17 @@
       "title": "Iberdrola renewables unit sees profits slump",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/iberdrola-renewables-unit-sees-profits-slump/2-1-2022932",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "BP to slash 700 jobs amid renewables retreat",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-transition/bp-to-slash-700-jobs-amid-renewables-retreat/2-1-2023013",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3094,12 +3095,13 @@
       ]
     },
     {
-      "title": "Equinor floating wind pioneer bounces back after Siemens Gamesa turbine faults",
+      "title": "What keeps a battery storage CEO awake at night?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/equinor-floating-wind-pioneer-bounces-back-after-siemens-gamesa-turbine-faults/2-1-2021702",
+      "link": "https://www.rechargenews.com/interviews/what-keeps-a-battery-storage-ceo-awake-at-night-/2-1-2018953",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
+        "battery storage",
         "renewable",
         "solar"
       ]
@@ -3127,31 +3129,20 @@
       ]
     },
     {
-      "title": "Mapped: the global crackdown on data centres over power",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/mapped-the-global-crackdown-on-data-centres-over-power/2-1-2019249",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "From RWE to Orsted – how much wind CEOs are paid, and why",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/from-rwe-to-orsted-how-much-wind-ceos-are-paid-and-why/2-1-2018282",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Equinor floating wind pioneer bounces back after Siemens Gamesa turbine faults",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/equinor-floating-wind-pioneer-bounces-back-after-siemens-gamesa-turbine-faults/2-1-2021702",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
