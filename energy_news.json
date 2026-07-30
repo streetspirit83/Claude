@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:25:33+00:00",
+  "generated_at": "2026-07-30T11:46:16+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 63
+      "items_matched": 64
     },
     {
       "name": "erneuerbareenergien",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 13
+      "items_matched": 14
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -335,17 +335,17 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
       "url": "https://www.energylivenews.com",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.energylivenews.com/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.energylivenews.com/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 4
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,80 @@
       "items_matched": 0
     }
   ],
-  "count": 263,
+  "count": 269,
   "articles": [
+    {
+      "title": "Spain, France, UK warn megafires show climate change is ‘threatening our way of life’",
+      "teaser": "In joint statements, the three countries reaffirmed their commitment to fighting global warming.",
+      "link": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-30T10:57:34+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Central & Eastern Europe: UK’s Alcemi buys 2.3GWh Romania projects, Slovakia’s biggest BESS brought online",
+      "teaser": "Alcemi, developer of some of the UK’s biggest projects, has entered the Romanian battery storage market, while Slovakia’s biggest project to date has gone into operation.",
+      "link": "https://www.energy-storage.news/central-eastern-europe-uks-alcemi-buys-2-3gwh-romania-projects-slovakias-biggest-bess-brought-online/",
+      "source": "energy-storage-news",
+      "published": "2026-07-30T10:30:03+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "ACME Solar secures $355m from PFC for 250MW project",
+      "teaser": "ACME Solar obtained $355m in long-term financing from PFC to develop and construct the ACME Urja One (Phase – III) 250MW FDRE project.",
+      "link": "https://www.power-technology.com/news/acme-solar-secures-355m-pfc/",
+      "source": "power-technology",
+      "published": "2026-07-30T10:25:43+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Les États-Unis financent le projet d'ammoniac vert d'ORNX à Laâyoune",
+      "teaser": "L'agence américaine USTDA accorde une subvention au consortium ORNX pour une étude d'ingénierie de son projet d'ammoniac vert à Laâyoune, renforçant la coopération énergétique entre le Maroc et les États-Unis.",
+      "link": "https://energynews.pro/les-etats-unis-financent-le-projet-dammoniac-vert-dornx-a-laayoune",
+      "source": "energynews-pro",
+      "published": "2026-07-30T10:03:12+00:00",
+      "matched_keywords": [
+        "subvention"
+      ]
+    },
+    {
+      "title": "Zelestra receives $181m financing for 176MW Skull Creek project",
+      "teaser": "Zelestra secured $181m in green project financing to support the construction of its 176MW Skull Creek solar power plant in Anderson County.",
+      "link": "https://www.energymonitor.ai/news/zelestra-receives-financing-skull-creek/",
+      "source": "energymonitor",
+      "published": "2026-07-30T10:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "25 Megawattstunden Batteriespeicher in sieben Monaten ans Netz gebracht",
+      "teaser": "VWEW-Energie und Green Flexibility haben im bayerischen Marktoberdorf den neuen Speicher mit 10 Megawatt gemeinsam realisiert. Er wird netzneutral betrieben, womit er die regionalen Anforderungen des Stromnetzes berücksichtigt.",
+      "link": "https://www.pv-magazine.de/2026/07/30/25-megawattstunden-batteriespeicher-in-sieben-monaten-ans-netz-gebracht/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-30T09:50:37+00:00",
+      "matched_keywords": [
+        "forderung",
+        "speicher",
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "Nuclear output sinks to 40-year low as power demand rises",
+      "teaser": "Lastest stats from DESNZ show the pressures of the transition in terms of generation, demand and fuel mix The post Nuclear output sinks to 40-year low as power demand rises appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/30/nuclear-output-sinks-to-40-year-low-as-power-demand-rises/",
+      "source": "energylivenews",
+      "published": "2026-07-30T09:16:16+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "EV demand in Europe, BESS in the US drive LG Energy Solution’s return to profit in Q2",
       "teaser": "LG Energy Solution (LG ES) posted a profitable second quarter this year, with investments in battery storage in the US and EV cell production in Europe paying off.",
@@ -462,6 +534,26 @@
       ]
     },
     {
+      "title": "Öl- und Gaskonzerne verdoppeln Gewinne im Schatten der Klimakrise",
+      "teaser": "Die sechs größten Öl- und Gasunternehmen haben ihre Gewinne im zweiten Quartal 2026 fast verdoppelt. Oxfam fordert eine gerechte Besteuerung, um die Anpassung an die Folgen der Klimakrise zu finanzieren.",
+      "link": "https://www.energiezukunft.eu/klimakrise/oel-und-gaskonzerne-verdoppeln-gewinne-im-schatten-der-klimakrise",
+      "source": "energiezukunft",
+      "published": "2026-07-30T05:00:00+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Bürgerenergie kommt unter die Räder",
+      "teaser": "Bürgerenergie-Akteure haben viel Geduld bewiesen, lange auf die Umsetzung europäischer Standards zum Energy Sharing gewartet. Mit der EEG-Novelle droht das mühsam Erkämpfte unter die Räder zu kommen.",
+      "link": "https://www.energiezukunft.eu/buergerenergie/buergerenergie-kommt-unter-die-raeder",
+      "source": "energiezukunft",
+      "published": "2026-07-30T05:00:00+00:00",
+      "matched_keywords": [
+        "eeg"
+      ]
+    },
+    {
       "title": "‘It’ll take more’: CFS nets another $1B to chase nuclear fusion dream",
       "teaser": "Almost every station on the factory floor of Commonwealth Fusion Systems’ northeast Massachusetts headquarters was bustling on a steamy Friday morning in June. Hard-hatted workers ferried along the components for the company’s first fusion…",
       "link": "https://www.canarymedia.com/articles/nuclear/cfs-1billion-nuclear-fusion",
@@ -543,16 +635,6 @@
       ]
     },
     {
-      "title": "DHL Group et LONGi signent un protocole d'accord sur le solaire",
-      "teaser": "DHL Group et LONGi Solar ont signé un protocole d'accord pour déployer des technologies solaires distribuées sur les sites logistiques du groupe allemand en Europe et étendre leur coopération logistique.",
-      "link": "https://energynews.pro/dhl-group-et-longi-signent-un-protocole-daccord-sur-le-solaire",
-      "source": "energynews-pro",
-      "published": "2026-07-29T15:34:44+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Wind and solar overtake fossil fuels in Germany – but negative electricity prices still rife",
       "teaser": "Despite several setbacks to electrification, Germany is expected to phase out coal much faster than originally planned.",
       "link": "http://www.euronews.com/2026/07/29/wind-and-solar-overtake-fossil-fuels-in-germany-but-negative-electricity-prices-still-rife",
@@ -561,6 +643,16 @@
       "matched_keywords": [
         "electricity price",
         "solar"
+      ]
+    },
+    {
+      "title": "Scottish community energy projects get £10m",
+      "teaser": "Money will be spent over the next five years to install renewable power and energy efficiency measures The post Scottish community energy projects get £10m appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/29/scottish-community-energy-projects-get-10m/",
+      "source": "energylivenews",
+      "published": "2026-07-29T14:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -584,6 +676,16 @@
       ]
     },
     {
+      "title": "Sahara dust threatens Europe’s solar production",
+      "teaser": "Greece, Spain and Italy worst hit by hot sandstorms from Sahara which block light and worsen air quality The post Sahara dust threatens Europe’s solar production appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/29/sahara-dust-threatens-europes-solar-production/",
+      "source": "energylivenews",
+      "published": "2026-07-29T13:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
       "title": "Rabot Energy, Clever-PV und Inexogy bringen kleine Photovoltaik-Dachanlagen an den Strommarkt",
       "teaser": "Eine feste Einspeisevergütung für private Dachanlagen wird es bald nicht mehr geben. Das muss aber nicht das Ende des Ausbaus sein, denn erste Anbieter positionieren sich jetzt gemeinsam für eine vollintegrierte Lösung zur…",
       "link": "https://www.pv-magazine.de/2026/07/29/rabot-energy-clever-pv-und-inexogy-bringen-kleine-photovoltaik-dachanlagen-an-den-strommarkt/",
@@ -592,6 +694,16 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
+      ]
+    },
+    {
+      "title": "Nuclear needs $6tn investment surge to meet 2050 ambitions",
+      "teaser": "Huge world wide opportunity in nuclear growth predicted for the next 25 years The post Nuclear needs $6tn investment surge to meet 2050 ambitions appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/07/29/nuclear-needs-6tn-investment-surge-to-meet-2050-ambitions/",
+      "source": "energylivenews",
+      "published": "2026-07-29T12:28:23+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -674,16 +786,6 @@
       "published": "2026-07-29T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Borr Drilling’s Mexican JV completes purchase of five rigs for $287 million",
-      "teaser": "BC Ventures, a 50/50 joint venture between subsidiaries of Bermuda-based Borr Drilling and CME [&#8230;] The post Borr Drilling’s Mexican JV completes purchase of five rigs for $287 million appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/borr-drillings-mexican-jv-completes-purchase-of-five-rigs-for-287-million/",
-      "source": "offshore-energy",
-      "published": "2026-07-29T07:25:52+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -1054,17 +1156,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Panamint Capital starts construction on $1.7bn solar PV project in Texas",
-      "teaser": "Panamint Capital has commenced construction on the $1.7bn solar PV project at its Twin Oaks power station located in Robertson County, Texas.",
-      "link": "https://www.energymonitor.ai/news/panamint-starts-construction-solar-project/",
-      "source": "energymonitor",
-      "published": "2026-07-24T08:01:48+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
       ]
     },
     {
@@ -1445,17 +1536,6 @@
       ]
     },
     {
-      "title": "Romania ROUNDUP: Aukera, ENEVO Group and Kraftfeld Energy, and PPC Renewables advance BESS projects",
-      "teaser": "Energy companies are accelerating battery storage deployment in Romania, with Aukera, ENEVO Group and Kraftfeld Energy, and PPC Renewables Romania announcing significant project developments.",
-      "link": "https://www.energy-storage.news/romania-roundup-aukera-enevo-group-and-kraftfeld-energy-and-ppc-renewables-advance-bess-projects/",
-      "source": "energy-storage-news",
-      "published": "2026-07-21T09:03:55+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Wind power patents: Goldwind | Sany | LM Wind Power | China Three Gorges",
       "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
       "link": "https://www.windpowermonthly.com/article/1964979/wind-power-patents-goldwind-sany-lm-wind-power-china-three-gorges",
@@ -1598,16 +1678,6 @@
       "published": "2026-07-17T10:12:11+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "States join renewables’ lawsuit over US wind permitting freeze",
-      "teaser": "Nineteen states' attorney generals, including those from New York, New Jersey, California and Massachusetts, yesterday (16 July) formally joined the renewables groups' federal suit against defence secretary Pete Hegseth and the Pentagon…",
-      "link": "https://www.windpowermonthly.com/article/1964912/states-join-renewables-lawsuit-us-wind-permitting-freeze",
-      "source": "windpowermonthly",
-      "published": "2026-07-17T09:30:03+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2541,18 +2611,6 @@
       ]
     },
     {
-      "title": "Wohnwende ist Klimaschutz – warum wir über das leere Zimmer reden müssen",
-      "teaser": "Die klimafreundlichste Wohnung ist oft die, die nicht neu gebaut werden muss. Warum wir neben der Energiewende dringend eine Wohnwende brauchen – und was das mit einem freien Zimmer im Nachbarhaus zu tun hat.",
-      "link": "https://www.energiezukunft.eu/umweltschutz/wohnwende-ist-klimaschutz-warum-wir-ueber-das-leere-zimmer-reden-muessen",
-      "source": "energiezukunft",
-      "published": "2026-06-08T05:00:00+00:00",
-      "matched_keywords": [
-        "energiewende",
-        "klima",
-        "klimaschutz"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2855,6 +2913,26 @@
       ]
     },
     {
+      "title": "Egypt confirms drone attack at LNG terminal, market risk rises",
+      "teaser": "Hubert Put",
+      "link": "https://www.montelnews.com/news/60152522-93d3-49a0-bd59-a4c00030fab6/egypt-confirms-drone-attack-at-lng-terminal-market-risk-rises",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Laden Qatari LNG tanker exits Hormuz, traffic restart uncertain",
+      "teaser": "Hubert Put",
+      "link": "https://www.montelnews.com/news/7bd9e3ad-a1fb-4cb1-b340-6a02e8943e50/laden-qatari-lng-tanker-exits-hormuz-traffic-restart-uncertain",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Hungary deepens nuclear cuts to 1.25 GW as Danube level drops",
       "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/news/dd643000-d172-4902-bb12-3db77c0dbdfe/hungary-deepens-nuclear-cuts-to-1-25-gw-as-danube-level-drops",
@@ -2865,26 +2943,6 @@
       ]
     },
     {
-      "title": "Fire breaks out at LNG storage tanker in Egyptian port",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/a8afe5d9-b1e1-4428-b84d-e930b4ecbb2f/fire-breaks-out-at-lng-storage-tanker-in-egyptian-port",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "Minister: Germany to end subsidies for profitable green projects",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/08a8a80a-2b1b-4f92-9b85-97c65a84f65b/germany-to-end-subsidies-for-profitable-green-projects-minister",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Battery storage: energy economics will drive duration",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
@@ -2892,6 +2950,16 @@
       "published": null,
       "matched_keywords": [
         "battery storage"
+      ]
+    },
+    {
+      "title": "Minister: Germany to end subsidies for profitable green projects",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/08a8a80a-2b1b-4f92-9b85-97c65a84f65b/germany-to-end-subsidies-for-profitable-green-projects-minister",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "subsid"
       ]
     },
     {
@@ -2915,13 +2983,14 @@
       ]
     },
     {
-      "title": "New French nuclear cuts likely as heat forecast to hit 40C",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/29bf1072-458b-4fad-84e1-6d99873c6a25/fresh-nuclear-cuts-likely-this-week-amid-forecast-40c-highs",
-      "source": "montelnews",
+      "title": "One of Asia's most promising floating wind markets risks making a critical mistake",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/one-of-asias-most-promising-floating-wind-markets-risks-making-a-critical-mistake/2-1-2021563",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3075,17 +3144,6 @@
       "published": null,
       "matched_keywords": [
         "battery storage",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas breaks UK wind sector record at Scottish project",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/vestas-breaks-uk-wind-sector-record-at-scottish-project/2-1-2021386",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
         "renewable",
         "solar"
       ]
