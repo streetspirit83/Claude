@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T20:11:33+00:00",
+  "generated_at": "2026-07-31T06:37:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.dena.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "agora-energiewende-news",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 23
+      "items_matched": 22
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 14
+      "items_matched": 15
     },
     {
       "name": "ft-energy",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 23
+      "items_matched": 24
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 269,
+  "count": 261,
   "articles": [
+    {
+      "title": "Thermal energy storage company 1414 Degrees secures 1GW data centre deal in South Australia",
+      "teaser": "1414 Degrees has signed a deal to develop up to 1GW of AI data centre infrastructure at its Aurora Energy Precinct in South Australia.",
+      "link": "https://www.energy-storage.news/thermal-energy-storage-company-1414-degrees-secures-1gw-data-centre-deal-in-south-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-07-31T03:32:11+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Climate change made Spanish wildfires 20 times more likely",
+      "teaser": "Global warming also doubled the likelihood of this year's tinderbox conditions in France, says snap scientific analysis.",
+      "link": "https://www.politico.eu/article/climate-change-spain-france-fire-likely/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-30T22:01:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Data centres must balance AI growth with sustainability, says IDTechEx",
       "teaser": "New research highlights the urgent need for cleaner power, greater efficiency and lower supply chain emissions as AI drives data centre growth The post Data centres must balance AI growth with sustainability, says IDTechEx appeared first…",
@@ -422,7 +442,7 @@
       ]
     },
     {
-      "title": "„Leistungspreis-Plus“-Modell als marktbasiertes Konzept zur Einbindung von Kleinstflexibilitäten in den Redispatch 3.0.",
+      "title": "„Leistungspreis-Plus“-Modell als marktbasiertes Konzept zur Einbindung von Kleinstflexibilitäten in den Redispatch 3.0",
       "teaser": "Tennet und Transnet BW suchen im Projekt „DataFleX“ nach Wegen, wie Kleinstflexibilitäten wie Photovoltaik-Heimspeicher, Elektroautobatterien, Wärmepumpen oder gewerbliche Lasten in das Engpassmanagement der Netzbetreiber einbezogen werden…",
       "link": "https://www.pv-magazine.de/2026/07/30/leistungspreis-plus-modell-als-marktbasiertes-konzept-zur-einbindung-von-kleinstflexibilitaeten-in-den-redispatch-3-0/",
       "source": "pv-magazine-de",
@@ -676,6 +696,16 @@
       "published": "2026-07-30T04:00:31+00:00",
       "matched_keywords": [
         "nuclear",
+        "subsid"
+      ]
+    },
+    {
+      "title": "The EU’s foreign subsidy rules are deterring Chinese firms. At what cost?",
+      "teaser": "As it turns three, the Foreign Subsidies Regulation has changed corporate behavior. Whether Europe benefits is another question.",
+      "link": "https://www.politico.eu/article/eu-foreign-subsidy-rules-deterring-chinese-firms-cost/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-07-30T04:00:00+00:00",
+      "matched_keywords": [
         "subsid"
       ]
     },
@@ -1810,16 +1840,6 @@
       ]
     },
     {
-      "title": "The 3 letters Brussels won’t be able to shut up about",
-      "teaser": "POLITICO’s guide to the core elements of the Emissions Trading System reform.",
-      "link": "https://www.politico.eu/article/eu-ets-carbon-market-reform-proposal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-15T12:28:28+00:00",
-      "matched_keywords": [
-        "emissions trading"
-      ]
-    },
-    {
       "title": "Holtec bets big on small nuclear reactors in its IPO filing",
       "teaser": "Nuclear giant Holtec International is betting big that its 300-megawatt small modular reactors are the future of atomic energy. On Friday, the Florida-headquartered firm filed paperwork with the Securities and Exchange Commission in order…",
       "link": "https://www.canarymedia.com/articles/nuclear/holtec-ipo-small-modular-reactors",
@@ -1867,17 +1887,6 @@
       "published": "2026-07-14T05:02:00+00:00",
       "matched_keywords": [
         "forderung"
-      ]
-    },
-    {
-      "title": "Solar generated record 25% of EU power in June with Germany, Spain and Poland leading the race",
-      "teaser": "Solar was ahead of coal, gas, nuclear, wind and hydropower.",
-      "link": "http://www.euronews.com/2026/07/14/solar-generated-record-25-of-eu-power-in-june-with-germany-spain-and-poland-leading-the-ra",
-      "source": "euronews-green",
-      "published": "2026-07-14T05:00:12+00:00",
-      "matched_keywords": [
-        "nuclear",
-        "solar"
       ]
     },
     {
@@ -2694,100 +2703,6 @@
       ]
     },
     {
-      "title": "PPAs im Licht der EEG-Novelle",
-      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
-      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "Neues Online-Tool unterstützt beim Kauf verbrauchsarmer Pkw",
-      "teaser": "„Pkw Energie Check“ der dena schafft Transparenz über CO2-Emissionen, Energieverbräuche und laufende Tank- und Ladekosten",
-      "link": "https://www.dena.de/infocenter/neues-online-tool-unterstuetzt-beim-kauf-verbrauchsarmer-pkw/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "co2",
-        "emission"
-      ]
-    },
-    {
-      "title": "Data Spaces für die Energiewende nutzen",
-      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
-      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Updatebericht dena-Gebäudereport 2026: Wärmewende nimmt Fahrt auf",
-      "teaser": "Erstmals wurden 2025 mehr Wärmepumpen als Gasheizungen verkauft. Neue Zahlen zur kommunalen Wärmeplanung zeigen Fortschritte in vielen Städten und Gemeinden, während sich serielle Sanierung als Markt...",
-      "link": "https://www.dena.de/infocenter/updatebericht-dena-gebaeudereport-2026-waermewende-nimmt-fahrt-auf/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Online-Fördertalk zur BEG-Reform",
-      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
-      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
-      ]
-    },
-    {
-      "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
-      "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
-      "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
-      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
-      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
-      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "speicher",
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Renewable-Energy-Solutions-Programm",
-      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
-      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Energie erzeugen und verteilen",
-      "teaser": "Wir stellen das Energiesystem um - auf erneuerbaren Strom, Wasserstoff und Fernwärme.",
-      "link": "https://www.dena.de/themen/energie-erzeugen-und-verteilen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "wasserstoff"
-      ]
-    },
-    {
       "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
       "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
       "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
@@ -2986,6 +2901,28 @@
       ]
     },
     {
+      "title": "The five key steps to unlocking Mediterranean offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/the-five-key-steps-to-unlocking-mediterranean-offshore-wind/2-1-2020828",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Xcel bets wind and storage can beat gas in US data-centre power race",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/power-markets/xcel-bets-wind-and-storage-can-beat-gas-in-us-data-centre-power-race/2-1-2023114",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Trump solar attack revives New York offshore wind-gas pipeline battle",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/trump-solar-attack-revives-new-york-offshore-wind-gas-pipeline-battle/2-1-2022529",
@@ -3063,17 +3000,6 @@
       ]
     },
     {
-      "title": "RWE updates on recovery from historic wind drought",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/rwe-updates-on-recovery-from-historic-wind-drought/2-1-2022077",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "GB Energy to start beauty contest for hybrid foundations 'by spring'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/gb-energy-pursuing-aggressive-timeline-to-deploy-hybrid-offshore-wind-says-director/2-1-2021320",
@@ -3130,20 +3056,9 @@
       ]
     },
     {
-      "title": "Equinor floating wind pioneer bounces back after Siemens Gamesa turbine faults",
+      "title": "RWE updates on recovery from historic wind drought",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/equinor-floating-wind-pioneer-bounces-back-after-siemens-gamesa-turbine-faults/2-1-2021702",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Iberdrola sells Mexico to buy the grid",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/iberdrola-sells-mexico-to-buy-the-grid/2-1-2019871",
+      "link": "https://www.rechargenews.com/finance/rwe-updates-on-recovery-from-historic-wind-drought/2-1-2022077",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
