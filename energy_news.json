@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:37:11+00:00",
+  "generated_at": "2026-07-31T11:52:52+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,80 @@
       "items_matched": 0
     }
   ],
-  "count": 271,
+  "count": 273,
   "articles": [
+    {
+      "title": "Antora Energy closes US$550 million Series C to scale US thermal battery deployment",
+      "teaser": "Thermal energy storage (TES) technology provider Antora Energy has closed a US$550 million Series C funding round to accelerate deployment of its thermal battery storage systems for industrial facilities and data centres in the US.",
+      "link": "https://www.energy-storage.news/antora-energy-closes-us550-million-series-c-to-scale-us-thermal-battery-deployment/",
+      "source": "energy-storage-news",
+      "published": "2026-07-31T11:48:18+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "„Finanztip“: Warum sich die Inbetriebnahme einer Photovoltaik-Dachanlage noch in diesem Jahr lohnt",
+      "teaser": "Das Ratgeber-Portal rechnet vor, das private Verbraucher allein in den ersten drei Jahren 444 Euro mehr einnehmen, wenn sie sich die feste Einspeisevergütung sichern. Nach den aktuellen EEG-Plänen wird es für kleine Dachanlagen ab dem…",
+      "link": "https://www.pv-magazine.de/2026/07/31/finanztip-warum-sich-die-inbetriebnahme-einer-photovoltaik-dachanlage-noch-in-diesem-jahr-lohnt/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-31T11:20:25+00:00",
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Greenvolt inaugurates 200MW/800MWh capacity market-contracted BESS in Poland",
+      "teaser": "Greenvolt Power has inaugurated the 200MW Turośń Kościelna Battery Energy Storage Facility in Poland, which energy trader Entrix will optimise.",
+      "link": "https://www.energy-storage.news/greenvolt-inaugurates-200mw-800mwh-capacity-market-contracted-bess-in-poland/",
+      "source": "energy-storage-news",
+      "published": "2026-07-31T10:40:19+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Antora raises $550m to deploy large-scale thermal storage in US",
+      "teaser": "Antora Energy has secured a $550m Series C funding aimed at accelerating the deployment of large-scale thermal battery storage solutions.",
+      "link": "https://www.energymonitor.ai/news/antora-raises-550m-deploy-storage/",
+      "source": "energymonitor",
+      "published": "2026-07-31T10:30:00+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Wind power patents: Vestas | Windey | Flender | Dongfang",
+      "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
+      "link": "https://www.windpowermonthly.com/article/1966238/wind-power-patents-vestas-windey-flender-dongfang",
+      "source": "windpowermonthly",
+      "published": "2026-07-31T10:25:02+00:00",
+      "matched_keywords": [
+        "wind power"
+      ]
+    },
+    {
+      "title": "FIC acquires US battery and solar platform operator Perfect Power",
+      "teaser": "FIC Partners Management has announced the acquisition of Perfect Power, a US-based company that owns and operates the Jaguar Energy Center.",
+      "link": "https://www.power-technology.com/news/fic-acquires-perfect-power/",
+      "source": "power-technology",
+      "published": "2026-07-31T10:20:52+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Einspeisevergütung für Photovoltaik-Anlagen sinkt ab August um ein Prozent",
+      "teaser": "Ab dem 1. August liegen die festen Einspeisevergütungen für Photovoltaik-Anlagen in der Teileinspeisung zwischen 5,44 und 7,70 Cent pro Kilowattsunde. Volleinspeiser erhalten zwischen 10,24 und 12,22 Cent pro Kilowattstunde.",
+      "link": "https://www.pv-magazine.de/2026/07/31/einspeiseverguetung-fuer-photovoltaik-anlagen-sinkt-ab-august-um-ein-prozent/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-31T10:20:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "Behind Europe’s mega fires: Would France and Spain still be ablaze if it weren’t for climate change?",
       "teaser": "Climate change made recent fire-prone conditions at least twice as likely in southwestern France and at least 20 times as likely in central Spain, new analysis shows.",
@@ -388,6 +460,16 @@
       "published": "2026-07-31T08:54:04+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "MOL Group buys Shell’s subsidiary in Cyprus for $720 million",
+      "teaser": "UK-headquartered energy giant Shell has reached an agreement with Hungarian multinational oil &#38; gas [&#8230;] The post MOL Group buys Shell&#8217;s subsidiary in Cyprus for $720 million appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/mol-group-buys-shells-subsidiary-in-cyprus-for-720-million/",
+      "source": "offshore-energy",
+      "published": "2026-07-31T08:33:31+00:00",
+      "matched_keywords": [
+        "subsid"
       ]
     },
     {
@@ -691,16 +773,6 @@
       ]
     },
     {
-      "title": "Mein Server muss länger leben als meine Firma",
-      "teaser": "Ab Februar 2027 braucht in der EU jeder Batteriespeicher über zwei Kilowattstunden einen eigenen digitalen Pass, abrufbar pro Seriennummer. Softwareentwickler Majid Goschka baut die Technik dafür und erklärt, warum die eigentliche Hürde…",
-      "link": "https://www.pv-magazine.de/2026/07/30/mein-server-muss-laenger-leben-als-meine-firma/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-30T07:30:00+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "This Texas coal mine will soon be home to a 1.2GW solar farm",
       "teaser": "Construction is underway on a $1.7 billion solar and battery storage project in Texas that will turn existing coal mining land into a hub of clean energy generation. Panamint Capital announced last week that it broke ground on the…",
       "link": "https://www.canarymedia.com/articles/solar/texas-coal-mine-solar-farm",
@@ -810,16 +882,6 @@
       "published": "2026-07-29T18:26:55+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Marktübersicht Heimenergiemanagementsysteme: Sechs Kriterien, die bei der Auswahl zählen",
-      "teaser": "Viele Heimenergiemanagementsysteme optimieren den Eigenverbrauch bereits gut. Wer aber dynamische Tarife, variable Netzentgelte, regulatorische Steuerbarkeit, breite Gerätekompatibilität oder Marktintegration nutzen will, muss genauer…",
-      "link": "https://www.pv-magazine.de/2026/07/29/marktuebersicht-heimenergiemanagementsysteme-sechs-kriterien-die-bei-der-auswahl-zaehlen/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-29T17:09:00+00:00",
-      "matched_keywords": [
-        "netzentgelt"
       ]
     },
     {
@@ -1126,17 +1188,6 @@
       "published": "2026-07-27T09:59:37+00:00",
       "matched_keywords": [
         "subsid"
-      ]
-    },
-    {
-      "title": "CS PowerTech opens first phase of solar cell facility in Indiana, US",
-      "teaser": "CS PowerTech has opened the first phase of its PV cell manufacturing plant at the River Ridge Commerce Center in Jeffersonville, Indiana.",
-      "link": "https://www.energymonitor.ai/news/cs-powertech-opens-solar-facility/",
-      "source": "energymonitor",
-      "published": "2026-07-27T08:22:22+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
       ]
     },
     {
@@ -1495,16 +1546,6 @@
       ]
     },
     {
-      "title": "Energy Storage Awards 2026: Judges seek winners with the ambition to solve industry problems",
-      "teaser": "With the Energy Storage Awards 2026 entry deadline less than two months away, we speak to four judges to hear what they are looking for from successful entrants.",
-      "link": "https://www.energy-storage.news/energy-storage-awards-2026-judges-seek-winners-with-the-ambition-to-solve-industry-problems/",
-      "source": "energy-storage-news",
-      "published": "2026-07-22T08:24:06+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "State legislatures are getting better at clean-energy permitting policy",
       "teaser": "Solar, wind, and batteries are the cheapest, fastest ways to add much-needed electricity to America’s grid. And across the country, more state legislatures are passing laws to streamline renewable development than are enacting policies to…",
       "link": "https://www.canarymedia.com/articles/clean-energy/state-legislatures-clean-energy-permitting",
@@ -1555,17 +1596,6 @@
       "matched_keywords": [
         "erneuerbare",
         "windkraft"
-      ]
-    },
-    {
-      "title": "Samsung C&T submits 1,000MWh solar-plus-storage project in New South Wales to Australia’s EPBC Act",
-      "teaser": "Samsung C&#038;T Renewable Energy Australia has submitted the 1GWh Boro solar-plus-storage project in New South Wales to Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/samsung-ct-submits-1000mwh-solar-plus-storage-project-in-new-south-wales-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-07-22T03:20:25+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -1701,16 +1731,6 @@
       "matched_keywords": [
         "climate",
         "emission"
-      ]
-    },
-    {
-      "title": "Scottish government approves 2GW offshore wind farm",
-      "teaser": null,
-      "link": "https://www.windpowermonthly.com/article/1964938/scottish-government-approves-2gw-offshore-wind-farm",
-      "source": "windpowermonthly",
-      "published": "2026-07-17T11:22:42+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -2935,16 +2955,6 @@
       ]
     },
     {
-      "title": "Drought cuts one-third SE Europe nuclear capacity, prices surge",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/a276fe11-ad99-4c72-aed6-1ef53114719a/drought-cuts-one-third-se-europe-nuclear-capacity-prices-surge",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Battery storage: energy economics will drive duration",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
@@ -2952,6 +2962,16 @@
       "published": null,
       "matched_keywords": [
         "battery storage"
+      ]
+    },
+    {
+      "title": "Drought cuts one-third SE Europe nuclear capacity, prices surge",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/a276fe11-ad99-4c72-aed6-1ef53114719a/drought-cuts-one-third-se-europe-nuclear-capacity-prices-surge",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -2965,16 +2985,6 @@
       ]
     },
     {
-      "title": "Laden Qatari LNG tanker exits Hormuz, traffic restart uncertain",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/7bd9e3ad-a1fb-4cb1-b340-6a02e8943e50/laden-qatari-lng-tanker-exits-hormuz-traffic-restart-uncertain",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Another energy crisis – boom or bust for the green transition?",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
@@ -2982,6 +2992,16 @@
       "published": null,
       "matched_keywords": [
         "energy crisis"
+      ]
+    },
+    {
+      "title": "Laden Qatari LNG tanker exits Hormuz, traffic restart uncertain",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/7bd9e3ad-a1fb-4cb1-b340-6a02e8943e50/laden-qatari-lng-tanker-exits-hormuz-traffic-restart-uncertain",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -3002,6 +3022,17 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "TotalEnergies, CIP and Hitachi top this week's wind industry moves",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/totalenergies-cip-and-hitachi-top-this-weeks-wind-industry-moves/2-1-2023454",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3093,28 +3124,6 @@
       ]
     },
     {
-      "title": "Nordex: Four charts showing rise and rise of turbine maker",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/visual-and-data-journalism/nordex-four-charts-showing-rise-and-rise-of-turbine-maker/2-1-2022215",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "GB Energy to start beauty contest for hybrid foundations 'by spring'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/gb-energy-pursuing-aggressive-timeline-to-deploy-hybrid-offshore-wind-says-director/2-1-2021320",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "What keeps a battery storage CEO awake at night?",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/what-keeps-a-battery-storage-ceo-awake-at-night-/2-1-2018953",
@@ -3149,6 +3158,17 @@
       ]
     },
     {
+      "title": "GB Energy to start beauty contest for hybrid foundations 'by spring'",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/gb-energy-pursuing-aggressive-timeline-to-deploy-hybrid-offshore-wind-says-director/2-1-2021320",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "EXCLUSIVE: Meta thrown off key global clean energy scheme over gas spree",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/exclusive-meta-thrown-off-key-global-clean-energy-scheme-over-gas-spree/2-1-2019180",
@@ -3160,9 +3180,9 @@
       ]
     },
     {
-      "title": "Hitachi Energy hires Siemens Energy vice president",
+      "title": "Nordex: Four charts showing rise and rise of turbine maker",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/hitachi-energy-hires-siemens-energy-vice-president/2-1-2022238",
+      "link": "https://www.rechargenews.com/visual-and-data-journalism/nordex-four-charts-showing-rise-and-rise-of-turbine-maker/2-1-2022215",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
