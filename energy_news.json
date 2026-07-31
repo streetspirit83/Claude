@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:52:52+00:00",
+  "generated_at": "2026-07-31T15:13:08+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "500 Server Error: Internal Server Error for url: https://www.dena.de/newsroom",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "agora-energiewende-news",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 273,
+  "count": 265,
   "articles": [
+    {
+      "title": "US nuclear reactor company Westinghouse files for IPO",
+      "teaser": "Brookfield-owned company plots listing nine years after cost overruns forced it into bankruptcy protection",
+      "link": "https://www.ft.com/content/0f47fc94-d039-4561-936e-55b5fc34541d?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-07-31T13:34:31+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Antora Energy closes US$550 million Series C to scale US thermal battery deployment",
       "teaser": "Thermal energy storage (TES) technology provider Antora Energy has closed a US$550 million Series C funding round to accelerate deployment of its thermal battery storage systems for industrial facilities and data centres in the US.",
@@ -383,13 +393,33 @@
     },
     {
       "title": "„Finanztip“: Warum sich die Inbetriebnahme einer Photovoltaik-Dachanlage noch in diesem Jahr lohnt",
-      "teaser": "Das Ratgeber-Portal rechnet vor, das private Verbraucher allein in den ersten drei Jahren 444 Euro mehr einnehmen, wenn sie sich die feste Einspeisevergütung sichern. Nach den aktuellen EEG-Plänen wird es für kleine Dachanlagen ab dem…",
+      "teaser": "Das Ratgeber-Portal rechnet vor, dass private Verbraucher allein in den ersten drei Jahren 444 Euro mehr einnehmen, wenn sie sich die feste Einspeisevergütung sichern. Nach den aktuellen EEG-Plänen wird es für kleine Dachanlagen ab dem…",
       "link": "https://www.pv-magazine.de/2026/07/31/finanztip-warum-sich-die-inbetriebnahme-einer-photovoltaik-dachanlage-noch-in-diesem-jahr-lohnt/",
       "source": "pv-magazine-de",
       "published": "2026-07-31T11:20:25+00:00",
       "matched_keywords": [
         "eeg",
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "Europe’s heatwave strains nuclear output",
+      "teaser": "Extreme heat and falling river levels have disrupted nuclear power generation across Europe, with reactors shut down or operating at reduced output.",
+      "link": "https://www.power-technology.com/news/europes-heatwave-strains-nuclear-output/",
+      "source": "power-technology",
+      "published": "2026-07-31T10:51:22+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "A fault on Ghana’s power grid triggers widespread outages",
+      "teaser": "A major fault on Ghana's national power grid has caused widespread blackouts, leaving large parts of the country without electricity for up to 18 hours.",
+      "link": "https://www.power-technology.com/news/a-fault-on-ghanas-power-grid-triggers-widespread-outages/",
+      "source": "power-technology",
+      "published": "2026-07-31T10:51:19+00:00",
+      "matched_keywords": [
+        "power grid"
       ]
     },
     {
@@ -743,16 +773,6 @@
       ]
     },
     {
-      "title": "Chinas Photovoltaik-Zubau steuert auf den ersten jährlichen Rückgang seit 2019 zu",
-      "teaser": "Nach Angaben des chinesischen Photovoltaik-Branchenverbands CPIA kehren die Installationen im Inland auf ein nachhaltigeres Niveau zurück und sind weniger politikgetrieben. Dennoch wird sowohl für den chinesischen Markt als auch für den…",
-      "link": "https://www.pv-magazine.de/2026/07/30/chinas-photovoltaik-zubau-steuert-auf-den-ersten-jaehrlichen-rueckgang-seit-2019-zu/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-30T08:37:08+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "‘Lost forever’: What does the future look like for a Mediterranean flooded with invasive species?",
       "teaser": "Scientists have designated the Mediterranean as a climate change “hot spot” – and warming waters are bringing aggressive new alien species.",
       "link": "http://www.euronews.com/2026/07/30/lost-forever-what-does-the-future-look-like-for-a-mediterranean-flooded-with-invasive-spec",
@@ -1034,16 +1054,6 @@
       "published": "2026-07-29T03:20:14+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "World’s biggest EV battery maker pivots to AI, grids and ships",
-      "teaser": "CATL aims to become market leader for battery energy storage systems",
-      "link": "https://www.ft.com/content/13351971-76dd-4284-a81e-3ffd8ec4e351?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-28T21:00:08+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2733,100 +2743,6 @@
       ]
     },
     {
-      "title": "PPAs im Licht der EEG-Novelle",
-      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
-      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "Neues Online-Tool unterstützt beim Kauf verbrauchsarmer Pkw",
-      "teaser": "„Pkw Energie Check“ der dena schafft Transparenz über CO2-Emissionen, Energieverbräuche und laufende Tank- und Ladekosten",
-      "link": "https://www.dena.de/infocenter/neues-online-tool-unterstuetzt-beim-kauf-verbrauchsarmer-pkw/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "co2",
-        "emission"
-      ]
-    },
-    {
-      "title": "Data Spaces für die Energiewende nutzen",
-      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
-      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Updatebericht dena-Gebäudereport 2026: Wärmewende nimmt Fahrt auf",
-      "teaser": "Erstmals wurden 2025 mehr Wärmepumpen als Gasheizungen verkauft. Neue Zahlen zur kommunalen Wärmeplanung zeigen Fortschritte in vielen Städten und Gemeinden, während sich serielle Sanierung als Markt...",
-      "link": "https://www.dena.de/infocenter/updatebericht-dena-gebaeudereport-2026-waermewende-nimmt-fahrt-auf/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Online-Fördertalk zur BEG-Reform",
-      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
-      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
-      ]
-    },
-    {
-      "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
-      "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
-      "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
-      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
-      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
-      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "speicher",
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Renewable-Energy-Solutions-Programm",
-      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
-      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Energie erzeugen und verteilen",
-      "teaser": "Wir stellen das Energiesystem um - auf erneuerbaren Strom, Wasserstoff und Fernwärme.",
-      "link": "https://www.dena.de/themen/energie-erzeugen-und-verteilen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "wasserstoff"
-      ]
-    },
-    {
       "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
       "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
       "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
@@ -2945,13 +2861,24 @@
       ]
     },
     {
-      "title": "Egypt LNG terminal attack may free cargoes for Europe",
+      "title": "French nuclear modulation falls 27% on strong summer demand",
       "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/5284ef22-1bb3-4b94-a9a5-66a52487984c/egypt-lng-terminal-attack-may-free-cargoes-for-europe-analysts",
+      "link": "https://www.montelnews.com/news/22cce404-9ba7-436b-acd2-f57c97ab5ffe/french-nuclear-modulation-falls-27-on-strong-summer-demand",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "lng"
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Hungary power prices hit 3.5-year highs amid nuclear supply crisis",
+      "teaser": "Hubert Put",
+      "link": "https://www.montelnews.com/news/696173f2-5f45-4442-962d-d39a99f33ebc/hungary-power-prices-hit-3-5-year-highs-amid-nuclear-supply-crisis",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear",
+        "power price"
       ]
     },
     {
@@ -2965,26 +2892,6 @@
       ]
     },
     {
-      "title": "Drought cuts one-third SE Europe nuclear capacity, prices surge",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/a276fe11-ad99-4c72-aed6-1ef53114719a/drought-cuts-one-third-se-europe-nuclear-capacity-prices-surge",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "UK wildfire poses no “imminent threat” to nuclear plant",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/32d71804-74bf-4513-aca8-dfebc74fc3dd/uk-wildfire-poses-no-imminent-threat-to-nuclear-plant-edf",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Another energy crisis – boom or bust for the green transition?",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
@@ -2995,9 +2902,9 @@
       ]
     },
     {
-      "title": "Laden Qatari LNG tanker exits Hormuz, traffic restart uncertain",
+      "title": "Egypt LNG terminal attack may free cargoes for Europe",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/7bd9e3ad-a1fb-4cb1-b340-6a02e8943e50/laden-qatari-lng-tanker-exits-hormuz-traffic-restart-uncertain",
+      "link": "https://www.montelnews.com/news/5284ef22-1bb3-4b94-a9a5-66a52487984c/egypt-lng-terminal-attack-may-free-cargoes-for-europe-analysts",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -3005,23 +2912,33 @@
       ]
     },
     {
-      "title": "Minister: Germany to end subsidies for profitable green projects",
+      "title": "Drought cuts one-third SE Europe nuclear capacity, prices surge",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/08a8a80a-2b1b-4f92-9b85-97c65a84f65b/germany-to-end-subsidies-for-profitable-green-projects-minister",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "French nuclear cuts to hit 9% on new 42C heatwave",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/775de803-1a8c-424c-a14a-70bc44f59fc3/french-nuclear-cuts-to-hit-11-on-new-42c-heatwave-2",
+      "link": "https://www.montelnews.com/news/a276fe11-ad99-4c72-aed6-1ef53114719a/drought-cuts-one-third-se-europe-nuclear-capacity-prices-surge",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "UK wildfire poses no “imminent threat” to nuclear plant",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/32d71804-74bf-4513-aca8-dfebc74fc3dd/uk-wildfire-poses-no-imminent-threat-to-nuclear-plant-edf",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Laden Qatari LNG tanker exits Hormuz, traffic restart uncertain",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/7bd9e3ad-a1fb-4cb1-b340-6a02e8943e50/laden-qatari-lng-tanker-exits-hormuz-traffic-restart-uncertain",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
