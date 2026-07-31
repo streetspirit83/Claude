@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:37:26+00:00",
+  "generated_at": "2026-07-31T09:37:11+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "euwid-energie",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 64
+      "items_matched": 63
     },
     {
       "name": "erneuerbareenergien",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.dena.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "euronews-green",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 22
+      "items_matched": 23
     },
     {
       "name": "politico-energy-climate",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 46
+      "items_matched": 47
     },
     {
       "name": "power-technology",
@@ -368,8 +368,91 @@
       "items_matched": 0
     }
   ],
-  "count": 261,
+  "count": 271,
   "articles": [
+    {
+      "title": "Behind Europe’s mega fires: Would France and Spain still be ablaze if it weren’t for climate change?",
+      "teaser": "Climate change made recent fire-prone conditions at least twice as likely in southwestern France and at least 20 times as likely in central Spain, new analysis shows.",
+      "link": "http://www.euronews.com/2026/07/31/behind-europes-mega-fires-would-france-and-spain-still-be-ablaze-if-it-werent-for-climate-",
+      "source": "euronews-green",
+      "published": "2026-07-31T09:11:07+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Solarstrom-Anteil an der Last in Deutschland erstmals drei Monate in Folge über 30 Prozent",
+      "teaser": "Auch EU-weit wächst der Anteil der Photovoltaik weiter und erreichte in den Monaten Mai, Juni und Juli konstant mehr als 20 Prozent, wie Energy-Charts vom Fraunhofer ISE ermittelte. In der Schweiz waren es immerhin mehr als 25 Prozent. Den…",
+      "link": "https://www.pv-magazine.de/2026/07/31/solarstrom-anteil-an-der-last-in-deutschland-erstmals-drei-monate-in-folge-ueber-30-prozent/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-31T08:54:04+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Origis Energy nears 1GW capacity at Rockhound complex in Texas",
+      "teaser": "US-based Origis Energy has commenced commercial operations of three more phases at its Rockhound Solar complex in Ector County, Texas, raising the site’s total working capacity to nearly 1GW direct current (GWdc).",
+      "link": "https://www.power-technology.com/news/origis-energy-1gw-rockhound-complex-texas/",
+      "source": "power-technology",
+      "published": "2026-07-31T08:02:11+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Tata Power begins construction on 800MW renewable project in AP, India",
+      "teaser": "TPREL, a subsidiary of Tata Power, has commenced construction on an 800MW energy project in Andhra Pradesh (AP), India.",
+      "link": "https://www.energymonitor.ai/news/tata-power-construction-800mw-project/",
+      "source": "energymonitor",
+      "published": "2026-07-31T07:56:09+00:00",
+      "matched_keywords": [
+        "renewable",
+        "subsid"
+      ]
+    },
+    {
+      "title": "„Wir verkaufen Photovoltaik aus dem Keller heraus“",
+      "teaser": "Interview: Ausgehend von Brennstoffzellenheizungen und Wärmepumpen hat die Erdgas Südwest Service GmbH ihr Geschäft konsequent um Photovoltaik, Speicher, Wallboxen und Energiemanagementsysteme erweitert. Die Auftragslage ist gut, wie…",
+      "link": "https://www.pv-magazine.de/2026/07/31/wir-verkaufen-photovoltaik-aus-dem-keller-heraus/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-31T07:50:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Die europäische Strommarktintegration zu einem Win-Win machen",
+      "teaser": "Internationale Stromleitungen sind zentral für ein kosteneffizientes und klimaneutrales europäisches Energiesystem. Allerdings führen steigende Preise in Exportländern zu Verbraucherwiderstand gegen eine weitere Marktintegration. Unsere…",
+      "link": "https://www.pv-magazine.de/2026/07/31/die-europaeische-strommarktintegration-zu-einem-win-win-machen/",
+      "source": "pv-magazine-de",
+      "published": "2026-07-31T07:30:00+00:00",
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "California was mostly solar-powered in May — a global first",
+      "teaser": "See more from Canary Media’s ​“Chart of the Week” column . While the Trump administration is busy pointing out that the sun doesn’t shine at night , solar is breaking records around the world, including in sunny California. Solar panels…",
+      "link": "https://www.canarymedia.com/articles/solar/california-solar-power-record-may",
+      "source": "canarymedia",
+      "published": "2026-07-31T07:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Rückenwind für Öko-Energieversorger naturstrom",
+      "teaser": "Die naturstrom AG zieht eine positive Bilanz für 2025. Die umsichtige Beschaffungsstrategie auf Basis der eigenen Erneuerbare-Energien-Anlagen kam dem Konzern besonders zugute.",
+      "link": "https://www.energiezukunft.eu/wirtschaft/rueckenwind-fuer-oeko-energieversorger-naturstrom",
+      "source": "energiezukunft",
+      "published": "2026-07-31T05:00:00+00:00",
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
     {
       "title": "Thermal energy storage company 1414 Degrees secures 1GW data centre deal in South Australia",
       "teaser": "1414 Degrees has signed a deal to develop up to 1GW of AI data centre infrastructure at its Aurora Energy Precinct in South Australia.",
@@ -533,16 +616,6 @@
       "published": "2026-07-30T10:25:43+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Les États-Unis financent le projet d'ammoniac vert d'ORNX à Laâyoune",
-      "teaser": "L'agence américaine USTDA accorde une subvention au consortium ORNX pour une étude d'ingénierie de son projet d'ammoniac vert à Laâyoune, renforçant la coopération énergétique entre le Maroc et les États-Unis.",
-      "link": "https://energynews.pro/les-etats-unis-financent-le-projet-dammoniac-vert-dornx-a-laayoune",
-      "source": "energynews-pro",
-      "published": "2026-07-30T10:03:12+00:00",
-      "matched_keywords": [
-        "subvention"
       ]
     },
     {
@@ -791,37 +864,6 @@
       ]
     },
     {
-      "title": "Rabot Energy, Clever-PV und Inexogy bringen kleine Photovoltaik-Dachanlagen an den Strommarkt",
-      "teaser": "Eine feste Einspeisevergütung für private Dachanlagen wird es bald nicht mehr geben. Das muss aber nicht das Ende des Ausbaus sein, denn erste Anbieter positionieren sich jetzt gemeinsam für eine vollintegrierte Lösung zur…",
-      "link": "https://www.pv-magazine.de/2026/07/29/rabot-energy-clever-pv-und-inexogy-bringen-kleine-photovoltaik-dachanlagen-an-den-strommarkt/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-29T12:51:10+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
-      "title": "Kabinett beschließt Entwürfe zu EEG 2027 und Netzpaket",
-      "teaser": "Kleine Änderungen in den Entwürfen gab es noch. So soll das EEG nach zwei Jahren evaluiert werden. Beim Redispatch ist die entschädigungsfreie Strommenge nun auf 20 Prozent gedeckelt. Beim Koalitionspartner SPD sieht man weiterhin…",
-      "link": "https://www.pv-magazine.de/2026/07/29/kabinett-beschliesst-entwuerfe-zu-eeg-2027-und-netzpaket/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-29T11:18:14+00:00",
-      "matched_keywords": [
-        "eeg"
-      ]
-    },
-    {
-      "title": "Canada: Allseas to install critical subsea section of remote natural gas pipeline",
-      "teaser": "Allseas has secured a contract with Western LNG to install the critical subsea section [&#8230;] The post Canada: Allseas to install critical subsea section of remote natural gas pipeline appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/canada-allseas-to-install-critical-subsea-section-of-remote-natural-gas-pipeline/",
-      "source": "offshore-energy",
-      "published": "2026-07-29T10:20:28+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Wreckage of 300 year-old Dutch ship found during offshore wind cable laying",
       "teaser": "The remains of a ship thought to be around 300 years old has been found during work to lay undersea cables to connect German North Sea wind farms to the mainland.",
       "link": "https://www.windpowermonthly.com/article/1965980/wreckage-300-year-old-dutch-ship-found-during-offshore-wind-cable-laying",
@@ -849,18 +891,6 @@
       "published": "2026-07-29T08:30:53+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Tesla, ContourGlobal sign 1TWh/year PPA for Project Sterling in Arizona",
-      "teaser": "Tesla has signed a long-term power purchase agreement (PPA) with ContourGlobal covering approximately 1 terawatt-hour (TWh) per year of renewable electricity from Project Sterling, a hybrid solar and battery storage project in Arizona, US.",
-      "link": "https://www.power-technology.com/news/tesla-contourglobal-1twh-year-ppa-sterling-arizona/",
-      "source": "power-technology",
-      "published": "2026-07-29T07:53:54+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -2593,26 +2623,6 @@
       ]
     },
     {
-      "title": "Perlenkette der Energiewende",
-      "teaser": "Ein Hotelturm mit Solarfassade, ein Wohngebiet, das fast vollständig regenerativ versorgt wird, ein reaktiviertes Wasserkraftwerk: Am westlichen Bodensee finden Radfahrer Freizeitspaß – und mit einer App auch den Weg zu tollen…",
-      "link": "https://www.energiezukunft.eu/mobilitaet/perlenkette-der-energiewende",
-      "source": "energiezukunft",
-      "published": "2026-06-09T05:00:00+00:00",
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Europäische Banken gehen beim Ausschluss fossiler Finanzierungen voran – Deutsche ausgenommen",
-      "teaser": "Mit über 900 Milliarden US-Dollar haben Banken weltweit im vergangenen Jahr fossile Geschäfte unterstützt. Dem Klimaschutz Hoffnung geben hingegen einige europäische Banken. Deutsche aber sind nicht darunter.",
-      "link": "https://www.energiezukunft.eu/wirtschaft/europaeische-banken-gehen-beim-ausschluss-fossiler-finanzierungen-voran-deutsche-ausgenommen",
-      "source": "energiezukunft",
-      "published": "2026-06-09T05:00:00+00:00",
-      "matched_keywords": [
-        "klimaschutz"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2700,6 +2710,100 @@
       "published": null,
       "matched_keywords": [
         "strompreis"
+      ]
+    },
+    {
+      "title": "PPAs im Licht der EEG-Novelle",
+      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
+      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Neues Online-Tool unterstützt beim Kauf verbrauchsarmer Pkw",
+      "teaser": "„Pkw Energie Check“ der dena schafft Transparenz über CO2-Emissionen, Energieverbräuche und laufende Tank- und Ladekosten",
+      "link": "https://www.dena.de/infocenter/neues-online-tool-unterstuetzt-beim-kauf-verbrauchsarmer-pkw/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "co2",
+        "emission"
+      ]
+    },
+    {
+      "title": "Data Spaces für die Energiewende nutzen",
+      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
+      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Updatebericht dena-Gebäudereport 2026: Wärmewende nimmt Fahrt auf",
+      "teaser": "Erstmals wurden 2025 mehr Wärmepumpen als Gasheizungen verkauft. Neue Zahlen zur kommunalen Wärmeplanung zeigen Fortschritte in vielen Städten und Gemeinden, während sich serielle Sanierung als Markt...",
+      "link": "https://www.dena.de/infocenter/updatebericht-dena-gebaeudereport-2026-waermewende-nimmt-fahrt-auf/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Online-Fördertalk zur BEG-Reform",
+      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
+      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
+      "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
+      "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
+      "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
+      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
+      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Renewable-Energy-Solutions-Programm",
+      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
+      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Energie erzeugen und verteilen",
+      "teaser": "Wir stellen das Energiesystem um - auf erneuerbaren Strom, Wasserstoff und Fernwärme.",
+      "link": "https://www.dena.de/themen/energie-erzeugen-und-verteilen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare",
+        "wasserstoff"
       ]
     },
     {
@@ -2841,16 +2945,6 @@
       ]
     },
     {
-      "title": "UK wildfire poses no “imminent threat” to nuclear plant",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/32d71804-74bf-4513-aca8-dfebc74fc3dd/uk-wildfire-poses-no-imminent-threat-to-nuclear-plant-edf",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Battery storage: energy economics will drive duration",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
@@ -2858,6 +2952,16 @@
       "published": null,
       "matched_keywords": [
         "battery storage"
+      ]
+    },
+    {
+      "title": "UK wildfire poses no “imminent threat” to nuclear plant",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/32d71804-74bf-4513-aca8-dfebc74fc3dd/uk-wildfire-poses-no-imminent-threat-to-nuclear-plant-edf",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -2871,16 +2975,6 @@
       ]
     },
     {
-      "title": "Minister: Germany to end subsidies for profitable green projects",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/08a8a80a-2b1b-4f92-9b85-97c65a84f65b/germany-to-end-subsidies-for-profitable-green-projects-minister",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Another energy crisis – boom or bust for the green transition?",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
@@ -2888,6 +2982,16 @@
       "published": null,
       "matched_keywords": [
         "energy crisis"
+      ]
+    },
+    {
+      "title": "Minister: Germany to end subsidies for profitable green projects",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/08a8a80a-2b1b-4f92-9b85-97c65a84f65b/germany-to-end-subsidies-for-profitable-green-projects-minister",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "subsid"
       ]
     },
     {
@@ -2915,6 +3019,17 @@
       "title": "Xcel bets wind and storage can beat gas in US data-centre power race",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/power-markets/xcel-bets-wind-and-storage-can-beat-gas-in-us-data-centre-power-race/2-1-2023114",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "New CCO at CIP onshore wind business bought from Orsted",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/new-cco-at-cip-onshore-wind-business-bought-from-orsted/2-1-2023269",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2989,17 +3104,6 @@
       ]
     },
     {
-      "title": "Hitachi Energy hires Siemens Energy vice president",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/hitachi-energy-hires-siemens-energy-vice-president/2-1-2022238",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "GB Energy to start beauty contest for hybrid foundations 'by spring'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/gb-energy-pursuing-aggressive-timeline-to-deploy-hybrid-offshore-wind-says-director/2-1-2021320",
@@ -3056,9 +3160,9 @@
       ]
     },
     {
-      "title": "RWE updates on recovery from historic wind drought",
+      "title": "Hitachi Energy hires Siemens Energy vice president",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/rwe-updates-on-recovery-from-historic-wind-drought/2-1-2022077",
+      "link": "https://www.rechargenews.com/people/hitachi-energy-hires-siemens-energy-vice-president/2-1-2022238",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
