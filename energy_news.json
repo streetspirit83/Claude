@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T15:13:08+00:00",
+  "generated_at": "2026-07-31T17:21:20+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "500 Server Error: Internal Server Error for url: https://www.dena.de/newsroom",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "montelnews",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 47
+      "items_matched": 48
     },
     {
       "name": "power-technology",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 265,
+  "count": 274,
   "articles": [
+    {
+      "title": "New York takes on the myth that solar is swallowing farmland",
+      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. In rural areas across the U.S., solar power opponents keep leaning on the argument that utility-scale arrays are gobbling up…",
+      "link": "https://www.canarymedia.com/articles/solar/new-york-solar-farms",
+      "source": "canarymedia",
+      "published": "2026-07-31T16:20:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "US nuclear reactor company Westinghouse files for IPO",
       "teaser": "Brookfield-owned company plots listing nine years after cost overruns forced it into bankruptcy protection",
@@ -614,16 +624,6 @@
       "matched_keywords": [
         "emission",
         "hydrogen"
-      ]
-    },
-    {
-      "title": "EDP relève sa prévision de résultat net 2026 à 1,4 milliard d'euros",
-      "teaser": "Le groupe énergétique portugais relève ses prévisions 2026 grâce à la solidité de ses réseaux électriques, l'amélioration de l'hydraulicité ibérique et des plus-values record sur la rotation d'actifs de sa filiale EDP Renewables.",
-      "link": "https://energynews.pro/edp-releve-sa-prevision-de-resultat-net-2026-a-14-milliard-deuros",
-      "source": "energynews-pro",
-      "published": "2026-07-30T14:03:27+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2743,6 +2743,100 @@
       ]
     },
     {
+      "title": "PPAs im Licht der EEG-Novelle",
+      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
+      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Neues Online-Tool unterstützt beim Kauf verbrauchsarmer Pkw",
+      "teaser": "„Pkw Energie Check“ der dena schafft Transparenz über CO2-Emissionen, Energieverbräuche und laufende Tank- und Ladekosten",
+      "link": "https://www.dena.de/infocenter/neues-online-tool-unterstuetzt-beim-kauf-verbrauchsarmer-pkw/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "co2",
+        "emission"
+      ]
+    },
+    {
+      "title": "Data Spaces für die Energiewende nutzen",
+      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
+      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Updatebericht dena-Gebäudereport 2026: Wärmewende nimmt Fahrt auf",
+      "teaser": "Erstmals wurden 2025 mehr Wärmepumpen als Gasheizungen verkauft. Neue Zahlen zur kommunalen Wärmeplanung zeigen Fortschritte in vielen Städten und Gemeinden, während sich serielle Sanierung als Markt...",
+      "link": "https://www.dena.de/infocenter/updatebericht-dena-gebaeudereport-2026-waermewende-nimmt-fahrt-auf/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Online-Fördertalk zur BEG-Reform",
+      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
+      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
+      "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
+      "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
+      "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
+      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
+      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Renewable-Energy-Solutions-Programm",
+      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
+      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Energie erzeugen und verteilen",
+      "teaser": "Wir stellen das Energiesystem um - auf erneuerbaren Strom, Wasserstoff und Fernwärme.",
+      "link": "https://www.dena.de/themen/energie-erzeugen-und-verteilen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare",
+        "wasserstoff"
+      ]
+    },
+    {
       "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
       "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
       "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
@@ -2953,17 +3047,6 @@
       ]
     },
     {
-      "title": "The five key steps to unlocking Mediterranean offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/the-five-key-steps-to-unlocking-mediterranean-offshore-wind/2-1-2020828",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Xcel bets wind and storage can beat gas in US data-centre power race",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/power-markets/xcel-bets-wind-and-storage-can-beat-gas-in-us-data-centre-power-race/2-1-2023114",
@@ -2978,6 +3061,17 @@
       "title": "New CCO at CIP onshore wind business bought from Orsted",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/new-cco-at-cip-onshore-wind-business-bought-from-orsted/2-1-2023269",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "The five key steps to unlocking Mediterranean offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/the-five-key-steps-to-unlocking-mediterranean-offshore-wind/2-1-2020828",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
