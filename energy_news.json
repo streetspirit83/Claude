@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:11:33+00:00",
+  "generated_at": "2026-08-01T14:22:56+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.dena.de', port=443): Max retries exceeded with url: /newsroom (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.dena.de', port=443) at 0x7fcb82014e00>, 'Connection to www.dena.de timed out. (connect timeout=10)'))",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "agora-energiewende-news",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "reuters-energy",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 273,
+  "count": 263,
   "articles": [
     {
       "title": "New York takes on the myth that solar is swallowing farmland",
@@ -1034,16 +1034,6 @@
       "published": "2026-07-29T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "Nuclear revival needs $250bn a year, industry says",
-      "teaser": "Banks urged to unlock private capital as governments consider more atomic energy projects",
-      "link": "https://www.ft.com/content/f78ab650-062d-4058-bbcb-315901a1eeb6?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-07-29T04:00:23+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -2730,100 +2720,6 @@
       "published": null,
       "matched_keywords": [
         "strompreis"
-      ]
-    },
-    {
-      "title": "PPAs im Licht der EEG-Novelle",
-      "teaser": "Das EEG hat bisher den Zubau von Wind und Photovoltaik in Deutschland getragen. Im Rahmen der EEG-Novellierung ist es notwendig, Wechselwirkungen zwischen PPA-Markt und EEG-Förderrahmen zu antizipieren. Andernfalls droht die…",
-      "link": "https://www.dena.de/infocenter/ppas-im-licht-der-eeg-novelle/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "photovoltaik"
-      ]
-    },
-    {
-      "title": "Neues Online-Tool unterstützt beim Kauf verbrauchsarmer Pkw",
-      "teaser": "„Pkw Energie Check“ der dena schafft Transparenz über CO2-Emissionen, Energieverbräuche und laufende Tank- und Ladekosten",
-      "link": "https://www.dena.de/infocenter/neues-online-tool-unterstuetzt-beim-kauf-verbrauchsarmer-pkw/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "co2",
-        "emission"
-      ]
-    },
-    {
-      "title": "Data Spaces für die Energiewende nutzen",
-      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
-      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Updatebericht dena-Gebäudereport 2026: Wärmewende nimmt Fahrt auf",
-      "teaser": "Erstmals wurden 2025 mehr Wärmepumpen als Gasheizungen verkauft. Neue Zahlen zur kommunalen Wärmeplanung zeigen Fortschritte in vielen Städten und Gemeinden, während sich serielle Sanierung als Markt...",
-      "link": "https://www.dena.de/infocenter/updatebericht-dena-gebaeudereport-2026-waermewende-nimmt-fahrt-auf/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Online-Fördertalk zur BEG-Reform",
-      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
-      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
-      ]
-    },
-    {
-      "title": "Vier Thesen zu einem effektiveren Datenaustausch im Energiesektor",
-      "teaser": "Die Energiebranche steht vor der Herausforderung, den Datenaustausch auszuweiten und effizienter zu gestalten. Dafür werden Thesen und Lösungen gezeigt.",
-      "link": "https://www.dena.de/infocenter/vier-thesen-zu-einem-effektiveren-datenaustausch-im-energiesektor/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
-      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
-      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
-      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "speicher",
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Renewable-Energy-Solutions-Programm",
-      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
-      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Energie erzeugen und verteilen",
-      "teaser": "Wir stellen das Energiesystem um - auf erneuerbaren Strom, Wasserstoff und Fernwärme.",
-      "link": "https://www.dena.de/themen/energie-erzeugen-und-verteilen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "wasserstoff"
       ]
     },
     {
