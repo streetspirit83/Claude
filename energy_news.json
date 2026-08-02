@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:06:08+00:00",
+  "generated_at": "2026-08-02T06:27:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,29 @@
       "items_matched": 0
     }
   ],
-  "count": 271,
+  "count": 272,
   "articles": [
+    {
+      "title": "Solar car parks could cut electricity bills by €32,00 a year. Why is Europe so resistant?",
+      "teaser": "Solar car parks are popping up across Europe, but not every country seems to think they’re a smart investment.",
+      "link": "http://www.euronews.com/2026/08/02/solar-car-parks-could-cut-electricity-bills-by-3200-a-year-why-is-europe-so-resistant",
+      "source": "euronews-green",
+      "published": "2026-08-02T05:00:37+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Italy’s Giorgia Meloni bets big on nuclear power revival",
+      "teaser": "Rural backlash against renewables that ‘spoil the landscape’ fuels support for atomic energy decades after reactor shutdowns",
+      "link": "https://www.ft.com/content/6a987490-f3f8-45f7-8b1c-fd09d9fa874d",
+      "source": "ft-energy",
+      "published": "2026-08-02T04:00:06+00:00",
+      "matched_keywords": [
+        "nuclear",
+        "renewable"
+      ]
+    },
     {
       "title": "New York takes on the myth that solar is swallowing farmland",
       "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. In rural areas across the U.S., solar power opponents keep leaning on the argument that utility-scale arrays are gobbling up…",
@@ -1847,16 +1868,6 @@
         "co2-preis",
         "klima",
         "klimaschutz"
-      ]
-    },
-    {
-      "title": "Interactive map predicts climate-driven farm decline by end of century",
-      "teaser": "A CSIC team in Barcelona has developed CADI, a platform that forecasts, on a 10‑kilometre grid, how much farmland will lose productivity to climate change by 2100; Spain’s interior fares worse than the Cantabrian coast.",
-      "link": "http://www.euronews.com/2026/07/16/interactive-map-predicts-climate-driven-farm-decline-by-end-of-century",
-      "source": "euronews-green",
-      "published": "2026-07-16T04:06:56+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
