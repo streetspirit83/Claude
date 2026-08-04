@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:20:44+00:00",
+  "generated_at": "2026-08-04T09:34:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "cleanenergywire",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 63
+      "items_matched": 64
     },
     {
       "name": "erneuerbareenergien",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 48
+      "items_matched": 49
     },
     {
       "name": "power-technology",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,101 @@
       "items_matched": 0
     }
   ],
-  "count": 267,
+  "count": 268,
   "articles": [
+    {
+      "title": "TotalEnergies buys Shell’s 4GW European renewables portfolio",
+      "teaser": "Energy giants do a deal for renewable assets across Europe and the UK as portfolios shift The post TotalEnergies buys Shell’s 4GW European renewables portfolio appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/04/totalenergies-buys-shells-4gw-european-renewables-portfolio/",
+      "source": "energylivenews",
+      "published": "2026-08-04T09:30:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Marktübersicht: 31 Energiemanagement-Systeme für Gewerbe und Industrie",
+      "teaser": "pv+: Wegen der zunehmenden Relevanz des Marktes für Photovoltaik-Anlagen und Batterie­speicher in Gewerbe und Industrie und weil die Integration in den Strommarkt absehbar attraktiv wird, stellen wir in einer Übersicht erstmals…",
+      "link": "https://www.pv-magazine.de/2026/08/04/marktuebersicht-31-energiemanagement-systeme-fuer-gewerbe-und-industrie/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-04T08:15:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Brandprävention bei Großspeichern: Vorlaufzeit statt Aktionismus",
+      "teaser": "Nach dem Brand eines Batteriespeichers in Bautzen wächst der Druck, Konsequenzen zu ziehen. In der Praxis richtet sich der Blick dann häufig zuerst auf zusätzliche Sensorik, Löschtechnik und weitere Hardware. Claudius Jehle warnt vor einem…",
+      "link": "https://www.pv-magazine.de/2026/08/04/brandpraevention-bei-grossspeichern-vorlaufzeit-statt-aktionismus/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-04T08:11:27+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Massachusetts embraces backyard homes as housing and climate solution",
+      "teaser": "When Marsha Gleason and her husband decided it was time to downsize from the 2,000-square-foot bungalow where they’d lived for the past 40 years, they didn’t head to Florida or research local retirement communities. Instead, they looked to…",
+      "link": "https://www.canarymedia.com/articles/energy-efficiency/massachusetts-embraces-backyard-homes",
+      "source": "canarymedia",
+      "published": "2026-08-04T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "How to bring a geothermal well back from the dead",
+      "teaser": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Geothermal company Zanskar bought a New Mexico power plant in 2024 that appeared from the outside to be failing. The shallow…",
+      "link": "https://www.canarymedia.com/articles/geothermal/zanskar-brings-geothermal-well-back",
+      "source": "canarymedia",
+      "published": "2026-08-04T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Sonnedix secures $841m for renewable projects in southern Europe",
+      "teaser": "Sonnedix has secured €730m ($840.9m) in financing to support the refinancing, optimisation, and development of renewable energy assets in Italy, Spain, Portugal, and France.",
+      "link": "https://www.power-technology.com/news/sonnedix-841m-renewable-projects-southern-europe/",
+      "source": "power-technology",
+      "published": "2026-08-04T07:25:41+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "La raffinerie de Kulevi, en Géorgie, bascule vers le pétrole kazakh et libyen",
+      "teaser": "Black Sea Petroleum accélère la diversification de sa raffinerie de Kulevi, en Géorgie, en misant sur du pétrole kazakh et libyen, alors que l'Union européenne menace l'installation de sanctions si elle continue de traiter du brut russe.",
+      "link": "https://energynews.pro/la-raffinerie-de-kulevi-en-georgie-bascule-vers-le-petrole-kazakh-et-libyen",
+      "source": "energynews-pro",
+      "published": "2026-08-04T06:34:17+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Der PV-Ausbau-Trend im Ländle geht weiterhin zu Balkonsolar",
+      "teaser": "Welche Landkreise bei neu installierten Photovoltaik-Anlagen im ersten Halbjahr 2026 vorne liegen, zeigt eine aktuelle Auswertung des Photovoltaik-Netzwerks BW. Der Zubau insgesamt war rückläufig, doch Balkonsolaranlagen boomen weiterhin.",
+      "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/der-pv-ausbau-trend-im-laendle-geht-weiterhin-zu-balkonsolar",
+      "source": "energiezukunft",
+      "published": "2026-08-04T05:00:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
+      "title": "Im Zeichen der kleinen Wasserkraftwerke",
+      "teaser": "Die Akteure der kleinen Wasserkraft treffen sich Ende September in Brixen zum alljährlichen Erfahrungsaustausch. Die engagierte Community setzt sich mit aktuellen technischen Trends auseinander, mit Repowering und Speicheroptionen.",
+      "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserkraft/im-zeichen-der-kleinen-wasserkraftwerke",
+      "source": "energiezukunft",
+      "published": "2026-08-04T05:00:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
     {
       "title": "Load smoothing, cold-start backup and speed-to-power: Fluence maps the battery storage opportunity for Australian data centres",
       "teaser": "ESN Premium speaks with Fluence's Jeff Monday and Sam Markham on the opportunity battery energy storage could provide data centres in Australia.",
@@ -559,16 +652,6 @@
       ]
     },
     {
-      "title": "Worley picks up new assignment in Australia",
-      "teaser": "Australia’s engineering firm Worley has won its first major services framework deal with Inpex Operations Australia, a subsidiary of Japan’s Inpex. The post Worley picks up new assignment in Australia appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/worley-picks-up-new-assignment-in-australia/",
-      "source": "offshore-energy",
-      "published": "2026-08-03T08:49:29+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Sono Motors erneut in der Insolvenz – Sono Solar-Geschäft steht zum Verkauf",
       "teaser": "Das Münchner Unternehmen hat Ende Juli sein operatives Geschäft eingestellt. Nun sucht es einen Investor für sein B2B-Photovoltaik-Geschäft, für das es sich in der Sanierungsphase keine tragfähige Finanzierung sichern konnte.",
       "link": "https://www.pv-magazine.de/2026/08/03/sono-motors-erneut-in-der-insolvenz-sono-solar-geschaeft-steht-zum-verkauf/",
@@ -733,17 +816,6 @@
       ]
     },
     {
-      "title": "„Finanztip“: Warum sich die Inbetriebnahme einer Photovoltaik-Dachanlage noch in diesem Jahr lohnt",
-      "teaser": "Das Ratgeber-Portal rechnet vor, dass private Verbraucher allein in den ersten drei Jahren 444 Euro mehr einnehmen, wenn sie sich die feste Einspeisevergütung sichern. Nach den aktuellen EEG-Plänen wird es für kleine Dachanlagen ab dem…",
-      "link": "https://www.pv-magazine.de/2026/07/31/finanztip-warum-sich-die-inbetriebnahme-einer-photovoltaik-dachanlage-noch-in-diesem-jahr-lohnt/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-31T11:20:25+00:00",
-      "matched_keywords": [
-        "eeg",
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Europe’s heatwave strains nuclear output",
       "teaser": "Extreme heat and falling river levels have disrupted nuclear power generation across Europe, with reactors shut down or operating at reduced output.",
       "link": "https://www.power-technology.com/news/europes-heatwave-strains-nuclear-output/",
@@ -794,26 +866,6 @@
       ]
     },
     {
-      "title": "FIC acquires US battery and solar platform operator Perfect Power",
-      "teaser": "FIC Partners Management has announced the acquisition of Perfect Power, a US-based company that owns and operates the Jaguar Energy Center.",
-      "link": "https://www.power-technology.com/news/fic-acquires-perfect-power/",
-      "source": "power-technology",
-      "published": "2026-07-31T10:20:52+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Einspeisevergütung für Photovoltaik-Anlagen sinkt ab August um ein Prozent",
-      "teaser": "Ab dem 1. August liegen die festen Einspeisevergütungen für Photovoltaik-Anlagen in der Teileinspeisung zwischen 5,44 und 7,70 Cent pro Kilowattsunde. Volleinspeiser erhalten zwischen 10,24 und 12,22 Cent pro Kilowattstunde.",
-      "link": "https://www.pv-magazine.de/2026/07/31/einspeiseverguetung-fuer-photovoltaik-anlagen-sinkt-ab-august-um-ein-prozent/",
-      "source": "pv-magazine-de",
-      "published": "2026-07-31T10:20:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Behind Europe’s mega fires: Would France and Spain still be ablaze if it weren’t for climate change?",
       "teaser": "Climate change made recent fire-prone conditions at least twice as likely in southwestern France and at least 20 times as likely in central Spain, new analysis shows.",
       "link": "http://www.euronews.com/2026/07/31/behind-europes-mega-fires-would-france-and-spain-still-be-ablaze-if-it-werent-for-climate-",
@@ -821,16 +873,6 @@
       "published": "2026-07-31T09:11:07+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Origis Energy nears 1GW capacity at Rockhound complex in Texas",
-      "teaser": "US-based Origis Energy has commenced commercial operations of three more phases at its Rockhound Solar complex in Ector County, Texas, raising the site’s total working capacity to nearly 1GW direct current (GWdc).",
-      "link": "https://www.power-technology.com/news/origis-energy-1gw-rockhound-complex-texas/",
-      "source": "power-technology",
-      "published": "2026-07-31T08:02:11+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1372,16 +1414,6 @@
       "published": "2026-07-26T05:00:05+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Über 100.000 Menschen fliehen, während in Frankreich und Spanien Waldbrände wüten",
-      "teaser": "Einige europäische Regionen haben seit Mai mindestens zwei Hitzewellen erlebt. Und die Dürre, die auf den vom Menschen verursachten Klimawandel zurückgeführt wird, hat die Gefahr von Waldbränden in diesem Jahr verstärkt.",
-      "link": "https://euractiv.com/de/news/uber-100-000-menschen-fliehen-oder-verschanzt-sich-in-ihren-hausern-wahrend-in-frankreich-und-spanien-waldbrande-wuten/",
-      "source": "euractiv-energie",
-      "published": "2026-07-25T06:46:30+00:00",
-      "matched_keywords": [
-        "klima"
       ]
     },
     {
@@ -2582,28 +2614,6 @@
       ]
     },
     {
-      "title": "Clean energy and efficiency spared in Rhode Island budget process",
-      "teaser": "Rhode Island Gov. Dan McKee’s efforts to slash funding for energy efficiency and roll back renewable energy targets appear poised to fail after the legislature advanced the state budget on Tuesday evening. Earlier this year, McKee, a…",
-      "link": "https://www.canarymedia.com/articles/energy-efficiency/clean-energy-efficiency-rhode-island-budget",
-      "source": "canarymedia",
-      "published": "2026-06-10T21:00:00+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Zwei Drittel aller europäischen Flugemissionen haben weiterhin keinen CO2-Preis",
-      "teaser": "Langstreckenflüge von Europa aus sind vom Emissionshandel weiterhin ausgenommen. Eine neue Analyse zeigt das Ausmaß an entgangenen Kosten und klimaschädlichen Wirkung.",
-      "link": "https://www.energiezukunft.eu/mobilitaet/zwei-drittel-aller-europaeischen-flugemissionen-haben-weiterhin-keinen-co2-preis",
-      "source": "energiezukunft",
-      "published": "2026-06-10T05:00:00+00:00",
-      "matched_keywords": [
-        "co2-preis",
-        "emission",
-        "klima"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2905,6 +2915,16 @@
       ]
     },
     {
+      "title": "Water scarcity seen as key threat in SE Europe energy crisis",
+      "teaser": "Hubert Put",
+      "link": "https://www.montelnews.com/news/4f51d1f8-ea4c-441c-b59f-43d1cbc116d9/water-scarcity-is-key-threat-in-se-europe-energy-crisis-experts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "energy crisis"
+      ]
+    },
+    {
       "title": "40% of SE European nuclear capacity offline amid drought",
       "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/news/c65ea15f-ba28-4f0e-a2c7-1504a3c411a4/40-of-se-european-nuclear-capacity-offline-amid-drought",
@@ -2925,26 +2945,6 @@
       ]
     },
     {
-      "title": "EU gas falls on US-Iran hopes despite fresh attack on LNG tanker",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/ed6c753c-33f9-47bf-944c-b5b6281bd597/eu-gas-falls-on-us-iran-hopes-despite-fresh-attack-on-lng-tanker",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "French heat-related nuclear cuts to hit 12% of capacity today",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/29e700a4-c41d-47ae-86ed-ca60ec947765/french-heat-related-nuclear-cuts-to-hit-12-of-capacity-today",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Another energy crisis – boom or bust for the green transition?",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
@@ -2955,13 +2955,45 @@
       ]
     },
     {
-      "title": "French nuclear modulation falls 27% on strong summer demand",
+      "title": "EU gas falls on US-Iran hopes despite fresh attack on LNG tanker",
       "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/22cce404-9ba7-436b-acd2-f57c97ab5ffe/french-nuclear-modulation-falls-27-on-strong-summer-demand",
+      "link": "https://www.montelnews.com/news/ed6c753c-33f9-47bf-944c-b5b6281bd597/eu-gas-falls-on-us-iran-hopes-despite-fresh-attack-on-lng-tanker",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "French heat-related nuclear cuts to hit 12% of capacity today",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/29e700a4-c41d-47ae-86ed-ca60ec947765/french-heat-related-nuclear-cuts-to-hit-12-of-capacity-today",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Danish delight as two new offshore wind projects win power deals",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/danish-delight-as-two-new-offshore-wind-projects-win-power-deals/2-1-2024413",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "BP selling another green energy business as CEO vows 'no sentiment'",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/bp-selling-another-green-energy-business-as-ceo-vows-no-sentiment/2-1-2024445",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3057,28 +3089,6 @@
       "title": "New CCO at CIP onshore wind business bought from Orsted",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/new-cco-at-cip-onshore-wind-business-bought-from-orsted/2-1-2023269",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "The five key steps to unlocking Mediterranean offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/the-five-key-steps-to-unlocking-mediterranean-offshore-wind/2-1-2020828",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Trump solar attack revives New York offshore wind-gas pipeline battle",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/trump-solar-attack-revives-new-york-offshore-wind-gas-pipeline-battle/2-1-2022529",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
