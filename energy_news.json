@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T17:21:47+00:00",
+  "generated_at": "2026-08-05T20:20:58+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,49 @@
       "items_matched": 0
     }
   ],
-  "count": 281,
+  "count": 282,
   "articles": [
+    {
+      "title": "Australia Approves 360 MW Sundown Solar-Storage Project in New South Wales",
+      "teaser": null,
+      "link": "https://energynews.pro/en/australia-approves-360-mw-sundown-solar-storage-project-in-new-south-wales",
+      "source": "energynews-pro",
+      "published": "2026-08-05T20:02:23+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Australia Sues Inpex Over Emissions Underreporting at Ichthys LNG Plant",
+      "teaser": null,
+      "link": "https://energynews.pro/en/australia-sues-inpex-over-emissions-underreporting-at-ichthys-lng-plant",
+      "source": "energynews-pro",
+      "published": "2026-08-05T19:03:57+00:00",
+      "matched_keywords": [
+        "emission",
+        "lng"
+      ]
+    },
+    {
+      "title": "Britain's Solar Power Hits Record 14.4% Share in July 2026",
+      "teaser": null,
+      "link": "https://energynews.pro/en/britains-solar-power-hits-record-144-share-in-july-2026",
+      "source": "energynews-pro",
+      "published": "2026-08-05T18:33:47+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Zelestra Completes Three 57 MWac Solar Plants in Spain for Tesla",
+      "teaser": null,
+      "link": "https://energynews.pro/en/zelestra-completes-three-57-mwac-solar-plants-in-spain-for-tesla",
+      "source": "energynews-pro",
+      "published": "2026-08-05T18:02:34+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "ContourGlobal Begins Construction of 131 MWp Solar-Storage Hybrid Project in Chile",
       "teaser": null,
@@ -672,17 +713,6 @@
       ]
     },
     {
-      "title": "Push Power Secures Kentishes Solar Extension With Battery Storage in the UK",
-      "teaser": null,
-      "link": "https://energynews.pro/en/push-power-secures-kentishes-solar-extension-with-battery-storage-in-the-uk",
-      "source": "energynews-pro",
-      "published": "2026-08-05T06:33:24+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "solar"
-      ]
-    },
-    {
       "title": "Japan: Tokyo Gas enters offtake for 200MWh Fukushima BESS, Eku Energy nears completion of first project",
       "teaser": "Japanese utility Tokyo Gas has entered into a long-term offtake agreement for a 49.7MW/202.1MWh battery storage project in Fukushima Prefecture.",
       "link": "https://www.energy-storage.news/japan-tokyo-gas-enters-offtake-for-200mwh-fukushima-bess-eku-energy-nears-completion-of-first-project/",
@@ -690,16 +720,6 @@
       "published": "2026-08-05T05:35:14+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Sizable Energy Tests Offshore Energy Storage Technology Off Calabria",
-      "teaser": null,
-      "link": "https://energynews.pro/en/sizable-energy-tests-offshore-energy-storage-technology-off-calabria",
-      "source": "energynews-pro",
-      "published": "2026-08-05T05:02:44+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -734,16 +754,6 @@
       "matched_keywords": [
         "forderung",
         "stromnetz"
-      ]
-    },
-    {
-      "title": "Pacific Consultants Launches Floating Solar Project With Perovskite Modules in Japan",
-      "teaser": null,
-      "link": "https://energynews.pro/en/pacific-consultants-launches-floating-solar-project-with-perovskite-modules-in-japan",
-      "source": "energynews-pro",
-      "published": "2026-08-05T04:32:41+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
