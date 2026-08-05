@@ -1,0 +1,1369 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Immobilien-Entscheidungsmatrix</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script src="https://unpkg.com/lucide@0.441.0/dist/umd/lucide.min.js"></script>
+
+<style>
+/* ═══════════════════════════════════════════
+   0 — TOKENS
+   ═══════════════════════════════════════════ */
+:root{
+  --bg:#FFFFFF;
+  --text:#00171F;
+  --accent:#00A8E8;
+  --pos:#5CA83E;
+  --mid:#E8A33D;
+  --neg:#EF4242;
+  --surface:#F4F3F3;
+  --surface-2:#E9E7E7;
+  --border:#DEDCDC;
+  --muted:#6B7378;
+
+  --font-sans:"DM Sans",system-ui,-apple-system,sans-serif;
+  --font-mono:"DM Mono",ui-monospace,monospace;
+
+  --r:10px;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px;
+  --shadow:0 1px 2px rgba(0,23,31,.06), 0 4px 16px rgba(0,23,31,.05);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:var(--font-sans); font-size:14px; line-height:1.45;
+  padding-bottom:80px;
+}
+button{font-family:inherit;font-size:inherit;color:inherit;cursor:pointer;border:none;background:none}
+input,select,textarea{font-family:inherit;font-size:inherit;color:inherit}
+input[type=number]{-moz-appearance:textfield}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.hide{display:none !important}
+
+/* ═══════════════════════════════════════════
+   1 — TOPBAR & TABS
+   ═══════════════════════════════════════════ */
+/* Topbar und Reiter teilen sich einen Sticky-Container, damit sie beim
+   Scrollen nicht übereinanderliegen. */
+.stickyhead{position:sticky; top:0; z-index:60; background:var(--bg)}
+.topbar{background:var(--bg); border-bottom:1px solid var(--border)}
+.topbar-in{
+  max-width:1400px; margin:0 auto; padding:var(--s3) var(--s4);
+  display:flex; align-items:center; gap:var(--s4); flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:var(--s2);font-weight:700;font-size:17px;letter-spacing:-.2px}
+.brand .mark{
+  width:28px;height:28px;border-radius:8px;background:var(--text);color:#fff;
+  display:grid;place-items:center;flex:none;
+}
+.brand .mark svg{width:16px;height:16px}
+.brand small{display:block;font-weight:300;font-size:11px;color:var(--muted);letter-spacing:0}
+.spacer{flex:1}
+
+.btn{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 12px;border-radius:8px;border:1px solid var(--border);
+  background:var(--bg); font-weight:500; font-size:13px; white-space:nowrap;
+  transition:background .12s,border-color .12s;
+}
+.btn:hover{background:var(--surface)}
+.btn svg{width:15px;height:15px}
+.btn-primary{background:var(--text);color:#fff;border-color:var(--text)}
+.btn-primary:hover{background:#0a2c38}
+.btn-ghost{border-color:transparent}
+.btn-ghost:hover{background:var(--surface)}
+.btn-danger:hover{background:#fdecec;border-color:#f5bcbc;color:var(--neg)}
+.btn-sm{padding:4px 9px;font-size:12px}
+.btn-sm svg{width:13px;height:13px}
+
+.tabs{background:var(--bg); border-bottom:1px solid var(--border)}
+.tabs-in{max-width:1400px;margin:0 auto;padding:0 var(--s4);display:flex;gap:var(--s1);overflow-x:auto}
+.tab{
+  padding:11px 14px; font-weight:500; font-size:13.5px; color:var(--muted);
+  border-bottom:2px solid transparent; white-space:nowrap;
+  display:flex; align-items:center; gap:7px;
+}
+.tab svg{width:15px;height:15px}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--text);font-weight:700;border-bottom-color:var(--accent)}
+
+main{max-width:1400px;margin:0 auto;padding:var(--s5) var(--s4)}
+
+/* ═══════════════════════════════════════════
+   2 — GENERIC BLOCKS
+   ═══════════════════════════════════════════ */
+.section-head{margin-bottom:var(--s4)}
+.section-head h2{font-size:20px;font-weight:700;letter-spacing:-.3px}
+.section-head p{color:var(--muted);font-size:13px;margin-top:2px;max-width:70ch}
+
+.card{
+  background:var(--bg); border:1px solid var(--border); border-radius:var(--r);
+  margin-bottom:var(--s3); overflow:hidden;
+}
+.card-head{
+  display:flex;align-items:center;gap:var(--s3);
+  padding:var(--s3) var(--s4); background:var(--surface);
+  border-bottom:1px solid var(--border);
+}
+.card-body{padding:var(--s4)}
+
+.label{
+  display:block;font-size:11px;font-weight:300;letter-spacing:.4px;
+  text-transform:uppercase;color:var(--muted);margin-bottom:5px;
+}
+.field input,.field select,.field textarea{
+  width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;
+  background:var(--bg);outline:none;transition:border-color .12s,box-shadow .12s;
+}
+.field input:focus,.field select:focus,.field textarea:focus{
+  border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,168,232,.13)
+}
+.field textarea{resize:vertical;min-height:64px}
+
+.empty{
+  text-align:center;padding:var(--s6) var(--s4);color:var(--muted);
+  border:1px dashed var(--border);border-radius:var(--r);
+}
+.empty svg{width:32px;height:32px;margin-bottom:var(--s3);opacity:.5}
+.empty p{margin-bottom:var(--s4);font-size:13px}
+
+/* ═══════════════════════════════════════════
+   3 — OBJEKT-TABS
+   ═══════════════════════════════════════════ */
+.objbar{
+  display:flex;gap:var(--s2);align-items:center;flex-wrap:wrap;
+  margin-bottom:var(--s4);padding-bottom:var(--s3);border-bottom:1px solid var(--border);
+}
+.objchip{
+  display:flex;align-items:center;gap:8px;
+  padding:7px 12px;border-radius:999px;border:1px solid var(--border);
+  background:var(--bg);font-size:13px;font-weight:500;transition:all .12s;
+}
+.objchip:hover{background:var(--surface)}
+.objchip.active{background:var(--text);color:#fff;border-color:var(--text)}
+.objchip .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.objchip .sc{
+  font-family:var(--font-mono);font-size:11px;font-weight:500;
+  padding:1px 6px;border-radius:5px;background:var(--surface-2);color:var(--text)
+}
+.objchip.active .sc{background:rgba(255,255,255,.2);color:#fff}
+.objchip-add{border-style:dashed;color:var(--muted)}
+.objchip-add:hover{color:var(--text);border-color:var(--text)}
+.objchip-add svg{width:15px;height:15px}
+
+/* ═══════════════════════════════════════════
+   4 — SCORE-HEADER
+   ═══════════════════════════════════════════ */
+.scorehead{
+  display:flex;gap:var(--s5);align-items:center;flex-wrap:wrap;
+  padding:var(--s4);border:1px solid var(--border);border-radius:var(--r);
+  background:var(--surface);margin-bottom:var(--s4);
+}
+.bigscore{display:flex;align-items:baseline;gap:6px}
+.bigscore .v{font-family:var(--font-mono);font-size:40px;font-weight:500;letter-spacing:-1.5px;line-height:1}
+.bigscore .max{font-size:15px;color:var(--muted)}
+.scorehead .meta{display:flex;flex-direction:column;gap:2px}
+.scorehead .meta b{font-size:13px}
+.scorehead .meta span{font-size:12px;color:var(--muted)}
+.coverbar{height:5px;border-radius:3px;background:var(--surface-2);overflow:hidden;width:150px;margin-top:5px}
+.coverbar i{display:block;height:100%;background:var(--accent)}
+
+/* ═══════════════════════════════════════════
+   5 — KRITERIEN
+   ═══════════════════════════════════════════ */
+.cat-num{
+  width:26px;height:26px;border-radius:7px;background:var(--text);color:#fff;
+  display:grid;place-items:center;font-family:var(--font-mono);font-size:12px;font-weight:500;flex:none;
+}
+.cat-title{flex:1;min-width:0}
+.cat-title b{display:block;font-size:14.5px;font-weight:700;letter-spacing:-.15px}
+.cat-title span{font-size:11.5px;color:var(--muted)}
+.cat-score{
+  font-family:var(--font-mono);font-size:15px;font-weight:500;
+  padding:4px 10px;border-radius:7px;background:var(--bg);border:1px solid var(--border);
+  min-width:56px;text-align:center;
+}
+
+.crit{
+  display:flex;align-items:center;gap:var(--s3);
+  padding:11px 0;border-bottom:1px solid var(--border);
+}
+.crit:last-child{border-bottom:none;padding-bottom:0}
+.crit:first-child{padding-top:0}
+.crit-label{flex:1;min-width:0;font-size:13.5px}
+.crit-label .wq{font-size:11px;color:var(--muted);font-family:var(--font-mono)}
+.crit-input{
+  width:62px;flex:none;text-align:center;padding:8px 4px;
+  border:1px solid var(--border);border-radius:8px;background:var(--bg);
+  font-family:var(--font-mono);font-size:15px;font-weight:500;outline:none;
+  transition:border-color .12s,box-shadow .12s;
+}
+.crit-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,168,232,.13)}
+.crit-input::placeholder{color:#c3c8cb;font-weight:400}
+.crit-gauge{width:96px;flex:none;height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden}
+.crit-gauge i{display:block;height:100%;transition:width .18s}
+.crit-note{
+  flex:none;width:34px;height:34px;border-radius:8px;border:1px solid var(--border);
+  display:grid;place-items:center;color:var(--muted);
+}
+.crit-note:hover{background:var(--surface);color:var(--text)}
+.crit-note.has{border-color:var(--accent);color:var(--accent)}
+.crit-note svg{width:14px;height:14px}
+.crit-noterow{padding:0 0 11px 0}
+.crit-noterow textarea{
+  width:100%;padding:8px 10px;border:1px solid var(--border);border-radius:8px;
+  background:var(--surface);resize:vertical;min-height:52px;font-size:13px;outline:none;
+}
+.crit-noterow textarea:focus{border-color:var(--accent)}
+
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:var(--s3)}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--s3)}
+
+/* ═══════════════════════════════════════════
+   6 — GEWICHTUNG
+   ═══════════════════════════════════════════ */
+.w-input{
+  width:64px;padding:6px 8px;text-align:center;
+  border:1px solid var(--border);border-radius:7px;background:var(--bg);
+  font-family:var(--font-mono);font-size:14px;font-weight:500;outline:none;
+}
+.w-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,168,232,.13)}
+.w-pct{
+  font-family:var(--font-mono);font-size:12px;color:var(--muted);
+  min-width:52px;text-align:right;
+}
+.w-bar{flex:1;height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden;min-width:60px}
+.w-bar i{display:block;height:100%;background:var(--accent)}
+.w-row{display:flex;align-items:center;gap:var(--s3);padding:9px 0;border-bottom:1px solid var(--border)}
+.w-row:last-child{border-bottom:none;padding-bottom:0}
+.w-row:first-child{padding-top:0}
+.w-row .t{flex:1;min-width:0;font-size:13.5px}
+.w-note{
+  font-size:12.5px;color:var(--muted);background:var(--surface);
+  padding:var(--s3);border-radius:8px;margin-bottom:var(--s4);
+  display:flex;gap:9px;align-items:flex-start;
+}
+.w-note svg{width:15px;height:15px;flex:none;margin-top:1px}
+
+/* ═══════════════════════════════════════════
+   7 — TABELLE
+   ═══════════════════════════════════════════ */
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--r)}
+table.matrix{border-collapse:separate;border-spacing:0;width:100%;font-size:13px;min-width:600px}
+table.matrix th,table.matrix td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap}
+table.matrix thead th{
+  background:var(--surface);font-size:11px;font-weight:700;letter-spacing:.3px;
+  text-transform:uppercase;position:sticky;top:0;z-index:3;
+}
+table.matrix th.sticky,table.matrix td.sticky{
+  position:sticky;left:0;background:var(--bg);z-index:2;
+  border-right:1px solid var(--border);white-space:normal;min-width:230px;max-width:300px;
+}
+table.matrix thead th.sticky{background:var(--surface);z-index:4}
+table.matrix tr.cat-row td{background:var(--surface);font-weight:700}
+table.matrix tr.cat-row td.sticky{background:var(--surface)}
+table.matrix tr.total-row td{
+  background:var(--text);color:#fff;font-weight:700;font-size:14px;border-bottom:none
+}
+table.matrix tr.total-row td.sticky{background:var(--text);color:#fff}
+table.matrix tr.sub-row td.sticky{padding-left:24px;font-weight:400;color:var(--muted);font-size:12.5px}
+table.matrix td.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums;text-align:center}
+table.matrix td.best{position:relative}
+table.matrix td.best::after{
+  content:"";position:absolute;inset:3px;border:1.5px solid var(--pos);
+  border-radius:6px;pointer-events:none;
+}
+.wpill{
+  font-family:var(--font-mono);font-size:10.5px;color:var(--muted);
+  background:var(--surface-2);padding:1px 5px;border-radius:4px;margin-left:6px;font-weight:400
+}
+tr.total-row .wpill{background:rgba(255,255,255,.18);color:#fff}
+
+/* ═══════════════════════════════════════════
+   8 — AUSWERTUNG
+   ═══════════════════════════════════════════ */
+.rank{display:flex;flex-direction:column;gap:var(--s2);margin-bottom:var(--s5)}
+.rank-item{
+  display:flex;align-items:center;gap:var(--s4);
+  padding:var(--s3) var(--s4);border:1px solid var(--border);border-radius:var(--r);
+  background:var(--bg);
+}
+.rank-item.first{border-color:var(--text);box-shadow:var(--shadow)}
+.rank-pos{
+  width:30px;height:30px;border-radius:8px;flex:none;display:grid;place-items:center;
+  font-family:var(--font-mono);font-size:13px;font-weight:500;
+  background:var(--surface-2);
+}
+.rank-item.first .rank-pos{background:var(--text);color:#fff}
+.rank-main{flex:1;min-width:0}
+.rank-main b{font-size:14.5px;display:block;letter-spacing:-.15px}
+.rank-main span{font-size:12px;color:var(--muted)}
+.rank-bar{flex:2;min-width:80px;height:8px;border-radius:4px;background:var(--surface-2);overflow:hidden}
+.rank-bar i{display:block;height:100%;transition:width .25s}
+.rank-score{font-family:var(--font-mono);font-size:19px;font-weight:500;min-width:56px;text-align:right}
+.rank-delta{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);min-width:46px;text-align:right}
+
+.cmp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--s3)}
+.cat-cmp{border:1px solid var(--border);border-radius:var(--r);padding:var(--s4)}
+.cat-cmp h4{font-size:13px;font-weight:700;margin-bottom:3px;display:flex;align-items:baseline;gap:7px}
+.cat-cmp .cw{
+  font-family:var(--font-mono);font-size:11px;color:var(--muted);font-weight:400;
+  white-space:nowrap;margin-left:auto;
+}
+.cat-cmp-row{display:flex;align-items:center;gap:9px;margin-top:8px;font-size:12.5px}
+.cat-cmp-row .n{width:96px;flex:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cat-cmp-row .b{flex:1;height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden}
+.cat-cmp-row .b i{display:block;height:100%}
+.cat-cmp-row .v{font-family:var(--font-mono);font-size:12px;width:32px;text-align:right;flex:none}
+
+.radar-wrap{display:flex;gap:var(--s5);align-items:center;flex-wrap:wrap;justify-content:center}
+.radar-legend{display:flex;flex-direction:column;gap:7px;font-size:13px}
+.radar-legend div{display:flex;align-items:center;gap:8px}
+.radar-legend i{width:11px;height:11px;border-radius:3px;flex:none}
+.radar-legend .tot{font-family:var(--font-mono);color:var(--muted);font-size:12px}
+
+.sw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--s3)}
+.sw-card{border:1px solid var(--border);border-radius:var(--r);padding:var(--s4)}
+.sw-card h4{font-size:13.5px;font-weight:700;margin-bottom:var(--s3);display:flex;align-items:center;gap:8px}
+.sw-card h4 .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.sw-list{margin-bottom:var(--s3)}
+.sw-list:last-child{margin-bottom:0}
+.sw-list .h{
+  font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;font-weight:700;
+  color:var(--muted);margin-bottom:5px;display:flex;align-items:center;gap:5px
+}
+.sw-list .h svg{width:12px;height:12px}
+.sw-list li{
+  list-style:none;font-size:12.5px;display:flex;justify-content:space-between;
+  gap:var(--s3);padding:3px 0;
+}
+.sw-list li span{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sw-list li b{font-family:var(--font-mono);font-weight:500;flex:none}
+
+/* ═══════════════════════════════════════════
+   9 — MODAL / TOAST
+   ═══════════════════════════════════════════ */
+.modal-bg{
+  position:fixed;inset:0;background:rgba(0,23,31,.35);z-index:200;
+  display:grid;place-items:center;padding:var(--s4);
+}
+.modal{
+  background:var(--bg);border-radius:14px;max-width:420px;width:100%;
+  box-shadow:0 20px 60px rgba(0,23,31,.25);overflow:hidden;
+}
+.modal-head{padding:var(--s4);border-bottom:1px solid var(--border);font-weight:700;font-size:15px}
+.modal-body{padding:var(--s4);font-size:13.5px;color:var(--muted)}
+.modal-foot{padding:var(--s3) var(--s4);display:flex;gap:var(--s2);justify-content:flex-end;background:var(--surface)}
+.toast{
+  position:fixed;bottom:22px;left:50%;transform:translateX(-50%);
+  background:var(--text);color:#fff;padding:10px 18px;border-radius:999px;
+  font-size:13px;font-weight:500;z-index:300;box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:8px;
+}
+.toast svg{width:15px;height:15px}
+
+@media (max-width:640px){
+  .crit{flex-wrap:wrap}
+  .crit-gauge{display:none}
+  .bigscore .v{font-size:32px}
+  .rank-bar{display:none}
+}
+@media print{
+  .stickyhead,.no-print{display:none !important}
+  body{padding:0}
+  .card,.tablewrap{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<div class="stickyhead">
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <span class="mark"><i data-lucide="house"></i></span>
+      <span>Entscheidungsmatrix<small id="brandsub">Immobilienkauf · Eigennutzung</small></span>
+    </div>
+    <div class="spacer"></div>
+    <button class="btn btn-ghost" id="btn-import"><i data-lucide="upload"></i>Import</button>
+    <button class="btn btn-ghost" id="btn-export"><i data-lucide="download"></i>Export</button>
+    <button class="btn btn-primary" id="btn-add-top"><i data-lucide="plus"></i>Objekt</button>
+    <input type="file" id="file-import" accept="application/json" class="hide" />
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="tabs-in">
+    <button class="tab active" data-view="objekte"><i data-lucide="clipboard-list"></i>Objekte</button>
+    <button class="tab" data-view="gewichtung"><i data-lucide="sliders-horizontal"></i>Gewichtung</button>
+    <button class="tab" data-view="uebersicht"><i data-lucide="table-2"></i>Gesamtübersicht</button>
+    <button class="tab" data-view="auswertung"><i data-lucide="trophy"></i>Auswertung &amp; Ranking</button>
+  </div>
+</nav>
+</div>
+
+<main>
+  <section id="view-objekte"></section>
+  <section id="view-gewichtung" class="hide"></section>
+  <section id="view-uebersicht" class="hide"></section>
+  <section id="view-auswertung" class="hide"></section>
+</main>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   SECTION 1 — KRITERIENKATALOG
+   8 Hauptkriterien × 3 Unterkriterien, Ausrichtung Eigennutzung
+   ═══════════════════════════════════════════════════════════ */
+const CATEGORIES = [
+  { id:'c1', name:'Wohnqualität & Platz', icon:'sofa', subs:[
+    { id:'c1a', name:'Wohnfläche, Raumaufteilung und Nutzbarkeit' },
+    { id:'c1b', name:'Privatsphäre, Ruhe und Lärmniveau' },
+    { id:'c1c', name:'Außenflächen (Garten, Balkon, Terrasse) und individuelle Gestaltungsmöglichkeiten' },
+  ]},
+  { id:'c2', name:'Lage & Erreichbarkeit', icon:'map-pin', subs:[
+    { id:'c2a', name:'Entfernung und Zeitaufwand zu Arbeit und wichtigen Zielen' },
+    { id:'c2b', name:'Nähe zu Einkauf, medizinischer Versorgung und täglicher Infrastruktur' },
+    { id:'c2c', name:'Verkehrsanbindung (ÖPNV, Auto, Fahrrad)' },
+  ]},
+  { id:'c3', name:'Umfeld & Nachbarschaft', icon:'users', subs:[
+    { id:'c3a', name:'Familienfreundlichkeit (Kitas, Schulen, Spielplätze, Sicherheit)' },
+    { id:'c3b', name:'Qualität der Nachbarschaft und soziale Einbindung' },
+    { id:'c3c', name:'Freizeit-, Natur- und Erholungsangebote im Umfeld' },
+  ]},
+  { id:'c4', name:'Finanzen & Werterhalt', icon:'wallet', subs:[
+    { id:'c4a', name:'Gesamtkosten und finanzielle Belastung (Kaufpreis, Finanzierung, laufende Kosten)' },
+    { id:'c4b', name:'Risiken (Instandhaltung, Wertverlust, Zinsrisiko, unerwartete Kosten)' },
+    { id:'c4c', name:'Chancen (Wertsteigerung, Standortentwicklung, Vermögensaufbau)' },
+  ]},
+  { id:'c5', name:'Zeitaufwand & Komfort', icon:'clock', subs:[
+    { id:'c5a', name:'Aufwand für Pflege, Reparaturen und Verwaltung' },
+    { id:'c5b', name:'Zeitaufwand für Mobilität und tägliche Wege' },
+    { id:'c5c', name:'Alltagstauglichkeit und Bequemlichkeit' },
+  ]},
+  { id:'c6', name:'Lebensstil & Freizeit', icon:'coffee', subs:[
+    { id:'c6a', name:'Zugang zu Kultur, Gastronomie und urbanen Angeboten' },
+    { id:'c6b', name:'Nähe zu Natur, Ruhe und Erholung' },
+    { id:'c6c', name:'Passung zum persönlichen Lebensstil und sozialen Aktivitäten' },
+  ]},
+  { id:'c7', name:'Flexibilität & Zukunftssicherheit', icon:'shuffle', subs:[
+    { id:'c7a', name:'Anpassbarkeit an Lebensveränderungen (Familie, Homeoffice, Alter)' },
+    { id:'c7b', name:'Erweiterungs- und Umgestaltungsmöglichkeiten' },
+    { id:'c7c', name:'Langfristige Eignung als Lebensmittelpunkt' },
+  ]},
+  { id:'c8', name:'Nachhaltigkeit & Mobilität', icon:'leaf', subs:[
+    { id:'c8a', name:'Energieeffizienz und zukünftige Energiekosten' },
+    { id:'c8b', name:'Potenzial für PV, Speicher, Wärmepumpe und Ladeinfrastruktur' },
+    { id:'c8c', name:'Abhängigkeit vom Auto und nachhaltige Mobilitätsoptionen' },
+  ]},
+];
+
+const ALL_SUBS = CATEGORIES.flatMap(c => c.subs.map(s => ({...s, catId:c.id})));
+const OBJ_COLORS = ['#00A8E8','#5CA83E','#E8A33D','#8B5CF6','#EF4242','#14B8A6','#EC4899','#0EA5E9','#84CC16','#F97316'];
+const STORAGE_KEY = 'immo-matrix-v1';
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 2 — STATE
+   ═══════════════════════════════════════════════════════════ */
+let state = null;
+let activeView = 'objekte';
+let activeObjId = null;
+let openNotes = {};   // "objId|subId" -> true
+
+function defaultState(){
+  const catW = {}, subW = {};
+  CATEGORIES.forEach(c => {
+    catW[c.id] = 10;
+    c.subs.forEach(s => { subW[s.id] = 10; });
+  });
+  return { version:1, weights:{ cat:catW, sub:subW }, objects:[] };
+}
+
+function newObject(){
+  const scores = {}, notes = {};
+  ALL_SUBS.forEach(s => { scores[s.id] = ''; notes[s.id] = ''; });
+  return {
+    id: 'o' + Date.now().toString(36) + Math.random().toString(36).slice(2,6),
+    name: 'Objekt ' + (state.objects.length + 1),
+    address:'', price:'', area:'', rooms:'', year:'', url:'', note:'',
+    scores, notes,
+  };
+}
+
+function migrate(raw){
+  const base = defaultState();
+  if(!raw || typeof raw !== 'object') return base;
+  // Gewichte
+  if(raw.weights){
+    CATEGORIES.forEach(c => {
+      if(raw.weights.cat && raw.weights.cat[c.id] != null) base.weights.cat[c.id] = raw.weights.cat[c.id];
+      c.subs.forEach(s => {
+        if(raw.weights.sub && raw.weights.sub[s.id] != null) base.weights.sub[s.id] = raw.weights.sub[s.id];
+      });
+    });
+  }
+  // Objekte
+  base.objects = (Array.isArray(raw.objects) ? raw.objects : []).map((o, i) => {
+    const fresh = { id:o.id || ('o'+i+Date.now().toString(36)), name:o.name || ('Objekt '+(i+1)),
+      address:o.address||'', price:o.price||'', area:o.area||'', rooms:o.rooms||'',
+      year:o.year||'', url:o.url||'', note:o.note||'', scores:{}, notes:{} };
+    ALL_SUBS.forEach(s => {
+      fresh.scores[s.id] = (o.scores && o.scores[s.id] != null) ? o.scores[s.id] : '';
+      fresh.notes[s.id]  = (o.notes  && o.notes[s.id]  != null) ? o.notes[s.id]  : '';
+    });
+    return fresh;
+  });
+  return base;
+}
+
+function load(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    state = raw ? migrate(JSON.parse(raw)) : defaultState();
+  }catch(e){ state = defaultState(); }
+  if(!state.objects.length) state.objects.push(newObject());
+  activeObjId = state.objects[0].id;
+}
+
+let saveTimer = null;
+function save(){
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+    catch(e){ toast('Speichern fehlgeschlagen — Speicher voll?', 'alert-triangle'); }
+  }, 220);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 3 — BERECHNUNG
+   Zweistufig: Unterkriterien -> Kategorie-Score -> Gesamtscore.
+   Leere Felder und Gewicht 0 werden ausgeschlossen, die
+   verbleibenden Gewichte normalisieren sich automatisch neu.
+   ═══════════════════════════════════════════════════════════ */
+function num(v){
+  if(v === '' || v == null) return null;
+  const n = parseFloat(String(v).replace(',', '.'));
+  return isNaN(n) ? null : n;
+}
+
+function calc(obj){
+  const catScores = {};
+  let totW = 0, totS = 0, filled = 0;
+
+  CATEGORIES.forEach(cat => {
+    const cw = Math.max(0, num(state.weights.cat[cat.id]) ?? 0);
+    let sw = 0, ss = 0;
+    cat.subs.forEach(sub => {
+      const v = num(obj.scores[sub.id]);
+      if(v === null) return;
+      filled++;
+      const w = Math.max(0, num(state.weights.sub[sub.id]) ?? 0);
+      if(w <= 0) return;
+      sw += w; ss += w * v;
+    });
+    const cs = sw > 0 ? ss / sw : null;
+    catScores[cat.id] = cs;
+    if(cs !== null && cw > 0){ totW += cw; totS += cw * cs; }
+  });
+
+  return {
+    catScores,
+    total: totW > 0 ? totS / totW : null,
+    coverage: filled / ALL_SUBS.length,
+    filled,
+  };
+}
+
+function catPct(catId){
+  const sum = CATEGORIES.reduce((a,c) => a + Math.max(0, num(state.weights.cat[c.id]) ?? 0), 0);
+  if(sum <= 0) return 0;
+  return (Math.max(0, num(state.weights.cat[catId]) ?? 0) / sum) * 100;
+}
+function subPct(cat, subId){
+  const sum = cat.subs.reduce((a,s) => a + Math.max(0, num(state.weights.sub[s.id]) ?? 0), 0);
+  if(sum <= 0) return 0;
+  return (Math.max(0, num(state.weights.sub[subId]) ?? 0) / sum) * 100;
+}
+/** Effektives Gesamtgewicht eines Unterkriteriums in Prozent. */
+function effPct(cat, subId){ return catPct(cat.id) * subPct(cat, subId) / 100; }
+
+function scoreColor(v){
+  if(v === null || v === undefined) return 'var(--surface-2)';
+  if(v < 4) return 'var(--neg)';
+  if(v < 6) return 'var(--mid)';
+  if(v < 8) return 'var(--accent)';
+  return 'var(--pos)';
+}
+function fmt(v, d = 1){ return v === null || v === undefined ? '–' : v.toFixed(d).replace('.', ','); }
+function objColor(id){ const i = state.objects.findIndex(o => o.id === id); return OBJ_COLORS[i % OBJ_COLORS.length]; }
+function esc(s){ return String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+function nf(v){ const n = num(v); return n === null ? null : n.toLocaleString('de-DE'); }
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 4 — VIEW: OBJEKTE
+   ═══════════════════════════════════════════════════════════ */
+function renderObjekte(){
+  const el = document.getElementById('view-objekte');
+  const obj = state.objects.find(o => o.id === activeObjId) || state.objects[0];
+  if(!obj){
+    el.innerHTML = `<div class="empty"><i data-lucide="house"></i>
+      <p>Noch kein Objekt angelegt.</p>
+      <button class="btn btn-primary" data-act="add-obj"><i data-lucide="plus"></i>Erstes Objekt anlegen</button></div>`;
+    return;
+  }
+  activeObjId = obj.id;
+  const r = calc(obj);
+  const ppsm = (num(obj.price) && num(obj.area)) ? Math.round(num(obj.price) / num(obj.area)) : null;
+
+  let html = '';
+
+  /* Objekt-Leiste */
+  html += '<div class="objbar">';
+  state.objects.forEach(o => {
+    const t = calc(o).total;
+    html += `<button class="objchip ${o.id === obj.id ? 'active' : ''}" data-act="pick-obj" data-id="${o.id}">
+      <span class="dot" style="background:${objColor(o.id)}"></span>
+      <span>${esc(o.name)}</span>
+      <span class="sc">${fmt(t)}</span>
+    </button>`;
+  });
+  html += `<button class="objchip objchip-add" data-act="add-obj"><i data-lucide="plus"></i>Objekt hinzufügen</button></div>`;
+
+  /* Score-Kopf */
+  html += `<div class="scorehead">
+    <div class="bigscore">
+      <span class="v" style="color:${scoreColor(r.total)}">${fmt(r.total, 2)}</span>
+      <span class="max">/ 10</span>
+    </div>
+    <div class="meta">
+      <b>Gewichteter Gesamtscore</b>
+      <span>${r.filled} von ${ALL_SUBS.length} Kriterien bewertet</span>
+      <div class="coverbar"><i style="width:${(r.coverage*100).toFixed(0)}%"></i></div>
+    </div>
+    <div class="spacer"></div>
+    <button class="btn btn-sm" data-act="dup-obj"><i data-lucide="copy"></i>Duplizieren</button>
+    <button class="btn btn-sm btn-danger" data-act="del-obj"><i data-lucide="trash-2"></i>Löschen</button>
+  </div>`;
+
+  /* Stammdaten */
+  html += `<div class="card"><div class="card-head">
+      <span class="cat-num"><i data-lucide="file-text" style="width:14px;height:14px"></i></span>
+      <div class="cat-title"><b>Stammdaten</b><span>Beschreibende Angaben — fließen nicht in die Bewertung ein</span></div>
+    </div>
+    <div class="card-body">
+      <div class="grid-2" style="margin-bottom:var(--s3)">
+        <div class="field"><label class="label">Bezeichnung</label>
+          <input data-f="name" value="${esc(obj.name)}" placeholder="z. B. Haus Lindenweg 4" /></div>
+        <div class="field"><label class="label">Adresse / Ort</label>
+          <input data-f="address" value="${esc(obj.address)}" placeholder="Straße, PLZ Ort" /></div>
+      </div>
+      <div class="grid-4" style="margin-bottom:var(--s3)">
+        <div class="field"><label class="label">Kaufpreis (€)</label>
+          <input data-f="price" inputmode="decimal" value="${esc(obj.price)}" placeholder="450000" /></div>
+        <div class="field"><label class="label">Wohnfläche (m²)</label>
+          <input data-f="area" inputmode="decimal" value="${esc(obj.area)}" placeholder="140" /></div>
+        <div class="field"><label class="label">Zimmer</label>
+          <input data-f="rooms" value="${esc(obj.rooms)}" placeholder="4,5" /></div>
+        <div class="field"><label class="label">Baujahr</label>
+          <input data-f="year" value="${esc(obj.year)}" placeholder="1998" /></div>
+      </div>
+      <div class="grid-2" style="margin-bottom:var(--s3)">
+        <div class="field"><label class="label">Link zum Exposé</label>
+          <input data-f="url" value="${esc(obj.url)}" placeholder="https://…" /></div>
+        <div class="field"><label class="label">Preis pro m²</label>
+          <input value="${ppsm ? ppsm.toLocaleString('de-DE') + ' €' : '—'}" readonly
+            style="background:var(--surface);color:var(--muted);font-family:var(--font-mono)" /></div>
+      </div>
+      <div class="field"><label class="label">Notizen zum Objekt</label>
+        <textarea data-f="note" placeholder="Termine, Eindrücke, offene Fragen …">${esc(obj.note)}</textarea></div>
+    </div></div>`;
+
+  /* Kriterien-Karten */
+  CATEGORIES.forEach((cat, ci) => {
+    const cs = r.catScores[cat.id];
+    html += `<div class="card"><div class="card-head">
+      <span class="cat-num">${ci+1}</span>
+      <div class="cat-title"><b>${esc(cat.name)}</b>
+        <span>Kategoriegewicht ${catPct(cat.id).toFixed(1).replace('.', ',')} %</span></div>
+      <span class="cat-score" style="color:${scoreColor(cs)};border-color:${cs===null?'var(--border)':scoreColor(cs)}">${fmt(cs)}</span>
+    </div><div class="card-body">`;
+
+    cat.subs.forEach(sub => {
+      const v = num(obj.scores[sub.id]);
+      const hasNote = (obj.notes[sub.id] || '').trim().length > 0;
+      const noteOpen = openNotes[obj.id + '|' + sub.id];
+      html += `<div class="crit">
+        <div class="crit-label">${esc(sub.name)}
+          <span class="wq">· ${effPct(cat, sub.id).toFixed(1).replace('.', ',')} % gesamt</span></div>
+        <div class="crit-gauge"><i style="width:${v === null ? 0 : Math.min(100, v*10)}%;background:${scoreColor(v)}"></i></div>
+        <input class="crit-input" data-s="${sub.id}" inputmode="decimal" placeholder="–"
+          value="${esc(obj.scores[sub.id])}" title="Note 1 bis 10" />
+        <button class="crit-note ${hasNote ? 'has' : ''}" data-act="toggle-note" data-s="${sub.id}"
+          title="Begründung / Notiz"><i data-lucide="message-square"></i></button>
+      </div>`;
+      if(noteOpen || hasNote){
+        html += `<div class="crit-noterow">
+          <textarea data-n="${sub.id}" placeholder="Begründung der Note …">${esc(obj.notes[sub.id])}</textarea>
+        </div>`;
+      }
+    });
+    html += '</div></div>';
+  });
+
+  el.innerHTML = html;
+  icons();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 5 — VIEW: GEWICHTUNG
+   ═══════════════════════════════════════════════════════════ */
+function renderGewichtung(){
+  const el = document.getElementById('view-gewichtung');
+  let html = `<div class="section-head">
+    <h2>Gewichtung</h2>
+    <p>Vergib freie Gewichtungspunkte — die Prozentwerte errechnen sich daraus automatisch.
+       Kategoriegewichte verteilen sich über alle acht Hauptkriterien, Unterkriteriengewichte
+       jeweils innerhalb ihrer Kategorie. Gewicht <b>0</b> deaktiviert ein Kriterium vollständig.</p>
+  </div>`;
+
+  html += `<div class="w-note"><i data-lucide="info"></i>
+    <span>Die Gewichtung gilt für <b>alle Objekte gleichzeitig</b> — nur so bleiben die Scores vergleichbar.
+    Änderungen wirken sich sofort auf Übersicht und Ranking aus.</span></div>`;
+
+  html += `<div style="display:flex;gap:var(--s2);margin-bottom:var(--s4);flex-wrap:wrap">
+    <button class="btn btn-sm" data-act="w-reset"><i data-lucide="rotate-ccw"></i>Alle gleich gewichten</button>
+    <button class="btn btn-sm" data-act="w-round"><i data-lucide="percent"></i>Kategorien auf 100 normieren</button>
+  </div>`;
+
+  /* Kategoriegewichte */
+  html += `<div class="card"><div class="card-head">
+      <span class="cat-num"><i data-lucide="layers" style="width:14px;height:14px"></i></span>
+      <div class="cat-title"><b>Kategoriegewichte</b><span>Wie stark zählt jedes Hauptkriterium im Gesamtscore?</span></div>
+    </div><div class="card-body">`;
+  CATEGORIES.forEach((cat, ci) => {
+    const p = catPct(cat.id);
+    html += `<div class="w-row">
+      <span class="cat-num" style="width:22px;height:22px;font-size:11px">${ci+1}</span>
+      <span class="t"><b>${esc(cat.name)}</b></span>
+      <span class="w-bar"><i style="width:${p.toFixed(1)}%"></i></span>
+      <span class="w-pct">${p.toFixed(1).replace('.', ',')} %</span>
+      <input class="w-input" data-wc="${cat.id}" inputmode="decimal" value="${esc(state.weights.cat[cat.id])}" />
+    </div>`;
+  });
+  html += '</div></div>';
+
+  /* Unterkriteriengewichte */
+  CATEGORIES.forEach((cat, ci) => {
+    html += `<div class="card"><div class="card-head">
+      <span class="cat-num">${ci+1}</span>
+      <div class="cat-title"><b>${esc(cat.name)}</b>
+        <span>Verteilung innerhalb der Kategorie (${catPct(cat.id).toFixed(1).replace('.', ',')} % des Gesamtscores)</span></div>
+    </div><div class="card-body">`;
+    cat.subs.forEach(sub => {
+      const p = subPct(cat, sub.id);
+      html += `<div class="w-row">
+        <span class="t">${esc(sub.name)}
+          <span class="wq" style="font-size:11px;color:var(--muted);font-family:var(--font-mono)">· ${effPct(cat, sub.id).toFixed(1).replace('.', ',')} % gesamt</span></span>
+        <span class="w-bar"><i style="width:${p.toFixed(1)}%"></i></span>
+        <span class="w-pct">${p.toFixed(1).replace('.', ',')} %</span>
+        <input class="w-input" data-ws="${sub.id}" inputmode="decimal" value="${esc(state.weights.sub[sub.id])}" />
+      </div>`;
+    });
+    html += '</div></div>';
+  });
+
+  el.innerHTML = html;
+  icons();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 6 — VIEW: GESAMTÜBERSICHT
+   ═══════════════════════════════════════════════════════════ */
+function renderUebersicht(){
+  const el = document.getElementById('view-uebersicht');
+  const objs = state.objects;
+  if(!objs.length){ el.innerHTML = emptyBlock('Keine Objekte vorhanden.'); icons(); return; }
+  const res = objs.map(o => ({ o, r: calc(o) }));
+
+  let html = `<div class="section-head">
+    <h2>Gesamtübersicht</h2>
+    <p>Alle Objekte im direkten Vergleich. Der jeweils beste Wert je Zeile ist grün umrandet.</p>
+  </div>
+  <div style="display:flex;gap:var(--s2);margin-bottom:var(--s4);flex-wrap:wrap" class="no-print">
+    <button class="btn btn-sm" data-act="csv"><i data-lucide="file-down"></i>Als CSV exportieren</button>
+    <button class="btn btn-sm" data-act="print"><i data-lucide="printer"></i>Drucken / PDF</button>
+  </div>`;
+
+  html += '<div class="tablewrap"><table class="matrix"><thead><tr><th class="sticky">Kriterium</th>';
+  res.forEach(({o}) => {
+    html += `<th style="text-align:center">
+      <span style="display:inline-flex;align-items:center;gap:6px">
+        <span style="width:9px;height:9px;border-radius:50%;background:${objColor(o.id)};display:inline-block"></span>
+        ${esc(o.name)}</span></th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  /* Stammdaten-Zeilen */
+  const meta = [
+    ['Adresse', o => o.address || '—'],
+    ['Kaufpreis', o => nf(o.price) ? nf(o.price) + ' €' : '—'],
+    ['Wohnfläche', o => nf(o.area) ? nf(o.area) + ' m²' : '—'],
+    ['Preis / m²', o => (num(o.price) && num(o.area)) ? Math.round(num(o.price)/num(o.area)).toLocaleString('de-DE') + ' €' : '—'],
+    ['Zimmer', o => o.rooms || '—'],
+    ['Baujahr', o => o.year || '—'],
+  ];
+  html += `<tr class="cat-row"><td class="sticky">Stammdaten</td><td colspan="${res.length}"></td></tr>`;
+  meta.forEach(([label, fn]) => {
+    html += `<tr class="sub-row"><td class="sticky">${label}</td>`;
+    res.forEach(({o}) => { html += `<td class="num">${esc(fn(o))}</td>`; });
+    html += '</tr>';
+  });
+
+  /* Bewertungszeilen */
+  CATEGORIES.forEach((cat, ci) => {
+    const vals = res.map(({r}) => r.catScores[cat.id]);
+    const best = bestIdx(vals);
+    html += `<tr class="cat-row"><td class="sticky">${ci+1}. ${esc(cat.name)}
+      <span class="wpill">${catPct(cat.id).toFixed(1).replace('.', ',')} %</span></td>`;
+    vals.forEach((v, i) => {
+      html += `<td class="num ${i === best ? 'best' : ''}" style="color:${scoreColor(v)};font-weight:700">${fmt(v)}</td>`;
+    });
+    html += '</tr>';
+
+    cat.subs.forEach(sub => {
+      const sv = res.map(({o}) => num(o.scores[sub.id]));
+      const sb = bestIdx(sv);
+      html += `<tr class="sub-row"><td class="sticky">${esc(sub.name)}
+        <span class="wpill">${effPct(cat, sub.id).toFixed(1).replace('.', ',')} %</span></td>`;
+      sv.forEach((v, i) => {
+        html += `<td class="num ${i === sb ? 'best' : ''}" style="color:${v===null?'var(--muted)':scoreColor(v)}">${fmt(v)}</td>`;
+      });
+      html += '</tr>';
+    });
+  });
+
+  /* Summenzeile */
+  const totals = res.map(({r}) => r.total);
+  const bt = bestIdx(totals);
+  html += '<tr class="total-row"><td class="sticky">Gewichteter Gesamtscore <span class="wpill">100 %</span></td>';
+  totals.forEach((v, i) => {
+    html += `<td class="num ${i === bt ? 'best' : ''}">${fmt(v, 2)}${i === bt && v !== null ? ' ★' : ''}</td>`;
+  });
+  html += '</tr></tbody></table></div>';
+
+  el.innerHTML = html;
+  icons();
+}
+
+function bestIdx(arr){
+  let bi = -1, bv = -Infinity;
+  arr.forEach((v, i) => { if(v !== null && v !== undefined && v > bv){ bv = v; bi = i; } });
+  return arr.filter(v => v !== null && v !== undefined).length > 1 ? bi : -1;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 7 — VIEW: AUSWERTUNG & RANKING
+   ═══════════════════════════════════════════════════════════ */
+function renderAuswertung(){
+  const el = document.getElementById('view-auswertung');
+  const scored = state.objects.map(o => ({ o, r: calc(o) })).filter(x => x.r.total !== null);
+  if(!scored.length){
+    el.innerHTML = `<div class="section-head"><h2>Auswertung &amp; Ranking</h2></div>` +
+      emptyBlock('Noch keine Bewertungen erfasst. Vergib zuerst Noten im Reiter „Objekte".');
+    icons();
+    return;
+  }
+  const ranked = [...scored].sort((a,b) => b.r.total - a.r.total);
+  const top = ranked[0].r.total;
+
+  let html = `<div class="section-head">
+    <h2>Auswertung &amp; Ranking</h2>
+    <p>Reihenfolge nach gewichtetem Gesamtscore. Achte auf die Abdeckung: ein Spitzenplatz
+       bei wenigen bewerteten Kriterien ist noch keine belastbare Entscheidung.</p>
+  </div>`;
+
+  /* Ranking */
+  html += '<div class="rank">';
+  ranked.forEach((x, i) => {
+    const d = x.r.total - top;
+    html += `<div class="rank-item ${i === 0 ? 'first' : ''}">
+      <span class="rank-pos">${i+1}</span>
+      <span class="rank-main">
+        <b>${esc(x.o.name)}</b>
+        <span>${x.o.address ? esc(x.o.address) + ' · ' : ''}${x.r.filled}/${ALL_SUBS.length} Kriterien${
+          num(x.o.price) ? ' · ' + nf(x.o.price) + ' €' : ''}</span>
+      </span>
+      <span class="rank-bar"><i style="width:${(x.r.total*10).toFixed(1)}%;background:${objColor(x.o.id)}"></i></span>
+      <span class="rank-delta">${i === 0 ? '' : d.toFixed(2).replace('.', ',')}</span>
+      <span class="rank-score" style="color:${scoreColor(x.r.total)}">${fmt(x.r.total, 2)}</span>
+    </div>`;
+  });
+  html += '</div>';
+
+  /* Profilvergleich (Radar) */
+  html += `<div class="card"><div class="card-head">
+      <span class="cat-num"><i data-lucide="radar" style="width:14px;height:14px"></i></span>
+      <div class="cat-title"><b>Profilvergleich</b><span>Kategorie-Scores aller Objekte im Netzdiagramm</span></div>
+    </div><div class="card-body"><div class="radar-wrap">${radarSVG(ranked)}
+      <div class="radar-legend">`;
+  ranked.forEach(x => {
+    html += `<div><i style="background:${objColor(x.o.id)}"></i>
+      <span>${esc(x.o.name)}</span>
+      <span class="tot">${fmt(x.r.total, 2)}</span></div>`;
+  });
+  html += '</div></div></div></div>';
+
+  /* Kategorie-Duelle */
+  html += `<div class="section-head" style="margin-top:var(--s5)">
+    <h2 style="font-size:16px">Vergleich je Kategorie</h2>
+    <p>Wo gewinnt welches Objekt? Der Prozentwert zeigt das Gewicht der Kategorie.</p></div>`;
+  html += '<div class="cmp-grid">';
+  CATEGORIES.forEach((cat, ci) => {
+    const rows = ranked.map(x => ({ o:x.o, v:x.r.catScores[cat.id] }))
+                       .sort((a,b) => (b.v ?? -1) - (a.v ?? -1));
+    html += `<div class="cat-cmp"><h4>${ci+1}. ${esc(cat.name)}
+      <span class="cw">${catPct(cat.id).toFixed(1).replace('.', ',')} %</span></h4>`;
+    rows.forEach(row => {
+      html += `<div class="cat-cmp-row">
+        <span class="n" title="${esc(row.o.name)}">${esc(row.o.name)}</span>
+        <span class="b"><i style="width:${row.v === null ? 0 : (row.v*10).toFixed(1)}%;background:${objColor(row.o.id)}"></i></span>
+        <span class="v">${fmt(row.v)}</span></div>`;
+    });
+    html += '</div>';
+  });
+  html += '</div>';
+
+  /* Stärken & Schwächen */
+  html += `<div class="section-head" style="margin-top:var(--s5)">
+    <h2 style="font-size:16px">Stärken &amp; Schwächen</h2>
+    <p>Je Objekt die drei stärksten und drei schwächsten Unterkriterien — gewichtet nach ihrem
+       Einfluss auf den Gesamtscore.</p></div>`;
+  html += '<div class="sw-grid">';
+  ranked.forEach(x => {
+    const items = [];
+    CATEGORIES.forEach(cat => {
+      cat.subs.forEach(sub => {
+        const v = num(x.o.scores[sub.id]);
+        if(v === null) return;
+        items.push({ name:sub.name, v, w:effPct(cat, sub.id) });
+      });
+    });
+    // Einfluss = Abweichung vom Mittelwert 5,5 × effektivem Gewicht
+    const strong = [...items].sort((a,b) => (b.v-5.5)*b.w - (a.v-5.5)*a.w).slice(0,3);
+    const weak   = [...items].sort((a,b) => (a.v-5.5)*a.w - (b.v-5.5)*b.w).slice(0,3);
+    html += `<div class="sw-card">
+      <h4><span class="dot" style="background:${objColor(x.o.id)}"></span>${esc(x.o.name)}
+        <span style="margin-left:auto;font-family:var(--font-mono);font-weight:500;color:${scoreColor(x.r.total)}">${fmt(x.r.total,2)}</span></h4>`;
+    html += `<div class="sw-list"><div class="h"><i data-lucide="trending-up"></i>Stärken</div><ul>`;
+    strong.forEach(it => { html += `<li><span>${esc(it.name)}</span><b style="color:${scoreColor(it.v)}">${fmt(it.v)}</b></li>`; });
+    html += '</ul></div>';
+    html += `<div class="sw-list"><div class="h"><i data-lucide="trending-down"></i>Schwächen</div><ul>`;
+    weak.forEach(it => { html += `<li><span>${esc(it.name)}</span><b style="color:${scoreColor(it.v)}">${fmt(it.v)}</b></li>`; });
+    html += '</ul></div></div>';
+  });
+  html += '</div>';
+
+  el.innerHTML = html;
+  icons();
+}
+
+function radarSVG(ranked){
+  // Breiter als hoch, damit die langen Kategorienamen links und rechts Platz haben.
+  const W = 580, H = 400, cx = W/2, cy = H/2, R = 138, n = CATEGORIES.length;
+  const pt = (i, r) => {
+    const a = -Math.PI/2 + i * 2 * Math.PI / n;
+    return [cx + Math.cos(a)*r, cy + Math.sin(a)*r];
+  };
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="max-width:100%;height:auto">`;
+
+  // Ringe
+  [2,4,6,8,10].forEach(v => {
+    const r = R * v / 10;
+    const pts = Array.from({length:n}, (_, i) => pt(i, r).join(',')).join(' ');
+    s += `<polygon points="${pts}" fill="none" stroke="#DEDCDC" stroke-width="1" />`;
+  });
+  // Achsen + Beschriftung
+  CATEGORIES.forEach((cat, i) => {
+    const [x, y] = pt(i, R);
+    s += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="#DEDCDC" stroke-width="1" />`;
+    const [lx, ly] = pt(i, R + 18);
+    const anchor = Math.abs(lx - cx) < 6 ? 'middle' : (lx > cx ? 'start' : 'end');
+    const words = cat.name.split(' & ');
+    words.forEach((w, k) => {
+      s += `<text x="${lx}" y="${ly + k*12 - (words.length-1)*5}" text-anchor="${anchor}"
+        font-size="10.5" font-family="DM Sans, sans-serif" fill="#6B7378"
+        dominant-baseline="middle">${esc(k > 0 ? '& ' + w : w)}</text>`;
+    });
+  });
+  // Polygone
+  ranked.forEach(x => {
+    const col = objColor(x.o.id);
+    const pts = CATEGORIES.map((cat, i) => {
+      const v = x.r.catScores[cat.id] ?? 0;
+      return pt(i, R * Math.max(0, Math.min(10, v)) / 10).join(',');
+    }).join(' ');
+    s += `<polygon points="${pts}" fill="${col}" fill-opacity="0.10" stroke="${col}" stroke-width="2"
+      stroke-linejoin="round" />`;
+    CATEGORIES.forEach((cat, i) => {
+      const v = x.r.catScores[cat.id];
+      if(v === null) return;
+      const [px, py] = pt(i, R * Math.max(0, Math.min(10, v)) / 10);
+      s += `<circle cx="${px}" cy="${py}" r="3" fill="${col}" />`;
+    });
+  });
+  s += '</svg>';
+  return s;
+}
+
+function emptyBlock(msg){
+  return `<div class="empty"><i data-lucide="inbox"></i><p>${esc(msg)}</p></div>`;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 8 — RENDER-DISPATCH
+   ═══════════════════════════════════════════════════════════ */
+function render(){
+  ['objekte','gewichtung','uebersicht','auswertung'].forEach(v => {
+    document.getElementById('view-' + v).classList.toggle('hide', v !== activeView);
+  });
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.view === activeView));
+  if(activeView === 'objekte')     renderObjekte();
+  if(activeView === 'gewichtung')  renderGewichtung();
+  if(activeView === 'uebersicht')  renderUebersicht();
+  if(activeView === 'auswertung')  renderAuswertung();
+}
+
+/* Aktualisiert nur die Live-Werte im Objekt-Formular, ohne den
+   Fokus im gerade bearbeiteten Feld zu verlieren. */
+function refreshObjektLive(){
+  const obj = state.objects.find(o => o.id === activeObjId);
+  if(!obj) return;
+  const r = calc(obj);
+  const big = document.querySelector('#view-objekte .bigscore .v');
+  if(big){ big.textContent = fmt(r.total, 2); big.style.color = scoreColor(r.total); }
+  const meta = document.querySelector('#view-objekte .scorehead .meta span');
+  if(meta) meta.textContent = `${r.filled} von ${ALL_SUBS.length} Kriterien bewertet`;
+  const cov = document.querySelector('#view-objekte .coverbar i');
+  if(cov) cov.style.width = (r.coverage*100).toFixed(0) + '%';
+
+  document.querySelectorAll('#view-objekte .card').forEach(card => {
+    const el = card.querySelector('.cat-score');
+    if(!el) return;
+    const idx = [...document.querySelectorAll('#view-objekte .cat-score')].indexOf(el);
+    const cat = CATEGORIES[idx];
+    if(!cat) return;
+    const cs = r.catScores[cat.id];
+    el.textContent = fmt(cs);
+    el.style.color = scoreColor(cs);
+    el.style.borderColor = cs === null ? 'var(--border)' : scoreColor(cs);
+  });
+
+  document.querySelectorAll('#view-objekte .crit-input').forEach(inp => {
+    const v = num(inp.value);
+    const g = inp.closest('.crit').querySelector('.crit-gauge i');
+    if(g){ g.style.width = (v === null ? 0 : Math.min(100, v*10)) + '%'; g.style.background = scoreColor(v); }
+  });
+
+  document.querySelectorAll('.objchip[data-id]').forEach(chip => {
+    const o = state.objects.find(x => x.id === chip.dataset.id);
+    const sc = chip.querySelector('.sc');
+    if(o && sc) sc.textContent = fmt(calc(o).total);
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 9 — EVENTS
+   ═══════════════════════════════════════════════════════════ */
+document.querySelectorAll('.tab').forEach(t => {
+  t.addEventListener('click', () => { activeView = t.dataset.view; render(); window.scrollTo(0,0); });
+});
+
+document.addEventListener('click', e => {
+  const btn = e.target.closest('[data-act]');
+  if(!btn) return;
+  const act = btn.dataset.act;
+
+  if(act === 'add-obj'){
+    const o = newObject();
+    state.objects.push(o);
+    activeObjId = o.id;
+    activeView = 'objekte';
+    save(); render();
+    toast('Objekt angelegt', 'plus');
+  }
+  if(act === 'pick-obj'){ activeObjId = btn.dataset.id; render(); }
+  if(act === 'dup-obj'){
+    const src = state.objects.find(o => o.id === activeObjId);
+    if(!src) return;
+    const copy = JSON.parse(JSON.stringify(src));
+    copy.id = 'o' + Date.now().toString(36) + Math.random().toString(36).slice(2,6);
+    copy.name = src.name + ' (Kopie)';
+    state.objects.splice(state.objects.indexOf(src) + 1, 0, copy);
+    activeObjId = copy.id;
+    save(); render();
+    toast('Objekt dupliziert', 'copy');
+  }
+  if(act === 'del-obj'){
+    const o = state.objects.find(x => x.id === activeObjId);
+    if(!o) return;
+    confirmDialog('Objekt löschen?', `„${o.name}" wird mit allen Bewertungen und Notizen entfernt. Das lässt sich nicht rückgängig machen.`, () => {
+      const i = state.objects.indexOf(o);
+      state.objects.splice(i, 1);
+      if(!state.objects.length) state.objects.push(newObject());
+      activeObjId = state.objects[Math.max(0, i-1)].id;
+      save(); render();
+      toast('Objekt gelöscht', 'trash-2');
+    });
+  }
+  if(act === 'toggle-note'){
+    const key = activeObjId + '|' + btn.dataset.s;
+    const obj = state.objects.find(o => o.id === activeObjId);
+    if(openNotes[key] && !(obj.notes[btn.dataset.s] || '').trim()) delete openNotes[key];
+    else openNotes[key] = !openNotes[key];
+    render();
+    const ta = document.querySelector(`textarea[data-n="${btn.dataset.s}"]`);
+    if(ta) ta.focus();
+  }
+  if(act === 'w-reset'){
+    CATEGORIES.forEach(c => {
+      state.weights.cat[c.id] = 10;
+      c.subs.forEach(s => { state.weights.sub[s.id] = 10; });
+    });
+    save(); render();
+    toast('Gewichtung zurückgesetzt', 'rotate-ccw');
+  }
+  if(act === 'w-round'){
+    const sum = CATEGORIES.reduce((a,c) => a + Math.max(0, num(state.weights.cat[c.id]) ?? 0), 0);
+    if(sum <= 0){ toast('Keine Gewichte gesetzt', 'alert-triangle'); return; }
+    CATEGORIES.forEach(c => {
+      state.weights.cat[c.id] = Math.round((Math.max(0, num(state.weights.cat[c.id]) ?? 0) / sum) * 1000) / 10;
+    });
+    save(); render();
+    toast('Auf 100 % normiert', 'percent');
+  }
+  if(act === 'csv')   exportCSV();
+  if(act === 'print') window.print();
+});
+
+/* Eingaben */
+document.addEventListener('input', e => {
+  const t = e.target;
+
+  // Stammdaten
+  if(t.dataset.f){
+    const obj = state.objects.find(o => o.id === activeObjId);
+    if(!obj) return;
+    obj[t.dataset.f] = t.value;
+    save();
+    if(t.dataset.f === 'name'){
+      const chip = document.querySelector(`.objchip[data-id="${obj.id}"] span:nth-child(2)`);
+      if(chip) chip.textContent = t.value;
+    }
+    if(t.dataset.f === 'price' || t.dataset.f === 'area'){
+      const ro = document.querySelector('#view-objekte input[readonly]');
+      const p = num(obj.price), a = num(obj.area);
+      if(ro) ro.value = (p && a) ? Math.round(p/a).toLocaleString('de-DE') + ' €' : '—';
+    }
+    return;
+  }
+
+  // Note 1–10
+  if(t.dataset.s){
+    const obj = state.objects.find(o => o.id === activeObjId);
+    if(!obj) return;
+    obj.scores[t.dataset.s] = t.value;
+    save();
+    refreshObjektLive();
+    return;
+  }
+
+  // Kriterien-Notiz
+  if(t.dataset.n){
+    const obj = state.objects.find(o => o.id === activeObjId);
+    if(!obj) return;
+    obj.notes[t.dataset.n] = t.value;
+    const btn = document.querySelector(`.crit-note[data-s="${t.dataset.n}"]`);
+    if(btn) btn.classList.toggle('has', t.value.trim().length > 0);
+    save();
+    return;
+  }
+
+  // Gewichte
+  if(t.dataset.wc){ state.weights.cat[t.dataset.wc] = t.value; save(); refreshWeights(); return; }
+  if(t.dataset.ws){ state.weights.sub[t.dataset.ws] = t.value; save(); refreshWeights(); return; }
+});
+
+/* Note beim Verlassen des Feldes auf 1–10 begrenzen */
+document.addEventListener('change', e => {
+  const t = e.target;
+  if(!t.dataset.s) return;
+  const v = num(t.value);
+  if(v === null){ t.value = ''; }
+  else {
+    const c = Math.max(1, Math.min(10, v));
+    t.value = String(Math.round(c * 10) / 10).replace('.', ',');
+  }
+  const obj = state.objects.find(o => o.id === activeObjId);
+  if(obj){ obj.scores[t.dataset.s] = t.value; save(); refreshObjektLive(); }
+});
+
+/* Enter springt zum nächsten Notenfeld */
+document.addEventListener('keydown', e => {
+  if(e.key !== 'Enter' || !e.target.dataset.s) return;
+  e.preventDefault();
+  const inputs = [...document.querySelectorAll('.crit-input')];
+  const i = inputs.indexOf(e.target);
+  if(i > -1 && inputs[i+1]) inputs[i+1].focus();
+});
+
+function refreshWeights(){
+  document.querySelectorAll('#view-gewichtung .w-row').forEach(row => {
+    const inp = row.querySelector('.w-input');
+    if(!inp) return;
+    let p;
+    if(inp.dataset.wc) p = catPct(inp.dataset.wc);
+    else {
+      const cat = CATEGORIES.find(c => c.subs.some(s => s.id === inp.dataset.ws));
+      p = subPct(cat, inp.dataset.ws);
+      const q = row.querySelector('.wq');
+      if(q) q.textContent = '· ' + effPct(cat, inp.dataset.ws).toFixed(1).replace('.', ',') + ' % gesamt';
+    }
+    row.querySelector('.w-pct').textContent = p.toFixed(1).replace('.', ',') + ' %';
+    row.querySelector('.w-bar i').style.width = p.toFixed(1) + '%';
+  });
+  // Karte 0 ist die Kategoriegewichte-Karte, danach folgen die 8 Kategorien
+  document.querySelectorAll('#view-gewichtung .card-head .cat-title span').forEach((el, i) => {
+    if(i === 0) return;
+    const cat = CATEGORIES[i-1];
+    if(!cat) return;
+    el.textContent = `Verteilung innerhalb der Kategorie (${catPct(cat.id).toFixed(1).replace('.', ',')} % des Gesamtscores)`;
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 10 — IMPORT / EXPORT
+   ═══════════════════════════════════════════════════════════ */
+document.getElementById('btn-add-top').addEventListener('click', () => {
+  const o = newObject();
+  state.objects.push(o);
+  activeObjId = o.id;
+  activeView = 'objekte';
+  save(); render();
+  toast('Objekt angelegt', 'plus');
+});
+
+document.getElementById('btn-export').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type:'application/json' });
+  downloadBlob(blob, `immobilien-matrix-${new Date().toISOString().slice(0,10)}.json`);
+  toast('Export gespeichert', 'download');
+});
+
+document.getElementById('btn-import').addEventListener('click', () => document.getElementById('file-import').click());
+document.getElementById('file-import').addEventListener('change', e => {
+  const f = e.target.files[0];
+  if(!f) return;
+  const rd = new FileReader();
+  rd.onload = () => {
+    try{
+      const data = migrate(JSON.parse(rd.result));
+      confirmDialog('Daten ersetzen?', `Die Datei enthält ${data.objects.length} Objekt(e). Der aktuelle Stand wird überschrieben.`, () => {
+        state = data;
+        if(!state.objects.length) state.objects.push(newObject());
+        activeObjId = state.objects[0].id;
+        save(); render();
+        toast('Import erfolgreich', 'check');
+      });
+    }catch(err){ toast('Datei konnte nicht gelesen werden', 'alert-triangle'); }
+    e.target.value = '';
+  };
+  rd.readAsText(f);
+});
+
+function exportCSV(){
+  const objs = state.objects;
+  const res = objs.map(o => ({ o, r: calc(o) }));
+  const sep = ';';
+  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const rows = [];
+  rows.push(['Kriterium','Gewicht %', ...objs.map(o => o.name)].map(q).join(sep));
+  rows.push([q('Adresse'), q(''), ...objs.map(o => q(o.address))].join(sep));
+  rows.push([q('Kaufpreis'), q(''), ...objs.map(o => q(o.price))].join(sep));
+  rows.push([q('Wohnfläche m²'), q(''), ...objs.map(o => q(o.area))].join(sep));
+  CATEGORIES.forEach((cat, ci) => {
+    rows.push([q(`${ci+1}. ${cat.name}`), q(catPct(cat.id).toFixed(1)),
+      ...res.map(({r}) => q(r.catScores[cat.id] === null ? '' : r.catScores[cat.id].toFixed(2)))].join(sep));
+    cat.subs.forEach(sub => {
+      rows.push([q('   ' + sub.name), q(effPct(cat, sub.id).toFixed(1)),
+        ...objs.map(o => q(o.scores[sub.id]))].join(sep));
+    });
+  });
+  rows.push([q('Gewichteter Gesamtscore'), q('100'),
+    ...res.map(({r}) => q(r.total === null ? '' : r.total.toFixed(2)))].join(sep));
+  const blob = new Blob(['﻿' + rows.join('\r\n')], { type:'text/csv;charset=utf-8' });
+  downloadBlob(blob, `immobilien-matrix-${new Date().toISOString().slice(0,10)}.csv`);
+  toast('CSV exportiert', 'file-down');
+}
+
+function downloadBlob(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 11 — UI-HELFER
+   ═══════════════════════════════════════════════════════════ */
+/** Icons nachzeichnen — bleibt wirkungslos, falls das CDN nicht erreichbar ist. */
+function icons(){
+  try{ if(window.lucide && lucide.createIcons) lucide.createIcons(); }catch(e){}
+}
+
+let toastTimer = null;
+function toast(msg, icon = 'check'){
+  document.querySelectorAll('.toast').forEach(t => t.remove());
+  const d = document.createElement('div');
+  d.className = 'toast';
+  d.innerHTML = `<i data-lucide="${icon}"></i><span>${esc(msg)}</span>`;
+  document.body.appendChild(d);
+  icons();
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => d.remove(), 2200);
+}
+
+function confirmDialog(title, body, onOk){
+  const bg = document.createElement('div');
+  bg.className = 'modal-bg';
+  bg.innerHTML = `<div class="modal">
+    <div class="modal-head">${esc(title)}</div>
+    <div class="modal-body">${esc(body)}</div>
+    <div class="modal-foot">
+      <button class="btn" data-x="cancel">Abbrechen</button>
+      <button class="btn btn-primary" data-x="ok">Bestätigen</button>
+    </div></div>`;
+  document.body.appendChild(bg);
+  bg.addEventListener('click', ev => {
+    if(ev.target === bg || ev.target.dataset.x === 'cancel') bg.remove();
+    if(ev.target.dataset.x === 'ok'){ bg.remove(); onOk(); }
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 12 — START
+   ═══════════════════════════════════════════════════════════ */
+load();
+render();
+icons();
+</script>
+</body>
+</html>
