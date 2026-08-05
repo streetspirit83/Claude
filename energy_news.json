@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T06:20:30+00:00",
+  "generated_at": "2026-08-05T09:30:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 64
+      "items_matched": 65
     },
     {
       "name": "erneuerbareenergien",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 21
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,51 @@
       "items_matched": 0
     }
   ],
-  "count": 272,
+  "count": 273,
   "articles": [
+    {
+      "title": "Google agrees 15 year solar deal",
+      "teaser": "RWE run Oklahoma solar project will create 250 jobs and add £18 million to local economy The post Google agrees 15 year solar deal appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/05/google-agrees-15-year-solar-deal/",
+      "source": "energylivenews",
+      "published": "2026-08-05T09:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Die Einspeisevergütung ist passé und trotzdem lohnt sich Photovoltaik weiter",
+      "teaser": "Mit der EEG-Novelle 2027 beginnt ein neues Kapitel der Energiewende in Deutschland. Was der Wegfall der Einspeisevergütung bedeutet und worauf es für einen erfolgreichen Systemwechsel jetzt ankommt, erklärt Lucas Flügel, Sprecher von…",
+      "link": "https://www.pv-magazine.de/2026/08/05/die-einspeiseverguetung-ist-passe-und-trotzdem-lohnt-sich-photovoltaik-weiter/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-05T07:56:18+00:00",
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "ContourGlobal begins construction of Los Maitenes project in Chile",
+      "teaser": "ContourGlobal has commenced construction of the Los Maitenes hybrid solar and battery storage project in Chile’s O’Higgins region.",
+      "link": "https://www.power-technology.com/news/contourglobal-construction-los-maitenes-chile/",
+      "source": "power-technology",
+      "published": "2026-08-05T07:43:38+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Net Hero Podcast – Solar farms run by bots?",
+      "teaser": "Solar is growing so fast the real problem may no longer be building enough of it. The bigger challenge could be finding enough people to keep all those power plants running properly. This week on the Net Hero Podcast I spoke to Hayk…",
+      "link": "https://www.energylivenews.com/2026/08/05/net-hero-podcast-solar-farms-run-by-bots/",
+      "source": "energylivenews",
+      "published": "2026-08-05T07:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "Japan: Tokyo Gas enters offtake for 200MWh Fukushima BESS, Eku Energy nears completion of first project",
       "teaser": "Japanese utility Tokyo Gas has entered into a long-term offtake agreement for a 49.7MW/202.1MWh battery storage project in Fukushima Prefecture.",
@@ -388,6 +431,40 @@
       "published": "2026-08-05T05:33:06+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Erneuerbare Energien schützen vor Energiepreiskrisen",
+      "teaser": "Erneuerbare Energien senken den Strompreis und verhindern extreme Preisspitzen in Energiekrisen, zeigt eine aktuelle BUND-Studie. Zudem bleiben sie der wichtigste Hebel für die Emissionsminderung.",
+      "link": "https://www.energiezukunft.eu/wirtschaft/erneuerbare-energien-schuetzen-vor-energiepreiskrisen",
+      "source": "energiezukunft",
+      "published": "2026-08-05T05:02:00+00:00",
+      "matched_keywords": [
+        "emission",
+        "energiekrise",
+        "erneuerbare",
+        "strompreis"
+      ]
+    },
+    {
+      "title": "Berliner Stadtwerke und naturstrom kooperieren",
+      "teaser": "Der Solarpark Petershagen ging 2025 mit 70 Megawatt Leistung ans Netz. Gebaut wurde er von der naturstrom Gruppe. Nun übernehmen die Berliner Stadtwerke die Hälfte der Anlage. Die gemeinsame Nachrüstung von Batteriespeichern ist geplant.",
+      "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/berliner-stadtwerke-und-naturstrom-kooperieren",
+      "source": "energiezukunft",
+      "published": "2026-08-05T05:00:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Solarboom in Indien strapaziert das Stromnetz",
+      "teaser": "In Indien werden vor allem viele Solarparks gebaut, der Zubau ist enorm. Das stellt auch das Stromnetz vor Herausforderungen, denn besonders um die Mittagszeit kann der erzeugte Solarstrom nicht abtransportiert werden, immer öfter wird…",
+      "link": "https://www.energiezukunft.eu/wirtschaft/solarboom-in-indien-strapaziert-das-stromnetz",
+      "source": "energiezukunft",
+      "published": "2026-08-05T05:00:00+00:00",
+      "matched_keywords": [
+        "forderung",
+        "stromnetz"
       ]
     },
     {
@@ -481,6 +558,16 @@
       ]
     },
     {
+      "title": "Vattenfall secures two Danish offshore wind farm contracts",
+      "teaser": "Vattenfall has secured the contracts to build the Hesselø and North Sea I Mid offshore wind projects through Denmark's latest tender, further expanding its offshore wind portfolio.",
+      "link": "https://www.power-technology.com/news/vattenfall-two-danish-offshore-wind-contracts/",
+      "source": "power-technology",
+      "published": "2026-08-04T13:35:04+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
       "title": "Massachusetts issues RFP seeking 1,000MW of BESS",
       "teaser": "Massachusetts’s Department of Energy Resources (DOER) has issued a request for proposals (RFP) for 1,000MW of energy storage in the US state.",
       "link": "https://www.energy-storage.news/massachusetts-issues-rfp-seeking-1000mw-of-bess/",
@@ -561,16 +648,6 @@
       "matched_keywords": [
         "förderung",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "TotalEnergies buys Shell’s 4GW European renewables portfolio",
-      "teaser": "Energy giants do a deal for renewable assets across Europe and the UK as portfolios shift The post TotalEnergies buys Shell’s 4GW European renewables portfolio appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/04/totalenergies-buys-shells-4gw-european-renewables-portfolio/",
-      "source": "energylivenews",
-      "published": "2026-08-04T09:30:00+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -750,17 +827,6 @@
       ]
     },
     {
-      "title": "Solaredge bietet neuen Photovoltaik-Heimspeicher „Nexis“ jetzt auch in Österreich und der Schweiz an",
-      "teaser": "Die modulare, „Lego-ähnliche“ Speicherlösung soll sich bis auf 20 Kilowatt Leistung und 80 Kilowattstunden Kapazität skalieren lassen. In Deutschland sind binnen weniger Wochen bereits 1300 dieser Speichersysteme in Betrieb gegangen. Ab…",
-      "link": "https://www.pv-magazine.de/2026/08/03/solaredge-bietet-neuen-photovoltaik-heimspeicher-nexis-jetzt-auch-in-oesterreich-und-der-schweiz-an/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-03T13:40:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
-      ]
-    },
-    {
       "title": "First phase of Ummbila Emoyeni Wind Farm in SA begins operation",
       "teaser": "The first phase of the Ummbila Emoyeni Wind Farm, developed by Seriti Green, has commenced commercial operations in South Africa (SA).",
       "link": "https://www.power-technology.com/news/first-phase-ummbila-emoyeni-begins/",
@@ -768,18 +834,6 @@
       "published": "2026-08-03T13:34:44+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Wasserstoffspeicher als Alternative zu Landstrom für Passagierschiffe",
-      "teaser": "Ein Konsortium des Helmholtz-Zentrums Hereon, der Helmut-Schmidt-Universität und der Meyer Werft entwickelt einen Metallhydrid-Wasserstoffspeicher für den Hafenbetrieb von Passagierschiffen. Das bordeigene System soll eine emissionsfreie…",
-      "link": "https://www.pv-magazine.de/2026/08/03/wasserstoffspeicher-als-alternative-zu-landstrom-fuer-passagierschiffe/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-03T12:39:53+00:00",
-      "matched_keywords": [
-        "emission",
-        "speicher",
-        "wasserstoff"
       ]
     },
     {
@@ -933,16 +987,6 @@
       "published": "2026-07-31T13:34:31+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Meridian secures consent for 172MW Te Rere Hau Wind Farm repowering",
-      "teaser": "Meridian Energy has secured the remaining resource consent from Palmerston North City Council, allowing plans to progress for the 172MW repowering of the Te Rere Hau Wind Farm located in Manawatū, New Zealand.",
-      "link": "https://www.power-technology.com/news/meridian-consent-172mw-wind-farm-repowering/",
-      "source": "power-technology",
-      "published": "2026-07-31T11:54:06+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1898,17 +1942,6 @@
       ]
     },
     {
-      "title": "Discounted tickets for World Cup and popstar gigs could cut climate costs of ‘mega events’",
-      "teaser": "The 2026 FIFA World Cup generated emissions equal to some countries’ annual output, with fan travel being the biggest driver.",
-      "link": "http://www.euronews.com/2026/07/18/discounted-tickets-for-world-cup-and-popstar-gigs-could-cut-climate-costs-of-mega-events",
-      "source": "euronews-green",
-      "published": "2026-07-18T05:57:23+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission"
-      ]
-    },
-    {
       "title": "Nuclear energy could be in for a big decade",
       "teaser": "This article is part of our ​“Chart of the Week” series . The global nuclear energy industry has been muted since 2011, when the Fukushima Daiichi disaster unfolded in Japan. Some new reactors have been built — especially in China — but a…",
       "link": "https://www.canarymedia.com/articles/nuclear/nuclear-energy-big-decade",
@@ -2645,26 +2678,6 @@
       ]
     },
     {
-      "title": "Weichen stellen für die COP31 in Antalya",
-      "teaser": "In Bonn wird derzeit die nächste Klimakonferenz der Vereinten Nationen vorbereitet. In den Zwischenverhandlungen zur COP31 wird unter anderem beraten, wie die Klimaziele unter den geänderten globalen Bedingungen erreicht werden können.",
-      "link": "https://www.energiezukunft.eu/klimakrise/weichen-stellen-fuer-die-cop31-in-antalya",
-      "source": "energiezukunft",
-      "published": "2026-06-11T05:00:00+00:00",
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Der Zustand unserer Meere",
-      "teaser": "Die Ozeane leiden unter den Folgen der Klimakrise, Überfischung und fossiler Infrastruktur. Neben ökologischen Schutzmaßnahmen nimmt die Wissenschaft nun auch die Rechte von Küstenregionen und indigenen Völkern in den Blick.",
-      "link": "https://www.energiezukunft.eu/umweltschutz/der-zustand-unserer-meere",
-      "source": "energiezukunft",
-      "published": "2026-06-11T05:00:00+00:00",
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2966,16 +2979,6 @@
       ]
     },
     {
-      "title": "Three Egyptian-bound LNG cargoes divert to Europe after attack",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/588da057-f542-4524-99e1-84f785088851/three-egyptian-bound-lng-cargoes-divert-to-europe-after-attack",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Battery storage: energy economics will drive duration",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
@@ -2986,9 +2989,19 @@
       ]
     },
     {
-      "title": "Water scarcity seen as key threat in SE Europe energy crisis",
+      "title": "Three Egyptian-bound LNG cargoes divert to Europe after attack",
       "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/4f51d1f8-ea4c-441c-b59f-43d1cbc116d9/water-scarcity-is-key-threat-in-se-europe-energy-crisis-experts",
+      "link": "https://www.montelnews.com/news/588da057-f542-4524-99e1-84f785088851/three-egyptian-bound-lng-cargoes-divert-to-europe-after-attack",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Another energy crisis – boom or bust for the green transition?",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -2996,9 +3009,9 @@
       ]
     },
     {
-      "title": "Another energy crisis – boom or bust for the green transition?",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
+      "title": "Water scarcity seen as key threat in SE Europe energy crisis",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/4f51d1f8-ea4c-441c-b59f-43d1cbc116d9/water-scarcity-is-key-threat-in-se-europe-energy-crisis-experts",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -3016,7 +3029,18 @@
       ]
     },
     {
-      "title": "Why Vattenfall chose 'aggressive' strategy to shut out rivals in Danish wind auction",
+      "title": "Siemens Gamesa returns to profit after four years in red",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/siemens-gamesa-returns-to-profit-after-four-years-in-red/2-1-2024907",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Why Vattenfall bid 'aggressively' to shut out rivals in Danish offshore wind auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/why-vattenfall-bid-aggressively-to-shut-out-rivals-in-danish-offshore-wind-auction/2-1-2024811",
       "source": "rechargenews",
@@ -3104,17 +3128,6 @@
       ]
     },
     {
-      "title": "TotalEnergies to buy Shell renewables business",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/totalenergies-to-buy-shell-renewables-business/2-1-2023846",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Quiz of the Month: Vestas record-breaking and vessel crashes",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-transition/quiz-of-the-month-vestas-record-breaking-and-vessel-crashes/2-1-2024166",
@@ -3171,9 +3184,9 @@
       ]
     },
     {
-      "title": "Vestas hires top Shell executive to key role as De Baar steps down",
+      "title": "TotalEnergies to buy Shell renewables business",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/vestas-hires-top-shell-executive-to-key-role-as-de-baar-steps-down/2-1-2023864",
+      "link": "https://www.rechargenews.com/finance/totalenergies-to-buy-shell-renewables-business/2-1-2023846",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
