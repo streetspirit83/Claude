@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T11:57:39+00:00",
+  "generated_at": "2026-08-06T15:07:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 11
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "energy-storage-news",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 29
+      "items_matched": 28
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 279,
+  "count": 272,
   "articles": [
+    {
+      "title": "Konsultation für finalen AgNes-Festlegungsentwurf eröffnet",
+      "teaser": "Nach der Vorstellung der groben Pläne Ende Mai hat die Bundesnetzagentur nun noch eine letzte Konsultationsrunde gestartet. Die Festlegung für die neue Netzentgeltsystematik soll Ende des Jahres erlassen werden. Für Projektierer großer…",
+      "link": "https://www.pv-magazine.de/2026/08/06/konsultation-fuer-finalen-agnes-festlegungsentwurf-eroeffnet/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-06T14:10:12+00:00",
+      "matched_keywords": [
+        "netzentgelt"
+      ]
+    },
+    {
+      "title": "Dulux maker goes all green",
+      "teaser": "AkzoNobel has achieved its 2030 target four years early after halving carbon emissions The post Dulux maker goes all green appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/06/dulux-maker-goes-all-green/",
+      "source": "energylivenews",
+      "published": "2026-08-06T14:00:00+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Nuclear startup Oklo splits its first atoms in test reactor",
+      "teaser": "Oklo , a publicly traded small-modular-reactor firm backed by OpenAI chief Sam Altman, has become one of the highest-profile companies working on next-generation nuclear energy technologies. Two years ago it debuted on the stock market and…",
+      "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor",
+      "source": "canarymedia",
+      "published": "2026-08-06T12:13:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Ørsted puts 500MWh Old 300 Texas BESS into operation",
       "teaser": "Denmark-headquartered multinational energy company Ørsted has put its 250MW/500MWh Old 300 energy storage project in Needville, Texas, US into operation.",
@@ -382,7 +412,7 @@
     },
     {
       "title": "Österreichs Photovoltaik-Verband heißt jetzt Bundesverband Photovoltaic & Battery Austria",
-      "teaser": "Mit der Umbenennung will der Verband die Bedeutung von Speichern für den weiteren Erneuerbare-Ausbau hervorheben. Eine Umfrage unter den Mitgliedern zeigt, dass sie Speicher als wichtigen Arbeitsbereich der Verbandsarbeit betrachten.",
+      "teaser": "Mit der Umbenennung will der Verband die Bedeutung von Speichern für den weiteren Erneuerbaren-Ausbau hervorheben. Eine Umfrage unter den Mitgliedern zeigt, dass sie Speicher als wichtigen Arbeitsbereich der Verbandsarbeit betrachten.",
       "link": "https://www.pv-magazine.de/2026/08/06/oesterreichs-photovoltaik-verband-heisst-jetzt-bundesverband-photovoltaic-battery-austria/",
       "source": "pv-magazine-de",
       "published": "2026-08-06T11:00:00+00:00",
@@ -467,8 +497,8 @@
     {
       "title": "Ola Electric, Axis Energy sign MoU for 20GWh of battery storage",
       "teaser": "Ola Electric has signed a MoU with Axis Energy to explore the deployment of up to 20GWh of battery energy storage systems by 2032.",
-      "link": "https://www.power-technology.com/news/ola-electric-axis-energy-sign-mou/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/news/ola-electric-axis-energy-sign-mou/",
+      "source": "energymonitor",
       "published": "2026-08-06T08:03:35+00:00",
       "matched_keywords": [
         "battery storage",
@@ -544,16 +574,6 @@
       "published": "2026-08-06T05:02:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "Great British Energy invests £8 million in solar firm",
-      "teaser": "The money will help develop solar-thermal solutions for rooftops and create more than 140 jobs The post Great British Energy invests £8 million in solar firm appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/06/great-british-energy-invests-8-million-in-solar-firm/",
-      "source": "energylivenews",
-      "published": "2026-08-06T05:00:00+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -670,16 +690,6 @@
       ]
     },
     {
-      "title": "Carbon capture-enabled 19.2-mtpa Texas Gulf Coast LNG project enters permitting phase",
-      "teaser": "A planned multi-train liquefied natural gas (LNG) export project on the Texas Gulf Coast has taken a significant regulatory step toward development after submitting a request to the U.S. Federal Energy Regulatory Commission (FERC) to begin…",
-      "link": "https://www.offshore-energy.biz/carbon-capture-enabled-19-2-mtpa-texas-gulf-coast-lng-project-enters-permitting-phase/",
-      "source": "offshore-energy",
-      "published": "2026-08-05T13:17:33+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Neue Online-Karte zeigt Erneuerbare-Einspeiser aller Verteilnetze",
       "teaser": "Die gratis aufrufbare Karte zeigt, wie viele Anlagen mit welcher Leistung in das jeweilige Netzgebiet einspeisen. Die Karte hat die Initiative evu+ im edna Bundesverband Energiemarkt &#38; Kommunikation erstellt.",
       "link": "https://www.pv-magazine.de/2026/08/05/neue-online-karte-zeigt-erneuerbare-einspeiser-aller-verteilnetze/",
@@ -723,26 +733,6 @@
       ]
     },
     {
-      "title": "British Gas launches Fixed Solar Saver to help SMEs cut energy costs and accelerate sustainability with no upfront investment",
-      "teaser": "New solar and battery-backed electricity plan combines lower-cost energy, price certainty and on-site solar generation in one simple, hassle-free solution The post British Gas launches Fixed Solar Saver to help SMEs cut energy costs and…",
-      "link": "https://www.energylivenews.com/2026/08/05/british-gas-launches-fixed-solar-saver-to-help-smes-cut-energy-costs-and-accelerate-sustainability-with-no-upfront-investment/",
-      "source": "energylivenews",
-      "published": "2026-08-05T11:25:39+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Enpal verkauft Mehrheit an Photovoltaik-Tochtergesellschaften an Investoren",
-      "teaser": "Die betroffenen Unternehmen halten ein Portfolio an Photovoltaik-Mietanlagen auf Wohngebäuden. Enpal bleibt Betreiber der Anlagen, für die Kunden soll sich nichts ändern. Das Unternehmen erlöst mit dem Deal 65 Millionen Euro.",
-      "link": "https://www.pv-magazine.de/2026/08/05/enpal-verkauft-mehrheit-an-photovoltaik-tochtergesellschaften-an-investoren/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-05T11:15:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Hydrogen-iron flow batteries: How Elestor’s tech works",
       "teaser": "Elestor claims its hydrogen-iron flow battery delivers 75%+ round-trip efficiency, a 20-25 year lifespan, and 15€/kWh capex for long-duration storage.",
       "link": "https://www.energy-storage.news/elestor-hydrogen-iron-flow-battery/",
@@ -772,16 +762,6 @@
       "published": "2026-08-05T10:31:52+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Fraunhofer ISE hat mit US-Partner kostengünstige Photovoltaik-Module für den Weltraum entwickelt",
-      "teaser": "Die neue Produktreihe basiert auf Silizium-Solarzellen, die auf besondere Weise verschaltet sind. Die Freiburger Fraunhofer-Forscher kooperiert bei diesem Projekt mit dem US-Unternehmen Source Energy.",
-      "link": "https://www.pv-magazine.de/2026/08/05/fraunhofer-ise-hat-mit-us-partner-kostenguenstige-photovoltaik-module-fuer-den-weltraum-entwickelt/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-05T10:15:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
       ]
     },
     {
@@ -927,16 +907,6 @@
       "published": "2026-08-04T13:50:09+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "Vattenfall secures two Danish offshore wind farm contracts",
-      "teaser": "Vattenfall has secured the contracts to build the Hesselø and North Sea I Mid offshore wind projects through Denmark's latest tender, further expanding its offshore wind portfolio.",
-      "link": "https://www.power-technology.com/news/vattenfall-two-danish-offshore-wind-contracts/",
-      "source": "power-technology",
-      "published": "2026-08-04T13:35:04+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1267,16 +1237,6 @@
       "published": "2026-07-31T10:40:19+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Antora raises $550m to deploy large-scale thermal storage in US",
-      "teaser": "Antora Energy has secured a $550m Series C funding aimed at accelerating the deployment of large-scale thermal battery storage solutions.",
-      "link": "https://www.energymonitor.ai/news/antora-raises-550m-deploy-storage/",
-      "source": "energymonitor",
-      "published": "2026-07-31T10:30:00+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -1654,26 +1614,6 @@
       ]
     },
     {
-      "title": "VIDEO: How Envision Energy is positioning itself as a system-level energy infrastructure provider",
-      "teaser": "We caught up with Kevin Huang, Senior Vice President and President of Energy Storage Product Line at Envision Energy at Smarter E in Munich for a video interview on the company's energy storage strategy and the growing role of AI data…",
-      "link": "https://www.energy-storage.news/video-how-envision-energy-is-positioning-itself-as-a-system-level-energy-infrastructure-provider/",
-      "source": "energy-storage-news",
-      "published": "2026-07-28T10:14:53+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Galp beats rival to acquire onshore wind portfolio in Spain",
-      "teaser": "Portuguese oil company Galp has beaten rival developer Nadara to acquire a portfolio of operational onshore wind farms in Spain.",
-      "link": "https://www.windpowermonthly.com/article/1965852/galp-beats-rival-acquire-onshore-wind-portfolio-spain",
-      "source": "windpowermonthly",
-      "published": "2026-07-28T10:03:26+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "Solar-powered EV carshare pilot launches in Massachusetts",
       "teaser": "Residents in four lower-income Massachusetts neighborhoods now have access to a new, low-cost option for running errands or getting to appointments: a shared, solar-powered electric vehicle. The innovative pilot program, CommunityEV…",
       "link": "https://www.canarymedia.com/articles/electric-vehicles/solar-powered-ev-carshare-massachusetts",
@@ -1681,16 +1621,6 @@
       "published": "2026-07-28T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Siemens Energy to save hundreds of millions of euros with Omterra rebrand",
-      "teaser": "The rebrand of Siemens Energy and its Siemens Gamesa wind subsidiary into a new company named Omterra will see the power firm save hundreds of millions of euros per year, the company has confirmed.",
-      "link": "https://www.windpowermonthly.com/article/1965738/siemens-energy-save-hundreds-millions-euros-omterra-rebrand",
-      "source": "windpowermonthly",
-      "published": "2026-07-27T09:59:37+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -2718,16 +2648,6 @@
       ]
     },
     {
-      "title": "Will New York Gov. Kathy Hochul sign a balcony solar bill?",
-      "teaser": "Apartment and condo dwellers of New York have long been unable to tap solar power at home to lower their energy bills. But that could soon change. Late last month, state legislators passed the Solar Up Now New York (SUNNY) Act to legalize…",
-      "link": "https://www.canarymedia.com/articles/solar/new-york-gov-sign-balcony-solar-bill",
-      "source": "canarymedia",
-      "published": "2026-06-16T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Bremen setzt bundesweit Maßstäbe für die urbane Klimawende",
       "teaser": "Mit 247 Maßnahmen ist die Freie Hansestadt Bremen auf einem guten Klimakurs. Mit dem ambitioniertesten Klimaziel aller Bundesländer arbeiten Senat, Stadtverwaltungen und zivilgesellschaftliche Initiativen an der Klimaneutralität 2038.",
       "link": "https://www.energiezukunft.eu/buergerenergie/bremen-setzt-bundesweit-massstaebe-fuer-die-urbane-klimawende",
@@ -3060,6 +2980,16 @@
       ]
     },
     {
+      "title": "Tight ETS balance set to lift EUA price by year-end",
+      "teaser": "Hubert Put",
+      "link": "https://www.montelnews.com/news/3b907c04-4bd3-47fd-9810-8faf723b40ad/tight-eu-ets-balance-to-lift-prices-14-by-year-end-vertis",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "ets"
+      ]
+    },
+    {
       "title": "Another energy crisis – boom or bust for the green transition?",
       "teaser": "Hubert Put",
       "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
@@ -3090,9 +3020,9 @@
       ]
     },
     {
-      "title": "Meta's gas spree exposes split in Big Tech's clean energy claims",
+      "title": "RWE in $1.2bn Trump deal to give up US offshore wind leases",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/metas-gas-spree-exposes-split-in-big-techs-clean-energy-claims/2-1-2024731",
+      "link": "https://www.rechargenews.com/offshore-wind/rwe-in-1-2bn-trump-deal-to-give-up-us-offshore-wind-leases/2-1-2025970",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3104,6 +3034,17 @@
       "title": "Dominion faces $800m Trump tariff bill for Siemens Gamesa turbines and other wind components",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/dominion-faces-800m-trump-tariff-bill-for-siemens-gamesa-turbines-and-other-wind-components/2-1-2025390",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Meta's gas spree exposes split in Big Tech's clean energy claims",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/metas-gas-spree-exposes-split-in-big-techs-clean-energy-claims/2-1-2024731",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3159,17 +3100,6 @@
       "title": "Siemens Energy CEO wades into 'Airbus of wind' debate",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/suppliers/siemens-energy-ceo-wades-into-airbus-of-wind-debate/2-1-2025082",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What Denmark must do to capitalise on offshore wind auction success",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/what-denmark-must-do-to-capitalise-on-offshore-wind-auction-success/2-1-2024583",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3234,9 +3164,9 @@
       ]
     },
     {
-      "title": "Utility strikes 'near-gigawatt' UK wind turbine supply agreement",
+      "title": "What Denmark must do to capitalise on offshore wind auction success",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/utility-strikes-near-gigawatt-uk-wind-turbine-supply-agreement/2-1-2025061",
+      "link": "https://www.rechargenews.com/policy/what-denmark-must-do-to-capitalise-on-offshore-wind-auction-success/2-1-2024583",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3245,9 +3175,9 @@
       ]
     },
     {
-      "title": "Siemens Gamesa returns to profit after four years in red",
+      "title": "Utility strikes 'near-gigawatt' UK wind turbine supply agreement",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/siemens-gamesa-returns-to-profit-after-four-years-in-red/2-1-2024907",
+      "link": "https://www.rechargenews.com/suppliers/utility-strikes-near-gigawatt-uk-wind-turbine-supply-agreement/2-1-2025061",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
