@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T15:07:24+00:00",
+  "generated_at": "2026-08-07T00:36:19+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -175,7 +175,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "energymonitor",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 21
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 46
+      "items_matched": 47
     },
     {
       "name": "power-technology",
@@ -368,8 +368,98 @@
       "items_matched": 0
     }
   ],
-  "count": 272,
+  "count": 273,
   "articles": [
+    {
+      "title": "Trump announces tariffs on key component for solar panels and semiconductors",
+      "teaser": "The move comes as the administration has bolstered its attempts to cut off Chinese choke points in the supply chain.",
+      "link": "https://www.politico.com/news/2026/08/06/trump-tariffs-solar-semiconductors-01028009?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-06T23:38:59+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "The Pentagon's wind farm blockade is over — for now",
+      "teaser": "The U.S. Department of Defense has for months refused to conduct routine military evaluations of proposed onshore wind farms, creating a de facto moratorium on the clean energy source at a time of exploding electricity demand. On Thursday,…",
+      "link": "https://www.canarymedia.com/articles/wind/pentagon-wind-farm-blockade-over",
+      "source": "canarymedia",
+      "published": "2026-08-06T21:53:00+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "McDermott Wins Letter of Intent From ExxonMobil for Rovuma LNG in Mozambique",
+      "teaser": null,
+      "link": "https://energynews.pro/en/mcdermott-wins-letter-of-intent-from-exxonmobil-for-rovuma-lng-in-mozambique",
+      "source": "energynews-pro",
+      "published": "2026-08-06T20:45:59+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Romania Sinks Rock Barges to Save Cernavodă Nuclear Reactor",
+      "teaser": null,
+      "link": "https://energynews.pro/en/romania-sinks-rock-barges-to-save-cernavoda-nuclear-reactor",
+      "source": "energynews-pro",
+      "published": "2026-08-06T20:14:41+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Cheniere Energy Reports Sharp Rise in Quarterly Net Income on LNG",
+      "teaser": null,
+      "link": "https://energynews.pro/en/cheniere-energy-reports-sharp-rise-in-quarterly-net-income-on-lng",
+      "source": "energynews-pro",
+      "published": "2026-08-06T20:14:36+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Sinopec Increases Purchases of Russian ESPO Crude Despite Sanctions",
+      "teaser": null,
+      "link": "https://energynews.pro/en/sinopec-increases-purchases-of-russian-espo-crude-despite-sanctions",
+      "source": "energynews-pro",
+      "published": "2026-08-06T19:33:24+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Envision and Sasol Study Green Hydrogen Project in South Africa",
+      "teaser": null,
+      "link": "https://energynews.pro/en/envision-and-sasol-study-green-hydrogen-project-in-south-africa",
+      "source": "energynews-pro",
+      "published": "2026-08-06T17:02:30+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Bechtel Becomes Site Administrator for Polish Nuclear Plant, Enlists Budimex",
+      "teaser": null,
+      "link": "https://energynews.pro/en/bechtel-becomes-site-administrator-for-polish-nuclear-plant-enlists-budimex",
+      "source": "energynews-pro",
+      "published": "2026-08-06T16:28:08+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "RWE accepts $1.2bn Trump deal to return offshore wind leases",
+      "teaser": "RWE has reached a deal with the US Department of the Interior to return its offshore wind leases off the coasts of New York, California and Louisiana. It also announced $1.2 billion worth of new investments in liquefied natural gas (LNG)…",
+      "link": "https://www.windpowermonthly.com/article/1966756/rwe-accepts-12bn-trump-deal-return-offshore-wind-leases",
+      "source": "windpowermonthly",
+      "published": "2026-08-06T14:38:48+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Konsultation für finalen AgNes-Festlegungsentwurf eröffnet",
       "teaser": "Nach der Vorstellung der groben Pläne Ende Mai hat die Bundesnetzagentur nun noch eine letzte Konsultationsrunde gestartet. Die Festlegung für die neue Netzentgeltsystematik soll Ende des Jahres erlassen werden. Für Projektierer großer…",
@@ -392,7 +482,7 @@
     },
     {
       "title": "Nuclear startup Oklo splits its first atoms in test reactor",
-      "teaser": "Oklo , a publicly traded small-modular-reactor firm backed by OpenAI chief Sam Altman, has become one of the highest-profile companies working on next-generation nuclear energy technologies. Two years ago it debuted on the stock market and…",
+      "teaser": "Oklo , a publicly traded small-modular-reactor firm backed by OpenAI chief Sam Altman, has become one of the highest-profile companies working on next-generation nuclear energy technologies. Two years ago, it debuted on the stock market…",
       "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor",
       "source": "canarymedia",
       "published": "2026-08-06T12:13:00+00:00",
@@ -602,57 +692,6 @@
       "link": "https://www.ft.com/content/6fe70fa1-1173-4f7b-9eb9-d8ad9b2f5694?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-08-06T04:00:05+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Australia Approves 360 MW Sundown Solar-Storage Project in New South Wales",
-      "teaser": null,
-      "link": "https://energynews.pro/en/australia-approves-360-mw-sundown-solar-storage-project-in-new-south-wales",
-      "source": "energynews-pro",
-      "published": "2026-08-05T20:02:23+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Australia Sues Inpex Over Emissions Underreporting at Ichthys LNG Plant",
-      "teaser": null,
-      "link": "https://energynews.pro/en/australia-sues-inpex-over-emissions-underreporting-at-ichthys-lng-plant",
-      "source": "energynews-pro",
-      "published": "2026-08-05T19:03:57+00:00",
-      "matched_keywords": [
-        "emission",
-        "lng"
-      ]
-    },
-    {
-      "title": "Britain's Solar Power Hits Record 14.4% Share in July 2026",
-      "teaser": null,
-      "link": "https://energynews.pro/en/britains-solar-power-hits-record-144-share-in-july-2026",
-      "source": "energynews-pro",
-      "published": "2026-08-05T18:33:47+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Zelestra Completes Three 57 MWac Solar Plants in Spain for Tesla",
-      "teaser": null,
-      "link": "https://energynews.pro/en/zelestra-completes-three-57-mwac-solar-plants-in-spain-for-tesla",
-      "source": "energynews-pro",
-      "published": "2026-08-05T18:02:34+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "ContourGlobal Begins Construction of 131 MWp Solar-Storage Hybrid Project in Chile",
-      "teaser": null,
-      "link": "https://energynews.pro/en/contourglobal-begins-construction-of-131-mwp-solar-storage-hybrid-project-in-chile",
-      "source": "energynews-pro",
-      "published": "2026-08-05T16:02:54+00:00",
       "matched_keywords": [
         "solar"
       ]
@@ -1533,16 +1572,6 @@
       ]
     },
     {
-      "title": "Rapporteur | 29. Juli 2026",
-      "teaser": "Willkommen bei Rapporteur! Jeden Tag liefern wir Ihnen die wichtigsten Nachrichten und Hintergründe aus der EU- und Europapolitik. &#160; Das Wichtigste: 🟢 Vom Klima bis zur Erweiterung: Die wichtigsten EU-Themen im Herbst 🟢 Merz:…",
-      "link": "https://euractiv.com/de/news/rapporteur-29-juli-2026/",
-      "source": "euractiv-energie",
-      "published": "2026-07-29T05:50:19+00:00",
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "Data Spaces für die Energiewende in Europa nutzen",
       "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel ist es dabei, die Energiewende zu beschleunigen, Kosten zu senken und die digitale Souveränität in Deutschland und Europa zu stärken.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/data-spaces-fuer-die-energiewende-in-europa-nutzen",
@@ -1938,18 +1967,6 @@
       "matched_keywords": [
         "eeg",
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "‘A Trojan horse’: Inside the EU’s 'weakened' plan that could put the brakes on carbon emission cuts",
-      "teaser": "Proposed reforms to the bloc’s emissions trading system (ETS) have been described as a “gift to polluters”.",
-      "link": "http://www.euronews.com/2026/07/20/a-trojan-horse-inside-the-eus-weakened-plan-that-could-put-the-brakes-on-carbon-emission-c",
-      "source": "euronews-green",
-      "published": "2026-07-20T14:00:55+00:00",
-      "matched_keywords": [
-        "emission",
-        "emissions trading",
-        "ets"
       ]
     },
     {
@@ -2800,16 +2817,6 @@
       ]
     },
     {
-      "title": "Online-Fördertalk zur BEG-Reform",
-      "teaser": "Sie planen eine serielle Sanierung? In unserem Online-Fördertalk informieren wir Sie über den aktuellen Stand der seriellen Sanierungsförderung. Jetzt kostenlos anmelden!",
-      "link": "https://www.dena.de/infocenter/veranstaltungen/online-foerdertalk-serielle-sanierung-plus-aufstockung-1/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "förderung"
-      ]
-    },
-    {
       "title": "Marktchancen für neuartige CO₂-Entnahmen in Deutschland",
       "teaser": "Neuartige CO2-Entnahmen sind zum Erreichen der Klimaziele unverzichtbar. Wo steht der Markt aktuell? Was braucht die Branche, um zu skalieren?",
       "link": "https://www.dena.de/infocenter/marktchancen-fuer-neuartige-co2-entnahmen-in-deutschland/",
@@ -3020,9 +3027,9 @@
       ]
     },
     {
-      "title": "RWE in $1.2bn Trump deal to give up US offshore wind leases",
+      "title": "10, 11, 12 down as RWE takes Trump US offshore wind buyout",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/rwe-in-1-2bn-trump-deal-to-give-up-us-offshore-wind-leases/2-1-2025970",
+      "link": "https://www.rechargenews.com/offshore-wind/10-11-12-down-as-rwe-takes-trump-us-offshore-wind-buyout/2-1-2025970",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
