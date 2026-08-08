@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:22:14+00:00",
+  "generated_at": "2026-08-08T16:21:59+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -200,12 +200,12 @@
     {
       "name": "montelnews",
       "url": "https://www.montelnews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 4
+      "error": "HTTPSConnectionPool(host='montelnews.com', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "rechargenews",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 274,
+  "count": 270,
   "articles": [
+    {
+      "title": "Solar eclipse threatens to tighten Europe’s electricity squeeze",
+      "teaser": "Continent’s power system already under stress from heatwaves",
+      "link": "https://www.ft.com/content/06a25d8d-77d8-4dd5-8cd6-a105423544b2?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-08T12:00:03+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "US Senate passes Russia sanctions bill",
       "teaser": "The legislation faces another potentially uphill battle in the House come September.",
@@ -1301,16 +1311,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Don’t let tax rows eclipse the fundamentals of social care",
-      "teaser": "Like in the case of wind power, agreement on the big structural issues is much more important than finance",
-      "link": "https://www.ft.com/content/d65cbd70-dc0b-4026-b80f-feeb8c152b0c?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-03T08:30:09+00:00",
-      "matched_keywords": [
-        "wind power"
       ]
     },
     {
@@ -3001,46 +3001,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Forecasters warn France faces 5th heatwave, more nuclear cuts",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/92bd0367-b56a-4c6c-b1e5-4e36623cd85d/forecasters-warn-france-faces-5th-heatwave-more-nuclear-cuts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Another energy crisis – boom or bust for the green transition?",
-      "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=124488956",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "energy crisis"
-      ]
-    },
-    {
-      "title": "Battery storage: energy economics will drive duration",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Tight ETS balance set to lift EUA price by year-end",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/3b907c04-4bd3-47fd-9810-8faf723b40ad/tight-eu-ets-balance-to-lift-prices-14-by-year-end-vertis",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "ets"
       ]
     },
     {
