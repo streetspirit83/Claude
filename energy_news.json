@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:14:53+00:00",
+  "generated_at": "2026-08-10T16:43:55+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 14
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -293,7 +293,7 @@
       "status": "error",
       "method": null,
       "feed_url": null,
-      "error": "Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
       "items_found": 0,
       "items_matched": 0
     },
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 278,
+  "count": 279,
   "articles": [
+    {
+      "title": "Solar power output set to fall during eclipse",
+      "teaser": "Portugal's grid operator REN estimates that solar power generation on Wednesday will fall by about 45% during the eclipse compared with usual levels for that time of day.",
+      "link": "http://www.euronews.com/2026/08/10/solar-power-output-set-to-fall-during-eclipse",
+      "source": "euronews-green",
+      "published": "2026-08-10T14:38:51+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Australia's commercial solar rollout stalls despite 86 GW potential",
+      "teaser": null,
+      "link": "https://energynews.pro/en/australias-commercial-solar-rollout-stalls-despite-86-gw-potential",
+      "source": "energynews-pro",
+      "published": "2026-08-10T14:36:08+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "So überwachen die finnischen Landwirte die Grenze zu Russland",
       "teaser": "Die zentrale Herausforderung besteht darin, sicherzustellen, dass Menschen an der Grenze präsent bleiben – und dass die notwendigen Dienstleistungen vorhanden sind, um sie dort zu halten.",
@@ -402,6 +422,16 @@
       "matched_keywords": [
         "co2",
         "emission"
+      ]
+    },
+    {
+      "title": "Sumitomo buys 33.3% equity in UK’s Gwynt Glas wind farm project",
+      "teaser": "Sumitomo has acquired a 33.3% equity stake in the Gwynt Glas Offshore Wind Farm, which is being developed by EDF power solutions UK and Ireland and Electricity Supply Board (ESB) in the Celtic Sea, off the coast of the UK.",
+      "link": "https://www.power-technology.com/news/sumitomo-equity-gwynt-glas-wind-farm/",
+      "source": "power-technology",
+      "published": "2026-08-10T12:41:01+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -480,7 +510,7 @@
     },
     {
       "title": "Marktwert Solar fällt im Juli auf 5,226 Cent pro Kilowattstunde",
-      "teaser": "Der durchschnitte Spotmarktpreis lag mit knapp 10,55 Cent pro Kilowattstunde leicht unter dem Wert des Vormonats. Die Zahl der Viertelstunden mit negativen Strompreisen ist von 620 im Juni auf 364 im Juli gefallen.",
+      "teaser": "Der durchschnittliche Spotmarktpreis lag mit knapp 10,55 Cent pro Kilowattstunde leicht unter dem Wert des Vormonats. Die Zahl der Viertelstunden mit negativen Strompreisen ist von 620 im Juni auf 364 im Juli gefallen.",
       "link": "https://www.pv-magazine.de/2026/08/10/marktwert-solar-faellt-im-juli-auf-5226-cent-pro-kilowattstunde/",
       "source": "pv-magazine-de",
       "published": "2026-08-10T09:45:00+00:00",
@@ -1890,16 +1920,6 @@
       ]
     },
     {
-      "title": "Could the UK’s ‘radical’ new energy secretary put a stop to North Sea Drilling for good?",
-      "teaser": "Miatta Fahnbulleh has been described as a “radical economist” who is outspoken about the climate crisis. Will she put an end to North Sea debates?",
-      "link": "http://www.euronews.com/2026/07/24/could-the-uks-radical-new-energy-secretary-put-a-stop-to-north-sea-drilling-for-good",
-      "source": "euronews-green",
-      "published": "2026-07-24T05:00:11+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "So bleibt die Energiewende stecken",
       "teaser": "Mit zweiseitigen Differenzverträgen, dem Ende der fixen Vergütung für kleine Solaranlagen und dem Redispatch-Vorbehalt wird eine Zeitenwende bei der Energiewende eingeläutet – doch die Kritik überwiegt, dass die Maßnahmen die Energiewende…",
       "link": "https://www.energiezukunft.eu/politik/so-bleibt-die-energiewende-stecken",
@@ -2031,16 +2051,6 @@
       "matched_keywords": [
         "erneuerbare",
         "windkraft"
-      ]
-    },
-    {
-      "title": "Trump says midterms won’t impact his Iran war plan",
-      "teaser": "Republicans are increasingly anxious over the potential ramifications of the war amid rising gas prices and the death of three troops since fighting resumed.",
-      "link": "https://www.politico.com/news/2026/07/21/donald-trump-iran-war-midterms-01006721?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-21T20:02:17+00:00",
-      "matched_keywords": [
-        "gas price"
       ]
     },
     {
@@ -3051,9 +3061,9 @@
       ]
     },
     {
-      "title": "SE Europe nuclear cuts to fall to 35% as cooling issues ease",
+      "title": "French nuclear heat-related cuts ease to 14.6% after 15.2% peak",
       "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/9445ba01-5453-4aa6-949a-058d729cf9c0/se-europe-nuclear-cuts-to-fall-to-35-as-cooling-issues-ease",
+      "link": "https://www.montelnews.com/news/d37468a9-7103-496e-afa0-678d6dc6ada9/french-nuclear-heat-related-cuts-ease-to-14-6-after-15-2-peak-2",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
@@ -3061,13 +3071,13 @@
       ]
     },
     {
-      "title": "Romania approves emergency power curbs amid energy crisis",
+      "title": "SE Europe nuclear cuts to fall to 35% as cooling issues ease",
       "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/cf5df006-3978-4efb-9a51-38b761d67800/romania-approves-emergency-power-curbs-amid-energy-crisis",
+      "link": "https://www.montelnews.com/news/9445ba01-5453-4aa6-949a-058d729cf9c0/se-europe-nuclear-cuts-to-fall-to-35-as-cooling-issues-ease",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "energy crisis"
+        "nuclear"
       ]
     },
     {
