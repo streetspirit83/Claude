@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T14:13:40+00:00",
+  "generated_at": "2026-08-11T16:48:58+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 14
+      "items_matched": 15
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,60 @@
       "items_matched": 0
     }
   ],
-  "count": 283,
+  "count": 285,
   "articles": [
+    {
+      "title": "Northland Power Restructures Financing for Its Hai Long Wind Farm in Taiwan",
+      "teaser": null,
+      "link": "https://energynews.pro/en/northland-power-restructures-financing-for-its-hai-long-wind-farm-in-taiwan",
+      "source": "energynews-pro",
+      "published": "2026-08-11T16:06:54+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Swarming jellyfish overrun French nuclear plant on same date two years in a row",
+      "teaser": "The jellyfish invasion is the latest in a series of climate change-driven incidents that have affected a record number of French nuclear reactors over the summer.",
+      "link": "https://www.politico.eu/article/swarming-jellyfish-overrun-french-nuclear-plant-on-same-date-two-years-in-a-row/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-11T15:45:06+00:00",
+      "matched_keywords": [
+        "climate",
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Jellyfish force shutdown of three reactors at France's Gravelines nuclear power plant",
+      "teaser": "Experts say overfishing, plastic pollution and warming seas due to climate change have created conditions allowing jellyfish to thrive and reproduce.",
+      "link": "http://www.euronews.com/2026/08/11/jellyfish-influx-forces-edf-to-shut-three-reactors-at-gravelines-nuclear-plant",
+      "source": "euronews-green",
+      "published": "2026-08-11T14:40:04+00:00",
+      "matched_keywords": [
+        "climate",
+        "nuclear"
+      ]
+    },
+    {
+      "title": "SEG Solar Opens Second Solar Module Plant in the United States",
+      "teaser": null,
+      "link": "https://energynews.pro/en/seg-solar-opens-second-solar-module-plant-in-the-united-states",
+      "source": "energynews-pro",
+      "published": "2026-08-11T14:37:16+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Auch für Wärmepumpen im Mehrfamilienhaus sind Netzanschlüsse ein Engpass",
+      "teaser": "Das Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik nennt uneinheitliche Standards und Lastberechnungen als Grund für enorme Kostenunterschiede – insbesondere Baukostenzuschüsse zwischen null und mehr als 50.000 Euro.…",
+      "link": "https://www.pv-magazine.de/2026/08/11/auch-fuer-waermepumpen-im-mehrfamilienhaus-sind-netzanschluesse-ein-engpass/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-11T14:34:04+00:00",
+      "matched_keywords": [
+        "wärmepumpe"
+      ]
+    },
     {
       "title": "EDF Closes Financing for 120 MW Wind Farm in Sultanate of Oman",
       "teaser": null,
@@ -707,16 +759,6 @@
       ]
     },
     {
-      "title": "Bulgaria's Wind Energy Association BGWEA Warns Against Excessive Environmental Restrictions",
-      "teaser": null,
-      "link": "https://energynews.pro/en/bulgarias-wind-energy-association-bgwea-warns-against-excessive-environmental-restrictions",
-      "source": "energynews-pro",
-      "published": "2026-08-11T02:06:14+00:00",
-      "matched_keywords": [
-        "wind energy"
-      ]
-    },
-    {
       "title": "AI will boost oil and gas production more than green energy, report finds",
       "teaser": "Debate over tech impact on greenhouse gas emissions stoked by latest study",
       "link": "https://www.ft.com/content/8f16a902-3e80-462c-add8-b841494d1808?syn-25a6b1a6=1",
@@ -842,17 +884,6 @@
       "published": "2026-08-10T09:54:18+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Marktwert Solar fällt im Juli auf 5,226 Cent pro Kilowattstunde",
-      "teaser": "Der durchschnittliche Spotmarktpreis lag mit knapp 10,55 Cent pro Kilowattstunde leicht unter dem Wert des Vormonats. Die Zahl der Viertelstunden mit negativen Strompreisen ist von 620 im Juni auf 364 im Juli gefallen.",
-      "link": "https://www.pv-magazine.de/2026/08/10/marktwert-solar-faellt-im-juli-auf-5226-cent-pro-kilowattstunde/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-10T09:45:00+00:00",
-      "matched_keywords": [
-        "solar",
-        "strompreis"
       ]
     },
     {
@@ -1965,16 +1996,6 @@
       "published": "2026-07-27T05:02:00+00:00",
       "matched_keywords": [
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Everything you need to know about solar panel fires – including how to reduce the risk",
-      "teaser": "Recent fires have been attributed to solar panels, but is the risk actually increasing across Europe?",
-      "link": "http://www.euronews.com/2026/07/26/everything-you-need-to-know-about-solar-panel-fires-including-how-to-reduce-the-risk",
-      "source": "euronews-green",
-      "published": "2026-07-26T05:00:05+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -3120,13 +3141,13 @@
       ]
     },
     {
-      "title": "Egypt port attack will “not greatly boost” EU LNG supply",
+      "title": "Uniper: gas price to stay double pre-war level unless Hormuz reopens",
       "teaser": "Hubert Put",
-      "link": "https://www.montelnews.com/news/1da6b500-ece2-4525-83e8-274767043174/egypt-port-attack-will-not-greatly-boost-eu-lng-supply-analysts",
+      "link": "https://www.montelnews.com/news/bf6d2154-045e-480e-bd6d-1eeef740c8fb/gas-price-to-stay-double-pre-war-level-unless-hormuz-reopens-uniper",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "lng"
+        "gas price"
       ]
     },
     {
@@ -3147,6 +3168,17 @@
       "published": null,
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "Cadeler seals €500m purchase to 'significantly expand' offshore wind capabilities",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/vessels/cadeler-seals-500m-purchase-to-significantly-expand-offshore-wind-capabilities/2-1-2027701",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3227,17 +3259,6 @@
       ]
     },
     {
-      "title": "Cadeler splashes $930m on two new wind vessels",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/vessels/cadeler-splashes-930m-on-two-new-wind-vessels/2-1-2026795",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "The likely winners and losers in UK offshore wind auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/the-likely-winners-and-losers-in-uk-offshore-wind-auction/2-1-2026529",
@@ -3293,9 +3314,9 @@
       ]
     },
     {
-      "title": "Why planner said no to UK floating wind project – and why minister overruled him",
+      "title": "Cadeler splashes $930m on two new wind vessels",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/why-planner-said-no-to-uk-floating-wind-project-and-why-minister-overruled-him/2-1-2026292",
+      "link": "https://www.rechargenews.com/vessels/cadeler-splashes-930m-on-two-new-wind-vessels/2-1-2026795",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3304,15 +3325,14 @@
       ]
     },
     {
-      "title": "Vestas blade break disrupts North Sea offshore wind farm construction",
+      "title": "Why planner said no to UK floating wind project – and why minister overruled him",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/vestas-blade-break-disrupts-north-sea-offshore-wind-farm-construction/2-1-2026511",
+      "link": "https://www.rechargenews.com/floating-wind/why-planner-said-no-to-uk-floating-wind-project-and-why-minister-overruled-him/2-1-2026292",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar",
-        "wind farm"
+        "solar"
       ]
     }
   ]
