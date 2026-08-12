@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:55:44+00:00",
+  "generated_at": "2026-08-12T05:24:44+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "montelnews",
@@ -210,12 +210,12 @@
     {
       "name": "rechargenews",
       "url": "https://www.rechargenews.com",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "502 Server Error: Bad Gateway for url: https://www.rechargenews.com/?zephr_sso_ott=MeOTNb",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 15
     },
     {
       "name": "offshore-energy",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 17
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 273,
+  "count": 292,
   "articles": [
+    {
+      "title": "Solar eclipse followed by meteor shower: Portugal prepares to watch two rare events",
+      "teaser": "In parts of the country, the Moon will completely cover the Sun, plunging spectators into a sci-fi-like scene. Find out all about the total solar eclipse, followed by a meteor shower.",
+      "link": "http://www.euronews.com/2026/08/12/solar-eclipse-followed-by-meteor-shower-portugal-prepares-to-watch-two-rare-events",
+      "source": "euronews-green",
+      "published": "2026-08-12T05:05:53+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Anxious dogs and silent birds: What happens to animals during a total solar eclipse?",
+      "teaser": "Today's rare solar eclipse is thrilling for humans, but animals will face something they can't prepare for: sudden confusing darkness in the middle of the day.",
+      "link": "http://www.euronews.com/2026/08/12/anxious-dogs-and-silent-birds-what-happens-to-animals-during-a-total-solar-eclipse",
+      "source": "euronews-green",
+      "published": "2026-08-12T05:02:16+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "SunHydrogen and Sparc Hydrogen Partner on Concentrated Solar Hydrogen",
+      "teaser": null,
+      "link": "https://energynews.pro/en/sunhydrogen-and-sparc-hydrogen-partner-on-concentrated-solar-hydrogen",
+      "source": "energynews-pro",
+      "published": "2026-08-12T02:02:00+00:00",
+      "matched_keywords": [
+        "hydrogen",
+        "solar"
+      ]
+    },
+    {
+      "title": "Households near UK grid upgrade projects in line for lower electricity bills",
+      "teaser": "Government aims to boost support for pylons and power lines needed to meet net zero targets",
+      "link": "https://www.ft.com/content/bae1147c-afcb-468f-821f-a5a49a17f928?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-11T23:01:02+00:00",
+      "matched_keywords": [
+        "net zero"
+      ]
+    },
+    {
+      "title": "EGENCO Commissions 10 MW at Salima Solar Plant in Malawi",
+      "teaser": null,
+      "link": "https://energynews.pro/en/egenco-commissions-10-mw-at-salima-solar-plant-in-malawi",
+      "source": "energynews-pro",
+      "published": "2026-08-11T22:08:27+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Romania May Shut Down Second Cernavodă Nuclear Reactor Amid Drought",
+      "teaser": null,
+      "link": "https://energynews.pro/en/romania-may-shut-down-second-cernavoda-nuclear-reactor-amid-drought",
+      "source": "energynews-pro",
+      "published": "2026-08-11T20:02:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "ENTSO-E Prepares Europe's Power Grids for the August 12 Eclipse",
       "teaser": null,
@@ -665,16 +726,6 @@
       ]
     },
     {
-      "title": "Slovakia Reaches Criticality at Mochovce 4 Nuclear Reactor",
-      "teaser": null,
-      "link": "https://energynews.pro/en/slovakia-reaches-criticality-at-mochovce-4-nuclear-reactor",
-      "source": "energynews-pro",
-      "published": "2026-08-11T08:06:10+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "ContourGlobal to deploy 3GWh CATL batteries in UK, Greece and Chile",
       "teaser": "ContourGlobal has entered into an agreement with CATL for the supply of 3GWh of battery storage systems, intended for use in energy projects in the UK, Greece and Chile.",
       "link": "https://www.power-technology.com/news/contourglobal-3gwh-catl-batteries-uk-greece-chile/",
@@ -723,16 +774,6 @@
       "published": "2026-08-11T07:15:00+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "Italy Publishes Final FER X Decree for 37.15 GW of Renewables",
-      "teaser": null,
-      "link": "https://energynews.pro/en/italy-publishes-final-fer-x-decree-for-3715-gw-of-renewables",
-      "source": "energynews-pro",
-      "published": "2026-08-11T06:36:30+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -3162,7 +3203,7 @@
     },
     {
       "title": "French heat-linked nuclear curbs to ease to 12% of fleet by Thurs",
-      "teaser": "Hubert Put",
+      "teaser": "Vincent Thevenin",
       "link": "https://www.montelnews.com/news/2cfed927-f903-4166-aced-92f9f4444702/french-heat-linked-nuclear-curbs-to-ease-to-12-of-fleet-by-thurs",
       "source": "montelnews",
       "published": null,
@@ -3172,7 +3213,7 @@
     },
     {
       "title": "Uniper: gas price to stay double pre-war level unless Hormuz reopens",
-      "teaser": "Hubert Put",
+      "teaser": "Vincent Thevenin",
       "link": "https://www.montelnews.com/news/bf6d2154-045e-480e-bd6d-1eeef740c8fb/gas-price-to-stay-double-pre-war-level-unless-hormuz-reopens-uniper",
       "source": "montelnews",
       "published": null,
@@ -3198,6 +3239,171 @@
       "published": null,
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "RWE insists $1.2bn gas pivot was its choice after Trump offshore wind buyout",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/rwe-insists-1-2bn-gas-pivot-was-its-choice-after-trump-offshore-wind-buyout/2-1-2027767",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Cadeler seals €500m purchase to 'significantly expand' offshore wind capabilities",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/vessels/cadeler-seals-500m-purchase-to-significantly-expand-offshore-wind-capabilities/2-1-2027701",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Onshore wind developer told to search for underwater shipwrecks",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/onshore-wind/onshore-wind-developer-told-to-search-for-underwater-shipwrecks/2-1-2025260",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Germany embraces offshore wind CfDs, but only as a fallback option",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/germany-embraces-offshore-wind-cfds-but-only-as-a-fallback-option/2-1-2027285",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Asian giant chooses UK for first ever floating wind investment",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/floating-wind/asian-giant-chooses-uk-for-first-ever-floating-wind-investment/2-1-2027347",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Trump turns fire on solar as farmers warn crackdown could cost them a lifeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/trump-turns-fire-on-solar-as-farmers-warn-crackdown-could-cost-them-a-lifeline/2-1-2024338",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Mingyang woos Burnham in his own language over UK wind turbine factory plan",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/china/mingyang-woos-burnham-in-his-own-language-over-uk-wind-turbine-factory-plan/2-1-2027058",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Enercon's order books filled through 2028 amid return to profit",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/enercons-order-books-filled-through-2028-amid-return-to-profit/2-1-2027047",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Vestas says goodbye to procurement and offshore support managers",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/vestas-says-goodbye-to-procurement-and-offshore-support-managers/2-1-2026895",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "The likely winners and losers in UK offshore wind auction",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/the-likely-winners-and-losers-in-uk-offshore-wind-auction/2-1-2026529",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "BP: what's left of Looney's crumbling renewables empire?",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/bp-whats-left-of-looneys-crumbling-renewables-empire-/2-1-2025304",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Meta's gas spree exposes split in Big Tech's clean energy claims",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/metas-gas-spree-exposes-split-in-big-techs-clean-energy-claims/2-1-2024731",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "When 'premium' wind makes solar add up: recipe for a record power deal",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/corporate-power/when-premium-wind-makes-solar-add-up-recipe-for-a-record-power-deal/2-1-2022225",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Details of BP venture's $700m offshore wind setback surface",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/details-of-bp-ventures-700m-offshore-wind-setback-surface/2-1-2025590",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Cadeler splashes $930m on two new wind vessels",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/vessels/cadeler-splashes-930m-on-two-new-wind-vessels/2-1-2026795",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     }
   ]
