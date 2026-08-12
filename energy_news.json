@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T08:09:42+00:00",
+  "generated_at": "2026-08-12T10:53:28+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 72
+      "items_matched": 73
     },
     {
       "name": "erneuerbareenergien",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 12
     },
     {
       "name": "montelnews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "energymonitor",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euronews-green",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 32
+      "items_matched": 34
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,123 @@
       "items_matched": 0
     }
   ],
-  "count": 287,
+  "count": 290,
   "articles": [
+    {
+      "title": "Purvah Green Acquires 1.4GW Solar Assets From ReNew in India",
+      "teaser": null,
+      "link": "https://energynews.pro/en/purvah-green-acquires-14gw-solar-assets-from-renew-in-india",
+      "source": "energynews-pro",
+      "published": "2026-08-12T10:31:45+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Arctech secures 425MW of new solar projects in Central Asia",
+      "teaser": "Arctech secured contracts for 425MW of utility-scale solar projects in Central Asia, comprising 100MW in Kazakhstan and 325MW in Kyrgyzstan.",
+      "link": "https://www.power-technology.com/news/arctech-secures-425mw-solar-projects/",
+      "source": "power-technology",
+      "published": "2026-08-12T10:09:10+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Acciona Energía to add 33MW/66MWh BESS in Spain",
+      "teaser": "Spanish renewables developer Acciona Energía has unveiled plans to install two battery energy storage systems (BESS).",
+      "link": "https://www.energy-storage.news/acciona-energia-to-add-33mw-66mwh-bess-in-spain/",
+      "source": "energy-storage-news",
+      "published": "2026-08-12T09:50:02+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "renewable"
+      ]
+    },
+    {
+      "title": "Aira bringt Wechselrichter und Batteriespeicher auf den deutschen Markt",
+      "teaser": "Zusammen mit den bereits verfügbaren Wärmepumpen und Photovoltaik-Modulen hat das schwedische Unternehmen damit ein Komplettsystem für Haushalte im Portfolio. Aira bietet dafür einen monatlichen Zahlungsplan an. Für die Basisausstattung…",
+      "link": "https://www.pv-magazine.de/2026/08/12/aira-bringt-wechselrichter-und-batteriespeicher-auf-den-deutschen-markt/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-12T09:39:08+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "PowerBank Signs Lease for New 4 MW Solar Project in Ontario",
+      "teaser": null,
+      "link": "https://energynews.pro/en/powerbank-signs-lease-for-new-4-mw-solar-project-in-ontario",
+      "source": "energynews-pro",
+      "published": "2026-08-12T09:31:49+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "EPEC Group lands grid connection contract for 843MWh solar-plus-storage site in Queensland, Australia",
+      "teaser": "EPEC Group has been awarded a contract to cover the high-voltage connection works for the Lower Wonga Solar Farm in Queensland, Australia, by the EPC contractor INTEC Energy Solutions.",
+      "link": "https://www.energy-storage.news/epec-group-lands-grid-connection-contract-for-843mwh-solar-plus-storage-site-in-queensland-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-12T08:50:39+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Octopus Australia turns attention to 128MWh DC-coupled BESS at solar-plus-storage site",
+      "teaser": "Octopus Australia has shifted its focus to constructing a DC-coupled battery energy storage system (BESS) in Victoria.",
+      "link": "https://www.energy-storage.news/octopus-australia-turns-attention-to-128mwh-dc-coupled-bess-at-solar-plus-storage-site/",
+      "source": "energy-storage-news",
+      "published": "2026-08-12T08:36:18+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Italy Backs Renewable Hydrogen Support Scheme With €400 Million a Year",
+      "teaser": null,
+      "link": "https://energynews.pro/en/italy-backs-renewable-hydrogen-support-scheme-with-400-million-a-year",
+      "source": "energynews-pro",
+      "published": "2026-08-12T08:28:24+00:00",
+      "matched_keywords": [
+        "hydrogen",
+        "renewable"
+      ]
+    },
+    {
+      "title": "Australia: Battery storage systems hit record 4,325MW discharge as NEM cycling swing reaches 8.3GW",
+      "teaser": "Australia's grid-scale battery storage fleet set a cluster of dispatch-interval records on 11 August in the NEM.",
+      "link": "https://www.energy-storage.news/australia-battery-storage-systems-hit-record-4325mw-discharge-as-nem-cycling-swing-reaches-8-3gw/",
+      "source": "energy-storage-news",
+      "published": "2026-08-12T08:26:38+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "UK power supplies likely to be stretched during solar eclipse",
+      "teaser": "Grid operator calls for extra generation capacity to be made available on Wednesday evening",
+      "link": "https://www.ft.com/content/68dcb0e8-a15b-436a-9a57-c4c2abfba2d3?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-12T08:20:53+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "US on track to double BESS capacity by 2028, EIA reports",
+      "teaser": "Operators anticipate bringing an additional 54GW of battery storage capacity online over the next two and half years, according to the US Energy Information Administration (EIA).",
+      "link": "https://www.energy-storage.news/us-double-bess-capacity-2028-eia-reports/",
+      "source": "energy-storage-news",
+      "published": "2026-08-12T08:18:46+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
     {
       "title": "Solar on storage units? Here’s how Illinois is making it happen.",
       "teaser": "Krzysztof Wasowicz, mayor of Justice, Illinois, has some concerns about solar: that it takes up farmland and enriches China. But he’s all-in on the community solar array that was recently deployed at a Public Storage facility in his…",
@@ -421,6 +536,18 @@
       ]
     },
     {
+      "title": "Großprojekte und Beteiligung – Tangerhütte treibt die Energiewende voran",
+      "teaser": "Die flächengroße Einheitsgemeinde Tangerhütte in Sachsen-Anhalt überzeugt durch ein breites Fundament aus Solar-, Wind- und Bioenergie sowie modernster Speichertechnologie und akzeptanzfördernder Bürgerbeteiligung.",
+      "link": "https://www.energiezukunft.eu/buergerenergie/grossprojekte-und-beteiligung-tangerhuette-treibt-die-energiewende-voran",
+      "source": "energiezukunft",
+      "published": "2026-08-12T05:03:00+00:00",
+      "matched_keywords": [
+        "energiewende",
+        "solar",
+        "speicher"
+      ]
+    },
+    {
       "title": "Anxious dogs and silent birds: What happens to animals during a total solar eclipse?",
       "teaser": "Today's rare solar eclipse is thrilling for humans, but animals will face something they can't prepare for: sudden confusing darkness in the middle of the day.",
       "link": "http://www.euronews.com/2026/08/12/anxious-dogs-and-silent-birds-what-happens-to-animals-during-a-total-solar-eclipse",
@@ -428,6 +555,17 @@
       "published": "2026-08-12T05:02:16+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "Online-Übersicht zu allen Stromnetzbetreibern Deutschlands",
+      "teaser": "Eine Online-Karte mit allen Stromnetzbetreibern in Deutschland zeigt, wie viele Erzeugungsanlagen im jeweiligen Netzgebiet mit welcher Leistung ans Netz angeschlossen sind, eingeteilt in Erneuerbare und konventionelle…",
+      "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/online-uebersicht-zu-allen-netzbetreibern-deutschlands",
+      "source": "energiezukunft",
+      "published": "2026-08-12T05:02:00+00:00",
+      "matched_keywords": [
+        "erneuerbare",
+        "stromnetz"
       ]
     },
     {
@@ -649,16 +787,6 @@
       ]
     },
     {
-      "title": "OEG secures corrosion protection contract for Gennaker offshore wind farm",
-      "teaser": "OEG has secured a contract to provide a subsea corrosion protection system for the [&#8230;] The post OEG secures corrosion protection contract for Gennaker offshore wind farm appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/oeg-secures-corrosion-protection-contract-for-gennaker-offshore-wind-farm/",
-      "source": "offshore-energy",
-      "published": "2026-08-11T11:21:12+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "Copenhagen Infrastructure Partners closes on 750MWh solar-plus-storage project in Mexico",
       "teaser": "Danish investment firm Copenhagen Infrastructure Partners (CIP) has reached financial close of the La Esperanza Solar energy storage-plus-solar PV project in the state of Campeche on Mexico’s Yucatán Peninsula.",
       "link": "https://www.energy-storage.news/copenhagen-infrastructure-partners-closes-on-750mwh-solar-plus-storage-project-in-mexico/",
@@ -745,16 +873,6 @@
       ]
     },
     {
-      "title": "TDI-Brooks takes on survey work for US LNG project in Louisiana",
-      "teaser": "U.S.-headquartered geotechnical and offshore survey research and service company TDI-Brooks has been hired to undertake a geophysical and geotechnical survey assignment for a liquefied natural gas (LNG) project off the coast of Louisiana,…",
-      "link": "https://www.offshore-energy.biz/tdi-brooks-takes-on-survey-work-for-us-lng-project-in-louisiana/",
-      "source": "offshore-energy",
-      "published": "2026-08-11T09:07:53+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Citicore breaks ground on 53MWh solar-plus-storage site directly connected to the Philippine distribution network",
       "teaser": "Citicore has broken ground on the country's first embedded solar integrated renewable energy and energy storage system (IRESS) facility.",
       "link": "https://www.energy-storage.news/citicore-breaks-ground-on-53mwh-solar-plus-storage-site-directly-connected-to-the-philippine-distribution-network/",
@@ -805,16 +923,6 @@
       "published": "2026-08-11T07:30:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Monatliches Energiemarkt-Update: Hitze, LNG-Ausfälle und niedrige Wasserstände treiben die Energiepreise in Europa in die Höhe",
-      "teaser": "Andy Sommer von Axpo berichtet über die aktuellen Entwicklungen auf dem europäischen Strommarkt.",
-      "link": "https://www.pv-magazine.de/2026/08/11/monatliches-energiemarkt-update-hitze-lng-ausfaelle-und-niedrige-wasserstaende-treiben-die-energiepreise-in-europa-in-die-hoehe/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-11T07:15:00+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -952,18 +1060,6 @@
       "matched_keywords": [
         "emission",
         "nuclear"
-      ]
-    },
-    {
-      "title": "Switzerland faces critical energy crossroads as ban on new nuclear plants is lifted",
-      "teaser": "Investment in solar PV will play a central role in expanding Switzerland's generation capacity through 2035.",
-      "link": "https://www.power-technology.com/analyst-comment/switzerland-energy-crossroads-ban-nuclear-lifted/",
-      "source": "power-technology",
-      "published": "2026-08-10T10:34:29+00:00",
-      "matched_keywords": [
-        "nuclear",
-        "pv",
-        "solar"
       ]
     },
     {
@@ -1327,16 +1423,6 @@
       "published": "2026-08-06T07:30:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "The hydrogen market is still waiting for buyers",
-      "teaser": "GlobalData's latest hydrogen tracking shows a market still rich in projects but short of financeable demand.",
-      "link": "https://www.energymonitor.ai/analysis/hydrogen-offtake-agreements-market-buyers/",
-      "source": "energymonitor",
-      "published": "2026-08-06T07:00:00+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -1712,17 +1798,6 @@
       ]
     },
     {
-      "title": "TotalEnergies to buy Shell's European onshore renewables business",
-      "teaser": "Oil major Shell has agreed to sell the entirety of its onshore wind and solar assets in Europe to rival fossil fuel company TotalEnergies.",
-      "link": "https://www.windpowermonthly.com/article/1966341/totalenergies-buy-shells-european-onshore-renewables-business",
-      "source": "windpowermonthly",
-      "published": "2026-08-03T09:53:43+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Illinois Solar for All is, at last, taking off",
       "teaser": "Any time, day or night, parents experiencing homelessness, domestic violence, or other emergencies can drop their young kids off at the Crisis Nursery in Urbana, Illinois, and know they’ll be safe and cared for. Funding is a constant…",
       "link": "https://www.canarymedia.com/articles/solar/illinois-solar-for-all",
@@ -1784,27 +1859,6 @@
       ]
     },
     {
-      "title": "Antora Energy closes US$550 million Series C to scale US thermal battery deployment",
-      "teaser": "Thermal energy storage (TES) technology provider Antora Energy has closed a US$550 million Series C funding round to accelerate deployment of its thermal battery storage systems for industrial facilities and data centres in the US.",
-      "link": "https://www.energy-storage.news/antora-energy-closes-us550-million-series-c-to-scale-us-thermal-battery-deployment/",
-      "source": "energy-storage-news",
-      "published": "2026-07-31T11:48:18+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Greenvolt inaugurates 200MW/800MWh capacity market-contracted BESS in Poland",
-      "teaser": "Greenvolt Power has inaugurated the 200MW Turośń Kościelna Battery Energy Storage Facility in Poland, which energy trader Entrix will optimise.",
-      "link": "https://www.energy-storage.news/greenvolt-inaugurates-200mw-800mwh-capacity-market-contracted-bess-in-poland/",
-      "source": "energy-storage-news",
-      "published": "2026-07-31T10:40:19+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Behind Europe’s mega fires: Would France and Spain still be ablaze if it weren’t for climate change?",
       "teaser": "Climate change made recent fire-prone conditions at least twice as likely in southwestern France and at least 20 times as likely in central Spain, new analysis shows.",
       "link": "http://www.euronews.com/2026/07/31/behind-europes-mega-fires-would-france-and-spain-still-be-ablaze-if-it-werent-for-climate-",
@@ -1832,16 +1886,6 @@
       "published": "2026-07-31T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "Thermal energy storage company 1414 Degrees secures 1GW data centre deal in South Australia",
-      "teaser": "1414 Degrees has signed a deal to develop up to 1GW of AI data centre infrastructure at its Aurora Energy Precinct in South Australia.",
-      "link": "https://www.energy-storage.news/thermal-energy-storage-company-1414-degrees-secures-1gw-data-centre-deal-in-south-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-07-31T03:32:11+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2845,17 +2889,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Klimaschutz jenseits der EU-Grenzen effektiver gestalten",
-      "teaser": "Im Zuge der Klimaziele muss die EU den Treibhausgas-Ausstoß bis 2040 massiv senken, dabei darf sie Klimaschutz-Maßnahmen auch anderswo realisieren. Eine PIK-Studie zeigt einen neuen Weg für den verpflichtenden EU-Klimaschutz jenseits der…",
-      "link": "https://www.energiezukunft.eu/klimakrise/klimaschutz-jenseits-der-eu-grenzen-effektiver-gestalten",
-      "source": "energiezukunft",
-      "published": "2026-06-19T05:05:00+00:00",
-      "matched_keywords": [
-        "klima",
-        "klimaschutz"
       ]
     },
     {
