@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:09:41+00:00",
+  "generated_at": "2026-08-14T16:41:36+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 13
+      "items_matched": 12
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 47
+      "items_matched": 46
     },
     {
       "name": "power-technology",
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 285,
+  "count": 284,
   "articles": [
+    {
+      "title": "Limes reaches RTB stage for 200MW/1GWh Huañil BESS project in Chile",
+      "teaser": "Italian clean energy developer Limes Renewable Energy has reached the ready-to-build stage at its 200MW/1GWh Huañil project.",
+      "link": "https://www.energy-storage.news/limes-reaches-rtb-stage-200mw-1gwh-huanil-bess-project-chile/",
+      "source": "energy-storage-news",
+      "published": "2026-08-14T16:02:51+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "YPF, Eni and XRG File RIGI Membership Application for Argentina LNG",
+      "teaser": null,
+      "link": "https://energynews.pro/en/ypf-eni-and-xrg-file-rigi-membership-application-for-argentina-lng",
+      "source": "energynews-pro",
+      "published": "2026-08-14T16:02:43+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Egypt Approves 869 MW Power Deal for Voltalia's Wind Farm",
+      "teaser": null,
+      "link": "https://energynews.pro/en/egypt-approves-869-mw-power-deal-for-voltalias-wind-farm",
+      "source": "energynews-pro",
+      "published": "2026-08-14T15:33:36+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Spanien verschiebt die Stilllegung vom Kernkraftwerk Almaraz",
+      "teaser": "Trotz der Verzögerung bei Almaraz bleibt der spanische Stichtag für den vollständigen Ausstieg aus der Kernenergie bei 2035. Mehr als 50 % des gesamten Energiemixes des Landes stammen aus erneuerbaren Energiequellen.",
+      "link": "https://euractiv.com/de/news/spanien-verschiebt-die-stilllegung-vom-kernkraftwerk-almaraz/",
+      "source": "euractiv-energie",
+      "published": "2026-08-14T14:51:02+00:00",
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Spain Extends Almaraz Nuclear Plant's Operating Licence Until 2030",
+      "teaser": null,
+      "link": "https://energynews.pro/en/spain-extends-almaraz-nuclear-plants-operating-licence-until-2030",
+      "source": "energynews-pro",
+      "published": "2026-08-14T14:34:36+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Redispatch und Eigenverbrauch: Es besteht Regelungsbedarf",
+      "teaser": "pv+: In vielen Netzgebieten ist die Abregelung von Photovoltaikanlagen am Wechselrichter und damit die Unterbindung von Eigenverbrauch zur Gefahr für den Markt geworden. Es gäbe Lösungen – auch solche, die von den Netzbetreibern…",
+      "link": "https://www.pv-magazine.de/2026/08/14/es-besteht-regelungsbedarf/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-14T14:19:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
     {
       "title": "Hansesun Austria schlägt neues Modell für Photovoltaik-Förderung vor",
       "teaser": "Anstelle eines Investitionszuschusses sollte es für die Förderung von Photovoltaik-Dachanlagen und Batteriespeicher einen Klima-Investitionsfreibetrag geben. Die Steuerersparnis für eine typische Eigenheimanlage würde sich über fünf Jahre…",
@@ -381,6 +442,17 @@
         "klima",
         "photovoltaik",
         "speicher"
+      ]
+    },
+    {
+      "title": "BW ESS buys 250MW/1GWh Yanco BESS in Australia from ACEnergy",
+      "teaser": "BW ESS has completed the acquisition of the Yanco battery energy storage system (Yanco BESS), a 250MW/1GWh project in Riverina, New South Wales, from ACEnergy, an Australia-based renewable energy developer.",
+      "link": "https://www.power-technology.com/news/bw-ess-buys-yanco-bess-australia/",
+      "source": "power-technology",
+      "published": "2026-08-14T11:30:21+00:00",
+      "matched_keywords": [
+        "energy storage",
+        "renewable"
       ]
     },
     {
@@ -760,26 +832,6 @@
       ]
     },
     {
-      "title": "South Africa Seeks Chinese Investors for Its Power Grid Expansion",
-      "teaser": null,
-      "link": "https://energynews.pro/en/south-africa-seeks-chinese-investors-for-its-power-grid-expansion",
-      "source": "energynews-pro",
-      "published": "2026-08-13T11:32:35+00:00",
-      "matched_keywords": [
-        "power grid"
-      ]
-    },
-    {
-      "title": "QBE-Untersuchung: DC-Verkabelung und Steckerverbindungen sind häufigste Brandursache bei Photovoltaik-Anlagen",
-      "teaser": "Der globale Industrieversicherer hat in einer Erhebung für Großbritannien festgestellt, dass die Zahl der Brände fast doppelt so schnell steigt wie die der Neuinstallationen. Als Ursache folgen nach Gleichstromverkabelung und…",
-      "link": "https://www.pv-magazine.de/2026/08/13/qbe-untersuchung-dc-verkabelung-und-steckerverbindungen-sind-haeufigste-brandursache-bei-photovoltaik-anlagen/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-13T11:00:15+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Form Energy raises $750m to expand iron-air battery production",
       "teaser": "Form Energy, a US-based company focused on energy storage systems, has raised $750m in a Series G financing round led by T. Rowe Price.",
       "link": "https://www.energymonitor.ai/news/form-energy-iron-air-battery-production/",
@@ -820,31 +872,11 @@
       ]
     },
     {
-      "title": "Recurrent Energy Brings 150 MW Solar Park Online for Microsoft in Australia",
-      "teaser": null,
-      "link": "https://energynews.pro/en/recurrent-energy-brings-150-mw-solar-park-online-for-microsoft-in-australia",
-      "source": "energynews-pro",
-      "published": "2026-08-13T09:32:14+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "BW ESS acquires 1,000MWh Yanco BESS from ACEnergy in Australia",
       "teaser": "BW ESS has acquired a 1,000MWh battery storage system in Riverina, New South Wales, from Australian developer ACEnergy.",
       "link": "https://www.energy-storage.news/bw-ess-acquires-1000mwh-yanco-bess-from-acenergy-in-australia/",
       "source": "energy-storage-news",
       "published": "2026-08-13T09:25:36+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "HiTHIUM to Supply 421 MWh Battery Storage System to GPG in Australia",
-      "teaser": null,
-      "link": "https://energynews.pro/en/hithium-to-supply-421-mwh-battery-storage-system-to-gpg-in-australia",
-      "source": "energynews-pro",
-      "published": "2026-08-13T09:16:30+00:00",
       "matched_keywords": [
         "battery storage"
       ]
@@ -971,16 +1003,6 @@
       "published": "2026-08-12T11:31:49+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "EnBW installs all turbines at 960MW He Dreiht offshore wind farm",
-      "teaser": "EnBW Energie Baden-Württemberg (EnBW) has completed the installation of all 64 wind turbines at the 960MW He Dreiht offshore wind farm in the German North Sea.",
-      "link": "https://www.power-technology.com/news/enbw-installs-turbines-he-dreiht-offshore-wind/",
-      "source": "power-technology",
-      "published": "2026-08-12T11:29:45+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1626,9 +1648,9 @@
       ]
     },
     {
-      "title": "New podcast: US wind outlook | Sweden's defence concerns | TPI Composites | Offshore wind safety",
+      "title": "US wind outlook | Sweden's defence concerns | TPI Composites | Offshore wind safety",
       "teaser": "Welcome to the Wind Power News Review – hosted by Windpower Monthly senior reporter Robyn White and reporter Orlando Jenkinson – along with our regular panellist, Shashi Barla.",
-      "link": "https://www.windpowermonthly.com/article/1966771/new-podcast-us-wind-outlook-swedens-defence-concerns-tpi-composites-offshore-wind-safety",
+      "link": "https://www.windpowermonthly.com/article/1966771/us-wind-outlook-swedens-defence-concerns-tpi-composites-offshore-wind-safety",
       "source": "windpowermonthly",
       "published": "2026-08-06T15:43:33+00:00",
       "matched_keywords": [
@@ -1754,18 +1776,6 @@
       "published": "2026-08-05T11:04:35+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "KKR’s ContourGlobal begins construction of ‘Sun at Night’ solar-plus-storage project in Chile",
-      "teaser": "Independent power producer (IPP) ContourGlobal has begun construction of its fourth large-scale solar PV and battery storage hybrid project in Chile.",
-      "link": "https://www.energy-storage.news/kkrs-contourglobal-begins-construction-of-sun-at-night-solar-plus-storage-project-in-chile/",
-      "source": "energy-storage-news",
-      "published": "2026-08-05T10:49:14+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "pv",
-        "solar"
       ]
     },
     {
@@ -2175,16 +2185,6 @@
       "matched_keywords": [
         "emission",
         "klima"
-      ]
-    },
-    {
-      "title": "Saudis must join Abraham Accords to ensure nuclear deal, Trump says",
-      "teaser": "Critics of the pact had said that allowing Saudi Arabia to develop a civilian nuclear program stripped away a key incentive for the kingdom to normalize relations with Israel.",
-      "link": "https://www.politico.com/news/2026/07/23/saudi-arabia-nuclear-deal-abraham-accords-01009457?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-23T14:50:18+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -2729,16 +2729,6 @@
       ]
     },
     {
-      "title": "Heat pumps may soon outsell air conditioners in US",
-      "teaser": "This article is part of our ​“Chart of the Week” series . Summer is officially here — and more Americans than ever are cooling their homes with heat pumps. A decade ago, two conventional air-conditioning systems were sold for every one…",
-      "link": "https://www.canarymedia.com/articles/heat-pumps/heat-pumps-air-conditioners",
-      "source": "canarymedia",
-      "published": "2026-06-26T07:30:00+00:00",
-      "matched_keywords": [
-        "heat pump"
-      ]
-    },
-    {
       "title": "Poleposition für Strom",
       "teaser": "Ein Systemwechsel im Zuge der Energiewende ist keine Frage der technisch-ökonomischen Machbarkeit. Auf den politischen Willen kommt es an, so das Fazit einer zur Intersolar Europe veröffentlichten Fraunhofer-Studie.",
       "link": "https://www.energiezukunft.eu/wirtschaft/poleposition-fuer-strom",
@@ -3173,7 +3163,7 @@
       ]
     },
     {
-      "title": "Iberdrola's huge repowering project 'taste of things to come' for UK onshore wind",
+      "title": "Iberdrola’s £1.5bn overhaul signals new era for UK onshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/onshore-wind/iberdrolas-huge-repowering-project-taste-of-things-to-come-for-uk-onshore-wind/2-1-2028193",
       "source": "rechargenews",
@@ -3206,17 +3196,6 @@
       ]
     },
     {
-      "title": "Northland nears 2.1GW offshore wind completion as strategy shifts to storage and gas",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/northland-closing-in-on-2-1gw-offshore-wind-completion-amid-diversification-drive/2-1-2029089",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "US court ruling threatens 20GW of approved offshore wind projects",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/atlantic-shores-ruling-puts-final-us-offshore-wind-permits-back-in-play/2-1-2028470",
@@ -3239,9 +3218,32 @@
       ]
     },
     {
-      "title": "Turkey reveals timeframe for first offshore wind tender",
+      "title": "Northland nears 2.1GW offshore wind completion as strategy shifts to storage and gas",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/turkey-reveals-timeframe-for-first-offshore-wind-tender/2-1-2028728",
+      "link": "https://www.rechargenews.com/offshore-wind/northland-closing-in-on-2-1gw-offshore-wind-completion-amid-diversification-drive/2-1-2029089",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "'First of a kind' cyberattack traced back to wind farm",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/first-of-a-kind-cyberattack-traced-back-to-wind-farm/2-1-2028365",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
+      ]
+    },
+    {
+      "title": "RWE hikes spending goal on regulated grids foray",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/finance/rwe-hikes-spending-goal-on-regulated-grids-foray/2-1-2028562",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3253,17 +3255,6 @@
       "title": "What Germany must learn from Denmark's offshore wind masterclass",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/opinion/what-germany-must-learn-from-denmarks-offshore-wind-masterclass/2-1-2028183",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "RWE insists $1.2bn gas pivot was its choice after Trump offshore wind buyout",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/rwe-insists-1-2bn-gas-pivot-was-its-choice-after-trump-offshore-wind-buyout/2-1-2027767",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3316,9 +3307,9 @@
       ]
     },
     {
-      "title": "Orsted results spur appetite for growth but US impairments continue to weigh",
+      "title": "Germany embraces offshore wind CfDs, but only as a fallback option",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/orsted-results-spur-appetite-for-growth-but-us-impairments-continue-to-weigh/2-1-2028603",
+      "link": "https://www.rechargenews.com/policy/germany-embraces-offshore-wind-cfds-but-only-as-a-fallback-option/2-1-2027285",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
