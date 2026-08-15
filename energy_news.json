@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:14:11+00:00",
+  "generated_at": "2026-08-15T19:15:27+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 285,
+  "count": 287,
   "articles": [
     {
       "title": "Hungary uses sunken barges to raise Danube River to keep nuclear plant going",
@@ -2868,6 +2868,27 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Schutz vor Hitze, Umgang mit Dürre : Die lange To-Do-Liste der Politik",
+      "teaser": "In diesem Sommer zeigt sich die Klimakrise – und wie schlecht Deutschland darauf vorbereitet ist. Hitzeschutz, Landwirtschaft, Waldbrände, Schifffahrt: Wo Bund, Länder und Kommunen jetzt handeln müssen.",
+      "link": "https://www.tagesspiegel.de/politik/schutz-vor-hitze-umgang-mit-durre-die-lange-to-do-liste-der-politik-15943703.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Den Klimaschutz hat die Politik verschlafen : Bitte verpennt jetzt nicht auch noch den Schutz vor Klimawandel-Folgen",
+      "teaser": "Der Umweltminister will den Klimaschutz als Gemeinschaftsaufgabe im Grundgesetz verankern. Das eröffnet Möglichkeiten, die längst überfällig sind.",
+      "link": "https://www.tagesspiegel.de/politik/den-klimaschutz-hat-die-politik-verschlafen-bitte-verpennt-jetzt-nicht-auch-noch-den-schutz-vor-klimawandel-folgen-15944011.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima",
+        "klimaschutz"
       ]
     },
     {
