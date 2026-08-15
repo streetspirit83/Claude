@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:14:10+00:00",
+  "generated_at": "2026-08-15T13:23:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "cleanenergywire",
@@ -252,10 +252,10 @@
       "url": "https://www.euronews.com/green",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
+      "feed_url": "https://www.euronews.com/rss/",
       "error": null,
       "items_found": 50,
-      "items_matched": 16
+      "items_matched": 2
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 283,
+  "count": 270,
   "articles": [
+    {
+      "title": "Selenskyj fordert weitere Sanktionen gegen russische Lieferketten im Verteidigungsbereich",
+      "teaser": "Der ukrainische Präsident schrieb, dass Russland täglich rund 220 Lenkbomben auf Städte an der Front abwirft, und fügte hinzu, dass Moskau die Produktion dieser Waffen trotz internationaler Sanktionen fortsetze.",
+      "link": "https://euractiv.com/de/news/selenskyj-fordert-weitere-sanktionen-gegen-russische-lieferketten-im-verteidigungsbereich/",
+      "source": "euractiv-energie",
+      "published": "2026-08-15T11:45:06+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
+      "title": "UK hits back after Netanyahu labels it 'the Islamic republic of Britain'",
+      "teaser": "Netanyahu made the comments during an army radio podcast interview, in which he also joked that the UK was the \"first Islamic republic with nuclear weapons.\"",
+      "link": "http://www.euronews.com/2026/08/15/uk-hits-back-after-netanyahu-labels-it-the-islamic-republic-of-britain",
+      "source": "euronews-green",
+      "published": "2026-08-15T06:16:02+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "UK must 'face up to changing climate,' PM says on visit to fire-hit Stourbridge",
+      "teaser": "The West Midlands, alongside nearly three-quarters of England, is in drought after weeks of high temperatures and scant rainfall, increasing the risk of fires.",
+      "link": "http://www.euronews.com/my-europe/2026/08/14/uk-must-face-up-to-changing-climate-pm-says-on-visit-to-fire-hit-stourbridge",
+      "source": "euronews-green",
+      "published": "2026-08-14T16:14:29+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Limes reaches RTB stage for 200MW/1GWh Huañil BESS project in Chile",
       "teaser": "Italian clean energy developer Limes Renewable Energy has reached the ready-to-build stage at its 200MW/1GWh Huañil project.",
@@ -671,16 +701,6 @@
       ]
     },
     {
-      "title": "‘The real challenge starts after sundown’: Europe’s heatwave boosted solar by up to 17% on hot days",
-      "teaser": "A surge in solar power has helped meet heightened power demand from Europe’s blistering heatwaves, according to a new analysis.",
-      "link": "http://www.euronews.com/2026/08/14/the-real-challenge-starts-after-sundown-europes-heatwave-boosted-solar-by-up-to-17-on-hot-",
-      "source": "euronews-green",
-      "published": "2026-08-14T05:00:39+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Klimarisiken erkennen und handeln",
       "teaser": "Hitzewellen, Starkregen, Hochwasser. Wann und wo konkret Extremwetter zur Gefahr werden, kann auch der neue Quick-Check der Bodensee-Stiftung nicht prognostizieren. Aber er hilft, Anfälligkeiten und den Bedarf für Anpassungs-Schritte zu…",
       "link": "https://www.energiezukunft.eu/klimakrise/klimarisiken-erkennen-und-handeln",
@@ -976,26 +996,6 @@
       ]
     },
     {
-      "title": "Millions of solar eclipse glasses could end up in landfill: Here’s what to do instead",
-      "teaser": "Be a responsible consumer by following expert advice on what to do with your glasses now the eclipse is over.",
-      "link": "http://www.euronews.com/2026/08/13/millions-of-solar-eclipse-glasses-could-end-up-in-landfill-heres-what-to-do-instead",
-      "source": "euronews-green",
-      "published": "2026-08-13T05:00:09+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "What time will the solar eclipse be visible in my city in Spain on 12 August?",
-      "teaser": "The total solar eclipse will cross Spain this Wednesday at sunset, peaking around 8.30 pm. See when it will be visible in each city, where it is total, and its peak in Madrid and Barcelona.",
-      "link": "http://www.euronews.com/2026/08/12/what-time-will-the-solar-eclipse-be-visible-in-my-city-in-spain-on-12-august",
-      "source": "euronews-green",
-      "published": "2026-08-12T14:00:27+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Sungrow provides BESS to Verano Energy’s 606MWh Chilean hybrid project",
       "teaser": "Independent power producer (IPP) Verano Energy has awarded the battery energy storage system (BESS) supply for its 152MW/606MWh Observatorio project to Sungrow.",
       "link": "https://www.energy-storage.news/sungrow-provides-bess-to-verano-energys-606mwh-chilean-hybrid-project/",
@@ -1109,16 +1109,6 @@
       ]
     },
     {
-      "title": "A solar eclipse followed by a meteor shower: Portugal prepares for two rare celestial events",
-      "teaser": "In some parts of the country, the Moon will completely cover the Sun, plunging onlookers into a sci-fi-like scene.",
-      "link": "http://www.euronews.com/2026/08/12/solar-eclipse-and-meteor-shower-portugal-prepares-for-two-rare-celestial-events",
-      "source": "euronews-green",
-      "published": "2026-08-12T05:05:53+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Großprojekte und Beteiligung – Tangerhütte treibt die Energiewende voran",
       "teaser": "Die flächengroße Einheitsgemeinde Tangerhütte in Sachsen-Anhalt überzeugt durch ein breites Fundament aus Solar-, Wind- und Bioenergie sowie modernster Speichertechnologie und akzeptanzfördernder Bürgerbeteiligung.",
       "link": "https://www.energiezukunft.eu/buergerenergie/grossprojekte-und-beteiligung-tangerhuette-treibt-die-energiewende-voran",
@@ -1128,16 +1118,6 @@
         "energiewende",
         "solar",
         "speicher"
-      ]
-    },
-    {
-      "title": "Anxious dogs and silent birds: What happens to animals during a total solar eclipse?",
-      "teaser": "Today's rare solar eclipse is thrilling for humans, but animals will face something they can't prepare for: sudden confusing darkness in the middle of the day.",
-      "link": "http://www.euronews.com/2026/08/12/anxious-dogs-and-silent-birds-what-happens-to-animals-during-a-total-solar-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-12T05:02:16+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1173,16 +1153,6 @@
       ]
     },
     {
-      "title": "Solar eclipse: protective glasses in short supply across France",
-      "teaser": "On Wednesday 12 August, a solar eclipse will be visible in parts of Europe. The much-anticipated event means shops selling protective glasses are being overrun.",
-      "link": "http://www.euronews.com/2026/08/11/solar-eclipse-protective-glasses-in-short-supply-across-france",
-      "source": "euronews-green",
-      "published": "2026-08-11T17:03:36+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Heatwaves push European gas prices close to Iran war highs",
       "teaser": "Wednesday’s solar eclipse is also expected to fuel demand for gas-fired power generation",
       "link": "https://www.ft.com/content/42194267-cda2-4dcc-9487-02c5f239e034?syn-25a6b1a6=1",
@@ -1210,27 +1180,6 @@
       "link": "https://www.ft.com/content/a061e46e-705c-44f6-a036-20e6cb56d19a?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-08-11T15:37:49+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Jellyfish force shutdown of three reactors at France's Gravelines nuclear power plant",
-      "teaser": "Experts say overfishing, plastic pollution and warming seas due to climate change have created conditions allowing jellyfish to thrive and reproduce.",
-      "link": "http://www.euronews.com/2026/08/11/jellyfish-influx-forces-edf-to-shut-three-reactors-at-gravelines-nuclear-plant",
-      "source": "euronews-green",
-      "published": "2026-08-11T14:40:04+00:00",
-      "matched_keywords": [
-        "climate",
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Power downs and free energy: How Europe is preparing for a dip in solar during the eclipse",
-      "teaser": "While many are excitedly awaiting the eclipse, for the solar industry it’s a bit of a headache.",
-      "link": "http://www.euronews.com/2026/08/11/one-european-country-is-offering-free-energy-to-households-that-power-down-during-the-ecli",
-      "source": "euronews-green",
-      "published": "2026-08-11T14:01:05+00:00",
       "matched_keywords": [
         "solar"
       ]
@@ -1375,16 +1324,6 @@
       ]
     },
     {
-      "title": "A once-in-a-lifetime spectacle: Iceland prepares for total solar eclipse",
-      "teaser": "Iceland is preparing for a rare total solar eclipse on 12 August, with thousands of visitors expected to head to the country's western regions.",
-      "link": "http://www.euronews.com/2026/08/11/a-once-in-a-lifetime-spectacle-iceland-prepares-for-total-solar-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-11T02:30:26+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "AI will boost oil and gas production more than green energy, report finds",
       "teaser": "Debate over tech impact on greenhouse gas emissions stoked by latest study",
       "link": "https://www.ft.com/content/8f16a902-3e80-462c-add8-b841494d1808?syn-25a6b1a6=1",
@@ -1402,16 +1341,6 @@
       "published": "2026-08-10T16:24:18+00:00",
       "matched_keywords": [
         "power grid"
-      ]
-    },
-    {
-      "title": "Solar power output set to fall during eclipse",
-      "teaser": "Portugal's grid operator REN estimates that solar power generation on Wednesday will fall by about 45% during the eclipse compared with usual levels for that time of day.",
-      "link": "http://www.euronews.com/2026/08/10/solar-power-output-set-to-fall-during-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-10T14:38:51+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1539,17 +1468,6 @@
       "published": "2026-08-08T07:36:49+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "Batteries can save Europe’s solar and wind power from being wasted. But are they a blackout risk?",
-      "teaser": "A new report claims that the battery boom could trigger power outages, but experts say the risk is ‘tiny’.",
-      "link": "http://www.euronews.com/2026/08/08/batteries-can-save-europes-solar-and-wind-power-from-being-wasted-but-are-they-a-blackout-",
-      "source": "euronews-green",
-      "published": "2026-08-08T05:00:09+00:00",
-      "matched_keywords": [
-        "solar",
-        "wind power"
       ]
     },
     {
@@ -1688,16 +1606,6 @@
       ]
     },
     {
-      "title": "El Niño could unleash ocean heat that sends 2026 into record-breaking territory",
-      "teaser": "This summer's heat is human caused, not from El Niño – but the climate phenomenon is set to release pent-up ocean heat.",
-      "link": "http://www.euronews.com/2026/08/06/el-nino-could-unleash-ocean-heat-that-sends-2026-into-record-breaking-territory",
-      "source": "euronews-green",
-      "published": "2026-08-06T10:27:47+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Ohio steel giant aims to use Biden climate funds for polluting project",
       "teaser": "Steel giant Cleveland-Cliffs was supposed to use up to $500 million from a Biden administration grant to usher in cleaner steelmaking in southwestern Ohio. Now, the company plans to instead put those funds toward a project that locks in…",
       "link": "https://www.canarymedia.com/articles/green-steel/ohio-steel-giant-climate-funds",
@@ -1758,17 +1666,6 @@
       ]
     },
     {
-      "title": "Solar power was Portugal's main source of electricity in July – a first for the country",
-      "teaser": "Last month, renewable sources accounted for 53% of consumption, with solar providing 19% of that energy, followed by hydro, wind and biomass.",
-      "link": "http://www.euronews.com/2026/08/05/first-time-solar-power-is-portugals-main-source-of-electricity-in-july",
-      "source": "euronews-green",
-      "published": "2026-08-05T11:52:37+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Hydrogen-iron flow batteries: How Elestor’s tech works",
       "teaser": "Elestor claims its hydrogen-iron flow battery delivers 75%+ round-trip efficiency, a 20-25 year lifespan, and 15€/kWh capex for long-duration storage.",
       "link": "https://www.energy-storage.news/elestor-hydrogen-iron-flow-battery/",
@@ -1776,16 +1673,6 @@
       "published": "2026-08-05T11:04:35+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Greenpeace warns: sea advances, Portuguese coast at risk",
-      "teaser": "In a recent report, Greenpeace warns Portugal of looming risks from climate change and decades of coastal urban pressure, with 40% of beaches at risk of vanishing.",
-      "link": "http://www.euronews.com/2026/08/05/greenpeace-warns-sea-advances-portuguese-coast-at-risk",
-      "source": "euronews-green",
-      "published": "2026-08-05T09:41:42+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1884,16 +1771,6 @@
       ]
     },
     {
-      "title": "Where and when to watch August's total solar eclipse — safely",
-      "teaser": "A total solar eclipse will cross Greenland, Iceland and Spain on 12 August. Here's how and where to watch it safely.",
-      "link": "http://www.euronews.com/2026/08/03/when-and-where-to-see-the-total-solar-eclipse-and-how-to-view-it-safely",
-      "source": "euronews-green",
-      "published": "2026-08-03T19:00:29+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Illinois Solar for All is, at last, taking off",
       "teaser": "Any time, day or night, parents experiencing homelessness, domestic violence, or other emergencies can drop their young kids off at the Crisis Nursery in Urbana, Illinois, and know they’ll be safe and cared for. Funding is a constant…",
       "link": "https://www.canarymedia.com/articles/solar/illinois-solar-for-all",
@@ -1921,16 +1798,6 @@
       "published": "2026-08-02T12:25:47+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Solar car parks could cut electricity bills by €32,00 a year. Why is Europe so resistant?",
-      "teaser": "Solar car parks are popping up across Europe, but not every country seems to think they’re a smart investment.",
-      "link": "http://www.euronews.com/2026/08/02/solar-car-parks-could-cut-electricity-bills-by-3200-a-year-why-is-europe-so-resistant",
-      "source": "euronews-green",
-      "published": "2026-08-02T05:00:37+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
