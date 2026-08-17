@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:17:00+00:00",
+  "generated_at": "2026-08-17T19:21:04+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 5
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euronews-green",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,48 @@
       "items_matched": 0
     }
   ],
-  "count": 292,
+  "count": 296,
   "articles": [
+    {
+      "title": "The United Kingdom Approves CO2 Capture at the Deeside Digestion Plant",
+      "teaser": null,
+      "link": "https://energynews.pro/en/the-united-kingdom-approves-co2-capture-at-the-deeside-digestion-plant",
+      "source": "energynews-pro",
+      "published": "2026-08-17T17:33:08+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
+    {
+      "title": "ExxonMobil advances Mozambique gas project despite terrorist threat",
+      "teaser": "Rovuma LNG plant expected to cost $30bn",
+      "link": "https://www.ft.com/content/61b8162e-6c50-4775-8bb5-fff1259a9cf3?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-17T17:24:56+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Northland Power Delivers First Power At Baltic Power Offshore Wind Farm",
+      "teaser": null,
+      "link": "https://energynews.pro/en/northland-power-delivers-first-power-at-baltic-power-offshore-wind-farm",
+      "source": "energynews-pro",
+      "published": "2026-08-17T17:03:50+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Deutschlands Koalition ist sich uneinig über die Verankerung des Klimaschutzes im Grundgesetz",
+      "teaser": "Der Vorschlag sieht außerdem einen nationalen „Hitzeaktionsplan“, Änderungen der Stadtplanungsgesetze und Bauvorschriften sowie neue Arbeitsgesetze vor, um die Arbeit bei sengender Hitze zu regeln.",
+      "link": "https://euractiv.com/de/news/deutschlands-koalition-ist-sich-uneinig-uber-die-verankerung-des-klimaschutzes-im-grundgesetz/",
+      "source": "euractiv-energie",
+      "published": "2026-08-17T16:29:17+00:00",
+      "matched_keywords": [
+        "klimaschutz"
+      ]
+    },
     {
       "title": "Ukraine urges EU sanctions on Rosatom over allegations of nuclear safety violations",
       "teaser": "Foreign minister pointed to a POLITICO investigation as a reason to act.",
@@ -545,6 +585,16 @@
       "published": "2026-08-17T10:00:00+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "South Korea signs MoU for 320MW green hydrogen complex",
+      "teaser": "Plans for a large-scale green hydrogen complex at Saemangeum in SK have been announced following a memorandum of understanding (MoU).",
+      "link": "https://www.energymonitor.ai/news/south-korea-mou-green-hydrogen/",
+      "source": "energymonitor",
+      "published": "2026-08-17T09:38:44+00:00",
+      "matched_keywords": [
+        "hydrogen"
       ]
     },
     {
@@ -1371,17 +1421,6 @@
       "source": "euronews-green",
       "published": "2026-08-11T17:03:36+00:00",
       "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Heatwaves push European gas prices close to Iran war highs",
-      "teaser": "Wednesday’s solar eclipse is also expected to fuel demand for gas-fired power generation",
-      "link": "https://www.ft.com/content/42194267-cda2-4dcc-9487-02c5f239e034?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-11T16:53:26+00:00",
-      "matched_keywords": [
-        "gas price",
         "solar"
       ]
     },
