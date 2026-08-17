@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:32:56+00:00",
+  "generated_at": "2026-08-17T16:17:00+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "euronews-green",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 14
+      "items_matched": 15
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,50 @@
       "items_matched": 0
     }
   ],
-  "count": 293,
+  "count": 292,
   "articles": [
+    {
+      "title": "Ukraine urges EU sanctions on Rosatom over allegations of nuclear safety violations",
+      "teaser": "Foreign minister pointed to a POLITICO investigation as a reason to act.",
+      "link": "https://www.politico.eu/article/ukraine-eu-sanctions-rosatom-nuclear-safety-violations-andrii-sybiha/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-17T16:13:23+00:00",
+      "matched_keywords": [
+        "nuclear",
+        "sanction"
+      ]
+    },
+    {
+      "title": "EU Commission Clears Brookfield and Mitsubishi Acquisition of MHBF Renewables",
+      "teaser": null,
+      "link": "https://energynews.pro/en/eu-commission-clears-brookfield-and-mitsubishi-acquisition-of-mhbf-renewables",
+      "source": "energynews-pro",
+      "published": "2026-08-17T16:01:46+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "China dominates battery storage growth",
+      "teaser": "Global battery energy storage capacity surged to 301.7 gigawatts in 2025 The post China dominates battery storage growth appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/17/china-leads-global-battery-storage/",
+      "source": "energylivenews",
+      "published": "2026-08-17T14:01:10+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Weltweite Photovoltaik-Leistung überschreitet Drei-Terawatt-Marke",
+      "teaser": "Mit mehr als drei Terawatt Leistung hat die Photovoltaik weltweit einen neuen Meilenstein erreicht. China ist Haupttreiber des jüngsten Ausbaus, aber auch Schwellenländer tragen zunehmend zum Wachstum bei. Angesichts des beschleunigten…",
+      "link": "https://www.pv-magazine.de/2026/08/17/weltweite-photovoltaik-leistung-ueberschreitet-drei-terawatt-marke/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-17T13:38:36+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "In China, Renewable Power Curtailment Worsens in First Half 2026",
       "teaser": null,
@@ -503,16 +545,6 @@
       "published": "2026-08-17T10:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "South Korea signs MoU for 320MW green hydrogen complex",
-      "teaser": "Plans for a large-scale green hydrogen complex at Saemangeum in SK have been announced following a memorandum of understanding (MoU).",
-      "link": "https://www.energymonitor.ai/news/south-korea-mou-green-hydrogen/",
-      "source": "energymonitor",
-      "published": "2026-08-17T09:38:44+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -786,16 +818,6 @@
       ]
     },
     {
-      "title": "YPF, Eni and XRG File RIGI Membership Application for Argentina LNG",
-      "teaser": null,
-      "link": "https://energynews.pro/en/ypf-eni-and-xrg-file-rigi-membership-application-for-argentina-lng",
-      "source": "energynews-pro",
-      "published": "2026-08-14T16:02:43+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Wind developer Boralex goes private after $6.5 billion acquisition",
       "teaser": "Canadian asset manager Brookfield and pension fund manager La Caisse have completed their acquisition of Boralex, taking the renewables developer private.",
       "link": "https://www.windpowermonthly.com/article/1967456/wind-developer-boralex-goes-private-65-billion-acquisition",
@@ -861,16 +883,6 @@
       ]
     },
     {
-      "title": "Boomtown puts green hydrogen centre stage",
-      "teaser": "The Hydro XL stage's sound and lighting systems will be powered by hydrgen generators The post Boomtown puts green hydrogen centre stage appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/14/boomtown-puts-green-hydrogen-centre-stage/",
-      "source": "energylivenews",
-      "published": "2026-08-14T11:00:00+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Underground LDES: turning mines and caverns into energy storage",
       "teaser": "This episode of Energy Technology considers how repurposed mines and salt caverns can provide long duration energy storage.",
       "link": "https://www.power-technology.com/analysis/underground-ldes-turning-mines-and-caverns-into-energy-storage/",
@@ -889,16 +901,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Seatrium lines up third FLNG conversion assignment with Golar LNG",
-      "teaser": "Golar LNG, a Bermuda-headquartered liquefied natural gas (LNG) midstream infrastructure owner and operator, has booked Seatrium, a Singapore-headquartered offshore, maritime, and energy solutions provider, for a potential third floating…",
-      "link": "https://www.offshore-energy.biz/seatrium-lines-up-third-flng-conversion-assignment-with-golar-lng/",
-      "source": "offshore-energy",
-      "published": "2026-08-14T09:51:28+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -961,16 +963,6 @@
       "matched_keywords": [
         "battery storage",
         "solar"
-      ]
-    },
-    {
-      "title": "Norddeutsche Verteilnetzbetreiber für „Realisierungsnachweis“ bei Batteriespeicher-Netzanschlüssen",
-      "teaser": "Weil Netzanschlussanfragen auch dann Kapazitäten blockieren, wenn keine verbindliche Umsetzungsabsicht dahintersteht, streben die norddeutschen Verteilnetzbetreiber – wie zuletzt Netze BW – ein Reifegradverfahren an.",
-      "link": "https://www.pv-magazine.de/2026/08/14/norddeutsche-verteilnetzbetreiber-fuer-realisierungsnachweis-bei-batteriespeicher-netzanschluessen/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-14T08:12:00+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -3230,16 +3222,6 @@
       ]
     },
     {
-      "title": "Spain nuclear plant extension set to curb gas use",
-      "teaser": "Vincent Thevenin",
-      "link": "https://www.montelnews.com/news/e2371454-c9da-4af3-b7fd-365d8b0c0fd4/spain-nuclear-plant-extension-to-curb-gas-use-analysts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Battery storage: energy economics will drive duration",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
@@ -3250,6 +3232,27 @@
       ]
     },
     {
+      "title": "Spain nuclear plant extension set to curb gas use",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/e2371454-c9da-4af3-b7fd-365d8b0c0fd4/spain-nuclear-plant-extension-to-curb-gas-use-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "German wind industry threatens legal action as grid reform puts projects at risk",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/german-wind-industry-threatens-legal-action-as-grid-reform-puts-projects-at-risk/2-1-2030153",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Investors are flocking to power grids: 'The price just keeps going up and up and up'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/grid/investors-are-flocking-to-power-grids-the-price-just-keeps-going-up-and-up-and-up/2-1-2029343",
@@ -3257,6 +3260,17 @@
       "published": null,
       "matched_keywords": [
         "power grid",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
         "renewable",
         "solar"
       ]
@@ -3277,17 +3291,6 @@
       "title": "Storage 'significantly improves bankability' for PPA-backed wind deals: Renewabl CEO",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/storage-significantly-improves-bankability-for-ppa-backed-wind-deals-renewabl-ceo/2-1-2025878",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3318,20 +3321,9 @@
       ]
     },
     {
-      "title": "Iberdrola’s £1.5bn overhaul signals new era for UK onshore wind",
+      "title": "What Germany must learn from Denmark's offshore wind masterclass",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/iberdrolas-huge-repowering-project-taste-of-things-to-come-for-uk-onshore-wind/2-1-2028193",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas, GB Energy and DNV among wind industry moves",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/vestas-gb-energy-and-dnv-among-wind-industry-moves/2-1-2029300",
+      "link": "https://www.rechargenews.com/opinion/what-germany-must-learn-from-denmarks-offshore-wind-masterclass/2-1-2028183",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3396,9 +3388,9 @@
       ]
     },
     {
-      "title": "What Germany must learn from Denmark's offshore wind masterclass",
+      "title": "Iberdrola’s £1.5bn overhaul signals new era for UK onshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/what-germany-must-learn-from-denmarks-offshore-wind-masterclass/2-1-2028183",
+      "link": "https://www.rechargenews.com/onshore-wind/iberdrolas-huge-repowering-project-taste-of-things-to-come-for-uk-onshore-wind/2-1-2028193",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3407,9 +3399,9 @@
       ]
     },
     {
-      "title": "US court ruling threatens 20GW of approved offshore wind projects",
+      "title": "Vestas, GB Energy and DNV among wind industry moves",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/atlantic-shores-ruling-puts-final-us-offshore-wind-permits-back-in-play/2-1-2028470",
+      "link": "https://www.rechargenews.com/people/vestas-gb-energy-and-dnv-among-wind-industry-moves/2-1-2029300",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
