@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:26:24+00:00",
+  "generated_at": "2026-08-18T07:30:25+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 18
+      "items_matched": 17
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 40
+      "items_matched": 41
     },
     {
       "name": "smart-energy",
@@ -370,6 +370,37 @@
   ],
   "count": 298,
   "articles": [
+    {
+      "title": "Photovoltaik stabilisiert das französische Stromnetz bei Hitzewellen und sinkender Kernkraftleistung",
+      "teaser": "Hitzewellen und Dürre haben zur Abschaltung mehrerer französischer Kernreaktoren geführt, während eine starke Solarstromerzeugung zur Stabilisierung des Netzes beigetragen hat. Da die Photovoltaik-Leistung nach Sonnenuntergang zurückgeht,…",
+      "link": "https://www.pv-magazine.de/2026/08/18/photovoltaik-stabilisiert-das-franzoesische-stromnetz-bei-hitzewellen-und-sinkender-kernkraftleistung/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-18T07:30:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "China’s energy storage market doubles in size for second consecutive year as price inflection point emerges",
+      "teaser": "Energy storage deployments in China saw significant year-over-year growth in 2025 as the market size effectively doubled.",
+      "link": "https://www.energy-storage.news/chinas-energy-storage-market-doubles-in-size-for-second-consecutive-year-as-price-inflection-point-emerges/",
+      "source": "energy-storage-news",
+      "published": "2026-08-18T04:53:04+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Short sellers reap $2bn profit as modular nuclear reactor stocks tumble",
+      "teaser": "Unproven technology won investment from power-hungry AI hyperscalers but has yet to deliver consistent revenues",
+      "link": "https://www.ft.com/content/a2f0e0f8-9350-4124-af77-62219e77e777?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-18T04:00:14+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "New South Wales cuts battery storage costs by up to 40% for businesses and apartment buildings in the Australian state",
       "teaser": "NSW has introduced a new upfront discount scheme for battery storage systems installed by businesses and apartment buildings.",
@@ -926,19 +957,6 @@
       "matched_keywords": [
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Hansesun Austria schlägt neues Modell für Photovoltaik-Förderung vor",
-      "teaser": "Anstelle eines Investitionszuschusses sollte es für die Förderung von Photovoltaik-Dachanlagen und Batteriespeicher einen Klima-Investitionsfreibetrag geben. Die Steuerersparnis für eine typische Eigenheimanlage würde sich über fünf Jahre…",
-      "link": "https://www.pv-magazine.de/2026/08/14/hansesun-austria-schlaegt-neues-modell-fuer-photovoltaik-foerderung-vor/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-14T12:57:26+00:00",
-      "matched_keywords": [
-        "förderung",
-        "klima",
-        "photovoltaik",
-        "speicher"
       ]
     },
     {
@@ -2101,16 +2119,6 @@
       "published": "2026-08-02T12:25:47+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Solar car parks could cut electricity bills by €32,00 a year. Why is Europe so resistant?",
-      "teaser": "Solar car parks are popping up across Europe, but not every country seems to think they’re a smart investment.",
-      "link": "http://www.euronews.com/2026/08/02/solar-car-parks-could-cut-electricity-bills-by-3200-a-year-why-is-europe-so-resistant",
-      "source": "euronews-green",
-      "published": "2026-08-02T05:00:37+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -3281,16 +3289,6 @@
       ]
     },
     {
-      "title": "Battery storage: energy economics will drive duration",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/7c609420-b1a7-44f4-85ee-f6832abd9189/battery-storage-energy-economics-will-drive-duration-2",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Spain nuclear plant extension set to curb gas use",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/e2371454-c9da-4af3-b7fd-365d8b0c0fd4/spain-nuclear-plant-extension-to-curb-gas-use-analysts",
@@ -3298,6 +3296,17 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3391,18 +3400,6 @@
       ]
     },
     {
-      "title": "'First of a kind' cyberattack traced back to wind farm",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/first-of-a-kind-cyberattack-traced-back-to-wind-farm/2-1-2028365",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
       "title": "The likely winners and losers in UK offshore wind auction",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/the-likely-winners-and-losers-in-uk-offshore-wind-auction/2-1-2026529",
@@ -3436,6 +3433,18 @@
       ]
     },
     {
+      "title": "'First of a kind' cyberattack traced back to wind farm",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/first-of-a-kind-cyberattack-traced-back-to-wind-farm/2-1-2028365",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind farm"
+      ]
+    },
+    {
       "title": "Influencers take to the front line in Trump’s war against solar",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/trump-turns-fire-on-solar-as-farmers-warn-crackdown-could-cost-them-a-lifeline/2-1-2024338",
@@ -3450,17 +3459,6 @@
       "title": "Iberdrola’s £1.5bn overhaul signals new era for UK onshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/onshore-wind/iberdrolas-huge-repowering-project-taste-of-things-to-come-for-uk-onshore-wind/2-1-2028193",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas, GB Energy and DNV among wind industry moves",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/vestas-gb-energy-and-dnv-among-wind-industry-moves/2-1-2029300",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
