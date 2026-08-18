@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:18:48+00:00",
+  "generated_at": "2026-08-18T13:35:49+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 41
+      "items_matched": 37
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,69 @@
       "items_matched": 0
     }
   ],
-  "count": 298,
+  "count": 292,
   "articles": [
+    {
+      "title": "WestWind Energy Secures Approval for 122 MW Normanville Wind Farm in Australia",
+      "teaser": null,
+      "link": "https://energynews.pro/en/westwind-energy-secures-approval-for-122-mw-normanville-wind-farm-in-australia",
+      "source": "energynews-pro",
+      "published": "2026-08-18T12:31:48+00:00",
+      "matched_keywords": [
+        "wind energy",
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Canadian Solar meldet formelles Ende des Patentstreits mit Maxeon",
+      "teaser": "Im Januar hatte das US-amerikanische Patent Trial and Appeal Board (PTAB) die von Maxeon gegen Canadian Solar geltend gemachten Patentansprüche für ungültig erklärt. Jetzt hat das zuständige US-Gericht die von Maxeon eingereichte…",
+      "link": "https://www.pv-magazine.de/2026/08/18/canadian-solar-meldet-formelles-ende-des-patentstreits-mit-maxeon/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-18T12:26:56+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "BfN-Studie: Viele Moorflächen für Photovoltaik nicht geeignet",
+      "teaser": "Nur knapp 29 Prozent der deutschen Moorflächen kommen nach einer Studie im Auftrag des Bundesamts für Naturschutz potenziell für Moor-Photovoltaik infrage. Die Autoren schätzen das Ausbaupotenzial auf 129 bis 311 Gigawatt. Sie weisen…",
+      "link": "https://www.pv-magazine.de/2026/08/18/bfn-studie-viele-moorflaechen-fuer-photovoltaik-nicht-geeignet/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-18T11:02:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Solar panels save council more than £7000",
+      "teaser": "Swale Borough Council has cut its electricity bill by 55% since installation The post Solar panels save council more than £7000 appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/18/solar-panels-save-council-thousands/",
+      "source": "energylivenews",
+      "published": "2026-08-18T11:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "New Zealand Fast-tracks 220 MWp Foxton Solar Farm Approval",
+      "teaser": null,
+      "link": "https://energynews.pro/en/new-zealand-fast-tracks-220-mwp-foxton-solar-farm-approval",
+      "source": "energynews-pro",
+      "published": "2026-08-18T10:32:35+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Huawei unveils DC ESS solution and 800-ampere liquid-cooled charging to overcome grid capacity constraints",
+      "teaser": "Huawei integrates PV, ESS, and charging into one solution, building a grid-friendly smart network for a better user experience and faster business growth.",
+      "link": "https://www.energy-storage.news/huawei-dc-ess-solution-800-ampere-liquid-cooled-charging-overcome-grid-capacity-constraints/",
+      "source": "energy-storage-news",
+      "published": "2026-08-18T10:29:01+00:00",
+      "matched_keywords": [
+        "pv"
+      ]
+    },
     {
       "title": "ExxonMobil Awards Pre-Investment Contracts for Rovuma LNG in Mozambique",
       "teaser": null,
@@ -378,6 +439,16 @@
       "published": "2026-08-18T10:17:32+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Aurinkokarhu, FEP JV aim to deliver 3GW of energy projects in Finland",
+      "teaser": "Aurinkokarhu and FEP have entered into a JV to develop and finance approximately 3GW of solar, BESS, and hybrid energy projects in Finland.",
+      "link": "https://www.power-technology.com/news/aurinkokarhu-fep-3gw-energy-projects/",
+      "source": "power-technology",
+      "published": "2026-08-18T10:07:12+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -565,26 +636,6 @@
       ]
     },
     {
-      "title": "ABB Integrates Gamesa Electric, Adding 40 GW to Its Solar Fleet",
-      "teaser": null,
-      "link": "https://energynews.pro/en/abb-integrates-gamesa-electric-adding-40-gw-to-its-solar-fleet",
-      "source": "energynews-pro",
-      "published": "2026-08-17T21:02:05+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "The United Kingdom Approves CO2 Capture at the Deeside Digestion Plant",
-      "teaser": null,
-      "link": "https://energynews.pro/en/the-united-kingdom-approves-co2-capture-at-the-deeside-digestion-plant",
-      "source": "energynews-pro",
-      "published": "2026-08-17T17:33:08+00:00",
-      "matched_keywords": [
-        "co2"
-      ]
-    },
-    {
       "title": "ExxonMobil advances Mozambique gas project despite terrorist threat",
       "teaser": "Rovuma LNG plant expected to cost $30bn",
       "link": "https://www.ft.com/content/61b8162e-6c50-4775-8bb5-fff1259a9cf3?syn-25a6b1a6=1",
@@ -592,16 +643,6 @@
       "published": "2026-08-17T17:24:56+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "Northland Power Delivers First Power At Baltic Power Offshore Wind Farm",
-      "teaser": null,
-      "link": "https://energynews.pro/en/northland-power-delivers-first-power-at-baltic-power-offshore-wind-farm",
-      "source": "energynews-pro",
-      "published": "2026-08-17T17:03:50+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -623,17 +664,6 @@
       "matched_keywords": [
         "nuclear",
         "sanction"
-      ]
-    },
-    {
-      "title": "China dominates battery storage growth",
-      "teaser": "Global battery energy storage capacity surged to 301.7 gigawatts in 2025 The post China dominates battery storage growth appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/17/china-leads-global-battery-storage/",
-      "source": "energylivenews",
-      "published": "2026-08-17T14:01:10+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
       ]
     },
     {
@@ -789,30 +819,6 @@
       "published": "2026-08-17T08:19:03+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "33-Sekunden-Fördercall: Geplatzte Aufträge, verärgerte Kunden – Branche und Politik ringen um Österreichs Photovoltaik-Förderung",
-      "teaser": "pv+: 33 Sekunden entschieden beim zweiten Photovoltaik-Fördercall 2026 über Zusage oder Absage. Von 28.000 Anträgen wurden nur 3000 bewilligt. Kunden und Handwerk reagieren verärgert, die Branche fordert einen Neustart des Fördersystems.…",
-      "link": "https://www.pv-magazine.de/2026/08/17/33-sekunden-foerdercall-geplatzte-auftraege-veraergerte-kunden-branche-und-politik-ringen-um-oesterreichs-photovoltaik-foerderung/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-17T08:10:51+00:00",
-      "matched_keywords": [
-        "förderung",
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
-      "title": "IAB-Fähigkeit von Photovoltaik-Direktinvestments mit Grünstromspeicher",
-      "teaser": "Photovoltaik-Direktinvestments werden zunehmend mit Batteriespeichern kombiniert. Doch genau diese Konstellation birgt steuerliche Risiken. Steuerberater Sören Steuber erläutert, wann für PV-Anlagen und Grünstromspeicher ein…",
-      "link": "https://www.pv-magazine.de/2026/08/17/iab-faehigkeit-von-photovoltaik-direktinvestments-mit-gruenstromspeicher/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-17T07:40:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "pv",
-        "speicher"
       ]
     },
     {
@@ -1019,16 +1025,6 @@
       "published": "2026-08-14T11:00:11+00:00",
       "matched_keywords": [
         "wind power"
-      ]
-    },
-    {
-      "title": "Underground LDES: turning mines and caverns into energy storage",
-      "teaser": "This episode of Energy Technology considers how repurposed mines and salt caverns can provide long duration energy storage.",
-      "link": "https://www.power-technology.com/analysis/underground-ldes-turning-mines-and-caverns-into-energy-storage/",
-      "source": "power-technology",
-      "published": "2026-08-14T10:04:22+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1727,17 +1723,6 @@
       ]
     },
     {
-      "title": "Serentica Renewables commissions first phase of 1GWh BESS for round-the-clock renewable energy delivery in Rajasthan, India",
-      "teaser": "Serentica Renewables has commissioned the first phase of a battery storage project that will help deliver round-the-clock (RTC) renewable energy in Rajasthan, India.",
-      "link": "https://www.energy-storage.news/serentica-renewables-commissions-first-phase-of-1gwh-bess-for-round-the-clock-renewable-energy-delivery-in-rajasthan-india/",
-      "source": "energy-storage-news",
-      "published": "2026-08-10T08:08:47+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "In North Carolina, rooftop solar is alive and well despite headwinds",
       "teaser": "Stew Miller, who launched his North Carolina rooftop solar company in the 2000s, says there’s “a lot of negativity” in his industry right now — and it’s easy to see why. A year ago, Republicans passed the One Big Beautiful Bill Act…",
       "link": "https://www.canarymedia.com/articles/solar/north-carolina-rooftop-solar",
@@ -1819,50 +1804,6 @@
       "published": "2026-08-07T22:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "US DOE closes US$489 million loan with Pattern Energy to support BESS, natural gas in Puerto Rico",
-      "teaser": "The US Department of Energy (DOE) has closed a US$489.4 million loan to Amanecer Puerto Rico, a subsidiary of developer Pattern Energy to support Puerto Rico’s electric grid.",
-      "link": "https://www.energy-storage.news/us-doe-closes-us489-million-loan-with-pattern-energy-to-support-bess-natural-gas-in-puerto-rico/",
-      "source": "energy-storage-news",
-      "published": "2026-08-07T14:20:01+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
-      "title": "Germany: BNetzA’s post-2029 dynamic grid fees to reward grid-friendly behaviour, but more clarity needed",
-      "teaser": "The German regulator BNetzA's latest draft decision on grid fees from 4 August 2029 onwards still leaves uncertainty for energy storage project business cases.",
-      "link": "https://www.energy-storage.news/germany-bnetzas-post-2029-dynamic-grid-fees-to-reward-grid-friendly-behaviour-but-more-clarity-needed/",
-      "source": "energy-storage-news",
-      "published": "2026-08-07T10:27:14+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "grid fee"
-      ]
-    },
-    {
-      "title": "Spanish government awards €360 million for co-located battery storage projects",
-      "teaser": "The Spanish Ministry of Ecological Transition (MITECO) has awarded €360 million (US$415 million) to 1.14GW of solar PV co-located with battery energy storage system (BESS) projects.",
-      "link": "https://www.energy-storage.news/spanish-government-awards-e360-million-for-co-located-battery-storage-projects/",
-      "source": "energy-storage-news",
-      "published": "2026-08-07T07:28:37+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "EV manufacturer Ola Electric brings cell-to-pack vertical integration into India’s utility-scale BESS market with 20GWh MoU",
-      "teaser": "EV manufacturer Ola Electric has entered India’s utility-scale battery storage market with a vertically integrated business model.",
-      "link": "https://www.energy-storage.news/ev-manufacturer-ola-electric-brings-cell-to-pack-vertical-integration-into-indias-utility-scale-bess-market-with-20gwh-mou/",
-      "source": "energy-storage-news",
-      "published": "2026-08-07T07:11:35+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -3268,16 +3209,6 @@
       ]
     },
     {
-      "title": "Hungary PM warns of more potential nuclear cuts but rain on way",
-      "teaser": "Vincent Thevenin",
-      "link": "https://www.montelnews.com/news/3cd7ceca-5335-4954-89b0-79aa004bf355/hungary-pm-warns-of-more-potential-nuclear-cuts-but-rain-on-way",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Kpler: European LNG imports in Aug to recover from 2-yr low",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/779a844b-80b3-4205-9f4f-df29d151cfa5/european-lng-imports-in-aug-to-recover-from-2-yr-low-kpler",
@@ -3298,9 +3229,22 @@
       ]
     },
     {
-      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
+      "title": "Offshore wind farms could 'significantly alter' regional climate patterns, finds study",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
+      "link": "https://www.rechargenews.com/offshore-wind/offshore-wind-farms-could-significantly-alter-regional-climate-patterns-finds-study/2-1-2030634",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "climate",
+        "renewable",
+        "solar",
+        "wind farm"
+      ]
+    },
+    {
+      "title": "RWE hires new top exec to help handle Trump chaos in the US",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/rwe-hires-new-top-exec-to-help-handle-trump-chaos-in-the-us/2-1-2030476",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3309,9 +3253,9 @@
       ]
     },
     {
-      "title": "RWE hires new top exec to help handle Trump chaos in the US",
+      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/rwe-hires-new-top-exec-to-help-handle-trump-chaos-in-the-us/2-1-2030476",
+      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3377,17 +3321,6 @@
       ]
     },
     {
-      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Orsted and RWE: why banking giant sees plenty to like",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/orsted-and-rwe-why-banking-giant-sees-plenty-to-like/2-1-2029431",
@@ -3444,9 +3377,9 @@
       ]
     },
     {
-      "title": "What Germany must learn from Denmark's offshore wind masterclass",
+      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/what-germany-must-learn-from-denmarks-offshore-wind-masterclass/2-1-2028183",
+      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3455,9 +3388,9 @@
       ]
     },
     {
-      "title": "Iberdrola’s £1.5bn overhaul signals new era for UK onshore wind",
+      "title": "What Germany must learn from Denmark's offshore wind masterclass",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/onshore-wind/iberdrolas-huge-repowering-project-taste-of-things-to-come-for-uk-onshore-wind/2-1-2028193",
+      "link": "https://www.rechargenews.com/opinion/what-germany-must-learn-from-denmarks-offshore-wind-masterclass/2-1-2028183",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
