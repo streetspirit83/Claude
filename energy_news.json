@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T19:21:04+00:00",
+  "generated_at": "2026-08-18T04:26:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 38
+      "items_matched": 40
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,58 @@
       "items_matched": 0
     }
   ],
-  "count": 296,
+  "count": 298,
   "articles": [
+    {
+      "title": "New South Wales cuts battery storage costs by up to 40% for businesses and apartment buildings in the Australian state",
+      "teaser": "NSW has introduced a new upfront discount scheme for battery storage systems installed by businesses and apartment buildings.",
+      "link": "https://www.energy-storage.news/new-south-wales-cuts-battery-storage-costs-by-up-to-40-for-businesses-and-apartment-buildings-in-the-australian-state/",
+      "source": "energy-storage-news",
+      "published": "2026-08-18T02:05:42+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Ausgrid’s PLUS Grid Storage breaks ground on 400MWh Steel River East BESS in Australia",
+      "teaser": "Construction has officially started on the 200MW/400MWh Steel River East battery energy storage system (BESS) in Newcastle, New South Wales, marking the first project delivery for developer PLUS Grid Storage.",
+      "link": "https://www.energy-storage.news/ausgrids-plus-grid-storage-breaks-ground-on-400mwh-steel-river-east-bess-in-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-18T02:03:59+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Deployable Energy and Hornbeck Offshore Partner on Maritime Nuclear Power",
+      "teaser": null,
+      "link": "https://energynews.pro/en/deployable-energy-and-hornbeck-offshore-partner-on-maritime-nuclear-power",
+      "source": "energynews-pro",
+      "published": "2026-08-18T01:31:43+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "India's CERC Allows Delayed Solar and Wind Developers to Pay for Access",
+      "teaser": null,
+      "link": "https://energynews.pro/en/indias-cerc-allows-delayed-solar-and-wind-developers-to-pay-for-access",
+      "source": "energynews-pro",
+      "published": "2026-08-17T23:02:26+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "ABB Integrates Gamesa Electric, Adding 40 GW to Its Solar Fleet",
+      "teaser": null,
+      "link": "https://energynews.pro/en/abb-integrates-gamesa-electric-adding-40-gw-to-its-solar-fleet",
+      "source": "energynews-pro",
+      "published": "2026-08-17T21:02:05+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "The United Kingdom Approves CO2 Capture at the Deeside Digestion Plant",
       "teaser": null,
@@ -608,16 +658,6 @@
       ]
     },
     {
-      "title": "Sungrow to Deliver 606 MWh Battery Storage System in Chile for Verano Energy",
-      "teaser": null,
-      "link": "https://energynews.pro/en/sungrow-to-deliver-606-mwh-battery-storage-system-in-chile-for-verano-energy",
-      "source": "energynews-pro",
-      "published": "2026-08-17T09:01:44+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Are CO2 levels affecting our health?",
       "teaser": "A study shows that a change in body chemicals coincided with rising emissions The post Are CO2 levels affecting our health? appeared first on Energy Live News .",
       "link": "https://www.energylivenews.com/2026/08/17/are-co2-levels-affecting-our-health/",
@@ -668,16 +708,6 @@
         "förderung",
         "photovoltaik",
         "pv"
-      ]
-    },
-    {
-      "title": "Nuclea Energy to Acquire Moltex Energy's Nuclear Technology Portfolio",
-      "teaser": null,
-      "link": "https://energynews.pro/en/nuclea-energy-to-acquire-moltex-energys-nuclear-technology-portfolio",
-      "source": "energynews-pro",
-      "published": "2026-08-17T08:02:35+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1402,16 +1432,6 @@
       "matched_keywords": [
         "decarbon",
         "emission"
-      ]
-    },
-    {
-      "title": "Households near UK grid upgrade projects in line for lower electricity bills",
-      "teaser": "Government aims to boost support for pylons and power lines needed to meet net zero targets",
-      "link": "https://www.ft.com/content/bae1147c-afcb-468f-821f-a5a49a17f928?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-11T23:01:02+00:00",
-      "matched_keywords": [
-        "net zero"
       ]
     },
     {
