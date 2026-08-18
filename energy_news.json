@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:35:49+00:00",
+  "generated_at": "2026-08-18T16:20:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "cleanenergywire",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 11
+      "items_matched": 12
     },
     {
       "name": "energymonitor",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -371,6 +371,70 @@
   "count": 292,
   "articles": [
     {
+      "title": "New Zealand Cuts Solar Installation Approval Times From 3 Months to 6 Days",
+      "teaser": null,
+      "link": "https://energynews.pro/en/new-zealand-cuts-solar-installation-approval-times-from-3-months-to-6-days",
+      "source": "energynews-pro",
+      "published": "2026-08-18T16:02:58+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Risen Energy and Ascania Energy Partner on 100 MW of Solar in Ukraine",
+      "teaser": null,
+      "link": "https://energynews.pro/en/risen-energy-and-ascania-energy-partner-on-100-mw-of-solar-in-ukraine",
+      "source": "energynews-pro",
+      "published": "2026-08-18T15:05:51+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Ecopetrol takes Brava Energia under its wing in $1.2 billion Brazil expansion move",
+      "teaser": "Ecopetrol Investimentos do Brasil, a wholly owned subsidiary of Colombia’s state-owned oil and gas company Ecopetrol, has broadened its presence in Brazil’s energy sector by acquiring a controlling stake in local oil and gas producer Brava…",
+      "link": "https://www.offshore-energy.biz/ecopetrol-takes-brava-energia-under-its-wing-in-1-2-billion-brazil-expansion-move/",
+      "source": "offshore-energy",
+      "published": "2026-08-18T15:05:04+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "Marktübersicht: 31 Energiemanagement-Systeme für Gewerbe und Industrie",
+      "teaser": "pv+: Wegen der zunehmenden Relevanz des Marktes für Photovoltaik-Anlagen und Batterie­speicher in Gewerbe und Industrie und weil die Integration in den Strommarkt absehbar attraktiv wird, stellen wir in einer Übersicht erstmals…",
+      "link": "https://www.pv-magazine.de/2026/08/18/marktuebersicht-31-energiemanagement-systeme-fuer-gewerbe-und-industrie/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-18T14:15:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "pv",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Record-breaking investment in renewables could cement Canada as new clean energy superpower",
+      "teaser": "The slated green energy plans could light, heat and cool all the homes in Toronto, Montreal and Vancouver combined.",
+      "link": "http://www.euronews.com/2026/08/18/what-could-north-americas-largest-clean-energy-investment-in-history-mean-for-renewables",
+      "source": "euronews-green",
+      "published": "2026-08-18T14:02:51+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Risen, Ascania sign MoUs for solar and battery storage in Ukraine",
+      "teaser": "Risen Energy and Ascania Energy have signed two memoranda of understanding (MoUs) to pursue up to 100MW of solar power and 200MWh of battery energy storage projects in Ukraine.",
+      "link": "https://www.power-technology.com/news/risen-ascania-mous-solar-battery-storage-ukraine/",
+      "source": "power-technology",
+      "published": "2026-08-18T13:34:04+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage",
+        "solar"
+      ]
+    },
+    {
       "title": "WestWind Energy Secures Approval for 122 MW Normanville Wind Farm in Australia",
       "teaser": null,
       "link": "https://energynews.pro/en/westwind-energy-secures-approval-for-122-mw-normanville-wind-farm-in-australia",
@@ -389,6 +453,16 @@
       "published": "2026-08-18T12:26:56+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "German offshore wind body warns of ‘substantial risk’ in CfD reform",
+      "teaser": "The German offshore wind energy association, the BWO, has proposed several fixes for the country’s planned move to contracts for difference (CfDs) as it warned of “substantial risk” in the transition.",
+      "link": "https://www.windpowermonthly.com/article/1967678/german-offshore-wind-body-warns-substantial-risk-cfd-reform",
+      "source": "windpowermonthly",
+      "published": "2026-08-18T11:08:32+00:00",
+      "matched_keywords": [
+        "wind energy"
       ]
     },
     {
@@ -462,6 +536,17 @@
       ]
     },
     {
+      "title": "Wind sector threatens legal action over 'disastrous' plans in Germany",
+      "teaser": "German wind energy association the BWE has warned its members will sue the federal government over its plans to reform grids and renewable power regulations in the country.",
+      "link": "https://www.windpowermonthly.com/article/1967661/wind-sector-threatens-legal-action-disastrous-plans-germany",
+      "source": "windpowermonthly",
+      "published": "2026-08-18T09:47:19+00:00",
+      "matched_keywords": [
+        "renewable",
+        "wind energy"
+      ]
+    },
+    {
       "title": "ARENA Grants UNSW $6.52 Million to Secure Renewable Power Grids",
       "teaser": null,
       "link": "https://energynews.pro/en/arena-grants-unsw-652-million-to-secure-renewable-power-grids",
@@ -505,7 +590,7 @@
     },
     {
       "title": "Durchschnittlicher Zuschlagswert für Photovoltaik-Freiflächenanlagen sinkt auf 4,79 Cent pro Kilowattstunde",
-      "teaser": "Um das ausgeschriebene Volumen von 2135 Megawatt bewarben sich 401 Gebote mit insgesamt 3170 Megawatt Leistung. Die ermittelten Zuschlagswerte reichen von 4,38 bis 4,97 Cent pro Kilowattstunde.",
+      "teaser": "Für das ausgeschriebene Volumen von 2135 Megawatt gingen 401 Gebote mit insgesamt 3170 Megawatt Leistung ein. Die ermittelten Zuschlagswerte reichen von 4,38 bis 4,97 Cent pro Kilowattstunde.",
       "link": "https://www.pv-magazine.de/2026/08/18/durchschnittlicher-zuschlagswert-fuer-photovoltaik-freiflaechenanlagen-sinkt-auf-479-cent-pro-kilowattstunde/",
       "source": "pv-magazine-de",
       "published": "2026-08-18T08:53:55+00:00",
@@ -623,16 +708,6 @@
       "published": "2026-08-18T01:31:43+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "India's CERC Allows Delayed Solar and Wind Developers to Pay for Access",
-      "teaser": null,
-      "link": "https://energynews.pro/en/indias-cerc-allows-delayed-solar-and-wind-developers-to-pay-for-access",
-      "source": "energynews-pro",
-      "published": "2026-08-17T23:02:26+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -779,16 +854,6 @@
       "published": "2026-08-17T09:38:44+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Bundesnetzagentur rechnet mit fast 1830 Megawatt Photovoltaik-Zubau im Juli",
-      "teaser": "Während alle auf den Aufschwung bei den Dachanlagen warten, dominierten die Photovoltaik-Freiflächenanlagen weiterhin das Geschehen. Allerdings ist der Juli der bisher stärkste Zubaumonat in diesem Jahr. In den ersten sieben Monaten sind…",
-      "link": "https://www.pv-magazine.de/2026/08/17/bundesnetzagentur-rechnet-mit-fast-1830-megawatt-photovoltaik-zubau-im-juli/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-17T09:07:34+00:00",
-      "matched_keywords": [
-        "photovoltaik"
       ]
     },
     {
@@ -1004,17 +1069,6 @@
       "published": "2026-08-14T14:51:02+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "BW ESS buys 250MW/1GWh Yanco BESS in Australia from ACEnergy",
-      "teaser": "BW ESS has completed the acquisition of the Yanco battery energy storage system (Yanco BESS), a 250MW/1GWh project in Riverina, New South Wales, from ACEnergy, an Australia-based renewable energy developer.",
-      "link": "https://www.power-technology.com/news/bw-ess-buys-yanco-bess-australia/",
-      "source": "power-technology",
-      "published": "2026-08-14T11:30:21+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
       ]
     },
     {
@@ -1670,16 +1724,6 @@
       ]
     },
     {
-      "title": "So überwachen die finnischen Landwirte die Grenze zu Russland",
-      "teaser": "Die zentrale Herausforderung besteht darin, sicherzustellen, dass Menschen an der Grenze präsent bleiben – und dass die notwendigen Dienstleistungen vorhanden sind, um sie dort zu halten.",
-      "link": "https://euractiv.com/de/news/so-ueberwachen-die-finnischen-landwirte-die-grenze-zu-russland/",
-      "source": "euractiv-energie",
-      "published": "2026-08-10T13:30:19+00:00",
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "US IPP Avantus closes billion-dollar financing for solar PV and battery storage projects",
       "teaser": "Avantus has closed a US$1.05 billion corporate credit facility to support the company’s IPP strategy and accelerate development of its solar and energy storage portfolio.",
       "link": "https://www.energy-storage.news/us-ipp-avantus-closes-billion-dollar-financing-for-solar-pv-and-battery-storage-projects/",
@@ -1858,16 +1902,6 @@
       ]
     },
     {
-      "title": "RWE accepts $1.2bn Trump deal to return offshore wind leases",
-      "teaser": "RWE has reached a deal with the US Department of the Interior to return its offshore wind leases off the coasts of New York, California and Louisiana. It also announced $1.2 billion worth of new investments in liquefied natural gas (LNG)…",
-      "link": "https://www.windpowermonthly.com/article/1966756/rwe-accepts-12bn-trump-deal-return-offshore-wind-leases",
-      "source": "windpowermonthly",
-      "published": "2026-08-06T14:38:48+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Nuclear startup Oklo splits its first atoms in test reactor",
       "teaser": "Oklo , a publicly traded small-modular-reactor firm backed by OpenAI chief Sam Altman, has become one of the highest-profile companies working on next-generation nuclear energy technologies. Two years ago, it debuted on the stock market…",
       "link": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor",
@@ -2041,16 +2075,6 @@
       "published": "2026-08-04T01:08:36+00:00",
       "matched_keywords": [
         "gas price"
-      ]
-    },
-    {
-      "title": "Where and when to watch August's total solar eclipse — safely",
-      "teaser": "A total solar eclipse will cross Greenland, Iceland and Spain on 12 August. Here's how and where to watch it safely.",
-      "link": "http://www.euronews.com/2026/08/03/when-and-where-to-see-the-total-solar-eclipse-and-how-to-view-it-safely",
-      "source": "euronews-green",
-      "published": "2026-08-03T19:00:29+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -2938,16 +2962,6 @@
       ]
     },
     {
-      "title": "Meteorologe Jörg Kachelmann : „Grüner Rasen im Hochsommer ist Zeichen grotesker Wohlstandsverwahrlosung“",
-      "teaser": "Schon im Juni sei klar gewesen, dass es ein „Scheißsommer“ wird, sagt der Wetterexperte. Im Interview räumt er mit Klimamythen auf und liest der Republik als „Schwurbelland“ die Leviten.",
-      "link": "https://www.tagesspiegel.de/gesellschaft/panorama/meteorologe-jorg-kachelmann-im-gesprach-gruner-rasen-im-hochsommer-ist-zeichen-grotesker-wohlstandsverwahrlosung-15934233.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3219,13 +3233,15 @@
       ]
     },
     {
-      "title": "Spain nuclear plant extension set to curb gas use",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/e2371454-c9da-4af3-b7fd-365d8b0c0fd4/spain-nuclear-plant-extension-to-curb-gas-use-analysts",
-      "source": "montelnews",
+      "title": "Foreign inverter crackdown threatens to slow US battery storage boom",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/foreign-inverter-crackdown-threatens-to-slow-us-battery-storage-boom/2-1-2030279",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "battery storage",
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3242,9 +3258,9 @@
       ]
     },
     {
-      "title": "RWE hires new top exec to help handle Trump chaos in the US",
+      "title": "RWE hires senior exec for new role to help manage Trump chaos in the US",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/rwe-hires-new-top-exec-to-help-handle-trump-chaos-in-the-us/2-1-2030476",
+      "link": "https://www.rechargenews.com/people/rwe-hires-senior-exec-for-new-role-to-help-manage-trump-chaos-in-the-us/2-1-2030476",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3310,17 +3326,6 @@
       ]
     },
     {
-      "title": "Norway fast-tracks review of floating wind billions EDF or Equinor could win",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/norway-fast-tracks-review-of-floating-wind-billions-edf-or-equinor-could-win/2-1-2029793",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Orsted and RWE: why banking giant sees plenty to like",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/orsted-and-rwe-why-banking-giant-sees-plenty-to-like/2-1-2029431",
@@ -3332,9 +3337,9 @@
       ]
     },
     {
-      "title": "Why Vestas just had its best day in 14 years",
+      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/vestas-has-best-day-in-14-years-thanks-to-rare-combination-of-factors/2-1-2028584",
+      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3343,9 +3348,9 @@
       ]
     },
     {
-      "title": "Influencers take to the front line in Trump’s war against solar",
+      "title": "Why Vestas just had its best day in 14 years",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/trump-turns-fire-on-solar-as-farmers-warn-crackdown-could-cost-them-a-lifeline/2-1-2024338",
+      "link": "https://www.rechargenews.com/analysis/vestas-has-best-day-in-14-years-thanks-to-rare-combination-of-factors/2-1-2028584",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3377,9 +3382,9 @@
       ]
     },
     {
-      "title": "How Spain's rampant curtailment is pushing renewables projects to the brink",
+      "title": "Norway fast-tracks review of floating wind billions EDF or Equinor could win",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/power-markets/how-spains-rampant-curtailment-is-pushing-renewables-projects-to-the-brink/2-1-2026887",
+      "link": "https://www.rechargenews.com/policy/norway-fast-tracks-review-of-floating-wind-billions-edf-or-equinor-could-win/2-1-2029793",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
