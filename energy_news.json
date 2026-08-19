@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:21:25+00:00",
+  "generated_at": "2026-08-19T04:28:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 10
+      "items_matched": 14
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 15
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 37
+      "items_matched": 36
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,120 @@
       "items_matched": 0
     }
   ],
-  "count": 292,
+  "count": 295,
   "articles": [
+    {
+      "title": "Clean energy booms under Trump despite effort to undercut renewables",
+      "teaser": "Capacity will rise by a record 45GW this year, according to S&P Global Energy",
+      "link": "https://www.ft.com/content/72bd7b70-1dcb-4b29-8c16-fe0a820c1379?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-19T04:00:13+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Egypt Launches $50 Million Battery Storage Plant With China's Sungrow",
+      "teaser": null,
+      "link": "https://energynews.pro/en/egypt-launches-50-million-battery-storage-plant-with-chinas-sungrow",
+      "source": "energynews-pro",
+      "published": "2026-08-19T03:01:49+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "EtaPRO deploys digital twin and predictive analytics at MGA Thermal’s 5MWh Tomago plant in Australia",
+      "teaser": "Etapro has deployed digital twin and predictive analytics at MGA Thermal's 5MWh thermal energy storage demonstration plant in Australia.",
+      "link": "https://www.energy-storage.news/etapro-deploys-digital-twin-and-predictive-analytics-at-mga-thermals-5mwh-tomago-plant-in-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-19T02:47:13+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "PowerBank Acquires 13.9 MW of Community Solar in New York State",
+      "teaser": null,
+      "link": "https://energynews.pro/en/powerbank-acquires-139-mw-of-community-solar-in-new-york-state",
+      "source": "energynews-pro",
+      "published": "2026-08-19T02:33:32+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "PX Group and SoHHytec Launch a Solar Hydrogen Pilot Project",
+      "teaser": null,
+      "link": "https://energynews.pro/en/px-group-and-sohhytec-launch-a-solar-hydrogen-pilot-project",
+      "source": "energynews-pro",
+      "published": "2026-08-19T01:31:47+00:00",
+      "matched_keywords": [
+        "hydrogen",
+        "solar"
+      ]
+    },
+    {
+      "title": "Next Hydrogen Designs 10 MW Hydrogen Fueling Station in British Columbia",
+      "teaser": null,
+      "link": "https://energynews.pro/en/next-hydrogen-designs-10-mw-hydrogen-fueling-station-in-british-columbia",
+      "source": "energynews-pro",
+      "published": "2026-08-19T00:02:02+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Canadian Solar Wins Patent Litigation Dispute Against Maxeon Solar",
+      "teaser": null,
+      "link": "https://energynews.pro/en/canadian-solar-wins-patent-litigation-dispute-against-maxeon-solar",
+      "source": "energynews-pro",
+      "published": "2026-08-18T23:02:11+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Melton Renewable Energy Threatens to Close Its Scottish Westfield Biomass Site",
+      "teaser": null,
+      "link": "https://energynews.pro/en/melton-renewable-energy-threatens-to-close-its-scottish-westfield-biomass-site",
+      "source": "energynews-pro",
+      "published": "2026-08-18T22:32:25+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "ENGIE and QTS Sign 48 MWac Solar PPA in Texas",
+      "teaser": null,
+      "link": "https://energynews.pro/en/engie-and-qts-sign-48-mwac-solar-ppa-in-texas",
+      "source": "energynews-pro",
+      "published": "2026-08-18T22:07:08+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Climate change is cooking Europe’s oceans, scientists find",
+      "teaser": "Global warming is the main driver of this year's marine heat waves, with knock-on effects for ecosystems and extreme weather.",
+      "link": "https://www.politico.eu/article/climate-change-is-cooking-europes-oceans-world-weather-attribution-mediterranean-sea/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-18T22:01:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "EDP Renewables and RCEA Complete 92 MW Battery Storage in California",
+      "teaser": null,
+      "link": "https://energynews.pro/en/edp-renewables-and-rcea-complete-92-mw-battery-storage-in-california",
+      "source": "energynews-pro",
+      "published": "2026-08-18T21:02:39+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "renewable"
+      ]
+    },
     {
       "title": "Kearsarge Energy Grows Battery Storage Portfolio to 104 MWh Since 2019",
       "teaser": null,
@@ -536,16 +648,6 @@
       ]
     },
     {
-      "title": "ExxonMobil Awards Pre-Investment Contracts for Rovuma LNG in Mozambique",
-      "teaser": null,
-      "link": "https://energynews.pro/en/exxonmobil-awards-pre-investment-contracts-for-rovuma-lng-in-mozambique",
-      "source": "energynews-pro",
-      "published": "2026-08-18T10:17:32+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Aurinkokarhu, FEP JV aim to deliver 3GW of energy projects in Finland",
       "teaser": "Aurinkokarhu and FEP have entered into a JV to develop and finance approximately 3GW of solar, BESS, and hybrid energy projects in Finland.",
       "link": "https://www.power-technology.com/news/aurinkokarhu-fep-3gw-energy-projects/",
@@ -553,16 +655,6 @@
       "published": "2026-08-18T10:07:12+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Primary Hydrogen Stakes Northumberland Project in Canada's Cumberland Basin",
-      "teaser": null,
-      "link": "https://energynews.pro/en/primary-hydrogen-stakes-northumberland-project-in-canadas-cumberland-basin",
-      "source": "energynews-pro",
-      "published": "2026-08-18T10:02:42+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -574,28 +666,6 @@
       "matched_keywords": [
         "renewable",
         "wind energy"
-      ]
-    },
-    {
-      "title": "ARENA Grants UNSW $6.52 Million to Secure Renewable Power Grids",
-      "teaser": null,
-      "link": "https://energynews.pro/en/arena-grants-unsw-652-million-to-secure-renewable-power-grids",
-      "source": "energynews-pro",
-      "published": "2026-08-18T09:32:38+00:00",
-      "matched_keywords": [
-        "power grid",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Equinix Signs Fourth Renewable Solar Power Contract in Singapore With Flo Energy",
-      "teaser": null,
-      "link": "https://energynews.pro/en/equinix-signs-fourth-renewable-solar-power-contract-in-singapore-with-flo-energy",
-      "source": "energynews-pro",
-      "published": "2026-08-18T09:17:51+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -1734,29 +1804,6 @@
       ]
     },
     {
-      "title": "US IPP Avantus closes billion-dollar financing for solar PV and battery storage projects",
-      "teaser": "Avantus has closed a US$1.05 billion corporate credit facility to support the company’s IPP strategy and accelerate development of its solar and energy storage portfolio.",
-      "link": "https://www.energy-storage.news/us-ipp-avantus-closes-billion-dollar-financing-for-solar-pv-and-battery-storage-projects/",
-      "source": "energy-storage-news",
-      "published": "2026-08-10T13:18:30+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "Tech ROUNDUP: Accure, Hydrostor, Shoals and TerraFlow, and Qnetic advance energy storage tech",
-      "teaser": "In this news roundup, ACCURE, Hydrostor, Shoals and TerraFlow, and Qnetic claim significant advances in and for energy storage technology.",
-      "link": "https://www.energy-storage.news/tech-roundup-accure-hydrostor-shoals-and-terraflow-and-qnetic-advance-energy-storage-tech/",
-      "source": "energy-storage-news",
-      "published": "2026-08-10T12:29:32+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "EnBW reveals blade break impact on He Dreiht offshore wind farm construction",
       "teaser": "Certain construction activities have been halted at EnBW’s He Dreiht offshore wind farm following a Vestas blade break that occurred in July.",
       "link": "https://www.windpowermonthly.com/article/1966933/enbw-reveals-blade-break-impact-dreiht-offshore-wind-farm-construction",
@@ -2148,16 +2195,6 @@
       ]
     },
     {
-      "title": "Spain, France, UK warn megafires show climate change is ‘threatening our way of life’",
-      "teaser": "In joint statements, the three countries reaffirmed their commitment to fighting global warming.",
-      "link": "https://www.politico.eu/article/spain-france-uk-warn-megafires-show-climate-change-is-threatening-our-way-of-life/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-30T10:57:34+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "This Texas coal mine will soon be home to a 1.2GW solar farm",
       "teaser": "Construction is underway on a $1.7 billion solar and battery storage project in Texas that will turn existing coal mining land into a hub of clean energy generation. Panamint Capital announced last week that it broke ground on the…",
       "link": "https://www.canarymedia.com/articles/solar/texas-coal-mine-solar-farm",
@@ -2199,16 +2236,6 @@
       ]
     },
     {
-      "title": "The EU’s foreign subsidy rules are deterring Chinese firms. At what cost?",
-      "teaser": "As it turns three, the Foreign Subsidies Regulation has changed corporate behavior. Whether Europe benefits is another question.",
-      "link": "https://www.politico.eu/article/eu-foreign-subsidy-rules-deterring-chinese-firms-cost/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-30T04:00:00+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Trump admin bans ‘new’ foreign-made inverters. What does that mean?",
       "teaser": "Citing national security concerns, the Trump administration has banned the import and domestic use of new power inverters made outside the United States. The move could throw sand in the gears of gigawatts’ worth of planned solar, wind,…",
       "link": "https://www.canarymedia.com/articles/corporate-procurement/trump-admin-bans-new-foreign-inverters",
@@ -2216,16 +2243,6 @@
       "published": "2026-07-29T21:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Climate change is turning parts of Europe into an insurance nightmare",
-      "teaser": "Frequent, expensive natural disasters are testing Europe's ability to protect itself against the cost of global warming.",
-      "link": "https://www.politico.eu/article/climate-change-europe-insurance/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-07-29T18:26:55+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -2959,6 +2976,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Kritik an zu vielen Ausnahmen : EU droht Russland mit „weitreichendsten“ Sanktionen seit Kriegsbeginn – doch reicht das?",
+      "teaser": "Die Russland-Sanktionen der EU sind geprägt von Einzelinteressen, Schlupflöchern und Ausnahmen. Griechenland etwa, so die Kritik, erpresse die Gemeinschaft, um weiter Flüssiggas zu bekommen.",
+      "link": "https://www.tagesspiegel.de/internationales/immer-neue-eu-sanktionen-gegen-russland-wie-auf-einem-basar-der-ausnahmen-15954309.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
       ]
     },
     {
