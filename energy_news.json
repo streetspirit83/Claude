@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:18:44+00:00",
+  "generated_at": "2026-08-20T04:28:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euronews-green",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 13
     },
     {
       "name": "ft-energy",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 49
+      "items_matched": 48
     },
     {
       "name": "power-technology",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 36
+      "items_matched": 38
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,51 @@
       "items_matched": 0
     }
   ],
-  "count": 294,
+  "count": 295,
   "articles": [
+    {
+      "title": "Windlab, Squadron Energy submit 500MW battery storage system for federal assessment in Queensland, Australia",
+      "teaser": "Windlab and Squadron Energy have referred a 500MW BESS at the Bungaban solar-plus-storage project in Queensland for approval.",
+      "link": "https://www.energy-storage.news/windlab-squadron-energy-submit-500mw-battery-storage-system-for-federal-assessment-in-queensland-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-20T03:52:43+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "‘One market into many’: AER says battery storage systems are reshaping Australia’s NEM",
+      "teaser": "The ARE has found that growth in renewable energy and battery storage eased pressure across Australia's wholesale electricity market in 2025.",
+      "link": "https://www.energy-storage.news/one-market-into-many-aer-says-battery-storage-systems-are-reshaping-australias-nem/",
+      "source": "energy-storage-news",
+      "published": "2026-08-20T03:50:45+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "renewable"
+      ]
+    },
+    {
+      "title": "APA to build 104MWh battery storage system for Evolution Mining’s Ernest Henry operations in Australia",
+      "teaser": "APA Group has taken a final investment decision to construct, own and operate the 104MWh Sybella Creek solar-plus-storage site in Australia.",
+      "link": "https://www.energy-storage.news/apa-to-build-104mwh-battery-storage-system-for-evolution-minings-ernest-henry-operations-in-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-20T03:45:53+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "solar"
+      ]
+    },
+    {
+      "title": "Greenlane Renewables Secures $2.5 Million Contract in the United States",
+      "teaser": null,
+      "link": "https://energynews.pro/en/greenlane-renewables-secures-25-million-contract-in-the-united-states",
+      "source": "energynews-pro",
+      "published": "2026-08-19T21:01:38+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Huasun Signs First 100 MW Solar Supply Deal With Air Solution in Pakistan",
       "teaser": null,
@@ -378,6 +421,16 @@
       "published": "2026-08-19T19:02:01+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "France’s big climate problem: The budget crunch",
+      "teaser": "Historic heat is forcing the French government to rethink its spending plans.",
+      "link": "https://www.politico.eu/article/france-climate-change-problem-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-19T18:17:34+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -473,8 +526,8 @@
     {
       "title": "Expert insights: Mining more with less",
       "teaser": "Discover practical mining decarbonisation strategies to cut Scope 1 and 2 emissions while maintaining productivity, reliability, and safety performance.",
-      "link": "https://www.power-technology.com/sponsored/expert-insights-mining-more-with-less/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/sponsored/expert-insights-mining-more-with-less/",
+      "source": "energymonitor",
       "published": "2026-08-19T12:42:06+00:00",
       "matched_keywords": [
         "decarbon",
@@ -678,16 +731,6 @@
       "published": "2026-08-19T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "NANO Nuclear and Quadrant Nuclear Partner to Secure Domestic HALEU Supply",
-      "teaser": null,
-      "link": "https://energynews.pro/en/nano-nuclear-and-quadrant-nuclear-partner-to-secure-domestic-haleu-supply",
-      "source": "energynews-pro",
-      "published": "2026-08-19T05:31:33+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1732,16 +1775,6 @@
       "published": "2026-08-11T14:01:05+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Energy Vault signs 1.25GW AI data centre power infrastructure agreement in Texas",
-      "teaser": "Energy storage developer and system integrator Energy Vault has entered into a strategic agreement supporting hyperscaler AI data centres for a customer in Texas, US.",
-      "link": "https://www.energy-storage.news/energy-vault-signs-1-25gw-ai-data-centre-power-infrastructure-agreement-in-texas/",
-      "source": "energy-storage-news",
-      "published": "2026-08-11T13:09:25+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2862,16 +2895,6 @@
       ]
     },
     {
-      "title": "Martha’s Vineyard solar array will cut bills for low-income islanders",
-      "teaser": "A new solar installation on Martha’s Vineyard is set to lower utility costs for hundreds of low-income, year-round residents on the island best known as an upscale vacation destination. The project is the first to come out of a new program…",
-      "link": "https://www.canarymedia.com/articles/solar/marthas-vineyard-rooftop-array-cut-bills",
-      "source": "canarymedia",
-      "published": "2026-07-01T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Mögliche Wege zu sozial-gerechtem Klimaschutz",
       "teaser": "Eine Studie beleuchtet erstmals global die CO₂-Intensität des Konsums privater Haushalte und die Verteilungswirkung von Klimapolitik. Die Ergebnisse sollen Orientierung geben, um den Kampf gegen die Erderhitzung sozial auszubalancieren.",
       "link": "https://www.energiezukunft.eu/klimakrise/moegliche-wege-zu-sozial-gerechtem-klimaschutz",
@@ -2960,16 +2983,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Hackerangriff auf Berliner Senatsverwaltungen : Betroffene Behörden bleiben wohl noch mehrere Tage offline",
-      "teaser": "Ein Hackerangriff auf Teile der Berliner Verwaltung stellt Behörden vor Herausforderungen. Das wird noch länger so bleiben. Einige Mitarbeiter werden wohl fürs Erste umziehen müssen.",
-      "link": "https://www.tagesspiegel.de/berlin/hackerangriff-auf-berliner-senatsverwaltungen-betroffene-behorden-bleiben-wohl-noch-mehrere-tage-offline-15962090.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
       ]
     },
     {
