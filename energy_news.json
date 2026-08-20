@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:38:50+00:00",
+  "generated_at": "2026-08-20T16:23:44+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 13
+      "items_matched": 11
     },
     {
       "name": "energymonitor",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 38
+      "items_matched": 39
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 288,
+  "count": 283,
   "articles": [
+    {
+      "title": "Key Capture Energy raises US$300 million from Standard Chartered, with NY-ISO and MISO deployments in mind",
+      "teaser": "US battery storage developer Key Capture Energy (KCE) has closed a US$300 million financing agreement with British multinational bank Standard Chartered.",
+      "link": "https://www.energy-storage.news/key-capture-energy-raises-us300-million-from-standard-chartered-with-ny-iso-and-miso-deployments-in-mind/",
+      "source": "energy-storage-news",
+      "published": "2026-08-20T16:08:32+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
     {
       "title": "JA Solar Equips Fisher & Paykel Healthcare With 5.3 MWp Solar System",
       "teaser": null,
@@ -610,16 +620,6 @@
       ]
     },
     {
-      "title": "Greenlane Renewables Secures $2.5 Million Contract in the United States",
-      "teaser": null,
-      "link": "https://energynews.pro/en/greenlane-renewables-secures-25-million-contract-in-the-united-states",
-      "source": "energynews-pro",
-      "published": "2026-08-19T21:01:38+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "France’s big climate problem: The budget crunch",
       "teaser": "Historic heat is forcing the French government to rethink its spending plans.",
       "link": "https://www.politico.eu/article/france-climate-change-problem-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -729,16 +729,6 @@
       "matched_keywords": [
         "pv",
         "solar"
-      ]
-    },
-    {
-      "title": "Lloyd’s Register assists with LNG carrier-to-FSU conversion for African gas project",
-      "teaser": "UK-based classification society Lloyd’s Register (LR) is supporting the life extension of a liquefied natural gas (LNG) carrier (LNGC) being repurposed into a floating storage unit (FSU), helping lay the groundwork for Gabon’s emerging…",
-      "link": "https://www.offshore-energy.biz/lloyds-register-assists-with-lng-carrier-to-fsu-conversion-for-african-gas-project/",
-      "source": "offshore-energy",
-      "published": "2026-08-19T11:21:08+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1744,16 +1734,6 @@
       ]
     },
     {
-      "title": "PNE up for sale – but buyers' valuations below market rate",
-      "teaser": "German renewables developer PNE is seeking an investor to buy up to 100% of its shares, the company confirmed.",
-      "link": "https://www.windpowermonthly.com/article/1967066/pne-sale-%E2%80%93-buyers-valuations-below-market-rate",
-      "source": "windpowermonthly",
-      "published": "2026-08-11T09:08:51+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Why Illinois has struggled to turn old coal sites into solar farms",
       "teaser": "Illinois had big plans to turn a bunch of old coal plant sites into solar and battery farms. But the program has turned out to be kind of a bust. The state created its Coal to Solar and Energy Storage Initiative five years ago, hoping it…",
       "link": "https://www.canarymedia.com/articles/solar/illinois-coal-sites-to-solar-farms",
@@ -1834,16 +1814,6 @@
       "published": "2026-08-10T14:38:51+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "EnBW reveals blade break impact on He Dreiht offshore wind farm construction",
-      "teaser": "Certain construction activities have been halted at EnBW’s He Dreiht offshore wind farm following a Vestas blade break that occurred in July.",
-      "link": "https://www.windpowermonthly.com/article/1966933/enbw-reveals-blade-break-impact-dreiht-offshore-wind-farm-construction",
-      "source": "windpowermonthly",
-      "published": "2026-08-10T09:54:18+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -2901,17 +2871,6 @@
       ]
     },
     {
-      "title": "Klimawandel schürt Waldbrände : Betroffene Fläche in Europa könnte sich fast verdreifachen",
-      "teaser": "Arbeitet die Welt beim Klimaschutz zusammen oder überwiegen Rivalitäten? Der Unterschied zwischen diesen Szenarien zeigt sich auch darin, wie stark Waldbrände in Europa um sich greifen.",
-      "link": "https://www.tagesspiegel.de/wissen/klimawandel-schurt-waldbrande-betroffene-flache-in-europa-konnte-sich-fast-verdreifachen-15953611.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima",
-        "klimaschutz"
-      ]
-    },
-    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3154,7 +3113,7 @@
     },
     {
       "title": "“Crux” of UK energy policy schism due to gas price disagreement",
-      "teaser": "Vincent Thevenin",
+      "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/fefd5d02-2c1a-41ab-b774-e59ff1b2792f/crux-of-uk-energy-policy-schism-due-to-gas-price-disagreement",
       "source": "montelnews",
       "published": null,
@@ -3180,17 +3139,6 @@
       "published": null,
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "UK opposition party urges tripling nuclear capacity, axing CO2 tax",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/7ba6d737-1917-4a39-8624-8b6fd7d3d998/uk-opposition-party-urges-tripling-nuclear-capacity-axing-co2-tax",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "co2",
-        "nuclear"
       ]
     },
     {
