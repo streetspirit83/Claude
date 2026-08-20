@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:28:21+00:00",
+  "generated_at": "2026-08-20T07:33:33+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 18
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 295,
+  "count": 297,
   "articles": [
+    {
+      "title": "$1.1 billion in pre-investment contracts awarded for Mozambique’s LNG project",
+      "teaser": "ExxonMobil has, on behalf of its partners, awarded $1.1 billion in pre-investment contracts for [&#8230;] The post $1.1 billion in pre-investment contracts awarded for Mozambique’s LNG project appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/1-1-billion-in-pre-investment-contracts-awarded-for-mozambiques-lng-project/",
+      "source": "offshore-energy",
+      "published": "2026-08-20T06:39:14+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "‘A formidable predator’: Italian scientists relying on octopuses to get blue crab populations in check",
+      "teaser": "The Italian government has previously been urged to declare a state of emergency over the blue crab explosion, fuelled by climate-warmed waters.",
+      "link": "http://www.euronews.com/2026/08/20/a-formidable-predator-italian-scientists-hoping-octopuses-can-get-blue-crab-populations-in",
+      "source": "euronews-green",
+      "published": "2026-08-20T05:12:21+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Windlab, Squadron Energy submit 500MW battery storage system for federal assessment in Queensland, Australia",
       "teaser": "Windlab and Squadron Energy have referred a 500MW BESS at the Bungaban solar-plus-storage project in Queensland for approval.",
@@ -3268,6 +3288,28 @@
       ]
     },
     {
+      "title": "Why Vattenfall joined the great offshore data centre dash",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Tesla veteran plans 40GW US inverter factory amid import crackdown",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/tesla-veteran-plans-40gw-us-inverter-factory-amid-import-crackdown/2-1-2031499",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "How CIP makes and spends money – and the way this is changing",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
@@ -3313,6 +3355,17 @@
       ]
     },
     {
+      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Foreign inverter crackdown threatens to slow US battery storage boom",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/foreign-inverter-crackdown-threatens-to-slow-us-battery-storage-boom/2-1-2030279",
@@ -3320,41 +3373,6 @@
       "published": null,
       "matched_keywords": [
         "battery storage",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Offshore wind farms could 'significantly alter' regional climate patterns, finds study",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/offshore-wind-farms-could-significantly-alter-regional-climate-patterns-finds-study/2-1-2030634",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "climate",
-        "renewable",
-        "solar",
-        "wind farm"
-      ]
-    },
-    {
-      "title": "RWE hires senior exec for new role to help manage Trump chaos in the US",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/rwe-hires-senior-exec-for-new-role-to-help-manage-trump-chaos-in-the-us/2-1-2030476",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
         "renewable",
         "solar"
       ]
@@ -3416,24 +3434,25 @@
       ]
     },
     {
-      "title": "German wind industry threatens legal action as grid reform puts projects at risk",
+      "title": "Offshore wind farms could 'significantly alter' regional climate patterns, finds study",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/german-wind-industry-threatens-legal-action-as-grid-reform-puts-projects-at-risk/2-1-2030153",
+      "link": "https://www.rechargenews.com/offshore-wind/offshore-wind-farms-could-significantly-alter-regional-climate-patterns-finds-study/2-1-2030634",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
+        "climate",
         "renewable",
-        "solar"
+        "solar",
+        "wind farm"
       ]
     },
     {
-      "title": "Investors are flocking to power grids: 'The price just keeps going up and up and up'",
+      "title": "RWE hires senior exec for new role to help manage Trump chaos in the US",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/grid/investors-are-flocking-to-power-grids-the-price-just-keeps-going-up-and-up-and-up/2-1-2029343",
+      "link": "https://www.rechargenews.com/people/rwe-hires-senior-exec-for-new-role-to-help-manage-trump-chaos-in-the-us/2-1-2030476",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "power grid",
         "renewable",
         "solar"
       ]
