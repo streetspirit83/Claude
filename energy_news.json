@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:23:44+00:00",
+  "generated_at": "2026-08-20T19:24:23+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "montelnews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 283,
+  "count": 282,
   "articles": [
+    {
+      "title": "The United States Targets Iran's Trade Partners With Sanctions",
+      "teaser": null,
+      "link": "https://energynews.pro/en/the-united-states-targets-irans-trade-partners-with-sanctions",
+      "source": "energynews-pro",
+      "published": "2026-08-20T17:40:23+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
     {
       "title": "Key Capture Energy raises US$300 million from Standard Chartered, with NY-ISO and MISO deployments in mind",
       "teaser": "US battery storage developer Key Capture Energy (KCE) has closed a US$300 million financing agreement with British multinational bank Standard Chartered.",
@@ -1312,16 +1322,6 @@
       ]
     },
     {
-      "title": "All aboard the wind power rollercoaster",
-      "teaser": "Vestas share price surge highlights wild swings in investor sentiment",
-      "link": "https://www.ft.com/content/37855917-cf5b-42a9-ad73-f8428a50c0b4?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-14T11:00:11+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Noon Energy and Sabanci Renewables plan 1GW ultra-LDES project",
       "teaser": "Noon Energy and Sabanci Renewables have agreed to jointly develop up to 1GW of ultra-long duration energy storage (ultra-LDES) projects.",
       "link": "https://www.energymonitor.ai/news/noon-sabanci-ultra-ldes-project/",
@@ -2009,17 +2009,6 @@
       "published": "2026-08-05T13:51:39+00:00",
       "matched_keywords": [
         "climate policy"
-      ]
-    },
-    {
-      "title": "Solar power was Portugal's main source of electricity in July – a first for the country",
-      "teaser": "Last month, renewable sources accounted for 53% of consumption, with solar providing 19% of that energy, followed by hydro, wind and biomass.",
-      "link": "http://www.euronews.com/2026/08/05/first-time-solar-power-is-portugals-main-source-of-electricity-in-july",
-      "source": "euronews-green",
-      "published": "2026-08-05T11:52:37+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
