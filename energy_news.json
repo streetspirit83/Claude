@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:21:54+00:00",
+  "generated_at": "2026-08-21T19:19:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 288,
+  "count": 287,
   "articles": [
     {
       "title": "Cyberhygiene wird verpflichtend",
@@ -2049,16 +2049,6 @@
       ]
     },
     {
-      "title": "El Niño could unleash ocean heat that sends 2026 into record-breaking territory",
-      "teaser": "This summer's heat is human caused, not from El Niño – but the climate phenomenon is set to release pent-up ocean heat.",
-      "link": "http://www.euronews.com/2026/08/06/el-nino-could-unleash-ocean-heat-that-sends-2026-into-record-breaking-territory",
-      "source": "euronews-green",
-      "published": "2026-08-06T10:27:47+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Ohio steel giant aims to use Biden climate funds for polluting project",
       "teaser": "Steel giant Cleveland-Cliffs was supposed to use up to $500 million from a Biden administration grant to usher in cleaner steelmaking in southwestern Ohio. Now, the company plans to instead put those funds toward a project that locks in…",
       "link": "https://www.canarymedia.com/articles/green-steel/ohio-steel-giant-climate-funds",
@@ -3187,6 +3177,17 @@
       ]
     },
     {
+      "title": "Major North Sea offshore wind project postponed",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/major-north-sea-offshore-wind-project-postponed/2-1-2032706",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Fire broke out in Siemens Gamesa turbine at Orsted offshore wind farm",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/accidents-and-casualties/fire-broke-out-in-siemens-gamesa-turbine-at-orsted-offshore-wind-farm/2-1-2032467",
@@ -3253,18 +3254,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Time to turn wasted wind power into the best case for batteries",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/time-to-turn-wasted-wind-power-into-the-best-case-for-batteries/2-1-2031459",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind power"
       ]
     },
     {
@@ -3335,6 +3324,18 @@
       ]
     },
     {
+      "title": "Time to turn wasted wind power into the best case for batteries",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/opinion/time-to-turn-wasted-wind-power-into-the-best-case-for-batteries/2-1-2031459",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind power"
+      ]
+    },
+    {
       "title": "Offshore wind farms could 'significantly alter' regional climate patterns, finds study",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/offshore-wind-farms-could-significantly-alter-regional-climate-patterns-finds-study/2-1-2030634",
@@ -3345,17 +3346,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Tesla veteran plans 40GW US inverter factory amid import crackdown",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/tesla-veteran-plans-40gw-us-inverter-factory-amid-import-crackdown/2-1-2031499",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
