@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:38:10+00:00",
+  "generated_at": "2026-08-21T16:21:54+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "rechargenews",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 11
+      "items_matched": 12
     },
     {
       "name": "energymonitor",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 287,
+  "count": 288,
   "articles": [
+    {
+      "title": "Cyberhygiene wird verpflichtend",
+      "teaser": "pv+: Der Angriff auf Solarparks in Polen markiert eine Zäsur für die europäische Energiewirtschaft. Erstmals wurde dezentrale Energieinfrastruktur Ziel eines mutmaßlich staatlich unterstützten Angriffs. Der Fall zeigt dabei, wie fahrlässig…",
+      "link": "https://www.pv-magazine.de/2026/08/21/cyberhygiene-wird-verpflichtend/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-21T14:10:00+00:00",
+      "matched_keywords": [
+        "pv"
+      ]
+    },
+    {
+      "title": "Saudi Power Procurement signs four BESS agreements worth $1.16bn",
+      "teaser": "The Saudi Power Procurement Company, also known as the Principal Buyer, has signed four storage service agreements for the first group of battery energy storage system (BESS) projects.",
+      "link": "https://www.power-technology.com/news/saudi-power-procurement-four-bess-agreements/",
+      "source": "power-technology",
+      "published": "2026-08-21T14:04:34+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Wales revamps renewable energy targets",
+      "teaser": "Priorities will include community ownership and reducing energy bills The post Wales revamps renewable energy targets appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/21/wales-revamps-renewable-energy-targets/",
+      "source": "energylivenews",
+      "published": "2026-08-21T14:00:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Heidelberg bekräftigt Partnerschaft mit Phenogy zur Produktion von Natrium-Ionen-Batteriespeichern",
       "teaser": "Das Technologieunternehmen bestätigt zum Auftakt seines neuen Geschäftsjahrs das Ziel, gemeinsam mit seinem Schweizer Partner Batteriespeichersysteme zu fertigen und perspektivisch Natrium-Ionen-Batteriezellen auf Basis der…",
@@ -410,6 +440,16 @@
       "published": "2026-08-21T11:00:20+00:00",
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "Wind power patents: Goldwind | ZF Wind Power | Envision | Vestas",
+      "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
+      "link": "https://www.windpowermonthly.com/article/1968039/wind-power-patents-goldwind-zf-wind-power-envision-vestas",
+      "source": "windpowermonthly",
+      "published": "2026-08-21T10:55:47+00:00",
+      "matched_keywords": [
+        "wind power"
       ]
     },
     {
@@ -717,17 +757,6 @@
       ]
     },
     {
-      "title": "Deutschland erreicht beim Photovoltaik-Ausbau das EEG-Zwischenziel für 2026",
-      "teaser": "Derzeit sind 128 Gigawatt Photovoltaik-Leistung installiert. Um das Ziel für 2030 zu erreichen, muss in den nächsten Jahren mehr Leistung zugebaut werden als dies zuletzt der Fall war. Der Bundesverband Solarwirtschaft warnt, dass…",
-      "link": "https://www.pv-magazine.de/2026/08/20/deutschland-erreicht-beim-photovoltaik-ausbau-das-eeg-zwischenziel-fuer-2026/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-20T09:10:02+00:00",
-      "matched_keywords": [
-        "eeg",
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Korkia divests 125MW Kukonkylä battery project to Enlight",
       "teaser": "Korkia Semecon Finland Renewables has divested the ready-to-build 125MW Kukonkylä battery energy storage project, located in Sievi, Northern Ostrobothnia, to Enlight Renewable Energy.",
       "link": "https://www.power-technology.com/news/korkia-divests-125mw-kukonkyla-battery-project/",
@@ -869,16 +898,6 @@
       "published": "2026-08-19T13:57:35+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Gurīn Energy receives 379MW in licences for South Korean solar projects",
-      "teaser": "Gurīn Energy has obtained a total of 379MW of electricity business licences (EBLs) for three utility-scale solar projects located in South Korea’s Jeonnam-Gwangju Integrated Special City.",
-      "link": "https://www.power-technology.com/news/gurin-energy-379mw-licences-south-korean-solar/",
-      "source": "power-technology",
-      "published": "2026-08-19T13:42:07+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -3168,16 +3187,6 @@
       ]
     },
     {
-      "title": "“Crux” of UK energy policy schism due to gas price disagreement",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/fefd5d02-2c1a-41ab-b774-e59ff1b2792f/crux-of-uk-energy-policy-schism-due-to-gas-price-disagreement",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
       "title": "Fire broke out in Siemens Gamesa turbine at Orsted offshore wind farm",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/accidents-and-casualties/fire-broke-out-in-siemens-gamesa-turbine-at-orsted-offshore-wind-farm/2-1-2032467",
@@ -3259,6 +3268,17 @@
       ]
     },
     {
+      "title": "Could hybrid foundations really 'annihilate' floating offshore wind?",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/could-hybrid-foundations-really-annihilate-floating-offshore-wind-/2-1-2020913",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Why Vattenfall joined the great offshore data centre dash",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
@@ -3270,9 +3290,9 @@
       ]
     },
     {
-      "title": "Could hybrid foundations really 'annihilate' floating offshore wind?",
+      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/could-hybrid-foundations-really-annihilate-floating-offshore-wind-/2-1-2020913",
+      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3304,9 +3324,9 @@
       ]
     },
     {
-      "title": "Why Vestas just had its best day in 14 years",
+      "title": "How CIP makes and spends money – and the way this is changing",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/vestas-has-best-day-in-14-years-thanks-to-rare-combination-of-factors/2-1-2028584",
+      "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3331,17 +3351,6 @@
       "title": "Tesla veteran plans 40GW US inverter factory amid import crackdown",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/energy-storage/tesla-veteran-plans-40gw-us-inverter-factory-amid-import-crackdown/2-1-2031499",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "How CIP makes and spends money – and the way this is changing",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
