@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:29:56+00:00",
+  "generated_at": "2026-08-21T07:35:37+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -125,16 +125,16 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.euwid-energie.de/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.euwid-energie.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.euwid-energie.de', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 18
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -280,30 +280,30 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 2
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
+      "status": "empty",
       "method": null,
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "error": null,
       "items_found": 0,
       "items_matched": 0
     },
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,99 @@
       "items_matched": 0
     }
   ],
-  "count": 283,
+  "count": 291,
   "articles": [
+    {
+      "title": "Wasserstoff für die Industrie: Hamburger Energienetze errichten H2-Connector",
+      "teaser": "Der H2-Connector verbindet das Hamburger Wasserstoff-Industrie-Netz mit einem Elektrolyseur und dem deutschen Wasserstoff-Kernnetz. Das Hamburger Netz soll im Herbst 2027 in Betrieb gehen.",
+      "link": "https://www.pv-magazine.de/2026/08/21/wasserstoff-fuer-die-industrie-hamburger-energienetze-errichten-h2-connector/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-21T07:30:00+00:00",
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Pirates Hijack US-Sanctioned Tanker Off Yemen's Coast",
+      "teaser": null,
+      "link": "https://energynews.pro/en/pirates-hijack-us-sanctioned-tanker-off-yemens-coast",
+      "source": "energynews-pro",
+      "published": "2026-08-21T07:17:04+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Waldbrände wüten in Europa – Wie sich Photovoltaik-Freiflächenanlagen vor dem Feuer schützen lassen",
+      "teaser": "Die Anzahl der Waldbrände in ganz Europa steigt. Zunehmend sind auch Länder in Mittel- und Nordeuropa betroffen. Dieser Artikel stellt eine Reihe an präventiven Maßnahmen zum Schutz von Photovoltaik-Anlagen vor Bränden vor und berichtet…",
+      "link": "https://www.pv-magazine.de/2026/08/21/waldbraende-wueten-in-europa-wie-sich-photovoltaik-freiflaechenanlagen-vor-dem-feuer-schuetzen-lassen/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-21T07:14:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Gas Land Expands Nitrogen Engineering for Global LNG Infrastructure",
+      "teaser": null,
+      "link": "https://energynews.pro/en/gas-land-expands-nitrogen-engineering-for-global-lng-infrastructure",
+      "source": "energynews-pro",
+      "published": "2026-08-21T07:02:21+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Der Kampf darum, die Straßen Brüssels für Kinder zurückzugewinnen",
+      "teaser": "Eltern stehen vor Herausforderungen, wenn es darum geht, den Straßenraum in Spielplätze zu verwandeln. Aktivisten werfen den Gemeinderäten vor, Angst vor einer Gegenreaktion der Autofahrer zu haben.",
+      "link": "https://euractiv.com/de/news/der-kampf-darum-die-strasen-brussels-fur-kinder-zuruckzugewinnen/",
+      "source": "euractiv-energie",
+      "published": "2026-08-21T06:55:04+00:00",
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "A Chinese Study Links Solar Expansion to Declining Bird Biodiversity",
+      "teaser": null,
+      "link": "https://energynews.pro/en/a-chinese-study-links-solar-expansion-to-declining-bird-biodiversity",
+      "source": "energynews-pro",
+      "published": "2026-08-21T06:46:59+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Founder Group Secures $1.5 Million EPCC Solar Subcontract in Malaysia's Kedah",
+      "teaser": null,
+      "link": "https://energynews.pro/en/founder-group-secures-15-million-epcc-solar-subcontract-in-malaysias-kedah",
+      "source": "energynews-pro",
+      "published": "2026-08-21T06:02:23+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Bulgaria Cuts Kozloduy Nuclear Output as Danube Levels Drop",
+      "teaser": null,
+      "link": "https://energynews.pro/en/bulgaria-cuts-kozloduy-nuclear-output-as-danube-levels-drop",
+      "source": "energynews-pro",
+      "published": "2026-08-21T05:47:22+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Germans could save over €12,000 by ditching gas boiler for solar, battery and heat pump – analysis",
+      "teaser": "Despite hefty installation costs, electrifying your home could help you save thousands of euros, new analysis shows.",
+      "link": "http://www.euronews.com/2026/08/21/germans-could-save-over-12000-by-ditching-gas-boiler-for-solar-battery-and-heat-pump-analy",
+      "source": "euronews-green",
+      "published": "2026-08-21T05:00:24+00:00",
+      "matched_keywords": [
+        "heat pump",
+        "solar"
+      ]
+    },
     {
       "title": "Why the energy crisis won’t save western oil refineries",
       "teaser": "North America and Europe to lose further capacity because of investor wariness",
@@ -500,16 +591,6 @@
       "published": "2026-08-20T10:43:35+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Hungary Steps Up Emergency Measures to Protect the Paks Nuclear Plant",
-      "teaser": null,
-      "link": "https://energynews.pro/en/hungary-steps-up-emergency-measures-to-protect-the-paks-nuclear-plant",
-      "source": "energynews-pro",
-      "published": "2026-08-20T10:33:52+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -741,16 +822,6 @@
       ]
     },
     {
-      "title": "Vattenfall vermarktet virtuelle Batterie von Terralayr mit 55 Megawatt Leistung",
-      "teaser": "Bei dem Tolling-Vertrag handelt es sich nach Angaben von Terralayr um das erste Projekt dieser Art in Europa. Terralayr bündelt dafür acht dezentrale Großspeicher in Deutschland zu einer steuerbaren, aggregierten virtuellen Batterie.",
-      "link": "https://www.pv-magazine.de/2026/08/19/vattenfall-vermarktet-virtuelle-batterie-von-terralayr-mit-55-megawatt-leistung/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-19T12:00:00+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "Enel starts building 100MW grid-forming BESS at Chile solar PV plant",
       "teaser": "Enel Green Power, part of the Italy-based power group Enel, has launched construction on another large-scale BESS in Chile.",
       "link": "https://www.energy-storage.news/enel-starts-building-100mw-grid-forming-bess-at-chile-solar-pv-plant/",
@@ -816,13 +887,13 @@
       ]
     },
     {
-      "title": "Ardian acquires 460MW of onshore wind assets in Texas",
-      "teaser": "MEAG has sold its minority stake in the Horse Creek and Electra onshore wind farms in Texas, to Ardian, an existing investor in the projects.",
-      "link": "https://www.power-technology.com/news/ardian-acquires-texas-wind-assets/",
-      "source": "power-technology",
-      "published": "2026-08-19T07:59:17+00:00",
+      "title": "Europe&apos;s hydrogen pipeline plans confront energy transition reality check",
+      "teaser": "Europe&apos;s hydrogen pipeline plans are taking shape, with the first sections of a planned 30,000-kilometer network already completed and primed to start operations. But developers are facing a reality check in Europe&apos;s energy…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/081926-europes-hydrogen-pipeline-plans-confront-energy-transition-reality-check",
+      "source": "spglobal-electric-power",
+      "published": "2026-08-19T09:49:04+00:00",
       "matched_keywords": [
-        "wind farm"
+        "hydrogen"
       ]
     },
     {
@@ -1018,6 +1089,16 @@
       "published": "2026-08-18T04:00:14+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "INDIA CEO SERIES: Shell targets diverse fuel mix for energy security, transition amid shifting flows",
+      "teaser": "The India CEO Series by S&amp;P Global Energy is a compilation of exclusive interviews by Asia Energy Editor Sambit Mohanty with some of the leaders of the biggest energy companies in India. Shell is accelerating its diversified energy…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/081826-india-ceo-series-shell-targets-diverse-fuel-mix-for-energy-security-transition-amid-shifting-flows",
+      "source": "spglobal-electric-power",
+      "published": "2026-08-18T03:23:01+00:00",
+      "matched_keywords": [
+        "energy security"
       ]
     },
     {
@@ -1554,16 +1635,6 @@
       "published": "2026-08-13T07:50:58+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Rumänien will Atomkraftwerk wegen niedriger Donau-Pegel schließen",
-      "teaser": "Es ist die erste Stilllegung seit der Dürre im Jahr 2003. Das Kraftwerk, das ein Fünftel des gesamten Stroms Rumäniens erzeugt, hatte bereits Ende letzten Monats einen seiner beiden 700-MW-Kernreaktoren abgeschaltet.",
-      "link": "https://euractiv.com/de/news/rumanien-will-atomkraftwerk-wegen-niedriger-donau-pegel-schliesen/",
-      "source": "euractiv-energie",
-      "published": "2026-08-13T07:45:43+00:00",
-      "matched_keywords": [
-        "atomkraft"
       ]
     },
     {
@@ -2859,6 +2930,16 @@
       ]
     },
     {
+      "title": "Die meisten verlassen Deutschland freiwillig : Nur gut die Hälfte der Ausreisepflichtigen nimmt Geld vom Bund",
+      "teaser": "Es gibt mehr freiwillige Ausreisen aus Deutschland als Abschiebungen. Die scheitern zudem häufig – etwa, weil der Pilot Bedenken hat. Förderung für die Ausreise wird nicht immer genutzt.",
+      "link": "https://www.tagesspiegel.de/politik/die-meisten-verlassen-deutschland-freiwillig-nur-gut-die-halfte-der-ausreisepflichtigen-nimmt-geld-vom-bund-15967294.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "förderung"
+      ]
+    },
+    {
       "title": "Füllstände auf Rekordtief : Gasspeicherverband warnt vor Versorgungsunsicherheit im Winter",
       "teaser": "Noch nie seit Beginn der Aufzeichnungen vor 15 Jahren war laut Branchenverband Mitte August so wenig Gas in den Speichern wie 2026. Wenn der Winter sehr kalt werde, könnte das Gas nicht ausreichen.",
       "link": "https://www.tagesspiegel.de/wirtschaft/energiesicherheit-gasspeicherverband-fullstande-auf-rekordtief-15967203.html",
@@ -3140,6 +3221,17 @@
       ]
     },
     {
+      "title": "DNV chief: 'Extraordinary times demand extraordinary measures for wind buildout'",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/dnv-chief-extraordinary-times-demand-extraordinary-measures-for-wind-buildout/2-1-2031460",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "One of Europe's biggest onshore wind farms set for Supreme Court showdown",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/legal/one-of-europes-biggest-onshore-wind-farms-set-for-supreme-court-showdown/2-1-2031897",
@@ -3297,18 +3389,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Foreign inverter crackdown threatens to slow US battery storage boom",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/foreign-inverter-crackdown-threatens-to-slow-us-battery-storage-boom/2-1-2030279",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
       ]
     }
   ]
