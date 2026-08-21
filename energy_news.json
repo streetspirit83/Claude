@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:21:00+00:00",
+  "generated_at": "2026-08-21T13:38:10+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 5,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -300,11 +300,11 @@
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "empty",
-      "method": null,
-      "feed_url": null,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
-      "items_found": 0,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 38
+      "items_matched": 37
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,50 @@
       "items_matched": 0
     }
   ],
-  "count": 288,
+  "count": 287,
   "articles": [
+    {
+      "title": "Heidelberg bekräftigt Partnerschaft mit Phenogy zur Produktion von Natrium-Ionen-Batteriespeichern",
+      "teaser": "Das Technologieunternehmen bestätigt zum Auftakt seines neuen Geschäftsjahrs das Ziel, gemeinsam mit seinem Schweizer Partner Batteriespeichersysteme zu fertigen und perspektivisch Natrium-Ionen-Batteriezellen auf Basis der…",
+      "link": "https://www.pv-magazine.de/2026/08/21/heidelberg-bekraeftigt-partnerschaft-mit-phenogy-zur-produktion-von-natrium-ionen-batteriespeichern/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-21T13:05:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Government launches £28 million funding challenge",
+      "teaser": "The cash will develop long duration energy storage technologies The post Government launches £28 million funding challenge appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/08/21/government-launches-28-million-funding-challenge/",
+      "source": "energylivenews",
+      "published": "2026-08-21T13:00:00+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Österreichs Wirtschaftsministerium kündigt Speicher-Offensive an und umreißt Pläne für neue Solarförderung",
+      "teaser": "Ein Entwurf zur Neugestaltung der Photovoltaik-Förderung soll in den nächsten Wochen vorgelegt werden. Batteriespeicher werden dann in den Fokus rücken. Zudem will die Regierung weitere Maßnahmen ergreifen, um den notwendigen…",
+      "link": "https://www.pv-magazine.de/2026/08/21/oesterreichs-wirtschaftsministerium-kuendigt-speicher-offensive-an-und-umreisst-plaene-fuer-neue-solarfoerderung/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-21T12:23:46+00:00",
+      "matched_keywords": [
+        "förderung",
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "El Niño could be 'strongest in living memory'. When will Europe feel its wrath?",
+      "teaser": "Experts warn that 2027 could be the hottest year on record globally, as a powerful El Niño clashes with human-caused climate change.",
+      "link": "http://www.euronews.com/2026/08/21/el-nino-to-strengthen-rapidly-and-fuel-extreme-weather-when-will-europe-face-its-wrath",
+      "source": "euronews-green",
+      "published": "2026-08-21T11:00:20+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "New Jersey Board of Public Utilities releases 150MW BTM energy storage proposal",
       "teaser": "The New Jersey Board of Public Utilities (NJBPU) has released a proposal for the next phase of its Garden State Energy Storage Programme (GSESP) consisting of approximately 150MW of energy storage capacity in the US state.",
@@ -686,17 +728,6 @@
       ]
     },
     {
-      "title": "Large wind farm in Wales operational this autumn",
-      "teaser": "The project is expected to generate enough renewable energy to power 46,000 homes each year The post Large wind farm in Wales operational this autumn appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/20/wales-wind-farm-operational-this-autumn/",
-      "source": "energylivenews",
-      "published": "2026-08-20T09:00:00+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Korkia divests 125MW Kukonkylä battery project to Enlight",
       "teaser": "Korkia Semecon Finland Renewables has divested the ready-to-build 125MW Kukonkylä battery energy storage project, located in Sievi, Northern Ostrobothnia, to Enlight Renewable Energy.",
       "link": "https://www.power-technology.com/news/korkia-divests-125mw-kukonkyla-battery-project/",
@@ -705,17 +736,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Batteriespeicher-Finanzierung: Fully Merchant geht mit Risikoaufschlag",
-      "teaser": "Peer Günzel, Geschäftsführer der DAL, erklärt im Interview mit pv magazine, wann Non-Recourse-Finanzierungen möglich sind und warum Tolling-Verträge bei größeren Projekten an Bedeutung gewinnen.",
-      "link": "https://www.pv-magazine.de/2026/08/20/batteriespeicher-finanzierung-fully-merchant-geht-mit-risikoaufschlag/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-20T07:37:00+00:00",
-      "matched_keywords": [
-        "pv",
-        "speicher"
       ]
     },
     {
@@ -736,16 +756,6 @@
       "published": "2026-08-20T07:30:00+00:00",
       "matched_keywords": [
         "heat pump"
-      ]
-    },
-    {
-      "title": "$1.1 billion in pre-investment contracts awarded for Mozambique’s LNG project",
-      "teaser": "ExxonMobil has, on behalf of its partners, awarded $1.1 billion in pre-investment contracts for [&#8230;] The post $1.1 billion in pre-investment contracts awarded for Mozambique’s LNG project appeared first on Offshore Energy .",
-      "link": "https://www.offshore-energy.biz/1-1-billion-in-pre-investment-contracts-awarded-for-mozambiques-lng-project/",
-      "source": "offshore-energy",
-      "published": "2026-08-20T06:39:14+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1643,17 +1653,6 @@
       "matched_keywords": [
         "battery storage",
         "energy storage"
-      ]
-    },
-    {
-      "title": "Arevon Energy’s 1,200MWh California BESS begins operations",
-      "teaser": "Renewable energy developer-operator Arevon Energy has put its 300MW/1,200MWh Nighthawk Energy Storage Project in Poway, California, US into operation.",
-      "link": "https://www.energy-storage.news/arevon-energys-1200mwh-california-bess-begins-operations/",
-      "source": "energy-storage-news",
-      "published": "2026-08-13T08:51:05+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
       ]
     },
     {
@@ -3159,8 +3158,18 @@
       ]
     },
     {
+      "title": "Russian LNG “swaps” won’t solve EU supply issues, analysts say",
+      "teaser": "Vincent Thevenin",
+      "link": "https://www.montelnews.com/news/19e2b692-c2f7-4aa1-be0d-e6289caaf615/russian-lng-swaps-wont-solve-eu-supply-issues-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "“Crux” of UK energy policy schism due to gas price disagreement",
-      "teaser": "Today's fuel mix",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/fefd5d02-2c1a-41ab-b774-e59ff1b2792f/crux-of-uk-energy-policy-schism-due-to-gas-price-disagreement",
       "source": "montelnews",
       "published": null,
@@ -3169,22 +3178,25 @@
       ]
     },
     {
-      "title": "Analysts: utilities must refit plants to cope with climate crisis",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/e27fd5c4-4347-4e5a-a2a6-9f6cad44aa63/utilities-must-refit-plants-to-cope-with-climate-crisis-analysts",
-      "source": "montelnews",
+      "title": "Fire broke out in Siemens Gamesa turbine at Orsted offshore wind farm",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/fire-broke-out-in-siemens-gamesa-turbine-at-orsted-offshore-wind-farm/2-1-2032467",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "climate"
+        "renewable",
+        "solar",
+        "wind farm"
       ]
     },
     {
-      "title": "2027 eclipse may slash European solar output 20%",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/4ce67f50-1a77-4121-b1dd-8567287a70ac/2027-eclipse-may-slash-european-solar-output-20-analysts",
-      "source": "montelnews",
+      "title": "Chinese wind giant links up with UK superport in new Europe push",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/suppliers/chinese-wind-giant-links-up-with-uk-superport-in-new-europe-push/2-1-2032273",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
+        "renewable",
         "solar"
       ]
     },
@@ -3200,12 +3212,13 @@
       ]
     },
     {
-      "title": "Chinese wind giant links up with UK superport in new Europe push",
+      "title": "UK launches programme for ultra-long energy storage",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/chinese-wind-giant-links-up-with-uk-superport-in-new-europe-push/2-1-2032273",
+      "link": "https://www.rechargenews.com/energy-storage/uk-launches-programme-for-ultra-long-energy-storage/2-1-2032350",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
+        "energy storage",
         "renewable",
         "solar"
       ]
@@ -3249,39 +3262,6 @@
       "title": "Why Vattenfall joined the great offshore data centre dash",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Tesla veteran plans 40GW US inverter factory amid import crackdown",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/tesla-veteran-plans-40gw-us-inverter-factory-amid-import-crackdown/2-1-2031499",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "How CIP makes and spends money – and the way this is changing",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3348,9 +3328,20 @@
       ]
     },
     {
-      "title": "Orsted parts with finance veteran behind green bonds and pivotal capital raise",
+      "title": "Tesla veteran plans 40GW US inverter factory amid import crackdown",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-parts-with-finance-veteran-behind-green-bonds-and-pivotal-capital-raise/2-1-2031464",
+      "link": "https://www.rechargenews.com/energy-storage/tesla-veteran-plans-40gw-us-inverter-factory-amid-import-crackdown/2-1-2031499",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "How CIP makes and spends money – and the way this is changing",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
