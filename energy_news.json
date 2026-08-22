@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:19:29+00:00",
+  "generated_at": "2026-08-22T04:23:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
+      "error": null,
+      "items_found": 5,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 287,
+  "count": 288,
   "articles": [
+    {
+      "title": "Trump turns $500M grant for clean steel into funding for coal furnace",
+      "teaser": "A $500 million Biden-era grant to decarbonize steelmaking has been refashioned by the Trump administration to upgrade a coal-fueled blast furnace in southern Ohio. On Friday, Cleveland-Cliffs confirmed that the U.S. Department of Energy…",
+      "link": "https://www.canarymedia.com/articles/green-steel/trump-clean-steel-grant-coal",
+      "source": "canarymedia",
+      "published": "2026-08-21T19:30:00+00:00",
+      "matched_keywords": [
+        "decarbon"
+      ]
+    },
     {
       "title": "Cyberhygiene wird verpflichtend",
       "teaser": "pv+: Der Angriff auf Solarparks in Polen markiert eine Zäsur für die europäische Energiewirtschaft. Erstmals wurde dezentrale Energieinfrastruktur Ziel eines mutmaßlich staatlich unterstützten Angriffs. Der Fall zeigt dabei, wie fahrlässig…",
@@ -2791,17 +2801,6 @@
       ]
     },
     {
-      "title": "In this Brooklyn warehouse, stoves are turned into batteries",
-      "teaser": "BROOKLYN, N.Y. — When the startup Electra Research launched four years ago, its founders set out to hook more batteries up to the electric grid. Energy storage is key to balancing the coming and going of wind and solar power, and it can…",
-      "link": "https://www.canarymedia.com/articles/electrification/electra-brooklyn-induction-stoves-batteries",
-      "source": "canarymedia",
-      "published": "2026-07-06T07:30:00+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
       "title": "Transport und Speicherung erhöhen Kosten",
       "teaser": "Industriebetriebe, die ihren Verbrauch flexibel gestalten können und den Wasserstoff vor Ort selbst erzeugen, haben zukünftig Kostenvorteile. Denn in Kraftwerken erzeugter und über Netze transportierter Wasserstoff wird teurer sein.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/transport-und-speicherung-erhoehen-kosten",
@@ -2923,6 +2922,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Die Gasspeicher sind so leer wie selten zuvor : Bleiben im Winter die Wohnungen kalt?",
+      "teaser": "Selbst nach Russlands Angriff auf die Ukraine waren die deutschen Gasspeicher deutlich besser gefüllt, als in diesem Jahr. Das könnte im Winter teuer werden. Muss die Politik jetzt gegensteuern?",
+      "link": "https://www.tagesspiegel.de/politik/die-gasspeicher-sind-so-leer-wie-selten-zuvor-bleiben-im-winter-die-wohnungen-kalt-15967902.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "speicher"
       ]
     },
     {
