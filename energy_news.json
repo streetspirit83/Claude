@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:16:41+00:00",
+  "generated_at": "2026-08-23T04:28:25+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -220,11 +220,11 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
       "items_matched": 0
     },
     {
@@ -280,22 +280,22 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "empty",
-      "method": null,
-      "feed_url": null,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
       "error": null,
-      "items_found": 0,
-      "items_matched": 0
+      "items_found": 5,
+      "items_matched": 2
     },
     {
       "name": "spglobal-energy-transition",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 2
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 287,
+  "count": 286,
   "articles": [
     {
       "title": "Trump turns $500M grant for clean steel into funding for coal furnace",
@@ -989,7 +989,7 @@
       "title": "Europe&apos;s hydrogen pipeline plans confront energy transition reality check",
       "teaser": "Europe&apos;s hydrogen pipeline plans are taking shape, with the first sections of a planned 30,000-kilometer network already completed and primed to start operations. But developers are facing a reality check in Europe&apos;s energy…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/081926-europes-hydrogen-pipeline-plans-confront-energy-transition-reality-check",
-      "source": "spglobal-energy-transition",
+      "source": "spglobal-electric-power",
       "published": "2026-08-19T09:49:04+00:00",
       "matched_keywords": [
         "hydrogen"
@@ -1194,7 +1194,7 @@
       "title": "INDIA CEO SERIES: Shell targets diverse fuel mix for energy security, transition amid shifting flows",
       "teaser": "The India CEO Series by S&amp;P Global Energy is a compilation of exclusive interviews by Asia Energy Editor Sambit Mohanty with some of the leaders of the biggest energy companies in India. Shell is accelerating its diversified energy…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/081826-india-ceo-series-shell-targets-diverse-fuel-mix-for-energy-security-transition-amid-shifting-flows",
-      "source": "spglobal-energy-transition",
+      "source": "spglobal-electric-power",
       "published": "2026-08-18T03:23:01+00:00",
       "matched_keywords": [
         "energy security"
@@ -2912,16 +2912,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Dürre, Hitze, Waldbrände : Der Bundeskanzler und der Preis des Wartens",
-      "teaser": "Klimaschutz kostet. Was kein Klimaschutz kostet, kann Friedrich Merz heute in der Eifel besichtigen. Nächste Woche geht es auf der Kabinettsklausur dann um die politische Antwort auf diesen Sommer.",
-      "link": "https://www.tagesspiegel.de/politik/durre-hitze-waldbrande-der-bundeskanzler-und-der-preis-des-wartens-15971001.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klimaschutz"
       ]
     },
     {
