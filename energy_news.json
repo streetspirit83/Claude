@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:36:26+00:00",
+  "generated_at": "2026-08-24T07:51:02+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "cleanenergywire",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "rechargenews",
@@ -220,11 +220,11 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
       "items_matched": 0
     },
     {
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "reuters-energy",
@@ -290,12 +290,12 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "status": "empty",
+      "method": null,
+      "feed_url": null,
       "error": null,
-      "items_found": 5,
-      "items_matched": 2
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "iea-news",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,51 @@
       "items_matched": 0
     }
   ],
-  "count": 296,
+  "count": 294,
   "articles": [
+    {
+      "title": "Brandgefahr bei Halbzellen-Solarmodulen: Thermografie als Muss",
+      "teaser": "pv+: Auch bei Qualitätsmarken lässt sich eine steigende Anzahl von Substring-Fehlern beobachten. Für moderne Halbzellenmodule geht dies mit erhöhtem Brandrisiko einher – ein wichtiger Grund für Untersuchungen bei Inbetriebnahme und auch…",
+      "link": "https://www.pv-magazine.de/2026/08/24/brandgefahr-bei-halbzellen-solarmodulen-thermografie-als-muss/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-24T07:28:00+00:00",
+      "matched_keywords": [
+        "pv"
+      ]
+    },
+    {
+      "title": "Hungary Restarts Paks Nuclear Plant Ahead of August 26 Deadline",
+      "teaser": null,
+      "link": "https://energynews.pro/en/hungary-restarts-paks-nuclear-plant-ahead-of-august-26-deadline",
+      "source": "energynews-pro",
+      "published": "2026-08-24T07:18:16+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Das EEG 2027 verändert den Photovoltaik-Markt – Aber anders als viele befürchten",
+      "teaser": "Die EEG-Novelle verunsichert Eigenheimbesitzer und Installateure gleichermaßen. Eine KI-gestützte Analyse aller 28 Millionen Eigenheim-Dächer in Deutschland zeigt: Photovoltaik mit Speicher rechnet sich auch ohne Förderung. Warum die…",
+      "link": "https://www.pv-magazine.de/2026/08/24/das-eeg-2027-veraendert-den-photovoltaik-markt-aber-anders-als-viele-befuerchten/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-24T07:06:00+00:00",
+      "matched_keywords": [
+        "eeg",
+        "förderung",
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Oyster Renewable Signs 25.2 MW Hybrid RTC Deal with Kutch Chemical",
+      "teaser": null,
+      "link": "https://energynews.pro/en/oyster-renewable-signs-252-mw-hybrid-rtc-deal-with-kutch-chemical",
+      "source": "energynews-pro",
+      "published": "2026-08-24T06:02:35+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Russia Imports Turkish Gasoline Aboard a Sanctioned Tanker",
       "teaser": null,
@@ -715,26 +758,6 @@
       ]
     },
     {
-      "title": "Founder Group Secures $1.5 Million EPCC Solar Subcontract in Malaysia's Kedah",
-      "teaser": null,
-      "link": "https://energynews.pro/en/founder-group-secures-15-million-epcc-solar-subcontract-in-malaysias-kedah",
-      "source": "energynews-pro",
-      "published": "2026-08-21T06:02:23+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Bulgaria Cuts Kozloduy Nuclear Output as Danube Levels Drop",
-      "teaser": null,
-      "link": "https://energynews.pro/en/bulgaria-cuts-kozloduy-nuclear-output-as-danube-levels-drop",
-      "source": "energynews-pro",
-      "published": "2026-08-21T05:47:22+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Kater im Revier – Strukturwandel kindgerecht erklärt",
       "teaser": "Ein Comic macht den Kohleausstieg und seine Folgen für Kinder und Jugendliche verständlich. Neben der Geschichte stehen nun auch kostenfreie Unterrichtsideen samt Arbeitsmaterialien für Lehrkräfte und Interessierte kostenlos zum Download…",
       "link": "https://www.energiezukunft.eu/buergerenergie/kater-im-revier-strukturwandel-kindgerecht-erklaert",
@@ -816,17 +839,6 @@
       ]
     },
     {
-      "title": "Solar sparks life into food market",
-      "teaser": "London's largest rooftop solar installation could cut carbon emissions by 225 tonnes each year The post Solar sparks life into food market appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/20/solar-powers-up-london-food-market/",
-      "source": "energylivenews",
-      "published": "2026-08-20T13:00:00+00:00",
-      "matched_keywords": [
-        "emission",
-        "solar"
-      ]
-    },
-    {
       "title": "Fraunhofer-ISE-Forscher entwickeln mit Partnern halbtransparente organische Photovoltaik-Module mit neun Prozent Wirkungsgrad",
       "teaser": "Das Forscherteam hat mit Schlitzdüsenbeschichtung halbtransparente organische, gut 210 Quadratzentimeter große Photovoltaik-Module hergestellt. Das beste Modul erreichte einen Wirkungsgrad von 9,3 Prozent, eine durchschnittliche…",
       "link": "https://www.pv-magazine.de/2026/08/20/fraunhofer-ise-forscher-entwickeln-mit-partnern-halbtransparente-organische-photovoltaik-module-mit-neun-prozent-wirkungsgrad/",
@@ -834,16 +846,6 @@
       "published": "2026-08-20T12:40:00+00:00",
       "matched_keywords": [
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "Sunfire baut Hochtemperatur-Elektrolyseur in der Lausitz",
-      "teaser": "Die SOEC-Testanlage entsteht am BASF-Standort Schwarzheide. Mit der Hochtemperatur-Elektrolyse soll sich grüner Wasserstoff günstiger erzeugen lassen als mit den etablierten Verfahren.",
-      "link": "https://www.pv-magazine.de/2026/08/20/sunfire-baut-hochtemperatur-elektrolyseur-in-der-lausitz/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-20T11:27:00+00:00",
-      "matched_keywords": [
-        "wasserstoff"
       ]
     },
     {
@@ -1100,7 +1102,7 @@
       "title": "Europe&apos;s hydrogen pipeline plans confront energy transition reality check",
       "teaser": "Europe&apos;s hydrogen pipeline plans are taking shape, with the first sections of a planned 30,000-kilometer network already completed and primed to start operations. But developers are facing a reality check in Europe&apos;s energy…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/081926-europes-hydrogen-pipeline-plans-confront-energy-transition-reality-check",
-      "source": "spglobal-electric-power",
+      "source": "spglobal-energy-transition",
       "published": "2026-08-19T09:49:04+00:00",
       "matched_keywords": [
         "hydrogen"
@@ -1305,7 +1307,7 @@
       "title": "INDIA CEO SERIES: Shell targets diverse fuel mix for energy security, transition amid shifting flows",
       "teaser": "The India CEO Series by S&amp;P Global Energy is a compilation of exclusive interviews by Asia Energy Editor Sambit Mohanty with some of the leaders of the biggest energy companies in India. Shell is accelerating its diversified energy…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/081826-india-ceo-series-shell-targets-diverse-fuel-mix-for-energy-security-transition-amid-shifting-flows",
-      "source": "spglobal-electric-power",
+      "source": "spglobal-energy-transition",
       "published": "2026-08-18T03:23:01+00:00",
       "matched_keywords": [
         "energy security"
@@ -1329,16 +1331,6 @@
       "published": "2026-08-18T02:03:59+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "ExxonMobil advances Mozambique gas project despite terrorist threat",
-      "teaser": "Rovuma LNG plant expected to cost $30bn",
-      "link": "https://www.ft.com/content/61b8162e-6c50-4775-8bb5-fff1259a9cf3?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-17T17:24:56+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1580,16 +1572,6 @@
       "published": "2026-08-14T15:16:00+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Spanien verschiebt die Stilllegung vom Kernkraftwerk Almaraz",
-      "teaser": "Trotz der Verzögerung bei Almaraz bleibt der spanische Stichtag für den vollständigen Ausstieg aus der Kernenergie bei 2035. Mehr als 50 % des gesamten Energiemixes des Landes stammen aus erneuerbaren Energiequellen.",
-      "link": "https://euractiv.com/de/news/spanien-verschiebt-die-stilllegung-vom-kernkraftwerk-almaraz/",
-      "source": "euractiv-energie",
-      "published": "2026-08-14T14:51:02+00:00",
-      "matched_keywords": [
-        "erneuerbare"
       ]
     },
     {
@@ -2986,24 +2968,13 @@
       ]
     },
     {
-      "title": "Berlin-Wahl 2026 : Das sind die Spitzenkandidaten im Überblick",
-      "teaser": "Mehr aufgefangenes Regenwasser, entsiegelte Flächen, begrünte Dächer, mehr Bäume: Berlin muss den Stadtumbau für die Klimaanpassung zur Priorität machen. Das sollte auch in der Politik ankommen.",
-      "link": "https://www.tagesspiegel.de/berlin/berlin-wahl-2026-das-sind-die-spitzenkandidaten-im-uberblick-15973131.html",
+      "title": "Pazifikregion heizt sich auf : El Niño könnte dieses Jahr alle bisherigen Rekorde brechen",
+      "teaser": "Klima-Experten beobachten eine deutliche Verstärkung des El Niño. Was das Klimaphänomen für Amerika, Asien und Afrika bedeutet – und warum auch der Panamakanal und Deutschland betroffen sein könnten.",
+      "link": "https://www.tagesspiegel.de/wissen/klima-pazifikregion-heizt-auf--sehr-starker-el-nino-erwartet-15974140.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Vorsorge nach dem heißen Sommer : Der Hitze- und Klimaschutz sollte in Berlin ein Wahlkampfthema sein",
-      "teaser": "Mehr aufgefangenes Regenwasser, entsiegelte Flächen, begrünte Dächer, mehr Bäume: Berlin muss den Stadtumbau für die Klimaanpassung zur Priorität machen. Das sollte auch in der Politik ankommen.",
-      "link": "https://www.tagesspiegel.de/berlin/vorsorge-nach-dem-heissen-sommer-der-hitze-und-klimaschutz-sollte-in-berlin-ein-wahlkampfthema-sein-15964761.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima",
-        "klimaschutz"
       ]
     },
     {
@@ -3258,6 +3229,16 @@
       ]
     },
     {
+      "title": "Hungary’s 2 GW nuclear plant nears full capacity as drought eases",
+      "teaser": "Vincent Thevenin",
+      "link": "https://www.montelnews.com/news/cc9bb02f-ec1c-4a62-ab85-459952887a5d/hungarys-2-gw-nuclear-plant-nears-full-capacity-as-drought-eases",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
       "title": "Russian LNG “swaps” won’t solve EU supply issues, analysts say",
       "teaser": "Vincent Thevenin",
       "link": "https://www.montelnews.com/news/19e2b692-c2f7-4aa1-be0d-e6289caaf615/russian-lng-swaps-wont-solve-eu-supply-issues-analysts",
@@ -3265,6 +3246,17 @@
       "published": null,
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "What Vestas needs for its offshore unit to make money next year",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3359,17 +3351,6 @@
       ]
     },
     {
-      "title": "Why Vattenfall joined the great offshore data centre dash",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Three regimes, no support: Inside Finland's fragmented offshore wind push",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/offshore-wind/three-regimes-no-support-inside-finlands-fragmented-offshore-wind-push/2-1-2028620",
@@ -3404,6 +3385,17 @@
       ]
     },
     {
+      "title": "Why Vattenfall joined the great offshore data centre dash",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "How CIP makes and spends money – and the way this is changing",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/how-cip-makes-and-spends-money-and-the-way-this-is-changing/2-1-2019274",
@@ -3424,19 +3416,6 @@
         "renewable",
         "solar",
         "wind power"
-      ]
-    },
-    {
-      "title": "Offshore wind farms could 'significantly alter' regional climate patterns, finds study",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/offshore-wind-farms-could-significantly-alter-regional-climate-patterns-finds-study/2-1-2030634",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "climate",
-        "renewable",
-        "solar",
-        "wind farm"
       ]
     }
   ]
