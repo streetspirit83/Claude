@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:16:02+00:00",
+  "generated_at": "2026-08-24T04:36:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 3
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 13
     },
     {
       "name": "montelnews",
@@ -220,11 +220,11 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 13
+      "items_matched": 12
     },
     {
       "name": "ft-energy",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 37
+      "items_matched": 38
     },
     {
       "name": "smart-energy",
@@ -368,8 +368,78 @@
       "items_matched": 0
     }
   ],
-  "count": 288,
+  "count": 296,
   "articles": [
+    {
+      "title": "Russia Imports Turkish Gasoline Aboard a Sanctioned Tanker",
+      "teaser": null,
+      "link": "https://energynews.pro/en/russia-imports-turkish-gasoline-aboard-a-sanctioned-tanker",
+      "source": "energynews-pro",
+      "published": "2026-08-24T04:32:00+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Eni and Sonatrach Expand Cooperation to Cut Emissions in Algeria",
+      "teaser": null,
+      "link": "https://energynews.pro/en/eni-and-sonatrach-expand-cooperation-to-cut-emissions-in-algeria",
+      "source": "energynews-pro",
+      "published": "2026-08-24T03:31:42+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Nagaki Shoji Signs 1.5 MW Solar PPA with Sanden in Japan",
+      "teaser": null,
+      "link": "https://energynews.pro/en/nagaki-shoji-signs-15-mw-solar-ppa-with-sanden-in-japan",
+      "source": "energynews-pro",
+      "published": "2026-08-24T02:02:43+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Quinbrook taps GE Vernova and CATL for the third stage of Australia’s largest battery storage system",
+      "teaser": "GE Vernova and CATL selected for 1,216MWh Supernode Stage 3 in Queensland, which will expand Australia's largest battery storage system.",
+      "link": "https://www.energy-storage.news/quinbrook-taps-ge-vernova-and-catl-for-the-third-stage-of-australias-largest-battery-storage-system/",
+      "source": "energy-storage-news",
+      "published": "2026-08-24T01:27:43+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "Deployable Energy and Utah Office Sign MOU on Nuclear Microreactor Deployment",
+      "teaser": null,
+      "link": "https://energynews.pro/en/deployable-energy-and-utah-office-sign-mou-on-nuclear-microreactor-deployment",
+      "source": "energynews-pro",
+      "published": "2026-08-24T01:01:56+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "CNTE Supplies 101.592 MWh Battery Storage System in Germany",
+      "teaser": null,
+      "link": "https://energynews.pro/en/cnte-supplies-101592-mwh-battery-storage-system-in-germany",
+      "source": "energynews-pro",
+      "published": "2026-08-24T00:01:13+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "EPA Plans to Postpone 2025 Renewable Fuel Standard Compliance Deadline",
+      "teaser": null,
+      "link": "https://energynews.pro/en/epa-plans-to-postpone-2025-renewable-fuel-standard-compliance-deadline",
+      "source": "energynews-pro",
+      "published": "2026-08-23T23:01:51+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "Oil major Eni bets on nuclear fusion becoming its ‘next refinery’",
       "teaser": "Italian group widening investments in technology that promises much but is yet to be commercially proven",
@@ -713,16 +783,6 @@
       "published": "2026-08-21T04:00:00+00:00",
       "matched_keywords": [
         "energy crisis"
-      ]
-    },
-    {
-      "title": "ATOME Power Studies 300 MWp Solar Project in Paraguay",
-      "teaser": null,
-      "link": "https://energynews.pro/en/atome-power-studies-300-mwp-solar-project-in-paraguay",
-      "source": "energynews-pro",
-      "published": "2026-08-21T01:01:54+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -2195,16 +2255,6 @@
       ]
     },
     {
-      "title": "Trump has been able to keep oil prices low. But that power may not last forever.",
-      "teaser": "Trump's ability to talk down oil and gas prices may be fading just as Republicans enter the midterm stretch.",
-      "link": "https://www.politico.com/news/2026/08/03/trump-gas-oil-prices-iran-01022998?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-08-04T01:08:36+00:00",
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
       "title": "Illinois Solar for All is, at last, taking off",
       "teaser": "Any time, day or night, parents experiencing homelessness, domestic violence, or other emergencies can drop their young kids off at the Crisis Nursery in Urbana, Illinois, and know they’ll be safe and cared for. Funding is a constant…",
       "link": "https://www.canarymedia.com/articles/solar/illinois-solar-for-all",
@@ -2933,6 +2983,37 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Berlin-Wahl 2026 : Das sind die Spitzenkandidaten im Überblick",
+      "teaser": "Mehr aufgefangenes Regenwasser, entsiegelte Flächen, begrünte Dächer, mehr Bäume: Berlin muss den Stadtumbau für die Klimaanpassung zur Priorität machen. Das sollte auch in der Politik ankommen.",
+      "link": "https://www.tagesspiegel.de/berlin/berlin-wahl-2026-das-sind-die-spitzenkandidaten-im-uberblick-15973131.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Vorsorge nach dem heißen Sommer : Der Hitze- und Klimaschutz sollte in Berlin ein Wahlkampfthema sein",
+      "teaser": "Mehr aufgefangenes Regenwasser, entsiegelte Flächen, begrünte Dächer, mehr Bäume: Berlin muss den Stadtumbau für die Klimaanpassung zur Priorität machen. Das sollte auch in der Politik ankommen.",
+      "link": "https://www.tagesspiegel.de/berlin/vorsorge-nach-dem-heissen-sommer-der-hitze-und-klimaschutz-sollte-in-berlin-ein-wahlkampfthema-sein-15964761.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima",
+        "klimaschutz"
+      ]
+    },
+    {
+      "title": "Uschis Genickbruch vor der Reise nach Kasachstan : Berliner Tierpark verschwieg tödlichen Vorfall bei Vorzeigeprojekt mit Pferden",
+      "teaser": "Der Tierpark beteiligt sich an der Wiederansiedlung von Przewalski-Pferden in der kasachischen Steppe. Das internationale Projekt dient auch dem Klimaschutz. Doch das Vorhaben birgt Risiken.",
+      "link": "https://www.tagesspiegel.de/berlin/uschis-genickbruch-vor-der-reise-nach-kasachstan-berliner-tierpark-verschwieg-todlichen-vorfall-bei-vorzeigeprojekt-mit-pferden-15973548.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klimaschutz"
       ]
     },
     {
