@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:22:13+00:00",
+  "generated_at": "2026-08-25T04:30:35+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 10
     },
     {
       "name": "montelnews",
@@ -252,10 +252,10 @@
       "url": "https://www.euronews.com/green",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
+      "feed_url": "https://www.euronews.com/rss/",
       "error": null,
       "items_found": 50,
-      "items_matched": 21
+      "items_matched": 3
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 48
+      "items_matched": 49
     },
     {
       "name": "power-technology",
@@ -368,8 +368,79 @@
       "items_matched": 0
     }
   ],
-  "count": 291,
+  "count": 279,
   "articles": [
+    {
+      "title": "Don’t call us ‘nuclear’, say nuclear fusion start-ups",
+      "teaser": "Companies set to enjoy lighter US regulatory regime by avoiding words associated with conventional nuclear plants",
+      "link": "https://www.ft.com/content/3301bcb3-db86-454c-b511-fc4df6a6e583?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-25T04:00:09+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Invenergy Starts Building a 240 MW Solar Plant in Ohio",
+      "teaser": null,
+      "link": "https://energynews.pro/en/invenergy-starts-building-a-240-mw-solar-plant-in-ohio",
+      "source": "energynews-pro",
+      "published": "2026-08-25T01:02:51+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Tesla ditches solar roof — and embraces regular solar panels",
+      "teaser": "A thousand solar roofs per week. That was the pace Elon Musk predicted Tesla would install its electricity-generating roof tiles in 2020, more than three years after he unveiled the product to great fanfare on the set of the TV show…",
+      "link": "https://www.canarymedia.com/articles/solar/tesla-pulls-plug-on-solar-roof-as-it-chases-wild-new-solar-dreams",
+      "source": "canarymedia",
+      "published": "2026-08-24T22:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "The EIA and ICE Republish North American Wholesale Power and Gas Prices",
+      "teaser": null,
+      "link": "https://energynews.pro/en/the-eia-and-ice-republish-north-american-wholesale-power-and-gas-prices",
+      "source": "energynews-pro",
+      "published": "2026-08-24T22:07:06+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
+      "title": "ABB Launches Proteus PV Inverters Delivering Up to 9.4 MVA for Solar",
+      "teaser": null,
+      "link": "https://energynews.pro/en/abb-launches-proteus-pv-inverters-delivering-up-to-94-mva-for-solar",
+      "source": "energynews-pro",
+      "published": "2026-08-24T21:02:19+00:00",
+      "matched_keywords": [
+        "pv",
+        "solar"
+      ]
+    },
+    {
+      "title": "Hindustan Power Closes Financing for 435 MWp Solar Project",
+      "teaser": null,
+      "link": "https://energynews.pro/en/hindustan-power-closes-financing-for-435-mwp-solar-project",
+      "source": "energynews-pro",
+      "published": "2026-08-24T20:01:13+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Brussels Clears CMA CGM and TotalEnergies LNG Bunkering Joint Venture",
+      "teaser": null,
+      "link": "https://energynews.pro/en/brussels-clears-cma-cgm-and-totalenergies-lng-bunkering-joint-venture",
+      "source": "energynews-pro",
+      "published": "2026-08-24T19:31:59+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Russia Plans to Add 30 GW of Nuclear Capacity and Expand Exports",
       "teaser": null,
@@ -398,6 +469,26 @@
       "published": "2026-08-24T18:16:59+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "UK firm running Portugal's largest solar plant files for insolvency",
+      "teaser": "Based in Alcoutim, in the Algarve, Solara4 has been operating for five years, but over that time it has repeatedly run into a series of setbacks.",
+      "link": "http://www.euronews.com/business/2026/08/24/uk-firm-running-portugals-largest-solar-plant-files-for-insolvency",
+      "source": "euronews-green",
+      "published": "2026-08-24T15:44:43+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Greta Thunberg joins 10,000 climate marchers in Stockholm",
+      "teaser": "Around 10,000 people marched through Stockholm on Sunday demanding stronger climate action, a month before Sweden's general election.",
+      "link": "http://www.euronews.com/video/2026/08/24/greta-thunberg-joins-10000-climate-marchers-in-stockholm",
+      "source": "euronews-green",
+      "published": "2026-08-24T15:04:21+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -474,16 +565,6 @@
       ]
     },
     {
-      "title": "Perdaman Selects Electric Hydrogen as Electrolyser Vendor for Project Helios in Australia",
-      "teaser": null,
-      "link": "https://energynews.pro/en/perdaman-selects-electric-hydrogen-as-electrolyser-vendor-for-project-helios-in-australia",
-      "source": "energynews-pro",
-      "published": "2026-08-24T11:01:36+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Forschungszentrum Jülich: Grünes Methanol lässt sich auch an wasserarmen Standorten erzeugen",
       "teaser": "Mit der Extraktion von CO₂ aus der Luft lässt sich Wasserdampf abscheiden – nahezu überall ausreichend viel, um den Bedarf der Methanol-Produktion zu decken. Für die Wirtschaftlichkeit eines Standorts ist das Photovoltaik- und…",
       "link": "https://www.pv-magazine.de/2026/08/24/forschungszentrum-juelich-gruenes-methanol-laesst-sich-auch-an-wasserarmen-standorten-erzeugen/",
@@ -546,13 +627,13 @@
       ]
     },
     {
-      "title": "The UK Launches the Ultra-LDES Challenge for Long-Duration Energy Storage",
-      "teaser": null,
-      "link": "https://energynews.pro/en/the-uk-launches-the-ultra-ldes-challenge-for-long-duration-energy-storage",
-      "source": "energynews-pro",
-      "published": "2026-08-24T09:02:03+00:00",
+      "title": "US threatens Iran with 'economic D-Day' as markets await sanctions announcement",
+      "teaser": "US Treasury Secretary Scott Bessent has announced the launch of what he calls an 'economic D-Day' against Iran, describing the campaign as the single greatest financial offensive ever directed at an adversary, with further details due…",
+      "link": "http://www.euronews.com/business/2026/08/24/us-threatens-iran-with-economic-d-day-as-markets-await-sanctions-announcement",
+      "source": "euronews-green",
+      "published": "2026-08-24T09:00:03+00:00",
       "matched_keywords": [
-        "energy storage"
+        "sanction"
       ]
     },
     {
@@ -644,6 +725,16 @@
       ]
     },
     {
+      "title": "Europe must spend billions now or face mounting climate disaster costs, EU warns",
+      "teaser": "A nightmare summer of fires, droughts and heatwaves should force governments to invest in climate proofing, says EU climate chief Wopke Hoekstra.",
+      "link": "https://www.politico.eu/article/eu-climate-adaptation-spending-wopke-hoekstra-wildfires-heat-waves/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-24T04:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
       "title": "Quinbrook taps GE Vernova and CATL for the third stage of Australia’s largest battery storage system",
       "teaser": "GE Vernova and CATL selected for 1,216MWh Supernode Stage 3 in Queensland, which will expand Australia's largest battery storage system.",
       "link": "https://www.energy-storage.news/quinbrook-taps-ge-vernova-and-catl-for-the-third-stage-of-australias-largest-battery-storage-system/",
@@ -661,27 +752,6 @@
       "published": "2026-08-23T10:00:08+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Record numbers of climate crisis insects: what to do if you spot a praying mantis",
-      "teaser": "This summer, unusually many praying mantises can be spotted in German gardens. How to distinguish the \"Mantid religiosa\" from a grasshopper and what to do…",
-      "link": "http://www.euronews.com/2026/08/23/record-numbers-of-climate-crisis-insects-what-to-do-if-you-spot-a-praying-mantis",
-      "source": "euronews-green",
-      "published": "2026-08-23T05:30:41+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Romania is falling behind the renewables race. Can the EU's biggest solar farm save it?",
-      "teaser": "The Dama Solar farm in Romania could produce enough power for almost one million people.",
-      "link": "http://www.euronews.com/2026/08/23/romania-is-falling-behind-the-renewables-race-can-the-eus-biggest-solar-farm-save-it",
-      "source": "euronews-green",
-      "published": "2026-08-23T05:00:26+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -787,16 +857,6 @@
       ]
     },
     {
-      "title": "El Niño could be 'strongest in living memory'. When will Europe feel its wrath?",
-      "teaser": "Experts warn that 2027 could be the hottest year on record globally, as a powerful El Niño clashes with human-caused climate change.",
-      "link": "http://www.euronews.com/2026/08/21/el-nino-to-strengthen-rapidly-and-fuel-extreme-weather-when-will-europe-face-its-wrath",
-      "source": "euronews-green",
-      "published": "2026-08-21T11:00:20+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Wind power patents: Goldwind | ZF Wind Power | Envision | Vestas",
       "teaser": "Windpower Monthly rounds up the latest wind power technology patents filed and published in the past week.",
       "link": "https://www.windpowermonthly.com/article/1968039/wind-power-patents-goldwind-zf-wind-power-envision-vestas",
@@ -875,17 +935,6 @@
       "published": "2026-08-21T05:02:00+00:00",
       "matched_keywords": [
         "kohleausstieg"
-      ]
-    },
-    {
-      "title": "Germans could save over €12,000 by ditching gas boiler for solar, battery and heat pump – analysis",
-      "teaser": "Despite hefty installation costs, electrifying your home could help you save thousands of euros, new analysis shows.",
-      "link": "http://www.euronews.com/2026/08/21/germans-could-save-over-12000-by-ditching-gas-boiler-for-solar-battery-and-heat-pump-analy",
-      "source": "euronews-green",
-      "published": "2026-08-21T05:00:24+00:00",
-      "matched_keywords": [
-        "heat pump",
-        "solar"
       ]
     },
     {
@@ -1000,16 +1049,6 @@
       ]
     },
     {
-      "title": "‘A formidable predator’: Italian scientists relying on octopuses to get blue crab populations in check",
-      "teaser": "The Italian government has previously been urged to declare a state of emergency over the blue crab explosion, fuelled by climate-warmed waters.",
-      "link": "http://www.euronews.com/2026/08/20/a-formidable-predator-italian-scientists-hoping-octopuses-can-get-blue-crab-populations-in",
-      "source": "euronews-green",
-      "published": "2026-08-20T05:12:21+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Ackerpflanzen kommen besser als gedacht mit Beschattung klar",
       "teaser": "Eine Feldstudie der Universität Hohenheim zeigt, dass Gerste, Bohnen, Kartoffeln, Kohl und Mais ihre Photosynthese in Agroforst- und Agri-Photovoltaik-Systemen anpassen und die Beschattung besser vertragen als gedacht.",
       "link": "https://www.energiezukunft.eu/wirtschaft/ackerpflanzen-kommen-besser-als-gedacht-mit-beschattung-klar",
@@ -1110,16 +1149,6 @@
       "published": "2026-08-19T13:57:35+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Climate change forces rethink at Chambord's historic gardens",
-      "teaser": "In France, drought and heatwaves are clearly visible at its historic chateuax. The parched vegetation is forcing gardeners to rethink landscapes and consider new plant species.",
-      "link": "http://www.euronews.com/2026/08/19/at-chambord-repeated-heatwaves-force-gardens-to-change-appearance",
-      "source": "euronews-green",
-      "published": "2026-08-19T13:02:16+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1261,16 +1290,6 @@
       ]
     },
     {
-      "title": "Record-breaking investment in renewables could cement Canada as new clean energy superpower",
-      "teaser": "The slated green energy plans could light, heat and cool all the homes in Toronto, Montreal and Vancouver combined.",
-      "link": "http://www.euronews.com/2026/08/18/what-could-north-americas-largest-clean-energy-investment-in-history-mean-for-renewables",
-      "source": "euronews-green",
-      "published": "2026-08-18T14:02:51+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Inox Energy closes deal for Vena Energy's Indian renewables business",
       "teaser": null,
       "link": "https://www.windpowermonthly.com/article/1967706/inox-energy-closes-deal-vena-energys-indian-renewables-business",
@@ -1320,16 +1339,6 @@
       "matched_keywords": [
         "renewable",
         "wind energy"
-      ]
-    },
-    {
-      "title": "Rhine drought, heatwaves and deaths: Is it time for Germany to enshrine climate protection in law?",
-      "teaser": "Germany’s coalition government is split over putting climate protection in the constitution.",
-      "link": "http://www.euronews.com/2026/08/18/rhine-drought-heatwaves-and-deaths-is-it-time-for-germany-to-enshrine-climate-protection-i",
-      "source": "euronews-green",
-      "published": "2026-08-18T09:13:32+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -1520,16 +1529,6 @@
       ]
     },
     {
-      "title": "‘A secret had been shared’: The inside story of an emergency climate briefing that made experts cry",
-      "teaser": "The People’s Emergency Briefing has been screened nearly 2,000 times around the UK - and Germany is preparing its own.",
-      "link": "http://www.euronews.com/2026/08/17/a-secret-had-been-shared-the-inside-story-of-an-emergency-climate-briefing-that-made-exper",
-      "source": "euronews-green",
-      "published": "2026-08-17T05:02:37+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Wasserversorgung resilient gegen Klimafolgen aufstellen",
       "teaser": "Die derzeitige Hitze und Trockenheit sowie niedrige Wasserstände rücken die Folgen des Klimawandels für die Wasserwirtschaft in Deutschland erneut in den Fokus. Martin Weyand, BDEW-Hauptgeschäftsführer Wasser/Abwasser, kommentiert die Lage…",
       "link": "https://www.energiezukunft.eu/klimakrise/wasserversorgung-resilient-gegen-klimafolgen-aufstellen",
@@ -1580,17 +1579,6 @@
       "published": "2026-08-17T01:19:21+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "‘Excellent profit’: Meet the Bavarian hop farmer securing his harvest and income with solar 'hats'",
-      "teaser": "No rain, no hops – no hops, no beer. Climate change, heat and dry farmland are hitting Bavaria’s key crop. Could solar panels save it?",
-      "link": "http://www.euronews.com/2026/08/16/can-agri-pv-save-bavarias-hop-gardens-solar-hats-help-fight-climate-crisis",
-      "source": "euronews-green",
-      "published": "2026-08-16T05:02:14+00:00",
-      "matched_keywords": [
-        "climate",
-        "solar"
       ]
     },
     {
@@ -1686,16 +1674,6 @@
       ]
     },
     {
-      "title": "‘The real challenge starts after sundown’: Europe’s heatwave boosted solar by up to 17% on hot days",
-      "teaser": "A surge in solar power has helped meet heightened power demand from Europe’s blistering heatwaves, according to a new analysis.",
-      "link": "http://www.euronews.com/2026/08/14/the-real-challenge-starts-after-sundown-europes-heatwave-boosted-solar-by-up-to-17-on-hot-",
-      "source": "euronews-green",
-      "published": "2026-08-14T05:00:39+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Klimarisiken erkennen und handeln",
       "teaser": "Hitzewellen, Starkregen, Hochwasser. Wann und wo konkret Extremwetter zur Gefahr werden, kann auch der neue Quick-Check der Bodensee-Stiftung nicht prognostizieren. Aber er hilft, Anfälligkeiten und den Bedarf für Anpassungs-Schritte zu…",
       "link": "https://www.energiezukunft.eu/klimakrise/klimarisiken-erkennen-und-handeln",
@@ -1776,26 +1754,6 @@
       ]
     },
     {
-      "title": "Millions of solar eclipse glasses could end up in landfill: Here’s what to do instead",
-      "teaser": "Be a responsible consumer by following expert advice on what to do with your glasses now the eclipse is over.",
-      "link": "http://www.euronews.com/2026/08/13/millions-of-solar-eclipse-glasses-could-end-up-in-landfill-heres-what-to-do-instead",
-      "source": "euronews-green",
-      "published": "2026-08-13T05:00:09+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "What time will the solar eclipse be visible in my city in Spain on 12 August?",
-      "teaser": "The total solar eclipse will cross Spain this Wednesday at sunset, peaking around 8.30 pm. See when it will be visible in each city, where it is total, and its peak in Madrid and Barcelona.",
-      "link": "http://www.euronews.com/2026/08/12/what-time-will-the-solar-eclipse-be-visible-in-my-city-in-spain-on-12-august",
-      "source": "euronews-green",
-      "published": "2026-08-12T14:00:27+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Solar on storage units? Here’s how Illinois is making it happen.",
       "teaser": "Krzysztof Wasowicz, mayor of Justice, Illinois, has some concerns about solar: that it takes up farmland and enriches China. But he’s all-in on the community solar array that was recently deployed at a Public Storage facility in his…",
       "link": "https://www.canarymedia.com/articles/solar/solar-on-storage-units-illinois",
@@ -1816,16 +1774,6 @@
       ]
     },
     {
-      "title": "A solar eclipse followed by a meteor shower: Portugal prepares for two rare celestial events",
-      "teaser": "In some parts of the country, the Moon will completely cover the Sun, plunging onlookers into a sci-fi-like scene.",
-      "link": "http://www.euronews.com/2026/08/12/solar-eclipse-and-meteor-shower-portugal-prepares-for-two-rare-celestial-events",
-      "source": "euronews-green",
-      "published": "2026-08-12T05:05:53+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Großprojekte und Beteiligung – Tangerhütte treibt die Energiewende voran",
       "teaser": "Die flächengroße Einheitsgemeinde Tangerhütte in Sachsen-Anhalt überzeugt durch ein breites Fundament aus Solar-, Wind- und Bioenergie sowie modernster Speichertechnologie und akzeptanzfördernder Bürgerbeteiligung.",
       "link": "https://www.energiezukunft.eu/buergerenergie/grossprojekte-und-beteiligung-tangerhuette-treibt-die-energiewende-voran",
@@ -1835,16 +1783,6 @@
         "energiewende",
         "solar",
         "speicher"
-      ]
-    },
-    {
-      "title": "Anxious dogs and silent birds: What happens to animals during a total solar eclipse?",
-      "teaser": "Today's rare solar eclipse is thrilling for humans, but animals will face something they can't prepare for: sudden confusing darkness in the middle of the day.",
-      "link": "http://www.euronews.com/2026/08/12/anxious-dogs-and-silent-birds-what-happens-to-animals-during-a-total-solar-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-12T05:02:16+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1859,16 +1797,6 @@
       ]
     },
     {
-      "title": "Solar eclipse: protective glasses in short supply across France",
-      "teaser": "On Wednesday 12 August, a solar eclipse will be visible in parts of Europe. The much-anticipated event means shops selling protective glasses are being overrun.",
-      "link": "http://www.euronews.com/2026/08/11/solar-eclipse-protective-glasses-in-short-supply-across-france",
-      "source": "euronews-green",
-      "published": "2026-08-11T17:03:36+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Swarming jellyfish overrun French nuclear plant on same date two years in a row",
       "teaser": "The jellyfish invasion is the latest in a series of climate change-driven incidents that have affected a record number of French nuclear reactors over the summer.",
       "link": "https://www.politico.eu/article/swarming-jellyfish-overrun-french-nuclear-plant-on-same-date-two-years-in-a-row/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1877,27 +1805,6 @@
       "matched_keywords": [
         "climate",
         "nuclear"
-      ]
-    },
-    {
-      "title": "Jellyfish force shutdown of three reactors at France's Gravelines nuclear power plant",
-      "teaser": "Experts say overfishing, plastic pollution and warming seas due to climate change have created conditions allowing jellyfish to thrive and reproduce.",
-      "link": "http://www.euronews.com/2026/08/11/jellyfish-influx-forces-edf-to-shut-three-reactors-at-gravelines-nuclear-plant",
-      "source": "euronews-green",
-      "published": "2026-08-11T14:40:04+00:00",
-      "matched_keywords": [
-        "climate",
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Power downs and free energy: How Europe is preparing for a dip in solar during the eclipse",
-      "teaser": "While many are excitedly awaiting the eclipse, for the solar industry it’s a bit of a headache.",
-      "link": "http://www.euronews.com/2026/08/11/one-european-country-is-offering-free-energy-to-households-that-power-down-during-the-ecli",
-      "source": "euronews-green",
-      "published": "2026-08-11T14:01:05+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -1954,16 +1861,6 @@
       ]
     },
     {
-      "title": "A once-in-a-lifetime spectacle: Iceland prepares for total solar eclipse",
-      "teaser": "Iceland is preparing for a rare total solar eclipse on 12 August, with thousands of visitors expected to head to the country's western regions.",
-      "link": "http://www.euronews.com/2026/08/11/a-once-in-a-lifetime-spectacle-iceland-prepares-for-total-solar-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-11T02:30:26+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Greece’s aging power grid blamed for catastrophic wildfires",
       "teaser": "Loose power lines in fire-prone forests have disproportionately set the country ablaze.",
       "link": "https://www.politico.eu/article/greece-electricity-grid-blame-wildfire/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1971,16 +1868,6 @@
       "published": "2026-08-10T16:24:18+00:00",
       "matched_keywords": [
         "power grid"
-      ]
-    },
-    {
-      "title": "Solar power output set to fall during eclipse",
-      "teaser": "Portugal's grid operator REN estimates that solar power generation on Wednesday will fall by about 45% during the eclipse compared with usual levels for that time of day.",
-      "link": "http://www.euronews.com/2026/08/10/solar-power-output-set-to-fall-during-eclipse",
-      "source": "euronews-green",
-      "published": "2026-08-10T14:38:51+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -2044,17 +1931,6 @@
       "published": "2026-08-08T07:36:49+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "Batteries can save Europe’s solar and wind power from being wasted. But are they a blackout risk?",
-      "teaser": "A new report claims that the battery boom could trigger power outages, but experts say the risk is ‘tiny’.",
-      "link": "http://www.euronews.com/2026/08/08/batteries-can-save-europes-solar-and-wind-power-from-being-wasted-but-are-they-a-blackout-",
-      "source": "euronews-green",
-      "published": "2026-08-08T05:00:09+00:00",
-      "matched_keywords": [
-        "solar",
-        "wind power"
       ]
     },
     {
@@ -2156,16 +2032,6 @@
       "published": "2026-08-06T05:02:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "The economic toll of Europe’s infernal summer",
-      "teaser": "Global warming, not climate policy, is bad for business, experts warn.",
-      "link": "https://www.politico.eu/article/economic-toll-europe-infernal-summer-climate-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-08-05T13:51:39+00:00",
-      "matched_keywords": [
-        "climate policy"
       ]
     },
     {
@@ -2964,6 +2830,17 @@
       ]
     },
     {
+      "title": "AfD leugnet menschengemachten Klimawandel : Und was tun die anderen Parteien für Klimaschutz?",
+      "teaser": "Im Sommerinterview spricht AfD-Chef Chrupalla von einem ganz normalen Sommer und von Panikmache. Das sehen die anderen Parteien naturgemäß anders. Was planen sie? Ein Überblick.",
+      "link": "https://www.tagesspiegel.de/politik/afd-leugnet-menschengemachten-klimawandel-aber-was-tun-die-anderen-parteien-fur-klimaschutz-15974984.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima",
+        "klimaschutz"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3235,9 +3112,9 @@
       ]
     },
     {
-      "title": "Sonfor hunts new partner as TotalEnergies quits Danish offshore wind",
+      "title": "What Vestas needs for its offshore unit to make money next year",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/sonfor-hunts-new-partner-as-totalenergies-quits-danish-offshore-wind/2-1-2032940",
+      "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3246,9 +3123,9 @@
       ]
     },
     {
-      "title": "What Vestas needs for its offshore unit to make money next year",
+      "title": "Sonfor hunts new partner as TotalEnergies quits Danish offshore wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
+      "link": "https://www.rechargenews.com/offshore-wind/sonfor-hunts-new-partner-as-totalenergies-quits-danish-offshore-wind/2-1-2032940",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
