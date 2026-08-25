@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:26:09+00:00",
+  "generated_at": "2026-08-25T19:24:08+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 292,
+  "count": 293,
   "articles": [
+    {
+      "title": "Could nuclear fusion become economically viable?",
+      "teaser": "Some scientists have come up with a way of measuring its commercial value",
+      "link": "https://www.ft.com/content/9a1f39cf-e622-4c68-bb80-0fb93bcec3ec?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-25T16:19:27+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Cheniere Confirms Planned Maintenance at Its Corpus Christi LNG Terminal",
       "teaser": null,
@@ -378,6 +388,16 @@
       "published": "2026-08-25T16:03:33+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "Sizewell C nuclear project suffers setback after road building delayed",
+      "teaser": "Galliford Try replaced as key contractor following disagreement about cost of work",
+      "link": "https://www.ft.com/content/7a83b577-8d67-4435-9798-1e53d7fad4e9?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-25T15:03:18+00:00",
+      "matched_keywords": [
+        "nuclear"
       ]
     },
     {
@@ -572,6 +592,16 @@
       ]
     },
     {
+      "title": "BW LNG builds on 174k LNG carrier workhorse with 177k cbm three-tank design",
+      "teaser": "BW LNG, a liquefied natural gas (LNG) shipping company that is part of Singapore-based BW Group, has shed more light on its move that pushes LNG carrier capacity beyond the conventional 174,000-cubic-meter (cbm) design with a new…",
+      "link": "https://www.offshore-energy.biz/bw-lng-builds-on-174k-lng-carrier-workhorse-with-177k-cbm-three-tank-design/",
+      "source": "offshore-energy",
+      "published": "2026-08-25T09:23:00+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "JR Kyushu Signs First Offsite Solar PPA to Power Shinkansen Trains",
       "teaser": null,
       "link": "https://energynews.pro/en/jr-kyushu-signs-first-offsite-solar-ppa-to-power-shinkansen-trains",
@@ -720,16 +750,6 @@
       ]
     },
     {
-      "title": "Hamburger Energienetze Builds €23 Million Hydrogen Connector in Hamburg",
-      "teaser": null,
-      "link": "https://energynews.pro/en/hamburger-energienetze-builds-23-million-hydrogen-connector-in-hamburg",
-      "source": "energynews-pro",
-      "published": "2026-08-25T05:02:03+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Kraftstoff aus der Luft",
       "teaser": "Methanol aus Erneuerbaren Energien ist auf dem Vormarsch. Für die Herstellung aber braucht es viel Wasser. Ein Gut, dass in wind- und sonnenreichen Gebieten knapp ist. Forschende aus Jülich haben eine Lösung.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/kraftstoff-aus-der-luft",
@@ -747,16 +767,6 @@
       "published": "2026-08-25T04:00:09+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Invenergy Starts Building a 240 MW Solar Plant in Ohio",
-      "teaser": null,
-      "link": "https://energynews.pro/en/invenergy-starts-building-a-240-mw-solar-plant-in-ohio",
-      "source": "energynews-pro",
-      "published": "2026-08-25T01:02:51+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
