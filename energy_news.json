@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T04:31:24+00:00",
+  "generated_at": "2026-08-26T07:38:48+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "cleanenergywire",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 21
     },
     {
       "name": "politico-energy-climate",
@@ -275,16 +275,16 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,70 @@
       "items_matched": 0
     }
   ],
-  "count": 293,
+  "count": 294,
   "articles": [
+    {
+      "title": "Australia advances clean power in WA with 1.8GW CIS tender",
+      "teaser": "The Australian government has opened a new tender to secure 1.8GW of renewable energy generation in Western Australia through the CIS.",
+      "link": "https://www.power-technology.com/news/australia-advances-clean-power-cis/",
+      "source": "power-technology",
+      "published": "2026-08-26T07:32:14+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Batterie-Tolling: Wie sich Vermarktungsrisiken vertraglich verteilen lassen",
+      "teaser": "Der Batteriespeicher-Tsunami trifft auf einen Felsen bei der Finanzierung: volatile Erlöse. Immer mehr Projekte setzen deshalb auf Tolling-Agreements, um Risiken auszulagern und Cashflows zu stabilisieren. Doch das Geschäftsmodell bringt…",
+      "link": "https://www.pv-magazine.de/2026/08/26/batterie-tolling-wie-sich-vermarktungsrisiken-vertraglich-verteilen-lassen/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-26T07:24:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Wirtschaftlichkeit von Photovoltaik-Großanlagen neu gedacht: Warum hochverdichtete Ost-West-Systeme eine Neubewertung verdienen",
+      "teaser": "Eine häufig zitierte Analyse von Wood Mackenzie kommt zu dem Ergebnis, dass einachsige Tracker (Single-Axis Tracker, SAT) für viele große Photovoltaik-Projekte die wirtschaftlichste Auslegung darstellen. Diese Einschätzung beruht vor allem…",
+      "link": "https://www.pv-magazine.de/2026/08/26/wirtschaftlichkeit-von-photovoltaik-grossanlagen-neu-gedacht-warum-hochverdichtete-ost-west-systeme-eine-neubewertung-verdienen/",
+      "source": "pv-magazine-de",
+      "published": "2026-08-26T07:05:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "COMAX France, MET Group Subsidiary, Commissions 57 MW of Battery Storage",
+      "teaser": null,
+      "link": "https://energynews.pro/en/comax-france-met-group-subsidiary-commissions-57-mw-of-battery-storage",
+      "source": "energynews-pro",
+      "published": "2026-08-26T07:01:37+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "subsid"
+      ]
+    },
+    {
+      "title": "Lightstar Renewables Wins 27.3 MW in New Jersey's Agricultural Solar Program",
+      "teaser": null,
+      "link": "https://energynews.pro/en/lightstar-renewables-wins-273-mw-in-new-jerseys-agricultural-solar-program",
+      "source": "energynews-pro",
+      "published": "2026-08-26T05:01:55+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "'Response seems far too timid': what role for the environment in the presidential race",
+      "teaser": "After a summer of extreme weather, political action on the climate crisis seems timid and below French expectations, say several women experts interviewed by Euronews.",
+      "link": "http://www.euronews.com/2026/08/26/response-seems-far-too-timid-what-role-for-the-environment-in-the-presidential-race",
+      "source": "euronews-green",
+      "published": "2026-08-26T05:00:56+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "‘Up to six months faster’: DC-coupling expedites hybrid solar-plus-storage grid connection approvals in Australia",
       "teaser": "DC-coupled solar-plus-storage projects can reduce the time needed for grid connection approval compared with AC-coupled designs.",
@@ -590,26 +652,6 @@
       "matched_keywords": [
         "climate",
         "energy security"
-      ]
-    },
-    {
-      "title": "United States Tighten Sanctions on Iran, Warn China Against Trade Ties",
-      "teaser": null,
-      "link": "https://energynews.pro/en/united-states-tighten-sanctions-on-iran-warn-china-against-trade-ties",
-      "source": "energynews-pro",
-      "published": "2026-08-25T10:47:08+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "Ember Quantifies Cost of Delaying ASEAN Power Grid Beyond 2035",
-      "teaser": null,
-      "link": "https://energynews.pro/en/ember-quantifies-cost-of-delaying-asean-power-grid-beyond-2035",
-      "source": "energynews-pro",
-      "published": "2026-08-25T10:32:31+00:00",
-      "matched_keywords": [
-        "power grid"
       ]
     },
     {
@@ -853,16 +895,6 @@
       ]
     },
     {
-      "title": "Forschungszentrum Jülich: Grünes Methanol lässt sich auch an wasserarmen Standorten erzeugen",
-      "teaser": "Mit der Extraktion von CO₂ aus der Luft lässt sich Wasserdampf abscheiden – nahezu überall ausreichend viel, um den Bedarf der Methanol-Produktion zu decken. Für die Wirtschaftlichkeit eines Standorts ist das Photovoltaik- und…",
-      "link": "https://www.pv-magazine.de/2026/08/24/forschungszentrum-juelich-gruenes-methanol-laesst-sich-auch-an-wasserarmen-standorten-erzeugen/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-24T11:00:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Van Oord installs all 111 monopiles for Baltica 2 wind farm",
       "teaser": "Marine contracting company Van Oord has completed the installation of all 111 monopiles for the 1.5GW Baltica 2 offshore wind farm in Poland.",
       "link": "https://www.energymonitor.ai/news/van-oord-111-monopiles-baltica-2/",
@@ -890,17 +922,6 @@
       "published": "2026-08-24T09:51:10+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "Next2Sun will mit Aktienemission bis zu fünf Millionen Euro einwerben",
-      "teaser": "Mit der Kapitalerhöhung will der Spezialist für vertikale Photovoltaik den Bau eigener Anlagen und die Skalierung seines Geschäftsmodells vorantreiben. Vertikale, bifaziale Systeme erzielen bei Ost-West-Ausrichtung höhere Marktwerte als…",
-      "link": "https://www.pv-magazine.de/2026/08/24/next2sun-will-mit-aktienemission-bis-zu-fuenf-millionen-euro-einwerben/",
-      "source": "pv-magazine-de",
-      "published": "2026-08-24T09:30:00+00:00",
-      "matched_keywords": [
-        "emission",
-        "photovoltaik"
       ]
     },
     {
@@ -1137,16 +1158,6 @@
       "published": "2026-08-21T05:00:00+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Why the energy crisis won’t save western oil refineries",
-      "teaser": "North America and Europe to lose further capacity because of investor wariness",
-      "link": "https://www.ft.com/content/e5512d10-6ade-4e40-97df-9f7d24a01d04?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-08-21T04:00:00+00:00",
-      "matched_keywords": [
-        "energy crisis"
       ]
     },
     {
@@ -1578,16 +1589,6 @@
       "published": "2026-08-18T02:03:59+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Deutschlands Koalition ist sich uneinig über die Verankerung des Klimaschutzes im Grundgesetz",
-      "teaser": "Der Vorschlag sieht außerdem einen nationalen „Hitzeaktionsplan“, Änderungen der Stadtplanungsgesetze und Bauvorschriften sowie neue Arbeitsgesetze vor, um die Arbeit bei sengender Hitze zu regeln.",
-      "link": "https://euractiv.com/de/news/deutschlands-koalition-ist-sich-uneinig-uber-die-verankerung-des-klimaschutzes-im-grundgesetz/",
-      "source": "euractiv-energie",
-      "published": "2026-08-17T16:29:17+00:00",
-      "matched_keywords": [
-        "klimaschutz"
       ]
     },
     {
@@ -2987,6 +2988,16 @@
       ]
     },
     {
+      "title": "Großes Geschäft im Freibad : Kinder und Jugendliche sorgen mit Ekel-Trend in Spanien für Chaos",
+      "teaser": "Der bizarre Social-Media-Trend „braune Herausforderung“ breitet sich in Spaniens Freibädern aus: Polizei, hohe Bußgelder und Hausverbote drohen – doch die Täter sind erfinderisch.",
+      "link": "https://www.tagesspiegel.de/gesellschaft/panorama/schweinerei-furs-internet-ekel-in-spanien-grosses-geschaft-im-freibad-15982017.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3218,7 +3229,7 @@
     },
     {
       "title": "Italy drought gets some relief but power price risk lingers",
-      "teaser": null,
+      "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/e3dc6e52-f1cf-4fdf-9110-3185b1b3e101/italy-drought-gets-some-relief-but-power-price-risk-lingers",
       "source": "montelnews",
       "published": null,
@@ -3234,6 +3245,17 @@
       "published": null,
       "matched_keywords": [
         "power price"
+      ]
+    },
+    {
+      "title": "How to build a battery – and why China dominates every step",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-storage/how-to-build-a-battery-and-why-china-dominates-every-step/2-1-2010792",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3325,17 +3347,6 @@
       ]
     },
     {
-      "title": "‘Crazy not to’: Utility hunts for new partner as TotalEnergies quits Danish offshore wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/sonfor-hunts-new-partner-as-totalenergies-quits-danish-offshore-wind/2-1-2032940",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Why Vattenfall joined the great offshore data centre dash",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/why-vattenfall-joined-the-great-offshore-data-centre-dash/2-1-2031392",
@@ -3369,6 +3380,17 @@
       ]
     },
     {
+      "title": "‘Crazy not to’: Utility hunts for new partner as TotalEnergies quits Danish offshore wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/sonfor-hunts-new-partner-as-totalenergies-quits-danish-offshore-wind/2-1-2032940",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "DNV chief: 'Extraordinary times demand extraordinary measures for wind buildout'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/dnv-chief-extraordinary-times-demand-extraordinary-measures-for-wind-buildout/2-1-2031460",
@@ -3389,17 +3411,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Major North Sea offshore wind project postponed",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/major-north-sea-offshore-wind-project-postponed/2-1-2032706",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
