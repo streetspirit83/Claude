@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:24:08+00:00",
+  "generated_at": "2026-08-26T04:31:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 12
+      "items_matched": 11
     },
     {
       "name": "ft-energy",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 11
     },
     {
       "name": "reuters-energy",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 50
+      "items_matched": 51
     },
     {
       "name": "power-technology",
@@ -355,7 +355,7 @@
       "feed_url": "https://www.energy-storage.news/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 36
+      "items_matched": 37
     },
     {
       "name": "smart-energy",
@@ -370,6 +370,67 @@
   ],
   "count": 293,
   "articles": [
+    {
+      "title": "‘Up to six months faster’: DC-coupling expedites hybrid solar-plus-storage grid connection approvals in Australia",
+      "teaser": "DC-coupled solar-plus-storage projects can reduce the time needed for grid connection approval compared with AC-coupled designs.",
+      "link": "https://www.energy-storage.news/up-to-six-months-faster-dc-coupling-expedites-hybrid-solar-plus-storage-grid-connection-approvals-in-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-08-26T03:35:34+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Iberdrola and RES Strengthen Operations at 15 Wind Farms in the United Kingdom",
+      "teaser": null,
+      "link": "https://energynews.pro/en/iberdrola-and-res-strengthen-operations-at-15-wind-farms-in-the-united-kingdom",
+      "source": "energynews-pro",
+      "published": "2026-08-26T01:01:29+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "Stargate Hydrogen Appoints Petri Sarnes as Finland Country Director",
+      "teaser": null,
+      "link": "https://energynews.pro/en/stargate-hydrogen-appoints-petri-sarnes-as-finland-country-director",
+      "source": "energynews-pro",
+      "published": "2026-08-26T00:02:12+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Is Maine finally about to make wind power happen?",
+      "teaser": "For nearly two decades, Maine has tried to build utility-scale wind in the northern reaches of the state. On Tuesday morning, utility regulators brought that vision a little closer to reality, choosing an 800-megawatt wind farm proposal…",
+      "link": "https://www.canarymedia.com/articles/wind/maine-make-wind-power-happen",
+      "source": "canarymedia",
+      "published": "2026-08-25T22:00:00+00:00",
+      "matched_keywords": [
+        "wind farm",
+        "wind power"
+      ]
+    },
+    {
+      "title": "AI to fuel global growth as investment spreads beyond US, IMF says",
+      "teaser": "Managing director Kristalina Georgieva expects world economy to weather energy crisis ignited by Iran war",
+      "link": "https://www.ft.com/content/6a76e78b-c493-409a-8694-6fa4ba9a674e?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-25T18:00:06+00:00",
+      "matched_keywords": [
+        "energy crisis"
+      ]
+    },
+    {
+      "title": "European LNG prices surge to highest level since 2023",
+      "teaser": "Continent’s gas inventories were already low before Iran war disrupted shipments",
+      "link": "https://www.ft.com/content/8f1a392a-b43c-4124-916e-61695fffa0da?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-08-25T17:41:03+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Could nuclear fusion become economically viable?",
       "teaser": "Some scientists have come up with a way of measuring its commercial value",
@@ -602,16 +663,6 @@
       ]
     },
     {
-      "title": "JR Kyushu Signs First Offsite Solar PPA to Power Shinkansen Trains",
-      "teaser": null,
-      "link": "https://energynews.pro/en/jr-kyushu-signs-first-offsite-solar-ppa-to-power-shinkansen-trains",
-      "source": "energynews-pro",
-      "published": "2026-08-25T09:02:03+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "UK government launches £28 million Ultra-Long Duration Energy Storage Challenge",
       "teaser": "The UK government has launched a new grant funding programme for energy storage technologies that can provide inter-day and seasonal energy shifting applications.",
       "link": "https://www.energy-storage.news/uk-government-launches-28-million-ultra-long-duration-energy-storage-challenge/",
@@ -697,17 +748,6 @@
       ]
     },
     {
-      "title": "Negative Electricity Prices Reshape Europe's Solar PPA Market",
-      "teaser": null,
-      "link": "https://energynews.pro/en/negative-electricity-prices-reshape-europes-solar-ppa-market",
-      "source": "energynews-pro",
-      "published": "2026-08-25T07:03:16+00:00",
-      "matched_keywords": [
-        "electricity price",
-        "solar"
-      ]
-    },
-    {
       "title": "Hitzeschutz ohne Verfassungsänderung",
       "teaser": "Die SPD fordert Hitzeschutz in der Verfassung zu verankern, doch eine Mehrheit dafür fehlt. Der Bundesverband Nachhaltige Wirtschaft zeigt drei Beispiele, wo sich das Klima schneller und effektiver mit schwarz-roter Mehrheit schützen ließe.",
       "link": "https://www.energiezukunft.eu/klimakrise/hitzeschutz-ohne-verfassungsaenderung",
@@ -727,16 +767,6 @@
         "klima",
         "speicher",
         "subvention"
-      ]
-    },
-    {
-      "title": "Energys Group Acquires Cube Lighting and Cube Solar in the UK",
-      "teaser": null,
-      "link": "https://energynews.pro/en/energys-group-acquires-cube-lighting-and-cube-solar-in-the-uk",
-      "source": "energynews-pro",
-      "published": "2026-08-25T05:31:44+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -799,18 +829,6 @@
         "renewable",
         "solar",
         "subsid"
-      ]
-    },
-    {
-      "title": "Rise of negatively priced hours points to reshaping of Europe&apos;s power markets",
-      "teaser": "The increasing number of negatively priced hours across European power markets highlights a growing need for battery storage systems that can help maintain renewables&apos; profitability during peak solar generation. Negative prices, once…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082426-rise-of-negatively-priced-hours-points-to-reshaping-of-europes-power-markets",
-      "source": "spglobal-energy-transition",
-      "published": "2026-08-24T12:32:51+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -1379,16 +1397,6 @@
       ]
     },
     {
-      "title": "Europe&apos;s hydrogen pipeline plans confront energy transition reality check",
-      "teaser": "Europe&apos;s hydrogen pipeline plans are taking shape, with the first sections of a planned 30,000-kilometer network already completed and primed to start operations. But developers are facing a reality check in Europe&apos;s energy…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/081926-europes-hydrogen-pipeline-plans-confront-energy-transition-reality-check",
-      "source": "spglobal-electric-power",
-      "published": "2026-08-19T09:49:04+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "How Qcells’ Georgia factory is surviving US solar policy whiplash",
       "teaser": "This story was originally published by Grist . Sign up for Grist&#039;s weekly newsletter here. Inside the vast Qcells factory in Cartersville, Georgia, workers — and a bevy of robots — move ultrathin slices of polysilicon through a…",
       "link": "https://www.canarymedia.com/articles/clean-energy-manufacturing/qcells-georgia-factory-solar-policy-whiplash",
@@ -1550,16 +1558,6 @@
       "published": "2026-08-18T04:53:04+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "INDIA CEO SERIES: Shell targets diverse fuel mix for energy security, transition amid shifting flows",
-      "teaser": "The India CEO Series by S&amp;P Global Energy is a compilation of exclusive interviews by Asia Energy Editor Sambit Mohanty with some of the leaders of the biggest energy companies in India. Shell is accelerating its diversified energy…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/081826-india-ceo-series-shell-targets-diverse-fuel-mix-for-energy-security-transition-amid-shifting-flows",
-      "source": "spglobal-electric-power",
-      "published": "2026-08-18T03:23:01+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -2163,16 +2161,6 @@
       "published": "2026-08-07T05:00:00+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Trump announces tariffs on key component for solar panels and semiconductors",
-      "teaser": "The move comes as the administration has bolstered its attempts to cut off Chinese choke points in the supply chain.",
-      "link": "https://www.politico.com/news/2026/08/06/trump-tariffs-solar-semiconductors-01028009?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-08-06T23:38:59+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -2989,6 +2977,16 @@
       ]
     },
     {
+      "title": "Zu wenig Nachwuchs bei der Berliner Polizei : Vier von zehn Bewerbern scheitern am Deutschtest",
+      "teaser": "Viele Bewerber für eine Ausbildung bei der Berliner Polizei scheitern am Deutschtest. Sollten die Anforderungen gesenkt werden? Nein, sagt die Polizeipräsidentin.",
+      "link": "https://www.tagesspiegel.de/berlin/zu-wenig-nachwuchs-bei-der-berliner-polizei-vier-von-zehn-bewerbern-scheitern-am-deutschtest-15981849.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3220,7 +3218,7 @@
     },
     {
       "title": "Italy drought gets some relief but power price risk lingers",
-      "teaser": "Vincent Thevenin",
+      "teaser": null,
       "link": "https://www.montelnews.com/news/e3dc6e52-f1cf-4fdf-9110-3185b1b3e101/italy-drought-gets-some-relief-but-power-price-risk-lingers",
       "source": "montelnews",
       "published": null,
@@ -3236,6 +3234,17 @@
       "published": null,
       "matched_keywords": [
         "power price"
+      ]
+    },
+    {
+      "title": "Orsted sidelines Korea offshore wind projects as returns fail investment test",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/orsted-sidelines-korea-offshore-wind-projects-as-returns-fail-investment-test/2-1-2034144",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -3283,9 +3292,9 @@
       ]
     },
     {
-      "title": "Cadeler revenues rocket as fleet strategy pays off",
+      "title": "What Vestas needs for its offshore unit to make money next year",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/cadeler-revenues-rocket-as-fleet-strategy-pays-off/2-1-2033576",
+      "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3294,9 +3303,9 @@
       ]
     },
     {
-      "title": "What Vestas needs for its offshore unit to make money next year",
+      "title": "Cadeler revenues rocket as fleet strategy pays off",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
+      "link": "https://www.rechargenews.com/suppliers/cadeler-revenues-rocket-as-fleet-strategy-pays-off/2-1-2033576",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3313,18 +3322,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Fire broke out in Siemens Gamesa turbine at Orsted offshore wind farm",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/accidents-and-casualties/fire-broke-out-in-siemens-gamesa-turbine-at-orsted-offshore-wind-farm/2-1-2032467",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
       ]
     },
     {
@@ -3383,20 +3380,21 @@
       ]
     },
     {
-      "title": "Major North Sea offshore wind project postponed",
+      "title": "Fire broke out in Siemens Gamesa turbine at Orsted offshore wind farm",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/major-north-sea-offshore-wind-project-postponed/2-1-2032706",
+      "link": "https://www.rechargenews.com/accidents-and-casualties/fire-broke-out-in-siemens-gamesa-turbine-at-orsted-offshore-wind-farm/2-1-2032467",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar"
+        "solar",
+        "wind farm"
       ]
     },
     {
-      "title": "Chinese wind giant links up with UK superport in new Europe push",
+      "title": "Major North Sea offshore wind project postponed",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/chinese-wind-giant-links-up-with-uk-superport-in-new-europe-push/2-1-2032273",
+      "link": "https://www.rechargenews.com/offshore-wind/major-north-sea-offshore-wind-project-postponed/2-1-2032706",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
