@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:46:36+00:00",
+  "generated_at": "2026-08-26T16:42:03+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "rechargenews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 1
     },
     {
       "name": "iea-news",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 290,
+  "count": 291,
   "articles": [
+    {
+      "title": "American Bureau of Shipping subsidiary hit with $59.4M Cotemar claim in New York after two court losses",
+      "teaser": "Mexican offshore services company Cotemar has launched an enforcement action in New York seeking $59.4 million from ABSG Consulting, a U.S. government contractor and subsidiary of American Bureau of Shipping (ABS), after two court…",
+      "link": "https://www.offshore-energy.biz/american-bureau-of-shipping-subsidiary-hit-with-59-4m-cotemar-claim-in-new-york-after-two-court-losses/",
+      "source": "offshore-energy",
+      "published": "2026-08-26T14:50:15+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "Adani secures $492m transmission project in Maharashtra, India",
+      "teaser": "Adani Energy Solutions (AESL) has secured a transmission project valued at Rs47bn ($491.7m) in the Indian state of Maharashtra to enable evacuation of up to 4.5GW of renewable and storage power.",
+      "link": "https://www.power-technology.com/news/adani-492m-transmission-project-maharashtra-india/",
+      "source": "power-technology",
+      "published": "2026-08-26T13:49:28+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "SLB takes on FEED work to advance North Sea CO2 storage project toward FID",
+      "teaser": "U.S.-headquartered technology player SLB has been hired to help move a large-scale CO2 storage project in the Norwegian sector of the North Sea toward a final investment decision (FID), taking on technology and engineering work spanning…",
+      "link": "https://www.offshore-energy.biz/slb-takes-on-feed-work-to-advance-north-sea-co2-storage-project-toward-fid/",
+      "source": "offshore-energy",
+      "published": "2026-08-26T13:18:14+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
     {
       "title": "Novventos kombiniert Photovoltaik und Kleinwindkraft für netzferne Anwendungen",
       "teaser": "Für temporäre und netzferne Anwendungen hat das österreichische Unternehmen Novventos ein containerbasiertes Energiesystem entwickelt. Es verbindet Photovoltaik mit einer vertikalen Kleinwindkraftanlage und einem gemeinsamen…",
@@ -648,6 +678,17 @@
       ]
     },
     {
+      "title": "Eva Air, AIT, Microsoft in SAF deal to cut air freight CO2",
+      "teaser": "Taiwan&apos;s Eva Air has signed a memorandum of understanding with freight forwarder AIT Worldwide Logistics to expand a sustainable aviation fuel program that will deliver roughly 15,000 metric tons of Scope 3 emissions reductions to…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/082526-eva-air-ait-microsoft-in-saf-deal-to-cut-air-freight-co2",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-25T20:35:15+00:00",
+      "matched_keywords": [
+        "co2",
+        "emission"
+      ]
+    },
+    {
       "title": "AI to fuel global growth as investment spreads beyond US, IMF says",
       "teaser": "Managing director Kristalina Georgieva expects world economy to weather energy crisis ignited by Iran war",
       "link": "https://www.ft.com/content/6a76e78b-c493-409a-8694-6fa4ba9a674e?syn-25a6b1a6=1",
@@ -685,6 +726,16 @@
       "published": "2026-08-25T15:03:18+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Flex2Future advances floating wave, wind and solar platform toward pre-2030 demo",
+      "teaser": "Flex2Future, a Norwegian technology company developing floating offshore energy systems that combine wind, wave and solar power on a single platform, has wrapped up an extensive model testing campaign in Norway, putting its floating wave,…",
+      "link": "https://www.offshore-energy.biz/flex2future-advances-floating-wave-wind-and-solar-platform-toward-pre-2030-demo/",
+      "source": "offshore-energy",
+      "published": "2026-08-25T14:58:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -738,16 +789,6 @@
       ]
     },
     {
-      "title": "Seagrass plays a big role in reducing climate change- study finds",
-      "teaser": "Researchers estimate that seagrass stores between 24 million and 40 million tonnes of carbon globally The post Seagrass plays a big role in reducing climate change- study finds appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/25/seagrass-plays-a-big-role-in-reducing-climate-change-study-finds/",
-      "source": "energylivenews",
-      "published": "2026-08-25T13:01:20+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Comax baut Batteriespeicher-Portfolio in Frankreich deutlich aus",
       "teaser": "Comax France hat an zehn Standorten Batteriespeicher mit insgesamt 57 Megawatt Leistung und 114 Megawattstunden Kapazität fertiggestellt und an das Verteilnetz angeschlossen. Damit steigt das operative Speicherportfolio des zur Schweizer…",
       "link": "https://www.pv-magazine.de/2026/08/25/comax-baut-batteriespeicher-portfolio-in-frankreich-deutlich-aus/",
@@ -755,16 +796,6 @@
       "published": "2026-08-25T12:36:37+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "US reach 52GW of battery storage as capacity continues to grow",
-      "teaser": "The country had 43.6GW of utility-scale storage in 2025 and a further 8.3GW has been added in 2026 The post US reach 52GW of battery storage as capacity continues to grow appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/08/25/us-reach-52gw-of-battery-storage-as-capacity-continues-to-grow/",
-      "source": "energylivenews",
-      "published": "2026-08-25T12:00:00+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -951,15 +982,15 @@
       ]
     },
     {
-      "title": "Tata Power commissions 190.5MW solar plant in Rajasthan, India",
-      "teaser": "Tata Power Renewable Energy Limited (TPREL), a subsidiary of Tata Power, has commissioned a 190.5MW solar project in Kalasar, Bikaner, Rajasthan, India, as part of the SJVN Firm and Dispatchable Renewable Energy (FDRE) Tranche-1.",
-      "link": "https://www.power-technology.com/news/tata-power-commissions-solar-plant-rajasthan/",
-      "source": "power-technology",
-      "published": "2026-08-24T13:14:12+00:00",
+      "title": "Rise of negatively priced hours points to reshaping of Europe&apos;s power markets",
+      "teaser": "The increasing number of negatively priced hours across European power markets highlights a growing need for battery storage systems that can help maintain renewables&apos; profitability during peak solar generation. Negative prices, once…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082426-rise-of-negatively-priced-hours-points-to-reshaping-of-europes-power-markets",
+      "source": "spglobal-electric-power",
+      "published": "2026-08-24T12:32:51+00:00",
       "matched_keywords": [
+        "battery storage",
         "renewable",
-        "solar",
-        "subsid"
+        "solar"
       ]
     },
     {
@@ -2929,16 +2960,6 @@
       ]
     },
     {
-      "title": "„Das dicke Ende kommt erst noch“ : Klimaforscher Mojib Latif über 14.000 Hitzetote, 45 Grad in Deutschland und wie es weitergeht",
-      "teaser": "Meteorologe und Ozeanograf Mojib Latif erklärt, warum der Sommer 2026 mit 41,8 Grad und Tausenden Hitzetoten kein Zufall war. Und er sagt, was ihn an der Reaktion der Gesellschaft so wütend macht.",
-      "link": "https://www.tagesspiegel.de/wissen/nicht-autorisiert-klimaforscher-mojib-latif-uber-den-extremsommer-2026-das-kann-sehr-gefahrlich-werden-15976543.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3170,22 +3191,12 @@
     },
     {
       "title": "Europe urged to adapt energy systems to climate stress",
-      "teaser": null,
+      "teaser": "Noemie Baud",
       "link": "https://www.montelnews.com/news/52e1f729-936e-42c8-b529-b1b899d649e7/europe-must-adapt-energy-systems-to-climate-stress-analysts",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Italy drought gets some relief but power price risk lingers",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/e3dc6e52-f1cf-4fdf-9110-3185b1b3e101/italy-drought-gets-some-relief-but-power-price-risk-lingers",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
       ]
     },
     {
@@ -3213,6 +3224,17 @@
       "title": "Spain demands data centres run mostly on renewables",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/corporate-power/spain-demands-data-centres-run-mostly-on-renewables/2-1-2034348",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Equinor renewables shift triggered by need to 'move in line with society'",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/energy-transition/equinor-renewables-shift-triggered-by-need-to-move-in-line-with-society/2-1-2034689",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3287,17 +3309,6 @@
       ]
     },
     {
-      "title": "Cadeler revenues rocket as fleet strategy pays off",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/cadeler-revenues-rocket-as-fleet-strategy-pays-off/2-1-2033576",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "What Vestas needs for its offshore unit to make money next year",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/what-vestas-needs-for-its-offshore-unit-to-make-money-next-year/2-1-2031354",
@@ -3353,9 +3364,9 @@
       ]
     },
     {
-      "title": "US wind surges towards best year since 2021 – but next wave faces federal squeeze",
+      "title": "Cadeler revenues rocket as fleet strategy pays off",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/us-wind-surges-towards-best-year-since-2021-but-next-wave-faces-federal-squeeze/2-1-2032101",
+      "link": "https://www.rechargenews.com/suppliers/cadeler-revenues-rocket-as-fleet-strategy-pays-off/2-1-2033576",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
