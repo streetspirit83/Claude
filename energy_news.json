@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:48:22+00:00",
+  "generated_at": "2026-08-29T00:16:45+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -220,11 +220,11 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "iea-news",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 284,
+  "count": 286,
   "articles": [
+    {
+      "title": "Climate and AI to loom large in von der Leyen’s State of the Union",
+      "teaser": "Drafting is advancing on a speech that will set the course for the next phase of Ursula von der Leyen’s Commission.",
+      "link": "https://www.politico.eu/article/climate-migration-ai-ursula-von-der-leyen-state-of-the-union-speech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-08-28T17:11:14+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "India Tightens Approval Rules for Imported Nuclear Reactors",
+      "teaser": null,
+      "link": "https://energynews.pro/en/india-tightens-approval-rules-for-imported-nuclear-reactors",
+      "source": "energynews-pro",
+      "published": "2026-08-28T17:02:58+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
     {
       "title": "QatarEnergy Extends Force Majeure Over Five LNG Cargoes To Edison",
       "teaser": null,
@@ -381,7 +401,27 @@
       ]
     },
     {
-      "title": "Ontario municipality rejects Bedrock Energy’s Canada compressed air energy storage project rejected",
+      "title": "US, Canadian battery sectors eye &apos;huge potential&apos; to partner despite trade feud",
+      "teaser": "Rising trade tensions between the US and Canada have cast a shadow over efforts to create an integrated North American supply chain for lithium-ion batteries used in electric vehicles and energy storage systems, according to a panel of…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082826-us-canadian-battery-sectors-eye-huge-potential-to-partner-despite-trade-feud",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-28T15:12:10+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "EU carbon prices retreat from one-month highs as market awaits 2026 allocations",
+      "teaser": "European carbon prices touched a one-month high in the week to Aug. 28 before retreating, as summer liquidity remained subdued. EU Allowances traded at â&#x82;¬82.56/metric ton of carbon dioxide equivalent ($96.12/mtCO2e) at 1302 BST Aug.…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082826-eu-carbon-prices-retreat-from-one-month-highs-as-market-awaits-2026-allocations",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-28T14:56:15+00:00",
+      "matched_keywords": [
+        "carbon price"
+      ]
+    },
+    {
+      "title": "Ontario municipality rejects Bedrock Energy’s Canada compressed air energy storage project",
       "teaser": "Geothermal energy company Bedrock Energy has had its proposed compressed air energy storage (CAES) project in Huron County, Ontario, Canada rejected.",
       "link": "https://www.energy-storage.news/ontario-municipality-rejects-bedrock-energys-canada-compressed-air-energy-storage-project-rejected/",
       "source": "energy-storage-news",
@@ -726,16 +766,6 @@
       ]
     },
     {
-      "title": "Donald Trump Declares National Emergency Against Foreign Power Grid Equipment",
-      "teaser": null,
-      "link": "https://energynews.pro/en/donald-trump-declares-national-emergency-against-foreign-power-grid-equipment",
-      "source": "energynews-pro",
-      "published": "2026-08-27T17:17:54+00:00",
-      "matched_keywords": [
-        "power grid"
-      ]
-    },
-    {
       "title": "Greenvolt secures $254m UniCredit funding for Polish BESS projects",
       "teaser": "Greenvolt Power has obtained €218m ($254.2m) in financing from UniCredit to support its battery energy storage system (BESS) projects at Ełk and Turośń in Poland.",
       "link": "https://www.power-technology.com/news/greenvolt-254m-unicredit-funding-polish-bess/",
@@ -1010,17 +1040,6 @@
       "matched_keywords": [
         "wind farm",
         "wind power"
-      ]
-    },
-    {
-      "title": "Eva Air, AIT, Microsoft in SAF deal to cut air freight CO2",
-      "teaser": "Taiwan&apos;s Eva Air has signed a memorandum of understanding with freight forwarder AIT Worldwide Logistics to expand a sustainable aviation fuel program that will deliver roughly 15,000 metric tons of Scope 3 emissions reductions to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/082526-eva-air-ait-microsoft-in-saf-deal-to-cut-air-freight-co2",
-      "source": "spglobal-energy-transition",
-      "published": "2026-08-25T20:35:15+00:00",
-      "matched_keywords": [
-        "co2",
-        "emission"
       ]
     },
     {
@@ -2133,16 +2152,6 @@
       ]
     },
     {
-      "title": "US Senate passes Russia sanctions bill",
-      "teaser": "The legislation faces another potentially uphill battle in the House come September.",
-      "link": "https://www.politico.com/news/2026/08/07/senate-passes-russia-sanctions-bill-01029073?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-08-08T07:36:49+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Trump launched big new solar tariffs. Here's what it means.",
       "teaser": "A far-reaching new tariff on solar imports promises to both raise the cost of installing the clean energy source and strengthen efforts to reshore solar manufacturing. The White House announced the new tariffs Thursday on imported…",
       "link": "https://www.canarymedia.com/articles/solar/trump-new-solar-tariffs",
@@ -2873,6 +2882,16 @@
       ]
     },
     {
+      "title": "Deutschlands Israel-Kurs lähmt die EU : Sanktionen gegen Ben Gvir sind überfällig, aber nicht entscheidend",
+      "teaser": "Die Berliner Debatte über den Umgang mit rechtsextremen Ministern der Regierung Netanjahu verstellt den Blick darauf, dass Deutschland auf EU-Ebene Maßnahmen verhindert, die wirkungsvoller wären.",
+      "link": "https://www.tagesspiegel.de/internationales/deutschlands-israel-kurs-lahmt-die-eu-sanktionen-gegen-ben-gvir-sind-uberfallig-aber-nicht-entscheidend-15984931.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3144,9 +3163,9 @@
       ]
     },
     {
-      "title": "Vestas quality director departs Danish wind turbine supplier",
+      "title": "Rivian CFO jumps to GE Vernova as power giant rides demand boom",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/vestas-quality-director-departs-danish-wind-turbine-supplier/2-1-2035940",
+      "link": "https://www.rechargenews.com/onshore-wind/rivian-cfo-jumps-to-ge-vernova-as-power-giant-rides-demand-boom/2-1-2036321",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3177,6 +3196,17 @@
       ]
     },
     {
+      "title": "Vestas quality director departs Danish wind turbine supplier",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/vestas-quality-director-departs-danish-wind-turbine-supplier/2-1-2035940",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "UK minister insists renewables sector is creating jobs for former oil and gas workers",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/uk-minister-insists-renewables-sector-is-creating-jobs-for-former-oil-and-gas-workers/2-1-2035532",
@@ -3188,9 +3218,9 @@
       ]
     },
     {
-      "title": "How to build a battery – and why China dominates every step",
+      "title": "Orsted veteran heads to rival offshore wind player as department chief",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-storage/how-to-build-a-battery-and-why-china-dominates-every-step/2-1-2010792",
+      "link": "https://www.rechargenews.com/people/orsted-veteran-heads-to-rival-offshore-wind-player-as-department-chief/2-1-2035075",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3199,9 +3229,9 @@
       ]
     },
     {
-      "title": "Orsted veteran heads to rival offshore wind player as department chief",
+      "title": "EXCLUSIVE: Orsted sidelines Korea offshore wind projects as returns fail investment test",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-veteran-heads-to-rival-offshore-wind-player-as-department-chief/2-1-2035075",
+      "link": "https://www.rechargenews.com/auctions/orsted-sidelines-korea-offshore-wind-projects-as-returns-fail-investment-test/2-1-2034144",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3222,31 +3252,9 @@
       ]
     },
     {
-      "title": "Orsted insists Korean offshore wind portfolio has a future after memo leak",
+      "title": "How to build a battery – and why China dominates every step",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/orsted-insists-korean-offshore-wind-portfolio-has-a-future-after-memo-leak/2-1-2034750",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Spain demands data centres run mostly on renewables",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/spain-demands-data-centres-run-mostly-on-renewables/2-1-2034348",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EXCLUSIVE: Orsted sidelines Korea offshore wind projects as returns fail investment test",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/orsted-sidelines-korea-offshore-wind-projects-as-returns-fail-investment-test/2-1-2034144",
+      "link": "https://www.rechargenews.com/energy-storage/how-to-build-a-battery-and-why-china-dominates-every-step/2-1-2010792",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3299,9 +3307,20 @@
       ]
     },
     {
-      "title": "Equinor CFO discusses decision to abandon wind and renewables target",
+      "title": "Spain demands data centres run mostly on renewables",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-transition/equinor-renewables-shift-triggered-by-need-to-move-in-line-with-society/2-1-2034689",
+      "link": "https://www.rechargenews.com/corporate-power/spain-demands-data-centres-run-mostly-on-renewables/2-1-2034348",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Orsted insists Korean offshore wind portfolio has a future after memo leak",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/orsted-insists-korean-offshore-wind-portfolio-has-a-future-after-memo-leak/2-1-2034750",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
