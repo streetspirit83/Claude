@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T18:57:08+00:00",
+  "generated_at": "2026-08-30T21:49:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -280,32 +280,32 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
-      "items_found": 0,
+      "error": null,
+      "items_found": 15,
       "items_matched": 0
     },
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 2
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 4
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 277,
+  "count": 283,
   "articles": [
     {
       "title": "Russischer Angriff sprengt Munitionsdepot in der Nähe von Kyjiw – 37 Tote",
@@ -408,6 +408,26 @@
       "published": "2026-08-28T15:33:35+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "US, Canadian battery sectors eye &apos;huge potential&apos; to partner despite trade feud",
+      "teaser": "Rising trade tensions between the US and Canada have cast a shadow over efforts to create an integrated North American supply chain for lithium-ion batteries used in electric vehicles and energy storage systems, according to a panel of…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082826-us-canadian-battery-sectors-eye-huge-potential-to-partner-despite-trade-feud",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-28T15:12:10+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
+    {
+      "title": "EU carbon prices retreat from one-month highs as market awaits 2026 allocations",
+      "teaser": "European carbon prices touched a one-month high in the week to Aug. 28 before retreating, as summer liquidity remained subdued. EU Allowances traded at â&#x82;¬82.56/metric ton of carbon dioxide equivalent ($96.12/mtCO2e) at 1302 BST Aug.…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082826-eu-carbon-prices-retreat-from-one-month-highs-as-market-awaits-2026-allocations",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-28T14:56:15+00:00",
+      "matched_keywords": [
+        "carbon price"
       ]
     },
     {
@@ -660,6 +680,19 @@
       ]
     },
     {
+      "title": "NZ ETS reform needed as forestry supply risks undermining carbon prices: Commissioner",
+      "teaser": "New Zealand&apos;s Emissions Trading Scheme requires major reform as increasing forestry-driven unit supply risks undermining carbon prices and the country&apos;s climate objectives, according to a report released Aug. 26 by Parliamentary…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/082826-nz-ets-reform-needed-as-forestry-supply-risks-undermining-carbon-prices-commissioner",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-28T06:29:34+00:00",
+      "matched_keywords": [
+        "carbon price",
+        "climate",
+        "emissions trading",
+        "ets"
+      ]
+    },
+    {
       "title": "Interim reports of CATL, EVE, REPT and other listed Chinese BESS players: Leaders see steady earnings growth, second‑tier returns to profitability",
       "teaser": "China’s listed battery storage companies have entered the peak interim reporting season, with H1 2026 likely marking the broadest profit recovery in recent years.",
       "link": "https://www.energy-storage.news/interim-reports-of-catl-eve-rept-and-other-listed-chinese-bess-players-leaders-see-steady-earnings-growth-second-tier-returns-to-profitability/",
@@ -730,6 +763,16 @@
       "published": "2026-08-27T21:00:00+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Brazil leads Latin America in data center growth on renewable energy",
+      "teaser": "Brazil has been leading investments in data centers among Latin American countries, due to the country&apos;s high renewable generation capacity and local data consumption. By August, Brazil had a total of 706 megawatts of data center…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/082726-brazil-leads-latin-america-in-data-center-growth-on-renewable-energy",
+      "source": "spglobal-electric-power",
+      "published": "2026-08-27T19:45:47+00:00",
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -897,12 +940,33 @@
       ]
     },
     {
+      "title": "UK delays carbon market entry for waste incinerators",
+      "teaser": "The UK government has abandoned plans to bring waste incineration into its emissions trading scheme by 2028, saying it will set out a new timeline &quot;in due course&quot; as it works to finalize policy details for the sector. The…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/082626-uk-delays-carbon-market-entry-for-waste-incinerators",
+      "source": "spglobal-energy-transition",
+      "published": "2026-08-26T17:05:17+00:00",
+      "matched_keywords": [
+        "emissions trading"
+      ]
+    },
+    {
       "title": "California Legislature passes balcony solar bill",
       "teaser": "Californians could soon put solar panel kits on balconies and in backyards to lower their electric bills — without utility approval. On Wednesday, state lawmakers passed the Plug and Play Solar Act (Senate Bill 868) to legalize balcony…",
       "link": "https://www.canarymedia.com/articles/balcony-solar/california-lawmakers-pass-bill-oking-balcony-solar",
       "source": "canarymedia",
       "published": "2026-08-26T17:00:00+00:00",
       "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Brazil solar investment stalls as oversupply, curtailments deter developers",
+      "teaser": "Ongoing curtailments of renewable energy sources have led to a pause in investment in solar power plants in Brazil and slower growth in distributed generation units, but oversupply is expected to persist, according to the National Solar…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/082626-brazil-solar-investment-stalls-as-oversupply-curtailments-deter-developers",
+      "source": "spglobal-electric-power",
+      "published": "2026-08-26T16:38:58+00:00",
+      "matched_keywords": [
+        "renewable",
         "solar"
       ]
     },
