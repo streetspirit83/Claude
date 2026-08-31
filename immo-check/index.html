@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Immo-Check – Immobilien-Investment bewerten</title>
+  <meta name="description" content="Modulares Werkzeug zur Bewertung von Immobilien-Investments: Wohnung, Einfamilienhaus, Grundstück und Neubau – inklusive JSON-Import von Exposés und Finanzierungsangeboten.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🏠</text></svg>">
+</head>
+<body>
+
+<header class="kopf">
+  <div class="marke">
+    <h1>Immo-Check</h1>
+    <span id="kopfzeile" class="kopfzeile"></span>
+  </div>
+  <nav class="aktionen">
+    <button id="btn-import" class="primaer">JSON importieren</button>
+    <button id="btn-export" class="sekundaer">Exportieren</button>
+    <button id="btn-drucken" class="sekundaer">Drucken</button>
+    <button id="btn-reset" class="sekundaer">Zurücksetzen</button>
+  </nav>
+</header>
+
+<nav id="module" class="module" aria-label="Objekttyp"></nav>
+
+<main class="layout">
+  <aside class="eingaben">
+    <div id="formular"></div>
+    <section class="gruppe">
+      <h3>Finanzierungsangebote</h3>
+      <p class="gruppe-hinweis">Mehrere Angebote gegeneinander rechnen. Das gewählte Angebot bestimmt Cashflow und Kennzahlen.</p>
+      <div id="angebote"></div>
+    </section>
+  </aside>
+
+  <section id="ergebnis" class="ergebnis" aria-live="polite"></section>
+</main>
+
+<footer class="fuss">
+  <p>
+    Vereinfachte Modellrechnung, keine Steuer- oder Anlageberatung. Steuern werden mit einem konstanten
+    Grenzsteuersatz genähert (ohne Soli, Kirchensteuer und Progression). Prüfe Miete, Instandhaltung,
+    Bodenrichtwert und Konditionen immer an den Originalunterlagen.
+  </p>
+</footer>
+
+<dialog id="dlg-import" class="dialog">
+  <form method="dialog" class="dialog-schliessen"><button aria-label="Schließen">×</button></form>
+  <h2>JSON importieren</h2>
+  <p class="dialog-intro">
+    Exposé-Daten oder Finanzierungsangebote als JSON einfügen. Der passende Adapter wird automatisch
+    erkannt; anschließend siehst du, welche Felder übernommen wurden und was fehlt.
+  </p>
+
+  <div class="imp-zeile">
+    <label>Adapter
+      <select id="imp-adapter"></select>
+    </label>
+    <label>Datei
+      <input type="file" id="imp-datei" accept="application/json,.json">
+    </label>
+  </div>
+
+  <div id="drop" class="drop">
+    <textarea id="imp-text" rows="10" spellcheck="false" placeholder='{ "objektart": "Etagenwohnung", "kaufpreis": "289.000 €", "wohnflaeche": "78,5 m²", "kaltmiete": 845 }'></textarea>
+    <p class="drop-hinweis">Datei hierher ziehen oder Text einfügen</p>
+  </div>
+
+  <div id="imp-beispiele" class="beispiele">
+    <span>Beispiele:</span>
+    <button type="button" class="mini" data-beispiel="wohnung-expose.json">Wohnung</button>
+    <button type="button" class="mini" data-beispiel="efh-expose.json">Einfamilienhaus</button>
+    <button type="button" class="mini" data-beispiel="grundstueck-expose.json">Grundstück</button>
+    <button type="button" class="mini" data-beispiel="finanzierungsangebote.json">Finanzierung</button>
+    <button type="button" class="mini" data-beispiel="profil-wohnung.reip.json">Volles Profil</button>
+  </div>
+
+  <div id="imp-report" class="imp-report"></div>
+
+  <div class="dialog-aktionen">
+    <button type="button" id="imp-analyse" class="sekundaer">Analysieren</button>
+    <button type="button" id="imp-uebernehmen" class="primaer" disabled>Übernehmen</button>
+  </div>
+</dialog>
+
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "_hinweis": "Beispiel für einen Finanzierungsvergleich (Bank/Vermittler). Wird über den Adapter 'Finanzierungsangebot(e)' importiert und ersetzt nur den Finanzierungsteil des Profils.",
+  "angebote": [
+    {
+      "bank": "Sparkasse",
+      "nettodarlehensbetrag": 240000,
+      "sollzins": "3,49 %",
+      "effektivzins": "3,55 %",
+      "zinsbindung": "10 Jahre",
+      "anfangstilgung": "2,00 %",
+      "sondertilgung": "5 % p.a.",
+      "monatsrate": "1.098,00 €"
+    },
+    {
+      "bank": "Direktbank Online",
+      "nettodarlehensbetrag": 240000,
+      "sollzins": "3,29 %",
+      "effektivzins": "3,34 %",
+      "zinsbindung": 15,
+      "anfangstilgung": 2.5,
+      "sondertilgung": 5,
+      "monatsrate": 1158
+    },
+    {
+      "bank": "Volksbank (Volltilger)",
+      "nettodarlehensbetrag": 240000,
+      "sollzins": 3.75,
+      "zinsbindung": 20,
+      "anfangstilgung": 4.2,
+      "sondertilgung": 0
+    }
+  ]
+}

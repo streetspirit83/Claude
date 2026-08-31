@@ -1,0 +1,38 @@
+{
+  "schema": "reip/v1",
+  "meta": { "bezeichnung": "Beispiel: vermietete ETW", "quelle": "Handeingabe", "notizen": "Vollständiges Profil – Adapter 'reip', ersetzt alle Eingaben." },
+  "objekt": {
+    "typ": "wohnung",
+    "adresse": { "strasse": "Musterweg 12", "plz": "50733", "ort": "Köln" },
+    "baujahr": 1972, "wohnflaeche": 78.5, "grundstuecksflaeche": 0, "zimmer": 3, "etage": 2,
+    "zustand": "gut", "denkmal": false, "erbbaurecht": false, "erbbauzins_jahr": 0,
+    "energie": { "kennwert": 148, "klasse": "E", "traeger": "Gas" }
+  },
+  "kauf": {
+    "kaufpreis": 289000, "grunderwerbsteuer_pct": 6.5, "notar_pct": 1.5, "makler_pct": 3.57,
+    "sonstige_nebenkosten": 0, "modernisierung": 15000, "bodenwert_anteil_pct": 20
+  },
+  "ertrag": {
+    "nutzung": "vermietung", "kaltmiete_monat": 845, "miete_marktueblich_monat": 980,
+    "stellplatzmiete_monat": 0, "mietsteigerung_pa_pct": 1.5, "leerstand_pct": 2
+  },
+  "kosten": {
+    "hausgeld_monat": 268, "nicht_umlagefaehig_monat": 95, "instandhaltung_eur_qm_jahr": 12,
+    "verwaltung_eur_monat": 0, "grundsteuer_jahr": 312, "versicherung_jahr": 0, "kostensteigerung_pa_pct": 2
+  },
+  "finanzierung": {
+    "eigenkapital": 70000,
+    "angebote": [
+      { "id": "a1", "name": "Sparkasse", "sollzins_pct": 3.49, "zinsbindung_jahre": 10, "tilgung_pct": 2, "sondertilgung_pct_pa": 5, "effektivzins_pct": 3.55, "notiz": "" },
+      { "id": "a2", "name": "Direktbank", "sollzins_pct": 3.29, "zinsbindung_jahre": 15, "tilgung_pct": 2.5, "sondertilgung_pct_pa": 5, "effektivzins_pct": 3.34, "notiz": "längere Bindung" }
+    ],
+    "aktives_angebot": "a1",
+    "anschlusszins_pct": 4.5,
+    "rate_nach_zinsbindung": "annuitaet_halten"
+  },
+  "steuer": { "grenzsteuersatz_pct": 42, "afa_satz_pct": 2 },
+  "annahmen": {
+    "betrachtungsdauer_jahre": 15, "wertsteigerung_pa_pct": 1.5, "verkaufskosten_pct": 3,
+    "alternativrendite_pa_pct": 5, "vergleichsmiete_monat": 980
+  }
+}
