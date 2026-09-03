@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:01:05+00:00",
+  "generated_at": "2026-09-03T18:59:24+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -85,7 +85,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 5,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 6
     },
     {
       "name": "montelnews",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "energymonitor",
@@ -290,12 +290,12 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "status": "empty",
+      "method": null,
+      "feed_url": null,
       "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "iea-news",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "energylivenews",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,80 @@
       "items_matched": 0
     }
   ],
-  "count": 357,
+  "count": 362,
   "articles": [
+    {
+      "title": "Big step taken in cutting SF-6",
+      "teaser": "A new deal will see Daikin produce a key component in Germany from 2027, supporting Hitachi Energy’s growing range of lower-emission power grid technology The post Big step taken in cutting SF-6 appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/03/big-step-taken-in-cutting-sf-6/",
+      "source": "energylivenews",
+      "published": "2026-09-03T16:00:00+00:00",
+      "matched_keywords": [
+        "emission",
+        "power grid"
+      ]
+    },
+    {
+      "title": "Rosatom Weighs Murmansk Site for Floating Nuclear Power Plant Construction",
+      "teaser": null,
+      "link": "https://energynews.pro/en/rosatom-weighs-murmansk-site-for-floating-nuclear-power-plant-construction",
+      "source": "energynews-pro",
+      "published": "2026-09-03T15:43:11+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Slovakia rejects EU’s plan to lock in Russia sanctions for 12 months",
+      "teaser": "The bloc’s ambassadors could not find common ground on the proposal, with Bratislava being the sole holdout.",
+      "link": "https://www.politico.eu/article/slovakia-rejects-eu-plan-lock-in-russia-sanctions-12-months/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-09-03T15:33:24+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "MN8 Energy, Google and Eos Energy Launch Solar-Storage Project in West Virginia",
+      "teaser": null,
+      "link": "https://energynews.pro/en/mn8-energy-google-and-eos-energy-launch-solar-storage-project-in-west-virginia",
+      "source": "energynews-pro",
+      "published": "2026-09-03T15:02:36+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "International competitors advance in hydrogen-powered flight – is the UK being left behind?",
+      "teaser": "New report from HIA identifies weaknesses in UK's hydrogen-powered flight sector The post International competitors advance in hydrogen-powered flight &#8211; is the UK being left behind? appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/03/international-competitors-advance-in-hydrogen-powered-flight-is-the-leaving-the-uk-behind/",
+      "source": "energylivenews",
+      "published": "2026-09-03T15:00:00+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Münchner Kirche mit Photovoltaik-Anlage und Batteriespeicher ausgestattet",
+      "teaser": "Auf dem 95 Jahre alten Kirchendach sind komplett schwarze Solarmodule mit 65 Kilowatt Leistung installiert. Im Keller stehen zwei Batteriespeicher mit je knapp 30 Kilowattstunden Kapazität. So will die Kirche möglichst viel Solarstrom…",
+      "link": "https://www.pv-magazine.de/2026/09/03/muenchner-kirche-mit-photovoltaik-anlage-und-batteriespeicher-ausgestattet/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-03T14:26:54+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Lack of gas storage pushes prices to 3 year high",
+      "teaser": "Winter fears emerge during gas price surge and lack of storage The post Lack of gas storage pushes prices to 3 year high appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/03/lack-of-gas-storage-pushes-prices-to-3-year-high/",
+      "source": "energylivenews",
+      "published": "2026-09-03T14:00:00+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
     {
       "title": "China cuts CO2 emissions by 1% amid plunging oil demand",
       "teaser": null,
@@ -390,6 +462,16 @@
       "matched_keywords": [
         "photovoltaik",
         "solar"
+      ]
+    },
+    {
+      "title": "Equinor starts operations at 100MW Citrus Flatts facility in Texas",
+      "teaser": "Equinor has commenced operations at the Citrus Flatts energy storage facility in Harlingen, Texas, marking its largest energy storage project in the US to date.",
+      "link": "https://www.power-technology.com/news/equinor-operations-100mw-citrus-flatts-texas/",
+      "source": "power-technology",
+      "published": "2026-09-03T12:40:05+00:00",
+      "matched_keywords": [
+        "energy storage"
       ]
     },
     {
@@ -464,6 +546,16 @@
       ]
     },
     {
+      "title": "German cabinet approves auction offshore wind reform plan",
+      "teaser": "The German government has approved plans to reform offshore wind power allocation in the country that include proposals for two-stage auctions backstopped by contracts for difference (CfDs).",
+      "link": "https://www.windpowermonthly.com/article/1969050/german-cabinet-approves-auction-offshore-wind-reform-plan",
+      "source": "windpowermonthly",
+      "published": "2026-09-03T10:37:12+00:00",
+      "matched_keywords": [
+        "wind power"
+      ]
+    },
+    {
       "title": "First monopile installed at OranjeWind offshore wind farm",
       "teaser": "RWE has installed the first of 53 monopiles for the 760 MW OranjeWind offshore wind farm, with installation set for completion in early 2027.",
       "link": "https://www.power-technology.com/news/first-monopile-installed-at-oranjewind-offshore-wind-farm/",
@@ -512,6 +604,16 @@
       "published": "2026-09-03T09:19:41+00:00",
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "Equinor to deploy cable monitoring tech at 9-year-old offshore wind farm",
+      "teaser": "Norway&#8217;s energy company Equinor has awarded Proserv with a contract for the deployment of [&#8230;] The post Equinor to deploy cable monitoring tech at 9-year-old offshore wind farm appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/equinor-to-deploy-cable-monitoring-tech-at-9-year-old-offshore-wind-farm/",
+      "source": "offshore-energy",
+      "published": "2026-09-03T09:18:29+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -627,13 +729,13 @@
       ]
     },
     {
-      "title": "Switzerland and Denmark Announce a Biogenic CO2 Capture Chain",
-      "teaser": null,
-      "link": "https://energynews.pro/en/switzerland-and-denmark-announce-a-biogenic-co2-capture-chain",
-      "source": "energynews-pro",
-      "published": "2026-09-03T06:02:47+00:00",
+      "title": "AI-powered digital twin to be developed for wave energy technology",
+      "teaser": "Eco Wave Power&#8217;s U.S. subsidiary has entered into an agreement with Germany-based AI engineering [&#8230;] The post AI-powered digital twin to be developed for wave energy technology appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/ai-powered-digital-twin-to-be-developed-for-wave-energy-technology/",
+      "source": "offshore-energy",
+      "published": "2026-09-03T06:25:35+00:00",
       "matched_keywords": [
-        "co2"
+        "subsid"
       ]
     },
     {
@@ -654,36 +756,6 @@
       "published": "2026-09-03T03:32:57+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "City of Oulu and ABO Energy Sign Agreement for 600 MW Hydrogen Plant",
-      "teaser": null,
-      "link": "https://energynews.pro/en/city-of-oulu-and-abo-energy-sign-agreement-for-600-mw-hydrogen-plant",
-      "source": "energynews-pro",
-      "published": "2026-09-03T01:02:08+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Qatar and the United Arab Emirates Bypass the Strait of Hormuz for LNG",
-      "teaser": null,
-      "link": "https://energynews.pro/en/qatar-and-the-united-arab-emirates-bypass-the-strait-of-hormuz-for-lng",
-      "source": "energynews-pro",
-      "published": "2026-09-02T23:02:15+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
-      "title": "CVC DIF Completes Acquisition of 272 MW Gabriela Solar-Storage Project in Chile",
-      "teaser": null,
-      "link": "https://energynews.pro/en/cvc-dif-completes-acquisition-of-272-mw-gabriela-solar-storage-project-in-chile",
-      "source": "energynews-pro",
-      "published": "2026-09-02T21:01:44+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -710,6 +782,16 @@
       ]
     },
     {
+      "title": "WATCH: $12.5B gas project closing in on first LNG cargo as 10-storey module comes to Australia",
+      "teaser": "Woodside has confirmed the arrival of the final and heaviest module for its liquefied natural gas (LNG) project upgrade, emphasizing that a 10-story, 4,500-ton structure marks another step toward the first LNG cargo from its $12.5 billion…",
+      "link": "https://www.offshore-energy.biz/watch-12-5b-gas-project-closing-in-on-first-lng-cargo-as-10-storey-module-comes-to-australia/",
+      "source": "offshore-energy",
+      "published": "2026-09-02T14:56:00+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Die EU ringt um eine geeignete Reaktion auf den Anschlag in Leipzig",
       "teaser": "Die europäischen Außenminister bekräftigen ihren bestehenden Plan, Sanktionen gegen Hunderte von Russen und Unternehmen zu verhängen.",
       "link": "https://euractiv.com/de/news/die-eu-ringt-um-eine-geeignete-reaktion-auf-den-anschlag-in-leipzig/",
@@ -720,16 +802,6 @@
       ]
     },
     {
-      "title": "Richard Tice says rising energy bills are caused by net zero targets",
-      "teaser": "The Met Office have confirmed that this summer has been the hottest on record The post Richard Tice says rising energy bills are caused by net zero targets appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/02/richard-tice-says-rising-energy-bills-are-caused-by-net-zero-targets/",
-      "source": "energylivenews",
-      "published": "2026-09-02T14:29:15+00:00",
-      "matched_keywords": [
-        "net zero"
-      ]
-    },
-    {
       "title": "Solarbranche mobilisiert gegen starre Wirkleistungsbegrenzung von Photovoltaik-Anlagen",
       "teaser": "Enpal und 1Komma5° fordern Ausnahmen für direkt vermarktete Anlagen und stärkere Verpflichtungen für Netzbetreiber. Der BDSH sieht ebenfalls ein Kaschieren von Versäumnissen bei Digitalisierung und Flexibilisierung der Netze.",
       "link": "https://www.pv-magazine.de/2026/09/02/solarbranche-mobilisiert-gegen-starre-wirkleistungsbegrenzung-von-photovoltaik-anlagen/",
@@ -737,16 +809,6 @@
       "published": "2026-09-02T13:28:30+00:00",
       "matched_keywords": [
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "MiSpeL: 25 Prozent Rendite für Gewerbespeicher mit Arbitragehandel",
-      "teaser": "Wenn die MiSpeL-Regelung im Oktober in Kraft tritt, wird Arbitragehandel mit Batteriespeichern auch hinter dem Zähler deutlich wirtschaftlicher. Minimum Energy hat durchgerechnet, wie sich Auslegung und Betrieb unter den neuen Bedingungen…",
-      "link": "https://www.pv-magazine.de/2026/09/02/mispel-25-prozent-rendite-fuer-gewerbespeicher-mit-arbitragehandel/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-02T13:27:52+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -982,7 +1044,7 @@
       "title": "Solar power purchase contracts dominate first half of 2026",
       "teaser": "While the year began with several notable nuclear agreements, solar power remained the clean energy source of choice in the US during the first half of 2026. In the first half of 2026, offtakers signed 96 deals totaling 28.1 gigawatts of…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/090126-solar-power-purchase-contracts-dominate-first-half-of-2026",
-      "source": "spglobal-electric-power",
+      "source": "spglobal-energy-transition",
       "published": "2026-09-01T14:42:00+00:00",
       "matched_keywords": [
         "nuclear",
@@ -1088,16 +1150,6 @@
       "published": "2026-09-01T07:30:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "JERA, JERA Cross launch decarbonization project for rice packaging in Japan",
-      "teaser": "JERA Co. Inc. (JERA), JERA Cross Co. Inc. and Japan Pack Rice Oga Co. Ltd. have launched an initiative to advance energy transition in Akita Prefecture&apos;s food industry through the decarbonization of packaged rice production, JERA said…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/090126-jera-jera-cross-launch-decarbonization-project-for-rice-packaging-in-japan",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-01T05:15:13+00:00",
-      "matched_keywords": [
-        "decarbon"
       ]
     },
     {
@@ -1332,17 +1384,6 @@
       "published": "2026-08-28T07:42:09+00:00",
       "matched_keywords": [
         "wind power"
-      ]
-    },
-    {
-      "title": "INTERVIEW: ADB highlights rapid clean energy leapfrogging in Asia-Pacific",
-      "teaser": "The Asian Development Bank is scaling up support for regional power grids and critical mineral supply chains across Asia-Pacific, arguing that the region&apos;s pursuit of energy security in the wake of the Middle East conflict has…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/082726-interview-adb-highlights-rapid-clean-energy-leapfrogging-in-asia-pacific",
-      "source": "spglobal-electric-power",
-      "published": "2026-08-28T05:39:47+00:00",
-      "matched_keywords": [
-        "energy security",
-        "power grid"
       ]
     },
     {
@@ -2265,17 +2306,6 @@
       "published": "2026-08-18T02:03:59+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Ukraine urges EU sanctions on Rosatom over allegations of nuclear safety violations",
-      "teaser": "Foreign minister pointed to a POLITICO investigation as a reason to act.",
-      "link": "https://www.politico.eu/article/ukraine-eu-sanctions-rosatom-nuclear-safety-violations-andrii-sybiha/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-08-17T16:13:23+00:00",
-      "matched_keywords": [
-        "nuclear",
-        "sanction"
       ]
     },
     {
@@ -3617,6 +3647,26 @@
       ]
     },
     {
+      "title": "Verordnung zur Änderung der Erneuerbare-Energien-Verordnung und der Marktstammdatenregisterverordnung infolge der Abwicklung des Regionalnachweisregisters sowie zur Neuregelung der Subdelegation an das Umweltbundesamt",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/verordnung-zur-aenderung-der-erneuerbare-energien-verordnung-und-der-marktstammdatenregisterverordnung-infolge-der-abwicklung-des-regionalnachweisregisters-sowie-zur-neuregelung-der-subdelegation-an-das-umweltbundesamt",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Nach Stromnetz-Sabotage in Brandenburg : Ermittler suchen nach den Tätern – Bekennerschreiben aufgetaucht",
+      "teaser": "Die Polizei setzt ihre Ermittlungen nach dem Angriff auf das Stromnetz bei Jänschwalde fort. Die Beamten prüfen derzeit die Authentizität eines Bekennerschreibens.",
+      "link": "https://www.tagesspiegel.de/potsdam/brandenburg/dpa-ermittler-suchen-nach-den-tatern--bekennerschreiben-aufgetaucht-16012260.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "stromnetz"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -3858,6 +3908,16 @@
       ]
     },
     {
+      "title": "Nordic power prices, liquidity jump on low reserves – experts",
+      "teaser": "Jean-Paul Harreman",
+      "link": "https://www.montelnews.com/news/99658c44-3d87-4b1c-8f9b-bc6d5a8a9893/nordic-power-prices-liquidity-jump-on-low-reserves-experts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
       "title": "EU gas prices may jump further 10% on long Hormuz closure",
       "teaser": "Jean-Paul Harreman",
       "link": "https://www.montelnews.com/news/5c4e37cc-b9fe-43f9-9f8c-ee2aed51de2d/eu-gas-prices-may-jump-further-10-on-long-hormuz-closure-bank",
@@ -3869,7 +3929,7 @@
     },
     {
       "title": "Soaring EU gas prices may be at risk of “falling off cliff”",
-      "teaser": "Jean-Paul Harreman",
+      "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/3dd01c21-ece2-4621-ba40-c26a4f7d92a7/soaring-eu-gas-prices-may-be-at-risk-of-falling-off-cliff",
       "source": "montelnews",
       "published": null,
@@ -3879,7 +3939,7 @@
     },
     {
       "title": "Battery growth could allow solar power to be used at night",
-      "teaser": "Today's fuel mix",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/27e15906-818c-44bb-9bf9-3261f211e60d/battery-growth-could-allow-solar-power-to-be-used-at-night",
       "source": "montelnews",
       "published": null,
@@ -3895,16 +3955,6 @@
       "published": null,
       "matched_keywords": [
         "co2"
-      ]
-    },
-    {
-      "title": "Renewed Hormuz flows could cut gas price a third",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/e57db04a-a1ae-4301-8e6f-28f2ce44aa58/renewed-hormuz-flows-could-cut-gas-price-one-third-commerzbank",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
       ]
     },
     {
