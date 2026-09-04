@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:53:26+00:00",
+  "generated_at": "2026-09-04T18:43:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "montelnews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 5
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,49 @@
       "items_matched": 0
     }
   ],
-  "count": 359,
+  "count": 358,
   "articles": [
+    {
+      "title": "Venezuela and GE Vernova Sign Agreement on National Power Grid",
+      "teaser": null,
+      "link": "https://energynews.pro/en/venezuela-and-ge-vernova-sign-agreement-on-national-power-grid",
+      "source": "energynews-pro",
+      "published": "2026-09-04T16:31:34+00:00",
+      "matched_keywords": [
+        "power grid"
+      ]
+    },
+    {
+      "title": "Low carbon and fossil fuels are growing in parallel",
+      "teaser": "Grid bottlenecks and storage now matter more than new wind and solar, says new report The post Low carbon and fossil fuels are growing in parallel appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/04/low-carbon-and-fossil-fuel-are-growing-in-parallel/",
+      "source": "energylivenews",
+      "published": "2026-09-04T15:30:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "ABB entwickelt intelligentes Energiemanagement für Fußballstadion von Borussia Dortmund",
+      "teaser": "Eine Photovoltaik-Anlage mit fünf Megawatt Leistung ist schon auf dem Stadiondach des Bundesligisten installiert. Ein Speicher mit 3,75 Megawattstunden soll in diesem Jahr noch folgen. Für das intelligente Management der Energie,…",
+      "link": "https://www.pv-magazine.de/2026/09/04/abb-entwickelt-intelligentes-energiemanagement-fuer-fussballstadion-von-borussia-dortmund/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-04T14:35:00+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Fox ESS steigt mit Siliziumkarbid-Technologie von Infineon die Effizienz seiner Heimspeicher auf bis zu 98,47 Prozent",
+      "teaser": "Die Schaltverluste in den Batteriespeichern lassen sich mit den Siliziumakarbid-Halbleitern um 70 Prozent reduzieren. Sie sorgen auch mit Top-Side-Kühlung für ein optimiertes thermisches Verhalten sowie eine hohe Systemeffizienz und…",
+      "link": "https://www.pv-magazine.de/2026/09/04/fox-ess-steigt-mit-siliziumkarbid-technologie-von-infineon-die-effizienz-seiner-heimspeicher-auf-bis-zu-9847-prozent/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-04T14:08:11+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
     {
       "title": "Equinor’s East Point Energy begins operations at 200MWh Texas BESS",
       "teaser": "East Point Energy, owned by Norwegian state-owned energy company Equinor has completed construction and started operations at the 100MW/200MWh Citrus Flatts energy storage project in Harlingen, Texas, US.",
@@ -388,6 +429,16 @@
       "published": "2026-09-04T12:11:48+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "Solar is now bigger than coal in China — and yet still way behind",
+      "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. Solar is beating coal in China. Sorta. But also not at all. Let me explain. An eye-popping new chart made the rounds this week. It…",
+      "link": "https://www.canarymedia.com/articles/solar/did-solar-beat-coal-china",
+      "source": "canarymedia",
+      "published": "2026-09-04T12:00:00+00:00",
+      "matched_keywords": [
+        "solar"
       ]
     },
     {
@@ -450,17 +501,6 @@
       "published": "2026-09-04T10:01:54+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "ABB entwickelt intelligentes Energiemanagement für Fußballstadion von Borussia Dortmund",
-      "teaser": "Eine Photovoltaik-Anlage mit fünf Megawatt Leistung ist schon auf dem Stadiondach des Bundesligisten installiert. Ein Speicher mit 3,75 Megawattstunden soll in diesem Jahr noch folgen. Für das intelligente Management der Energie,…",
-      "link": "https://www.pv-magazine.de/2026/09/04/abb-entwickelt-intelligentes-energiemanagement-fuer-fussballstadion-von-borussia-dortmund/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-04T09:55:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
       ]
     },
     {
@@ -597,16 +637,6 @@
       ]
     },
     {
-      "title": "Carbon pricing could slash energy bills by £2.3 billion",
-      "teaser": "A new report proposes a Decarbonisation Rebate that would recover part of the revenue received by low-carbon generators The post Carbon pricing could slash energy bills by £2.3 billion appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/04/carbon-pricing-slashes-energy-bills-by-almost-2-3-billion/",
-      "source": "energylivenews",
-      "published": "2026-09-04T07:00:00+00:00",
-      "matched_keywords": [
-        "decarbon"
-      ]
-    },
-    {
       "title": "Rosatom Signs EPC Contract for Kazakhstan's Nuclear Power Plant",
       "teaser": null,
       "link": "https://energynews.pro/en/rosatom-signs-epc-contract-for-kazakhstans-nuclear-power-plant",
@@ -698,37 +728,6 @@
       ]
     },
     {
-      "title": "Energy Storage Canada Recommends 500 MW of Distributed Storage in Ontario",
-      "teaser": null,
-      "link": "https://energynews.pro/en/energy-storage-canada-recommends-500-mw-of-distributed-storage-in-ontario",
-      "source": "energynews-pro",
-      "published": "2026-09-04T02:02:09+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Brimex Energy Becomes First Mexican Renewable Gas Project Registered on CleanCounts",
-      "teaser": null,
-      "link": "https://energynews.pro/en/brimex-energy-becomes-first-mexican-renewable-gas-project-registered-on-cleancounts",
-      "source": "energynews-pro",
-      "published": "2026-09-04T00:03:19+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Big step taken in cutting SF-6",
-      "teaser": "A new deal will see Daikin produce a key component in Germany from 2027, supporting Hitachi Energy’s growing range of lower-emission power grid technology The post Big step taken in cutting SF-6 appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/03/big-step-taken-in-cutting-sf-6/",
-      "source": "energylivenews",
-      "published": "2026-09-03T16:00:00+00:00",
-      "matched_keywords": [
-        "emission",
-        "power grid"
-      ]
-    },
-    {
       "title": "Slovakia rejects EU’s plan to lock in Russia sanctions for 12 months",
       "teaser": "The bloc’s ambassadors could not find common ground on the proposal, with Bratislava being the sole holdout.",
       "link": "https://www.politico.eu/article/slovakia-rejects-eu-plan-lock-in-russia-sanctions-12-months/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -736,16 +735,6 @@
       "published": "2026-09-03T15:33:24+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "International competitors advance in hydrogen-powered flight – is the UK being left behind?",
-      "teaser": "New report from HIA identifies weaknesses in UK's hydrogen-powered flight sector The post International competitors advance in hydrogen-powered flight &#8211; is the UK being left behind? appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/03/international-competitors-advance-in-hydrogen-powered-flight-is-the-leaving-the-uk-behind/",
-      "source": "energylivenews",
-      "published": "2026-09-03T15:00:00+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -778,6 +767,16 @@
       "published": "2026-09-03T12:40:05+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "EU allowances to remain well supported in Q4 but policy risk adds pressure",
+      "teaser": "Nearest December EU allowances are expected to trade in a firm range in the fourth quarter of 2026, with a strong energy complex and the September compliance deadline providing support, though uncertainty over proposed EU Emissions Trading…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/090326-eu-allowances-to-remain-well-supported-in-q4-but-policy-risk-adds-pressure",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-03T12:37:18+00:00",
+      "matched_keywords": [
+        "emissions trading"
       ]
     },
     {
@@ -832,9 +831,9 @@
       ]
     },
     {
-      "title": "German cabinet approves auction offshore wind reform plan",
+      "title": "German cabinet approves offshore wind auction reform plan",
       "teaser": "The German government has approved plans to reform offshore wind power allocation in the country that include proposals for two-stage auctions backstopped by contracts for difference (CfDs).",
-      "link": "https://www.windpowermonthly.com/article/1969050/german-cabinet-approves-auction-offshore-wind-reform-plan",
+      "link": "https://www.windpowermonthly.com/article/1969050/german-cabinet-approves-offshore-wind-auction-reform-plan",
       "source": "windpowermonthly",
       "published": "2026-09-03T10:37:12+00:00",
       "matched_keywords": [
@@ -1211,16 +1210,6 @@
       "published": "2026-09-01T12:20:52+00:00",
       "matched_keywords": [
         "forderung"
-      ]
-    },
-    {
-      "title": "INTERVIEW: EU CBAM could fuel drive toward global carbon price: GHG Protocol CEO",
-      "teaser": "A global carbon price could emerge within two to five years, driven by the EU carbon border adjustment mechanism, prompting other governments to adopt similar tariffs on carbon-intensive imports, Greenhouse Gas Protocol CEO Tim Mohin told…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/090126-interview-eu-cbam-could-fuel-drive-toward-global-carbon-price-ghg-protocol-ceo",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-01T11:17:20+00:00",
-      "matched_keywords": [
-        "carbon price"
       ]
     },
     {
@@ -3511,16 +3500,6 @@
       ]
     },
     {
-      "title": "Balcony solar is sweeping the US, but who's actually selling it?",
-      "teaser": "A hands-on form of solar power has electrified the U.S. in the past year. Plug-in solar lets anyone hang a few panels in the sunlight and send the power straight into their wall sockets to partially offset their utility bill. It extends…",
-      "link": "https://www.canarymedia.com/articles/solar/balcony-solar-for-sale-us",
-      "source": "canarymedia",
-      "published": "2026-07-21T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Versuch der Verzahnung von Netzausbau und Erneuerbaren",
       "teaser": "Die Referentenentwürfe aus dem BMWE zum EEG 2027 und zum Netzanschlusspaket tragen den Kritikpunkten der Branche zum Teil Rechnung. Investitionsunsicherheiten für Projekte in Engpassgebieten und kleine Solaranlagen bestehen fort.",
       "link": "https://www.energiezukunft.eu/politik/versuch-der-verzahnung-von-netzausbau-und-erneuerbaren",
@@ -3653,6 +3632,17 @@
       "published": null,
       "matched_keywords": [
         "erneuerbare"
+      ]
+    },
+    {
+      "title": "Anschläge auf Umspann­werke : Dobrindt spricht von „Klimaextremismus“ – SEK stürmt Truck von mutmaßlichem Saboteur",
+      "teaser": "Mindestens ein halbes Dutzend Sabotageversuche gegen das Stromnetz sorgen für Aufsehen, es gibt Bekennerschreiben. Das Fahrzeug des Verfassers hat die Polizei in NRW gefunden, doch er selbst ist flüchtig.",
+      "link": "https://www.tagesspiegel.de/politik/anschlage-auf-umspannwerke-dobrindt-spricht-von-klimaextremismus--sek-sturmt-truck-von-mutmasslichem-saboteur-16015953.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima",
+        "stromnetz"
       ]
     },
     {
@@ -3897,6 +3887,16 @@
       ]
     },
     {
+      "title": "LNG tankers cautious despite oil ships’ Hormuz return",
+      "teaser": "Jean-Paul Harreman",
+      "link": "https://www.montelnews.com/news/f61f7c4a-ccb8-48b2-ac28-3e25e8320537/lng-tankers-cautious-despite-oil-ships-hormuz-return-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Nordic power prices, liquidity jump on low reserves – experts",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/99658c44-3d87-4b1c-8f9b-bc6d5a8a9893/nordic-power-prices-liquidity-jump-on-low-reserves-experts",
@@ -3910,16 +3910,6 @@
       "title": "EU gas prices may jump further 10% on long Hormuz closure",
       "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/5c4e37cc-b9fe-43f9-9f8c-ee2aed51de2d/eu-gas-prices-may-jump-further-10-on-long-hormuz-closure-bank",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
-      "title": "Soaring EU gas prices may be at risk of “falling off cliff”",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/3dd01c21-ece2-4621-ba40-c26a4f7d92a7/soaring-eu-gas-prices-may-be-at-risk-of-falling-off-cliff",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
