@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:03:26+00:00",
+  "generated_at": "2026-09-09T18:57:18+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -85,7 +85,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 4,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 10
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -220,11 +220,11 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "iea-news",
@@ -368,8 +368,63 @@
       "items_matched": 0
     }
   ],
-  "count": 363,
+  "count": 361,
   "articles": [
+    {
+      "title": "Kremlin Blames European Gas Price Surge on Rejection of Russian Supply",
+      "teaser": null,
+      "link": "https://energynews.pro/en/kremlin-blames-european-gas-price-surge-on-rejection-of-russian-supply",
+      "source": "energynews-pro",
+      "published": "2026-09-09T18:03:06+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
+      "title": "Enerparc-Schwestergesellschaft meldet Insolvenz in Eigenverwaltung an",
+      "teaser": "Pvwerk ist auf die Installation von Photovoltaik-Kraftwerken und Batteriespeichern spezialisiert. Mit Hilfe des Verfahrens sollen möglichst viele der etwa 100 im Bau befindliche Solarparks und Batteriespeicher, die im Auftrag der Enerparc…",
+      "link": "https://www.pv-magazine.de/2026/09/09/enerparc-schwestergesellschaft-meldet-insolvenz-in-eigenverwaltung-an/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-09T15:41:59+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Marktwert Solar im August bei 6,359 Cent pro Kilowattstunde",
+      "teaser": "Gegenüber dem Juli hat sich Marktwert damit um mehr als einen Cent erhöht. In 226 Viertelstunden war in dem Monat ein negativer Börsenstrompreis zu verzeichnen. Der Überschuss auf dem EEG-Konto stieg weiter an.",
+      "link": "https://www.pv-magazine.de/2026/09/09/marktwert-solar-im-august-bei-6359-cent-pro-kilowattstunde/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-09T15:06:31+00:00",
+      "matched_keywords": [
+        "eeg",
+        "solar",
+        "strompreis"
+      ]
+    },
+    {
+      "title": "Germany’s renewable capacity grows as coal is phased out",
+      "teaser": "Solar and wind power are expected to drive the expansion The post Germany&#8217;s renewable capacity grows as coal is phased out appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/09/germanys-renewable-capacity-grows-as-coal-is-phased-out/",
+      "source": "energylivenews",
+      "published": "2026-09-09T15:00:00+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar",
+        "wind power"
+      ]
+    },
+    {
+      "title": "INFOGRAPHIC: Regulatory fragmentation throws wrench into Europe&apos;s biomethane market growth",
+      "teaser": "As governments race to scale renewable gases, biomethane markets are being shaped by a patchwork of rules that often differ across countries. Counterparties need to navigate shifting requirements for sustainability, certification, grid…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/090926-infographic-regulatory-fragmentation-throws-wrench-into-europes-biomethane-market-growth",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-09T14:36:01+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
     {
       "title": "2030 net zero goals scrapped in US states",
       "teaser": "US states scale back climate targets amid federal opposition and rising energy costs The post 2030 net zero goals scrapped in US states appeared first on Energy Live News .",
@@ -449,6 +504,17 @@
       "published": "2026-09-09T11:18:00+00:00",
       "matched_keywords": [
         "decarbon"
+      ]
+    },
+    {
+      "title": "Analysis: How dangerous are heatwaves for the wind industry?",
+      "teaser": "Many regions in the northern hemisphere faced unprecedented extreme heat this summer, driven by the escalating climate crisis. While underlining the need for renewable energy to replace the fossil fuels driving the problem, these…",
+      "link": "https://www.windpowermonthly.com/article/1968515/analysis-dangerous-heatwaves-wind-industry",
+      "source": "windpowermonthly",
+      "published": "2026-09-09T10:56:00+00:00",
+      "matched_keywords": [
+        "climate",
+        "renewable"
       ]
     },
     {
@@ -637,16 +703,6 @@
       ]
     },
     {
-      "title": "Net Hero Podcast – Time to drink our pee?",
-      "teaser": "Well not literally - but is it time for us to use waste water much better as we face global water scarcity issues? Could this 'new water' help us tackle climate change? The post Net Hero Podcast &#8211; Time to drink our pee? appeared…",
-      "link": "https://www.energylivenews.com/2026/09/09/net-hero-podcast-time-to-drink-our-pee/",
-      "source": "energylivenews",
-      "published": "2026-09-09T07:00:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Arctic LNG 2 Sues Hanwha Ocean Over Cancelled LNG Carrier Contracts",
       "teaser": null,
       "link": "https://energynews.pro/en/arctic-lng-2-sues-hanwha-ocean-over-cancelled-lng-carrier-contracts",
@@ -718,36 +774,6 @@
       "published": "2026-09-09T03:30:51+00:00",
       "matched_keywords": [
         "energy security"
-      ]
-    },
-    {
-      "title": "NANO Nuclear and Enveniam Sign Agreement to Advance US Nuclear Fuel Cycle",
-      "teaser": null,
-      "link": "https://energynews.pro/en/nano-nuclear-and-enveniam-sign-agreement-to-advance-us-nuclear-fuel-cycle",
-      "source": "energynews-pro",
-      "published": "2026-09-09T02:02:41+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "ACEN Corp Activates Two Intragroup Loans to Fund Solar and Storage Projects in the Philippines",
-      "teaser": null,
-      "link": "https://energynews.pro/en/acen-corp-activates-two-intragroup-loans-to-fund-solar-and-storage-projects-in-the-philippines",
-      "source": "energynews-pro",
-      "published": "2026-09-09T01:02:44+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Suzlon Wins Its First 200 MW Wind Order From Ayana Renewable Power",
-      "teaser": null,
-      "link": "https://energynews.pro/en/suzlon-wins-its-first-200-mw-wind-order-from-ayana-renewable-power",
-      "source": "energynews-pro",
-      "published": "2026-09-09T00:02:48+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -852,16 +878,6 @@
       "matched_keywords": [
         "wind energy",
         "wind power"
-      ]
-    },
-    {
-      "title": "Suena vermarktet Co-Location-Graustromspeicher mit FCA",
-      "teaser": "Die Leistungsbegrenzungen für den Batteriespeicher, die Allgäu Netz definiert hat, fließen über eine API in die Anlagensteuerung und Handelsoptimierung ein. Suena will die Grundlage für die Vermarktung weiterer Batteriespeicher mit…",
-      "link": "https://www.pv-magazine.de/2026/09/08/suena-vermarktet-co-location-graustromspeicher-mit-fca/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-08T10:07:31+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -987,26 +1003,6 @@
       "published": "2026-09-08T04:00:09+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Petronas, Eni team up to develop renewable motorsport fuel",
-      "teaser": "Eni and Petronas have signed a feasibility agreement to develop high-performance bio-gasoline from renewable feedstocks, a move that could open new commercial pathways for sustainable road fuels if the motorsport application proves…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/090726-petronas-eni-team-up-to-develop-renewable-motorsport-fuel",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-07T15:44:51+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Yara starts up Europe&apos;s largest CO2 capture plant at Dutch ammonia site",
-      "teaser": "Yara International has started carbon capture operations at its Sluiskil ammonia site in the Netherlands, it said in a statement Sept. 7, marking the start of the largest such plant in Europe. The facility is designed to capture and…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/090726-yara-starts-up-europes-largest-co2-capture-plant-at-dutch-ammonia-site",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-07T14:55:34+00:00",
-      "matched_keywords": [
-        "co2"
       ]
     },
     {
@@ -1205,9 +1201,9 @@
       ]
     },
     {
-      "title": "New podcast: Jonathan Cole on bridging the gap between fixed-bottom and floating offshore wind",
+      "title": "Jonathan Cole on bridging the gap between fixed-bottom and floating offshore wind",
       "teaser": "Jonathan Cole, chief executive of new offshore wind technology company Neretek, talks to the Wind Power podcast about its BC90 foundation technology and the potential for “other deepwater” offshore wind to bridge the gap between…",
-      "link": "https://www.windpowermonthly.com/article/1969144/new-podcast-jonathan-cole-bridging-gap-fixed-bottom-floating-offshore-wind",
+      "link": "https://www.windpowermonthly.com/article/1969144/jonathan-cole-bridging-gap-fixed-bottom-floating-offshore-wind",
       "source": "windpowermonthly",
       "published": "2026-09-04T07:47:17+00:00",
       "matched_keywords": [
@@ -1953,17 +1949,6 @@
       ]
     },
     {
-      "title": "Maine bucks US trend with go-ahead for 800MW onshore wind farm",
-      "teaser": "US renewables firm Clearway Energy has been selected to develop an 800MW onshore wind project in Maine, marking a rare advance for a large-scale wind farm in the US.",
-      "link": "https://www.windpowermonthly.com/article/1968494/maine-bucks-us-trend-go-ahead-800mw-onshore-wind-farm",
-      "source": "windpowermonthly",
-      "published": "2026-08-27T09:59:00+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Africa’s first 24/7 ‘solar baseload’ power plant, enabled by batteries, goes online at DRC copper mine",
       "teaser": "Solar-plus-storage project, claimed as the first of its kind in Africa to deliver 24/7 renewable electricity, has come online at a copper mine in the Democratic Republic of the Congo (DRC).",
       "link": "https://www.energy-storage.news/africas-first-24-7-solar-baseload-power-plant-enabled-by-batteries-goes-online-at-drc-copper-mine/",
@@ -2451,16 +2436,6 @@
       "published": "2026-08-20T07:30:00+00:00",
       "matched_keywords": [
         "heat pump"
-      ]
-    },
-    {
-      "title": "‘A formidable predator’: Italian scientists relying on octopuses to get blue crab populations in check",
-      "teaser": "The Italian government has previously been urged to declare a state of emergency over the blue crab explosion, fuelled by climate-warmed waters.",
-      "link": "http://www.euronews.com/2026/08/20/a-formidable-predator-italian-scientists-hoping-octopuses-can-get-blue-crab-populations-in",
-      "source": "euronews-green",
-      "published": "2026-08-20T05:12:21+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -3685,6 +3660,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Drittes Gesetz zur Änderung des Brennstoffemissionshandelsgesetzes",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/drittes-gesetz-zur-aenderung-des-brennstoffemissionshandelsgesetzes",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "emission"
       ]
     },
     {
