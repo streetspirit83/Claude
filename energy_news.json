@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:58:49+00:00",
+  "generated_at": "2026-09-10T18:50:33+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 6
     },
     {
       "name": "rechargenews",
@@ -280,11 +280,11 @@
     {
       "name": "reuters-energy",
       "url": "https://www.reuters.com/business/energy",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
+      "error": "401 Client Error: HTTP Forbidden for url: https://www.reuters.com/business/energy",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 357,
+  "count": 359,
   "articles": [
+    {
+      "title": "Japan and Slovenia Sign Two Memorandums on Hydrogen Cooperation",
+      "teaser": null,
+      "link": "https://energynews.pro/en/japan-and-slovenia-sign-two-memorandums-on-hydrogen-cooperation",
+      "source": "energynews-pro",
+      "published": "2026-09-10T16:50:35+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Member states push back against Brussels&apos; ETS reform ahead of lawmaker response",
+      "teaser": "EU member states have voiced sharp concerns about the Commission&apos;s proposal to overhaul the bloc&apos;s carbon market, with supply-balancing rules and free allocations emerging as major points of contention while governments and…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091026-member-states-push-back-against-brussels-ets-reform-ahead-of-lawmaker-response",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-10T16:32:26+00:00",
+      "matched_keywords": [
+        "ets"
+      ]
+    },
+    {
+      "title": "Aurora Energy Research: Redispatchvorbehalt trifft Wind an Land härter als Photovoltaik",
+      "teaser": "Die Analysten gehen davon aus, dass die interne Rendite bei Photovoltaik-Anlagen um 0,8 Prozentpunkte sinkt, wenn 20 Prozent des erzeugten Solarstroms im Fall von Redispatch nicht entschädigt wird. Bei Windparks an Land liegt die…",
+      "link": "https://www.pv-magazine.de/2026/09/10/aurora-energy-research-redispatchvorbehalt-trifft-wind-an-land-haerter-als-photovoltaik/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-10T14:13:00+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
     {
       "title": "Sonnedix secures $1.3bn to advance Chile renewables and storage projects",
       "teaser": "Renewable energy company Sonnedix has secured $1.3bn through a refinancing transaction to speed up its renewable energy and storage pipeline in Chile.",
@@ -433,6 +463,26 @@
       "published": "2026-09-10T11:48:59+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "Australia&apos;s Exposure Draft softens gas reservation rule for LNG exporters",
+      "teaser": "The Australian government unveiled its Domestic Gas Reservation Exposure Draft Sept. 10, proposing up to 20% of gas exports be reserved for domestic use, with the draft setting a ceiling rather than a fixed mandate. &quot;The Future Gas…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091026-australias-exposure-draft-softens-gas-reservation-rule-for-lng-exporters",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-10T11:24:14+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "APPEC: Africa&apos;s new oil, LNG projects offer Asia supply options amid rising demand",
+      "teaser": "New oil and LNG projects in Africa could provide additional supply options for Asian buyers, although growing population, refining capacity and domestic energy demand may absorb a larger share of future production, industry executives said…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091026-appec-africas-new-oil-lng-projects-offer-asia-supply-options-amid-rising-demand",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-10T11:12:49+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -600,6 +650,16 @@
       ]
     },
     {
+      "title": "Europe’s electrification target needs 50GW of new nuclear capacity",
+      "teaser": "Europe will need roughly 60 new large-reactor or SMR projects to enter planning and development over the next four years.",
+      "link": "https://www.power-technology.com/comment/europe-nuclear-capacity/",
+      "source": "power-technology",
+      "published": "2026-09-10T07:00:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
       "title": "Less than 10% of roof space used for solar, so why build on fields?",
       "teaser": "New analysis shows rooftop deployment could generate electricity equivalent to almost 20 nuclear power stations The post Less than 10% of roof space used for solar, so why build on fields? appeared first on Energy Live News .",
       "link": "https://www.energylivenews.com/2026/09/10/less-than-10-of-roof-space-used-for-solar-so-why-build-on-fields/",
@@ -672,16 +732,6 @@
       ]
     },
     {
-      "title": "ISMA 2026: Indian sugar sector bets on SAF and hydrogen for energy shift",
-      "teaser": "India&apos;s sugar industry is positioning itself as a future supplier of sustainable aviation fuel and green hydrogen, with senior government and industry officials at a major New Delhi conference calling on mills to accelerate their…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/090926-isma-2026-indian-sugar-sector-bets-on-saf-and-hydrogen-for-energy-shift",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-09T17:10:17+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Enerparc-Schwestergesellschaft meldet Insolvenz in Eigenverwaltung an",
       "teaser": "Pvwerk ist auf die Installation von Photovoltaik-Kraftwerken und Batteriespeichern spezialisiert. Mit Hilfe des Verfahrens sollen möglichst viele der etwa 100 im Bau befindliche Solarparks und Batteriespeicher, die im Auftrag der Enerparc…",
       "link": "https://www.pv-magazine.de/2026/09/09/enerparc-schwestergesellschaft-meldet-insolvenz-in-eigenverwaltung-an/",
@@ -702,38 +752,6 @@
         "eeg",
         "solar",
         "strompreis"
-      ]
-    },
-    {
-      "title": "Germany’s renewable capacity grows as coal is phased out",
-      "teaser": "Solar and wind power are expected to drive the expansion The post Germany&#8217;s renewable capacity grows as coal is phased out appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/09/germanys-renewable-capacity-grows-as-coal-is-phased-out/",
-      "source": "energylivenews",
-      "published": "2026-09-09T15:00:00+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind power"
-      ]
-    },
-    {
-      "title": "INFOGRAPHIC: Regulatory fragmentation throws wrench into Europe&apos;s biomethane market growth",
-      "teaser": "As governments race to scale renewable gases, biomethane markets are being shaped by a patchwork of rules that often differ across countries. Counterparties need to navigate shifting requirements for sustainability, certification, grid…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/090926-infographic-regulatory-fragmentation-throws-wrench-into-europes-biomethane-market-growth",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-09T14:36:01+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Fraunhofer ISE optimiert Batteriezellen – mehr Energie bei gleichem Gewicht",
-      "teaser": "Die Freiburger Forscher haben den Aufbau der Elektroden so verändert, dass 10 bis 15 Prozent mehr Energie gespeichert werden können. Die Erfolge konnten auch auf Zink- und Natrium-Ionen-Batteriezellen übertragen werden. Die Forscher sehen…",
-      "link": "https://www.pv-magazine.de/2026/09/09/fraunhofer-ise-optimiert-batteriezellen-mehr-energie-bei-gleichem-gewicht/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-09T13:40:36+00:00",
-      "matched_keywords": [
-        "speicher"
       ]
     },
     {
@@ -860,16 +878,6 @@
       ]
     },
     {
-      "title": "PowerTransitions buys 1.24GW Roseton plant in New York",
-      "teaser": "US-based independent power producer PowerTransitions has completed the acquisition of the 1.24GW Roseton Generating Facility in Newburgh, New York, from a subsidiary of Castleton Commodities International (CCI).",
-      "link": "https://www.power-technology.com/news/powertransitions-buys-1-24gw-roseton-plant/",
-      "source": "power-technology",
-      "published": "2026-09-09T07:19:20+00:00",
-      "matched_keywords": [
-        "subsid"
-      ]
-    },
-    {
       "title": "Philippines: Ayala Corp’s renewable energy platform lends PHP9 billion to subsidiaries for solar, BESS projects",
       "teaser": "Ayala's ACEN Corp has loaned PHP9 billion (US$144 million) to subsidiaries within the group for renewable energy and battery storage projects.",
       "link": "https://www.energy-storage.news/philippines-ayala-corps-renewable-energy-platform-lends-php9-billion-to-subsidiaries-for-solar-bess-projects/",
@@ -921,16 +929,6 @@
       "published": "2026-09-09T04:02:01+00:00",
       "matched_keywords": [
         "battery storage"
-      ]
-    },
-    {
-      "title": "APPEC: Hormuz crisis highlights Asia&apos;s need for larger oil reserves, closer supplier ties",
-      "teaser": "The Strait of Hormuz crisis has highlighted the need for Asia to make energy security the foundation of its policies, maintain adequate reserves of crude oil, refined products and LPG and foster greater collaboration with global partners,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/090926-appec-hormuz-crisis-highlights-asias-need-for-larger-oil-reserves-closer-supplier-ties",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-09T03:30:51+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -3880,6 +3878,26 @@
       ]
     },
     {
+      "title": "“No major obstacles” to EDF nuclear extensions",
+      "teaser": "Priyanka Shinde",
+      "link": "https://www.montelnews.com/news/2aa001cc-ac86-48fb-8efb-ae9b83d85177/no-major-obstacles-to-edf-nuclear-extensions-sources",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "EC: fossil fuel costs, not ETS, put EU industry at risk",
+      "teaser": "Priyanka Shinde",
+      "link": "https://www.montelnews.com/news/c350bb78-835c-4842-b256-2d0db57b6f5e/fossil-fuel-costs-not-ets-put-eu-industry-at-risk-ec",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "ets"
+      ]
+    },
+    {
       "title": "EU’s green hydrogen hopes churn in grey clouds",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/758bf9bc-edb2-4b26-b2d8-77aeb77da84c/eus-green-hydrogen-hopes-churn-in-grey-clouds-2",
@@ -3891,7 +3909,7 @@
     },
     {
       "title": "Fortum CEO: Google deal gives long-term certainty for nuclear",
-      "teaser": "Today's fuel mix",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/9042d25c-0aa7-4867-b798-34bf3fba89ff/google-deal-gives-long-term-certainty-for-nuclear-fortum-ceo",
       "source": "montelnews",
       "published": null,
@@ -3922,6 +3940,17 @@
       ]
     },
     {
+      "title": "Vestas claims 'world record' wind turbine installation",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/onshore-wind/vestas-claims-world-record-wind-turbine-installation/2-1-2042011",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Power market solving the wrong problem for wind era, argues energy entrepreneur",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/power-markets/power-market-solving-the-wrong-problem-for-wind-era-argues-energy-entrepreneur/2-1-2041227",
@@ -3933,19 +3962,7 @@
       ]
     },
     {
-      "title": "The world's battery storage maturity curve and why it matters to developers",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/the-worlds-battery-storage-maturity-curve-and-why-it-matters-to-developers/2-1-2030619",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Wind Power 40 Under 40 | Final list",
+      "title": "Wind Power 40 Under 40 | In full",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/people/wind-power-40-under-40-final-list/2-1-2040617",
       "source": "rechargenews",
@@ -4035,6 +4052,18 @@
       ]
     },
     {
+      "title": "The world's battery storage maturity curve and why it matters to developers",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/the-worlds-battery-storage-maturity-curve-and-why-it-matters-to-developers/2-1-2030619",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "battery storage",
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Orsted shareholder sells huge stake a year after capital raise",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/orsted-shareholder-sells-huge-stake-a-year-after-capital-raise/2-1-2040976",
@@ -4060,17 +4089,6 @@
       "title": "What 10GW of new wind means for UK project economics",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/in-depth/what-10gw-of-new-wind-means-for-uk-project-economics/2-1-2036788",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Short-term boost: why Octopus bought an algo-trader",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/power-markets/short-term-boost-why-octopus-bought-an-algo-trader/2-1-2038719",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
