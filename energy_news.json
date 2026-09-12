@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:14:53+00:00",
+  "generated_at": "2026-09-12T13:16:18+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.offshore-energy.biz/feed/",
+      "error": null,
+      "items_found": 10,
+      "items_matched": 2
     },
     {
       "name": "windpowermonthly",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 350,
+  "count": 362,
   "articles": [
     {
       "title": "Anker SOLIX XE brings home energy storage solution to households",
@@ -745,6 +745,16 @@
       ]
     },
     {
+      "title": "Saipem-Jan De Nul consortium joins Mozambique’s LNG project",
+      "teaser": "A consortium of Saipem and Jan De Nul has signed a letter of intent [&#8230;] The post Saipem-Jan De Nul consortium joins Mozambique’s LNG project appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/saipem-jan-de-nul-consortium-joins-mozambiques-lng-project/",
+      "source": "offshore-energy",
+      "published": "2026-09-11T07:24:44+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
       "title": "Eigenverbrauch unbedingt anmelden",
       "teaser": "pv+: Die Netzbetreiber handhaben Redispatch und andere Eingriffe in Erzeugung und Verbrauch sehr unterschiedlich. Das liegt an der unbefriedigenden Regulierung, aber auch an den sehr unterschiedlichen Gegebenheiten. Einige Punkte sollten…",
       "link": "https://www.pv-magazine.de/2026/09/11/eigenverbrauch-unbedingt-anmelden/",
@@ -930,6 +940,16 @@
       "published": "2026-09-10T07:00:00+00:00",
       "matched_keywords": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Naming ceremony held for new LNG carrier built by Samsung Heavy Industries",
+      "teaser": "A naming ceremony has been held in South Korea for a new LNG carrier [&#8230;] The post Naming ceremony held for new LNG carrier built by Samsung Heavy Industries appeared first on Offshore Energy .",
+      "link": "https://www.offshore-energy.biz/naming-ceremony-held-for-new-lng-carrier-built-by-samsung-heavy-industries/",
+      "source": "offshore-energy",
+      "published": "2026-09-10T06:50:48+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -3604,16 +3624,6 @@
       ]
     },
     {
-      "title": "„Bis zu 20 Prozent zum Jahreswechsel möglich“ : Experten warnen bei Gas vor Preisschock für Verbraucher",
-      "teaser": "Die Gasspeicher sind relativ gering gefüllt und wegen des Iran-Kriegs liegen die Energiekosten schon hoch. Und es könnte noch teurer werden. Die zuständige Behörde sieht die Versorgung aber nicht gefährdet.",
-      "link": "https://www.tagesspiegel.de/wirtschaft/bis-zu-20-prozent-zum-jahreswechsel-moglich-experten-warnen-bei-gas-vor-preisschock-fur-verbraucher-16044805.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
       "title": "98 Wasserstoffprojekte…",
       "teaser": "09.09.2026",
       "link": "https://www.bdew.de/presse/98-wasserstoffprojekte/",
@@ -3747,6 +3757,123 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "Deutschland droht 2026 erstmals sein Klimaziel zu verfehlen",
+      "teaser": "Deutschlands Emissionen sind im ersten Halbjahr 2026 nur geringfügig um bis zu 7 Millionen Tonnen CO₂-Äq gesunken, wie eine erste Berechnung von Agora...",
+      "link": "https://www.agora-energiewende.de/aktuelles/deutschland-droht-2026-erstmals-sein-klimaziel-zu-verfehlen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "klima"
+      ]
+    },
+    {
+      "title": "Agora Energiewende mit neuer Südostasien-Direktorin und Chief Advisor China",
+      "teaser": "Der Thinktank intensiviert seine Arbeit zu zwei Regionen mit entscheidender Bedeutung für die globale Energiewende: Elrika Hamdi leitet künftig die Arbeit von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-energiewende-mit-neuer-suedostasien-direktorin-und-chief-advisor-china",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
+      "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
+      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 443",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 95",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
