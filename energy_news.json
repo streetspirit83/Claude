@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:39:15+00:00",
+  "generated_at": "2026-09-13T13:59:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "Failed to perform, curl: (56) Connection closed abruptly. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -160,12 +160,12 @@
     {
       "name": "bdew-news",
       "url": "https://www.bdew.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 13,
-      "items_matched": 5
+      "error": "HTTPSConnectionPool(host='www.bdew.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "dena-newsroom",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "energylivenews",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 360,
+  "count": 350,
   "articles": [
+    {
+      "title": "Trump’s vision of Alaska as LNG superpower confronts an $80bn test",
+      "teaser": "Alaska LNG and Polar LNG face a series of financing, logistical and legal hurdles to tap massive gasfields",
+      "link": "https://www.ft.com/content/b11887d2-d40d-473d-ba5e-2f9fb8a73beb?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-13T10:00:05+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Anker SOLIX XE brings home energy storage solution to households",
       "teaser": "Solar panels and battery storage are becoming increasingly popular for homes in the UK and Ireland The post Anker SOLIX XE brings home energy storage solution to households appeared first on Energy Live News .",
@@ -400,16 +410,6 @@
       "published": "2026-09-12T02:00:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "IFC, Cela partner to train lenders on battery storage systems",
-      "teaser": "Consultancy firm Clean Energy Latin America and the International Finance Corp., a member of the World Bank Group focused on the private sector, closed a partnership to offer training and qualify banks and financial institutions about…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091126-ifc-cela-partner-to-train-lenders-on-battery-storage-systems",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-11T19:07:24+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -455,18 +455,6 @@
       ]
     },
     {
-      "title": "EU carbon market reform battle lines drawn as parliament enters the fray",
-      "teaser": "The European Parliament&apos;s lead negotiator on the EU Emissions Trading System revision is pushing for a smarter emissions reduction path, stricter investment conditions on free allowances and a more powerful role for ETS revenues in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091126-eu-carbon-market-reform-battle-lines-drawn-as-parliament-enters-the-fray",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-11T14:37:26+00:00",
-      "matched_keywords": [
-        "emission",
-        "emissions trading",
-        "ets"
-      ]
-    },
-    {
       "title": "Togo Calls on Africa to Join the Global Nuclear Renaissance",
       "teaser": null,
       "link": "https://energynews.pro/en/togo-calls-on-africa-to-join-the-global-nuclear-renaissance",
@@ -479,8 +467,8 @@
     {
       "title": "Europe’s policies shape offshore wind as renewable power frontier, says GlobalData",
       "teaser": "A report from GlobalData offers comprehensive information on major policies governing the renewable energy market in Europe.",
-      "link": "https://www.power-technology.com/analyst-comment/europe-policies-offshore-wind-as-renewable-power/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/analyst-comment/europe-policies-offshore-wind-as-renewable-power/",
+      "source": "energymonitor",
       "published": "2026-09-11T13:55:12+00:00",
       "matched_keywords": [
         "renewable"
@@ -579,16 +567,6 @@
       ]
     },
     {
-      "title": "APPEC: Marine biofuels deployable near term, but feedstock availability constrains growth",
-      "teaser": "Marine biofuels are emerging as a readily deployable near-term decarbonization option for the shipping sector, although tightening feedstock availability constrains growth as demand scales, industry participants told Platts at APPEC 2026…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091126-appec-marine-biofuels-deployable-near-term-but-feedstock-availability-constrains-growth",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-11T11:53:57+00:00",
-      "matched_keywords": [
-        "decarbon"
-      ]
-    },
-    {
       "title": "Air Products and RWE Sign Renewable PPA for Rotterdam",
       "teaser": null,
       "link": "https://energynews.pro/en/air-products-and-rwe-sign-renewable-ppa-for-rotterdam",
@@ -673,16 +651,6 @@
       ]
     },
     {
-      "title": "APPEC: Regulation, not prices, key driver for alternative fuels, LNG uptake: EMF director",
-      "teaser": "Global environmental regulations are the key driver of the uptake of LNG and other alternative fuels, and prices, though an important consideration, will not likely provide the principal push, Equatorial Marine Fuel Management Services…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091126-appec-regulation-not-prices-key-driver-for-alternative-fuels-lng-uptake-emf-director",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-11T08:56:01+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Sigenergy-Day rückt dezentrale DC-gekoppelte Speicher für Co-Location-Anlagen und neue Speicherprodukte in den Fokus",
       "teaser": "Eine Photovoltaik-Freiflächenanlage in Co-Location mit dezentralen DC-gekoppelten Batteriestacks stand im Mittelpunkt des \"Sigenergy Day Europe\". Bei der Besichtigung in Weissach im Tal zeigte sich, für welche Anwendungen das Konzept…",
       "link": "https://www.pv-magazine.de/2026/09/11/sigenergy-day-rueckt-dezentrale-dc-gekoppelte-speicher-fuer-co-location-anlagen-und-neue-speicherprodukte-in-den-fokus/",
@@ -762,16 +730,6 @@
       "published": "2026-09-11T07:00:00+00:00",
       "matched_keywords": [
         "pv"
-      ]
-    },
-    {
-      "title": "INTERVIEW: Hydrogen in &apos;different light&apos; as Middle East war prompts structural shift: Jemelkova",
-      "teaser": "Hydrogen and its derivatives are being viewed in a &quot;different light&quot; as the conflict in the Middle East and shipping disruptions in the Strait of Hormuz prompt a structural shift, Ivana Jemelkova, CEO of the Hydrogen Council,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091126-interview-hydrogen-in-different-light-as-middle-east-war-prompts-structural-shift-jemelkova",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-11T05:03:22+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -1140,16 +1098,6 @@
       ]
     },
     {
-      "title": "Türkiye readies offshore wind to reshape renewables landscape, says GlobalData",
-      "teaser": "Türkiye's government has identified four candidate offshore wind zones and aims to reach 5GW of offshore wind capacity by 2035.",
-      "link": "https://www.energymonitor.ai/analyst-comment/turkiye-offshore-wind-reshape-renewables/",
-      "source": "energymonitor",
-      "published": "2026-09-08T14:55:42+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "‘More toxic than car exhaust’: What’s the solution to Europe’s wildfire air pollution problem?",
       "teaser": "Tackling air pollution and climate change together could save lives and boost economies, UN reports show.",
       "link": "https://www.euronews.com/2026/09/08/more-toxic-than-car-exhaust-whats-the-solution-to-europes-wildfire-air-pollution-problem",
@@ -1258,16 +1206,6 @@
       "title": "The next frontier in renewables: floating wind turbines",
       "teaser": "Developers draw on technology and techniques from the offshore oil and gas industry",
       "link": "https://www.ft.com/content/d29d0e83-8580-4d8b-bc3e-c6e81267ff2c?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-09-08T04:00:09+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "The ‘water batteries’ that could be a crucial complement to renewables",
-      "teaser": "Growing interest in pumped hydropower driven by technology’s large storage potential",
-      "link": "https://www.ft.com/content/76851dfb-fb94-4861-8f30-d10d67762f9a?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-09-08T04:00:09+00:00",
       "matched_keywords": [
@@ -3604,53 +3542,13 @@
       ]
     },
     {
-      "title": "98 Wasserstoffprojekte…",
-      "teaser": "09.09.2026",
-      "link": "https://www.bdew.de/presse/98-wasserstoffprojekte/",
-      "source": "bdew-news",
+      "title": "Drittes Gesetz zur Änderung des Brennstoffemissionshandelsgesetzes",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/drittes-gesetz-zur-aenderung-des-brennstoffemissionshandelsgesetzes",
+      "source": "tagesspiegel-background-energie",
       "published": null,
       "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Erneuerbare Energien",
-      "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
-      "link": "https://www.bdew.de/energie/erneuerbare-energien/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Gaspreise",
-      "teaser": "Wie der Gasmarkt funktioniert und Preise entstehen",
-      "link": "https://www.bdew.de/energie/gaspreise/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "gaspreis"
-      ]
-    },
-    {
-      "title": "Gas, Wasserstoff, Biogas",
-      "teaser": "Wie Moleküle unser zukünftiges Energiesystem sichern",
-      "link": "https://www.bdew.de/energie/gas-wasserstoff-biogas/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Strompreise",
-      "teaser": "Wie der Strommarkt funktioniert und Preise entstehen",
-      "link": "https://www.bdew.de/energie/strompreise-dossier/",
-      "source": "bdew-news",
-      "published": null,
-      "matched_keywords": [
-        "strompreis"
+        "emission"
       ]
     },
     {
