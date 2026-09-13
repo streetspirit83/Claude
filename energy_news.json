@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:59:29+00:00",
+  "generated_at": "2026-09-13T18:26:04+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -160,12 +160,12 @@
     {
       "name": "bdew-news",
       "url": "https://www.bdew.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.bdew.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 13,
+      "items_matched": 5
     },
     {
       "name": "dena-newsroom",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 350,
+  "count": 356,
   "articles": [
     {
       "title": "Trump’s vision of Alaska as LNG superpower confronts an $80bn test",
@@ -3549,6 +3549,66 @@
       "published": null,
       "matched_keywords": [
         "emission"
+      ]
+    },
+    {
+      "title": "Schlagabtausch zwischen Kyjiw und Moskau : Ukraine verhandlungsbereit – Russland beharrt auf Maximalforderungen",
+      "teaser": "Wie stehen die Chancen, dass Russland und die Ukraine die Verhandlungen um ein Ende des Krieges wieder aufnehmen? Die Ukraine bereitet sich auf Dreiergespräche vor, Moskau reagiert zurückhaltend.",
+      "link": "https://www.tagesspiegel.de/internationales/schlagabtausch-zwischen-kyjiw-und-moskau-ukraine-verhandlungsbereit--russland-beharrt-auf-maximalforderungen-16047916.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
+      "title": "98 Wasserstoffprojekte…",
+      "teaser": "09.09.2026",
+      "link": "https://www.bdew.de/presse/98-wasserstoffprojekte/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Erneuerbare Energien",
+      "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
+      "link": "https://www.bdew.de/energie/erneuerbare-energien/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Gaspreise",
+      "teaser": "Wie der Gasmarkt funktioniert und Preise entstehen",
+      "link": "https://www.bdew.de/energie/gaspreise/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "gaspreis"
+      ]
+    },
+    {
+      "title": "Gas, Wasserstoff, Biogas",
+      "teaser": "Wie Moleküle unser zukünftiges Energiesystem sichern",
+      "link": "https://www.bdew.de/energie/gas-wasserstoff-biogas/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Strompreise",
+      "teaser": "Wie der Strommarkt funktioniert und Preise entstehen",
+      "link": "https://www.bdew.de/energie/strompreise-dossier/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "strompreis"
       ]
     },
     {
