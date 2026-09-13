@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:07:14+00:00",
+  "generated_at": "2026-09-13T08:39:15+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "Failed to perform, curl: (56) Connection closed abruptly. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 361,
+  "count": 360,
   "articles": [
     {
       "title": "Anker SOLIX XE brings home energy storage solution to households",
@@ -3601,16 +3601,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Drittes Gesetz zur Änderung des Brennstoffemissionshandelsgesetzes",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/drittes-gesetz-zur-aenderung-des-brennstoffemissionshandelsgesetzes",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
