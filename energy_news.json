@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:04:23+00:00",
+  "generated_at": "2026-09-14T22:12:31+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 9
     },
     {
       "name": "montelnews",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 5
     },
     {
       "name": "ft-energy",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 56
+      "items_matched": 57
     },
     {
       "name": "power-technology",
@@ -368,8 +368,79 @@
       "items_matched": 0
     }
   ],
-  "count": 345,
+  "count": 361,
   "articles": [
+    {
+      "title": "Italy Defends National Hydropower Dams as Power Price Tops €225/MWh",
+      "teaser": null,
+      "link": "https://energynews.pro/en/italy-defends-national-hydropower-dams-as-power-price-tops-225mwh",
+      "source": "energynews-pro",
+      "published": "2026-09-14T20:34:04+00:00",
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
+      "title": "Germany: Nordex secures 34 MW order for Rauschenberg wind farm",
+      "teaser": null,
+      "link": "https://energynews.pro/en/germany-nordex-secures-34-mw-order-for-rauschenberg-wind-farm",
+      "source": "energynews-pro",
+      "published": "2026-09-14T20:02:54+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "California moves to cut red tape for heat pumps, solar, and more",
+      "teaser": "Californians could soon find it easier and cheaper to install rooftop solar, home batteries, and energy-saving heat pumps and heat-pump water heaters. Late last month, the state Legislature passed two first-in-the-nation bills that would…",
+      "link": "https://www.canarymedia.com/articles/heat-pumps/california-to-cut-red-tape-heat-pumps-solar",
+      "source": "canarymedia",
+      "published": "2026-09-14T20:00:00+00:00",
+      "matched_keywords": [
+        "heat pump",
+        "solar"
+      ]
+    },
+    {
+      "title": "Bangladesh Faces LNG Price Surge to $26 per mmBtu",
+      "teaser": null,
+      "link": "https://energynews.pro/en/bangladesh-faces-lng-price-surge-to-26-per-mmbtu",
+      "source": "energynews-pro",
+      "published": "2026-09-14T19:34:11+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Rosatom Pledges Paks II Nuclear Plant Resilient to Danube Droughts in Hungary",
+      "teaser": null,
+      "link": "https://energynews.pro/en/rosatom-pledges-paks-ii-nuclear-plant-resilient-to-danube-droughts-in-hungary",
+      "source": "energynews-pro",
+      "published": "2026-09-14T18:35:30+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Clean hydrogen investment reaches $130 billion worldwide",
+      "teaser": null,
+      "link": "https://energynews.pro/en/clean-hydrogen-investment-reaches-130-billion-worldwide",
+      "source": "energynews-pro",
+      "published": "2026-09-14T18:04:10+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "ExxonMobil Raises LNG Sales Target To 50 Million Tonnes By 2030",
+      "teaser": null,
+      "link": "https://energynews.pro/en/exxonmobil-raises-lng-sales-target-to-50-million-tonnes-by-2030",
+      "source": "energynews-pro",
+      "published": "2026-09-14T17:34:00+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "UGL, an ACS Unit, to Build 72 MW Solar Plant in Australia",
       "teaser": null,
@@ -576,17 +647,6 @@
       ]
     },
     {
-      "title": "Washington Weighs Repealing Climate Rule Covering 1.38 Billion Tons of CO2",
-      "teaser": null,
-      "link": "https://energynews.pro/en/washington-weighs-repealing-climate-rule-covering-138-billion-tons-of-co2",
-      "source": "energynews-pro",
-      "published": "2026-09-14T09:18:39+00:00",
-      "matched_keywords": [
-        "climate",
-        "co2"
-      ]
-    },
-    {
       "title": "Baker Hughes enlisted to power next wave of Venture Global’s LNG expansion",
       "teaser": "U.S.-headquartered energy technology giant Baker Hughes and Venture Global, an American producer of liquefied natural gas (LNG) sourced from North American basins, are deepening their partnership as the LNG developer moves forward with the…",
       "link": "https://www.offshore-energy.biz/baker-hughes-enlisted-to-power-next-wave-of-venture-globals-lng-expansion/",
@@ -597,8 +657,8 @@
       ]
     },
     {
-      "title": "EU fails to agree Russia sanctions rollover with 1 day to spare",
-      "teaser": "Ambassadors need to reach a deal on Monday or sanctions will expire.",
+      "title": "EU fails to agree Russia sanctions rollover",
+      "teaser": "Ambassadors were forced to extend the sanctions’ deadline of Tuesday by a week after they failed to reach an agreement.",
       "link": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "politico-energy-climate",
       "published": "2026-09-14T08:27:14+00:00",
@@ -1500,16 +1560,6 @@
       ]
     },
     {
-      "title": "The Norwegian gas plant that could safeguard Europe from Trump",
-      "teaser": "Europe's newfound focus on energy security has sparked interest in ramping up gas production on the Norwegian continental shelf.",
-      "link": "https://www.politico.eu/article/the-norwegian-gas-plant-that-could-safeguard-europe-from-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-09-04T07:42:25+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
       "title": "Solar-plus-storage is having a global growth spurt",
       "teaser": "See more from Canary Media’s ​“Chart of the Week” column . Peanut butter and jelly. Batman and Robin. Solar and storage. Some things just go together, and that’s why investors around the world are pouring more and more money into projects…",
       "link": "https://www.canarymedia.com/articles/solar/solar-plus-storage-global-growth-spurt",
@@ -1568,16 +1618,6 @@
       "matched_keywords": [
         "emission",
         "klima"
-      ]
-    },
-    {
-      "title": "Russia’s Rosatom expects more delays to Hungary nuclear plant, document shows",
-      "teaser": "It's the latest in a series of hold-ups that have plagued the controversial project since it was conceived in 2014.",
-      "link": "https://www.politico.eu/article/russias-rosatom-expects-more-delays-to-hungary-nuclear-plant-paks-ii-document-shows/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-09-04T04:00:00+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -3550,6 +3590,16 @@
       ]
     },
     {
+      "title": "Gasspeicher halb leer, Tanken immer teurer : Muss die Bundesregierung wieder eingreifen?",
+      "teaser": "Der Preisschock an den Zapfsäulen ist zurück, Gas wird immer teurer und deshalb bald auch der Strom? Der Handlungsdruck auf Union und SPD steigt. Welche Optionen sie hat und wer blockiert.",
+      "link": "https://www.tagesspiegel.de/politik/gasspeicher-halb-leer-tanken-immer-teurer-muss-die-bundesregierung-wieder-eingreifen-16049152.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
       "title": "Rücktrittsforderungen und Kanzlertausch-Spekulation : Union spricht von stabiler Regierung, SPD sorgt sich um Koalitionspartner",
       "teaser": "Rechtsaußen verliert, aber die Linken können nicht triumphieren. Schwedens Sozialdemokraten haben ihre Chance verspielt: Wer keine eigene Idee hat, kann kein Land führen.",
       "link": "https://www.tagesspiegel.de/politik/rucktrittsforderungen-und-kanzlertausch-spekulation-union-spricht-von-stabiler-regierung-spd-sorgt-sich-um-koalitionspartner-16050433.html",
@@ -3696,6 +3746,123 @@
       ]
     },
     {
+      "title": "Deutschland droht 2026 erstmals sein Klimaziel zu verfehlen",
+      "teaser": "Deutschlands Emissionen sind im ersten Halbjahr 2026 nur geringfügig um bis zu 7 Millionen Tonnen CO₂-Äq gesunken, wie eine erste Berechnung von Agora...",
+      "link": "https://www.agora-energiewende.de/aktuelles/deutschland-droht-2026-erstmals-sein-klimaziel-zu-verfehlen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "klima"
+      ]
+    },
+    {
+      "title": "Agora Energiewende mit neuer Südostasien-Direktorin und Chief Advisor China",
+      "teaser": "Der Thinktank intensiviert seine Arbeit zu zwei Regionen mit entscheidender Bedeutung für die globale Energiewende: Elrika Hamdi leitet künftig die Arbeit von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-energiewende-mit-neuer-suedostasien-direktorin-und-chief-advisor-china",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
+      "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
+      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Vom Hausdach in den Strommarkt",
+      "teaser": "Ein Drittel der Solarleistung Deutschlands kommt aus kleinen PV-Dachanlagen: eine wichtige Säule der Energiewende. Mit der EEG-Novelle will die Bundesregierung die Förderung für diese Anlagen streichen. Damit würde sich ihre…",
+      "link": "https://www.agora-energiewende.de/publikationen/vom-hausdach-in-den-strommarkt",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "förderung",
+        "pv"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 443",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 95",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
       "title": "EC urged to include water risks in new energy security rules",
       "teaser": "Priyanka Shinde",
       "link": "https://www.montelnews.com/news/015c2a27-eb5a-4c4e-84fc-0c9ddcfaeaa5/ec-must-include-water-risks-in-new-energy-security-rules-experts",
@@ -3776,17 +3943,6 @@
       ]
     },
     {
-      "title": "Trump coal defeat: Why capacity-market ruling matters for wind investors",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/trump-coal-defeat-why-capacity-market-ruling-matters-for-wind-investors/2-1-2042804",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Siemens Energy and GE Vernova hammered in AI rout",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/siemens-energy-and-ge-vernova-hammered-in-ai-rout/2-1-2043433",
@@ -3821,6 +3977,17 @@
       ]
     },
     {
+      "title": "Trump coal defeat: Why capacity-market ruling matters for wind investors",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/trump-coal-defeat-why-capacity-market-ruling-matters-for-wind-investors/2-1-2042804",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Why a win for Sweden's left-wing coalition would not unblock wind overnight",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/policy/why-a-win-for-swedens-left-wing-coalition-would-not-unblock-wind-overnight/2-1-2043186",
@@ -3832,20 +3999,9 @@
       ]
     },
     {
-      "title": "A moment that changed Vestas and more from a decade in wind",
+      "title": "'A lot of blah, blah – but where is the pipeline?', offshore wind industry asks",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/a-moment-that-changed-vestas-and-more-from-a-decade-in-wind/2-1-2042009",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK Parliament to probe risk of wind and solar power droughts",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/uk-parliament-to-probe-risk-of-wind-and-solar-power-droughts/2-1-2043147",
+      "link": "https://www.rechargenews.com/offshore-wind/a-lot-of-blah-blah-but-where-is-the-pipeline-offshore-wind-industry-asks/2-1-2041868",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3866,6 +4022,17 @@
       ]
     },
     {
+      "title": "A moment that changed Vestas and more from a decade in wind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/interviews/a-moment-that-changed-vestas-and-more-from-a-decade-in-wind/2-1-2042009",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "What India's energy storage mandate means for wind and solar",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/what-indias-energy-storage-mandate-means-for-wind-and-solar/2-1-2040625",
@@ -3878,9 +4045,9 @@
       ]
     },
     {
-      "title": "'A lot of blah, blah – but where is the pipeline?', offshore wind industry asks",
+      "title": "UK Parliament to probe risk of wind and solar power droughts",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/a-lot-of-blah-blah-but-where-is-the-pipeline-offshore-wind-industry-asks/2-1-2041868",
+      "link": "https://www.rechargenews.com/policy/uk-parliament-to-probe-risk-of-wind-and-solar-power-droughts/2-1-2043147",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3922,17 +4089,6 @@
       ]
     },
     {
-      "title": "Major Baltic offshore wind project reaches financial close",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/major-baltic-offshore-wind-project-reaches-financial-close/2-1-2042357",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Ranked: the UK's most profitable offshore wind farms",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/ranked-the-uks-most-profitable-offshore-wind-farms/2-1-2039543",
@@ -3942,6 +4098,18 @@
         "renewable",
         "solar",
         "wind farm"
+      ]
+    },
+    {
+      "title": "The world's battery storage maturity curve and why it matters to developers",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/the-worlds-battery-storage-maturity-curve-and-why-it-matters-to-developers/2-1-2030619",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "battery storage",
+        "renewable",
+        "solar"
       ]
     }
   ]
