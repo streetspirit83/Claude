@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:12:31+00:00",
+  "generated_at": "2026-09-15T09:05:05+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 8
+      "items_matched": 6
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "windpowermonthly",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
@@ -295,7 +295,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
       "error": null,
       "items_found": 5,
-      "items_matched": 5
+      "items_matched": 4
     },
     {
       "name": "spglobal-energy-transition",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "iea-news",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,214 @@
       "items_matched": 0
     }
   ],
-  "count": 361,
+  "count": 360,
   "articles": [
+    {
+      "title": "Vorläufiges Insolvenzverfahren gegen BSH eröffnet",
+      "teaser": "Das Amtsgericht Schweinfurt bestellte Rechtsanwalt Alexander Zarzitzky zum vorläufigen Insolvenzverwalter des Photovoltaik-Installationsunternehmens.",
+      "link": "https://www.pv-magazine.de/2026/09/15/vorlaeufiges-insolvenzverfahren-gegen-bsh-eroeffnet/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-15T09:03:01+00:00",
+      "matched_keywords": [
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "UK approves Morgan and Morecambe wind farms development plan",
+      "teaser": "UK has approved the development of transmission infrastructure to connect Morecambe and Morgan offshore wind farms to national grid.",
+      "link": "https://www.power-technology.com/news/uk-approves-morgan-morecambe-wind-farms/",
+      "source": "power-technology",
+      "published": "2026-09-15T08:01:59+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "US EPA revokes Biden-era power plant rules with $310bn in estimated savings",
+      "teaser": "The US Environmental Protection Agency (EPA) has repealed most carbon emission standards for coal- and gas-fired power plants, estimating the changes will save $310bn.",
+      "link": "https://www.power-technology.com/news/epa-revokes-power-plant-rules-310bn-savings/",
+      "source": "power-technology",
+      "published": "2026-09-15T07:56:32+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Saipem hands Saudi jack-up fleet to ADES in strategic shallow-water exit",
+      "teaser": "Italy’s engineering, drilling, and construction services company Saipem has divested its shallow-water drilling business in Saudi Arabia to ADES Saudi Limited Company, an indirect subsidiary of Saudi Arabia-headquartered ADES Holding…",
+      "link": "https://www.offshore-energy.biz/saipem-hands-saudi-jack-up-fleet-to-ades-in-strategic-shallow-water-exit/",
+      "source": "offshore-energy",
+      "published": "2026-09-15T07:50:39+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "Lastspitzenkappung unter AgNes: Ohne Leistungspreis relevanter denn je?",
+      "teaser": "Ab 2029 gibt es keinen Leistungspreis mehr. Damit steht die Frage im Raum, ob der Anwendungsfall Lastspitzenkappung, heute oft der Treiber der Amortisation von Gewerbespeichern, verschwindet. Wir glauben, dass er vom Spezialfall zum…",
+      "link": "https://www.pv-magazine.de/2026/09/15/lastspitzenkappung-unter-agnes-ohne-leistungspreis-relevanter-denn-je/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-15T07:48:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "UK nuclear jobs top 100,000 for first time",
+      "teaser": "More new nuclear jobs created for generations to come with Hinkley, Sizewell and investment in fusion The post UK nuclear jobs top 100,000 for first time appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/09/15/uk-nuclear-jobs-top-100000-for-first-time/",
+      "source": "energylivenews",
+      "published": "2026-09-15T07:46:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Batteriespeicher-Investoren unter Zeitdruck",
+      "teaser": "AgNes und FID: Wer von der bislang noch geltenden Netzentgeltbefreiung für Batteriespeicher profitieren will, muss schnell eine finale Investitionsentscheidung treffen. Rechtsanwältin Leonie Meltendorf erläutert, welche Bedingungen hierfür…",
+      "link": "https://www.pv-magazine.de/2026/09/15/investieren-unter-zeitdruck/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-15T07:10:00+00:00",
+      "matched_keywords": [
+        "netzentgelt",
+        "speicher"
+      ]
+    },
+    {
+      "title": "EU verlängert Sanktionen gegen Russland angesichts der jüngsten Oligarchen-Affäre",
+      "teaser": "Die Slowakei weigerte sich, von ihrer Forderung nach der Streichung zweier russischer Oligarchen von der Liste abzurücken.",
+      "link": "https://euractiv.com/de/news/eu-verlaengert-sanktionen-gegen-russland-angesichts-der-juengsten-oligarchen-affaere/",
+      "source": "euractiv-energie",
+      "published": "2026-09-15T06:58:24+00:00",
+      "matched_keywords": [
+        "forderung",
+        "sanktion"
+      ]
+    },
+    {
+      "title": "Cigéo Nuclear Waste Project Receives Favorable Opinion With Two Reservations",
+      "teaser": null,
+      "link": "https://energynews.pro/en/cigeo-nuclear-waste-project-receives-favorable-opinion-with-two-reservations",
+      "source": "energynews-pro",
+      "published": "2026-09-15T06:33:59+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Actis subsidiary Nozomi Energy closes financing on Japanese capacity market-winning BESS",
+      "teaser": "Sustainable infrastructure investor Actis’s renewable energy platform in Japan has closed financing on a 50MW/196MWh battery storage project.",
+      "link": "https://www.energy-storage.news/actis-subsidiary-nozomi-energy-closes-financing-on-japanese-capacity-market-winning-bess/",
+      "source": "energy-storage-news",
+      "published": "2026-09-15T06:18:42+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "renewable",
+        "subsid"
+      ]
+    },
+    {
+      "title": "United States picks Indiana for its first military nuclear reactor",
+      "teaser": null,
+      "link": "https://energynews.pro/en/united-states-picks-indiana-for-its-first-military-nuclear-reactor",
+      "source": "energynews-pro",
+      "published": "2026-09-15T06:03:40+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Von der Leyen urged to ‘make this Europe’s last fossil fuel crisis’ ahead of State of the EU speech",
+      "teaser": "Ursula von der Leyen slammed fossil fuels in her 2022 State of the EU speech. Now, Europe is in the midst of yet another energy crisis.",
+      "link": "https://www.euronews.com/2026/09/15/von-der-leyen-urged-to-make-this-europes-last-fossil-fuel-crisis-ahead-of-state-of-the-eu-",
+      "source": "euronews-green",
+      "published": "2026-09-15T05:00:46+00:00",
+      "matched_keywords": [
+        "energy crisis"
+      ]
+    },
+    {
+      "title": "How the shipping industry could make itself greener",
+      "teaser": "Clean ammonia and methanol are key to reducing vessels’ large greenhouse gas emissions",
+      "link": "https://www.ft.com/content/aea09f25-d71b-4e62-8fa1-b0ad3f6d28c9?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-15T04:00:09+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Long-duration energy storage conversation gains traction in India despite 4-hour battery storage focus",
+      "teaser": "India's storage market remains focused on short-duration firming, but conversations about long-duration storage are already underway.",
+      "link": "https://www.energy-storage.news/long-duration-energy-storage-conversation-gains-traction-in-india-despite-4-hour-battery-storage-focus/",
+      "source": "energy-storage-news",
+      "published": "2026-09-15T03:50:30+00:00",
+      "matched_keywords": [
+        "battery storage",
+        "energy storage"
+      ]
+    },
+    {
+      "title": "Trina Storage to supply 562MWh BESS for Frontier Energy solar-plus-storage project in Western Australia",
+      "teaser": "Trina Storage has been selected to supply the BESS for Stage One of Frontier Energy's Waroona Renewable Energy Project.",
+      "link": "https://www.energy-storage.news/trina-storage-to-supply-562mwh-bess-for-frontier-energy-solar-plus-storage-project-in-western-australia/",
+      "source": "energy-storage-news",
+      "published": "2026-09-15T03:44:50+00:00",
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Trump administration completes repeal of most power plant carbon emissions standards",
+      "teaser": "The Trump administration on Sept. 14 completed the repeal of a majority of greenhouse gas emissions limits imposed on coal- and gas-fired power plants during the Biden administration, and proposed the repeal of additional greenhouse gas…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091426-trump-administration-completes-repeal-of-most-power-plant-carbon-emissions-standards",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-14T21:38:32+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "INTERVIEW: Mexico biomethane market eyes stronger RTC pricing as volumes grow",
+      "teaser": "Mexico&apos;s emerging market for Renewable Thermal Certificates could see stronger pricing as biomethane production expands, while carbon intensity and feedstock are likely to be differentials among certificates, CleanCounts CEO Benjamin…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091426-interview-mexico-biomethane-market-eyes-stronger-rtc-pricing-as-volumes-grow",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-14T21:08:52+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Global LNG trade seen rising 200 Bcm/year by 2031: IEF",
+      "teaser": "Global LNG demand is expected to grow to 800 billion cubic meters/year, or about 28.2 Tcf/year, by 2031 from 600 Bcm/year in 2026, with the United States remaining the world&apos;s largest supplier, according to a new LNG market security…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/091426-global-lng-trade-seen-rising-200-bcmyear-by-2031-ief",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-14T20:54:22+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "EPA scraps climate curbs for US power generation",
+      "teaser": "The announcement was timed to splash down amid an energy-focused gathering of the G20 in Houston.",
+      "link": "https://www.politico.com/news/2026/09/14/epa-power-plant-climate-rules-01069146?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-09-14T20:50:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Trump to scrap Biden-era climate protections on power plant pollution",
+      "teaser": "Move continues dismantling of environmental protections during the president’s second term as he boosts fossil-fuel industry",
+      "link": "https://www.ft.com/content/5eb7f823-3b3f-4b22-9f25-44162a014d72?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-14T20:47:11+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Italy Defends National Hydropower Dams as Power Price Tops €225/MWh",
       "teaser": null,
@@ -540,16 +746,6 @@
       "matched_keywords": [
         "energy storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Skyborn Secures €2.1 Billion Financing for the Gennaker Offshore Wind Farm",
-      "teaser": null,
-      "link": "https://energynews.pro/en/skyborn-secures-21-billion-financing-for-the-gennaker-offshore-wind-farm",
-      "source": "energynews-pro",
-      "published": "2026-09-14T13:03:37+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -752,7 +948,7 @@
       "title": "BRICS backs common hydrogen standards, carbon markets partnership",
       "teaser": "BRICS leaders pledged to develop interoperable hydrogen certification standards and establish a partnership on carbon markets, signaling a coordinated effort to shape clean energy trade flows and decarbonization, the Indian government said…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091426-brics-backs-common-hydrogen-standards-carbon-markets-partnership",
-      "source": "spglobal-electric-power",
+      "source": "spglobal-energy-transition",
       "published": "2026-09-14T04:44:20+00:00",
       "matched_keywords": [
         "decarbon",
@@ -800,16 +996,6 @@
       ]
     },
     {
-      "title": "BRICS calls for cooperation to ensure energy security, recognizes fossil fuels&apos; importance",
-      "teaser": "BRICS leaders on Sept. 12 called for greater energy security through stable markets, diversified supplies and resilient infrastructure, while acknowledging that fossil fuels will continue to play an important role in the energy mix,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091426-brics-calls-for-cooperation-to-ensure-energy-security-recognizes-fossil-fuels-importance",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-14T02:01:32+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
       "title": "Trump’s vision of Alaska as LNG superpower confronts an $80bn test",
       "teaser": "Alaska LNG and Polar LNG face a series of financing, logistical and legal hurdles to tap massive gasfields",
       "link": "https://www.ft.com/content/b11887d2-d40d-473d-ba5e-2f9fb8a73beb?syn-25a6b1a6=1",
@@ -840,16 +1026,6 @@
       ]
     },
     {
-      "title": "IFC, Cela partner to train lenders on battery storage systems",
-      "teaser": "Consultancy firm Clean Energy Latin America and the International Finance Corp., a member of the World Bank Group focused on the private sector, closed a partnership to offer training and qualify banks and financial institutions about…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091126-ifc-cela-partner-to-train-lenders-on-battery-storage-systems",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-11T19:07:24+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Balcony solar is this year’s clean energy superstar in the US",
       "teaser": "This analysis and news roundup come from the Canary Media Weekly newsletter. Sign up to get it every Friday. Summer is only just coming to a close, but this year’s top clean energy trendsetter is already clear. At the start of 2026, you…",
       "link": "https://www.canarymedia.com/articles/balcony-solar/clean-energy-plug-in-solar-panels",
@@ -857,17 +1033,6 @@
       "published": "2026-09-11T15:47:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Masdar und Luxcara wollen gemeinsam 5 Milliarden Euro in Batteriespeicher und Offshore-Windkraft in Deutschland investieren",
-      "teaser": "Das Energieunternehmen aus Abu Dhabi und der deutsche Vermögensverwalter für Infrastrukturprojekte haben eine entsprechende Absichtserklärung unterzeichnet. Die strategische Partnerschaft soll in erster Linie auf Batteriespeicher und…",
-      "link": "https://www.pv-magazine.de/2026/09/11/masdar-und-luxcara-wollen-gemeinsam-5-milliarden-euro-in-batteriespeicher-und-offshore-windkraft-in-deutschland-investieren/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-11T15:13:04+00:00",
-      "matched_keywords": [
-        "speicher",
-        "windkraft"
       ]
     },
     {
@@ -879,18 +1044,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "EU carbon market reform battle lines drawn as parliament enters the fray",
-      "teaser": "The European Parliament&apos;s lead negotiator on the EU Emissions Trading System revision is pushing for a smarter emissions reduction path, stricter investment conditions on free allowances and a more powerful role for ETS revenues in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091126-eu-carbon-market-reform-battle-lines-drawn-as-parliament-enters-the-fray",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-11T14:37:26+00:00",
-      "matched_keywords": [
-        "emission",
-        "emissions trading",
-        "ets"
       ]
     },
     {
@@ -946,16 +1099,6 @@
       ]
     },
     {
-      "title": "Analyse: Redipatch-Vorbehalt würde sich auf wenige Netz-Hotspots konzentrieren",
-      "teaser": "E-Bridge hat mit dem BDEW und 21 Hochspannungsnetzbetreibern die Daten von rund 3000 Umspannwerken ausgewertet. Demnach wären rund sechs Prozent der für Windparks relevanten Umspannwerke betroffen. Für die Photovoltaik kommt die Analyse…",
-      "link": "https://www.pv-magazine.de/2026/09/11/analyse-redipatch-vorbehalt-wuerde-sich-auf-wenige-netz-hotspots-konzentrieren/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-11T12:26:47+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "Vattenfall goes ahead with 1GWh battery storage project at former nuclear site in Germany",
       "teaser": "Update 14 September 2026: Vattenfall representatives offered more details and responded to Energy-Storage.news enquiries.",
       "link": "https://www.energy-storage.news/vattenfall-goes-ahead-with-1gwh-battery-storage-project-at-former-nuclear-site-in-germany/",
@@ -994,19 +1137,6 @@
       "published": "2026-09-11T09:40:48+00:00",
       "matched_keywords": [
         "wind power"
-      ]
-    },
-    {
-      "title": "BSW-Solar warnt vor Kostensteigerungen bei Photovoltaik-Großanlagen",
-      "teaser": "Solarparks würden ihre Funktion als Kostensenker der Energiewende nach Einschätzung des Branchenverbands nicht mehr erfüllen können, wenn Netzpaket und EEG-Novelle wie von der Bundesregierung geplant umgesetzt werden. Der jetzige…",
-      "link": "https://www.pv-magazine.de/2026/09/11/bsw-solar-warnt-vor-kostensteigerungen-bei-photovoltaik-grossanlagen/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-11T09:34:00+00:00",
-      "matched_keywords": [
-        "eeg",
-        "energiewende",
-        "photovoltaik",
-        "solar"
       ]
     },
     {
@@ -1101,17 +1231,6 @@
       ]
     },
     {
-      "title": "Mercury completes stage two at Kaiwera Downs wind farm in Southland",
-      "teaser": "New Zealand renewable electricity company Mercury has completed Stage 2 of the Kaiwera Downs wind farm in Southland, installing 36 additional turbines and increasing the site’s capacity by 155MW, located near Gore.",
-      "link": "https://www.power-technology.com/news/mercury-stage-2-kaiwera-downs-wind-farm/",
-      "source": "power-technology",
-      "published": "2026-09-10T07:31:00+00:00",
-      "matched_keywords": [
-        "renewable",
-        "wind farm"
-      ]
-    },
-    {
       "title": "Coal-to-solar project lands a rare clean-energy win in Ohio",
       "teaser": "Clean energy scored a rare win in Ohio last month when state regulators unanimously approved a permit for 149 megawatts of solar and 149 MW of battery storage at the Hamden Energy site in Vinton County, located in the southeast quadrant of…",
       "link": "https://www.canarymedia.com/articles/solar/coal-to-solar-project-win-ohio",
@@ -1130,26 +1249,6 @@
       "published": "2026-09-10T07:30:00+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "DWT secures Riffgat offshore wind farm maintenance contract",
-      "teaser": "Deutsche Windtechnik (DWT) has secured a new contract to provide technical maintenance and services for the Riffgat offshore wind farm.",
-      "link": "https://www.power-technology.com/news/dwt-secures-riffgat-maintenance-contract/",
-      "source": "power-technology",
-      "published": "2026-09-10T07:19:47+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Oil shock revives interest in clean hydrogen",
-      "teaser": "Air Liquide chief says fallout from Iran war has led governments to reconsider their use of costly fuel",
-      "link": "https://www.ft.com/content/4c61ab58-e410-4f7f-b314-83b66deb3c84?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-09-10T04:00:19+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -1436,16 +1535,6 @@
       ]
     },
     {
-      "title": "Russlands Eisbrecher sind für eine dänische Stadt eine Frage von Leben und Tod",
-      "teaser": "Brüssels Sanktionen gegen Russland treffen die harte Realität des Arbeitsalltags in einer kleinen dänischen Küstengemeinde. Eine Werft kämpft gegen die Zeit, um Tanker mit russischen fossilen Brennstoffen zu warten.",
-      "link": "https://euractiv.com/de/news/russlands-eisbrecher-sind-fur-eine-danische-stadt-eine-frage-von-leben-und-tod/",
-      "source": "euractiv-energie",
-      "published": "2026-09-07T10:06:01+00:00",
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Macquarie-backed Blueleaf Energy and Universal Peak close financing on Malaysia tender-winning BESS project",
       "teaser": "Blueleaf Energy and Universal Peak have closed financing for a 100MW/400MWh battery storage project, which was one of four winning bids in a Malaysian government tender.",
       "link": "https://www.energy-storage.news/macquarie-backed-blueleaf-energy-and-universal-peak-close-financing-on-malaysia-tender-winning-bess-project/",
@@ -1476,16 +1565,6 @@
         "emission",
         "ets",
         "klima"
-      ]
-    },
-    {
-      "title": "The EU wants to buy homegrown clean tech. Manufacturers say it may be too late.",
-      "teaser": "The European Commission plans to rework public procurement to favor clean-tech producers from the bloc, but solar bosses say they need help now — before more factories disappear.",
-      "link": "https://www.politico.eu/article/europe-solar-energy-clean-tech-procurement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-09-07T04:00:00+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -2473,16 +2552,6 @@
       ]
     },
     {
-      "title": "Record numbers of climate crisis insects: what to do if you spot a praying mantis",
-      "teaser": "This summer, unusually many praying mantises can be spotted in German gardens. How to distinguish the \"Mantid religiosa\" from a grasshopper and what to do…",
-      "link": "https://www.euronews.com/2026/08/23/record-numbers-of-climate-crisis-insects-what-to-do-if-you-spot-a-praying-mantis",
-      "source": "euronews-green",
-      "published": "2026-08-23T05:30:41+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Trump turns $500M grant for clean steel into funding for coal furnace",
       "teaser": "A $500 million Biden-era grant to decarbonize steelmaking has been refashioned by the Trump administration to upgrade a coal-fueled blast furnace in southern Ohio. On Friday, Cleveland-Cliffs confirmed that the U.S. Department of Energy…",
       "link": "https://www.canarymedia.com/articles/green-steel/trump-clean-steel-grant-coal",
@@ -2956,37 +3025,6 @@
       "link": "https://www.energy-storage.news/limes-reaches-rtb-stage-200mw-1gwh-huanil-bess-project-chile/",
       "source": "energy-storage-news",
       "published": "2026-08-14T16:02:51+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "‘Multi-day’ energy storage startup Noon Energy makes 1GW US AI infrastructure deployment agreement",
-      "teaser": "US 'multi-day' energy storage startup Noon Energy has made an agreement with renewables platform Sabanci Renewables, to deploy 1GW of Noon’s technology for AI infrastructure in the US.",
-      "link": "https://www.energy-storage.news/multi-day-energy-storage-startup-noon-energy-makes-1gw-us-ai-infrastructure-deployment-agreement/",
-      "source": "energy-storage-news",
-      "published": "2026-08-14T09:06:52+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Optimising US BESS markets: Insights from Caerus Commodities",
-      "teaser": "Casey Keller, founding partner at Caerus Commodities, shares critical lessons from optimising battery storage, ahead of the 2026 US Battery Asset Management Summit taking place in California on 15-16 September.",
-      "link": "https://www.energy-storage.news/optimising-us-bess-markets-insights-from-caerus-commodities/",
-      "source": "energy-storage-news",
-      "published": "2026-08-14T08:39:46+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Squadron Energy secures AU$2.7 billion refinancing to support hybrid asset growth in Australia",
-      "teaser": "Squadron Energy has completed a refinancing of its Australian renewable energy portfolio, securing total debt commitments of more than AU$2.7 billion (US$1.76 billion).",
-      "link": "https://www.energy-storage.news/squadron-energy-au2-billion-refinancing-hybrid-asset-growth-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-08-14T08:17:20+00:00",
       "matched_keywords": [
         "renewable"
       ]
@@ -3580,36 +3618,6 @@
       ]
     },
     {
-      "title": "Drittes Gesetz zur Änderung des Brennstoffemissionshandelsgesetzes",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/drittes-gesetz-zur-aenderung-des-brennstoffemissionshandelsgesetzes",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
-      "title": "Gasspeicher halb leer, Tanken immer teurer : Muss die Bundesregierung wieder eingreifen?",
-      "teaser": "Der Preisschock an den Zapfsäulen ist zurück, Gas wird immer teurer und deshalb bald auch der Strom? Der Handlungsdruck auf Union und SPD steigt. Welche Optionen sie hat und wer blockiert.",
-      "link": "https://www.tagesspiegel.de/politik/gasspeicher-halb-leer-tanken-immer-teurer-muss-die-bundesregierung-wieder-eingreifen-16049152.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
-      "title": "Rücktrittsforderungen und Kanzlertausch-Spekulation : Union spricht von stabiler Regierung, SPD sorgt sich um Koalitionspartner",
-      "teaser": "Rechtsaußen verliert, aber die Linken können nicht triumphieren. Schwedens Sozialdemokraten haben ihre Chance verspielt: Wer keine eigene Idee hat, kann kein Land führen.",
-      "link": "https://www.tagesspiegel.de/politik/rucktrittsforderungen-und-kanzlertausch-spekulation-union-spricht-von-stabiler-regierung-spd-sorgt-sich-um-koalitionspartner-16050433.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "98 Wasserstoffprojekte…",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/98-wasserstoffprojekte/",
@@ -3863,26 +3871,6 @@
       ]
     },
     {
-      "title": "EC urged to include water risks in new energy security rules",
-      "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/015c2a27-eb5a-4c4e-84fc-0c9ddcfaeaa5/ec-must-include-water-risks-in-new-energy-security-rules-experts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
-      "title": "EU power prices reach fresh 3-year highs on bullish complex",
-      "teaser": "Priyanka Shinde",
-      "link": "https://www.montelnews.com/news/b2fed74b-2c50-4d32-b538-a8617de4b1eb/eu-power-prices-reach-fresh-3-year-highs-on-bullish-complex",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "EU’s green hydrogen hopes churn in grey clouds",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/758bf9bc-edb2-4b26-b2d8-77aeb77da84c/eus-green-hydrogen-hopes-churn-in-grey-clouds-2",
@@ -3893,8 +3881,28 @@
       ]
     },
     {
-      "title": "Asia-Europe LNG competition to intensify in winter",
+      "title": "EC urged to include water risks in new energy security rules",
       "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/015c2a27-eb5a-4c4e-84fc-0c9ddcfaeaa5/ec-must-include-water-risks-in-new-energy-security-rules-experts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "energy security"
+      ]
+    },
+    {
+      "title": "EU power prices reach fresh 3-year highs on bullish complex",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/b2fed74b-2c50-4d32-b538-a8617de4b1eb/eu-power-prices-reach-fresh-3-year-highs-on-bullish-complex",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
+      "title": "Asia-Europe LNG competition to intensify in winter",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/7730865a-6f99-4d83-81e7-f17b0e0d6c2b/asia-europe-lng-competition-to-intensify-in-winter-analyst",
       "source": "montelnews",
       "published": null,
@@ -3923,23 +3931,14 @@
       ]
     },
     {
-      "title": "Italy industry urges regulator action after power price peaks",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/15a1aea7-23c7-46ea-9ebf-0bafac43b89d/italy-industry-urges-regulator-action-after-power-price-peaks",
-      "source": "montelnews",
+      "title": "How southwest Europe's offshore wind markets rank for investors",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/in-depth/how-southwest-europes-offshore-wind-markets-rank-for-investors/2-1-2037932",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
-      "title": "Russian LNG flows to Europe set to continue to year-end",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/5c7060e5-95b3-48be-a3be-38b880ad5ee8/russian-lng-flows-to-europe-to-continue-to-year-end-experts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "lng"
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -4098,18 +4097,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "The world's battery storage maturity curve and why it matters to developers",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/the-worlds-battery-storage-maturity-curve-and-why-it-matters-to-developers/2-1-2030619",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "battery storage",
-        "renewable",
-        "solar"
       ]
     }
   ]
