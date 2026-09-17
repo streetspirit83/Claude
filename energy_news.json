@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:33:15+00:00",
+  "generated_at": "2026-09-17T19:25:59+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 2
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "energymonitor",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "ft-energy",
@@ -368,8 +368,81 @@
       "items_matched": 0
     }
   ],
-  "count": 369,
+  "count": 370,
   "articles": [
+    {
+      "title": "JERA Creates Singapore Subsidiary to Diversify Its LNG Sales",
+      "teaser": null,
+      "link": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales",
+      "source": "energynews-pro",
+      "published": "2026-09-17T17:02:06+00:00",
+      "matched_keywords": [
+        "lng",
+        "subsid"
+      ]
+    },
+    {
+      "title": "Russia’s global fuel customers push back against US sanctions bill",
+      "teaser": "Butt out, China says.",
+      "link": "https://www.politico.eu/article/us-russia-sanctions-bill-global-backlash-china-india-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-09-17T16:46:48+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "GE Vernova to Supply 29.4 MW Wind Farm for Eurus Energy in Japan",
+      "teaser": null,
+      "link": "https://energynews.pro/en/ge-vernova-to-supply-294-mw-wind-farm-for-eurus-energy-in-japan",
+      "source": "energynews-pro",
+      "published": "2026-09-17T16:00:57+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "LNG Market Threatened by European Gas Storage Levels at 68.7%",
+      "teaser": null,
+      "link": "https://energynews.pro/en/lng-market-threatened-by-european-gas-storage-levels-at-687",
+      "source": "energynews-pro",
+      "published": "2026-09-17T15:32:53+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Technip Energies picks up assignment on Mexican LNG project",
+      "teaser": "French-based engineering player Technip Energies has been hired to work on a liquefied natural gas (LNG) export terminal in Guaymas, Sonora, on Mexico’s West Coast. The post Technip Energies picks up assignment on Mexican LNG project…",
+      "link": "https://www.offshore-energy.biz/technip-energies-picks-up-assignment-on-mexican-lng-project/",
+      "source": "offshore-energy",
+      "published": "2026-09-17T15:27:24+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Renewables 24/7: „Eine moderne Volkswirtschaft ist eine elektrifizierte“",
+      "teaser": "Erneuerbare 24 Stunden, 7 Tage pro Woche – das verbinden viele immer noch mit Vokabeln wie Mammutaufgabe, Herausforderung, Umbruch. All dies ist nicht ganz falsch, verdeckt aber das Wesentliche: Der Energieexperte Tim Meyer im Gespräch…",
+      "link": "https://www.pv-magazine.de/2026/09/17/renewables-24-7-eine-moderne-volkswirtschaft-ist-eine-elektrifizierte/",
+      "source": "pv-magazine-de",
+      "published": "2026-09-17T15:15:00+00:00",
+      "matched_keywords": [
+        "erneuerbare",
+        "forderung",
+        "renewable"
+      ]
+    },
+    {
+      "title": "Expansion move puts US LNG project on path for almost twofold capacity boost",
+      "teaser": "America’s integrated gas and liquefied natural gas (LNG) company Caturus, controlled by the energy-focused alternative investment manager Kimmeridge and supported by investments from Mubadala Energy and Canada Pension Plan Investment Board…",
+      "link": "https://www.offshore-energy.biz/expansion-move-puts-us-lng-project-on-path-for-almost-twofold-capacity-boost/",
+      "source": "offshore-energy",
+      "published": "2026-09-17T14:48:11+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Hybridkraftwerk mit 69 Megawatt Photovoltaik und 76,5 Megawattstunden Speicher geht ans Netz",
       "teaser": "Nach rund vier Jahren Planung und Entwicklung steht das Projekt kurz vor der feierlichen Inbetriebnahme. Der Batteriespeicher mit 76,5 Megawattstunden Kapazität muss zunächst komplett als Grünstromspeicher betrieben werden, da Eon Edis die…",
@@ -678,16 +751,6 @@
       ]
     },
     {
-      "title": "Hy24 and COFIDES Join Capital of Moeve's Onuba Hydrogen Project in Spain",
-      "teaser": null,
-      "link": "https://energynews.pro/en/hy24-and-cofides-join-capital-of-moeves-onuba-hydrogen-project-in-spain",
-      "source": "energynews-pro",
-      "published": "2026-09-17T06:17:05+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Victoria’s SEC takes stake in 1.86GWh battery storage system in Australia alongside Aware Super and Birdwood",
       "teaser": "Victoria's SEC invests up to AU$43 million for a stake in 400MW Baranduda battery system near Wodonga alongside Aware Super.",
       "link": "https://www.energy-storage.news/victorias-sec-takes-stake-in-1-86gwh-battery-storage-system-in-australia-alongside-aware-super-and-birdwood/",
@@ -730,16 +793,6 @@
       ]
     },
     {
-      "title": "Canada Signs Third LNG Agreement With Australia's Santos",
-      "teaser": null,
-      "link": "https://energynews.pro/en/canada-signs-third-lng-agreement-with-australias-santos",
-      "source": "energynews-pro",
-      "published": "2026-09-17T04:33:35+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Gore downplays AI threats and touts its climate potential",
       "teaser": "Former US vice-president argues in favour of technology to help with green progress",
       "link": "https://www.ft.com/content/ba945e37-7d9c-4846-b4f4-ce5ec47f06a0?syn-25a6b1a6=1",
@@ -747,16 +800,6 @@
       "published": "2026-09-17T04:00:31+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "GTT Launches an LNG Performance Centre and a New-Generation LNG Fuel Solution",
-      "teaser": null,
-      "link": "https://energynews.pro/en/gtt-launches-an-lng-performance-centre-and-a-new-generation-lng-fuel-solution",
-      "source": "energynews-pro",
-      "published": "2026-09-17T03:02:38+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -832,27 +875,6 @@
         "energy storage",
         "solar",
         "subsid"
-      ]
-    },
-    {
-      "title": "Was hinter den Preisspitzen an der Strombörse steckt",
-      "teaser": "Die Einspeisung der Photovoltaik-Anlagen drückt tagsüber die Strompreise, während am Abend immer häufiger Knappheitspreise von mehreren hundert Euro pro Megawattstunde auftreten. Im Interview erläutert Leonhard Gandhi von Energy-Charts am…",
-      "link": "https://www.pv-magazine.de/2026/09/16/was-hinter-den-preisspitzen-an-der-stromboerse-steckt/",
-      "source": "pv-magazine-de",
-      "published": "2026-09-16T12:41:19+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "strompreis"
-      ]
-    },
-    {
-      "title": "FSRU docks in Stade as LNG terminal prepares to feed gas into German grid from November",
-      "teaser": "A 294-meter floating storage and regasification unit (FSRU) has arrived at the new liquefied natural gas (LNG) terminal in Stade, marking the start of commissioning preparations and bringing the facility a step closer to operations, with…",
-      "link": "https://www.offshore-energy.biz/fsru-docks-in-stade-as-lng-terminal-prepares-to-feed-gas-into-german-grid-from-november/",
-      "source": "offshore-energy",
-      "published": "2026-09-16T12:36:00+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1169,6 +1191,16 @@
       "published": "2026-09-15T09:31:36+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "Chinese OEM's 9.6MW onshore wind turbine installed in new market",
+      "teaser": "Oman-based manufacturer Mawarid has installed a 9.6MW onshore wind turbine based on the technology of Chinese manufacturer Shanghai Electric Wind Power Group.",
+      "link": "https://www.windpowermonthly.com/article/1970007/chinese-oems-96mw-onshore-wind-turbine-installed-new-market",
+      "source": "windpowermonthly",
+      "published": "2026-09-15T09:23:43+00:00",
+      "matched_keywords": [
+        "wind power"
       ]
     },
     {
@@ -3673,27 +3705,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "speicher"
-      ]
-    },
-    {
-      "title": "Gesetz für einen planbaren, kosteneffizienten, netzverträglichen und marktorientierten Ausbau der erneuerbaren Energien im Stromsektor",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-fuer-einen-planbaren-kosteneffizienten-netzvertraeglichen-und-marktorientierten-ausbau-der-erneuerbaren-energien-im-stromsektor",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
       "title": "Speichermengen sichern, Hemmnisse abbauen",
       "teaser": "15.09.2026",
       "link": "https://www.bdew.de/presse/speichermengen-sichern-hemmnisse-abbauen/",
@@ -4022,6 +4033,17 @@
       ]
     },
     {
+      "title": "US offshore wind project battered by Trump attacks installs final turbine",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/us-offshore-wind-project-battered-by-trump-attacks-installs-final-turbine/2-1-2045408",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "Inside CIP's battery blueprint and how it differs from wind",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/inside-cips-battery-blueprint-and-how-it-differs-from-wind/2-1-2039629",
@@ -4077,28 +4099,6 @@
       ]
     },
     {
-      "title": "Budget notice for UK renewables auction pushed back",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/budget-notice-for-uk-renewables-auction-pushed-back/2-1-2044663",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Nordic titans mount bid for Acciona Energia: report",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/nordic-titans-mount-bid-for-acciona-energia-report/2-1-2044223",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Ranked: the UK's least profitable offshore wind farms",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/ranked-the-uks-least-profitable-offshore-wind-farms-and-why-that-is/2-1-2042734",
@@ -4108,6 +4108,17 @@
         "renewable",
         "solar",
         "wind farm"
+      ]
+    },
+    {
+      "title": "Orsted and Enel Green Power CEOs named new leaders of WindEurope",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/orsted-and-enel-green-power-ceos-named-new-leaders-of-windeurope/2-1-2044106",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -4145,9 +4156,9 @@
       ]
     },
     {
-      "title": "Orsted and Enel Green Power CEOs named new leaders of WindEurope",
+      "title": "Budget notice for UK renewables auction pushed back",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-and-enel-green-power-ceos-named-new-leaders-of-windeurope/2-1-2044106",
+      "link": "https://www.rechargenews.com/auctions/budget-notice-for-uk-renewables-auction-pushed-back/2-1-2044663",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -4156,9 +4167,9 @@
       ]
     },
     {
-      "title": "Siemens Energy and GE Vernova hammered in AI rout",
+      "title": "Nordic titans mount bid for Acciona Energia: report",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/siemens-energy-and-ge-vernova-hammered-in-ai-rout/2-1-2043433",
+      "link": "https://www.rechargenews.com/finance/nordic-titans-mount-bid-for-acciona-energia-report/2-1-2044223",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
