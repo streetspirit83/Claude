@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T08:24:33+00:00",
+  "generated_at": "2026-09-19T13:35:48+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 2
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "cleanenergywire",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 11
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 365,
+  "count": 352,
   "articles": [
+    {
+      "title": "Trump unterzeichnet ein Gesetz, das umfassende Sanktionen gegen Russland genehmigt",
+      "teaser": "Die Gesetzgebung zielt auf den russischen Energie- und Verteidigungssektor sowie auf Präsident Wladimir Putin und weitere hochrangige Amtsträger ab",
+      "link": "https://euractiv.com/de/news/trump-unterzeichnet-ein-gesetz-das-umfassende-sanktionen-gegen-russland-genehmigt/",
+      "source": "euractiv-energie",
+      "published": "2026-09-19T09:45:01+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
     {
       "title": "What happens if a solar farm catches fire? Europe’s biggest battery test centre is finding out",
       "teaser": "Battery ‘torture testing’ simulates car washes, sandstorms and wildfires for the benefit of the energy transition.",
@@ -3633,38 +3643,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "speicher"
-      ]
-    },
-    {
-      "title": "Verordnung zur Änderung der Erneuerbare-Energien-Verordnung und der Marktstammdatenregisterverordnung infolge der Abwicklung des Regionalnachweisregisters sowie zur Neuregelung der Subdelegation an das Umweltbundesamt",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/verordnung-zur-aenderung-der-erneuerbare-energien-verordnung-und-der-marktstammdatenregisterverordnung-infolge-der-abwicklung-des-regionalnachweisregisters-sowie-zur-neuregelung-der-subdelegation-an-das-umweltbundesamt",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Zielt auf russische Öl- und Gas-Exporte : US-Präsident Trump unterzeichnet Paket mit Sanktionen gegen Russland",
-      "teaser": "Kühlturm von russischem Atomkraftwerk von Drohne getroffen + Kreml stellt Vermögenswerte von Nestlé in Russland unter Zwangsverwaltung + UN-Ermittler melden massive Gewalt gegen Ukrainer + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de/internationales/liveblog/zielt-auf-russische-ol-und-gas-exporte-trump-unterzeichnet-paket-mit-sanktionen-gegen-russland-4309180.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "atomkraft",
-        "sanktion"
-      ]
-    },
-    {
       "title": "Speichermengen sichern, Hemmnisse abbauen",
       "teaser": "15.09.2026",
       "link": "https://www.bdew.de/presse/speichermengen-sichern-hemmnisse-abbauen/",
@@ -3799,120 +3777,6 @@
       ]
     },
     {
-      "title": "Deutschland droht 2026 erstmals sein Klimaziel zu verfehlen",
-      "teaser": "Deutschlands Emissionen sind im ersten Halbjahr 2026 nur geringfügig um bis zu 7 Millionen Tonnen CO₂-Äq gesunken, wie eine erste Berechnung von Agora...",
-      "link": "https://www.agora-energiewende.de/aktuelles/deutschland-droht-2026-erstmals-sein-klimaziel-zu-verfehlen",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "emission",
-        "klima"
-      ]
-    },
-    {
-      "title": "Agora Energiewende mit neuer Südostasien-Direktorin und Chief Advisor China",
-      "teaser": "Der Thinktank intensiviert seine Arbeit zu zwei Regionen mit entscheidender Bedeutung für die globale Energiewende: Elrika Hamdi leitet künftig die Arbeit von...",
-      "link": "https://www.agora-energiewende.de/aktuelles/agora-energiewende-mit-neuer-suedostasien-direktorin-und-chief-advisor-china",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
-      "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
-      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "eeg",
-        "energiewende",
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Halbjahresbilanz 2026: Deutschlands Treibhausgasemissionen und die Folgen der Energiepreiskrise",
-      "teaser": "Nur zwei Prozent sind Deutschlands Treibhausgasemissionen in den ersten sechs Monaten des Jahres gesunken. Das ist das Ergebnis einer ersten Agora-Berechnung auf Basis vorläufiger Daten. Elektrifizierungserfolge durch zunehmend mehr…",
-      "link": "https://www.agora-energiewende.de/daten-tools/halbjahresbilanz-2026-deutschlands-treibhausgasemissionen-und-die-folgen-der-energiepreiskrise",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 443",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 97",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
-      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
-      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
       "title": "UK gas prices risk reaching 2022 crisis levels this winter",
       "teaser": "Jake Thompson",
       "link": "https://www.montelnews.com/news/ec63398a-35a6-4d33-897d-529b8fcbd04d/uk-gas-prices-risk-reaching-2022-crisis-levels-this-winter-analysts",
@@ -3983,9 +3847,9 @@
       ]
     },
     {
-      "title": "Six takeaways from South Africa offshore wind roadmap report – as first potential project delayed",
+      "title": "How the clean power investment landscape is shifting, according to Barclays chief",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/six-takeaways-from-south-africa-offshore-wind-roadmap-report-as-first-potential-project-delayed/2-1-2045950",
+      "link": "https://www.rechargenews.com/interviews/how-the-clean-power-investment-landscape-is-shifting-according-to-barclays-chief/2-1-2044603",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -3994,9 +3858,9 @@
       ]
     },
     {
-      "title": "How the clean power investment landscape is shifting, according to Barclays chief",
+      "title": "Six takeaways from South Africa offshore wind roadmap report – as first potential project delayed",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/how-the-clean-power-investment-landscape-is-shifting-according-to-barclays-chief/2-1-2044603",
+      "link": "https://www.rechargenews.com/offshore-wind/six-takeaways-from-south-africa-offshore-wind-roadmap-report-as-first-potential-project-delayed/2-1-2045950",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -4049,17 +3913,6 @@
       ]
     },
     {
-      "title": "RWE deepens grid play with further TSO deal",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/rwe-deepens-grid-play-with-further-tso-deal/2-1-2044804",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Ranked: the UK's least profitable offshore wind farms",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/analysis/ranked-the-uks-least-profitable-offshore-wind-farms-and-why-that-is/2-1-2042734",
@@ -4069,6 +3922,17 @@
         "renewable",
         "solar",
         "wind farm"
+      ]
+    },
+    {
+      "title": "Iberdrola and GE Vernova settle major offshore wind dispute",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/legal/iberdrola-and-ge-vernova-settle-major-offshore-wind-dispute/2-1-2044644",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -4106,9 +3970,9 @@
       ]
     },
     {
-      "title": "Iberdrola and GE Vernova settle major offshore wind dispute",
+      "title": "Orsted and Enel Green Power CEOs named new leaders of WindEurope",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/iberdrola-and-ge-vernova-settle-major-offshore-wind-dispute/2-1-2044644",
+      "link": "https://www.rechargenews.com/people/orsted-and-enel-green-power-ceos-named-new-leaders-of-windeurope/2-1-2044106",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -4117,9 +3981,9 @@
       ]
     },
     {
-      "title": "Orsted and Enel Green Power CEOs named new leaders of WindEurope",
+      "title": "RWE deepens grid play with further TSO deal",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/orsted-and-enel-green-power-ceos-named-new-leaders-of-windeurope/2-1-2044106",
+      "link": "https://www.rechargenews.com/finance/rwe-deepens-grid-play-with-further-tso-deal/2-1-2044804",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
