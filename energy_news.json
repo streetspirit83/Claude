@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:35:48+00:00",
+  "generated_at": "2026-09-19T18:19:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 2
     },
     {
       "name": "tagesspiegel-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
+      "status": "empty",
       "method": null,
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "error": null,
       "items_found": 0,
       "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 5
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 352,
+  "count": 370,
   "articles": [
     {
       "title": "Trump unterzeichnet ein Gesetz, das umfassende Sanktionen gegen Russland genehmigt",
@@ -730,6 +730,27 @@
       ]
     },
     {
+      "title": "Groups sue US EPA over repeal of power plant greenhouse gas standards",
+      "teaser": "Multiple health and climate organizations filed a petition for review of the US Environmental Protection Agency&apos;s finalized rule repealing carbon dioxide limits imposed on power plants. The Sept. 17 petition from the American Health…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091726-groups-sue-us-epa-over-repeal-of-power-plant-greenhouse-gas-standards",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T20:26:45+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Canada&apos;s CURA secures $10M to build decarbonized cement pilot plant",
+      "teaser": "Alberta-based CURA Climate Inc. has raised $10 million in financing to support its decarbonized cement pilot plant and path to commercialization, the company said Sept. 17. CURA uses electrochemical technology rather than high-temperature…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/091726-canadas-cura-secures-10m-to-build-decarbonized-cement-pilot-plant",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T17:20:45+00:00",
+      "matched_keywords": [
+        "climate",
+        "decarbon"
+      ]
+    },
+    {
       "title": "JERA Creates Singapore Subsidiary to Diversify Its LNG Sales",
       "teaser": null,
       "link": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales",
@@ -748,6 +769,16 @@
       "published": "2026-09-17T16:46:48+00:00",
       "matched_keywords": [
         "sanction"
+      ]
+    },
+    {
+      "title": "National Gas advances UK hydrogen pipeline project with engineering design",
+      "teaser": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England&apos;s east coast, the gas transmission system operator said in a statement…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091726-national-gas-advances-uk-hydrogen-pipeline-project-with-engineering-design",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T16:03:47+00:00",
+      "matched_keywords": [
+        "hydrogen"
       ]
     },
     {
@@ -790,6 +821,16 @@
         "erneuerbare",
         "forderung",
         "renewable"
+      ]
+    },
+    {
+      "title": "GASTECH 2026: LNG participants split over long-term implications of Hormuz shock",
+      "teaser": "As the war in the Middle East approaches seven months, LNG market participants at the Gastech conference in Bangkok, Thailand, Sept. 14-17, were split on the long-term implications for demand and growth from an unprecedented supply shock…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/091726-gastech-2026-lng-participants-split-over-long-term-implications-of-hormuz-shock",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T14:50:19+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -851,6 +892,16 @@
       "published": "2026-09-17T12:38:46+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "IEA&apos;s Birol urges South Korea, other Asian LNG importers to diversify supply amid conflict",
+      "teaser": "South Korea and other Asian LNG importers need to step up their efforts to diversify LNG supply sources amid the Middle East conflict and disruptions to traffic through the Strait of Hormuz, International Energy Agency Executive Director…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091726-ieas-birol-urges-south-korea-other-asian-lng-importers-to-diversify-supply-amid-conflict",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T12:32:47+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -3643,6 +3694,27 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Verordnung zur Änderung der Erneuerbare-Energien-Verordnung und der Marktstammdatenregisterverordnung infolge der Abwicklung des Regionalnachweisregisters sowie zur Neuregelung der Subdelegation an das Umweltbundesamt",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/verordnung-zur-aenderung-der-erneuerbare-energien-verordnung-und-der-marktstammdatenregisterverordnung-infolge-der-abwicklung-des-regionalnachweisregisters-sowie-zur-neuregelung-der-subdelegation-an-das-umweltbundesamt",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
       "title": "Speichermengen sichern, Hemmnisse abbauen",
       "teaser": "15.09.2026",
       "link": "https://www.bdew.de/presse/speichermengen-sichern-hemmnisse-abbauen/",
@@ -3774,6 +3846,120 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "Deutschland droht 2026 erstmals sein Klimaziel zu verfehlen",
+      "teaser": "Deutschlands Emissionen sind im ersten Halbjahr 2026 nur geringfügig um bis zu 7 Millionen Tonnen CO₂-Äq gesunken, wie eine erste Berechnung von Agora...",
+      "link": "https://www.agora-energiewende.de/aktuelles/deutschland-droht-2026-erstmals-sein-klimaziel-zu-verfehlen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "klima"
+      ]
+    },
+    {
+      "title": "Agora Energiewende mit neuer Südostasien-Direktorin und Chief Advisor China",
+      "teaser": "Der Thinktank intensiviert seine Arbeit zu zwei Regionen mit entscheidender Bedeutung für die globale Energiewende: Elrika Hamdi leitet künftig die Arbeit von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-energiewende-mit-neuer-suedostasien-direktorin-und-chief-advisor-china",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Statement von Agora Energiewende zum EEG und Netzpaket",
+      "teaser": "Einordnung von Julia Bläsius, Direktorin von Agora Energiewende Deutschland, zu den heute vorgelegten Gesetzesentwürfen für das Erneuerbare-Energien-Gesetz...",
+      "link": "https://www.agora-energiewende.de/aktuelles/statement-von-agora-energiewende-zum-eeg-und-netzpaket",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "eeg",
+        "energiewende",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Halbjahresbilanz 2026: Deutschlands Treibhausgasemissionen und die Folgen der Energiepreiskrise",
+      "teaser": "Nur zwei Prozent sind Deutschlands Treibhausgasemissionen in den ersten sechs Monaten des Jahres gesunken. Das ist das Ergebnis einer ersten Agora-Berechnung auf Basis vorläufiger Daten. Elektrifizierungserfolge durch zunehmend mehr…",
+      "link": "https://www.agora-energiewende.de/daten-tools/halbjahresbilanz-2026-deutschlands-treibhausgasemissionen-und-die-folgen-der-energiepreiskrise",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 443",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 97",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
