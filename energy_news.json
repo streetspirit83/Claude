@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:55:44+00:00",
+  "generated_at": "2026-09-20T13:50:08+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 2
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "reuters-energy",
@@ -300,12 +300,12 @@
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "status": "empty",
+      "method": null,
+      "feed_url": null,
       "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 373,
+  "count": 372,
   "articles": [
     {
       "title": "Argentina’s first solar train runs on batteries charged by the Andean sun",
@@ -780,27 +780,6 @@
       ]
     },
     {
-      "title": "Groups sue US EPA over repeal of power plant greenhouse gas standards",
-      "teaser": "Multiple health and climate organizations filed a petition for review of the US Environmental Protection Agency&apos;s finalized rule repealing carbon dioxide limits imposed on power plants. The Sept. 17 petition from the American Health…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091726-groups-sue-us-epa-over-repeal-of-power-plant-greenhouse-gas-standards",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-17T20:26:45+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Canada&apos;s CURA secures $10M to build decarbonized cement pilot plant",
-      "teaser": "Alberta-based CURA Climate Inc. has raised $10 million in financing to support its decarbonized cement pilot plant and path to commercialization, the company said Sept. 17. CURA uses electrochemical technology rather than high-temperature…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/091726-canadas-cura-secures-10m-to-build-decarbonized-cement-pilot-plant",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-17T17:20:45+00:00",
-      "matched_keywords": [
-        "climate",
-        "decarbon"
-      ]
-    },
-    {
       "title": "JERA Creates Singapore Subsidiary to Diversify Its LNG Sales",
       "teaser": null,
       "link": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales",
@@ -942,16 +921,6 @@
       "published": "2026-09-17T12:38:46+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "IEA&apos;s Birol urges South Korea, other Asian LNG importers to diversify supply amid conflict",
-      "teaser": "South Korea and other Asian LNG importers need to step up their efforts to diversify LNG supply sources amid the Middle East conflict and disruptions to traffic through the Strait of Hormuz, International Energy Agency Executive Director…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091726-ieas-birol-urges-south-korea-other-asian-lng-importers-to-diversify-supply-amid-conflict",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-17T12:32:47+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1334,16 +1303,6 @@
       "published": "2026-09-16T03:45:35+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "ExxonMobil wins Texas approval for $5bn carbon capture project",
-      "teaser": "State regulators greenlight plan after lengthy battle over safety and subsidies",
-      "link": "https://www.ft.com/content/4b9952d5-3cc8-48ef-8619-daa15a0a6af1?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-09-15T19:20:49+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -3739,6 +3698,37 @@
       "link": "https://www.cleanenergywire.org/experts/zukunft-klimasozial",
       "source": "cleanenergywire",
       "published": "2026-01-08T10:43:31+00:00",
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare",
+        "speicher"
+      ]
+    },
+    {
+      "title": "Verordnung zur Änderung der Erneuerbare-Energien-Verordnung und der Marktstammdatenregisterverordnung infolge der Abwicklung des Regionalnachweisregisters sowie zur Neuregelung der Subdelegation an das Umweltbundesamt",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/verordnung-zur-aenderung-der-erneuerbare-energien-verordnung-und-der-marktstammdatenregisterverordnung-infolge-der-abwicklung-des-regionalnachweisregisters-sowie-zur-neuregelung-der-subdelegation-an-das-umweltbundesamt",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "„Wenn sie weg wären, würde die Hitze kommen“ : Das Leben von 200 Bäumen – der Preis für eine Berliner Straße?",
+      "teaser": "Ein Streit um geplante Baumfällungen verzögert eine Großbaustelle am viel befahrenen Tempelhofer Damm. Anwohner protestieren und fürchten um das Klima in ihrem Bezirk. Doch die Zeit drängt.",
+      "link": "https://www.tagesspiegel.de/berlin/bezirke/tempelhof-schoeneberg/wenn-sie-weg-waren-wurde-die-hitze-kommen-das-leben-von-100-baumen--der-preis-fur-eine-berliner-strasse-16063055.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
       "matched_keywords": [
         "klima"
       ]
