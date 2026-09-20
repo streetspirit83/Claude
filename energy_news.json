@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:50:08+00:00",
+  "generated_at": "2026-09-20T18:23:49+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 22
+      "items_matched": 23
     },
     {
       "name": "politico-energy-climate",
@@ -290,20 +290,20 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 4
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "empty",
+      "status": "error",
       "method": null,
       "feed_url": null,
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
       "items_found": 0,
       "items_matched": 0
     },
@@ -368,8 +368,20 @@
       "items_matched": 0
     }
   ],
-  "count": 372,
+  "count": 368,
   "articles": [
+    {
+      "title": "Climate Week warns of challenges in delivering the energy transition",
+      "teaser": "The event coincides with the United Nations General Assembly and is organised by the NGO Climate Group, which aims to achieve net-zero carbon emissions worldwide by 2050.",
+      "link": "https://www.euronews.com/2026/09/20/climate-week-warns-of-challenges-in-delivering-the-energy-transition",
+      "source": "euronews-green",
+      "published": "2026-09-20T15:10:04+00:00",
+      "matched_keywords": [
+        "climate",
+        "emission",
+        "net-zero"
+      ]
+    },
     {
       "title": "Argentina’s first solar train runs on batteries charged by the Andean sun",
       "teaser": "The Tren Solar de la Quebrada can run nearly double its current length on solar power alone.",
@@ -439,16 +451,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -770,16 +772,6 @@
       ]
     },
     {
-      "title": "Congress passes sanctions, tariff bill targeting buyers of Russian energy",
-      "teaser": "The US House of Representatives on Sept. 16 passed comprehensive sanctions legislation targeting major purchasers of Russian oil and gas, clearing the way for the law to go to US President Donald Trump for his signature. The bill, which…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091726-congress-passes-sanctions-tariff-bill-targeting-buyers-of-russian-energy",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-17T20:37:02+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "JERA Creates Singapore Subsidiary to Diversify Its LNG Sales",
       "teaser": null,
       "link": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales",
@@ -798,16 +790,6 @@
       "published": "2026-09-17T16:46:48+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "National Gas advances UK hydrogen pipeline project with engineering design",
-      "teaser": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England&apos;s east coast, the gas transmission system operator said in a statement…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091726-national-gas-advances-uk-hydrogen-pipeline-project-with-engineering-design",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-17T16:03:47+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -850,16 +832,6 @@
         "erneuerbare",
         "forderung",
         "renewable"
-      ]
-    },
-    {
-      "title": "GASTECH 2026: LNG participants split over long-term implications of Hormuz shock",
-      "teaser": "As the war in the Middle East approaches seven months, LNG market participants at the Gastech conference in Bangkok, Thailand, Sept. 14-17, were split on the long-term implications for demand and growth from an unprecedented supply shock…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/091726-gastech-2026-lng-participants-split-over-long-term-implications-of-hormuz-shock",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-17T14:50:19+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -3721,16 +3693,6 @@
       "published": null,
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "„Wenn sie weg wären, würde die Hitze kommen“ : Das Leben von 200 Bäumen – der Preis für eine Berliner Straße?",
-      "teaser": "Ein Streit um geplante Baumfällungen verzögert eine Großbaustelle am viel befahrenen Tempelhofer Damm. Anwohner protestieren und fürchten um das Klima in ihrem Bezirk. Doch die Zeit drängt.",
-      "link": "https://www.tagesspiegel.de/berlin/bezirke/tempelhof-schoeneberg/wenn-sie-weg-waren-wurde-die-hitze-kommen-das-leben-von-100-baumen--der-preis-fur-eine-berliner-strasse-16063055.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
       ]
     },
     {
