@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:11:46+00:00",
+  "generated_at": "2026-09-20T08:55:44+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 21
+      "items_matched": 22
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 7
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 4
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
+      "error": null,
+      "items_found": 5,
+      "items_matched": 3
     },
     {
       "name": "iea-news",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 363,
+  "count": 373,
   "articles": [
+    {
+      "title": "Argentina’s first solar train runs on batteries charged by the Andean sun",
+      "teaser": "The Tren Solar de la Quebrada can run nearly double its current length on solar power alone.",
+      "link": "https://www.euronews.com/2026/09/20/argentinas-first-solar-train-runs-on-batteries-charged-by-the-andean-sun",
+      "source": "euronews-green",
+      "published": "2026-09-20T05:02:44+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Biodiesel for shipping now cheaper than conventional fuels after price fall",
+      "teaser": "Supplies racing to hit emissions targets push cost to record low, in move that could accelerate industry’s shift to greener fuels",
+      "link": "https://www.ft.com/content/e2cbfd2e-ee56-4d8b-a403-cbaae4cce191?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-20T04:00:03+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "TotalEnergies faces fresh scrutiny over response to Mozambique attack",
+      "teaser": "French energy group accused of failing to protect British subcontractor killed during 2021 Islamist assault on area surrounding $20bn LNG project",
+      "link": "https://www.ft.com/content/0f8276e5-92d3-4e37-bb7f-e8bc889346b2?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-20T04:00:03+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Trump unterzeichnet ein Gesetz, das umfassende Sanktionen gegen Russland genehmigt",
       "teaser": "Die Gesetzgebung zielt auf den russischen Energie- und Verteidigungssektor sowie auf Präsident Wladimir Putin und weitere hochrangige Amtsträger ab",
@@ -409,6 +439,16 @@
       "matched_keywords": [
         "climate",
         "coal power"
+      ]
+    },
+    {
+      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
+      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-18T17:16:15+00:00",
+      "matched_keywords": [
+        "energy security"
       ]
     },
     {
@@ -730,6 +770,37 @@
       ]
     },
     {
+      "title": "Congress passes sanctions, tariff bill targeting buyers of Russian energy",
+      "teaser": "The US House of Representatives on Sept. 16 passed comprehensive sanctions legislation targeting major purchasers of Russian oil and gas, clearing the way for the law to go to US President Donald Trump for his signature. The bill, which…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/091726-congress-passes-sanctions-tariff-bill-targeting-buyers-of-russian-energy",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-17T20:37:02+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
+    {
+      "title": "Groups sue US EPA over repeal of power plant greenhouse gas standards",
+      "teaser": "Multiple health and climate organizations filed a petition for review of the US Environmental Protection Agency&apos;s finalized rule repealing carbon dioxide limits imposed on power plants. The Sept. 17 petition from the American Health…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091726-groups-sue-us-epa-over-repeal-of-power-plant-greenhouse-gas-standards",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T20:26:45+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Canada&apos;s CURA secures $10M to build decarbonized cement pilot plant",
+      "teaser": "Alberta-based CURA Climate Inc. has raised $10 million in financing to support its decarbonized cement pilot plant and path to commercialization, the company said Sept. 17. CURA uses electrochemical technology rather than high-temperature…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/091726-canadas-cura-secures-10m-to-build-decarbonized-cement-pilot-plant",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T17:20:45+00:00",
+      "matched_keywords": [
+        "climate",
+        "decarbon"
+      ]
+    },
+    {
       "title": "JERA Creates Singapore Subsidiary to Diversify Its LNG Sales",
       "teaser": null,
       "link": "https://energynews.pro/en/jera-creates-singapore-subsidiary-to-diversify-its-lng-sales",
@@ -748,6 +819,16 @@
       "published": "2026-09-17T16:46:48+00:00",
       "matched_keywords": [
         "sanction"
+      ]
+    },
+    {
+      "title": "National Gas advances UK hydrogen pipeline project with engineering design",
+      "teaser": "National Gas has moved into the advanced engineering design phase for a 350-mile hydrogen pipeline linking St Fergus in northeast Scotland to Teesside on England&apos;s east coast, the gas transmission system operator said in a statement…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091726-national-gas-advances-uk-hydrogen-pipeline-project-with-engineering-design",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-17T16:03:47+00:00",
+      "matched_keywords": [
+        "hydrogen"
       ]
     },
     {
@@ -790,6 +871,16 @@
         "erneuerbare",
         "forderung",
         "renewable"
+      ]
+    },
+    {
+      "title": "GASTECH 2026: LNG participants split over long-term implications of Hormuz shock",
+      "teaser": "As the war in the Middle East approaches seven months, LNG market participants at the Gastech conference in Bangkok, Thailand, Sept. 14-17, were split on the long-term implications for demand and growth from an unprecedented supply shock…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/091726-gastech-2026-lng-participants-split-over-long-term-implications-of-hormuz-shock",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-17T14:50:19+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
@@ -851,6 +942,16 @@
       "published": "2026-09-17T12:38:46+00:00",
       "matched_keywords": [
         "energy storage"
+      ]
+    },
+    {
+      "title": "IEA&apos;s Birol urges South Korea, other Asian LNG importers to diversify supply amid conflict",
+      "teaser": "South Korea and other Asian LNG importers need to step up their efforts to diversify LNG supply sources amid the Middle East conflict and disruptions to traffic through the Strait of Hormuz, International Energy Agency Executive Director…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091726-ieas-birol-urges-south-korea-other-asian-lng-importers-to-diversify-supply-amid-conflict",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-17T12:32:47+00:00",
+      "matched_keywords": [
+        "lng"
       ]
     },
     {
