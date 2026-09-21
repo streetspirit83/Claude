@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:06:33+00:00",
+  "generated_at": "2026-09-21T22:22:33+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -105,7 +105,7 @@
       "feed_url": "https://www.euractiv.de/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "cleanenergywire",
@@ -220,12 +220,12 @@
     {
       "name": "offshore-energy",
       "url": "https://www.offshore-energy.biz",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.offshore-energy.biz/feed/",
-      "error": null,
-      "items_found": 10,
-      "items_matched": 5
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.offshore-energy.biz/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "windpowermonthly",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 54
+      "items_matched": 53
     },
     {
       "name": "power-technology",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 374,
+  "count": 368,
   "articles": [
+    {
+      "title": "Unexpected rainfall pressures Brazilian power prices lower",
+      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-21T18:19:21+00:00",
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
+      "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
+      "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
+      "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
+      "source": "canarymedia",
+      "published": "2026-09-21T17:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Frankreich und die Slowakei streichen russische Oligarchen von der EU-Sanktionsliste",
+      "teaser": "Länder an der Ostflanke, die über einen „gefährlichen Präzedenzfall“ besorgt sind, erreichen eine Sanktionssperre für die nächsten drei Jahre",
+      "link": "https://euractiv.com/de/news/frankreich-und-die-slowakei-streichen-russische-oligarchen-von-der-eu-sanktionsliste/",
+      "source": "euractiv-energie",
+      "published": "2026-09-21T16:15:37+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
     {
       "title": "Eine für alle: die multimodulierende Propan-Wärmepumpe",
       "teaser": "Der Fortschritt macht bei Wärmepumpen nicht halt. Das zeigen die Propan-Wärmepumpen VHPA von M-Tec und Cubic von Ovum, beide aus Österreich. Die großen Vorteile: weniger Propan und ein Baukastensystem, mit dem Geräte unter bestimmten…",
@@ -388,6 +418,16 @@
       "published": "2026-09-21T13:30:00+00:00",
       "matched_keywords": [
         "energy security"
+      ]
+    },
+    {
+      "title": "RWE to develop 400MW battery system at Moerdijk power station",
+      "teaser": "RWE has made a final investment decision (FID) to build a 400MW/1,100MWh battery storage system at its Moerdijk power station in Noord-Brabant, the Netherlands.",
+      "link": "https://www.power-technology.com/news/rwe-develop-400mw-battery-system-moerdijk/",
+      "source": "power-technology",
+      "published": "2026-09-21T13:09:49+00:00",
+      "matched_keywords": [
+        "battery storage"
       ]
     },
     {
@@ -419,16 +459,6 @@
       "matched_keywords": [
         "battery storage",
         "renewable"
-      ]
-    },
-    {
-      "title": "Legal showdown underway as Cotemar moves to freeze almost $60M in American Bureau of Shipping subsidiary’s assets",
-      "teaser": "The long-running financial standoff between Mexico’s offshore specialist Cotemar and ABSG Consulting, a subsidiary of American Bureau of Shipping (ABS), has intensified, with the former now turning to the New York State Supreme Court to…",
-      "link": "https://www.offshore-energy.biz/legal-showdown-underway-as-cotemar-moves-to-freeze-almost-60m-in-american-bureau-of-shipping-subsidiarys-assets/",
-      "source": "offshore-energy",
-      "published": "2026-09-21T12:14:31+00:00",
-      "matched_keywords": [
-        "subsid"
       ]
     },
     {
@@ -504,16 +534,6 @@
       ]
     },
     {
-      "title": "Orlen and Naftogaz deepen energy ties with two MoUs",
-      "teaser": "Ukraine’s state-owned energy company Naftogaz Group and Poland’s Orlen have strengthened cooperation in liquefied natural gas (LNG) and petroleum product supplies, diversification of supply routes, and further stabilization of energy…",
-      "link": "https://www.offshore-energy.biz/orlen-and-naftogaz-deepen-energy-ties-with-two-mous/",
-      "source": "offshore-energy",
-      "published": "2026-09-21T10:04:37+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "Europe’s biggest solar operator goes bust – months after receiving €1bn funding",
       "teaser": "Germany’s solar boom is facing growing grid constraints and falling power prices The post Europe’s biggest solar operator goes bust &#8211; months after receiving €1bn funding appeared first on Energy Live News .",
       "link": "https://www.energylivenews.com/2026/09/21/europes-biggest-solar-operator-goes-bust-months-after-receiving-1bn-funding/",
@@ -563,16 +583,6 @@
       "matched_keywords": [
         "emission",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "Flylogix expands low-emission methane playbook with cross-border North Sea oil platform drone flight",
-      "teaser": "Low-emission uncrewed aviation specialist Flylogix has crossed an international maritime boundary to survey an oil platform for methane emissions, marking the UK’s first civilian cross-border offshore drone operation. The post Flylogix…",
-      "link": "https://www.offshore-energy.biz/flylogix-expands-low-emission-methane-playbook-with-cross-border-north-sea-oil-platform-drone-flight/",
-      "source": "offshore-energy",
-      "published": "2026-09-21T09:03:06+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -794,17 +804,6 @@
       ]
     },
     {
-      "title": "Petrobras locks in 20-year US supply from Sempra’s LNG project in Lone Star State",
-      "teaser": "Brazil’s state-owned energy giant Petrobras has struck a two-decade-long deal with Sempra Infrastructure, a subsidiary of Sempra, for the supply of liquefied natural gas (LNG) from a U.S. project under development in Jefferson County,…",
-      "link": "https://www.offshore-energy.biz/petrobras-locks-in-20-year-us-supply-from-sempras-lng-project-in-lone-star-state/",
-      "source": "offshore-energy",
-      "published": "2026-09-18T14:08:43+00:00",
-      "matched_keywords": [
-        "lng",
-        "subsid"
-      ]
-    },
-    {
       "title": "Finanzministerium korrigiert Fehler bei der Umsatzsteuer mit Eigenverbrauchsvergütung",
       "teaser": "Steuertipps: Einige Betreiber älterer Photovoltaik-Anlagen erhalten neben der Einspeisevergütung auch eine Vergütung für selbst verbrauchten Solarstrom. Doch viele Anlagenbetreiber erhielten aufgrund einer fehlerhaften…",
       "link": "https://www.pv-magazine.de/2026/09/18/finanzministerium-korrigiert-fehler-bei-der-umsatzsteuer-mit-eigenverbrauchsverguetung/",
@@ -832,16 +831,6 @@
       "published": "2026-09-18T13:08:49+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "Hanwha Ocean’s design solution allowing LNG carrier’s switch to ammonia gets ABS’ thumbs-up",
-      "teaser": "The American Bureau of Shipping (ABS), a classification society, has handed out approval in principle (AIP) for a multi-purpose fuel tank and fuel gas supply system design that enables a liquefied natural gas (LNG) carrier (LNGC) to shift…",
-      "link": "https://www.offshore-energy.biz/hanwha-oceans-design-solution-allowing-lng-carriers-switch-to-ammonia-gets-abs-thumbs-up/",
-      "source": "offshore-energy",
-      "published": "2026-09-18T13:02:50+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -924,16 +913,6 @@
       "published": "2026-09-18T08:17:50+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Qualitas Energy establishes new entity to run German renewables arm",
-      "teaser": "Spanish renewables investor Qualitas Energy has introduced Navaris, a new entity established to manage the group’s renewable energy business in Germany.",
-      "link": "https://www.power-technology.com/news/qualitas-new-entity-german-renewables-arm/",
-      "source": "power-technology",
-      "published": "2026-09-18T07:14:22+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -1085,7 +1064,7 @@
       "title": "GASTECH 2026: LNG participants split over long-term implications of Hormuz shock",
       "teaser": "As the war in the Middle East approaches seven months, LNG market participants at the Gastech conference in Bangkok, Thailand, Sept. 14-17, were split on the long-term implications for demand and growth from an unprecedented supply shock…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/091726-gastech-2026-lng-participants-split-over-long-term-implications-of-hormuz-shock",
-      "source": "spglobal-electric-power",
+      "source": "spglobal-energy-transition",
       "published": "2026-09-17T14:50:19+00:00",
       "matched_keywords": [
         "lng"
@@ -1119,16 +1098,6 @@
       "published": "2026-09-17T12:57:16+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "IEA&apos;s Birol urges South Korea, other Asian LNG importers to diversify supply amid conflict",
-      "teaser": "South Korea and other Asian LNG importers need to step up their efforts to diversify LNG supply sources amid the Middle East conflict and disruptions to traffic through the Strait of Hormuz, International Energy Agency Executive Director…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/lng/091726-ieas-birol-urges-south-korea-other-asian-lng-importers-to-diversify-supply-amid-conflict",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-17T12:32:47+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1295,16 +1264,6 @@
       "published": "2026-09-16T11:49:20+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Hormuz crisis threatens to undermine long-term LNG demand",
-      "teaser": "Soaring prices drive search for alternatives in key Asian markets",
-      "link": "https://www.ft.com/content/31f41c2e-084b-4bdf-a548-bf3d1139dbbe?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-09-16T11:00:07+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1793,16 +1752,6 @@
       "published": "2026-09-14T05:00:00+00:00",
       "matched_keywords": [
         "energiewende"
-      ]
-    },
-    {
-      "title": "Italy eyes nuclear power comeback by 2035",
-      "teaser": "Senate approval of Italy's atomic bill is expected within days.",
-      "link": "https://www.politico.eu/article/italy-nuclear-power-comeback-2035-landmark-senate-vote-new-reactors/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-09-14T04:00:00+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -3648,26 +3597,6 @@
       ]
     },
     {
-      "title": "Massachusetts embraces backyard homes as housing and climate solution",
-      "teaser": "When Marsha Gleason and her husband decided it was time to downsize from the 2,000-square-foot bungalow where they’d lived for the past 40 years, they didn’t head to Florida or research local retirement communities. Instead, they looked to…",
-      "link": "https://www.canarymedia.com/articles/energy-efficiency/massachusetts-embraces-backyard-homes",
-      "source": "canarymedia",
-      "published": "2026-08-04T07:30:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "How to bring a geothermal well back from the dead",
-      "teaser": "This story was originally published by Wired and is reproduced here as part of the Climate Desk collaboration. Geothermal company Zanskar bought a New Mexico power plant in 2024 that appeared from the outside to be failing. The shallow…",
-      "link": "https://www.canarymedia.com/articles/geothermal/zanskar-brings-geothermal-well-back",
-      "source": "canarymedia",
-      "published": "2026-08-04T07:30:00+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Der PV-Ausbau-Trend im Ländle geht weiterhin zu Balkonsolar",
       "teaser": "Welche Landkreise bei neu installierten Photovoltaik-Anlagen im ersten Halbjahr 2026 vorne liegen, zeigt eine aktuelle Auswertung des Photovoltaik-Netzwerks BW. Der Zubau insgesamt war rückläufig, doch Balkonsolaranlagen boomen weiterhin.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/der-pv-ausbau-trend-im-laendle-geht-weiterhin-zu-balkonsolar",
@@ -3736,6 +3665,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Totalblockade hätte gedroht : EU will Sanktionen gegen zwei russische Oligarchen aufheben",
+      "teaser": "Die Slowakei und Frankreich erzwingen einen Rückzieher in Brüssel: Zwei russische Milliardäre sollen von der Sanktionsliste gestrichen werden. Andernfalls wären Tausende Sanktionen nicht verlängert worden.",
+      "link": "https://www.tagesspiegel.de/internationales/dpa-eu-will-sanktionen-gegen-zwei-russische-oligarchen-aufheben-16082363.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "sanktion"
       ]
     },
     {
