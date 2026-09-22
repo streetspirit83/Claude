@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:16:07+00:00",
+  "generated_at": "2026-09-22T19:25:23+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 7
+      "items_matched": 5
     },
     {
       "name": "montelnews",
@@ -210,12 +210,12 @@
     {
       "name": "rechargenews",
       "url": "https://www.rechargenews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 15
+      "error": "502 Server Error: Bad Gateway for url: https://www.rechargenews.com/?zephr_sso_ott=rOFbha",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "offshore-energy",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "windpowermonthly",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "ft-energy",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,58 @@
       "items_matched": 0
     }
   ],
-  "count": 370,
+  "count": 352,
   "articles": [
+    {
+      "title": "Die EU streicht zwei russische Oligarchen von der Sanktionsliste",
+      "teaser": "Lettland wird sich bei der Entscheidung der Stimme enthalten, nachdem eine Auseinandersetzung das EU-Sanktionsregime an den Rand des Zusammenbruchs gebracht hat.",
+      "link": "https://euractiv.com/de/news/die-eu-streicht-zwei-russische-oligarchen-von-der-sanktionsliste/",
+      "source": "euractiv-energie",
+      "published": "2026-09-22T18:29:56+00:00",
+      "matched_keywords": [
+        "sanktion"
+      ]
+    },
+    {
+      "title": "France extends fuel subsidies to shield consumers from skyrocketing energy prices",
+      "teaser": "“We hear the concerns of the French people,” Economy and Finance Minister Roland Lescure told reporters Tuesday.",
+      "link": "https://www.politico.eu/article/france-extend-fuel-subsidies-consumers-energy-prices/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-09-22T16:54:12+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "LNG Supply Diversification Accelerates After Strait of Hormuz Trade Disruption",
+      "teaser": null,
+      "link": "https://energynews.pro/en/lng-supply-diversification-accelerates-after-strait-of-hormuz-trade-disruption",
+      "source": "energynews-pro",
+      "published": "2026-09-22T16:33:16+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "QatarEnergy’s CEO: Repairs on damaged LNG trains to take three years",
+      "teaser": "While dismissing alternative pipeline routes as economically unviable, the Chief Executive Officer (CEO) of Qatar’s state-owned oil and gas giant QatarEnergy has highlighted that the country’s liquefied natural gas (LNG) player remains…",
+      "link": "https://www.offshore-energy.biz/qatarenergys-ceo-repairs-on-damaged-lng-trains-to-take-three-years/",
+      "source": "offshore-energy",
+      "published": "2026-09-22T15:07:04+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Climate change has created a meta-crisis in food security, energy and the economy, says Greek expert",
+      "teaser": "Emmanuella Doussis is the UNESCO Chair on Climate Diplomacy and Professor of International Institutions at the University of Athens.",
+      "link": "https://www.euronews.com/2026/09/22/climate-change-has-created-a-meta-crisis-in-food-security-energy-and-the-economy-says-gree",
+      "source": "euronews-green",
+      "published": "2026-09-22T14:28:36+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "Nigeria Launches $300 Million Fund for Decentralized Renewable Energy",
       "teaser": null,
@@ -447,7 +497,7 @@
     {
       "title": "Ineos idles three UK chemical plants as gas prices soar",
       "teaser": "Jim Ratcliffe-owned conglomerate suspends factories in Hull, which employ 300 people, as oil and gas prices surge on Iran war",
-      "link": "https://www.ft.com/content/7c176006-9ec9-4083-933f-3d5cf2752e6b",
+      "link": "https://www.ft.com/content/7c176006-9ec9-4083-933f-3d5cf2752e6b?syn-25a6b1a6=1",
       "source": "ft-energy",
       "published": "2026-09-22T10:27:12+00:00",
       "matched_keywords": [
@@ -629,16 +679,6 @@
       ]
     },
     {
-      "title": "UK household electricity prices have surged 136% since 2010",
-      "teaser": "Brits are now paying the highest prices in the developed world for their power The post UK household electricity prices have surged 136% since 2010 appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/09/22/uk-household-electricity-prices-have-surged-136-since-2010/",
-      "source": "energylivenews",
-      "published": "2026-09-22T08:00:00+00:00",
-      "matched_keywords": [
-        "electricity price"
-      ]
-    },
-    {
       "title": "Ashmore Colombia to sell 360MWp solar project to ISAGEN",
       "teaser": "Ashmore Colombia, a subsidiary of the UK-based Ashmore Group, and its shareholder Patria Investments have agreed to sell Parque Solar Puerta de Oro, a solar photovoltaic (PV) project in Colombia, to energy company ISAGEN.",
       "link": "https://www.power-technology.com/news/ashmore-to-sell-360mwp-solar-isagen/",
@@ -669,26 +709,6 @@
       "published": "2026-09-22T06:32:09+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "EIB and Crédit Agricole CIB Commit €600 Million to European Power Grids",
-      "teaser": null,
-      "link": "https://energynews.pro/en/eib-and-credit-agricole-cib-commit-600-million-to-european-power-grids",
-      "source": "energynews-pro",
-      "published": "2026-09-22T06:01:07+00:00",
-      "matched_keywords": [
-        "power grid"
-      ]
-    },
-    {
-      "title": "Corsica Sole Launches 150 kW Green Hydrogen Pilot Unit in Corsica",
-      "teaser": null,
-      "link": "https://energynews.pro/en/corsica-sole-launches-150-kw-green-hydrogen-pilot-unit-in-corsica",
-      "source": "energynews-pro",
-      "published": "2026-09-22T05:32:05+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -1087,16 +1107,6 @@
       "published": "2026-09-18T12:36:40+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Equinor and PTT International Trading Sign Long-Term LNG Deal",
-      "teaser": null,
-      "link": "https://energynews.pro/en/equinor-and-ptt-international-trading-sign-long-term-lng-deal",
-      "source": "energynews-pro",
-      "published": "2026-09-18T12:01:53+00:00",
-      "matched_keywords": [
-        "lng"
       ]
     },
     {
@@ -1552,16 +1562,6 @@
       "published": "2026-09-16T03:45:35+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Zwischenwahlen: Metsola drängt darauf, dass das Zentrum des EU-Parlaments seine Position beibehält",
-      "teaser": "Die „größte“ Herausforderung wird darin bestehen, die 361 Stimmen zu finden, die für die Verabschiedung des nächsten EU-Haushalts erforderlich sind – eine Abstimmung, die bis Ende des Jahres stattfinden könnte, sofern sich die Staats- und…",
-      "link": "https://euractiv.com/de/news/zwischenwahlen-metsola-drangt-darauf-dass-das-zentrum-des-europaischen-parlaments-seine-position-beibehalt/",
-      "source": "euractiv-energie",
-      "published": "2026-09-15T17:57:09+00:00",
-      "matched_keywords": [
-        "forderung"
       ]
     },
     {
@@ -2665,18 +2665,6 @@
       ]
     },
     {
-      "title": "Heatwaves and secret emissions: Why nuclear power may not be as ‘green’ as you think",
-      "teaser": "The war on Iran has triggered calls to double down on nuclear power. But is it really ‘clean’, can Europe’s energy grid cope and will it survive the wrath of climate change?",
-      "link": "https://www.euronews.com/2026/09/01/heatwaves-and-secret-emissions-why-nuclear-power-may-not-be-as-green-as-you-think",
-      "source": "euronews-green",
-      "published": "2026-09-01T05:12:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "emission",
-        "nuclear"
-      ]
-    },
-    {
       "title": "Grüne Schaltstelle für Wasserstoff am Start",
       "teaser": "Im Herbst 2027 will Hamburg mit der Inbetriebnahme des Hamburger Wasserstoff-Industrie-Netzes HH-WIN in die Energiezukunft starten. Mit dem H2-Connector entsteht auf dem früheren Kraftwerksgelände Moorburg die zentrale Infrastruktur.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/gruene-schaltstelle-fuer-wasserstoff-am-start",
@@ -3678,27 +3666,6 @@
       ]
     },
     {
-      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare",
-        "speicher"
-      ]
-    },
-    {
-      "title": "Newsblog zur Berlin-Wahl : Elif Eralp einstimmig zur Fraktionschefin der Linken gewählt",
-      "teaser": "Ferat Koçak lässt Funktionen ruhen + SPD-Fraktionschef Raed Saleh tritt nicht wieder an + Führende Grüne fordern Sanktionen bei Linken + + Alle Entwicklungen zur Berlin-Wahl im Liveblog.",
-      "link": "https://www.tagesspiegel.de/berlin/liveblog/newsblog-zur-berlin-wahl-elif-eralp-einstimmig-zur-fraktionschefin-der-linken-gewahlt-16053722.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
-      ]
-    },
-    {
       "title": "Speichermengen sichern, Hemmnisse abbauen",
       "teaser": "15.09.2026",
       "link": "https://www.bdew.de/presse/speichermengen-sichern-hemmnisse-abbauen/",
@@ -4034,171 +4001,6 @@
       "published": null,
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "'It's madness': Vestas CEO blasts policy failings as Europe goes 'wrong way'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/its-madness-vestas-ceo-blasts-policy-failings-as-europe-goes-wrong-way/2-1-2047227",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orsted CEO: 'Germany should retender 16GW of unwanted offshore wind projects blocking pipeline'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/orsted-ceo-germany-should-retender-16gw-of-unwanted-offshore-wind-projects-blocking-pipeline/2-1-2047180",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Merging with rival to form 'Airbus of wind' is not an option, says Enercon boss",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/enercon-ceo-merging-with-rival-to-form-airbus-of-wind-is-not-an-option/2-1-2046774",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "WindEnergy Hamburg | Live Centre",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/energy-transition/windenergy-hamburg-live-centre/2-1-2047147",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Nordex launches new turbine model in 7MW class",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/nordex-launches-new-turbine-model-in-7mw-class/2-1-2046888",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Five issues on the agenda at Hamburg wind summit",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/opinion/five-issues-on-the-agenda-at-hamburg-wind-summit/2-1-2046183",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas technology chief: ‘Supersized turbines look better in PowerPoint than in practice’",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/vestas-technology-chief-supersized-turbines-look-better-in-powerpoint-than-in-practice-/2-1-2046135",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why Acciona Energía is up for sale: caught in a dangerous spiral",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/why-acciona-energ-a-is-up-for-sale-caught-in-a-dangerous-spiral/2-1-2046070",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "EU-backed floating offshore wind pioneer plans pilot project in Australia",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/eu-backed-floating-offshore-wind-pioneer-plans-pilot-project-in-australia/2-1-2047055",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orsted chief: Germany should cut offshore wind target and get rest from abroad",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/orsted-chief-germany-should-cut-offshore-wind-target-and-get-rest-from-abroad/2-1-2043610",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Germany 'could save over $5bn' on offshore wind with policy tweak",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/germany-could-save-over-5bn-on-offshore-wind-with-policy-tweak/2-1-2046599",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Floating wind developer unveils lower cost platform for mega-turbines",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/floating-wind-developer-unveils-lower-cost-platform-for-mega-turbines/2-1-2046463",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Inside CIP's battery blueprint and how it differs from wind",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/inside-cips-battery-blueprint-and-how-it-differs-from-wind/2-1-2039629",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "How the clean power investment landscape is shifting, according to Barclays chief",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/how-the-clean-power-investment-landscape-is-shifting-according-to-barclays-chief/2-1-2044603",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "How southwest Europe's offshore wind markets rank for investors",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/how-southwest-europes-offshore-wind-markets-rank-for-investors/2-1-2037932",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
