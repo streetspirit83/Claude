@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:54:47+00:00",
+  "generated_at": "2026-09-27T19:25:19+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 351,
+  "count": 350,
   "articles": [
     {
       "title": "Can solar power work underwater? Scientists test solar panels 10 metres beneath the sea",
@@ -941,6 +941,16 @@
       "matched_keywords": [
         "eeg",
         "netzentgelt"
+      ]
+    },
+    {
+      "title": "How Brussels wants to stop the climate disaster blame game",
+      "teaser": "New Commission proposal will seek to clarify who's in charge of managing fires and floods.",
+      "link": "https://www.politico.eu/article/how-brussels-wants-to-stop-the-climate-disaster-blame-game/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-09-24T04:00:00+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -1681,16 +1691,6 @@
       "published": "2026-09-16T09:31:07+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Von der Leyen tries to stem tide on global threats ― from Trump to AI and climate",
-      "teaser": "At time of \"great perils,\" the State of the Union speech pushes European \"independence\" while floating unique \"associate membership\" for Canada.",
-      "link": "https://www.politico.eu/article/ursula-von-der-leyen-state-of-the-union-europe-independence-ai-climate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-09-16T08:56:37+00:00",
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
@@ -3550,19 +3550,9 @@
       ]
     },
     {
-      "title": "Gesetz zur Abschaffung des Gesetzes für den Ausbau erneuerbarer Energien (Erneuerbare-Energien-Gesetz-Abschaffungsgesetz – EEGAG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-abschaffung-des-gesetzes-fuer-den-ausbau-erneuerbarer-energien-erneuerbare-energien-gesetz-abschaffungsgesetz-eegag",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "„Im Gazastreifen annektieren und im Libanon“ : Israels Finanzminister fordert Annexionen und Krieg gegen Palästinenserbehörde",
-      "teaser": "Der rechtsextreme israelische Minister Smotrich hat neue Gebietsforderungen erhoben. Zudem verlangt er ein härteres Vorgehen im Westjordanland.",
-      "link": "https://www.tagesspiegel.de/internationales/im-gazastreifen-annektieren-und-im-libanon-israels-finanzminister-fordert-annexionen-und-krieg-gegen-palastinenserbehorde-16099720.html",
+      "title": "„Würden das Problem nicht lösen“ : Linnemann lehnt SPD-Vorschlag zu Pflegedeckel ab",
+      "teaser": "Gesundheitsminister Carsten Linnemann hat die SPD-Forderung nach einem Pflegedeckel abgelehnt. Er rechnet mit nur geringen Einsparungen durch den Vorschlag.",
+      "link": "https://www.tagesspiegel.de/politik/dpa-linnemann-lehnt-spd-vorschlag-zu-pflegedeckel-ab-16100308.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
