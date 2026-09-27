@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T09:40:26+00:00",
+  "generated_at": "2026-09-27T14:54:47+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 2
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 357,
+  "count": 351,
   "articles": [
     {
       "title": "Can solar power work underwater? Scientists test solar panels 10 metres beneath the sea",
@@ -449,17 +449,6 @@
       "published": "2026-09-25T15:07:36+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "EC urges member states to adopt delayed hydrogen, gas laws after most miss deadline",
-      "teaser": "The European Commission has opened infringement procedures against most EU member states after all but Italy missed a deadline to adopt national laws on the hydrogen and decarbonized gas market, it said Sept. 25. Member states had until…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092526-ec-urges-member-states-to-adopt-delayed-hydrogen-gas-laws-after-most-miss-deadline",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-25T14:44:43+00:00",
-      "matched_keywords": [
-        "decarbon",
-        "hydrogen"
       ]
     },
     {
@@ -757,17 +746,6 @@
       "published": "2026-09-25T03:20:34+00:00",
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "Carbon market volatility surges as AI, policy shifts reshape US, Canada pricing",
-      "teaser": "Compliance carbon markets across the US and Canada are facing a wave of volatility and structural change, as panelists at the International Emissions Trading Association&apos;s North America Climate Summit pointed to the disruptive impacts…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092426-carbon-market-volatility-surges-as-ai-policy-shifts-reshape-us-canada-pricing",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-24T21:32:11+00:00",
-      "matched_keywords": [
-        "climate",
-        "emissions trading"
       ]
     },
     {
@@ -1275,16 +1253,6 @@
       ]
     },
     {
-      "title": "Unexpected rainfall pressures Brazilian power prices lower",
-      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T18:19:21+00:00",
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -1302,17 +1270,6 @@
       "published": "2026-09-21T16:15:37+00:00",
       "matched_keywords": [
         "sanktion"
-      ]
-    },
-    {
-      "title": "AI energy surge risks eroding record renewables gains, UN warns",
-      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T13:01:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
       ]
     },
     {
@@ -1488,16 +1445,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -3613,19 +3560,9 @@
       ]
     },
     {
-      "title": "Luisa Neubauer über ihren ersten Berlin-Marathon : „42 Kilometer machen auf eine gute Art und Weise demütig“",
-      "teaser": "Die Klimaaktivistin ist erstmals beim Berlin-Marathon dabei. Kurz vor dem Start sprach sie mit uns über ihre Motivation, Nachhaltigkeit bei Sponsor BMW und ihre Guilty Pleasures.",
-      "link": "https://www.tagesspiegel.de/sport/luisa-neubauer-uber-ihren-ersten-berlin-marathon-42-kilometer-machen-auf-eine-gute-art-und-weise-demutig-16098718.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Dieser Vater putzt, kocht und tröstet – ohne Aufforderung seiner Frau : „Mir schreiben täglich Männer, wie blöd ich sei“",
-      "teaser": "Nach Feierabend legte Marco Gänzle früher die Beine hoch. Heute putzt er das Bad. Der Dadfluencer erzählt, wie sich sein Bild vom Mannsein verändert hat.",
-      "link": "https://www.tagesspiegel.de/gesellschaft/ich-habe-gezockt-und-sie-putzen-lassen-wie-ein-vater-verstand-dass-er-seine-frau-lange-im-stich-gelassen-hatte-16079599.html",
+      "title": "„Im Gazastreifen annektieren und im Libanon“ : Israels Finanzminister fordert Annexionen und Krieg gegen Palästinenserbehörde",
+      "teaser": "Der rechtsextreme israelische Minister Smotrich hat neue Gebietsforderungen erhoben. Zudem verlangt er ein härteres Vorgehen im Westjordanland.",
+      "link": "https://www.tagesspiegel.de/internationales/im-gazastreifen-annektieren-und-im-libanon-israels-finanzminister-fordert-annexionen-und-krieg-gegen-palastinenserbehorde-16099720.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
