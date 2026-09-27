@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T21:43:35+00:00",
+  "generated_at": "2026-09-27T09:40:26+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
@@ -300,12 +300,12 @@
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "empty",
-      "method": null,
-      "feed_url": null,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
-      "items_found": 0,
-      "items_matched": 0
+      "items_found": 5,
+      "items_matched": 2
     },
     {
       "name": "iea-news",
@@ -368,8 +368,28 @@
       "items_matched": 0
     }
   ],
-  "count": 350,
+  "count": 357,
   "articles": [
+    {
+      "title": "Can solar power work underwater? Scientists test solar panels 10 metres beneath the sea",
+      "teaser": "According to the researchers, perovskite-based solar panels could operate for five and a half years underwater.",
+      "link": "https://www.euronews.com/2026/09/27/can-solar-power-work-underwater-scientists-test-solar-panels-10-metres-beneath-the-sea",
+      "source": "euronews-green",
+      "published": "2026-09-27T05:02:04+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "Europe braces for LNG tug of war with Asia",
+      "teaser": "Competition for cargoes could intensify in coming months as EU gas stores are at record lows",
+      "link": "https://www.ft.com/content/474ced6c-b6ba-4d03-af41-bab5fbb6d7e9?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-27T04:00:20+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Energy costs and AI power demand reshape climate talks in New York",
       "teaser": "Disruption of global energy markets dominates discussions that previously concentrated more on cutting emissions",
@@ -429,6 +449,17 @@
       "published": "2026-09-25T15:07:36+00:00",
       "matched_keywords": [
         "lng"
+      ]
+    },
+    {
+      "title": "EC urges member states to adopt delayed hydrogen, gas laws after most miss deadline",
+      "teaser": "The European Commission has opened infringement procedures against most EU member states after all but Italy missed a deadline to adopt national laws on the hydrogen and decarbonized gas market, it said Sept. 25. Member states had until…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092526-ec-urges-member-states-to-adopt-delayed-hydrogen-gas-laws-after-most-miss-deadline",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-25T14:44:43+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "hydrogen"
       ]
     },
     {
@@ -726,6 +757,17 @@
       "published": "2026-09-25T03:20:34+00:00",
       "matched_keywords": [
         "renewable"
+      ]
+    },
+    {
+      "title": "Carbon market volatility surges as AI, policy shifts reshape US, Canada pricing",
+      "teaser": "Compliance carbon markets across the US and Canada are facing a wave of volatility and structural change, as panelists at the International Emissions Trading Association&apos;s North America Climate Summit pointed to the disruptive impacts…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092426-carbon-market-volatility-surges-as-ai-policy-shifts-reshape-us-canada-pricing",
+      "source": "spglobal-energy-transition",
+      "published": "2026-09-24T21:32:11+00:00",
+      "matched_keywords": [
+        "climate",
+        "emissions trading"
       ]
     },
     {
@@ -3558,6 +3600,36 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Gesetz zur Abschaffung des Gesetzes für den Ausbau erneuerbarer Energien (Erneuerbare-Energien-Gesetz-Abschaffungsgesetz – EEGAG)",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-abschaffung-des-gesetzes-fuer-den-ausbau-erneuerbarer-energien-erneuerbare-energien-gesetz-abschaffungsgesetz-eegag",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Luisa Neubauer über ihren ersten Berlin-Marathon : „42 Kilometer machen auf eine gute Art und Weise demütig“",
+      "teaser": "Die Klimaaktivistin ist erstmals beim Berlin-Marathon dabei. Kurz vor dem Start sprach sie mit uns über ihre Motivation, Nachhaltigkeit bei Sponsor BMW und ihre Guilty Pleasures.",
+      "link": "https://www.tagesspiegel.de/sport/luisa-neubauer-uber-ihren-ersten-berlin-marathon-42-kilometer-machen-auf-eine-gute-art-und-weise-demutig-16098718.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Dieser Vater putzt, kocht und tröstet – ohne Aufforderung seiner Frau : „Mir schreiben täglich Männer, wie blöd ich sei“",
+      "teaser": "Nach Feierabend legte Marco Gänzle früher die Beine hoch. Heute putzt er das Bad. Der Dadfluencer erzählt, wie sich sein Bild vom Mannsein verändert hat.",
+      "link": "https://www.tagesspiegel.de/gesellschaft/ich-habe-gezockt-und-sie-putzen-lassen-wie-ein-vater-verstand-dass-er-seine-frau-lange-im-stich-gelassen-hatte-16079599.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
       ]
     },
     {
