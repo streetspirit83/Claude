@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:23:31+00:00",
+  "generated_at": "2026-09-29T22:46:21+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
-      "items_matched": 1
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "tagesspiegel-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "montelnews",
@@ -300,12 +300,12 @@
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 4
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 53
+      "items_matched": 52
     },
     {
       "name": "power-technology",
@@ -368,8 +368,38 @@
       "items_matched": 0
     }
   ],
-  "count": 252,
+  "count": 247,
   "articles": [
+    {
+      "title": "Shell-led consortium backs $23bn expansion of LNG Canada project",
+      "teaser": "Flagship liquefied natural gas project’s production capacity will double",
+      "link": "https://www.ft.com/content/364d5454-876d-42ef-8f30-759e1ebdb026?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-09-29T20:42:36+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "In Sapignicourt and Hauteville, Q ENERGY Commissions an 11 MWp Solar Park",
+      "teaser": null,
+      "link": "https://energynews.pro/en/in-sapignicourt-and-hauteville-q-energy-commissions-an-11-mwp-solar-park",
+      "source": "energynews-pro",
+      "published": "2026-09-29T19:03:33+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "NaTran Launches Public Consultation on HY-FEN, an 820-Kilometer Hydrogen Pipeline",
+      "teaser": null,
+      "link": "https://energynews.pro/en/natran-launches-public-consultation-on-hy-fen-an-820-kilometer-hydrogen-pipeline",
+      "source": "energynews-pro",
+      "published": "2026-09-29T18:36:05+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
     {
       "title": "This is the most volatile the energy market has ever been",
       "teaser": "Geopolitical tensions, price shocks and the net zero transition are driving volatility. Our latest podcast explores how on-site generation could help businesses manage the changing market The post This is the most volatile the energy…",
@@ -399,18 +429,6 @@
       "matched_keywords": [
         "eeg",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "PATH TO NET ZERO: Shipping companies face slow low-carbon bunker transition",
-      "teaser": "This is the sixth in a multi-part series on net-zero efforts across industries. The previous article can be found here. Major shipping companies have made progress in reducing the greenhouse gas emissions intensity of their operations but…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/shipping/092926-path-to-net-zero-shipping-companies-face-slow-low-carbon-bunker-transition",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-29T13:30:29+00:00",
-      "matched_keywords": [
-        "emission",
-        "net zero",
-        "net-zero"
       ]
     },
     {
@@ -558,16 +576,6 @@
       ]
     },
     {
-      "title": "Shell-led consortium backs $23bn expansion of LNG Canada project",
-      "teaser": "Flagship liquefied natural gas project’s production capacity to double",
-      "link": "https://www.ft.com/content/364d5454-876d-42ef-8f30-759e1ebdb026?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-09-29T08:34:46+00:00",
-      "matched_keywords": [
-        "lng"
-      ]
-    },
-    {
       "title": "KGAL löst offenen Erneuerbare-Fonds auf",
       "teaser": "Die beiden Erneuerbare-Anlagen des Fonds „KGAL klimaSUBSTANZ“ – ein Solar- und ein Windpark – werden während der Abwicklung weiter bewirtschaftet und zu geeigneten Zeitpunkten veräußert. Als Grund für die Auflösung des Fonds nennt KGAL die…",
       "link": "https://www.pv-magazine.de/2026/09/29/kgal-loest-offenen-erneuerbare-fonds-auf/",
@@ -653,26 +661,6 @@
       ]
     },
     {
-      "title": "HysetCo and 169 Companies Urge Europe to Maintain Hydrogen Commitments Past 2030",
-      "teaser": null,
-      "link": "https://energynews.pro/en/hysetco-and-169-companies-urge-europe-to-maintain-hydrogen-commitments-past-2030",
-      "source": "energynews-pro",
-      "published": "2026-09-29T04:41:43+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "India&apos;s UltraTech meets power needs at Chhattisgarh plant entirely from green energy",
-      "teaser": "India&apos;s UltraTech Cement said in a statement Sept. 28 that its integrated Kukurdih cement plant in Chhattisgarh has met its entire electricity demand through renewable energy and waste heat recovery systems each month since April,…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/092926-indias-ultratech-meets-power-needs-at-chhattisgarh-plant-entirely-from-green-energy",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-29T04:01:00+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
       "title": "Will New York's 1GW storage contracts finally break the state's big battery impasse?",
       "teaser": "New York set an ambitious goal to eliminate fossil-fueled electricity by 2040. Doing so will almost certainly require widespread adoption of batteries to store renewable generation and make it available on demand, thereby reducing the need…",
       "link": "https://www.canarymedia.com/articles/batteries/new-york-torage-contracts-big-battery",
@@ -691,17 +679,6 @@
       "matched_keywords": [
         "pv",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "PATH TO NET ZERO: US oil majors cast doubt on feasibility of net zero by 2050",
-      "teaser": "This is the fifth in a multi-part series on net-zero efforts across industries. The previous article can be found here. Some of the largest US oil and gas companies appear to be growing increasingly doubtful that a net-zero future is…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/092826-path-to-net-zero-us-oil-majors-cast-doubt-on-feasibility-of-net-zero-by-2050",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-28T13:45:14+00:00",
-      "matched_keywords": [
-        "net zero",
-        "net-zero"
       ]
     },
     {
@@ -765,17 +742,6 @@
       "published": "2026-09-28T08:49:29+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "HCEE INDIA 2026 INTERVIEW: Reliance to start renewable hydrogen output in 2027, ramp up by 2028",
-      "teaser": "Reliance Industries Ltd. expects to begin renewable hydrogen production at Jamnagar next year, ramping up to fulfill a commercial offtake deal by 2028, as the Indian conglomerate moves to anchor its new energy ambitions around a coastal…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092826-hcee-india-2026-interview-reliance-to-start-renewable-hydrogen-output-in-2027-ramp-up-by-2028",
-      "source": "spglobal-energy-transition",
-      "published": "2026-09-28T08:20:59+00:00",
-      "matched_keywords": [
-        "hydrogen",
-        "renewable"
       ]
     },
     {
@@ -2426,17 +2392,6 @@
       ]
     },
     {
-      "title": "Why Illinois has struggled to turn old coal sites into solar farms",
-      "teaser": "Illinois had big plans to turn a bunch of old coal plant sites into solar and battery farms. But the program has turned out to be kind of a bust. The state created its Coal to Solar and Energy Storage Initiative five years ago, hoping it…",
-      "link": "https://www.canarymedia.com/articles/solar/illinois-coal-sites-to-solar-farms",
-      "source": "canarymedia",
-      "published": "2026-08-11T07:30:00+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
       "title": "Wärmepumpen und Wärmenetze als Rückgrat der Wärmewende",
       "teaser": "Eine Studie mit einer breiten Datenbasis für Kommunale Wärmepläne bestätigt zentrale Trends: Wärmepumpen sowie Wärmenetze sind die tragenden Säulen der zukünftigen Wärmeversorgung. Rund 380 Wärmepläne wurden dafür ausgewertet.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/waermewende/waermepumpen-und-waermenetze-als-rueckgrat-der-waermewende",
@@ -2549,16 +2504,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Gesetz zur Abschaffung des Gesetzes für den Ausbau erneuerbarer Energien (Erneuerbare-Energien-Gesetz-Abschaffungsgesetz – EEGAG)",
-      "teaser": null,
-      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-abschaffung-des-gesetzes-fuer-den-ausbau-erneuerbarer-energien-erneuerbare-energien-gesetz-abschaffungsgesetz-eegag",
-      "source": "tagesspiegel-background-energie",
-      "published": null,
-      "matched_keywords": [
-        "erneuerbare"
       ]
     },
     {
