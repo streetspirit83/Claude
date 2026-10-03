@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:28:41+00:00",
+  "generated_at": "2026-10-03T18:54:43+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -210,12 +210,12 @@
     {
       "name": "rechargenews",
       "url": "https://www.rechargenews.com",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 15
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "offshore-energy",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -322,7 +322,7 @@
       "url": "https://www.canarymedia.com",
       "status": "ok",
       "method": "feed",
-      "feed_url": "https://www.canarymedia.com/rss.rss",
+      "feed_url": "https://www.canarymedia.com/feed/",
       "error": null,
       "items_found": 100,
       "items_matched": 50
@@ -353,7 +353,7 @@
       "status": "error",
       "method": null,
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.energy-storage.news/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "items_found": 0,
       "items_matched": 0
     },
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 256,
+  "count": 235,
   "articles": [
     {
       "title": "Putin Links Russian Diesel Exports to the Persistence of Western Sanctions",
@@ -418,16 +418,6 @@
       "published": "2026-10-02T15:04:08+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "INTERVIEW: Geopolitics reframes SAF as strategic asset, not just green fuel: Vopak",
-      "teaser": "Geopolitical instability has recast sustainable aviation fuel as a strategic energy security asset, beyond being a clean fuel transition, but fragmented EU pipeline regulations are hampering supply chains, an official at storage firm Royal…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/100226-interview-geopolitics-reframes-saf-as-strategic-asset-not-just-green-fuel-vopak",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-02T14:53:26+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -761,16 +751,6 @@
       ]
     },
     {
-      "title": "INTERVIEW: War-risk insurance costs rise as sanctions complicate casualty response",
-      "teaser": "Shipping companies operating in contested waters are facing higher requirements for war coverage and legal complications, as attacks spread across multiple military conflicts and sanctions threaten to delay casualty response, according to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/shipping/100126-interview-war-risk-insurance-costs-rise-as-sanctions-complicate-casualty-response",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-01T17:37:12+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Palermo, first coffee grown and harvested in Italy: warmer climate is changing farming",
       "teaser": "Rising temperatures now allow coffee to be grown in Italy. In Sicily, the Morettino family has completed its first harvest, showing how climate change is reshaping crops worldwide.",
       "link": "https://www.euronews.com/2026/10/01/palermo-first-coffee-grown-and-harvested-in-italy-warmer-climate-is-changing-farming",
@@ -778,18 +758,6 @@
       "published": "2026-10-01T17:04:20+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "PATH TO NET ZERO: States cut back on renewable goals amid affordability concerns",
-      "teaser": "This is the final in a multi-part series on net-zero efforts across industries. The previous article can be found here. As concerns about energy affordability grow, states are pulling back on their clean energy goals or reclassifying what…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/100126-path-to-net-zero-states-cut-back-on-renewable-goals-amid-affordability-concerns",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-01T13:45:06+00:00",
-      "matched_keywords": [
-        "net zero",
-        "net-zero",
-        "renewable"
       ]
     },
     {
@@ -1507,16 +1475,6 @@
       ]
     },
     {
-      "title": "Unexpected rainfall pressures Brazilian power prices lower",
-      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T18:19:21+00:00",
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -1524,17 +1482,6 @@
       "published": "2026-09-21T17:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "AI energy surge risks eroding record renewables gains, UN warns",
-      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T13:01:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
       ]
     },
     {
@@ -1609,16 +1556,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -2850,171 +2787,6 @@
       "published": null,
       "matched_keywords": [
         "renewable"
-      ]
-    },
-    {
-      "title": "'We were stubborn and arrogant': Vestas boss on how he changed culture at wind giant",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/we-were-stubborn-and-arrogant-vestas-boss-on-how-he-changed-culture-at-wind-giant/2-1-2053114",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Floating pioneer faces 'long and uncertain' road to profitability after crippling turbine failures",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/floating-pioneer-faces-long-and-uncertain-road-to-profitability-after-crippling-turbine-failures/2-1-2052744",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Timeline | How a string of wind turbine failures rocked floating pioneer",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/visual-and-data-journalism/timeline-how-a-string-of-wind-turbine-failures-rocked-floating-pioneer/2-1-2052367",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "CIP receives €1.2bn boost to latest flagship fund",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/cip-receives-1-2bn-boost-to-latest-flagship-fund/2-1-2052996",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Wind left waiting as US permitting overhaul targets wider energy bottleneck",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/wind-left-waiting-as-us-permitting-overhaul-targets-wider-energy-bottleneck/2-1-2052789",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Even Trump's US beating Europe on electrification, warns industry CEO",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/corporate-power/even-trumps-us-beating-europe-on-electrification-warns-industry-ceo/2-1-2052429",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas wind turbine failures plunge pioneering floating project deep into red",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/vestas-wind-turbine-failures-plunge-pioneering-floating-project-deep-into-red/2-1-2052009",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "UK clean power czar stands down",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/uk-clean-power-czar-stands-down/2-1-2052395",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Fresh Chinese offshore wind push turns screw on UK",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/fresh-chinese-offshore-wind-push-turns-screw-on-uk/2-1-2051893",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Bring it on! One Japanese region is determined to make offshore wind work",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/bring-it-on-one-japanese-region-is-determined-to-make-offshore-wind-work/2-1-2043722",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Why offshore wind's 'deal of the decade' was truly remarkable",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/in-depth/why-offshore-winds-deal-of-the-decade-was-truly-remarkable/2-1-2048295",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Vestas technology chief: ‘Supersized turbines look better in PowerPoint than in practice’",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/vestas-technology-chief-supersized-turbines-look-better-in-powerpoint-than-in-practice-/2-1-2046135",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "From Saudi mega-batteries to factory heat: three under-the-radar storage developers to watch",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/analysis/from-saudi-mega-batteries-to-factory-heat-three-under-the-radar-storage-developers-to-watch/2-1-2039987",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Greenpeace threatens Crown Estate with lawsuit over 'extortionate' offshore wind lease fees",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/legal/greenpeace-threatens-crown-estate-with-lawsuit-over-extortionate-offshore-wind-lease-fees/2-1-2052266",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Orsted and CIP reportedly facing off in Taiwan offshore wind auction",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/auctions/orsted-and-cip-reportedly-facing-off-in-taiwan-offshore-wind-auction/2-1-2051774",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     }
   ]
