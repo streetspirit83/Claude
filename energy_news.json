@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:47:44+00:00",
+  "generated_at": "2026-10-14T19:52:10+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -130,11 +130,11 @@
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.euwid-energie.de/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.euwid-energie.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 8
+      "items_matched": 6
     },
     {
       "name": "montelnews",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 10
+      "items_matched": 11
     },
     {
       "name": "energymonitor",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "iea-news",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -364,12 +364,62 @@
       "method": "html",
       "feed_url": null,
       "error": null,
-      "items_found": 6,
+      "items_found": 7,
       "items_matched": 0
     }
   ],
   "count": 250,
   "articles": [
+    {
+      "title": "North Sea emissions fall for sixth year in a row",
+      "teaser": "There was an estimated reduction of 7% in 2025 and an overall decrease of 37% since 2018 The post North Sea emissions fall for sixth year in a row appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/14/north-sea-emissions-fall-for-sixth-year-in-a-row/",
+      "source": "energylivenews",
+      "published": "2026-10-14T17:00:00+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "EDF suspends Edison stake sale amid uncertainty over Qatari LNG supplies",
+      "teaser": null,
+      "link": "https://energynews.pro/en/edf-suspends-edison-stake-sale-amid-uncertainty-over-qatari-lng-supplies",
+      "source": "energynews-pro",
+      "published": "2026-10-14T16:40:00+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Labour grant permission for 500MW solar farm",
+      "teaser": "The project could generate enough electricity to power 200,000 homes The post Labour grant permission for 500MW solar farm appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/14/labour-grant-permission-for-500mw-solar-farm/",
+      "source": "energylivenews",
+      "published": "2026-10-14T16:00:00+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
+    {
+      "title": "EC releases proposal to delay methane import requirements by one year",
+      "teaser": "The European Commission has released a proposal Oct. 14 to delay importer requirements under the EU&apos;s landmark methane emissions regulation by one year. The proposal follows recent comments from EC President Ursula von der Leyen and…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/101426-ec-releases-proposal-to-delay-methane-import-requirements-by-one-year",
+      "source": "spglobal-energy-transition",
+      "published": "2026-10-14T14:13:49+00:00",
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Ares takes minority stake in Statera’s 1.9GW flexible energy assets",
+      "teaser": "Ares Infrastructure Equity funds, part of Ares Management, have purchased a significant minority interest in a 1.9GW operational portfolio of energy storage and flexible generation assets, majority owned by Statera Energy in the UK.",
+      "link": "https://www.power-technology.com/news/ares-minority-stake-stateras-1-9gw-assets/",
+      "source": "power-technology",
+      "published": "2026-10-14T13:29:25+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "JERA deepens Australian LNG foothold with larger stake in Chevron’s project",
       "teaser": "JERA has boosted its indirect participation in Chevron's LNG project to 50.1% following a strategic share acquisition from JOGMEC.",
@@ -398,6 +448,16 @@
       "published": "2026-10-14T13:00:44+00:00",
       "matched_keywords": [
         "battery storage"
+      ]
+    },
+    {
+      "title": "EU carbon pricing must stay affordable or system fails, says Vitol CEO",
+      "teaser": "Europe&apos;s carbon pricing framework is under mounting pressure to balance decarbonization ambitions with energy affordability, as geopolitical shocks to gas supply and rising consumer costs test the political durability of the EU…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101426-eu-carbon-pricing-must-stay-affordable-or-system-fails-says-vitol-ceo",
+      "source": "spglobal-energy-transition",
+      "published": "2026-10-14T12:57:08+00:00",
+      "matched_keywords": [
+        "decarbon"
       ]
     },
     {
@@ -440,6 +500,16 @@
       "published": "2026-10-14T11:03:07+00:00",
       "matched_keywords": [
         "coal phase-out"
+      ]
+    },
+    {
+      "title": "Trump relaunches attack on Ørsted's Revolution Wind",
+      "teaser": "The US federal government has renewed its efforts to hinder development of Ørsted’s 704MW Revolution Wind offshore wind farm off the country's east coast, new court documents show.",
+      "link": "https://www.windpowermonthly.com/article/1972470/trump-relaunches-attack-orsteds-revolution-wind",
+      "source": "windpowermonthly",
+      "published": "2026-10-14T10:46:12+00:00",
+      "matched_keywords": [
+        "wind farm"
       ]
     },
     {
@@ -515,16 +585,6 @@
       ]
     },
     {
-      "title": "TTF gas price climbs to €87.43 per MWh, highest since December 2022",
-      "teaser": null,
-      "link": "https://energynews.pro/en/ttf-gas-price-climbs-to-8743-per-mwh-highest-since-december-2022",
-      "source": "energynews-pro",
-      "published": "2026-10-14T07:47:49+00:00",
-      "matched_keywords": [
-        "gas price"
-      ]
-    },
-    {
       "title": "Sind gewerbliche Batteriespeicher die Lösung für Europas Wettbewerbsdruck?",
       "teaser": "Die Strompreise für Unternehmen haben sich innerhalb eines Jahrzehnts mehr als verdoppelt, während die Batteriekosten stark gesunken sind. Eine Umfrage unter Installateuren in Australien deutet darauf hin, dass inzwischen die Umsetzung und…",
       "link": "https://www.pv-magazine.de/2026/10/14/sind-gewerbliche-batteriespeicher-die-loesung-fuer-europas-wettbewerbsdruck/",
@@ -561,36 +621,6 @@
       "link": "https://www.canarymedia.com/articles/solar/how-one-chicago-program-is-diversifying-the-solar-workforce",
       "source": "canarymedia",
       "published": "2026-10-14T07:00:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Nuclear future mapped out in new five-year plan",
-      "teaser": "The plan focuses on nuclear science, fuel security and the future of the industry The post Nuclear future mapped out in new five-year plan appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/14/nuclear-future-mapped-out-in-new-five-year-plan/",
-      "source": "energylivenews",
-      "published": "2026-10-14T07:00:00+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Raids Target Several Companies Suspected of Collusion and Corruption in EDF Nuclear Maintenance Contracts",
-      "teaser": null,
-      "link": "https://energynews.pro/en/raids-target-several-companies-suspected-of-collusion-and-corruption-in-edf-nuclear-maintenance-contracts",
-      "source": "energynews-pro",
-      "published": "2026-10-14T06:00:43+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "BayWa r.e. narrows its Velet floating solar project to two water bodies",
-      "teaser": null,
-      "link": "https://energynews.pro/en/baywa-re-narrows-its-velet-floating-solar-project-to-two-water-bodies",
-      "source": "energynews-pro",
-      "published": "2026-10-14T05:31:06+00:00",
       "matched_keywords": [
         "solar"
       ]
@@ -786,18 +816,6 @@
       ]
     },
     {
-      "title": "NOPL signs $307m IREDA loan for solar project in India",
-      "teaser": "NOPL Solar Projects, a fully owned subsidiary of Vikran Engineering (VEL), has signed a facility agreement with the Indian Renewable Energy Development Agency (IREDA) for a rupee term loan of up to Rs29.41bn ($307.2m).",
-      "link": "https://www.power-technology.com/news/nopl-307m-ireda-loan-solar-india/",
-      "source": "power-technology",
-      "published": "2026-10-13T08:06:41+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "subsid"
-      ]
-    },
-    {
       "title": "ENTSOG slashes 2040 European clean hydrogen demand outlook by a third",
       "teaser": "Europe&apos;s gas grid operator group ENTSOG has dramatically cut its forecasts for European hydrogen demand in its latest Ten-Year Network Development Plan, with projected consumption in 2040 now running nearly one-third below the level…",
       "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101326-entsog-slashes-2040-european-clean-hydrogen-demand-outlook-by-a-third",
@@ -857,17 +875,6 @@
       "published": "2026-10-13T04:00:00+00:00",
       "matched_keywords": [
         "climate law"
-      ]
-    },
-    {
-      "title": "EU carbon spikes to near 9-month high intraday on supportive gas",
-      "teaser": "European carbon prices reached their highest levels since mid-January in the afternoon of Oct. 12 amid a rally in natural gas prices and expectations of lower-than-normal wind generation. Allowance prices hit â&#x82;¬88.82/metric ton of…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101226-eu-carbon-spikes-to-near-9-month-high-intraday-on-supportive-gas",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-12T17:25:38+00:00",
-      "matched_keywords": [
-        "carbon price",
-        "gas price"
       ]
     },
     {
@@ -1741,17 +1748,6 @@
       "source": "canarymedia",
       "published": "2026-09-24T07:30:00+00:00",
       "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Is the EU's electricity ‘diverse’ enough? Renewables slip year-on-year despite huge solar boom",
-      "teaser": "More than half of electricity generated in the EU came from renewable energy sources during the second quarter of 2026, new data shows.",
-      "link": "https://www.euronews.com/2026/09/24/is-the-eus-electricity-diverse-enough-renewables-slips-year-on-year-despite-huge-solar-boo",
-      "source": "euronews-green",
-      "published": "2026-09-24T05:02:12+00:00",
-      "matched_keywords": [
-        "renewable",
         "solar"
       ]
     },
@@ -2878,9 +2874,9 @@
       ]
     },
     {
-      "title": "BP's new $4.5bn renewables retreat hit as 'damage' goes on",
+      "title": "Vattenfall wind chief breaks ranks to back Germany's offshore tender plan",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/bps-new-4-5bn-renewables-retreat-hit-as-damage-goes-on/2-1-2057720",
+      "link": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-breaks-ranks-to-back-germanys-offshore-tender-plan/2-1-2055971",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2889,9 +2885,9 @@
       ]
     },
     {
-      "title": "Vattenfall wind chief breaks ranks to back Germany's offshore tender plan",
+      "title": "BP's new $4.5bn renewables retreat hit as 'damage' goes on",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-breaks-ranks-to-back-germanys-offshore-tender-plan/2-1-2055971",
+      "link": "https://www.rechargenews.com/finance/bps-new-4-5bn-renewables-retreat-hit-as-damage-goes-on/2-1-2057720",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
