@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:25:09+00:00",
+  "generated_at": "2026-10-16T19:08:55+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 11
     },
     {
       "name": "energynews-pro",
@@ -368,8 +368,50 @@
       "items_matched": 0
     }
   ],
-  "count": 245,
+  "count": 258,
   "articles": [
+    {
+      "title": "Italy secures EU deal to lower its electricity prices",
+      "teaser": "Agreement marks a boost for PM Giorgia Meloni as nation struggles with higher fossil fuel prices",
+      "link": "https://www.ft.com/content/d2928f6b-b8f2-4651-ac9a-9fc4d8653608?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-10-16T17:14:47+00:00",
+      "matched_keywords": [
+        "electricity price"
+      ]
+    },
+    {
+      "title": "Die drei Optionen für CfDs im EEG-Entwurf",
+      "teaser": "Auf der Konferenz „Marktoffensive Erneuerbare Energien“ stehen die Großanlagen im Fokus. Sebastian Pieper aus dem Bundeswirtschaftsministerium warb dabei für eine Option bei Differenzverträgen, die der EEG-Entwurf vorsieht, die aber bisher…",
+      "link": "https://www.pv-magazine.de/2026/10/16/die-drei-optionen-fuer-cfds-im-eeg-entwurf/",
+      "source": "pv-magazine-de",
+      "published": "2026-10-16T15:00:19+00:00",
+      "matched_keywords": [
+        "eeg",
+        "erneuerbare"
+      ]
+    },
+    {
+      "title": "Hyundai strengthens South Korea’s decarbonisation targets",
+      "teaser": "The current aim is to deploy 100MW of solar within the next two years The post Hyundai strengthens South Korea’s decarbonisation targets appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/16/hyundai-strengthens-south-koreas-decarbonisation-targets/",
+      "source": "energylivenews",
+      "published": "2026-10-16T15:00:00+00:00",
+      "matched_keywords": [
+        "decarbon",
+        "solar"
+      ]
+    },
+    {
+      "title": "Vitol sees tight fuel oil market and enters LNG bunkering in Singapore",
+      "teaser": null,
+      "link": "https://energynews.pro/en/vitol-sees-tight-fuel-oil-market-and-enters-lng-bunkering-in-singapore",
+      "source": "energynews-pro",
+      "published": "2026-10-16T14:37:32+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "HiTHIUM Surpasses 200 GWh of Cumulative Energy Storage Deliveries From Chongqing",
       "teaser": null,
@@ -563,17 +605,6 @@
       ]
     },
     {
-      "title": "Energy companies call for reform on Emissions Trading System",
-      "teaser": "The letter to The European Council says that carbon pricing can drive emissions reductions cost-effectively The post Energy companies call for reform on Emissions Trading System appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/16/energy-companies-call-for-reform-on-emissions-trading-system/",
-      "source": "energylivenews",
-      "published": "2026-10-16T07:00:00+00:00",
-      "matched_keywords": [
-        "emission",
-        "emissions trading"
-      ]
-    },
-    {
       "title": "Doomsday Glacier will keep melting even if oceans cool. Here’s why cutting emissions still matters",
       "teaser": "The total collapse of Thwaites Glacier, known as the Doomsday Glacier, would contribute an estimated 65cm to global sea level rise.",
       "link": "https://www.euronews.com/2026/10/16/doomsday-glacier-will-keep-melting-even-if-oceans-cool-heres-why-cutting-emissions-still-m",
@@ -651,16 +682,6 @@
       "published": "2026-10-16T02:34:19+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "DEME wins contract to install 69 turbines at the Zeevonk offshore wind farm in the Netherlands",
-      "teaser": null,
-      "link": "https://energynews.pro/en/deme-wins-contract-to-install-69-turbines-at-the-zeevonk-offshore-wind-farm-in-the-netherlands",
-      "source": "energynews-pro",
-      "published": "2026-10-16T01:34:10+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1157,16 +1178,6 @@
       "published": "2026-10-13T04:00:00+00:00",
       "matched_keywords": [
         "climate law"
-      ]
-    },
-    {
-      "title": "The diesel crisis is testing the limits of globalisation",
-      "teaser": "Seemingly rational choices by individual states will weaken collective energy security and accelerate fragmentation",
-      "link": "https://www.ft.com/content/076b9c64-d041-42f0-9abc-d7be75db9307",
-      "source": "ft-energy",
-      "published": "2026-10-12T17:14:19+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -2572,6 +2583,16 @@
       ]
     },
     {
+      "title": "Forderung nach radikaler Kassenreform : TK-Chef für Ende von gesetzlicher und privater Versicherung",
+      "teaser": "Der Chef der Techniker Krankenkasse hat ein Ende des dualen Versicherungssystems gefordert. „Wir sollten die private Krankenversicherung abschaffen, die gesetzliche aber auch“, sagte er dem „Spiegel“.",
+      "link": "https://www.tagesspiegel.de/politik/forderung-nach-radikaler-kassenreform-tk-chef-fur-ende-von-gesetzlicher-und-privater-versicherung-16170896.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
+      ]
+    },
+    {
       "title": "Erneuerbare Energien",
       "teaser": "Wie die Erneuerbaren den Energiemarkt revolutionieren",
       "link": "https://www.bdew.de/energie/erneuerbare-energien/",
@@ -2693,6 +2714,118 @@
       ]
     },
     {
+      "title": "Julia Bläsius übernimmt Leitung von Agora Industrie Deutschland",
+      "teaser": "Julia Bläsius, Direktorin von Agora Energiewende Deutschland, übernimmt ab sofort auch die Leitung von Agora Industrie Deutschland. Damit verzahnt Agora die...",
+      "link": "https://www.agora-energiewende.de/aktuelles/julia-blaesius-uebernimmt-leitung-von-agora-industrie-deutschland",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Deutschland droht 2026 erstmals sein Klimaziel zu verfehlen",
+      "teaser": "Deutschlands Emissionen sind im ersten Halbjahr 2026 nur geringfügig um bis zu 7 Millionen Tonnen CO₂-Äq gesunken, wie eine erste Berechnung von Agora...",
+      "link": "https://www.agora-energiewende.de/aktuelles/deutschland-droht-2026-erstmals-sein-klimaziel-zu-verfehlen",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission",
+        "klima"
+      ]
+    },
+    {
+      "title": "Agora Energiewende mit neuer Südostasien-Direktorin und Chief Advisor China",
+      "teaser": "Der Thinktank intensiviert seine Arbeit zu zwei Regionen mit entscheidender Bedeutung für die globale Energiewende: Elrika Hamdi leitet künftig die Arbeit von...",
+      "link": "https://www.agora-energiewende.de/aktuelles/agora-energiewende-mit-neuer-suedostasien-direktorin-und-chief-advisor-china",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Halbjahresbilanz 2026: Deutschlands Treibhausgasemissionen und die Folgen der Energiepreiskrise",
+      "teaser": "Nur zwei Prozent sind Deutschlands Treibhausgasemissionen in den ersten sechs Monaten des Jahres gesunken. Das ist das Ergebnis einer ersten Agora-Berechnung auf Basis vorläufiger Daten. Elektrifizierungserfolge durch zunehmend mehr…",
+      "link": "https://www.agora-energiewende.de/daten-tools/halbjahresbilanz-2026-deutschlands-treibhausgasemissionen-und-die-folgen-der-energiepreiskrise",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "emission"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 444",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 97",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
+      ]
+    },
+    {
       "title": "Nuclear power wins UK cross-party backing but can it deliver?",
       "teaser": "Joachim Endress",
       "link": "https://www.montelnews.com/news/b89baf4d-7c6c-4e9f-b873-56f5b630eeec/nuclear-power-becomes-uk-political-consensus-but-can-it-deliver",
@@ -2789,17 +2922,6 @@
       ]
     },
     {
-      "title": "UK's giant AR8 wind and solar auction put on slowest timeline",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/uks-giant-ar8-wind-and-solar-auction-put-on-slowest-timeline/2-1-2059363",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Bonds make wind and solar look riskier but storage has 'options': fund CEO",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/bonds-make-wind-and-solar-look-riskier-but-storage-has-options-fund-ceo/2-1-2050356",
@@ -2811,9 +2933,9 @@
       ]
     },
     {
-      "title": "CIP ignites Taiwan offshore wind firestorm with criticism of failed auctions",
+      "title": "UK's giant AR8 wind and solar auction put on slowest timeline",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/cip-ignites-taiwan-offshore-wind-firestorm-with-criticism-of-failed-auctions/2-1-2059038",
+      "link": "https://www.rechargenews.com/policy/uks-giant-ar8-wind-and-solar-auction-put-on-slowest-timeline/2-1-2059363",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2869,6 +2991,17 @@
       "title": "Tesla vs CATL: How China’s battery giant raced ahead of Elon Musk on profits",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/tesla-vs-catl-how-the-two-titans-of-energy-storage-measure-up/2-1-2056342",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "CIP ignites Taiwan offshore wind firestorm with criticism of failed auctions",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/cip-ignites-taiwan-offshore-wind-firestorm-with-criticism-of-failed-auctions/2-1-2059038",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
