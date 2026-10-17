@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:22:30+00:00",
+  "generated_at": "2026-10-17T18:03:54+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 7
     },
     {
       "name": "ft-energy",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 4
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,18 +368,8 @@
       "items_matched": 0
     }
   ],
-  "count": 258,
+  "count": 250,
   "articles": [
-    {
-      "title": "Zelenskyy says Putin is looking to cause Ukraine-wide ‘blackout’",
-      "teaser": "The Ukrainian president called an executive order from U.S. President Donald Trump an \"American sanctions blackout.\"",
-      "link": "https://www.politico.eu/article/volodymyr-zelenskyy-says-vladimir-putin-looking-cause-ukraine-wide-blackout/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-10-17T12:23:48+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
     {
       "title": "Trump exempts Russia from further sanctions mandated by new law",
       "teaser": "US president gives Putin a reprieve on threatened energy measures after cutting deal with Moscow to release diesel",
@@ -460,17 +450,6 @@
       "published": "2026-10-16T12:25:00+00:00",
       "matched_keywords": [
         "speicher"
-      ]
-    },
-    {
-      "title": "EU leaders urge faster carbon market reform to curb price volatility",
-      "teaser": "EU leaders have called on lawmakers to speed up reform of the carbon market&apos;s key supply management mechanism and an updated assessment of a new emissions trading scheme, as Brussels seeks to balance climate ambitions against mounting…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101626-eu-leaders-urge-faster-carbon-market-reform-to-curb-price-volatility",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-16T12:03:25+00:00",
-      "matched_keywords": [
-        "climate",
-        "emissions trading"
       ]
     },
     {
@@ -727,17 +706,6 @@
       ]
     },
     {
-      "title": "One-year EU methane law delay unlikely to shift LNG prices: analysts",
-      "teaser": "The European Commission&apos;s push to delay importer requirements under a landmark law regulating methane emissions is unlikely to sway LNG prices significantly in the near-term as Europe approaches what is expected to be a challenging…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/101526-one-year-eu-methane-law-delay-unlikely-to-shift-lng-prices-analysts",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-15T16:02:43+00:00",
-      "matched_keywords": [
-        "emission",
-        "lng"
-      ]
-    },
-    {
       "title": "Bundestag wird EEG 2027 und Netzpaket wohl erst im November verabschieden",
       "teaser": "Bisher tauchen die Gesetzentwürfe nicht auf der Tagesordnung des Parlaments für die aktuelle Sitzungswoche auf. Der BEE rechnet nun damit, dass das EEG und Netzpaket erst im November verabschiedet werden können, da die Verhandler der…",
       "link": "https://www.pv-magazine.de/2026/10/15/bundestag-wird-eeg-2027-und-netzpaket-wohl-erst-im-november-verabschieden/",
@@ -922,16 +890,6 @@
       ]
     },
     {
-      "title": "EC releases proposal to delay methane import requirements by one year",
-      "teaser": "The European Commission has released a proposal Oct. 14 to delay importer requirements under the EU&apos;s landmark methane emissions regulation by one year. The proposal follows recent comments from EC President Ursula von der Leyen and…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/101426-ec-releases-proposal-to-delay-methane-import-requirements-by-one-year",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-14T14:13:49+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "JERA deepens Australian LNG foothold with larger stake in Chevron’s project",
       "teaser": "JERA has boosted its indirect participation in Chevron's LNG project to 50.1% following a strategic share acquisition from JOGMEC.",
       "link": "https://offshore-energy.biz/2026/10/14/jera-deepens-australian-lng-foothold-with-larger-stake-in-chevrons-project",
@@ -939,16 +897,6 @@
       "published": "2026-10-14T13:18:00+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "EU carbon pricing must stay affordable or system fails, says Vitol CEO",
-      "teaser": "Europe&apos;s carbon pricing framework is under mounting pressure to balance decarbonization ambitions with energy affordability, as geopolitical shocks to gas supply and rising consumer costs test the political durability of the EU…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101426-eu-carbon-pricing-must-stay-affordable-or-system-fails-says-vitol-ceo",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-14T12:57:08+00:00",
-      "matched_keywords": [
-        "decarbon"
       ]
     },
     {
@@ -1950,16 +1898,6 @@
       ]
     },
     {
-      "title": "Unexpected rainfall pressures Brazilian power prices lower",
-      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T18:19:21+00:00",
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -1967,17 +1905,6 @@
       "published": "2026-09-21T17:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "AI energy surge risks eroding record renewables gains, UN warns",
-      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T13:01:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
       ]
     },
     {
@@ -2020,16 +1947,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
