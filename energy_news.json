@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:08:55+00:00",
+  "generated_at": "2026-10-17T08:09:17+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
@@ -290,12 +290,12 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
+      "status": "empty",
+      "method": null,
+      "feed_url": null,
       "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
@@ -368,14 +368,24 @@
       "items_matched": 0
     }
   ],
-  "count": 258,
+  "count": 256,
   "articles": [
+    {
+      "title": "Trump exempts Russia from further sanctions mandated by new law",
+      "teaser": "US president gives Putin a reprieve on threatened energy measures after cutting deal with Moscow to release diesel",
+      "link": "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-10-17T02:31:59+00:00",
+      "matched_keywords": [
+        "sanction"
+      ]
+    },
     {
       "title": "Italy secures EU deal to lower its electricity prices",
       "teaser": "Agreement marks a boost for PM Giorgia Meloni as nation struggles with higher fossil fuel prices",
       "link": "https://www.ft.com/content/d2928f6b-b8f2-4651-ac9a-9fc4d8653608?syn-25a6b1a6=1",
       "source": "ft-energy",
-      "published": "2026-10-16T17:14:47+00:00",
+      "published": "2026-10-16T20:31:24+00:00",
       "matched_keywords": [
         "electricity price"
       ]
@@ -440,6 +450,17 @@
       "published": "2026-10-16T12:25:00+00:00",
       "matched_keywords": [
         "speicher"
+      ]
+    },
+    {
+      "title": "EU leaders urge faster carbon market reform to curb price volatility",
+      "teaser": "EU leaders have called on lawmakers to speed up reform of the carbon market&apos;s key supply management mechanism and an updated assessment of a new emissions trading scheme, as Brussels seeks to balance climate ambitions against mounting…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101626-eu-leaders-urge-faster-carbon-market-reform-to-curb-price-volatility",
+      "source": "spglobal-energy-transition",
+      "published": "2026-10-16T12:03:25+00:00",
+      "matched_keywords": [
+        "climate",
+        "emissions trading"
       ]
     },
     {
@@ -1033,17 +1054,6 @@
       "published": "2026-10-13T20:00:00+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "IMO seeks Net-Zero Framework deal as support grows for GHG standards",
-      "teaser": "International Maritime Organization member states are seeking to compromise on the Net-Zero Framework, with more consensus forming around regulating marine energy&apos;s greenhouse gas emissions intensity, a senior official of the UN…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/shipping/101326-imo-seeks-net-zero-framework-deal-as-support-grows-for-ghg-standards",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-13T17:37:23+00:00",
-      "matched_keywords": [
-        "emission",
-        "net-zero"
       ]
     },
     {
@@ -1940,16 +1950,6 @@
       ]
     },
     {
-      "title": "Unexpected rainfall pressures Brazilian power prices lower",
-      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T18:19:21+00:00",
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -1957,17 +1957,6 @@
       "published": "2026-09-21T17:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "AI energy surge risks eroding record renewables gains, UN warns",
-      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T13:01:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
       ]
     },
     {
@@ -2010,16 +1999,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -2583,13 +2562,13 @@
       ]
     },
     {
-      "title": "Forderung nach radikaler Kassenreform : TK-Chef für Ende von gesetzlicher und privater Versicherung",
-      "teaser": "Der Chef der Techniker Krankenkasse hat ein Ende des dualen Versicherungssystems gefordert. „Wir sollten die private Krankenversicherung abschaffen, die gesetzliche aber auch“, sagte er dem „Spiegel“.",
-      "link": "https://www.tagesspiegel.de/politik/forderung-nach-radikaler-kassenreform-tk-chef-fur-ende-von-gesetzlicher-und-privater-versicherung-16170896.html",
+      "title": "„Zum jetzigen Zeitpunkt im nationalen Interesse“ : US-Präsident Trump legt geplante Zölle gegen Russland auf Eis",
+      "teaser": "Nur wenige Tage nach dem Diesel-Deal mit Moskau legt Donald Trump nach. Er setzt ein vom US-Kongress beschlossenes Sanktionspaket gegen Russland aus.",
+      "link": "https://www.tagesspiegel.de/internationales/dpa-zum-jetzigen-zeitpunkt-im-nationalen-interesse-us-prasident-trump-legt-geplante-zolle-gegen-russland-auf-eis-16172175.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "forderung"
+        "sanktion"
       ]
     },
     {
