@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:41:56+00:00",
+  "generated_at": "2026-10-20T09:01:19+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 8
+      "items_matched": 9
     },
     {
       "name": "euwid-energie",
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 8
+      "error": "500 Server Error: Internal Server Error for url: https://www.dena.de/newsroom",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "agora-energiewende-news",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 19
+      "items_matched": 20
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 5
     },
     {
       "name": "reuters-energy",
@@ -305,7 +305,7 @@
       "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
       "error": null,
       "items_found": 5,
-      "items_matched": 3
+      "items_matched": 2
     },
     {
       "name": "iea-news",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 3
+      "items_matched": 1
     },
     {
       "name": "energy-storage-news",
@@ -368,84 +368,134 @@
       "items_matched": 0
     }
   ],
-  "count": 256,
+  "count": 244,
   "articles": [
+    {
+      "title": "European Commission selects net-zero projects under the Innovation Fund",
+      "teaser": null,
+      "link": "https://energynews.pro/en/european-commission-selects-net-zero-projects-under-the-innovation-fund",
+      "source": "energynews-pro",
+      "published": "2026-10-20T08:48:04+00:00",
+      "matched_keywords": [
+        "net-zero"
+      ]
+    },
+    {
+      "title": "Folegandros island joins Greece’s mainland power grid via 60-kilometer subsea cable",
+      "teaser": "The new 60-kilometer subsea high-voltage cable that connects the Greek island of Folegandros with Santorini and Naxos has been energized and is...",
+      "link": "https://offshore-energy.biz/2026/10/20/folegandros-island-joins-greeces-mainland-power-grid-via-60-kilometer-subsea-cable",
+      "source": "offshore-energy",
+      "published": "2026-10-20T08:46:47+00:00",
+      "matched_keywords": [
+        "power grid"
+      ]
+    },
+    {
+      "title": "Floating wind industry leans into global collaboration amid headwinds",
+      "teaser": "This article originally appeared on Inside Climate News , a nonprofit, non-partisan news organization that covers climate, energy, and the environment. Sign up for their newsletter here . Picture a buoyant triangular steel or concrete…",
+      "link": "https://www.canarymedia.com/articles/offshore-wind/floating-turbine-global-collaboration-research",
+      "source": "canarymedia",
+      "published": "2026-10-20T07:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Chemiewerk als Langzeitspeicher",
+      "teaser": "Flow-Batterien, bei denen sich Leistung und Kapazität unabhängig voneinander skalieren lassen, gelten als geeignete Kandidaten für Langzeitspeicher. Für ein Extra an Resilienz hat ein Unternehmen kritische Rohstoffe, die sich in Europa…",
+      "link": "https://www.pv-magazine.de/2026/10/20/chemiewerk-als-langzeitspeicher/",
+      "source": "pv-magazine-de",
+      "published": "2026-10-20T07:07:00+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Germany unveils a package of measures to revive its hydrogen market",
+      "teaser": null,
+      "link": "https://energynews.pro/en/germany-unveils-a-package-of-measures-to-revive-its-hydrogen-market",
+      "source": "energynews-pro",
+      "published": "2026-10-20T07:02:58+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "South Australia selects four renewable projects totalling 12.66 GW near Whyalla",
+      "teaser": null,
+      "link": "https://energynews.pro/en/south-australia-selects-four-renewable-projects-totalling-1266-gw-near-whyalla",
+      "source": "energynews-pro",
+      "published": "2026-10-20T06:43:07+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Oklo plans Groves-2 Forge isotope facility under the DOE's Nuclear Energy Launch Pad initiative",
+      "teaser": null,
+      "link": "https://energynews.pro/en/oklo-plans-groves-2-forge-isotope-facility-under-the-does-nuclear-energy-launch-pad-initiative",
+      "source": "energynews-pro",
+      "published": "2026-10-20T06:17:45+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Wood Thilsted wins detailed foundation design for the Outer Dowsing offshore wind farm",
+      "teaser": null,
+      "link": "https://energynews.pro/en/wood-thilsted-wins-detailed-foundation-design-for-the-outer-dowsing-offshore-wind-farm",
+      "source": "energynews-pro",
+      "published": "2026-10-20T06:08:46+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "50Hertz installs two offshore substations for the Gennaker wind farm in the Baltic Sea",
+      "teaser": null,
+      "link": "https://energynews.pro/en/50hertz-installs-two-offshore-substations-for-the-gennaker-wind-farm-in-the-baltic-sea",
+      "source": "energynews-pro",
+      "published": "2026-10-20T06:08:43+00:00",
+      "matched_keywords": [
+        "wind farm"
+      ]
+    },
+    {
+      "title": "ECCO Says Italy's Progress Toward Its Energy and Climate Targets Is Insufficient",
+      "teaser": null,
+      "link": "https://energynews.pro/en/ecco-says-italys-progress-toward-its-energy-and-climate-targets-is-insufficient",
+      "source": "energynews-pro",
+      "published": "2026-10-20T06:02:53+00:00",
+      "matched_keywords": [
+        "climate target"
+      ]
+    },
+    {
+      "title": "How planting a 'rain garden' could help protect your home from flooding",
+      "teaser": "Flooding is expected to grow more extreme due to climate change. Your garden could be your home's first defence.",
+      "link": "https://www.euronews.com/2026/10/20/how-planting-a-rain-garden-could-help-protect-your-home-from-flooding",
+      "source": "euronews-green",
+      "published": "2026-10-20T05:02:57+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "BYD Energy Storage Expands Global After-Sales Network With Nine Operations and Maintenance Centers",
+      "teaser": null,
+      "link": "https://energynews.pro/en/byd-energy-storage-expands-global-after-sales-network-with-nine-operations-and-maintenance-centers",
+      "source": "energynews-pro",
+      "published": "2026-10-20T01:02:54+00:00",
+      "matched_keywords": [
+        "energy storage"
+      ]
+    },
     {
       "title": "NANO Nuclear and Radnostix Seek NRC Consent for Transfer of License SUB-1011",
       "teaser": null,
       "link": "https://energynews.pro/en/nano-nuclear-and-radnostix-seek-nrc-consent-for-transfer-of-license-sub-1011",
       "source": "energynews-pro",
       "published": "2026-10-19T22:03:06+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "BLM Offers Geothermal Leases Overlapping Solar Projects in Nevada",
-      "teaser": null,
-      "link": "https://energynews.pro/en/blm-offers-geothermal-leases-overlapping-solar-projects-in-nevada",
-      "source": "energynews-pro",
-      "published": "2026-10-19T20:33:16+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Rwanda seeks investors for 200 MW floating solar plant at Lake Sake",
-      "teaser": null,
-      "link": "https://energynews.pro/en/rwanda-seeks-investors-for-200-mw-floating-solar-plant-at-lake-sake",
-      "source": "energynews-pro",
-      "published": "2026-10-19T19:03:14+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Aternium targets 2027 off-site construction of its hydrogen and heavy-water systems",
-      "teaser": null,
-      "link": "https://energynews.pro/en/aternium-targets-2027-off-site-construction-of-its-hydrogen-and-heavy-water-systems",
-      "source": "energynews-pro",
-      "published": "2026-10-19T18:32:57+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Enel and Nippon Gases near completion of the Piancastagnaio CO2 recovery plant",
-      "teaser": null,
-      "link": "https://energynews.pro/en/enel-and-nippon-gases-near-completion-of-the-piancastagnaio-co2-recovery-plant",
-      "source": "energynews-pro",
-      "published": "2026-10-19T16:37:52+00:00",
-      "matched_keywords": [
-        "co2"
-      ]
-    },
-    {
-      "title": "Donald Trump waives the Graham Act sanctions targeting Russian crude",
-      "teaser": null,
-      "link": "https://energynews.pro/en/donald-trump-waives-the-graham-act-sanctions-targeting-russian-crude",
-      "source": "energynews-pro",
-      "published": "2026-10-19T16:33:01+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
-      "title": "AEP, Amazon and X-energy Study a 960 MW Nuclear Project in Indiana",
-      "teaser": null,
-      "link": "https://energynews.pro/en/aep-amazon-and-x-energy-study-a-960-mw-nuclear-project-in-indiana",
-      "source": "energynews-pro",
-      "published": "2026-10-19T16:03:07+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Rosatom signs 200 MW floating nuclear power deal for Indonesia",
-      "teaser": null,
-      "link": "https://energynews.pro/en/rosatom-signs-200-mw-floating-nuclear-power-deal-for-indonesia",
-      "source": "energynews-pro",
-      "published": "2026-10-19T15:32:53+00:00",
       "matched_keywords": [
         "nuclear"
       ]
@@ -458,6 +508,17 @@
       "published": "2026-10-19T15:31:46+00:00",
       "matched_keywords": [
         "photovoltaik"
+      ]
+    },
+    {
+      "title": "EU commits â&#x82;¬3.4B to 77 net-zero technology projects",
+      "teaser": "The European Commission has selected 77 net-zero technology projects to receive â&#x82;¬3.4 billion in funding from its Innovation Fund, with grants for a wide range of sectors, including renewables, energy-intensive industries, cleantech…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101926-eu-commits-34b-to-77-net-zero-technology-projects",
+      "source": "spglobal-energy-transition",
+      "published": "2026-10-19T15:29:45+00:00",
+      "matched_keywords": [
+        "net-zero",
+        "renewable"
       ]
     },
     {
@@ -491,16 +552,6 @@
       ]
     },
     {
-      "title": "China exports fewer solar modules after the end of the VAT export rebate",
-      "teaser": null,
-      "link": "https://energynews.pro/en/china-exports-fewer-solar-modules-after-the-end-of-the-vat-export-rebate",
-      "source": "energynews-pro",
-      "published": "2026-10-19T11:49:07+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Petronas and Petrovietnam strengthen ties in pursuit of energy security and low-carbon growth",
       "teaser": "Petronas and Petrovietnam are expanding their 35-year partnership across LNG, upstream development, and low-carbon energy arsenal in Vietnam.",
       "link": "https://offshore-energy.biz/2026/10/19/petronas-and-petrovietnam-strengthen-ties-in-pursuit-of-energy-security-and-low-carbon-growth",
@@ -509,16 +560,6 @@
       "matched_keywords": [
         "energy security",
         "lng"
-      ]
-    },
-    {
-      "title": "Used EVs could power data centres",
-      "teaser": "Retired car batteries could help power data centres through second-life energy storage systems The post Used EVs could power data centres appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/19/used-evs-could-power-data-centres/",
-      "source": "energylivenews",
-      "published": "2026-10-19T11:00:00+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -570,16 +611,6 @@
       "published": "2026-10-19T10:07:36+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "UK nuclear sector marks 70 years as employment hits record high",
-      "teaser": "The UK's civil nuclear industry marks seven decades since Calder Hall opened The post UK nuclear sector marks 70 years as employment hits record high appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/19/uk-nuclear-sector-marks-70-years-as-employment-hits-record-high/",
-      "source": "energylivenews",
-      "published": "2026-10-19T10:00:00+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -746,17 +777,6 @@
       ]
     },
     {
-      "title": "EU leaders urge faster carbon market reform to curb price volatility",
-      "teaser": "EU leaders have called on lawmakers to speed up reform of the carbon market&apos;s key supply management mechanism and an updated assessment of a new emissions trading scheme, as Brussels seeks to balance climate ambitions against mounting…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/101626-eu-leaders-urge-faster-carbon-market-reform-to-curb-price-volatility",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-16T12:03:25+00:00",
-      "matched_keywords": [
-        "climate",
-        "emissions trading"
-      ]
-    },
-    {
       "title": "Sonntag Energy baut nachgeführte Agri-Photovoltaik-Anlage über Erdbeeren",
       "teaser": "Am Bodensee entsteht eine Agri-Photovoltaik-Anlage mit einem Megawatt Leistung und einem Batteriespeicher mit fünf Megawattstunden Kapazität. Die nachgeführten Solarmodule sollen zugleich die Erdbeerkulturen vor starker Sonneneinstrahlung…",
       "link": "https://www.pv-magazine.de/2026/10/16/sonntag-energy-baut-nachgefuehrte-agri-photovoltaik-anlage-ueber-erdbeeren/",
@@ -877,17 +897,6 @@
       "matched_keywords": [
         "climate",
         "emission"
-      ]
-    },
-    {
-      "title": "One-year EU methane law delay unlikely to shift LNG prices: analysts",
-      "teaser": "The European Commission&apos;s push to delay importer requirements under a landmark law regulating methane emissions is unlikely to sway LNG prices significantly in the near-term as Europe approaches what is expected to be a challenging…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/101526-one-year-eu-methane-law-delay-unlikely-to-shift-lng-prices-analysts",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-15T16:02:43+00:00",
-      "matched_keywords": [
-        "emission",
-        "lng"
       ]
     },
     {
@@ -1116,18 +1125,6 @@
       ]
     },
     {
-      "title": "Power failure — what went wrong with the UK’s energy system?",
-      "teaser": "As Britain faces rising bills alongside the need to decarbonise, one industry expert blames botched privatisations — but another plays down climate change and the value of renewables",
-      "link": "https://www.ft.com/content/2d99bcbe-b2d3-4fb4-b181-cca567f516f9?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-10-14T04:00:12+00:00",
-      "matched_keywords": [
-        "climate",
-        "decarbon",
-        "renewable"
-      ]
-    },
-    {
       "title": "Trump goes after an offshore wind farm that’s already up and running",
       "teaser": "After halting construction on offshore wind farms and canceling leases for future projects, the Trump administration just took another step to erode America’s troubled offshore wind industry. The Interior Department wants to reevaluate a…",
       "link": "https://www.canarymedia.com/articles/offshore-wind/trump-reevaluate-permit-revolution-wind-orsted",
@@ -1289,16 +1286,6 @@
       "published": "2026-10-12T12:26:22+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "AI, next-gen tech, and maritime decarbonization on RINA- China Merchants Energy Shipping pact’s agenda",
-      "teaser": "The duo will explore AI-powered vessel operations, smart shipping, alternative fuels, and maritime decarbonization.",
-      "link": "https://offshore-energy.biz/2026/10/12/ai-next-gen-tech-and-maritime-decarbonization-on-rina-china-merchants-energy-shipping-pacts-agenda",
-      "source": "offshore-energy",
-      "published": "2026-10-12T11:35:18+00:00",
-      "matched_keywords": [
-        "decarbon"
       ]
     },
     {
@@ -2428,16 +2415,6 @@
       ]
     },
     {
-      "title": "Can the Obama Presidential Center help Chicago embrace community solar?",
-      "teaser": "The Obama Presidential Center , which opened on Chicago’s South Side in June, features a museum full of mementos to democracy and the famous family, native prairie landscaping, an indoor basketball court, and other amenities. It will also…",
-      "link": "https://www.canarymedia.com/articles/solar/obama-presidential-center-community-solar",
-      "source": "canarymedia",
-      "published": "2026-09-01T07:30:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Grüne Schaltstelle für Wasserstoff am Start",
       "teaser": "Im Herbst 2027 will Hamburg mit der Inbetriebnahme des Hamburger Wasserstoff-Industrie-Netzes HH-WIN in die Energiezukunft starten. Mit dem H2-Connector entsteht auf dem früheren Kraftwerksgelände Moorburg die zentrale Infrastruktur.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/wasserstoff/gruene-schaltstelle-fuer-wasserstoff-am-start",
@@ -2552,16 +2529,6 @@
       ]
     },
     {
-      "title": "Was Frankreichs Proteste über Europa erzählen : Die Wut über das verlorene Zukunftsversprechen",
-      "teaser": "Frankreich, Italien, Spanien – an vielen Orten gehen Menschen in diesen Wochen auf die Straße. Die Gewalt ist inakzeptabel. Doch dahinter liegen Ursachen, die eine Aufforderung zum Handeln sind.",
-      "link": "https://www.tagesspiegel.de/internationales/was-frankreichs-proteste-uber-europa-erzahlen-die-wut-uber-das-verlorene-zukunftsversprechen-16175852.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Großer Datenvergleich seit 1948 : So viel Klimawandel steckt jetzt schon im Berliner Wetter",
       "teaser": "Wird es wirklich so viel wärmer und trockener? Zwei Wetterstationen in der Region liefern die besten Antworten – und zeigen den Effekt der deutschen Wiedervereinigung auf das Berliner Klima.",
       "link": "https://www.tagesspiegel.de/berlin/grosser-datenvergleich-seit-1948-so-viel-klimawandel-steckt-jetzt-schon-im-berliner-wetter-16141712.html",
@@ -2609,87 +2576,6 @@
       "published": null,
       "matched_keywords": [
         "strompreis"
-      ]
-    },
-    {
-      "title": "Datenraum als Enabler variabler Netzentgelte",
-      "teaser": "Das Factsheet zeigt, wie variable Netzentgelte im Datenraum abgewickelt werden können und welche Vorteile sich gegenüber der Marktkommunikation ergeben.",
-      "link": "https://www.dena.de/infocenter/datenraum-als-enabler-variabler-netzentgelte/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "netzentgelt"
-      ]
-    },
-    {
-      "title": "Data Spaces für die Energiewende nutzen",
-      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
-      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Energiedatenraum 2032: Eine digitale Infrastruktur als Erfolgsfaktor für die Energiewende",
-      "teaser": "dena-Studie zeigt Leitbild und Transformationspfad für einen akteurs- und branchenübergreifenden Datenaustausch auf. Energiedatenraum als Voraussetzung für Versorgungssicherheit, Wettbewerb und...",
-      "link": "https://www.dena.de/infocenter/energiedatenraum-2032-eine-digitale-infrastruktur-als-erfolgsfaktor-fuer-die-energiewende/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "SET Academy 101: Einführung in Energiemarkt und -regulatorik",
-      "teaser": "Kostenloser Überblick: Energiemarkt & Regulatorik für Start-ups – Chancen der Energiewende entdecken. Jetzt zur Veranstaltung in Darmstadt anmelden!",
-      "link": "https://www.dena.de/infocenter/set-academy-101-einfuehrung-in-energiemarkt-und-regulatorik/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "MiSpeL – ein Durchbruch für Prosumer?",
-      "teaser": "MiSpeL: Neue Rahmenbedingungen für Stromspeicher und bidirektionale Ladepunkte. dena-Experte Elias Schiafone erklärt die Auswirkungen auf Prosumer und Strommarkt.",
-      "link": "https://www.dena.de/infocenter/mispel-ein-durchbuch-fuer-prosumer/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
-      "title": "Klimaresilienz: So schützen wir Gebäude und Quartiere",
-      "teaser": "Wie können Gebäude und Quartiere vor Hitze und anderen Auswirkungen des Klimawandels geschützt werden? Wie kann die dafür notwendige Planung verbessert werden?",
-      "link": "https://www.dena.de/infocenter/klimaresilienz-so-schuetzen-wir-gebaeude-und-quartiere/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
-      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
-      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "speicher",
-        "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Renewable-Energy-Solutions-Programm",
-      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
-      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
-      "source": "dena-newsroom",
-      "published": null,
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2835,13 +2721,15 @@
       ]
     },
     {
-      "title": "LNG glut may see long-term contracts priced above spot market",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/5e126f46-1436-4a2a-aa32-c68cce5f211c/lng-glut-may-see-long-term-contracts-priced-above-spot-market",
-      "source": "montelnews",
+      "title": "World's biggest wind farm battles CfD deadline as turbine troubles weigh",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/offshore-wind/worlds-biggest-offshore-wind-farm-battles-cfd-deadline-as-turbine-troubles-weigh/2-1-2059341",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "lng"
+        "renewable",
+        "solar",
+        "wind farm"
       ]
     },
     {
@@ -2996,18 +2884,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "China to remove ‘foreign’ control systems from wind farms over security concerns",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/china-to-remove-foreign-control-systems-from-wind-farms-over-security-concerns/2-1-2059671",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind farm"
       ]
     }
   ]
