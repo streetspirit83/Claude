@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:01:19+00:00",
+  "generated_at": "2026-10-20T14:34:58+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "euwid-energie",
@@ -145,7 +145,7 @@
       "feed_url": "https://www.energiezukunft.eu/rss/",
       "error": null,
       "items_found": 100,
-      "items_matched": 58
+      "items_matched": 60
     },
     {
       "name": "erneuerbareenergien",
@@ -165,17 +165,17 @@
       "feed_url": null,
       "error": null,
       "items_found": 13,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "500 Server Error: Internal Server Error for url: https://www.dena.de/newsroom",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 8
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 9
+      "items_matched": 8
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 14
+      "items_matched": 15
     },
     {
       "name": "windpowermonthly",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 5
+      "items_matched": 6
     },
     {
       "name": "reuters-energy",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 1
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,129 @@
       "items_matched": 0
     }
   ],
-  "count": 244,
+  "count": 257,
   "articles": [
+    {
+      "title": "Nuclear boom could bring 3,000 jobs to Wales",
+      "teaser": "Wales’s nuclear industry already supports 2,210 jobs, with thousands more expected through Project Gwyndod The post Nuclear boom could bring 3,000 jobs to Wales appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/20/nuclear-boom-could-bring-3000-jobs-to-wales/",
+      "source": "energylivenews",
+      "published": "2026-10-20T14:00:00+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Poweredge steigt in finnischen Großspeicher-Markt ein",
+      "teaser": "Das Schweizer Unternehmen realisiert in Pelkosenniemi einen Batteriespeicher mit 10 Megawatt Leistung und 37 Megawattstunden Kapazität. Für eine flexible Optimierung und Vermarktung wählte es „Gridle“ von Elisa Industriq aus.",
+      "link": "https://www.pv-magazine.de/2026/10/20/poweredge-steigt-in-finnischen-grossspeicher-markt-ein/",
+      "source": "pv-magazine-de",
+      "published": "2026-10-20T13:54:36+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "LNG Canada entrusts Técnicas Reunidas with €200M+ EPCM deal",
+      "teaser": "Técnicas Reunidas has secured work on LNG Canada's Coastal GasLink Phase 2, fueling the engineering firm's North American growth.",
+      "link": "https://offshore-energy.biz/2026/10/20/lng-canada-entrusts-tecnicas-reunidas-with-euro200m-epcm-deal",
+      "source": "offshore-energy",
+      "published": "2026-10-20T13:11:12+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "LRQA Gathers Experts in Singapore on Nuclear Supply Chains",
+      "teaser": null,
+      "link": "https://energynews.pro/en/lrqa-gathers-experts-in-singapore-on-nuclear-supply-chains",
+      "source": "energynews-pro",
+      "published": "2026-10-20T12:02:45+00:00",
+      "matched_keywords": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "FERC comes up with three-tiered fast track plan to streamline US LNG permitting",
+      "teaser": "FERC has proposed an LNG blanket authorization program to slash red tape, optimize permitting, and fast-track U.S. energy infrastructure development.",
+      "link": "https://offshore-energy.biz/2026/10/20/ferc-comes-up-with-three-tiered-fast-track-plan-to-streamline-us-lng-permitting",
+      "source": "offshore-energy",
+      "published": "2026-10-20T11:48:19+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "Do not worry too much about European gas prices",
+      "teaser": "Wholesale values have hit new highs this year but the pain should be transitory",
+      "link": "https://www.ft.com/content/31df1d21-159c-4c24-be0a-566c00c2d100?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-10-20T11:30:02+00:00",
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
+      "title": "EU backs cross-border CO2 transport and storage project with €223 million",
+      "teaser": "Aker BP and Höegh Evi have secured €223 million from the European Union Innovation Fund for a large-scale CO2 transport and storage (CCS) project...",
+      "link": "https://offshore-energy.biz/2026/10/20/eu-backs-cross-border-co2-transport-and-storage-project-with-euro223-million",
+      "source": "offshore-energy",
+      "published": "2026-10-20T11:28:21+00:00",
+      "matched_keywords": [
+        "co2"
+      ]
+    },
+    {
+      "title": "Scientists find new way to store hydrogen underground",
+      "teaser": "A new study shows the gas could be stored in crystalline bedrock The post Scientists find new way to store hydrogen underground appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/20/scientists-find-new-way-to-store-hydrogen-underground/",
+      "source": "energylivenews",
+      "published": "2026-10-20T11:00:00+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Emaldo und KKI wollen 500 Gewerbespeicher in Europa realisieren",
+      "teaser": "Die Unternehmen wollen den Ausbau von Batteriespeicher an Gewerbe- und Industriestandorten, darunter in Deutschland, vorantreiben. Die erste Installation könnte noch in diesem Jahr beginnen.",
+      "link": "https://www.pv-magazine.de/2026/10/20/emaldo-und-kki-wollen-500-gewerbespeicher-in-europa-realisieren/",
+      "source": "pv-magazine-de",
+      "published": "2026-10-20T10:28:55+00:00",
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Brazil power reforms to accelerate shift to renewables, says GlobalData",
+      "teaser": "Power sector reforms and government support are driving increased investment in Brazil's renewable technologies.",
+      "link": "https://www.power-technology.com/analyst-comment/brazil-power-reforms-to-accelerate-shift-to-renewables-says-globaldata/",
+      "source": "power-technology",
+      "published": "2026-10-20T09:55:00+00:00",
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Rabot Energy startet im November sein Direktvermarktungsangebot für kleine Photovoltaik-Anlagen",
+      "teaser": "Das Unternehmen bietet einen Festpreis für den Strombezug und eine feste Vergütung für eingespeisten Solarstrom, wobei Energiemanagementsystem und Batteriespeicher vorhanden sein müssen. Mit 12 Cent pro Kilowattstunde liegt die zugesagte…",
+      "link": "https://www.pv-magazine.de/2026/10/20/rabot-energy-startet-im-november-sein-direktvermarktungsangebot-fuer-kleine-photovoltaik-anlagen/",
+      "source": "pv-magazine-de",
+      "published": "2026-10-20T09:22:13+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
+    {
+      "title": "WWF say nature-based climate solutions held back by funding barriers",
+      "teaser": "A new report says funding gaps and weak governance are holding back nature-based approaches to climate adaptation The post WWF say nature-based climate solutions held back by funding barriers appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/20/wwf-say-nature-based-climate-solutions-held-back-by-funding-barriers/",
+      "source": "energylivenews",
+      "published": "2026-10-20T09:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "European Commission selects net-zero projects under the Innovation Fund",
       "teaser": null,
@@ -471,6 +592,16 @@
       ]
     },
     {
+      "title": "Gasimporte bleiben ein Risiko für Europas Versorgungssicherheit",
+      "teaser": "Europas Gasversorgung dürfte in einem normalen Winter gesichert sein. Doch extreme Kälte und Lieferausfälle bergen Risiken. Wärmepumpen, Geothermie und mehr Energieeffizienz können die Abhängigkeit von Gasimporten langfristig senken.",
+      "link": "https://www.energiezukunft.eu/wirtschaft/gasimporte-bleiben-ein-risiko-fuer-europas-versorgungssicherheit",
+      "source": "energiezukunft",
+      "published": "2026-10-20T05:16:00+00:00",
+      "matched_keywords": [
+        "wärmepumpe"
+      ]
+    },
+    {
       "title": "How planting a 'rain garden' could help protect your home from flooding",
       "teaser": "Flooding is expected to grow more extreme due to climate change. Your garden could be your home's first defence.",
       "link": "https://www.euronews.com/2026/10/20/how-planting-a-rain-garden-could-help-protect-your-home-from-flooding",
@@ -481,23 +612,23 @@
       ]
     },
     {
-      "title": "BYD Energy Storage Expands Global After-Sales Network With Nine Operations and Maintenance Centers",
-      "teaser": null,
-      "link": "https://energynews.pro/en/byd-energy-storage-expands-global-after-sales-network-with-nine-operations-and-maintenance-centers",
-      "source": "energynews-pro",
-      "published": "2026-10-20T01:02:54+00:00",
+      "title": "Digitale Infrastruktur als Erfolgsfaktor für die Energiewende",
+      "teaser": "Um die Versorgungssicherheit und Innovation in einem flexiblen Stromsystem zu gewährleisten, zeigt eine dena-Studie den Transformationspfad für einen akteursübergreifenden Datenaustausch auf – mit konkretem Anwendungsfall variabler…",
+      "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/digitale-infrastruktur-als-erfolgsfaktor-fuer-die-energiewende",
+      "source": "energiezukunft",
+      "published": "2026-10-20T05:02:00+00:00",
       "matched_keywords": [
-        "energy storage"
+        "energiewende"
       ]
     },
     {
-      "title": "NANO Nuclear and Radnostix Seek NRC Consent for Transfer of License SUB-1011",
-      "teaser": null,
-      "link": "https://energynews.pro/en/nano-nuclear-and-radnostix-seek-nrc-consent-for-transfer-of-license-sub-1011",
-      "source": "energynews-pro",
-      "published": "2026-10-19T22:03:06+00:00",
+      "title": "„Elektrifizierung ohne Kohle-Ausstieg ist wie Duschen mit verschmutztem Wasser“",
+      "teaser": "Sie richten die kommende Weltklimakonferenz aus und sind weiterhin tief im Kohlegeschäft – die Türkei und Australien treiben Planungen für neue Kohlekraftwerke und -minen voran. Die Türkei finanziert dabei sogar Russlands Angriffskrieg.",
+      "link": "https://www.energiezukunft.eu/wirtschaft/elektrifizierung-ohne-kohle-ausstieg-ist-wie-duschen-mit-verschmutztem-wasser",
+      "source": "energiezukunft",
+      "published": "2026-10-20T05:00:00+00:00",
       "matched_keywords": [
-        "nuclear"
+        "klima"
       ]
     },
     {
@@ -539,16 +670,6 @@
       "published": "2026-10-19T13:50:39+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Solar panels could be printed like newspapers – without the toxic chemicals",
-      "teaser": "New perovskite ink could make solar panel production safer while using less energy and fewer materials The post Solar panels could be printed like newspapers &#8211; without the toxic chemicals appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/19/solar-panels-could-be-printed-like-newspapers-without-the-toxic-chemicals/",
-      "source": "energylivenews",
-      "published": "2026-10-19T12:30:00+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -706,16 +827,6 @@
       ]
     },
     {
-      "title": "Photovoltaik-Anlage steuerfrei – und jetzt?",
-      "teaser": "Was nach der Installation einer Photovoltaik-Anlage steuerlich wichtig bleibt, erklärt Annemarie Reindl in diesem Beitrag.",
-      "link": "https://www.pv-magazine.de/2026/10/19/photovoltaik-anlage-steuerfrei-und-jetzt/",
-      "source": "pv-magazine-de",
-      "published": "2026-10-19T07:15:00+00:00",
-      "matched_keywords": [
-        "photovoltaik"
-      ]
-    },
-    {
       "title": "‚Arten sterben aus, Lebensräume verschwinden‘",
       "teaser": "Vier Jahre nach dem Weltnaturabkommen schreitet der Verlust von Arten und Lebensräumen weiter voran. Zum Auftakt der UN-Biodiversitätskonferenz fordern Umweltverbände wirksameren Naturschutz und ein Ende naturzerstörender Subventionen.",
       "link": "https://www.energiezukunft.eu/umweltschutz/arten-sterben-aus-lebensraeume-verschwinden",
@@ -753,38 +864,6 @@
       "published": "2026-10-16T20:31:24+00:00",
       "matched_keywords": [
         "electricity price"
-      ]
-    },
-    {
-      "title": "Die drei Optionen für CfDs im EEG-Entwurf",
-      "teaser": "Auf der Konferenz „Marktoffensive Erneuerbare Energien“ stehen die Großanlagen im Fokus. Sebastian Pieper aus dem Bundeswirtschaftsministerium warb dabei für eine Option bei Differenzverträgen, die der EEG-Entwurf vorsieht, die aber bisher…",
-      "link": "https://www.pv-magazine.de/2026/10/16/die-drei-optionen-fuer-cfds-im-eeg-entwurf/",
-      "source": "pv-magazine-de",
-      "published": "2026-10-16T15:00:19+00:00",
-      "matched_keywords": [
-        "eeg",
-        "erneuerbare"
-      ]
-    },
-    {
-      "title": "Bundesrat fordert höheren Zuschuss zu Übertragungsnetzkosten und mehr Anreize für Speicher",
-      "teaser": "Die Bundesregierung will den jährlichen Zuschuss zu den Übertragungsnetzkosten von derzeit 6,5 auf 5,525 Milliarden Euro kürzen. Die Länder hingegen plädieren dafür, das bisherige Niveau beizubehalten. Zugleich fordern sie bessere Anreize…",
-      "link": "https://www.pv-magazine.de/2026/10/16/bundesrat-fordert-hoeheren-zuschuss-zu-uebertragungsnetzkosten-und-mehr-anreize-fuer-speicher/",
-      "source": "pv-magazine-de",
-      "published": "2026-10-16T12:25:00+00:00",
-      "matched_keywords": [
-        "speicher"
-      ]
-    },
-    {
-      "title": "Sonntag Energy baut nachgeführte Agri-Photovoltaik-Anlage über Erdbeeren",
-      "teaser": "Am Bodensee entsteht eine Agri-Photovoltaik-Anlage mit einem Megawatt Leistung und einem Batteriespeicher mit fünf Megawattstunden Kapazität. Die nachgeführten Solarmodule sollen zugleich die Erdbeerkulturen vor starker Sonneneinstrahlung…",
-      "link": "https://www.pv-magazine.de/2026/10/16/sonntag-energy-baut-nachgefuehrte-agri-photovoltaik-anlage-ueber-erdbeeren/",
-      "source": "pv-magazine-de",
-      "published": "2026-10-16T11:34:00+00:00",
-      "matched_keywords": [
-        "photovoltaik",
-        "speicher"
       ]
     },
     {
@@ -836,16 +915,6 @@
       "published": "2026-10-16T09:26:30+00:00",
       "matched_keywords": [
         "wind power"
-      ]
-    },
-    {
-      "title": "ABS, DoE partner on maritime nuclear",
-      "teaser": "ABS and the US DOE have signed a MOU to accelerate the development and deployment of nuclear technology in commercial maritime applications.",
-      "link": "https://www.power-technology.com/news/abs-doe-partner-on-maritime-nuclear/",
-      "source": "power-technology",
-      "published": "2026-10-16T08:18:18+00:00",
-      "matched_keywords": [
-        "nuclear"
       ]
     },
     {
@@ -1176,16 +1245,6 @@
       ]
     },
     {
-      "title": "Inter-array cable installation about to start at 2.9 GW UK offshore wind farm",
-      "teaser": "Seaway7 is expected to start installing inter-array cables at the Hornsea 3 offshore wind farm site in the UK in the coming days. According to a...",
-      "link": "https://offshore-energy.biz/2026/10/13/inter-array-cable-installation-about-to-start-at-29-gw-uk-offshore-wind-farm",
-      "source": "offshore-energy",
-      "published": "2026-10-13T10:20:47+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "Vayona targets Indian wind sector with 5MW turbine with 193m rotor",
       "teaser": "Siemens Gamesa's former Indian business has joined the ranks of manufacturers targeting the Indian wind power market with 5MW onshore turbines after launching a new platform with a 193-metre rotor diameter.",
       "link": "https://www.windpowermonthly.com/article/1972346/vayona-targets-indian-wind-sector-5mw-turbine-193m-rotor",
@@ -1276,16 +1335,6 @@
       "published": "2026-10-12T15:25:58+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "New wind for hydrogen-electric shipping as GMI-PowerCell collaboration expands to four bulk carriers",
-      "teaser": "PowerCell’s new order to supply hydrogen fuel cell systems for two more GMI bulk carriers brings the total fleet order to four vessels.",
-      "link": "https://offshore-energy.biz/2026/10/12/new-wind-for-hydrogen-electric-shipping-as-gmi-powercell-collaboration-expands-to-four-bulk-carriers",
-      "source": "offshore-energy",
-      "published": "2026-10-12T12:26:22+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -2469,16 +2518,6 @@
       ]
     },
     {
-      "title": "Ökostrom für Berliner Kinder",
-      "teaser": "Bei einem neuen Kinder- und Jugendhaus in Berlin, realisiert der Ökoenergieversorger naturstrom die Vor-Ort-Versorgung mit Solarstrom. So wird die Energiewende für Kinder praktisch erlebbar gemacht.",
-      "link": "https://www.energiezukunft.eu/buergerenergie/oekostrom-fuer-berliner-kinder",
-      "source": "energiezukunft",
-      "published": "2026-08-28T05:00:00+00:00",
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
       "title": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy",
       "teaser": "CLEW Webinar: End to Orbán’s rule? What Hungary’s elections mean for climate and energy policy waiyilam Tue, 24 Mar 2026 - 16:29 8 April 2026 at 16.00-17.30 CEST Berlin Journalists sign-ups are closed&nbsp; Hungarians will head to the…",
       "link": "https://www.cleanenergywire.org/webinar/clew-webinar-end-orbans-rule-what-hungarys-elections-mean-climate-and-energy-policy",
@@ -2529,13 +2568,13 @@
       ]
     },
     {
-      "title": "Großer Datenvergleich seit 1948 : So viel Klimawandel steckt jetzt schon im Berliner Wetter",
-      "teaser": "Wird es wirklich so viel wärmer und trockener? Zwei Wetterstationen in der Region liefern die besten Antworten – und zeigen den Effekt der deutschen Wiedervereinigung auf das Berliner Klima.",
-      "link": "https://www.tagesspiegel.de/berlin/grosser-datenvergleich-seit-1948-so-viel-klimawandel-steckt-jetzt-schon-im-berliner-wetter-16141712.html",
-      "source": "tagesspiegel-energie",
+      "title": "Wichtige Impulse, aber noch zu zaghaft: Wasserstoffmarkt braucht Investitionssicherheit",
+      "teaser": "20.10.2026",
+      "link": "https://www.bdew.de/presse/wichtige-impulse-aber-noch-zu-zaghaft-wasserstoffmarkt-braucht-investitionssicherheit/",
+      "source": "bdew-news",
       "published": null,
       "matched_keywords": [
-        "klima"
+        "wasserstoff"
       ]
     },
     {
@@ -2576,6 +2615,87 @@
       "published": null,
       "matched_keywords": [
         "strompreis"
+      ]
+    },
+    {
+      "title": "Datenraum als Enabler variabler Netzentgelte",
+      "teaser": "Das Factsheet zeigt, wie variable Netzentgelte im Datenraum abgewickelt werden können und welche Vorteile sich gegenüber der Marktkommunikation ergeben.",
+      "link": "https://www.dena.de/infocenter/datenraum-als-enabler-variabler-netzentgelte/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "netzentgelt"
+      ]
+    },
+    {
+      "title": "Data Spaces für die Energiewende nutzen",
+      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
+      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Energiedatenraum 2032: Eine digitale Infrastruktur als Erfolgsfaktor für die Energiewende",
+      "teaser": "dena-Studie zeigt Leitbild und Transformationspfad für einen akteurs- und branchenübergreifenden Datenaustausch auf. Energiedatenraum als Voraussetzung für Versorgungssicherheit, Wettbewerb und...",
+      "link": "https://www.dena.de/infocenter/energiedatenraum-2032-eine-digitale-infrastruktur-als-erfolgsfaktor-fuer-die-energiewende/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "SET Academy 101: Einführung in Energiemarkt und -regulatorik",
+      "teaser": "Kostenloser Überblick: Energiemarkt & Regulatorik für Start-ups – Chancen der Energiewende entdecken. Jetzt zur Veranstaltung in Darmstadt anmelden!",
+      "link": "https://www.dena.de/infocenter/set-academy-101-einfuehrung-in-energiemarkt-und-regulatorik/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "MiSpeL – ein Durchbruch für Prosumer?",
+      "teaser": "MiSpeL: Neue Rahmenbedingungen für Stromspeicher und bidirektionale Ladepunkte. dena-Experte Elias Schiafone erklärt die Auswirkungen auf Prosumer und Strommarkt.",
+      "link": "https://www.dena.de/infocenter/mispel-ein-durchbuch-fuer-prosumer/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Klimaresilienz: So schützen wir Gebäude und Quartiere",
+      "teaser": "Wie können Gebäude und Quartiere vor Hitze und anderen Auswirkungen des Klimawandels geschützt werden? Wie kann die dafür notwendige Planung verbessert werden?",
+      "link": "https://www.dena.de/infocenter/klimaresilienz-so-schuetzen-wir-gebaeude-und-quartiere/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
+      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
+      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Renewable-Energy-Solutions-Programm",
+      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
+      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -2691,8 +2811,38 @@
       ]
     },
     {
-      "title": "Gas seen to keep power price-setting role in Europe until 2060",
+      "title": "Red Sea LNG crossing signals higher Qatari risk appetite",
       "teaser": "Joachim Endress",
+      "link": "https://www.montelnews.com/news/10fc9131-a78c-4aa7-8e79-1603ce39bf08/red-sea-lng-crossing-signals-higher-qatari-risk-appetite",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "lng"
+      ]
+    },
+    {
+      "title": "EU committee backs 99m extra free ETS permits for industry",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/28432296-04e7-4137-9533-6622ac5d2f8e/eu-committee-backs-99m-extra-free-ets-permits-for-industry",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "ets"
+      ]
+    },
+    {
+      "title": "Dutch renewables reveal grid fixes for Europe’s energy transition",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/videos/92593299/montel-news-energy-insights?v=133236362",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
+      ]
+    },
+    {
+      "title": "Gas seen to keep power price-setting role in Europe until 2060",
+      "teaser": "newsdesk@montelnews.com",
       "link": "https://www.montelnews.com/news/5073835c-81f1-4924-ac7d-1533eb56f804/gas-to-keep-power-price-setting-role-in-europe-until-2060-tso",
       "source": "montelnews",
       "published": null,
@@ -2701,23 +2851,36 @@
       ]
     },
     {
-      "title": "EU agrees Italy gas price cap that could cut power bills 10%",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/fd942d37-d33c-4ac0-b96b-d715a9f220ed/italy-eu-agree-gas-price-cap-that-could-cut-power-prices-10",
-      "source": "montelnews",
+      "title": "Mingyang eyes world's biggest wind turbine with giant 33MW machine",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/technology/mingyang-eyes-worlds-biggest-wind-turbine-with-giant-33mw-machine/2-1-2060613",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "gas price"
+        "renewable",
+        "solar"
       ]
     },
     {
-      "title": "Nuclear power wins UK cross-party backing but can it deliver?",
-      "teaser": "newsdesk@montelnews.com",
-      "link": "https://www.montelnews.com/news/b89baf4d-7c6c-4e9f-b873-56f5b630eeec/nuclear-power-becomes-uk-political-consensus-but-can-it-deliver",
-      "source": "montelnews",
+      "title": "Costs soared as Europe raced to build renewables while the grid fell behind",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/analysis/costs-soared-as-europe-raced-to-build-renewables-while-the-grid-fell-behind/2-1-2061243",
+      "source": "rechargenews",
       "published": null,
       "matched_keywords": [
-        "nuclear"
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "UK grid engineers: More wind and solar make power system harder to manage",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/grid/uk-grid-engineers-more-wind-and-solar-make-power-system-harder-to-manage/2-1-2061094",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
       ]
     },
     {
@@ -2788,39 +2951,6 @@
       ]
     },
     {
-      "title": "Bonds make wind and solar look riskier but storage has 'options': fund CEO",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/bonds-make-wind-and-solar-look-riskier-but-storage-has-options-fund-ceo/2-1-2050356",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Wind turbine maker's shares surge on profits upgrade",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/finance/wind-turbine-makers-shares-surge-on-profits-upgrade/2-1-2059992",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "GE Vernova names new wind chief",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/ge-vernova-names-new-wind-chief/2-1-2059975",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
       "title": "Vattenfall wind chief breaks ranks to back Germany's offshore tender plan",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-breaks-ranks-to-back-germanys-offshore-tender-plan/2-1-2055971",
@@ -2865,9 +2995,9 @@
       ]
     },
     {
-      "title": "Chinese wind giant lifts lid on new international factory plan",
+      "title": "Bonds make wind and solar look riskier but storage has 'options': fund CEO",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/exclusive-chinese-wind-giant-lifts-lid-on-new-international-factory-plan/2-1-2058959",
+      "link": "https://www.rechargenews.com/interviews/bonds-make-wind-and-solar-look-riskier-but-storage-has-options-fund-ceo/2-1-2050356",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2876,9 +3006,9 @@
       ]
     },
     {
-      "title": "Middle East conflict forces pause on two huge wind projects",
+      "title": "Wind turbine maker's shares surge on profits upgrade",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/suppliers/exclusive-middle-east-conflict-forces-pause-on-two-huge-wind-projects/2-1-2059655",
+      "link": "https://www.rechargenews.com/finance/wind-turbine-makers-shares-surge-on-profits-upgrade/2-1-2059992",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
