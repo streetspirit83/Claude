@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:46:15+00:00",
+  "generated_at": "2026-10-21T19:48:49+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -130,11 +130,11 @@
     {
       "name": "euwid-energie",
       "url": "https://www.euwid-energie.de",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.euwid-energie.de/feed/",
-      "error": null,
-      "items_found": 10,
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "HTTPSConnectionPool(host='www.euwid-energie.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.euwid-energie.de', port=443) at 0x7f084e7df140>, 'Connection to www.euwid-energie.de timed out. (connect timeout=10)'))",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -170,12 +170,12 @@
     {
       "name": "dena-newsroom",
       "url": "https://www.dena.de/newsroom",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "500 Server Error: Internal Server Error for url: https://www.dena.de/newsroom",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 8
     },
     {
       "name": "agora-energiewende-news",
@@ -195,7 +195,7 @@
       "feed_url": "https://energynews.pro/en/feed.xml",
       "error": null,
       "items_found": 30,
-      "items_matched": 14
+      "items_matched": 9
     },
     {
       "name": "montelnews",
@@ -225,7 +225,7 @@
       "feed_url": "https://www.offshore-energy.biz/feed/",
       "error": null,
       "items_found": 50,
-      "items_matched": 13
+      "items_matched": 14
     },
     {
       "name": "windpowermonthly",
@@ -235,7 +235,7 @@
       "feed_url": "https://www.windpowermonthly.com/rss",
       "error": null,
       "items_found": 20,
-      "items_matched": 11
+      "items_matched": 10
     },
     {
       "name": "energymonitor",
@@ -290,12 +290,12 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "empty",
-      "method": null,
-      "feed_url": null,
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
       "error": null,
-      "items_found": 0,
-      "items_matched": 0
+      "items_found": 5,
+      "items_matched": 3
     },
     {
       "name": "spglobal-energy-transition",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 2
+      "items_matched": 3
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,58 @@
       "items_matched": 0
     }
   ],
-  "count": 242,
+  "count": 250,
   "articles": [
+    {
+      "title": "California Enacts SB 804 Law on Hydrogen Pipeline Safety Standards",
+      "teaser": null,
+      "link": "https://energynews.pro/en/california-enacts-sb-804-law-on-hydrogen-pipeline-safety-standards",
+      "source": "energynews-pro",
+      "published": "2026-10-21T18:32:56+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "UK battery storage system set to become one of Europe’s largest",
+      "teaser": "The large-scale project made up of 170 units will provide 600MWh of capacity The post UK battery storage system set to become one of Europe’s largest appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/21/uk-battery-storage-system-set-to-become-one-of-europes-largest/",
+      "source": "energylivenews",
+      "published": "2026-10-21T17:00:00+00:00",
+      "matched_keywords": [
+        "battery storage"
+      ]
+    },
+    {
+      "title": "MET Group appoints Esther Ang as CEO of its subsidiary MET Asia",
+      "teaser": null,
+      "link": "https://energynews.pro/en/met-group-appoints-esther-ang-as-ceo-of-its-subsidiary-met-asia",
+      "source": "energynews-pro",
+      "published": "2026-10-21T16:32:55+00:00",
+      "matched_keywords": [
+        "subsid"
+      ]
+    },
+    {
+      "title": "Climate change could spread toxic mining pollution into oceans",
+      "teaser": "Researchers warn that climate-driven hazards could increase the movement of toxic metals The post Climate change could spread toxic mining pollution into oceans appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/10/21/climate-change-could-spread-toxic-mining-pollution-into-oceans/",
+      "source": "energylivenews",
+      "published": "2026-10-21T16:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Over 500 piles lay the foundation for Poland’s floating LNG terminal (Gallery)",
+      "teaser": "Poland has hit a new milestone in its energy independence journey, completing the foundational piling for the new FSRU terminal in Gdańsk.",
+      "link": "https://offshore-energy.biz/2026/10/21/over-500-piles-lay-the-foundation-for-polands-floating-lng-terminal-gallery",
+      "source": "offshore-energy",
+      "published": "2026-10-21T14:34:01+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "NANO Nuclear Subsidiary STS Recognized for Two U.S. Department of Energy Nuclear Missions",
       "teaser": null,
@@ -579,26 +629,6 @@
       ]
     },
     {
-      "title": "South Korea Fears EU Industrial Accelerator Act Could Hinder Czech Nuclear Projects",
-      "teaser": null,
-      "link": "https://energynews.pro/en/south-korea-fears-eu-industrial-accelerator-act-could-hinder-czech-nuclear-projects",
-      "source": "energynews-pro",
-      "published": "2026-10-21T06:33:06+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "European Commission awards €3.4 billion to 77 net-zero technology projects",
-      "teaser": null,
-      "link": "https://energynews.pro/en/european-commission-awards-34-billion-to-77-net-zero-technology-projects",
-      "source": "energynews-pro",
-      "published": "2026-10-21T06:02:52+00:00",
-      "matched_keywords": [
-        "net-zero"
-      ]
-    },
-    {
       "title": "'This is possible': Emissions must fall by 18% in next 4 years to limit worst impacts of global warming",
       "teaser": "“Every additional fraction of a degree and additional year of warming above 1.5°C increases climate impacts and risks, such as the deadly floods, heatwaves and wildfires that have plagued many nations this year”.",
       "link": "https://www.euronews.com/2026/10/21/this-is-possible-emissions-must-fall-by-18-in-next-4-years-to-limit-worst-impacts-of-globa",
@@ -610,16 +640,6 @@
       ]
     },
     {
-      "title": "The Philippines advances plans for a first nuclear project as electricity demand rises",
-      "teaser": null,
-      "link": "https://energynews.pro/en/the-philippines-advances-plans-for-a-first-nuclear-project-as-electricity-demand-rises",
-      "source": "energynews-pro",
-      "published": "2026-10-21T05:33:01+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "What is Spain’s DANA weather phenomenon and is climate change making it worse?",
       "teaser": "A DANA caused the deadly flooding in Valencia in 2024 which killed 200 people.",
       "link": "https://www.euronews.com/2026/10/21/what-is-spains-dana-weather-phenomenon-and-is-climate-change-making-it-worse",
@@ -627,16 +647,6 @@
       "published": "2026-10-21T05:08:45+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "ENGIE builds a 29.8 MWp solar farm with 20 MWh of batteries",
-      "teaser": null,
-      "link": "https://energynews.pro/en/engie-builds-a-298-mwp-solar-farm-with-20-mwh-of-batteries",
-      "source": "energynews-pro",
-      "published": "2026-10-21T05:03:06+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -683,36 +693,6 @@
       ]
     },
     {
-      "title": "Stellantis and GreenYellow equip the Madrid plant with 12.4 MWp of solar capacity",
-      "teaser": null,
-      "link": "https://energynews.pro/en/stellantis-and-greenyellow-equip-the-madrid-plant-with-124-mwp-of-solar-capacity",
-      "source": "energynews-pro",
-      "published": "2026-10-21T03:32:53+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Indiana Considers 6 GW Candu Nuclear Project With AtkinsRéalis",
-      "teaser": null,
-      "link": "https://energynews.pro/en/indiana-considers-6-gw-candu-nuclear-project-with-atkinsrealis",
-      "source": "energynews-pro",
-      "published": "2026-10-21T03:02:57+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Germany adopts ten measures for its hydrogen market, including at least €1.5 billion",
-      "teaser": null,
-      "link": "https://energynews.pro/en/germany-adopts-ten-measures-for-its-hydrogen-market-including-at-least-15-billion",
-      "source": "energynews-pro",
-      "published": "2026-10-21T01:03:00+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
       "title": "Europe’s conservatives have 2 new targets in their campaign to weaken EU climate laws",
       "teaser": "The EPP is taking aim at a new carbon price on driving and heating, and rules on methane emissions.",
       "link": "https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -722,16 +702,6 @@
         "carbon price",
         "climate law",
         "emission"
-      ]
-    },
-    {
-      "title": "Grid decision could unlock £1.3 billion for Wales",
-      "teaser": "RenewableUK Cymru calls on the Welsh Government to back the plan which could benefit communities The post Grid decision could unlock £1.3 billion for Wales appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/10/20/grid-decision-could-unlock-1-3-billion-for-wales/",
-      "source": "energylivenews",
-      "published": "2026-10-20T17:00:00+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -1477,16 +1447,6 @@
       ]
     },
     {
-      "title": "Wind power patents: Mingyang | Sinoma | Vestas | Enercon",
-      "teaser": "Windpower Monthly rounds up the latest patents for wind power technology granted and applied for in the last week.",
-      "link": "https://www.windpowermonthly.com/article/1972118/wind-power-patents-mingyang-sinoma-vestas-enercon",
-      "source": "windpowermonthly",
-      "published": "2026-10-09T10:38:41+00:00",
-      "matched_keywords": [
-        "wind power"
-      ]
-    },
-    {
       "title": "Wegen fehlendem Klimaschutz: Unternehmen sehen Wirtschaft Deutschlands in Gefahr",
       "teaser": "Ein breites Bündnis von Unternehmen verschiedenster Branchen richtet einen Wirtschaftsapell an Bundesregierung und Bundestag. Wegen fehlenden Maßnahmen für Klimaschutz und Klimaanpassung leide der Wirtschaftsstandort Deutschland.",
       "link": "https://www.energiezukunft.eu/wirtschaft/wegen-fehlendem-klimaschutz-unternehmen-sehen-wirtschaft-deutschlands-in-gefahr",
@@ -1994,6 +1954,16 @@
       ]
     },
     {
+      "title": "Unexpected rainfall pressures Brazilian power prices lower",
+      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-21T18:19:21+00:00",
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -2001,6 +1971,17 @@
       "published": "2026-09-21T17:00:00+00:00",
       "matched_keywords": [
         "solar"
+      ]
+    },
+    {
+      "title": "AI energy surge risks eroding record renewables gains, UN warns",
+      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-21T13:01:27+00:00",
+      "matched_keywords": [
+        "climate",
+        "renewable"
       ]
     },
     {
@@ -2043,6 +2024,16 @@
       "matched_keywords": [
         "climate",
         "coal power"
+      ]
+    },
+    {
+      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
+      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
+      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
+      "source": "spglobal-electric-power",
+      "published": "2026-09-18T17:16:15+00:00",
+      "matched_keywords": [
+        "energy security"
       ]
     },
     {
@@ -2512,6 +2503,16 @@
       ]
     },
     {
+      "title": "Nach uns die Erwärmung : Derzeit scheint es, als wollten wir den Klimaschutz anderen überlassen",
+      "teaser": "Ein neuer Bericht zeigt, wie groß die Lücke zwischen Anspruch und Wirklichkeit im globalen Klimaschutz geworden ist. Um sie zu schließen, sollten wir zunächst aufhören, sie weiter zu vergrößern.",
+      "link": "https://www.tagesspiegel.de/wissen/nach-uns-die-erwarmung-wie-wollen-wir-mit-den-schlechten-klimanachrichten-umgehen-16183491.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "klimaschutz"
+      ]
+    },
+    {
       "title": "Wichtige Impulse, aber noch zu zaghaft: Wasserstoffmarkt braucht Investitionssicherheit",
       "teaser": "20.10.2026",
       "link": "https://www.bdew.de/presse/wichtige-impulse-aber-noch-zu-zaghaft-wasserstoffmarkt-braucht-investitionssicherheit/",
@@ -2559,6 +2560,87 @@
       "published": null,
       "matched_keywords": [
         "strompreis"
+      ]
+    },
+    {
+      "title": "Datenraum als Enabler variabler Netzentgelte",
+      "teaser": "Das Factsheet zeigt, wie variable Netzentgelte im Datenraum abgewickelt werden können und welche Vorteile sich gegenüber der Marktkommunikation ergeben.",
+      "link": "https://www.dena.de/infocenter/datenraum-als-enabler-variabler-netzentgelte/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "netzentgelt"
+      ]
+    },
+    {
+      "title": "Data Spaces für die Energiewende nutzen",
+      "teaser": "Rund 50 Akteure aus Energie- und Digitalwirtschaft fordern den Aufbau von Data Spaces. Das gemeinsame Ziel: die Energiewende beschleunigen, Kosten senken und die digitale Souveränität in Deutschland...",
+      "link": "https://www.dena.de/infocenter/data-spaces-fuer-die-energiewende-nutzen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Energiedatenraum 2032: Eine digitale Infrastruktur als Erfolgsfaktor für die Energiewende",
+      "teaser": "dena-Studie zeigt Leitbild und Transformationspfad für einen akteurs- und branchenübergreifenden Datenaustausch auf. Energiedatenraum als Voraussetzung für Versorgungssicherheit, Wettbewerb und...",
+      "link": "https://www.dena.de/infocenter/energiedatenraum-2032-eine-digitale-infrastruktur-als-erfolgsfaktor-fuer-die-energiewende/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "SET Academy 101: Einführung in Energiemarkt und -regulatorik",
+      "teaser": "Kostenloser Überblick: Energiemarkt & Regulatorik für Start-ups – Chancen der Energiewende entdecken. Jetzt zur Veranstaltung in Darmstadt anmelden!",
+      "link": "https://www.dena.de/infocenter/set-academy-101-einfuehrung-in-energiemarkt-und-regulatorik/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "MiSpeL – ein Durchbruch für Prosumer?",
+      "teaser": "MiSpeL: Neue Rahmenbedingungen für Stromspeicher und bidirektionale Ladepunkte. dena-Experte Elias Schiafone erklärt die Auswirkungen auf Prosumer und Strommarkt.",
+      "link": "https://www.dena.de/infocenter/mispel-ein-durchbuch-fuer-prosumer/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Klimaresilienz: So schützen wir Gebäude und Quartiere",
+      "teaser": "Wie können Gebäude und Quartiere vor Hitze und anderen Auswirkungen des Klimawandels geschützt werden? Wie kann die dafür notwendige Planung verbessert werden?",
+      "link": "https://www.dena.de/infocenter/klimaresilienz-so-schuetzen-wir-gebaeude-und-quartiere/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Markthochlauf und Systemintegration von Großwärmepumpen",
+      "teaser": "Im Projekt werden Daten und Know-how vermittelt, die den Hochlauf von Großwärmepumpen und Wärmespeichern zur Versorgung mit Fern- und Prozesswärme unterstützen.",
+      "link": "https://www.dena.de/projekte/markthochlauf-und-systemintegration-von-grosswaermepumpen/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "speicher",
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Renewable-Energy-Solutions-Programm",
+      "teaser": "Mit dem RES-Programm unterstützt die dena deutsche KMU bei der internationalen Vermarktung ihrer innovativen Energielösungen und fördert mit bis zu 100.000 Euro.",
+      "link": "https://www.dena.de/projekte/renewable-energy-solutions-programm/",
+      "source": "dena-newsroom",
+      "published": null,
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -2704,9 +2786,9 @@
       ]
     },
     {
-      "title": "Oil firm quits offshore wind as trailblazing project goes sour",
+      "title": "40 Under 40 | What our generation must do better than the last",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/oil-firm-quits-offshore-wind-as-trailblazing-project-goes-sour/2-1-2061831",
+      "link": "https://www.rechargenews.com/people/40-under-40-what-our-generation-must-do-better-than-the-last/2-1-2057515",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2715,9 +2797,20 @@
       ]
     },
     {
-      "title": "40 Under 40 | What our generation must do better than the last",
+      "title": "Former US officials from six administrations urge permitting reform",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/people/40-under-40-what-our-generation-must-do-better-than-the-last/2-1-2057515",
+      "link": "https://www.rechargenews.com/policy/former-us-officials-from-six-administrations-urge-permitting-reform/2-1-2061611",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Oil firm quits offshore wind as trailblazing project goes sour",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/floating-wind/oil-firm-quits-offshore-wind-as-trailblazing-project-goes-sour/2-1-2061831",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2768,28 +2861,6 @@
         "renewable",
         "solar",
         "wind farm"
-      ]
-    },
-    {
-      "title": "Grid engineers claim too much wind and solar power puts a strain on stability",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/grid/uk-grid-engineers-more-wind-and-solar-make-power-system-harder-to-manage/2-1-2061094",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Mingyang eyes world's biggest wind turbine with giant 33MW machine",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/mingyang-eyes-worlds-biggest-wind-turbine-with-giant-33mw-machine/2-1-2060613",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
       ]
     },
     {
@@ -2849,9 +2920,9 @@
       ]
     },
     {
-      "title": "UK's giant AR8 wind and solar auction put on slowest timeline",
+      "title": "Grid engineers claim too much wind and solar power puts a strain on stability",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/uks-giant-ar8-wind-and-solar-auction-put-on-slowest-timeline/2-1-2059363",
+      "link": "https://www.rechargenews.com/grid/uk-grid-engineers-more-wind-and-solar-make-power-system-harder-to-manage/2-1-2061094",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -2860,9 +2931,20 @@
       ]
     },
     {
-      "title": "Vattenfall wind chief weighs Chinese turbine risks against 'carryover' gains of Europe",
+      "title": "Mingyang eyes world's biggest wind turbine with giant 33MW machine",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/interviews/vattenfall-wind-chief-weighs-chinese-turbine-risks-against-carryover-gains-of-europe/2-1-2058043",
+      "link": "https://www.rechargenews.com/technology/mingyang-eyes-worlds-biggest-wind-turbine-with-giant-33mw-machine/2-1-2060613",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "UK's giant AR8 wind and solar auction put on slowest timeline",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/uks-giant-ar8-wind-and-solar-auction-put-on-slowest-timeline/2-1-2059363",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
