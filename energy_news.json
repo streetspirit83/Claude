@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:39:45+00:00",
+  "generated_at": "2026-10-24T08:31:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 2
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 20
+      "items_matched": 19
     },
     {
       "name": "politico-energy-climate",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 6
+      "items_matched": 7
     },
     {
       "name": "reuters-energy",
@@ -290,22 +290,22 @@
     {
       "name": "spglobal-electric-power",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/electric-power",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 3
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "spglobal-energy-transition",
       "url": "https://www.spglobal.com/commodityinsights/en",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.spglobal.com/commodityinsights/en/rss-feed/energy-transition",
-      "error": null,
-      "items_found": 5,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.spglobal.com/commodityinsights/en",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "iea-news",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 251,
+  "count": 245,
   "articles": [
+    {
+      "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+      "teaser": "Former CEO of Polar Train LNG tells FT that energy giant Novatek financed and held reins of strategic Alaska project without Washington’s approval",
+      "link": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+      "source": "ft-energy",
+      "published": "2026-10-24T00:22:20+00:00",
+      "matched_keywords": [
+        "lng"
+      ]
+    },
     {
       "title": "Climate change taskforce meets for first time",
       "teaser": "The organisation will make recommendations to the government to help tackle climate challenges The post Climate change taskforce meets for first time appeared first on Energy Live News .",
@@ -485,7 +495,7 @@
       ]
     },
     {
-      "title": "US nuclear revival faces scrutiny after incidents at flagship plant",
+      "title": "Fall, fuel rod mishap and failed exams plague US nuclear revival effort",
       "teaser": "Michigan reactor restart is delayed as Trump administration champions nuclear energy to meet booming AI power demand",
       "link": "https://www.ft.com/content/bcc464cc-9d12-4b15-866d-64642de66ca8?syn-25a6b1a6=1",
       "source": "ft-energy",
@@ -667,16 +677,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "EU parliament backs 3-year delay to methane importer obligations",
-      "teaser": "The EU&apos;s parliament voted Oct. 22 to back a three-year delay on importer requirements under the EU&apos;s methane emissions regulation. The parliament is seeking a longer window than the European Commission, which called for a…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/102226-eu-parliament-backs-3-year-delay-to-methane-importer-obligations",
-      "source": "spglobal-energy-transition",
-      "published": "2026-10-22T14:33:34+00:00",
-      "matched_keywords": [
-        "emission"
       ]
     },
     {
@@ -1750,16 +1750,6 @@
       ]
     },
     {
-      "title": "Climate damage already ‘locked in’ – but these 10 insights show our future is still being decided",
-      "teaser": "From rising sea levels to food systems fuelling climate change – experts have laid out 10 insights that require urgent action.",
-      "link": "https://www.euronews.com/2026/10/06/climate-damage-already-locked-in-but-these-10-insights-show-our-future-is-still-being-deci",
-      "source": "euronews-green",
-      "published": "2026-10-06T04:14:02+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
       "title": "Here's why your energy bills are going up",
       "teaser": "Election season is heating up, and while fewer candidates are mentioning climate change , everyone seems to be talking about energy affordability. Last year, the topic defined the contests for governor in Virginia and New Jersey, and the…",
       "link": "https://www.canarymedia.com/articles/affordability/why-energy-bills-are-going-up",
@@ -2049,16 +2039,6 @@
       ]
     },
     {
-      "title": "Unexpected rainfall pressures Brazilian power prices lower",
-      "teaser": "A reversal in weather expectations, with unexpected rainfall across several Brazilian regions, has affected the outlook for hydroelectric availability and pressured power prices in the country. September has been marked by heavy rainfall…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/091626-unexpected-rainfall-pressures-brazilian-power-prices-lower",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T18:19:21+00:00",
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Ohio’s biggest solar project finally gets permit after long legal limbo",
       "teaser": "Ohio’s largest solar and battery project can finally move forward after years of slogging through legal and regulatory challenges. The Ohio Power Siting Board on Thursday approved a permit for Oak Run Solar, which will combine 800…",
       "link": "https://www.canarymedia.com/articles/solar/ohio-biggest-solar-project-gets-permit",
@@ -2066,17 +2046,6 @@
       "published": "2026-09-21T17:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "AI energy surge risks eroding record renewables gains, UN warns",
-      "teaser": "Artificial intelligence&apos;s surging energy demands are undermining global climate efforts and driving up fossil fuel consumption, UN Climate Change Executive Secretary Simon Stiell warned Sept. 21, calling on tech industry leaders to…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/092126-ai-energy-surge-risks-eroding-record-renewables-gains-un-warns",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-21T13:01:27+00:00",
-      "matched_keywords": [
-        "climate",
-        "renewable"
       ]
     },
     {
@@ -2119,16 +2088,6 @@
       "matched_keywords": [
         "climate",
         "coal power"
-      ]
-    },
-    {
-      "title": "Ukraine wants to produce up to 800 mt/year of uranium: minister",
-      "teaser": "Ukraine is seeking to produce 750-800 metric tons/year of uranium content as part of its efforts to increase its energy security and resilience, Energy Minister and Deputy Prime Minister Denys Shmyhal said at an industry conference in…",
-      "link": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/091826-ukraine-wants-to-produce-up-to-800-mtyear-of-uranium-minister",
-      "source": "spglobal-electric-power",
-      "published": "2026-09-18T17:16:15+00:00",
-      "matched_keywords": [
-        "energy security"
       ]
     },
     {
@@ -2523,26 +2482,6 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "Never Ending Zeitumstellung : Niemand mag sie wirklich, aber trotzdem ändert sich nichts",
-      "teaser": "Die Energiekrise hat einst die Sommerzeit hervorgebracht. Ihr ursprünglicher Sinn ist längst widerlegt – doch alle Anläufe, die Zeitumstellung abzuschaffen, sind bisher gescheitert. Doch warum eigentlich?",
-      "link": "https://www.tagesspiegel.de/internationales/never-ending-zeitumstellung-warum-sie-niemand-wirklich-mag-sich-aber-trotzdem-nichts-andert-16181157.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "energiekrise"
-      ]
-    },
-    {
-      "title": "Nach Angaben des Weißen Hauses : Melania Trump vermittelt angeblich lokale Waffenruhe in der Ukraine",
-      "teaser": "Mesut Özil fordert Aufhebung von Fußball-Sanktionen gegen Russland + Ukraine beobachtet immer noch Einschränkungen bei Starshield + Der Newsblog.",
-      "link": "https://www.tagesspiegel.de/internationales/liveblog/laut-angaben-des-weissen-hausesmelania-trump-vermittelt-angeblich-lokale-waffenruhe-in-der-ukraine-4309180.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "sanktion"
       ]
     },
     {
