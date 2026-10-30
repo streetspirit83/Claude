@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:20:08+00:00",
+  "generated_at": "2026-10-30T22:44:00+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 0
+      "items_matched": 1
     },
     {
       "name": "euractiv-energie",
@@ -265,7 +265,7 @@
       "feed_url": "https://www.politico.eu/section/energy/feed/",
       "error": null,
       "items_found": 31,
-      "items_matched": 8
+      "items_matched": 6
     },
     {
       "name": "ft-energy",
@@ -325,7 +325,7 @@
       "feed_url": "https://www.canarymedia.com/rss.rss",
       "error": null,
       "items_found": 100,
-      "items_matched": 46
+      "items_matched": 47
     },
     {
       "name": "power-technology",
@@ -370,6 +370,16 @@
   ],
   "count": 242,
   "articles": [
+    {
+      "title": "Meta strikes deal to help bring a low-carbon cement plant to Missouri",
+      "teaser": "Tech companies say they&#039;re seeking low-carbon construction materials to limit the climate impact of their data centers. But very little clean cement or green steel is actually being produced in the U.S. today, and only in a handful of…",
+      "link": "https://www.canarymedia.com/articles/clean-industry/meta-fortera-deal-cement-plant-missouri",
+      "source": "canarymedia",
+      "published": "2026-10-30T20:00:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
     {
       "title": "FARIA Renewables Buys 23.1 MW Wind Farm From EDP Renewables",
       "teaser": null,
@@ -1315,16 +1325,6 @@
       ]
     },
     {
-      "title": "Russia energy sanctions will stay despite US diesel deal, von der Leyen says",
-      "teaser": "The Commission president warned that “Russia is not a trusted supplier of energy.\"",
-      "link": "https://www.politico.eu/article/eu-ursula-von-der-leyen-russia-energy-sanctions-us-diesel-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-10-21T09:31:27+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "'This is possible': Emissions must fall by 18% in next 4 years to limit worst impacts of global warming",
       "teaser": "“Every additional fraction of a degree and additional year of warming above 1.5°C increases climate impacts and risks, such as the deadly floods, heatwaves and wildfires that have plagued many nations this year”.",
       "link": "https://www.euronews.com/2026/10/21/this-is-possible-emissions-must-fall-by-18-in-next-4-years-to-limit-worst-impacts-of-globa",
@@ -1366,18 +1366,6 @@
       "matched_keywords": [
         "erneuerbare",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "Europe’s conservatives have 2 new targets in their campaign to weaken EU climate laws",
-      "teaser": "The EPP is taking aim at a new carbon price on driving and heating, and rules on methane emissions.",
-      "link": "https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-10-20T19:15:19+00:00",
-      "matched_keywords": [
-        "carbon price",
-        "climate law",
-        "emission"
       ]
     },
     {
@@ -2449,6 +2437,16 @@
       "published": "2026-01-08T10:43:31+00:00",
       "matched_keywords": [
         "klima"
+      ]
+    },
+    {
+      "title": "Nach diversen Aufforderungen von Selenskyj : USA genehmigen Verkauf von 500 Patriot-Raketen an die Ukraine",
+      "teaser": "Waffenruhe in Oleschky könnte militärische Bedrohung für Cherson verschärfen + Russland greift Bahnhof in Dnipro erneut an + „Nowaja Gaseta“ gibt Schließung bekannt + Der Newsblog.",
+      "link": "https://www.tagesspiegel.de/internationales/liveblog/nach-diversen-aufforderungen-von-selenskyj-usa-genehmigen-verkauf-von-500-patriot-raketen-an-die-ukraine-16206302.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "forderung"
       ]
     },
     {
