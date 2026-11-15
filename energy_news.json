@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:36:16+00:00",
+  "generated_at": "2026-11-15T11:40:39+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 2
     },
     {
       "name": "euractiv-energie",
@@ -180,22 +180,22 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
       "url": "https://www.energynews.pro",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.energynews.pro/feed/",
-      "error": null,
-      "items_found": 30,
-      "items_matched": 1
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.energynews.pro/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "montelnews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 22
+      "items_matched": 21
     },
     {
       "name": "politico-energy-climate",
@@ -368,8 +368,19 @@
       "items_matched": 0
     }
   ],
-  "count": 249,
+  "count": 239,
   "articles": [
+    {
+      "title": "EEG-Novelle: Einspeisevergütung für kleine Photovoltaik-Anlagen könnte doch erhalten bleiben",
+      "teaser": "Aus einem Brief von Nina Scheer geht hervor, dass sich Fachpolitiker von SPD und Union auf wesentliche Änderungen des EEG-Gesetzentwurfs verständigt haben. Die CDU verweist allerdings auf die fehlende Einigung beim Netzpaket.",
+      "link": "https://www.pv-magazine.de/2026/11/15/eeg-novelle-einspeiseverguetung-fuer-kleine-photovoltaik-anlagen-koennte-doch-erhalten-bleiben/",
+      "source": "pv-magazine-de",
+      "published": "2026-11-15T09:31:32+00:00",
+      "matched_keywords": [
+        "eeg",
+        "photovoltaik"
+      ]
+    },
     {
       "title": "How California Gov.-elect Becerra could be better on climate than Newsom",
       "teaser": "This is California Wire , a weekly newsletter from Jeff St. John on the state’s clean energy transition. Subscribe to get it weekly via Substack. Welcome back, everyone! Well, we may have finally caught a break when it comes to making…",
@@ -642,16 +653,6 @@
       ]
     },
     {
-      "title": "Le Royaume-Uni sanctionne Slavneft et revendique couvrir les grands producteurs russes",
-      "teaser": null,
-      "link": "https://energynews.pro/le-royaume-uni-sanctionne-slavneft-et-revendique-couvrir-les-grands-producteurs-russes",
-      "source": "energynews-pro",
-      "published": "2026-11-13T06:34:47+00:00",
-      "matched_keywords": [
-        "sanction"
-      ]
-    },
-    {
       "title": "Europe could save 40% on electricity costs if solar and batteries ‘work in harmony’",
       "teaser": "“Solar is the fuel, the battery is the power plant. The whole system only becomes cheaper if these work in harmony with one another.”",
       "link": "https://www.euronews.com/2026/11/13/europe-could-save-40-on-electricity-costs-if-solar-and-batteries-work-in-harmony",
@@ -743,16 +744,6 @@
       "published": "2026-11-12T14:55:00+00:00",
       "matched_keywords": [
         "eeg"
-      ]
-    },
-    {
-      "title": "Solarstrom vom Eigenheim an der Börse verkaufen – was bringts?",
-      "teaser": "Wenn die Einspeisevergütung für Photovoltaikanlagen auf Einfamilienhäusern wegfallen sollte, was vielleicht nicht sofort, aber doch in den nächsten Jahren geschehen könnte, muss man auch den auf dem Eigenheim erzeugten Solarstrom an der…",
-      "link": "https://www.pv-magazine.de/2026/11/12/solarstrom-vom-eigenheim-an-der-boerse-verkaufen-was-bringts/",
-      "source": "pv-magazine-de",
-      "published": "2026-11-12T14:18:57+00:00",
-      "matched_keywords": [
-        "photovoltaik"
       ]
     },
     {
@@ -859,7 +850,7 @@
       ]
     },
     {
-      "title": "Power sector executives take the stage at COP31 as electricity climbs agenda",
+      "title": "Power industry executives take the stage as electricity climbs COP31 agenda",
       "teaser": "Grid and renewable energy bosses lead the business presence at COP31",
       "link": "https://www.ft.com/content/48ff3dce-d965-4d34-b207-c6b320248322?syn-25a6b1a6=1",
       "source": "ft-energy",
@@ -1775,16 +1766,6 @@
       ]
     },
     {
-      "title": "‘It’s improved my life’: Solar kits provide essential power in refugee camps and war zones",
-      "teaser": "Portable solar kits in disaster zones fuel everything from communication and cooking to cooling and education.",
-      "link": "https://www.euronews.com/2026/10/26/its-improved-my-life-solar-kits-provide-essential-power-in-refugee-camps-and-war-zones",
-      "source": "euronews-green",
-      "published": "2026-10-26T07:02:37+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Weltkarte der Klimapolitik: Wer gewinnt am meisten?",
       "teaser": "Eine Studie des Potsdam-Instituts für Klimafolgenforschung zeigt jetzt für 169 Staaten der Erde, wie der Kampf gegen die Erderhitzung auf Vermögenswerte wirkt – und welche geopolitischen Herausforderungen und Chancen sich daraus ableiten.",
       "link": "https://www.energiezukunft.eu/klimakrise/weltkarte-der-klimapolitik-wer-gewinnt-am-meisten",
@@ -2512,9 +2493,19 @@
       ]
     },
     {
-      "title": "Bei Verzicht auf Donbass : USA bieten Ukraine offenbar die Nato‑Mitgliedschaft an",
-      "teaser": "Trumps Unterhändler haben Kyjiw nach Angaben von Präsident Selenskyj erstmals direkt gefragt, ob russische Gebietsforderungen akzeptiert würden – im Gegenzug für eine Aufnahme in das Militärbündnis.",
-      "link": "https://www.tagesspiegel.de/internationales/bei-verzicht-auf-donbass-usa-bieten-ukraine-offenbar-die-natomitgliedschaft-an-16284415.html",
+      "title": "„Es wurden Saugroboter durch Hacker gekapert“ : Welche Daten smarte Geräte speichern – der Expertencheck",
+      "teaser": "Schneidet mein Handy Gespräche mit? Weiß mein Kühlschrank, dass ich ungesund esse? Fachleute erklären, wo unsere Bilder und Daten wirklich landen – und wer sie wozu nutzt.",
+      "link": "https://www.tagesspiegel.de/gesellschaft/filmt-mein-saugroboter-mich-auf-der-toilette-12-digitale-mythen-im-expertencheck-16260028.html",
+      "source": "tagesspiegel-energie",
+      "published": null,
+      "matched_keywords": [
+        "speicher"
+      ]
+    },
+    {
+      "title": "Für Ende des Ukraine-Kriegs : Putin fordert offenbar Rückbau der Nato auf Stand von 1997 – und noch mehr",
+      "teaser": "Russland greift bei den gerade gestarteten Friedensverhandlungen Medienberichten zufolge seine Forderungen zur Osterweiterung der Militärallianz auf. Doch dabei belässt es der Machthaber in Moskau nicht.",
+      "link": "https://www.tagesspiegel.de/internationales/fur-ende-des-ukraine-kriegs-putin-fordert-offenbar-ruckbau-der-nato-auf-stand-von-1997--und-noch-mehr-16286111.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2653,97 +2644,6 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
-      ]
-    },
-    {
-      "title": "Stromnetze: Modernisierung von Betrieb und Planung kann Ausbaukosten für Verteilnetze deutlich senken",
-      "teaser": "Anfang November legen die Stromverteilnetzbetreiber ihre Ausbaupläne vor. Rund 250 Milliarden Euro kostet der Verteilnetzausbau bis 2045, wenn Betreiber weiter...",
-      "link": "https://www.agora-energiewende.de/aktuelles/stromnetze-modernisierung-von-betrieb-und-planung-kann-ausbaukosten-fuer-verteilnetze-deutlich-senken",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "stromnetz"
-      ]
-    },
-    {
-      "title": "Julia Bläsius übernimmt Leitung von Agora Industrie Deutschland",
-      "teaser": "Julia Bläsius, Direktorin von Agora Energiewende Deutschland, übernimmt ab sofort auch die Leitung von Agora Industrie Deutschland. Damit verzahnt Agora die...",
-      "link": "https://www.agora-energiewende.de/aktuelles/julia-blaesius-uebernimmt-leitung-von-agora-industrie-deutschland",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 446",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 102",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
-      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
-      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
       ]
     },
     {
