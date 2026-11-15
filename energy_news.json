@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:40:39+00:00",
+  "generated_at": "2026-11-15T19:11:36+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -180,22 +180,22 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 15,
+      "items_matched": 9
     },
     {
       "name": "energynews-pro",
       "url": "https://www.energynews.pro",
-      "status": "error",
-      "method": null,
-      "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://www.energynews.pro/",
-      "items_found": 0,
-      "items_matched": 0
+      "status": "ok",
+      "method": "feed",
+      "feed_url": "https://www.energynews.pro/feed/",
+      "error": null,
+      "items_found": 30,
+      "items_matched": 1
     },
     {
       "name": "montelnews",
@@ -275,7 +275,7 @@
       "feed_url": "https://www.ft.com/energy?format=rss",
       "error": null,
       "items_found": 25,
-      "items_matched": 10
+      "items_matched": 9
     },
     {
       "name": "reuters-energy",
@@ -368,7 +368,7 @@
       "items_matched": 0
     }
   ],
-  "count": 239,
+  "count": 248,
   "articles": [
     {
       "title": "EEG-Novelle: Einspeisevergütung für kleine Photovoltaik-Anlagen könnte doch erhalten bleiben",
@@ -650,6 +650,16 @@
       "matched_keywords": [
         "wind farm",
         "wind power"
+      ]
+    },
+    {
+      "title": "Le Royaume-Uni sanctionne Slavneft et revendique couvrir les grands producteurs russes",
+      "teaser": null,
+      "link": "https://energynews.pro/le-royaume-uni-sanctionne-slavneft-et-revendique-couvrir-les-grands-producteurs-russes",
+      "source": "energynews-pro",
+      "published": "2026-11-13T06:34:47+00:00",
+      "matched_keywords": [
+        "sanction"
       ]
     },
     {
@@ -1019,16 +1029,6 @@
       "matched_keywords": [
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Countries speed up on renewables as China’s blistering pace slows",
-      "teaser": "Ten takeaways from the IEA’s latest report on the fossil fuel transition",
-      "link": "https://www.ft.com/content/71f35844-9635-4cfe-bf47-39a4014dc8ee?syn-25a6b1a6=1",
-      "source": "ft-energy",
-      "published": "2026-11-10T12:00:05+00:00",
-      "matched_keywords": [
-        "renewable"
       ]
     },
     {
@@ -2493,19 +2493,19 @@
       ]
     },
     {
-      "title": "„Es wurden Saugroboter durch Hacker gekapert“ : Welche Daten smarte Geräte speichern – der Expertencheck",
-      "teaser": "Schneidet mein Handy Gespräche mit? Weiß mein Kühlschrank, dass ich ungesund esse? Fachleute erklären, wo unsere Bilder und Daten wirklich landen – und wer sie wozu nutzt.",
-      "link": "https://www.tagesspiegel.de/gesellschaft/filmt-mein-saugroboter-mich-auf-der-toilette-12-digitale-mythen-im-expertencheck-16260028.html",
+      "title": "Polizei ermittelt wegen Unfallflucht gegen BVG-Fahrer : Achtjährige stürzt mit Rad, wird von Bus überrollt und stirbt",
+      "teaser": "Mit Heil hat die SPD nun einen ersten respektablen Kandidaten für den SPD‑Vorsitz. Der Machtkampf in der SPD ist aber nicht nur eine Herausforderung für Lars Klingbeil – sondern für die ganze Regierung.",
+      "link": "https://www.tagesspiegel.de/berlin/todlicher-unfall-in-berlin-achtjahrige-sturzt-mit-rad-und-wird-von-bvg-bus-uberrollt-16285790.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
-        "speicher"
+        "forderung"
       ]
     },
     {
-      "title": "Für Ende des Ukraine-Kriegs : Putin fordert offenbar Rückbau der Nato auf Stand von 1997 – und noch mehr",
-      "teaser": "Russland greift bei den gerade gestarteten Friedensverhandlungen Medienberichten zufolge seine Forderungen zur Osterweiterung der Militärallianz auf. Doch dabei belässt es der Machthaber in Moskau nicht.",
-      "link": "https://www.tagesspiegel.de/internationales/fur-ende-des-ukraine-kriegs-putin-fordert-offenbar-ruckbau-der-nato-auf-stand-von-1997--und-noch-mehr-16286111.html",
+      "title": "Machtkampf um SPD-Vorsitz : Hubertus Heil bringt Bewegung, aber keinen Aufbruch",
+      "teaser": "Mit Heil hat die SPD nun einen ersten respektablen Kandidaten für den SPD‑Vorsitz. Der Machtkampf in der SPD ist aber nicht nur eine Herausforderung für Lars Klingbeil – sondern für die ganze Regierung.",
+      "link": "https://www.tagesspiegel.de/politik/machtkampf-um-spd-vorsitz-hubertus-heil-bringt-bewegung-aber-keinen-aufbruch-16286351.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
@@ -2644,6 +2644,97 @@
       "matched_keywords": [
         "erneuerbare",
         "wasserstoff"
+      ]
+    },
+    {
+      "title": "Stromnetze: Modernisierung von Betrieb und Planung kann Ausbaukosten für Verteilnetze deutlich senken",
+      "teaser": "Anfang November legen die Stromverteilnetzbetreiber ihre Ausbaupläne vor. Rund 250 Milliarden Euro kostet der Verteilnetzausbau bis 2045, wenn Betreiber weiter...",
+      "link": "https://www.agora-energiewende.de/aktuelles/stromnetze-modernisierung-von-betrieb-und-planung-kann-ausbaukosten-fuer-verteilnetze-deutlich-senken",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "stromnetz"
+      ]
+    },
+    {
+      "title": "Julia Bläsius übernimmt Leitung von Agora Industrie Deutschland",
+      "teaser": "Julia Bläsius, Direktorin von Agora Energiewende Deutschland, übernimmt ab sofort auch die Leitung von Agora Industrie Deutschland. Damit verzahnt Agora die...",
+      "link": "https://www.agora-energiewende.de/aktuelles/julia-blaesius-uebernimmt-leitung-von-agora-industrie-deutschland",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Klimaneutrales Stromsystem 446",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 102",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "wasserstoff"
+      ]
+    },
+    {
+      "title": "Finanzierung der Klimaziele 88",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Szenarien und klimapolitische Instrumente 159",
+      "teaser": "7. Oktober 2026, 16:00 - 17:30",
+      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
+      ]
+    },
+    {
+      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
+      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
+      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "klimaneutral"
+      ]
+    },
+    {
+      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
+      "teaser": null,
+      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "energiewende"
+      ]
+    },
+    {
+      "title": "Photovoltaik- und Windflächenrechner",
+      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
+      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
+      "source": "agora-energiewende-news",
+      "published": null,
+      "matched_keywords": [
+        "photovoltaik",
+        "pv"
       ]
     },
     {
