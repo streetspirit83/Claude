@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:44:55+00:00",
+  "generated_at": "2026-11-25T23:55:29+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -165,7 +165,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 13,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "dena-newsroom",
@@ -180,12 +180,12 @@
     {
       "name": "agora-energiewende-news",
       "url": "https://www.agora-energiewende.de/news",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 15,
-      "items_matched": 9
+      "error": "HTTPSConnectionPool(host='www.agora-energiewende.de', port=443): Read timed out. (read timeout=10)",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "energynews-pro",
@@ -195,7 +195,7 @@
       "feed_url": "https://www.energynews.pro/feed/",
       "error": null,
       "items_found": 30,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 5
     },
     {
       "name": "rechargenews",
@@ -335,7 +335,7 @@
       "feed_url": "https://www.power-technology.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 2
     },
     {
       "name": "energylivenews",
@@ -350,12 +350,12 @@
     {
       "name": "energy-storage-news",
       "url": "https://www.energy-storage.news",
-      "status": "ok",
-      "method": "feed",
-      "feed_url": "https://www.energy-storage.news/feed/",
-      "error": null,
-      "items_found": 300,
-      "items_matched": 194
+      "status": "error",
+      "method": null,
+      "feed_url": null,
+      "error": "403 Client Error: Forbidden for url: https://www.energy-storage.news/",
+      "items_found": 0,
+      "items_matched": 0
     },
     {
       "name": "smart-energy",
@@ -368,17 +368,46 @@
       "items_matched": 0
     }
   ],
-  "count": 434,
+  "count": 230,
   "articles": [
     {
-      "title": "Schweizer Bundesrat erhöht die Photovoltaik-Subventionen",
+      "title": "New-build buyers want climate resilient homes",
+      "teaser": "Buyers say cost of living pressures have increased the importance of energy efficient appliances The post New-build buyers want climate resilient homes appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/11/25/new-build-buyers-want-climate-resilient-homes/",
+      "source": "energylivenews",
+      "published": "2026-11-25T17:30:00+00:00",
+      "matched_keywords": [
+        "climate"
+      ]
+    },
+    {
+      "title": "Batteries made from natural gas – without burning a drop",
+      "teaser": "Molten’s California demonstration plant converts natural gas into battery-grade graphite and hydrogen without combustion The post Batteries made from natural gas – without burning a drop appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/11/25/batteries-made-from-natural-gas-without-burning-a-drop/",
+      "source": "energylivenews",
+      "published": "2026-11-25T16:30:00+00:00",
+      "matched_keywords": [
+        "hydrogen"
+      ]
+    },
+    {
+      "title": "Schweizer Bundesrat erhöht die Photovoltaik-Einmalvergütung",
       "teaser": "Die Schweizer Regierung hat die Einmalvergütung für Anlagen bis 100 Kilowatt Leistung um 40 Franken pro Kilowatt Leistung erhöht. Auch der Ansatz für die hohe Einmalvergütung für Anlagen ohne Eigenverbrauch und weniger als 150 Kilowatt…",
       "link": "https://www.pv-magazine.de/2026/11/25/schweizer-bundesrat-erhoeht-die-photovoltaik-subventionen/",
       "source": "pv-magazine-de",
       "published": "2026-11-25T13:18:08+00:00",
       "matched_keywords": [
-        "photovoltaik",
-        "subvention"
+        "photovoltaik"
+      ]
+    },
+    {
+      "title": "Oceania’s renewable capacity to reach 84% by 2035 amid delivery hurdles",
+      "teaser": "Oceania’s energy transition is gathering pace, with renewables forecast to account for 84% of the region’s installed power capacity by 2035.",
+      "link": "https://www.power-technology.com/analysis/oceania-renewable-capacity-2035/",
+      "source": "power-technology",
+      "published": "2026-11-25T12:41:53+00:00",
+      "matched_keywords": [
+        "renewable"
       ]
     },
     {
@@ -400,6 +429,16 @@
       "matched_keywords": [
         "hydrogen",
         "nuclear"
+      ]
+    },
+    {
+      "title": "‘COP is a joke’: Backlash grows after failed climate talks",
+      "teaser": "The chaotic conclusion of the COP31 conference is turning nations against the process.",
+      "link": "https://www.politico.eu/article/cop-is-a-joke-backlash-grows-after-failed-climate-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "politico-energy-climate",
+      "published": "2026-11-25T11:03:05+00:00",
+      "matched_keywords": [
+        "climate"
       ]
     },
     {
@@ -448,8 +487,8 @@
     {
       "title": "Grenergy signs 900GWh per year renewable PPA in Peru",
       "teaser": "Grenergy has entered into a 15-year PPA with an investment-grade utility in Peru, set to deliver nearly 900GWh of energy per year.",
-      "link": "https://www.power-technology.com/news/grenergy-signs-900gwh-ppa/",
-      "source": "power-technology",
+      "link": "https://www.energymonitor.ai/news/grenergy-signs-900gwh-ppa/",
+      "source": "energymonitor",
       "published": "2026-11-25T07:56:09+00:00",
       "matched_keywords": [
         "renewable"
@@ -501,36 +540,6 @@
       ]
     },
     {
-      "title": "Nuclear Diamond Batteries obtient une option sur la technologie bétavoltaïque d'Ohio State",
-      "teaser": null,
-      "link": "https://energynews.pro/nuclear-diamond-batteries-obtient-une-option-sur-la-technologie-betavoltaique-dohio-state",
-      "source": "energynews-pro",
-      "published": "2026-11-25T02:03:44+00:00",
-      "matched_keywords": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Floating turbines are coming to Scottish waters at a huge scale",
-      "teaser": "Scottish ministers approve Muir Mhòr, one of the world’s first commercial-scale floating offshore wind farms The post Floating turbines are coming to Scottish waters at a huge scale appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/11/24/floating-turbines-are-coming-to-scottish-waters-at-a-huge-scale/",
-      "source": "energylivenews",
-      "published": "2026-11-24T17:00:00+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Amazon aims to reduce carbon emissions 65% by 2030",
-      "teaser": "The company has invested in more than 700 carbon-free energy projects globally The post Amazon aims to reduce carbon emissions 65% by 2030 appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/11/24/amazon-aims-to-reduce-carbon-emissions-65-by-2030/",
-      "source": "energylivenews",
-      "published": "2026-11-24T16:00:00+00:00",
-      "matched_keywords": [
-        "emission"
-      ]
-    },
-    {
       "title": "COP must change after Antalya failure, UK climate chief warns",
       "teaser": "Rachel Kyte said it was time to “blow the whistle” on COP’s failings.",
       "link": "https://www.politico.eu/article/rachel-kyte-cop-change-antalya-failure/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -560,16 +569,6 @@
       "matched_keywords": [
         "forderung",
         "photovoltaik"
-      ]
-    },
-    {
-      "title": "CMBLU highlights community participation in California long-duration non-lithium battery project for tribal and desert community resilience",
-      "teaser": "Flow battery company CMBLU Energy and California public utility Imperial Irrigation District (IID) have announced a 10MW/100MWh energy storage project that will mark IID's first deployment of a non-lithium battery system.",
-      "link": "https://www.energy-storage.news/cmblu-highlights-community-participation-in-california-long-duration-non-lithium-battery-project-for-tribal-and-desert-community-resilience/",
-      "source": "energy-storage-news",
-      "published": "2026-11-24T12:42:40+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -613,27 +612,6 @@
       ]
     },
     {
-      "title": "Chinese listed energy storage firms Chint Power, EVE Energy announce UPS, LFP capacity additions",
-      "teaser": "Chint Power and EVE Energy have unveiled revised capacity investment plans, pursuing a UPS production facility and pivoting ternary battery production to LFP.",
-      "link": "https://www.energy-storage.news/chinese-listed-energy-storage-firms-chint-power-eve-energy-announce-ups-lfp-capacity-additions/",
-      "source": "energy-storage-news",
-      "published": "2026-11-24T09:44:39+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "APA starts work on 104MWh solar-plus-storage project in Australia",
-      "teaser": "APA Group has started construction on its 72MW solar PV plant and 52MW/104MWh BESS at Mount Isa in north-west Queensland, Australia.",
-      "link": "https://www.energy-storage.news/apa-starts-work-on-104mwh-solar-plus-storage-project-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-24T09:24:23+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
-      ]
-    },
-    {
       "title": "North Carolina utility regulators punt on clean transition tariff — again",
       "teaser": "For big corporations in North Carolina with ambitious climate goals, the clean transition tariff is becoming something of a white whale. Tech firms and other large electricity consumers have long sought this special rate structure because,…",
       "link": "https://www.canarymedia.com/articles/clean-energy/north-carolina-clean-transition-tariff-punt",
@@ -641,16 +619,6 @@
       "published": "2026-11-24T08:30:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Solarigo, Wisol, Ensto plan to build 461MWp Finnish solar plants",
-      "teaser": "Solarigo Systems, Wisol and Ensto Maviko have agreed to collaborate on constructing utility-scale solar power plants in Finland, targeting a combined 461MWp of solar capacity between 2027 and 2029.",
-      "link": "https://www.power-technology.com/news/solarigo-wisol-ensto-plan-461mwp-finnish-solar/",
-      "source": "power-technology",
-      "published": "2026-11-24T07:40:56+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -685,16 +653,6 @@
       ]
     },
     {
-      "title": "Japan’s expanding BESS market and its uncertain progress",
-      "teaser": "As Japan’s battery storage market expands, BloombergNEF's Umer Sadiq discusses its nuances and uncertainties with ESN Premium.",
-      "link": "https://www.energy-storage.news/japans-expanding-bess-market-and-its-uncertain-progress/",
-      "source": "energy-storage-news",
-      "published": "2026-11-24T00:04:52+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "RE+ was huge this year. Here are 3 solar innovations that stood out.",
       "teaser": "LAS VEGAS — It was unusually cool under the desert sun as the U.S. solar industry’s biggest annual convention got underway last week. The live sheep munching hay under a solar display in the convention center parking lot had a layer of…",
       "link": "https://www.canarymedia.com/articles/solar/re-convention-solar-innovations",
@@ -725,17 +683,6 @@
       ]
     },
     {
-      "title": "Mexico’s solar PV capacity to triple by 2035, says GlobalData",
-      "teaser": "Solar PV leads Mexico’s capacity growth under a state-led model, but gas stays the backbone and grid limits bind.",
-      "link": "https://www.power-technology.com/analyst-comment/mexico-solar-pv-capacity/",
-      "source": "power-technology",
-      "published": "2026-11-23T15:08:03+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
-      ]
-    },
-    {
       "title": "Round-up: Wind power activity spikes in Middle East and Africa",
       "teaser": "Recent weeks have seen a spike in activity in the wind power sectors in several countries in the Middle East and Africa region, with financial closes in Egypt and Morocco, an auction launched in Saudi Arabia and tender results announced in…",
       "link": "https://www.windpowermonthly.com/article/1975870/round-up-wind-power-activity-spikes-middle-east-africa",
@@ -753,16 +700,6 @@
       "published": "2026-11-23T11:06:05+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "‘Greater operational flexibility’: Australia’s AEMO leans on 5.3GW of new battery storage for summer",
-      "teaser": "BESS account for 5.3GW of the 8.4GW of new projects added to Australia's NEM since December 2025, according to AEMO.",
-      "link": "https://www.energy-storage.news/greater-operational-flexibility-australias-aemo-leans-on-5-3gw-of-new-battery-storage-for-summer/",
-      "source": "energy-storage-news",
-      "published": "2026-11-23T09:07:38+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -1026,27 +963,6 @@
       ]
     },
     {
-      "title": "‘Close proximity to key grid infrastructure’: EDF buys 1GWh battery storage system in Australia",
-      "teaser": "EDF power solutions Australia has acquired the 250MW Holloway BESS project in New South Wales (NSW) from developer SynCo Global.",
-      "link": "https://www.energy-storage.news/edf-acquires-250mw-holloway-battery-storage-project-new-south-wales-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-20T10:00:04+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Australia’s remaining BESS gap to 2030 could be in construction within 18 months, IEEFA scorecard finds",
-      "teaser": "Australia committed a record 2.4GW of renewable energy projects to construction in the third quarter of 2026, while battery energy storage systems (BESS) committed in the quarter covered 13% of the new storage capacity needed by 2030.",
-      "link": "https://www.energy-storage.news/australia-bess-storage-gap-2030-construction-18-months-ieefa-scorecard/",
-      "source": "energy-storage-news",
-      "published": "2026-11-20T09:48:09+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Climate talks drop fossil fuel phaseout and pivot to carbon capture",
       "teaser": "Final COP31 sessions focusing on energy security rather than climate change, critics say",
       "link": "https://www.ft.com/content/134dcef4-9453-48bd-bcbd-4180818d3aca?syn-25a6b1a6=1",
@@ -1151,26 +1067,6 @@
       ]
     },
     {
-      "title": "‘Good well past 30 years of operation’: Avery Dennison and Argent on PSA tape ageing tests for battery storage",
-      "teaser": "Pressure-sensitive adhesive (PSA) tape suppliers are testing dielectric materials for BESS lifetimes of 30 years or more, as rising pack voltages push tracking performance requirements higher.",
-      "link": "https://www.energy-storage.news/avery-dennison-argent-psa-tape-dielectric-performance-bess-30-year-lifetimes/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T11:53:02+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Italy: MACSE 2.0 to see higher clearing prices, lower capex impact, but Enel ‘will still bid hard again’, developer says",
-      "teaser": "The second MACSE auction for energy storage in Italy is right around the corner and the dynamics are different this time around to last year’s inaugural event, a developer said.",
-      "link": "https://www.energy-storage.news/italy-macse-2-0-to-see-higher-clearing-prices-lower-capex-impact-but-enel-will-still-bid-hard-again-developer-says/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T10:59:48+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "US offshore wind farm faces new federal review",
       "teaser": null,
       "link": "https://www.windpowermonthly.com/article/1975640/us-offshore-wind-farm-faces-new-federal-review",
@@ -1178,16 +1074,6 @@
       "published": "2026-11-19T10:08:06+00:00",
       "matched_keywords": [
         "wind farm"
-      ]
-    },
-    {
-      "title": "BW ESS and Wattmen to develop 500MW of battery energy storage in France",
-      "teaser": "BW ESS has partnered with Lyon-based developer Wattmen to develop around 500MW of BESS projects in France over the next three years.",
-      "link": "https://www.energy-storage.news/bw-ess-wattmen-500mw-battery-storage-france/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T09:50:44+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1200,38 +1086,6 @@
         "battery storage",
         "renewable",
         "solar"
-      ]
-    },
-    {
-      "title": "Statkraft pairs PPA with part-tolled, part-merchant BESS contract at Dutch solar site",
-      "teaser": "Statkraft has signed a 10-year deal with Ampyr Solar Europe covering the Snelle Loop co-located solar PV and BESS project in the Netherlands.",
-      "link": "https://www.energy-storage.news/statkraft-ppa-tolled-merchant-bess-dutch-solar-site/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T09:34:01+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "‘Technical and non-controversial’: New Zealand regulator corrects battery storage price band rule date",
-      "teaser": "New Zealand's Electricity Authority has corrected the date from which battery energy storage system (BESS) owners can submit up to 10 price bands in their wholesale market offers.",
-      "link": "https://www.energy-storage.news/nz-regulator-corrects-bess-price-band-rule-date/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T09:21:02+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "AGL installs first 100 units at 2,000MWh Tomago BESS in New South Wales, Australia",
-      "teaser": "Australian energy company AGL has installed the first 100 units at its 500MW Tomago battery energy storage system (BESS) in the Hunter region of New South Wales (NSW).",
-      "link": "https://www.energy-storage.news/agl-tomago-bess-first-100-units-installed-nsw/",
-      "source": "energy-storage-news",
-      "published": "2026-11-19T09:13:31+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1287,26 +1141,6 @@
       ]
     },
     {
-      "title": "US ROUNDUP: Samsung SDI, EQT and Canadian Solar announce deals as RE+ takes place",
-      "teaser": "Deals and acquisitions were announced this week as RE+, the biggest clean energy trade show in the US, takes place in Las Vegas, Nevada.",
-      "link": "https://www.energy-storage.news/us-roundup-samsung-sdi-eqt-canadian-solar-deals-re-plus/",
-      "source": "energy-storage-news",
-      "published": "2026-11-18T14:53:34+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "ESS Inc files for Chapter 7 bankruptcy; Stem Inc flags ‘going concern’ doubts amidst Athena optimisation platform sale",
-      "teaser": "US-headquartered energy storage technology firm ESS Inc has ceased operations and filed for Chapter 7 bankruptcy, while system integrator Stem Inc doubts its near-term ‘ability to continue as a going concern’ and just sold its core…",
-      "link": "https://www.energy-storage.news/ess-inc-files-for-chapter-7-bankruptcy-stem-inc-flags-going-concern-doubts-amidst-athena-optimisation-platform-sale/",
-      "source": "energy-storage-news",
-      "published": "2026-11-18T11:50:23+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "EU to appoint Swedish diplomat Lars Danielsson as sanctions envoy",
       "teaser": "A veteran Swedish diplomat and former ambassador to the EU, Danielsson previously advised prime ministers on foreign policy.",
       "link": "https://www.politico.eu/article/eu-to-appoint-swedish-diplomat-lars-danielsson-as-sanctions-envoy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1314,17 +1148,6 @@
       "published": "2026-11-18T10:48:25+00:00",
       "matched_keywords": [
         "sanction"
-      ]
-    },
-    {
-      "title": "AGL’s 500MWh Abermain battery storage system cleared under Australia’s EPBC Act",
-      "teaser": "AGL Energy has received federal environmental clearance for a 500MWh battery energy storage system in Queensland under Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/agl-abermain-bess-queensland-cleared-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-11-18T08:59:58+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
       ]
     },
     {
@@ -1392,37 +1215,6 @@
       ]
     },
     {
-      "title": "US solar’s new makers, batteries for data centres and electrostates vs petrostates: PV Tech Power 46 out now!",
-      "teaser": "The latest edition of PV Tech Power is available to download, full of exclusive content for the downstream solar PV and BESS industries.",
-      "link": "https://www.energy-storage.news/us-solars-new-makers-batteries-for-data-centres-and-electrostates-vs-petrostates-pv-tech-power-46-out-now/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T15:20:37+00:00",
-      "matched_keywords": [
-        "pv",
-        "solar"
-      ]
-    },
-    {
-      "title": "US energy storage deployments for first nine months of 2026 up 20% from last year",
-      "teaser": "US energy storage deployments have increased year-on-year by a fifth, underpinned by utility-scale activity and state-level targets that have translated into installed capacity.",
-      "link": "https://www.energy-storage.news/us-energy-storage-deployments-for-first-nine-months-of-2026-up-20-from-last-year/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T12:44:03+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Waaree Energy Storage says new 5.15GWh Gujarat battery pack manufacturing line is ‘milestone’ for ‘Make-in-India’ strategy",
-      "teaser": "Waaree ESS has begun commercial production at its 5.15GWh battery pack manufacturing line in Rola, Valsad, Gujarat.",
-      "link": "https://www.energy-storage.news/waaree-energy-storage-says-new-5-15gwh-gujarat-battery-pack-manufacturing-line-is-milestone-for-make-in-india-strategy/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T12:37:33+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "In the South, heat pumps are the secret to a more reliable grid",
       "teaser": "For many in North Carolina and Tennessee, 2022’s Winter Storm Elliott lives in infamy. Temperatures plunged well below freezing for days at a time, just as families were gathered at home for the Christmas holiday. The grid couldn’t keep…",
       "link": "https://www.canarymedia.com/articles/heat-pumps/south-heat-pumps-reliable-grid",
@@ -1444,16 +1236,6 @@
       ]
     },
     {
-      "title": "Global Energy Storage Alliance launches at COP31, aims to address persistent energy transition challenges",
-      "teaser": "A new Global Energy Storage Alliance initiative launched this week on the sidelines of COP31, with UN, IRENA and Chinese government officials in attendance.",
-      "link": "https://www.energy-storage.news/global-energy-storage-alliance-launches-at-cop31-aims-to-address-persistent-energy-transition-challenges/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T10:05:41+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "New international energy storage alliance launched at COP31",
       "teaser": "A new international platform aimed at enhancing cooperation on energy storage was launched at the China Pavilion during COP31.",
       "link": "https://www.energymonitor.ai/news/new-energy-storage-alliance-launched-cop31/",
@@ -1461,39 +1243,6 @@
       "published": "2026-11-17T09:52:43+00:00",
       "matched_keywords": [
         "energy storage"
-      ]
-    },
-    {
-      "title": "Power Electronics supplies grid-forming PCS for Edify’s 2.4GWh hybrids in Australia",
-      "teaser": "Spain-headquartered power conversion system (PCS) manufacturer Power Electronics is supplying grid-forming inverters and DC/DC converters for Edify Energy's Smoky Creek and Guthrie's Gap solar-plus-storage projects in Queensland, Australia.",
-      "link": "https://www.energy-storage.news/power-electronics-grid-forming-pcs-edify-energy-smoky-creek-guthries-gap-queensland/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T09:19:35+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Frontier Energy builds ‘largest SWIS-connected hybrid solar-plus-storage plant’ in Western Australia",
-      "teaser": "ASX-listed Frontier Energy has started construction on Stage 1 of its Waroona Renewable Energy Project in Western Australia (WA), which pairs solar PV with a battery energy storage system (BESS).",
-      "link": "https://www.energy-storage.news/frontier-energy-construction-waroona-solar-plus-storage-bess-western-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-17T09:16:49+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "pv",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "CIP awards offshore substation EPC contract for Fengmiao II in Taiwan",
-      "teaser": "CIP has signed an EPC contract for the offshore substation (OSS) of the 600MW Fengmiao II Offshore Wind Farm (OWF) in Taiwan.",
-      "link": "https://www.energymonitor.ai/news/cip-offshore-substation-contract-fengmiao-ii/",
-      "source": "energymonitor",
-      "published": "2026-11-17T07:45:49+00:00",
-      "matched_keywords": [
-        "wind farm"
       ]
     },
     {
@@ -1525,26 +1274,6 @@
       "published": "2026-11-16T16:12:35+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Flatiron Energy breaks ground on 1.2GWh Massachusetts BESS",
-      "teaser": "US energy storage developer Flatiron Energy has broken ground on its 250MW/1,200MWh Energizar Energy Storage Project in Chelsea, Massachusetts, US.",
-      "link": "https://www.energy-storage.news/flatiron-energy-breaks-ground-on-1-2gwh-massachusetts-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-11-16T14:50:50+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "New York launches second annual 1GW ‘bulk’ energy storage solicitation",
-      "teaser": "New York’s second competitive solicitation for large-scale energy storage has launched, seeking a gigawatt (1GW) of grid-connected resources.",
-      "link": "https://www.energy-storage.news/new-york-launches-second-annual-1gw-bulk-energy-storage-solicitation/",
-      "source": "energy-storage-news",
-      "published": "2026-11-16T14:40:53+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1689,16 +1418,6 @@
       ]
     },
     {
-      "title": "Lacour Energy refers 4,000MWh wind-plus-storage site to Australia’s EPBC Act",
-      "teaser": "West Arthur Energy, a project company owned by Western Australian developer Lacour Energy, has referred a wind generation site with a 4,000MWh battery energy storage system (BESS) to Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/lacour-energy-refers-4000mwh-wind-plus-storage-site-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-11-13T09:10:33+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Solar PAC got revenge on clean energy’s enemies in Congress",
       "teaser": "Before this election cycle, it was hard to identify any politician who feared the solar industry. The Invest in Tomorrow Coalition PAC set out to change that, and now has a roster of wins to back up its threats. The super PAC, funded and…",
       "link": "https://www.canarymedia.com/articles/politics/solar-pac-revenge-in-congress",
@@ -1753,17 +1472,6 @@
       ]
     },
     {
-      "title": "AirTrunk secures exclusivity on 800MWh+ battery storage as part of 1GW Hunter renewables deal in Australia",
-      "teaser": "AirTrunk has signed an exclusivity agreement with European Energy Australia covering more than 800MWh of battery storage in NSW.",
-      "link": "https://www.energy-storage.news/airtrunk-secures-exclusivity-on-800mwh-battery-storage-as-part-of-1gw-hunter-renewables-deal-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-12T21:12:52+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Climate science says 1.5C is dead. No one wants to bury it.",
       "teaser": "Leaders at COP31 want to keep the totemic goal alive, even after the U.N. declared it impossible to hit.",
       "link": "https://www.politico.eu/article/climate-science-1-5c-target-global-warming-dead/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -1801,37 +1509,6 @@
       "published": "2026-11-12T11:25:35+00:00",
       "matched_keywords": [
         "climate law"
-      ]
-    },
-    {
-      "title": "FlexGen chosen as system integrator for Google-backed US solar-plus-storage project with MN8, Eos",
-      "teaser": "Software-focused energy storage system integrator FlexGen will serve as the integrator of MN8 Energy’s solar-plus-storage project in Kanawha, West Virginia, US, using solutions from Eos Energy Enterprises.",
-      "link": "https://www.energy-storage.news/flexgen-chosen-as-system-integrator-for-google-backed-us-solar-plus-storage-project-with-mn8-eos/",
-      "source": "energy-storage-news",
-      "published": "2026-11-12T10:58:28+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "What six months of Dutch market data tell us about the true worth of renewables & BESS dispatch optimisation",
-      "teaser": "Analysis of optimiser performance in the Dutch electricity market highlights the need to separate claims and forecasting from realistic outcomes, writes Omer Bumin of trading infrastructure software company Powerlys.",
-      "link": "https://www.energy-storage.news/what-six-months-of-dutch-market-data-tell-us-about-the-true-worth-of-renewables-bess-dispatch-optimisation/",
-      "source": "energy-storage-news",
-      "published": "2026-11-12T09:54:46+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "‘Must be ready and able to deliver’: EnergyAustralia pays AU$750,000 over alleged FCAS failures at four BESS",
-      "teaser": "EnergyAustralia has paid AU$750,000 (US$519,300) in penalties after the Australian Energy Regulator (AER) alleged that four battery energy storage systems (BESS) it manages failed to deliver frequency services offered into the market.",
-      "link": "https://www.energy-storage.news/must-be-ready-and-able-to-deliver-energyaustralia-pays-au750000-over-alleged-fcas-failures-at-four-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-11-12T08:51:14+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -1876,57 +1553,6 @@
       ]
     },
     {
-      "title": "Blue wave? Meh. It’s the Brazil election that matters at COP.",
-      "teaser": "Climate diplomats only have eyes for Lula.",
-      "link": "https://www.politico.eu/article/blue-wave-meh-brazil-election-that-matters-cop/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "politico-energy-climate",
-      "published": "2026-11-11T16:21:34+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Lydian’s 600MWh Utah BESS reaches commercial operation, supporting Meta data centre",
-      "teaser": "Excelsior Energy Capital-backed developer Lydian Energy has brought its 150MW/600MWh Faraday battery energy storage system (BESS) project in Utah County, Utah, US into commercial operation.",
-      "link": "https://www.energy-storage.news/lydians-600mwh-utah-bess-reaches-commercial-operation-supporting-meta-data-centre/",
-      "source": "energy-storage-news",
-      "published": "2026-11-11T14:25:09+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Calibrant Energy secures US$145 million for solar and BESS across US power markets including PJM hyperscaler project",
-      "teaser": "Calibrant Energy, an energy-as-a-service platform, has closed a US$145 million debt facility for solar and energy storage projects across several US power markets.",
-      "link": "https://www.energy-storage.news/calibrant-energy-secures-us145-million-for-solar-and-bess-across-us-power-markets-including-pjm-hyperscaler-project/",
-      "source": "energy-storage-news",
-      "published": "2026-11-11T14:21:46+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Semi-solid state batteries for BESS: potential and challenges",
-      "teaser": "What are semi-solid-state batteries, what potential do they hold for battery energy storage system (BESS) applications, and when are we likely to see them come to market?",
-      "link": "https://www.energy-storage.news/semi-solid-state-batteries-for-bess-potential-and-challenges/",
-      "source": "energy-storage-news",
-      "published": "2026-11-11T12:22:59+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "RelyEZ debuts on HKEX Main Board, becoming latest Chinese energy storage player to list in Hong Kong",
-      "teaser": "RelyEZ has listed on the Main Board of The Stock Exchange of Hong Kong Limited, becoming the latest Chinese energy storage system solution provider to list in Hong Kong.",
-      "link": "https://www.energy-storage.news/relyez-debuts-on-hkex-main-board-becoming-latest-chinese-energy-storage-player-to-list-in-hong-kong/",
-      "source": "energy-storage-news",
-      "published": "2026-11-11T11:33:07+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "'Everything we love is at stake': Greta Thunberg blasts COP climate summits as being full of lobbyists",
       "teaser": "Swedish activist Greta Thunberg and UN Secretary General Antonio Guterres blasted fossil fuel companies for \"killing our planet\".",
       "link": "https://www.euronews.com/2026/11/11/everything-we-love-is-at-stake-greta-thunberg-blasts-cop-climate-summits-as-being-full-of-",
@@ -1967,36 +1593,6 @@
       ]
     },
     {
-      "title": "BAAJA: US legislation to speed up permitting carries hidden political risk, ‘won’t solve interconnection queue wait’",
-      "teaser": "The energy storage industry is abuzz with discussion of passing BAAJA following Democrats’ taking of the House and Senate in the 2026 US midterm elections.",
-      "link": "https://www.energy-storage.news/baaja-us-legislation-to-speed-up-permitting-carries-hidden-political-risk-wont-solve-interconnection-queue-wait/",
-      "source": "energy-storage-news",
-      "published": "2026-11-10T14:13:31+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Sumitomo Corporation, Greenvolt deploy BESS at both ends of scale in Japan’s layered market",
-      "teaser": "Battery energy storage system (BESS) projects in Japan by Sumitomo Corporation and Greenvolt provide an interesting snapshot of the country’s development landscape.",
-      "link": "https://www.energy-storage.news/sumitomo-corporation-greenvolt-deploy-bess-japan/",
-      "source": "energy-storage-news",
-      "published": "2026-11-10T12:20:17+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia’s Cheaper Home Batteries Program hits 16.8GWh installed capacity",
-      "teaser": "Australia's federal Cheaper Home Batteries Program has passed 600,000 home battery storage systems sold, roughly 16.8GWh.",
-      "link": "https://www.energy-storage.news/australias-cheaper-home-batteries-program-hits-16-8gwh-installed-capacity/",
-      "source": "energy-storage-news",
-      "published": "2026-11-10T09:10:58+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Chicago program helps people transition from prison to solar jobs",
       "teaser": "Inside a brick building on Chicago’s West Side — once part of a sprawling Sears Roebuck campus — is an adult transitional center, or halfway house, that’s home to 250 men completing sentences for criminal convictions and preparing to…",
       "link": "https://www.canarymedia.com/articles/clean-energy-jobs/chicago-program-transition-prison-solar-jobs",
@@ -2014,37 +1610,6 @@
       "published": "2026-11-10T05:00:00+00:00",
       "matched_keywords": [
         "lng"
-      ]
-    },
-    {
-      "title": "BloombergNEF: US midterm results likely a ‘net positive’ for BESS despite data centre headwinds",
-      "teaser": "Derrick Flakoll, senior policy associate for North America at BloombergNEF, has offered a more measured take on how the Democrats' midterm victories could affect the battery energy storage system (BESS) sector.",
-      "link": "https://www.energy-storage.news/bloombergnef-us-midterm-results-likely-a-net-positive-for-bess-despite-data-centre-headwinds/",
-      "source": "energy-storage-news",
-      "published": "2026-11-09T11:01:17+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Pacific Blue refers 855MWh battery storage system in Victoria to Australia’s EPBC Act",
-      "teaser": "Australian renewable energy generator and retailer Pacific Blue has referred an 855MWh BESS in Victoria to Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/pacific-blue-refers-855mwh-battery-storage-system-in-victoria-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-11-09T09:23:07+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Australia’s NEM BESS-stored energy hits record 20.17GWh, up 203% in a year",
-      "teaser": "Energy held in battery energy storage systems (BESS) across Australia's NEM reached a record 20.17GWh on 6 November.",
-      "link": "https://www.energy-storage.news/australias-nem-bess-stored-energy-hits-record-20-17gwh-up-203-in-a-year/",
-      "source": "energy-storage-news",
-      "published": "2026-11-09T09:19:59+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2077,48 +1642,6 @@
       "published": "2026-11-09T05:00:00+00:00",
       "matched_keywords": [
         "erneuerbare"
-      ]
-    },
-    {
-      "title": "Ford Energy partners with DESRI to deploy US BESS",
-      "teaser": "Renewables developer D. E. Shaw Renewable Investments (DESRI) and Ford Motor Company’s energy storage subsidiary, Ford Energy, will partner to deploy energy storage in the US.",
-      "link": "https://www.energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-11-06T14:06:23+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable",
-        "subsid"
-      ]
-    },
-    {
-      "title": "Norwegian central bank buys US$300 million stake in Brookfield’s soon-to-be acquired BESS developer Aypa Power",
-      "teaser": "Norges Bank Investment Management (NBIM), the asset management unit of the central bank of Norway, has acquired a 10% interest in North American battery storage developer-operator Aypa Power.",
-      "link": "https://www.energy-storage.news/norwegian-central-bank-buys-us300-million-stake-in-brookfields-soon-to-be-acquired-bess-developer-aypa-power/",
-      "source": "energy-storage-news",
-      "published": "2026-11-06T14:04:07+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "India approves Viability Gap Funding to support 92GWh of BESS and pumped hydro energy storage capacity",
-      "teaser": "India’s Union government has approved the next IR145 billion phase of Viability Gap Funding (VGP) for energy storage capacity additions.",
-      "link": "https://www.energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity/",
-      "source": "energy-storage-news",
-      "published": "2026-11-06T14:02:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "EnergyAustralia takes delivery of final units for 250MWh Hallett battery storage system",
-      "teaser": "EnergyAustralia has taken delivery of the final battery storage units for its 50MW/250MWh Hallett BESS in South Australia, as construction continues at the site.",
-      "link": "https://www.energy-storage.news/energyaustralia-takes-delivery-of-final-units-for-250mwh-hallett-battery-storage-system/",
-      "source": "energy-storage-news",
-      "published": "2026-11-06T08:44:46+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2175,49 +1698,6 @@
       ]
     },
     {
-      "title": "US distributed energy storage updates from Base Power and Sunrun",
-      "teaser": "US retail giant Walmart has made a strategic investment in home battery storage firm Base Power, while Sunrun has doubled the size of its home battery VPP in Puerto Rico.",
-      "link": "https://www.energy-storage.news/us-distributed-energy-storage-updates-from-base-power-and-sunrun/",
-      "source": "energy-storage-news",
-      "published": "2026-11-05T11:27:50+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "What Democratic control of Congress could mean for US BESS and renewables",
-      "teaser": "Democrats scored major victories in the US Midterm elections, taking both the House and Senate and flipping several long-held Republican strongholds, with changes likely to occur in the clean energy sector.",
-      "link": "https://www.energy-storage.news/what-democratic-control-of-congress-could-mean-for-us-bess-and-renewables/",
-      "source": "energy-storage-news",
-      "published": "2026-11-05T11:23:26+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "‘Ready to provide energy security’: Eku Energy’s 500MWh BESS enters commercial operation in Australia’s ACT",
-      "teaser": "Eku Energy has fully commissioned its 250MW/500MWh Williamsdale BESS in the Australian Capital Territory (ACT).",
-      "link": "https://www.energy-storage.news/ready-to-provide-energy-security-eku-energys-500mwh-bess-enters-commercial-operation-in-australias-act/",
-      "source": "energy-storage-news",
-      "published": "2026-11-05T09:18:35+00:00",
-      "matched_keywords": [
-        "energy security"
-      ]
-    },
-    {
-      "title": "Neoen, Frontier Energy and Lightyears secure financing for solar-plus-storage in Australia and New Zealand",
-      "teaser": "Three developers have secured debt and equity for solar PV, wind and battery storage projects across Australia and New Zealand.",
-      "link": "https://www.energy-storage.news/neoen-frontier-energy-and-lightyears-secure-financing-for-solar-plus-storage-in-australia-and-new-zealand/",
-      "source": "energy-storage-news",
-      "published": "2026-11-05T09:15:44+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "pv",
-        "solar"
-      ]
-    },
-    {
       "title": "Elf Zuschläge, elf Gaskraftwerke, kein einziger Speicher",
       "teaser": "Die Bundesnetzagentur hat die Zuschläge der ersten Ausschreibung nach dem StromVKG vergeben. Gewonnen haben nur Gaskraftwerke, viele an alten Kohlestandorten von LEAG und RWE. Damit sichern sich fossile Kraftwerke über 15 Jahre…",
       "link": "https://www.energiezukunft.eu/wirtschaft/elf-zuschlaege-elf-gaskraftwerke-kein-einziger-speicher",
@@ -2235,36 +1715,6 @@
       "published": "2026-11-05T05:00:00+00:00",
       "matched_keywords": [
         "klima"
-      ]
-    },
-    {
-      "title": "LG Energy Solution reports 60% growth in ESS shipments, 160GWh order backlog",
-      "teaser": "LG Energy Solution saw 28% quarter-on-quarter growth in revenue in Q3 2026, with “significant energy storage system (ESS) shipment growth” among the main drivers.",
-      "link": "https://www.energy-storage.news/lg-energy-solution-reports-60-growth-in-ess-shipments-160gwh-order-backlog/",
-      "source": "energy-storage-news",
-      "published": "2026-11-04T15:32:22+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Could BESS move towards LMFP battery chemistry?",
-      "teaser": "What is LMFP battery chemistry, and why is interest growing in it as a possible alternative to LFP batteries in battery energy storage system (BESS) applications?",
-      "link": "https://www.energy-storage.news/could-bess-move-towards-lmfp-battery-chemistry/",
-      "source": "energy-storage-news",
-      "published": "2026-11-04T11:45:04+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "EU going in wrong direction on battery labelling rules, energy storage associations say in joint letter",
-      "teaser": "The European Union is treading the wrong path on battery regulation, according to industry groups from battery, energy storage, electric mobility and adjacent sectors.",
-      "link": "https://www.energy-storage.news/eu-wrong-direction-battery-labelling-rules-energy-storage-associations-joint-letter/",
-      "source": "energy-storage-news",
-      "published": "2026-11-04T09:34:38+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2299,16 +1749,6 @@
       ]
     },
     {
-      "title": "‘We’ve done all the trials’: Akaysha calls for system security contracts for grid-forming battery storage in Australia",
-      "teaser": "Australia has finished trialling grid-forming battery storage for system security services and needs contracts signed within two years.",
-      "link": "https://www.energy-storage.news/weve-done-all-the-trials-akaysha-calls-for-system-security-contracts-for-grid-forming-battery-storage-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-04T02:15:30+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Here’s how solar and wind developers can hold on to tax credits",
       "teaser": "When Congress passed the Inflation Reduction Act (IRA) in August 2022, solar and wind developers celebrated something that had historically been elusive: long-term certainty about federal tax incentives. Companies accustomed to the waxing…",
       "link": "https://www.canarymedia.com/articles/sponsored/heres-how-solar-and-wind-developers-can-hold-onto-tax-credits",
@@ -2316,36 +1756,6 @@
       "published": "2026-11-03T13:35:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Vastly different fortunes for BESS in Belgium and Germany’s capacity market auctions",
-      "teaser": "Battery storage projects have won nearly 40% of the capacity in Belgium’s latest capacity market (CM) auction results, while Germany’s first has all gone to gas, paying nearly eight times more than Belgium in the process.",
-      "link": "https://www.energy-storage.news/vastly-different-fortunes-for-bess-in-belgium-and-germanys-capacity-market-auctions/",
-      "source": "energy-storage-news",
-      "published": "2026-11-03T12:01:52+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "BESS for EV charging: why sites need it, how it works and when to install",
-      "teaser": "Grid connections are now the biggest brake on rapid EV charging. Here's how battery storage lets charging sites deliver more power from a smaller connection, and when it pays to add it.",
-      "link": "https://www.energy-storage.news/bess-for-ev-charging-guide/",
-      "source": "energy-storage-news",
-      "published": "2026-11-03T11:58:58+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "VIDEO: High-current battery module connections for energy storage systems",
-      "teaser": "Energy-Storage.news proudly presents our sponsored webinar with Amphenol, 'Designing high-current battery module connections for energy storage systems.'",
-      "link": "https://www.energy-storage.news/video-high-current-battery-module-connections-for-energy-storage-systems/",
-      "source": "energy-storage-news",
-      "published": "2026-11-03T09:43:33+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2369,46 +1779,6 @@
       ]
     },
     {
-      "title": "Fluence CEO Julian Nebreda and CFO Ahmed Pasha leave with immediate effect",
-      "teaser": "CEO and CFO of energy storage technology provider Fluence have both left the company.",
-      "link": "https://www.energy-storage.news/fluence-ceo-julian-nebreda-and-cfo-ahmed-pasha-leave-with-immediate-effect/",
-      "source": "energy-storage-news",
-      "published": "2026-11-03T03:29:36+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia: Victoria’s SEC secures 4-hour Glenrowan BESS offtake, first BESS units arrive at Gentari’s Maryvale",
-      "teaser": "Victoria's SEC secures 10-year Glenrowan BESS offtake as Gentari's first BESS units arrive at NSW's Maryvale solar-storage project.",
-      "link": "https://www.energy-storage.news/australia-victorias-sec-secures-4-hour-glenrowan-bess-offtake-first-bess-units-arrive-at-gentaris-maryvale/",
-      "source": "energy-storage-news",
-      "published": "2026-11-03T01:55:22+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Gresham House Energy Storage Fund launches sales process",
-      "teaser": "The UK BESS-owning Gresham House Energy Storage Fund has launched a formal sales process, a decision which has seen its share price jump 10%.",
-      "link": "https://www.energy-storage.news/newsflash-gresham-house-energy-storage-fund-launches-sales-process/",
-      "source": "energy-storage-news",
-      "published": "2026-11-02T16:59:10+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Trump bulk power equipment ban sparks industry pushback: ‘Let’s not reinvent the wheel’",
-      "teaser": "US President Donald Trump’s 26 August emergency executive order banning imports of certain foreign-made power equipment has prompted widespread public comment and private concern across the energy storage industry.",
-      "link": "https://www.energy-storage.news/trump-bulk-power-equipment-ban-sparks-industry-pushback-lets-not-reinvent-the-wheel/",
-      "source": "energy-storage-news",
-      "published": "2026-11-02T12:42:19+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Batteriespeicher für Rechenzentren günstiger als Diesel und Gas",
       "teaser": "Eine Studie sieht Batteriespeicher für Rechenzentren bei den Lebenszyklus-Kosten vor Diesel und Gas. Am größten ist der Vorteil, wenn sie den Strombezug aus dem Netz steuern.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/batteriespeicher-fuer-rechenzentren-guenstiger-als-diesel-und-gas",
@@ -2429,26 +1799,6 @@
       ]
     },
     {
-      "title": "AGL refers 2GWh BESS in Queensland to Australia’s EPBC Act as ACEnergy submits 250MW Victoria project",
-      "teaser": "Two Australian battery storage projects in Queensland and Victoria have entered federal environmental review, with AGL Energy and developer ACEnergy each submitting referrals under the same national process.",
-      "link": "https://www.energy-storage.news/agl-refers-2gwh-bess-in-queensland-to-australias-epbc-act-as-acenergy-submits-250mw-victoria-project/",
-      "source": "energy-storage-news",
-      "published": "2026-11-02T02:22:39+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "‘Advancing grid-forming energy storage’: Sungrow wins Hazelwood BESS 2 PCS and BESS order in Australia",
-      "teaser": "Sungrow will supply both the BESS and the grid-forming power conversion equipment for ENGIE's Hazelwood BESS expansion in Victoria, Australia.",
-      "link": "https://www.energy-storage.news/advancing-grid-forming-energy-storage-sungrow-wins-hazelwood-bess-2-pcs-and-bess-order-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-11-02T02:13:35+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Meta strikes deal to help bring a low-carbon cement plant to Missouri",
       "teaser": "Tech companies say they&#039;re seeking low-carbon construction materials to limit the climate impact of their data centers. But very little clean cement or green steel is actually being produced in the U.S. today, and only in a handful of…",
       "link": "https://www.canarymedia.com/articles/clean-industry/meta-fortera-deal-cement-plant-missouri",
@@ -2456,16 +1806,6 @@
       "published": "2026-10-30T20:00:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "BESS Industry Buzz: Sonnen’s collapse, BESS contracts, new market entrants and over-reporting availability",
-      "teaser": "We're back with another BESS Industry Buzz after a short period off, tracking interesting hot takes and analysis from across the energy storage industry.",
-      "link": "https://www.energy-storage.news/bess-industry-buzz-sonnens-collapse-bess-contracts-new-market-entrants-and-over-reporting-availability/",
-      "source": "energy-storage-news",
-      "published": "2026-10-30T09:52:19+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2505,76 +1845,6 @@
       ]
     },
     {
-      "title": "Chinese portable battery storage players report rising overseas orders in Q3 results",
-      "teaser": "Carrie Xiao reports on the recent financial and operational results of Chinese portable battery storage manufacturers, many of which are based in Shenzhen.",
-      "link": "https://www.energy-storage.news/chinese-portable-battery-storage-players-report-rising-overseas-orders-in-q3-results/",
-      "source": "energy-storage-news",
-      "published": "2026-10-30T04:10:32+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "8-hour BESS market ‘completely artificial’, but asymmetric registration adds value, says Tesla at All-Energy Australia 2026",
-      "teaser": "Demand for 8-hour battery energy storage in Australia is \"completely artificial\" and relies on government underwriting, according to Tesla, which said asymmetric registration can help such projects earn more.",
-      "link": "https://www.energy-storage.news/8-hour-bess-market-completely-artificial-but-asymmetric-registration-adds-value-says-tesla-at-all-energy-australia-2026/",
-      "source": "energy-storage-news",
-      "published": "2026-10-30T01:21:31+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "SMA launches DC-coupled grid-forming solar-plus-storage solution for Germany, Australia and the UK",
-      "teaser": "Germany-headquartered inverter manufacturer SMA has launched a grid-forming solar-plus-storage solution in Australia, unveiling it at the All-Energy Australia 2026 event in Melbourne this week.",
-      "link": "https://www.energy-storage.news/sma-launches-dc-coupled-grid-forming-solar-plus-storage-solution-for-germany-australia-and-the-uk/",
-      "source": "energy-storage-news",
-      "published": "2026-10-30T01:08:21+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Scatec’s US$650 million solar-plus-storage project for Egypt Aluminium gets EBRD, EIB and AfD financing commitment",
-      "teaser": "Scatec, the European Investment Bank (EIB), the European Bank for Reconstruction and Development (EBRD) and the African Development Bank (AfDB) have signed an investment agreement for Dandara solar-plus-storage project in Egypt.",
-      "link": "https://www.energy-storage.news/scatecs-us650-million-solar-plus-storage-project-for-egypt-aluminium-gets-ebrd-eib-and-afd-financing-commitment/",
-      "source": "energy-storage-news",
-      "published": "2026-10-29T15:46:23+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "FranklinWH expands US VPP reach with Alliant Energy and Entergy Louisiana partnerships",
-      "teaser": "Distributed energy resource (DER)-focused company FranklinWH has recently announced advancements in residential energy storage programmes in Louisiana and Iowa.",
-      "link": "https://www.energy-storage.news/franklinwh-expands-us-vpp-reach-with-alliant-energy-and-entergy-louisiana-partnerships/",
-      "source": "energy-storage-news",
-      "published": "2026-10-29T13:08:06+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Portugal makes grid-forming mandatory for large-scale BESS and launches 1GW tender",
-      "teaser": "IPP Sonnedix has put two solar-plus-storage projects into commercial operation in Portugal, coinciding with the government moving to use BESS to strengthen the reliability of its electricity grid.",
-      "link": "https://www.energy-storage.news/portugal-makes-grid-forming-mandatory-for-large-scale-bess-and-launches-1gw-tender/",
-      "source": "energy-storage-news",
-      "published": "2026-10-29T11:23:29+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Nordics roundup: Delta Capacity closes Finland financings, Ingrid-Alpiq offtake framework, Monsson’s first investment",
-      "teaser": "A trio of battery storage news announcements from the buoyant Nordic market, including projects in Finland and Sweden.",
-      "link": "https://www.energy-storage.news/nordics-roundup-delta-capacity-closes-finland-financings-ingrid-alpiq-offtake-framework-monssons-first-investment/",
-      "source": "energy-storage-news",
-      "published": "2026-10-29T11:22:59+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "From zoos to craft brews, Michigan looks to spur decarbonization",
       "teaser": "Re-creating polar habitats in Michigan is no small feat. Just ask the Detroit Zoo, where the polar bear and penguin centers require producing industrial levels of cooling from energy-intensive equipment. For the zoo, figuring out how to…",
       "link": "https://www.canarymedia.com/articles/clean-industry/zoos-brews-michigan-decarbonization",
@@ -2597,16 +1867,6 @@
       ]
     },
     {
-      "title": "Algorithmic bidding not the NEM’s ‘boogeyman,’ says Fluence at All-Energy Australia 2026",
-      "teaser": "Algorithmic bidding systems used to trade battery storage do not threaten competition in Australia's NEM, according to Fluence.",
-      "link": "https://www.energy-storage.news/algorithmic-bidding-not-the-nems-boogeyman-says-fluence-at-all-energy-australia-2026/",
-      "source": "energy-storage-news",
-      "published": "2026-10-29T03:07:21+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "The DOE announces $5B loan to Constellation for nuclear uprates",
       "teaser": "The pro-nuclear Trump administration continues to put its money where its mouth is. On Tuesday, the U.S. Department of Energy announced a conditional loan commitment of up to $5 billion to boost the output of 15 reactors at eight nuclear…",
       "link": "https://www.canarymedia.com/articles/nuclear/doe-5b-loan-constellation-energy",
@@ -2614,47 +1874,6 @@
       "published": "2026-10-28T19:00:00+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "BESS developer Bimergen Energy files for Retail Electric Provider certificate to serve Texas data centres",
-      "teaser": "Energy storage developer-operator Bimergen Energy has filed an application for an Option 2 Retail Electric Provider (REP) certificate in Texas, US.",
-      "link": "https://www.energy-storage.news/bess-developer-bimergen-energy-files-for-retail-electric-provider-certificate-to-serve-texas-data-centres/",
-      "source": "energy-storage-news",
-      "published": "2026-10-28T12:25:15+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "‘Europe has the capability’ to support homegrown BESS industry, Valo CEO Fath says in exclusive interview",
-      "teaser": "ESN Premium meets Peter Fath, CEO of Valo, about the newly launched energy storage joint venture’s next steps and broader strategy.",
-      "link": "https://www.energy-storage.news/europe-has-the-capability-to-support-homegrown-bess-industry-valo-ceo-fath-says-in-exclusive-interview/",
-      "source": "energy-storage-news",
-      "published": "2026-10-28T12:18:12+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "LG Energy Solution signs MOU with Energix for 4.5GWh of potential BESS deployments in US and Europe",
-      "teaser": "South Korean battery giant LG Energy Solution (LG ES) has signed a non-binding memorandum of understanding (MOU) with owner-operator Energix-Renewable Energies to expand collaboration on energy storage projects in Europe and the US.",
-      "link": "https://www.energy-storage.news/lg-energy-solution-signs-mou-with-energix-for-4-5gwh-of-potential-bess-deployments-in-us-and-europe/",
-      "source": "energy-storage-news",
-      "published": "2026-10-28T10:45:20+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Kyon Energy puts 282MWh Alfeld battery storage project in Germany into operation",
-      "teaser": "BESS developer Kyon Energy has commissioned and put into operation its 137.5MW/282MWh Alfeld BESS project in Germany, potentially the country’s largest to reach that milestone.",
-      "link": "https://www.energy-storage.news/kyon-energy-282mwh-alfeld-battery-storage-project-germany-operation/",
-      "source": "energy-storage-news",
-      "published": "2026-10-28T10:14:15+00:00",
-      "matched_keywords": [
-        "battery storage"
       ]
     },
     {
@@ -2689,57 +1908,6 @@
       ]
     },
     {
-      "title": "CATL holds global launch for 9MWh TENER+ BESS at All-Energy Australia, signs PCS agreement with Hitachi Energy",
-      "teaser": "CATL has launched its 9MWh TENER+ battery storage system at All-Energy Australia 2026 and signed three MoUs with Australian partners.",
-      "link": "https://www.energy-storage.news/catl-holds-global-launch-for-9mwh-tener-bess-at-all-energy-australia-signs-pcs-agreement-with-hitachi-energy/",
-      "source": "energy-storage-news",
-      "published": "2026-10-28T04:20:00+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Energy security, not just climate goals, drive Caribbean and Latin American storage growth",
-      "teaser": "Regulation, energy independence and energy demand growth as key drivers for BESS development across several markets in Latin America.",
-      "link": "https://www.energy-storage.news/energy-security-not-just-climate-goals-drive-caribbean-and-latin-american-storage-growth/",
-      "source": "energy-storage-news",
-      "published": "2026-10-27T16:19:55+00:00",
-      "matched_keywords": [
-        "climate",
-        "energy security"
-      ]
-    },
-    {
-      "title": "India has 5.3GWh of operational BESS, with 185GWh under development, CEA official says",
-      "teaser": "India has 5.3GWh of operational battery energy storage system (BESS) capacity, with a further 185GWh of projects under development, according to Prashant Bhamu, deputy director of integrated resources planning at the Central Electricity…",
-      "link": "https://www.energy-storage.news/india-has-5-3gwh-of-operational-bess-with-185gwh-under-development-cea-official-says/",
-      "source": "energy-storage-news",
-      "published": "2026-10-27T16:05:05+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Let’s keep things practical: contracting in battery energy storage systems (BESS)",
-      "teaser": "As BESS projects grow more complex, so does the question of what 'purpose' even means in a construction contract, writes contracts lawyer Suriya Ashok of Clyde &#038; Co.",
-      "link": "https://www.energy-storage.news/lets-keep-things-practical-contracting-in-battery-energy-storage-systems-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-27T10:55:45+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Giga Storage closes €260 million debt financing for 1,400MWh Germany BESS",
-      "teaser": "Owner-operator Giga Storage has finalised financing for the construction of its 350MW/1,400MWh Albatross energy storage project near Neuenkirchen in Lower Saxony, Germany.",
-      "link": "https://www.energy-storage.news/giga-storage-closes-e260-million-debt-financing-for-1400mwh-germany-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-27T08:48:21+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Lulas Wahlsieg: Aufatmen für den Amazonas",
       "teaser": "Brasilien hat mit knapper Mehrheit Lula wiedergewählt. Klima- und Umweltschützer zeigen sich erleichtert. Unter dem rechten Flávio Bolsonaro hätte dem Amazonas-Regenwald womöglich erneut der Kahlschlag gedroht.",
       "link": "https://www.energiezukunft.eu/politik/lulas-wahlsieg-aufatmen-fuer-den-amazonas",
@@ -2750,37 +1918,6 @@
       ]
     },
     {
-      "title": "Philippines BESS revenue streams will shift to arbitrage after initial reserve market reliance: Aurora Energy Research",
-      "teaser": "Aurora Energy Research has launched a forecast service to help investors and developers assess the commercial case for battery storage in the Philippines.",
-      "link": "https://www.energy-storage.news/philippines-bess-revenue-streams-will-shift-to-arbitrage-after-initial-reserve-market-reliance-aurora-energy-research/",
-      "source": "energy-storage-news",
-      "published": "2026-10-27T01:37:32+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "BESS already reducing curtailment in Chile, says ACERA; in-construction projects to triple capacity",
-      "teaser": "Ana Lía Rojas, executive director at the Chilean renewable energy and energy storage association (ACERA) gave the opening keynote of Energy Storage Summit Latin America 2026 and spoke about Chile's current BESS market.",
-      "link": "https://www.energy-storage.news/bess-already-reducing-curtailment-in-chile-says-acera-in-construction-projects-to-triple-capacity/",
-      "source": "energy-storage-news",
-      "published": "2026-10-26T17:48:03+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Heron Power and NiSource announce US data centre and BESS-focused deals with Vantage, Microsoft",
-      "teaser": "Heron Power and NiSource have separately announced US data centre-focused deals involving battery energy storage systems (BESS) in recent days.",
-      "link": "https://www.energy-storage.news/heron-power-and-nisource-announce-us-data-centre-and-bess-focused-deals-with-vantage-microsoft/",
-      "source": "energy-storage-news",
-      "published": "2026-10-26T12:26:39+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "This group-buy campaign makes it easier to switch to induction cooking",
       "teaser": "Word is getting out about electric induction ranges. More and more chefs say the appliances cook just as well as or better than their gas counterparts. The stoves don’t burn climate-warming fossil fuels or release harmful indoor air…",
       "link": "https://www.canarymedia.com/articles/electrification/group-buy-induction-cooking",
@@ -2788,16 +1925,6 @@
       "published": "2026-10-26T07:30:00+00:00",
       "matched_keywords": [
         "climate"
-      ]
-    },
-    {
-      "title": "Singapore targets 1GWh of energy storage in Energy Infrastructure Plan to meet rising demand for electricity",
-      "teaser": "Faced with unprecedented growth in demand, Singapore’s Energy Market Authority has launched plan that includes a gigawatt-hour energy storage target.",
-      "link": "https://www.energy-storage.news/singapore-targets-1gwh-of-energy-storage-in-energy-infrastructure-plan-to-meet-rising-demand-for-electricity/",
-      "source": "energy-storage-news",
-      "published": "2026-10-26T07:14:43+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2822,36 +1949,6 @@
       ]
     },
     {
-      "title": "1GW data centre with 5,000MWh battery storage system submitted to Australia’s EPBC Act for approval",
-      "teaser": "Gingerah Energy has referred a 1GW data centre complex with a 5GWh BESS in Western Australia to Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/1gw-data-centre-with-5000mwh-battery-storage-system-submitted-to-australias-epbc-act-for-approval/",
-      "source": "energy-storage-news",
-      "published": "2026-10-26T03:38:54+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Tesla Q3 2026 energy storage revenues fall despite second-highest quarterly deployments",
-      "teaser": "Tesla’s energy storage business deployed 13.7GWh in Q3 2026, its second-highest quarterly figure to date, but saw a 16% year-on-year decline in revenues for the division.",
-      "link": "https://www.energy-storage.news/tesla-q3-2026-energy-storage-revenues-fall-despite-second-highest-quarterly-deployments/",
-      "source": "energy-storage-news",
-      "published": "2026-10-23T11:25:17+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Sonnen files for insolvency in Germany two months after Shell offloading",
-      "teaser": "German home energy storage and virtual power plant (VPP) company sonnen GmbH, sold by gas major Shell in August, has filed for insolvency.",
-      "link": "https://www.energy-storage.news/sonnen-files-for-insolvency-in-germany-two-months-after-shell-offloading/",
-      "source": "energy-storage-news",
-      "published": "2026-10-23T08:18:51+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Endlich den Weg für Batteriespeicher ebnen",
       "teaser": "Große Batteriespeicher können die Energiewende beschleunigen und günstiger machen. Der BSW-Solar macht 15 Reformvorschläge, um Marktbarrieren zu beseitigen. Unter anderem sollen Netzbetreiber netzdienliche Speicher an Umspannwerken…",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/stromnetze-speicher/endlich-den-weg-fuer-batteriespeicher-ebnen",
@@ -2861,68 +1958,6 @@
         "energiewende",
         "solar",
         "speicher"
-      ]
-    },
-    {
-      "title": "ACME Solar signs 1.2GWh PPA with SECI for clean energy supply during non-solar hours from Indian renewables assets",
-      "teaser": "ACME Solar has signed a 300MW/1,200MWh PPA with the Solar Energy Corporation of India (SECI) for a solar-plus-storage portfolio.",
-      "link": "https://www.energy-storage.news/acme-solar-ppa-seci-clean-energy-solar-india-renewables-assets/",
-      "source": "energy-storage-news",
-      "published": "2026-10-23T04:09:42+00:00",
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Alinta Energy abandons ‘critical’ pumped hydro energy storage project in Australia",
-      "teaser": "Alinta Energy has discontinued work on the 7.2GWh Oven Mountain pumped hydro energy storage (PHES) project in New South Wales (NSW), Australia.",
-      "link": "https://www.energy-storage.news/alinta-energy-abandons-critical-pumped-hydro-energy-storage-project-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-23T02:55:53+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Global energy storage deployments will see 45% year-on-year ‘growth surge’ in 2026: BloombergNEF",
-      "teaser": "The global energy storage market will see a decade of sustained, rapid growth and reach 3.1TW cumulative capacity by 2036, according to BloombergNEF (BNEF).",
-      "link": "https://www.energy-storage.news/global-energy-storage-deployments-will-see-45-year-on-year-growth-surge-in-2026-bloombergnef/",
-      "source": "energy-storage-news",
-      "published": "2026-10-22T14:17:03+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "European Union battery supply chain policies show mixed results so far",
-      "teaser": "As demand for battery storage soars, the European Union (EU) has tried to grow its local battery supply chain with mixed success so far, writes PV ESS analyst Charlotte Gisbourne.",
-      "link": "https://www.energy-storage.news/european-union-battery-supply-chain-policies-show-mixed-results-so-far/",
-      "source": "energy-storage-news",
-      "published": "2026-10-22T13:01:25+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "pv"
-      ]
-    },
-    {
-      "title": "Faria Renewables inaugurates 134MWh, Huawei-supplied Greece BESS",
-      "teaser": "IPP and EPC Faria Renewables has inaugurated its 49.9MW/134.16MWh Galani BESS project in Elassona, Greece.",
-      "link": "https://www.energy-storage.news/faria-renewables-inaugurates-134mwh-huawei-supplied-greece-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-22T10:38:58+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "UL Solutions launches certification pathway for modular DC BESS",
-      "teaser": "Science safety leader UL Solutions has announced a new certification pathway intended to help manufacturers of modular direct current (DC) battery energy storage systems (BESS).",
-      "link": "https://www.energy-storage.news/ul-solutions-launches-certification-pathway-for-modular-dc-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-22T09:25:14+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -2958,46 +1993,6 @@
       ]
     },
     {
-      "title": "Enhanced safety and performance, easier assembly: More BESS engineers would use PSA tape if they knew about it",
-      "teaser": "Although relatively new to the energy storage space, pressure-sensitive adhesive (PSA) tape is used for protection, security and flexible configuration of equipment in many industries.",
-      "link": "https://www.energy-storage.news/enhanced-safety-and-performance-easier-assembly-more-bess-engineers-would-use-psa-tape-if-they-knew-about-it/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T12:58:05+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Viridi deploys ‘Fail-Safe Anti-Propagation architecture’ indoor BESS at New York affordable housing development",
-      "teaser": "Distributed energy storage company Viridi and developer and financier Good Carbon Co. have announced the deployment of a 3.75MWh energy storage project in Buffalo, New York.",
-      "link": "https://www.energy-storage.news/viridi-deploys-fail-safe-anti-propagation-architecture-indoor-bess-at-new-york-affordable-housing-development/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T12:27:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "India’s energy storage market: Bridging the gap between tenders and execution",
-      "teaser": "India’s BESS pipeline exceeds 100GW, but financing, execution and tariff pressures threaten delivery of 411.4GWh of storage by FY2032.",
-      "link": "https://www.energy-storage.news/indias-energy-storage-market-bridging-the-gap-between-tenders-and-execution/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T07:20:51+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Deye, EVE and Ganfeng Lithium: Strong Q3 results for trio of players across Chinese energy storage industry value chain",
-      "teaser": "Deye, EVE Energy and Ganfeng Lithium are among Chinese energy storage players to recently release Q3 2026 financial results, with all three reporting robust growth.",
-      "link": "https://www.energy-storage.news/deye-eve-and-ganfeng-lithium-strong-q3-results-for-trio-of-players-across-chinese-energy-storage-industry-value-chain/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T07:07:38+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Solarindustrie fordert komplette PV-Kette und mehr Cybersicherheit",
       "teaser": "Mehr als 35 Unternehmen fordern von der EU, mit dem Industrial Accelerator Act die gesamte Solar-Wertschöpfungskette aufzubauen. Parallel verlangt ein Expertenbericht Einschränkungen für Hochrisiko-Lieferanten bei Photovoltaik-Komponenten.",
       "link": "https://www.energiezukunft.eu/erneuerbare-energien/solarenergie/solarindustrie-fordert-komplette-pv-kette-und-mehr-cybersicherheit",
@@ -3018,58 +2013,6 @@
       "matched_keywords": [
         "erneuerbare",
         "wärmepumpe"
-      ]
-    },
-    {
-      "title": "BESS developers must dig beyond the headline numbers of Malaysia’s solar-storage mandate and corporate PPAs",
-      "teaser": "Two major schemes will drive Southeast Asian country's deployments but require close examination, writes Flora Zhang, market analyst at Malaysia Energy Storage Association (MESA).",
-      "link": "https://www.energy-storage.news/bess-developers-must-dig-beyond-the-headline-numbers-of-malaysias-solar-storage-mandate-and-corporate-ppas/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T03:59:39+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Ingeteam supplies PCS for 130MWh of BESS and DC-coupled projects in Australia",
-      "teaser": "Spain-headquartered power electronics manufacturer Ingeteam has supplied power conversion systems (PCS) for around 65MW/130MWh of battery storage projects in Victoria, New South Wales (NSW) and South Australia.",
-      "link": "https://www.energy-storage.news/ingeteam-supplies-pcs-for-130mwh-of-bess-and-dc-coupled-projects-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T02:06:03+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Rondo Energy and Rio Tinto begin design work on Australia’s largest thermal energy storage project",
-      "teaser": "Rondo Energy and Rio Tinto have started engineering and design work on a 360MWh thermal energy storage (TES) project in Australia.",
-      "link": "https://www.energy-storage.news/rondo-energy-and-rio-tinto-begin-design-work-on-australias-largest-thermal-energy-storage-project/",
-      "source": "energy-storage-news",
-      "published": "2026-10-21T01:55:23+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Dominion Energy files IRP with plans to build 3.5GW of BESS in PJM over next 20 years",
-      "teaser": "US utility Dominion Energy plans to build 3.5GW of battery energy storage systems (BESS) over the next 20 years according to its recently filed integrated resource plan (IRP).",
-      "link": "https://www.energy-storage.news/dominion-energy-files-irp-with-plans-to-build-3-5gw-of-bess-in-pjm-over-next-20-years/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T10:30:29+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Genesis opens 200MWh battery storage system at New Zealand’s largest power station",
-      "teaser": "Genesis Energy has officially opened its first grid-scale battery energy storage system (BESS) at Huntly Power Station on New Zealand's North Island.",
-      "link": "https://www.energy-storage.news/genesis-opens-200mwh-battery-storage-system-at-new-zealands-largest-power-station/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T07:44:19+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
       ]
     },
     {
@@ -3113,78 +2056,6 @@
       ]
     },
     {
-      "title": "India must move beyond VGF subsidy support to build commercially viable BESS market, says Oyster Renewables",
-      "teaser": "Oyster Renewable COO talks about India’s BESS growth, domestic manufacturing ambitions, supply chain resilience and challenges.",
-      "link": "https://www.energy-storage.news/india-must-move-beyond-vgf-subsidy-support-to-build-commercially-viable-bess-market-says-oyster-renewables/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T03:47:47+00:00",
-      "matched_keywords": [
-        "renewable",
-        "subsid"
-      ]
-    },
-    {
-      "title": "India must align battery storage and transmission to cut renewable curtailment",
-      "teaser": "Hartek Power CEO discusses India’s BESS expansion, transmission infrastructure and strategies to reduce renewable energy curtailment.",
-      "link": "https://www.energy-storage.news/india-must-align-battery-storage-and-transmission-to-cut-renewable-curtailment/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T03:13:31+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "Hazelwood BESS expansion in Australia set to double storage capacity at former coal site",
-      "teaser": "ENGIE's Hazelwood battery energy storage system (BESS) expansion in Australia has moved closer to financial close after a state transmission declaration.",
-      "link": "https://www.energy-storage.news/hazelwood-bess-expansion-in-australia-set-to-double-storage-capacity-at-former-coal-site/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T02:03:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Akaysha Energy secures AU$1.75 billion portfolio financing for Australian BESS expansion",
-      "teaser": "Australian battery energy storage system (BESS) developer Akaysha Energy has refinanced its project debt into an AU$1.75 billion (US$1.22 billion) portfolio-level facility.",
-      "link": "https://www.energy-storage.news/akaysha-energy-secures-au1-75-billion-portfolio-financing-for-australian-bess-expansion/",
-      "source": "energy-storage-news",
-      "published": "2026-10-20T01:57:53+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Year-end scramble exposes US BESS sector’s commissioning and policy strains",
-      "teaser": "In the wide-ranging conversation, Shaw starts off by describing the year-end rush as a perennial challenge for the battery energy storage system (BESS) sector in the US.",
-      "link": "https://www.energy-storage.news/year-end-scramble-exposes-us-bess-sectors-commissioning-and-policy-strains/",
-      "source": "energy-storage-news",
-      "published": "2026-10-19T11:50:16+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "BESS beats gas peaker plants on LCOE globally, Wood Mackenzie finds",
-      "teaser": "Four-hour battery storage is less expensive than open-cycle gas turbines in the 43 markets in which both technologies were modelled, according to a new report from market research firm Wood Mackenzie.",
-      "link": "https://www.energy-storage.news/bess-beats-gas-peaker-plants-on-lcoe-globally-wood-mackenzie-finds/",
-      "source": "energy-storage-news",
-      "published": "2026-10-19T11:49:17+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Evolving role of energy storage as infrastructure demands that technology stands the test of time, CATL CEO says",
-      "teaser": "Energy storage is becoming an indispensable new-type power system infrastructure, CATL CEO and chairman Robin Zeng said in an industry speech last week.",
-      "link": "https://www.energy-storage.news/evolving-role-of-energy-storage-as-infrastructure-demands-that-technology-stands-the-test-of-time-catl-ceo-says/",
-      "source": "energy-storage-news",
-      "published": "2026-10-19T07:56:50+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Illinois needs batteries. Will a new incentive program help?",
       "teaser": "Illinois has built out large amounts of renewables in the past decade to reach its mandate of 100% clean energy by 2050 . So far, though, it has lagged on building battery storage, which advocates say is especially necessary now as data…",
       "link": "https://www.canarymedia.com/articles/batteries/illinois-storage-procurement-incentives-results",
@@ -3203,110 +2074,6 @@
       "published": "2026-10-19T05:00:00+00:00",
       "matched_keywords": [
         "subvention"
-      ]
-    },
-    {
-      "title": "ArcActive switches on lead-acid battery storage system pilot at Deakin University in Australia",
-      "teaser": "New Zealand energy storage company ArcActive has switched on a pilot lead-acid BESS in Victoria, Australia, with support from Origin Energy.",
-      "link": "https://www.energy-storage.news/arcactive-switches-on-lead-acid-battery-storage-system-pilot-at-deakin-university-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-19T01:11:24+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Standardisation, third-party choices, and outcomes: Arenko’s Dan Taylor on building a BESS analytics strategy",
-      "teaser": "Dan Taylor, director of engineering at optimisation and asset management provider Arenko, speaks to Energy-Storage.news about all things data in battery energy storage systems (BESS).",
-      "link": "https://www.energy-storage.news/standardisation-third-party-choices-outcomes-arenks-dan-taylor-building-bess-analytics-strategy/",
-      "source": "energy-storage-news",
-      "published": "2026-10-16T14:29:14+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Flatiron Energy closes US$850 million financing for 1.2GWh Massachusetts BESS project",
-      "teaser": "US energy storage developer Flatiron Energy has closed on approximately US$850 million for its 1,200MWh Energizar energy storage project in Chelsea, Massachusetts, US.",
-      "link": "https://www.energy-storage.news/flatiron-energy-closes-us850-million-financing-for-1-2gwh-massachusetts-bess-project/",
-      "source": "energy-storage-news",
-      "published": "2026-10-16T13:36:47+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Vikram Solar subsidiary to build 7.5GWh BESS assembly plant in Tamil Nadu, India",
-      "teaser": "VSL PowerHive, a Vikram Solar subsidiary, announced a 7.5GWh BESS assembly plant in Oragadam, near Chennai, Tamil Nadu.",
-      "link": "https://www.energy-storage.news/vikram-solar-subsidiary-to-build-7-5gwh-bess-assembly-plant-in-tamil-nadu-india/",
-      "source": "energy-storage-news",
-      "published": "2026-10-16T05:16:30+00:00",
-      "matched_keywords": [
-        "solar",
-        "subsid"
-      ]
-    },
-    {
-      "title": "AGL refers 500MWh Abermain BESS in Queensland to Australia’s EPBC Act",
-      "teaser": "Australian energy company AGL has referred a 500MWh battery energy storage system (BESS) in Queensland to the federal government under Australia's Environment Protection and Biodiversity Conservation (EPBC) Act.",
-      "link": "https://www.energy-storage.news/agl-refers-500mwh-abermain-bess-in-queensland-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-10-16T04:56:20+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "20.4GWh grid-scale BESS deployed globally in September, up 61%; YTD installs up 43%",
-      "teaser": "Around 20.4GWh of grid-scale battery energy storage systems (BESS) came online globally last month, bringing the year-to-date (YTD) total to 208GWh.",
-      "link": "https://www.energy-storage.news/20-4gwh-grid-scale-bess-deployed-globally-in-september-up-61-ytd-installs-up-43/",
-      "source": "energy-storage-news",
-      "published": "2026-10-15T14:54:32+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Nightpeak Energy doubles Texas BESS site to 300MW",
-      "teaser": "Energy storage owner-operator Nightpeak Energy has reached financial close and commercial operation on its 150MW/300MWh Bocanova 2 battery storage project in Brazoria County, Southeast Texas.",
-      "link": "https://www.energy-storage.news/nightpeak-energy-doubles-texas-bess-site-to-300mw/",
-      "source": "energy-storage-news",
-      "published": "2026-10-15T11:34:30+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Greek PM says ‘storage should accompany renewables’ as Metlen, Karatzis inaugurate 790MWh BESS",
-      "teaser": "Metals and energy group Metlen and conglomerate Karatzis Group have inaugurated the largest BESS in Greece, in a ceremony attended by the country’s Prime Minister.",
-      "link": "https://www.energy-storage.news/greek-pm-says-storage-should-accompany-renewables-as-metlen-karatzis-inaugurate-790mwh-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-15T11:10:50+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Energy Dome & Exa Energy’s CO2 storage technology compared as 1GWh China project goes online",
-      "teaser": "How similar is the technology of Exa Energy, which just connected a 100MW/1GWh carbon dioxide-based energy storage system to the grid in China, to that of Energy Dome?",
-      "link": "https://www.energy-storage.news/energy-dome-exa-energys-co2-storage-tech-compared-as-1gwh-china-project-goes-online/",
-      "source": "energy-storage-news",
-      "published": "2026-10-15T08:34:33+00:00",
-      "matched_keywords": [
-        "co2",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "World falls well short on commitment to energy storage despite increased ambitions, think tank Ember says",
-      "teaser": "Insufficient progress has been made towards the Energy Storage and Grids Pledge, endorsed by dozens of countries at COP29 two years ago.",
-      "link": "https://www.energy-storage.news/world-falls-well-short-on-commitment-to-energy-storage-despite-increased-ambitions-think-tank-ember-says/",
-      "source": "energy-storage-news",
-      "published": "2026-10-15T08:17:47+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -3363,37 +2130,6 @@
       ]
     },
     {
-      "title": "Energy Storage Awards 2026: Shortlist reveal kicks off countdown to the industry’s big night out",
-      "teaser": "The expert judges’ difficult decisions to select winners from hundreds of worthy entries for the Energy Storage Awards 2026 are almost finalised.",
-      "link": "https://www.energy-storage.news/energy-storage-awards-2026-shortlist-reveal-kicks-off-countdown-to-the-industrys-big-night-out/",
-      "source": "energy-storage-news",
-      "published": "2026-10-14T14:43:27+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Illinois seeks feedback after coming up short in large-scale battery storage procurement",
-      "teaser": "The Illinois Power Agency (IPA) is seeking stakeholder feedback on its summer procurement of 600MW of energy storage projects in the US state, after falling short by 438MW.",
-      "link": "https://www.energy-storage.news/illinois-seeks-feedback-after-coming-up-short-in-large-scale-battery-storage-procurement/",
-      "source": "energy-storage-news",
-      "published": "2026-10-14T12:32:34+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "South Africa’s state utility Eskom opens selection process for 1.5GW/21GWh pumped hydro plant",
-      "teaser": "South Africa continues its push for energy storage capacity, with utility and grid operator Eskom issuing a call to work on a 21GWh pumped hydro energy storage (PHES) project.",
-      "link": "https://www.energy-storage.news/south-africas-state-utility-eskom-opens-selection-process-for-1-5gw-21gwh-pumped-hydro-plant/",
-      "source": "energy-storage-news",
-      "published": "2026-10-14T08:48:46+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
       "title": "Nuclear-powered data centers? It’s a tough sell in Utah coal country.",
       "teaser": "This story was originally published by Grist . Sign up for Grist&#039;s weekly newsletter . Cindy O’Neil understands the boom-and-bust cycles of industry. Her husband spent years working in Carbon County’s namesake coal mines. In this…",
       "link": "https://www.canarymedia.com/articles/data-centers/utah-carbon-county-opposition-nuclear-gas-valar",
@@ -3414,17 +2150,6 @@
       ]
     },
     {
-      "title": "‘Mexico’s mixed investment scheme provides clean energy investors with certainty’",
-      "teaser": "Alberto Valenzuela discusses ahead of Energy Storage Summit Latin America about Mexico's growing interest in renewables and energy storage, and the factors driving this growth.",
-      "link": "https://www.energy-storage.news/mexicos-mixed-investment-scheme-provides-clean-energy-investors-with-certainty/",
-      "source": "energy-storage-news",
-      "published": "2026-10-14T02:15:05+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Trump goes after an offshore wind farm that’s already up and running",
       "teaser": "After halting construction on offshore wind farms and canceling leases for future projects, the Trump administration just took another step to erode America’s troubled offshore wind industry. The Interior Department wants to reevaluate a…",
       "link": "https://www.canarymedia.com/articles/offshore-wind/trump-reevaluate-permit-revolution-wind-orsted",
@@ -3435,37 +2160,6 @@
       ]
     },
     {
-      "title": "Foss & Company closes US$58 million tax equity deal for GridStor’s Texas BESS project",
-      "teaser": "US tax equity syndicator Foss &#038; Company has closed a US$58 million partnership flip transaction to finance an energy storage project in Hidalgo County, Texas, developed by GridStor.",
-      "link": "https://www.energy-storage.news/foss-company-closes-us58-million-tax-equity-deal-for-gridstors-texas-bess-project/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T10:18:18+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Clearway Energy increases Utah ‘Energy Centre’ capacity to 2,120MWh",
-      "teaser": "Independent power producer (IPP) Clearway Energy has added 210MW of energy storage capacity to its Honeycomb Energy Centre fleet in Southern Utah, US.",
-      "link": "https://www.energy-storage.news/clearway-energy-increases-utah-energy-centre-capacity-to-2120mwh/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T10:14:01+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Neoen, BW ESS and MN8 back efforts to standardise BESS procurement through new Energy Storage Contract Alliance",
-      "teaser": "Big names in the downstream battery storage market have signed up to join an initiative aimed at simplifying BESS procurement.",
-      "link": "https://www.energy-storage.news/neoen-bw-ess-and-mn8-back-efforts-to-standardise-bess-procurement-through-new-energy-storage-contract-alliance/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T09:29:47+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
       "title": "Solar industry spends to flip control of Georgia utility commission",
       "teaser": "Voters will have a chance to pick their utility regulators in nine states this November. But Georgia is one of the only states that could flip party control of its public utility commission, an often overlooked institution that determines…",
       "link": "https://www.canarymedia.com/articles/politics/solar-industry-spends-to-flip-control-of-georgia-utility-commission",
@@ -3473,16 +2167,6 @@
       "published": "2026-10-13T09:00:00+00:00",
       "matched_keywords": [
         "solar"
-      ]
-    },
-    {
-      "title": "Wärtsilä energy storage JV Valo in US domestic content manufacturing discussions with ‘strong players’",
-      "teaser": "Valo, the new joint venture formed as a continuation of Wärtsilä’s energy storage business, is weighing up investing in the US supply chain, including factories.",
-      "link": "https://www.energy-storage.news/wartsila-energy-storage-jv-valo-us-domestic-content-manufacturing-discussions-strong-players/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T08:28:22+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -3515,38 +2199,6 @@
         "klima",
         "klimaschutz",
         "speicher"
-      ]
-    },
-    {
-      "title": "Samsung C&T refers 800MWh Darnum BESS in Victoria’s Gippsland region to Australia’s EPBC Act",
-      "teaser": "Samsung C&#038;T’s Australian renewables arm has referred an 800MWh battery energy storage system (BESS) in Victoria’s Gippsland region to the federal government under Australia’s Environment Protection and Biodiversity Conservation (EPBC)…",
-      "link": "https://www.energy-storage.news/samsung-ct-refers-800mwh-darnum-bess-in-victorias-gippsland-region-to-australias-epbc-act/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T02:56:28+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "New South Wales BESS earn nearly AU$6 million as two-hour ‘extreme’ price event sweeps Australia’s energy market",
-      "teaser": "Battery energy storage systems (BESS) in Australia’s New South Wales (NSW) earned an estimated AU$5.63 million (US$3.88 million) in two hours on 12 October, as wholesale electricity prices peaked at AU$23,107/MWh.",
-      "link": "https://www.energy-storage.news/new-south-wales-bess-earn-nearly-au6-million-as-two-hour-extreme-price-event-sweeps-australias-energy-market/",
-      "source": "energy-storage-news",
-      "published": "2026-10-13T02:38:03+00:00",
-      "matched_keywords": [
-        "electricity price",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Chile: Engie commissions 802MWh BESS, Grenergy finances 1,769MWh",
-      "teaser": "Power group Engie has put an 142MW/802MWh BESS project in Chile into operation, while IPP Grenergy has secured financing for the fifth and final stage of its Oasis de Atacama solar-plus-storage project.",
-      "link": "https://www.energy-storage.news/chile-engie-commissions-802mwh-battery-storage-grenergy-finances-1769mwh-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-10-12T11:53:30+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -3590,38 +2242,6 @@
       ]
     },
     {
-      "title": "ASEAN Centre for Energy, IEA say Southeast Asia’s battery storage adoption barriers are mostly regulatory, not technical",
-      "teaser": "ACE and the IEA say the main obstacles to battery energy storage system (BESS) deployment in Southeast Asia are policy and market rules.",
-      "link": "https://www.energy-storage.news/asean-centre-for-energy-iea-say-southeast-asias-battery-storage-adoption-barriers-are-mostly-regulatory-not-technical/",
-      "source": "energy-storage-news",
-      "published": "2026-10-12T02:33:28+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia home battery installations surge 52% to 276,011 in H1 2026, outpacing rooftop solar growth",
-      "teaser": "Australians installed 276,011 home battery storage systems in the first half of 2026, 52% more than in the previous six months.",
-      "link": "https://www.energy-storage.news/australia-home-battery-installations-surge-52-to-276011-in-h1-2026-outpacing-rooftop-solar-growth/",
-      "source": "energy-storage-news",
-      "published": "2026-10-12T02:05:09+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "South Africa pursues 4.6GW of battery storage deployments in Integrated Resource Plan",
-      "teaser": "South Africa’s government has put battery storage and power-to-gas technologies at the heart of the national long-term electricity supply and demand strategy.",
-      "link": "https://www.energy-storage.news/south-africa-pursues-4-6gw-of-battery-storage-deployments-in-integrated-resource-plan/",
-      "source": "energy-storage-news",
-      "published": "2026-10-09T10:24:18+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Wegen fehlendem Klimaschutz: Unternehmen sehen Wirtschaft Deutschlands in Gefahr",
       "teaser": "Ein breites Bündnis von Unternehmen verschiedenster Branchen richtet einen Wirtschaftsapell an Bundesregierung und Bundestag. Wegen fehlenden Maßnahmen für Klimaschutz und Klimaanpassung leide der Wirtschaftsstandort Deutschland.",
       "link": "https://www.energiezukunft.eu/wirtschaft/wegen-fehlendem-klimaschutz-unternehmen-sehen-wirtschaft-deutschlands-in-gefahr",
@@ -3630,28 +2250,6 @@
       "matched_keywords": [
         "klima",
         "klimaschutz"
-      ]
-    },
-    {
-      "title": "Finland: BESS acquisition, construction and optimisation news from Usva Energia, Nala Renewables, Centrica and Olana Energy",
-      "teaser": "Finland is the Nordic region’s most-talked-about market for the moment, with project deals and other battery storage development activity from local and international players.",
-      "link": "https://www.energy-storage.news/finland-bess-usva-energia-nala-renewables-centrica-olana-energy-acquisition-construction-optimisation-news/",
-      "source": "energy-storage-news",
-      "published": "2026-10-09T09:21:46+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "IEA: Thermal energy storage key to industrial heat electrification that could cut EU gas demand by 35 bcm annually",
-      "teaser": "Electrifying low-temperature industrial heat and steam processes with renewables could reduce European Union natural gas consumption by 35 billion cubic metres-per-year, according to a report from the International Energy Agency (IEA).",
-      "link": "https://www.energy-storage.news/iea-thermal-energy-storage-key-to-industrial-heat-electrification-that-could-cut-eu-gas-demand-by-35-bcm-annually/",
-      "source": "energy-storage-news",
-      "published": "2026-10-09T09:21:14+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
       ]
     },
     {
@@ -3676,28 +2274,6 @@
       ]
     },
     {
-      "title": "South Korea unveils US$750 billion Green Transformation industrial strategy",
-      "teaser": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
-      "link": "https://www.energy-storage.news/south-korea-unveils-us475-billion-green-transformation-industrial-strategy/",
-      "source": "energy-storage-news",
-      "published": "2026-10-09T04:08:12+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "Mint Renewables wins planning approval for 800MWh battery storage system in Western Australia",
-      "teaser": "Mint Renewables has received planning approval for an 800MWh battery energy storage system (BESS) near Kojonup in Western Australia.",
-      "link": "https://www.energy-storage.news/mint-renewables-wins-planning-approval-for-800mwh-battery-storage-system-in-western-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-09T03:21:32+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Constellation and Google go in on nuclear uprates to unlock clean power",
       "teaser": "The Trump administration wants to add 5 gigawatts of carbon-free nuclear power capacity by 2029 without deploying a single new reactor. An announcement this week by the United States’ biggest nuclear power plant operator brings that lofty…",
       "link": "https://www.canarymedia.com/articles/nuclear/constellation-google-nuclear-uprates",
@@ -3705,26 +2281,6 @@
       "published": "2026-10-08T19:00:00+00:00",
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Actis buys 1.14GWh of BESS in Poland from DTEK’s DRI",
-      "teaser": "Infrastructure investor Actis has entered the Polish energy storage market with the acquisition of two large-scale projects from DTEK's DRI, while R.Power and Solax have announced project updates in the country.",
-      "link": "https://www.energy-storage.news/actis-buys-1-14gwh-of-bess-in-poland-from-dteks-dri/",
-      "source": "energy-storage-news",
-      "published": "2026-10-08T11:02:15+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Global BESS failure rates declined 98% between 2018 and 2025",
-      "teaser": "Annual battery energy storage system (BESS) failures per-deployed-GWh declined 98% globally between 2018 and 2025, as installed BESS capacity grew exponentially.",
-      "link": "https://www.energy-storage.news/global-bess-failure-rates-declined-98-between-2018-and-2025/",
-      "source": "energy-storage-news",
-      "published": "2026-10-08T08:48:16+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -3771,36 +2327,6 @@
       ]
     },
     {
-      "title": "Chinese ESS shipments still growing strongly but financial performance starting to diverge",
-      "teaser": "The first half of the year saw mixed results among China's leading ESS suppliers, though generally the industry is still performing strongly, writes PV Tech ESS analyst Charlotte Gisbourne.",
-      "link": "https://www.energy-storage.news/chinese-ess-shipments-still-growing-strongly-but-financial-performance-starting-to-diverge/",
-      "source": "energy-storage-news",
-      "published": "2026-10-07T13:13:21+00:00",
-      "matched_keywords": [
-        "pv"
-      ]
-    },
-    {
-      "title": "NextEra halts Long Island BESS operations over drinking water contamination concerns",
-      "teaser": "US energy holding company and project developer-owner NextEra Energy has suspended operations at two energy storage facilities in Long Island, New York, US.",
-      "link": "https://www.energy-storage.news/nextera-halts-long-island-bess-operations-over-drinking-water-contamination-concerns/",
-      "source": "energy-storage-news",
-      "published": "2026-10-07T13:12:30+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "UK ROUNDUP: Gore Street shareholder vote maintains status quo, CIP and BW ESS progress 4-hour duration assets",
-      "teaser": "UK market's shifting dynamics see listed fund Gore Street's shareholders take key vote while CIP and BW ESS progress 4-hour duration battery storage assets at significant scale.",
-      "link": "https://www.energy-storage.news/uk-roundup-gore-street-shareholder-vote-maintains-status-quo-cip-and-bw-ess-progress-4-hour-duration-assets/",
-      "source": "energy-storage-news",
-      "published": "2026-10-07T13:11:02+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
       "title": "Connecticut’s solar ambitions hit skepticism from a major utility",
       "teaser": "Connecticut is trying to clean up its grid with more solar energy. But a major utility’s reluctance to commit to buying power from some projects is raising questions about the prospects for success. Connecticut last month announced plans…",
       "link": "https://www.canarymedia.com/articles/solar/connecticut-solar-utility-skepticism",
@@ -3831,28 +2357,6 @@
       ]
     },
     {
-      "title": "Canadian Solar’s e-STORAGE to deliver 200MWh BESS for Australian solar-plus-storage site",
-      "teaser": "e-STORAGE has signed an agreement to supply and commission a 100MW/200MWh BESS for OX2's Muswellbrook solar-plus-storage site in Australia.",
-      "link": "https://www.energy-storage.news/canadian-solars-e-storage-to-deliver-200mwh-bess-for-australian-solar-plus-storage-site/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T23:37:28+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Atmos Renewables closes financing on 1.6GWh Capacity Investment Scheme-backed battery storage system in Australia",
-      "teaser": "Atmos Renewables has reached financial close on the 400MW/1,600MWh Teebar battery energy storage system (BESS) in Queensland, Australia.",
-      "link": "https://www.energy-storage.news/atmos-renewables-closes-financing-on-1-6gwh-capacity-investment-scheme-backed-battery-storage-system-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T23:34:31+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
       "title": "Tesla is now making more EVs that can double as a home battery",
       "teaser": "Households and the power grid run on alternating current. Batteries — including those in electric vehicles — run on direct current. That AC-DC divide has complicated the prospect of EVs as home backup batteries. Today, almost every…",
       "link": "https://www.canarymedia.com/articles/electric-vehicles/tesla-evs-as-home-battery",
@@ -3860,540 +2364,6 @@
       "published": "2026-10-06T21:00:00+00:00",
       "matched_keywords": [
         "power grid"
-      ]
-    },
-    {
-      "title": "Linea Energy closes financing for 500MWh Texas BESS project",
-      "teaser": "IPP Linea Energy has closed a debt financing and preferred equity commitment for its 250MW/500MWh Mesa View energy storage project in Upton County, Texas, US.",
-      "link": "https://www.energy-storage.news/linea-energy-closes-financing-for-500mwh-texas-bess-project/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T11:46:12+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Antora Energy announces 5.8GWh ‘multi-day’ thermal energy storage project in Kansas, US",
-      "teaser": "Thermal energy storage (TES) technology provider Antora Energy has announced a 5.8GWh “multi-day” TES project at Pratt Energy’s biorefinery in Pratt, Kansas, US.",
-      "link": "https://www.energy-storage.news/antora-energy-announces-5-8gwh-multi-day-thermal-energy-storage-project-in-kansas-us/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T11:22:39+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Valo’s Steve Merrick on why accurate state of charge estimation remains energy storage’s ‘unsolved problem’",
-      "teaser": "Inaccurate state of charge (SOC) measurements can cost battery energy storage system (BESS) operators up to 15% in lost revenue, a persistent issue despite advances in monitoring technology.",
-      "link": "https://www.energy-storage.news/valos-steve-merrick-on-why-accurate-state-of-charge-estimation-remains-energy-storages-unsolved-problem/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T11:14:48+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Mixed stock market listing fortunes for energy storage technology firms ESS Inc, ZincFive and InoBat",
-      "teaser": "Share listing news from three energy storage startups with different areas of specialisation speaks to the ups and downs of going public.",
-      "link": "https://www.energy-storage.news/mixed-stock-market-listing-fortunes-for-energy-storage-technology-firms-ess-inc-zincfive-and-inobat/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T10:33:22+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Zelestra and EDP expand solar-plus-storage PPA partnership with another 462MWh of batteries in Spain",
-      "teaser": "IPP Zelestra and power firm and utility EDP have agreed two new hybrid PPAs in Spain, adding 181MWdc of solar and 462MWh BESS to their existing co-operation.",
-      "link": "https://www.energy-storage.news/zelestra-and-edp-expand-solar-plus-storage-ppa-partnership-with-another-462mwh-of-batteries-in-spain/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T09:19:57+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Sumitomo Corporation invests in Hero Future Energies’ solar-wind-storage hybrid in Karnataka, India",
-      "teaser": "Japanese trading company Sumitomo Corporation has invested in a utility-scale renewable energy park combining solar PV, wind and energy storage in India.",
-      "link": "https://www.energy-storage.news/sumitomo-corporation-invests-in-hero-future-energies-solar-wind-storage-hybrid-in-karnataka-india/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T05:46:37+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "pv",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Australia’s NEM battery storage fleet earns AU$88.91 million in Q3, with five days delivering 15% of revenue",
-      "teaser": "Australia's 59 grid-scale BESS earned a combined AU$88.91 million in estimated gross energy and FCAS market revenue in the NEM.",
-      "link": "https://www.energy-storage.news/australias-nem-battery-storage-fleet-earns-au88-91-million-in-q3-with-five-days-delivering-15-of-revenue/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T04:28:41+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Australia’s Origin Energy targets building ‘Southern Hemisphere’s largest battery storage complex’",
-      "teaser": "Origin Energy has referred a new BESS project, Eraring BESS North, for assessment under Australia's EPBC Act.",
-      "link": "https://www.energy-storage.news/australias-origin-energy-targets-building-southern-hemispheres-largest-battery-storage-complex/",
-      "source": "energy-storage-news",
-      "published": "2026-10-06T04:26:19+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Maryland conditionally approves 440MW of BESS for state ‘Capacity Credit’ awards",
-      "teaser": "Maryland has conditionally selected two transmission-connected energy storage projects to receive Energy Storage Capacity Credit awards in the US state.",
-      "link": "https://www.energy-storage.news/maryland-conditionally-approves-440mw-of-bess-for-state-capacity-credit-awards/",
-      "source": "energy-storage-news",
-      "published": "2026-10-05T12:15:59+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Statkraft and Greenvolt sign largest EU battery energy storage tolling agreement for projects in Poland",
-      "teaser": "Statkraft and Greenvolt Power have signed a 10-year tolling agreement covering 400MW of BESS across two operating projects in Poland.",
-      "link": "https://www.energy-storage.news/statkraft-and-greenvolt-sign-largest-eu-battery-energy-storage-tolling-agreement-for-projects-in-poland/",
-      "source": "energy-storage-news",
-      "published": "2026-10-05T10:12:21+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "India’s BESS ambition: From import dependence to manufacturing scale",
-      "teaser": "Debmalya Sen, president of the India Energy Storage Alliance (IESA), on a dynamic market landscape of tenders, tariffs and the race to build a domestic battery storage ecosystem.",
-      "link": "https://www.energy-storage.news/indias-bess-ambition-from-import-dependence-to-manufacturing-scale/",
-      "source": "energy-storage-news",
-      "published": "2026-10-05T07:39:15+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "California Governor Newsom signs VPP and balcony solar bills, vetoes community solar legislation",
-      "teaser": "Outgoing California Governor Gavin Newsom recenty addressed approximately 1,200 bills, including several energy storage and solar related bills that were either approved or vetoed.",
-      "link": "https://www.energy-storage.news/california-governor-newsom-signs-vpp-and-balcony-solar-bills-vetoes-community-solar-legislation/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T10:13:20+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "BESS Industry Buzz: ERCOT economics, Google’s hourly matching pilot and the world’s most dense BESS blocks",
-      "teaser": "Welcome to another edition of hot takes, snap analysis, gossip and of course, valuable insights from the LinkedIn feeds of energy storage and electricity insiders.",
-      "link": "https://www.energy-storage.news/bess-industry-buzz-ercot-economics-googles-hourly-matching-pilot-and-the-worlds-most-dense-bess-blocks/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T09:54:33+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Renalfa IPP, Eurowind inaugurate solar-plus-storage hybrid renewable energy park in Bulgaria",
-      "teaser": "Renalfa IPP and Eurowind have brought a large-scale hybrid renewables project, featuring 242MWp of solar PV and 773MWh of battery storage, into commercial operation in Bulgaria.",
-      "link": "https://www.energy-storage.news/renalfa-ipp-eurowind-inaugurate-solar-plus-storage-hybrid-renewable-energy-park-in-bulgaria/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T08:57:45+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "pv",
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Technical availability central to maximising BESS returns: Varco Energy talks UK asset management",
-      "teaser": "Elliot Squire, senior asset manager for Varco Energy, discusses current and future trends in battery storage.",
-      "link": "https://www.energy-storage.news/technical-availability-maximising-bess-returns-varco-energ-uk-asset-management/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T07:25:53+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Canada’s Northland Power closes financing on 1.2GWh of CM-contracted BESS projects in Poland",
-      "teaser": "Northland Power has closed financing on two large-scale battery energy storage system (BESS) projects in Poland.",
-      "link": "https://www.energy-storage.news/canadas-northland-power-closes-financing-on-1-2gwh-of-cm-contracted-bess-projects-in-poland/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T06:56:36+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Fu-Gen, Nala Renewables close 100MW BESS deal in Finland",
-      "teaser": "Fu-Gen has sold a 100MW ready-to-build battery storage project in Finland to Nala Renewables, extending their Nordic BESS pipeline to 275MW.",
-      "link": "https://www.energy-storage.news/fu-gen-nala-renewables-close-100mw-bess-finland/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T03:38:31+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "New South Wales grants approval to BayWa r.e.’s Bullawah hybrid wind and battery project in Australia",
-      "teaser": "NSW's IPC has approved BayWa r.e.'s Bullawah Wind Farm, pairing 804MW of wind with a 718MWh battery in the South West REZ.",
-      "link": "https://www.energy-storage.news/bullawah-wind-farm-approved-718mwh-battery-nsw/",
-      "source": "energy-storage-news",
-      "published": "2026-10-02T03:36:30+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
-      "title": "Major US partnerships may signal battery storage’s infrastructure era",
-      "teaser": "Battery energy storage systems (BESS) are increasingly being positioned as essential infrastructure investments rather than purely financial assets, as seen in a series of strategic partnerships announced in late September that integrate…",
-      "link": "https://www.energy-storage.news/major-us-partnerships-may-signal-battery-storages-infrastructure-era/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T13:15:43+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Maharashtra’s regulator proposes mandatory BESS for renewable projects seeking grid connectivity in Indian state",
-      "teaser": "Maharashtra's electricity regulator has proposed mandatory BESS for renewable projects seeking grid connectivity.",
-      "link": "https://www.energy-storage.news/maharashtras-regulator-proposes-mandatory-bess-for-renewable-projects-seeking-grid-connectivity-in-indian-state/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T13:04:05+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "Wärtsilä’s energy storage division rebrands through RCT Solutions joint venture",
-      "teaser": "Update 2 October 2026: The financial impact of the write-down to Wärtsilä's full-year 2026 is expected to be significantly less than initially communicated.",
-      "link": "https://www.energy-storage.news/wartsilas-energy-storage-division-rebrands-through-rct-solar-joint-venture/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T11:12:19+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "California Energy Commission’s Noemí Gallardo on the state’s BESS expansion",
-      "teaser": "Energy-Storage.news spoke with Noemí Gallardo, Commissioner at the California Energy Commission (CEC), at the US Solar &#038; Storage Finance event in Garden Grove, California, about the growth of BESS within the state.",
-      "link": "https://www.energy-storage.news/california-energy-commissions-noemi-gallardo-on-the-states-bess-expansion/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T09:57:48+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "Sungrow completes 108MW grid-forming battery storage system with black start capability in Cambodia",
-      "teaser": "Sungrow has completed grid connection and full acceptance testing of a 108.4MW/215.6MWh grid-forming BESS in Cambodia.",
-      "link": "https://www.energy-storage.news/sungrow-completes-108mw-grid-forming-battery-storage-system-with-black-start-capability-in-cambodia/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T08:31:04+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Financial services group Orix builds 589MWh of BESS in Japan after securing first external investment",
-      "teaser": "Orix Corporation has begun construction of its first battery storage projects to be supported by external investment.",
-      "link": "https://www.energy-storage.news/financial-services-group-orix-builds-589mwh-of-bess-in-japan-after-securing-first-external-investment/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T02:58:48+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Queensland’s CleanCo credits battery storage boom as Australian state records 40% wholesale electricity price drop",
-      "teaser": "Queensland's average wholesale electricity price fell by 40% in the 2025-26 financial year, a drop CleanCo Queensland attributes to BESS.",
-      "link": "https://www.energy-storage.news/queenslands-cleanco-credits-battery-storage-boom-as-australian-state-records-40-wholesale-electricity-price-drop/",
-      "source": "energy-storage-news",
-      "published": "2026-10-01T01:19:52+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "electricity price"
-      ]
-    },
-    {
-      "title": "Northland Power puts Canadian province of Alberta’s largest BESS into operation",
-      "teaser": "IPP Northland Power has announced that its 80MW/160MWh Jurassic energy storage project in Cypress County, Alberta, CA, has achieved commercial operations.",
-      "link": "https://www.energy-storage.news/northland-power-puts-canadian-province-of-albertas-largest-bess-into-operation/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T11:08:35+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Availability: Why this BESS performance metric matters so much, and how to calculate it",
-      "teaser": "Liam Critchley with an ESN Premium deep dive into availability, one of the most-discussed metrics in battery storage performance.",
-      "link": "https://www.energy-storage.news/availability-why-this-bess-performance-metric-matters-so-much-and-how-to-calculate-it/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T07:56:44+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Spain is making batteries a licensing condition for data centres, and nobody noticed",
-      "teaser": "Spain's recent proposal for data centres could be the catalyst the country's energy storage market has been waiting for, argues Ignacio López Martín from developer Capflex Energía.",
-      "link": "https://www.energy-storage.news/spain-is-making-batteries-a-licensing-condition-for-data-centres-and-nobody-noticed/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T04:51:05+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Gotion to supply 6GWh of battery storage for Saudi Arabia’s first utility-scale BESS tender",
-      "teaser": "Gotion High-Tech has been named as the BESS supplier for three projects totalling 6GWh awarded to an ACWA Power consortium in Saudi Arabia.",
-      "link": "https://www.energy-storage.news/gotion-to-supply-6gwh-of-battery-storage-for-saudi-arabias-first-utility-scale-bess-tender/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T04:01:38+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Australia: Energy Vault secures NSW approval for 1GWh BESS, TagEnergy submits 4GWh Victoria project",
-      "teaser": "Two Australian battery storage developments advanced, both moving large-scale projects closer to construction through separate approval pathways.",
-      "link": "https://www.energy-storage.news/australia-energy-vault-secures-nsw-approval-for-1gwh-bess-tagenergy-submits-4gwh-victoria-project/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T03:35:14+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "FRV Australia completes first standalone BESS with 100MW/200MWh Terang project in Victoria",
-      "teaser": "FRV Australia has commissioned the 100MW/200MWh Terang battery storage system in Victoria, the company's first standalone storage project.",
-      "link": "https://www.energy-storage.news/frv-australia-completes-first-standalone-bess-with-100mw-200mwh-terang-project-in-victoria/",
-      "source": "energy-storage-news",
-      "published": "2026-09-30T03:30:58+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "SMA battery inverter first to win grid-forming certification for German inertia market",
-      "teaser": "Inverter manufacturer SMA Solar Technology has become the first to be certified as capable of providing inertia to the German grid.",
-      "link": "https://www.energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market/",
-      "source": "energy-storage-news",
-      "published": "2026-09-29T11:37:42+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "‘Huge pipeline of opportunities’ as Middle East energy storage financing seeks bankability, revenue certainty",
-      "teaser": "There is no shortage of capital to invest, but energy storage developers in the Middle East face familiar questions as the market takes shape.",
-      "link": "https://www.energy-storage.news/huge-pipeline-of-opportunities-as-middle-east-energy-storage-financing-seeks-bankability-revenue-certainty/",
-      "source": "energy-storage-news",
-      "published": "2026-09-29T08:41:31+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Pace of regulatory change, predictable market rules and long-term flexibility roadmaps key to CEE market, IPP says",
-      "teaser": "Olga Sypula, VP and regional director for Central Europe at developer and IPP European Energy, shares her views on the key trends, opportunities and challenges across the Central and Eastern Europe (CEE) energy storage market.",
-      "link": "https://www.energy-storage.news/pace-of-regulatory-change-predictable-market-rules-and-long-term-flexibility-roadmaps-key-to-cee-market-ipp-says/",
-      "source": "energy-storage-news",
-      "published": "2026-09-29T05:31:43+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "India’s CERC proposes new Grid Code rules for standalone BESS",
-      "teaser": "India’s Central Electricity Regulatory Commission (CERC) has proposed new grid-operating requirements for standalone energy storage systems.",
-      "link": "https://www.energy-storage.news/indias-cerc-proposes-new-grid-code-rules-for-standalone-bess/",
-      "source": "energy-storage-news",
-      "published": "2026-09-29T05:00:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Gamuda and Yanara sign EPC contract for 300MW solar-plus-storage project in Australia",
-      "teaser": "Gamuda Australia and Yanara have signed the EPC contract for Stage 1 of the Mortlake Energy Hub (MEH-1) in western Victoria.",
-      "link": "https://www.energy-storage.news/gamuda-and-yanara-sign-epc-contract-for-300mw-solar-plus-storage-project-in-australia/",
-      "source": "energy-storage-news",
-      "published": "2026-09-29T04:54:01+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
-      "title": "ICYMI: Last week’s biggest energy storage industry stories in our new Monday recap",
-      "teaser": "Welcome to the first edition of In Case You Missed It (ICYMI), a recap of last week’s biggest news stories in energy storage.",
-      "link": "https://www.energy-storage.news/icymi-last-weeks-biggest-energy-storage-industry-stories-in-our-new-monday-recap/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T13:19:34+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "LG Energy Solution partners with B2U Storage for second life US BESS projects",
-      "teaser": "Second life energy storage firm B2U Storage Solutions has announced a strategic partnership with South Korean battery giant LG Energy Solution (LG ES).",
-      "link": "https://www.energy-storage.news/lg-energy-solution-partners-with-b2u-storage-for-second-life-us-bess-projects/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T11:42:12+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "EnerVenue opens factory, secures first multi-MWh order for 30,000-cycle nickel-hydrogen batteries at Chinese oilfield",
-      "teaser": "Nickel-hydrogen battery company EnerVenue has secured its first commercial order at multi-MWh scale.",
-      "link": "https://www.energy-storage.news/enervenue-opens-factory-secures-first-multi-mwh-order-for-30000-cycle-nickel-hydrogen-batteries-at-chinese-oilfield/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T09:21:05+00:00",
-      "matched_keywords": [
-        "hydrogen"
-      ]
-    },
-    {
-      "title": "Urgent need for cybersecurity overhaul as BESS deployment accelerates, Energy Storage Europe says",
-      "teaser": "Trade body Energy Storage Europe has called for significant reforms to the European Union's (EU’s) cybersecurity framework for battery energy storage systems (BESS).",
-      "link": "https://www.energy-storage.news/urgent-need-for-cybersecurity-overhaul-as-bess-deployment-accelerates-energy-storage-europe-says/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T09:03:00+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Australia’s NSW trials property-level and community battery models to extend solar benefits",
-      "teaser": "Two publicly funded pilots have launched in NSW, testing ways to extend the benefits of distributed solar and battery storage to households.",
-      "link": "https://www.energy-storage.news/australias-nsw-trials-property-level-and-community-battery-models-to-extend-solar-benefits/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T04:56:36+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "solar"
-      ]
-    },
-    {
-      "title": "Australia’s most powerful battery storage system officially completed",
-      "teaser": "Akaysha Energy has reached final commercial operations at its Waratah Super Battery in New South Wales, Australia.",
-      "link": "https://www.energy-storage.news/australias-most-powerful-battery-storage-system-officially-completed/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T04:54:57+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "Australia’s NSW grants development consent for 200MWh battery storage system",
-      "teaser": "The New South Wales (NSW) government has granted development consent for the 200MWh Deniliquin East battery energy storage system.",
-      "link": "https://www.energy-storage.news/australias-nsw-grants-development-consent-for-200mwh-battery-storage-system/",
-      "source": "energy-storage-news",
-      "published": "2026-09-28T04:51:58+00:00",
-      "matched_keywords": [
-        "battery storage",
-        "energy storage"
-      ]
-    },
-    {
-      "title": "BESS Industry Buzz: Owner vs trader returns, market saturation, more Northvolt M&A, alt technologies’ differing fortunes",
-      "teaser": "Another roundup of user-posted hot takes and analysis from the energy storage industry recently.",
-      "link": "https://www.energy-storage.news/bess-industry-buzz-owner-vs-trader-returns-market-saturation-more-northvolt-ma-alt-technologies-differing-fortunes/",
-      "source": "energy-storage-news",
-      "published": "2026-09-25T12:21:32+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "US ROUNDUP: BESS portfolio deals, investment and partnerships for Energy Vault, SMT Energy, NeoVolta and SK On",
-      "teaser": "Recently, US BESS companies Energy Vault and Goshe, SMT Energy and Climate Adaptive Infrastructure, and NeoVolta and SK On have made major deals and secured strategic partnerships.",
-      "link": "https://www.energy-storage.news/us-roundup-bess-portfolio-deals-investment-and-partnerships-for-energy-vault-smt-energy-neovolta-and-sk-on/",
-      "source": "energy-storage-news",
-      "published": "2026-09-25T11:04:59+00:00",
-      "matched_keywords": [
-        "climate"
-      ]
-    },
-    {
-      "title": "ESR to acquire Aquila Clean Energy APAC in Asia-Pacific renewables and energy storage consolidation",
-      "teaser": "ESR, a Singapore-headquartered real asset owner and manager focused on logistics real estate and data centres, has signed an agreement to acquire 100% of Aquila Clean Energy APAC.",
-      "link": "https://www.energy-storage.news/esr-to-acquire-aquila-clean-energy-apac-in-asia-pacific-renewables-and-energy-storage-consolidation/",
-      "source": "energy-storage-news",
-      "published": "2026-09-25T03:22:16+00:00",
-      "matched_keywords": [
-        "energy storage",
-        "renewable"
-      ]
-    },
-    {
-      "title": "AEMO connects record 9.1GW of renewables and storage to Australia’s NEM in FY26, warns reliability depends on timely investment",
-      "teaser": "AEMO has said that a record 9.1GW of new renewable energy and storage capacity connected to the National Electricity Market (NEM) in FY26.",
-      "link": "https://www.energy-storage.news/aemo-connects-record-9-1gw-of-renewables-and-storage-to-australias-nem-in-fy26-warns-reliability-depends-on-timely-investment/",
-      "source": "energy-storage-news",
-      "published": "2026-09-25T03:20:34+00:00",
-      "matched_keywords": [
-        "renewable"
-      ]
-    },
-    {
-      "title": "‘FCAs convinced regulators to compromise on grid fees in Germany’: Eco Stor’s Georg Gallmetzer on cementing the industry’s future",
-      "teaser": "We recently caught up with Georg Gallmetzer, managing director of German BESS platform Eco Stor, about the firm’s role in formulating flexible connection agreements (FCAs) and how this was intimately tied to the debate on grid fees.",
-      "link": "https://www.energy-storage.news/fcas-convinced-regulators-to-compromise-on-grid-fees-in-germany-eco-stors-georg-gallmetzer-on-cementing-the-industrys-future/",
-      "source": "energy-storage-news",
-      "published": "2026-09-24T13:01:50+00:00",
-      "matched_keywords": [
-        "grid fee"
-      ]
-    },
-    {
-      "title": "Data centre buildout uplifting US BESS market outlook, Wood Mackenzie says",
-      "teaser": "Market research firm Wood Mackenzie stated that data centre buildout is uplifting the US battery energy storage system (BESS) outlook across all segments.",
-      "link": "https://www.energy-storage.news/data-centre-buildout-uplifting-us-bess-market-outlook-wood-mackenzie-says/",
-      "source": "energy-storage-news",
-      "published": "2026-09-24T12:08:46+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "NYSERDA picks eight projects for New York utility-scale energy storage programme",
-      "teaser": "Results are in for New York’s first solicitations for large-scale energy storage resources, with 950MW of bids selected by NYSERDA.",
-      "link": "https://www.energy-storage.news/nyserda-picks-eight-projects-for-new-york-utility-scale-energy-storage-programme/",
-      "source": "energy-storage-news",
-      "published": "2026-09-24T10:56:33+00:00",
-      "matched_keywords": [
-        "energy storage"
-      ]
-    },
-    {
-      "title": "Greenvolt starts building 2.4GWh, BYD-supplied Poland BESS; 900MWh progressed elsewhere in CEE/Baltics",
-      "teaser": "IPP Greenvolt Power has started building its Siedlce battery storage project in Poland, while Gore Street, Taaleri Energia and DS1 have moved to construction on projects in Poland, Estonia and Lithuania respectively.",
-      "link": "https://www.energy-storage.news/greenvolt-starts-building-2-4gwh-byd-supplied-poland-bess-900mwh-progressed-elsewhere-in-cee-baltics/",
-      "source": "energy-storage-news",
-      "published": "2026-09-24T10:07:43+00:00",
-      "matched_keywords": [
-        "battery storage"
-      ]
-    },
-    {
-      "title": "EU Battery Passport will be an evolving tool rather than a one-off",
-      "teaser": "During the Battery &#038; Energy Storage Tech Expo in Barcelona, Spain, Energy-storage.news spoke with Ken Davies, chief commercial officer at Digital Product Passport (DPP) provider DigiProd Pass and conference program director of the…",
-      "link": "https://www.energy-storage.news/eu-battery-passport-will-be-an-evolving-tool-rather-than-a-one-off/",
-      "source": "energy-storage-news",
-      "published": "2026-09-24T10:00:41+00:00",
-      "matched_keywords": [
-        "energy storage"
       ]
     },
     {
@@ -4447,13 +2417,23 @@
       ]
     },
     {
-      "title": "Was steckt hinter dem Phänomen „PDA“ bei Kindern? : „Bei allem, was sich nach Forderung anfühlt, macht er dicht“",
-      "teaser": "Immer mehr Eltern sagen, ihr Kind leide unter „Pathological Demand Avoidance“ (PDA) und könne Vorgaben und Forderungen nicht verkraften. Was steckt dahinter?",
-      "link": "https://www.tagesspiegel.de/gesellschaft/was-steckt-hinter-dem-phanomen-pda-bei-kindern-bei-allem-was-sich-nach-forderung-anfuhlt-macht-er-dicht-16236204.html",
+      "title": "Bislang „Zurückhaltung gezeigt“ : US-Gesandter Kushner nennt Putin „historische Persönlichkeit“",
+      "teaser": "Trumps Schwiegersohn verhandelt für den US-Präsidenten zwischen Russland und der Ukraine. Weiter gehenden Forderungen von Kijyw nach Sicherheitsgarantien erteilte er nun eine Absage.",
+      "link": "https://www.tagesspiegel.de/internationales/bislang-zuruckhaltung-gezeigt-us-gesandter-kushner-nennt-putin-historische-personlichkeit-16326769.html",
       "source": "tagesspiegel-energie",
       "published": null,
       "matched_keywords": [
         "forderung"
+      ]
+    },
+    {
+      "title": "Industriestandort stärken: Energie- und Klimainvestitionen absichern, Haushalt fährt zu sehr auf Si…",
+      "teaser": "23.11.2026",
+      "link": "https://www.bdew.de/presse/industriestandort-staerken-energie-und-klimainvestitionen-absichern-haushalt-faehrt-zu-sehr-auf-sicht/",
+      "source": "bdew-news",
+      "published": null,
+      "matched_keywords": [
+        "klima"
       ]
     },
     {
@@ -4582,117 +2562,6 @@
       ]
     },
     {
-      "title": "Stromnetze: Modernisierung von Betrieb und Planung kann Ausbaukosten für Verteilnetze deutlich senken",
-      "teaser": "Anfang November legen die Stromverteilnetzbetreiber ihre Ausbaupläne vor. Rund 250 Milliarden Euro kostet der Verteilnetzausbau bis 2045, wenn Betreiber weiter...",
-      "link": "https://www.agora-energiewende.de/aktuelles/stromnetze-modernisierung-von-betrieb-und-planung-kann-ausbaukosten-fuer-verteilnetze-deutlich-senken",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "stromnetz"
-      ]
-    },
-    {
-      "title": "Julia Bläsius übernimmt Leitung von Agora Industrie Deutschland",
-      "teaser": "Julia Bläsius, Direktorin von Agora Energiewende Deutschland, übernimmt ab sofort auch die Leitung von Agora Industrie Deutschland. Damit verzahnt Agora die...",
-      "link": "https://www.agora-energiewende.de/aktuelles/julia-blaesius-uebernimmt-leitung-von-agora-industrie-deutschland",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Klimaneutrales Stromsystem 446",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/klimaneutrales-stromsystem",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Netze für Strom, Wärme, Wasserstoff und CO₂ 102",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/netze-fuer-strom-waerme-wasserstoff-und-co2",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "wasserstoff"
-      ]
-    },
-    {
-      "title": "Finanzierung der Klimaziele 88",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/finanzierung-der-klimaziele",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Szenarien und klimapolitische Instrumente 159",
-      "teaser": "7. Oktober 2026, 16:00 - 17:30",
-      "link": "https://www.agora-energiewende.de/themen/szenarien-und-klimapolitische-instrumente",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klima"
-      ]
-    },
-    {
-      "title": "Klimaneutral und zukunftsfähig: Mit moderner Industriepolitik unseren Wirtschaftsstandort resilient und innovativ gestalten",
-      "teaser": "Was entscheidet über Wettbewerbsfähigkeit und Innovationskraft von morgen und wie lässt sich der industrielle Kern Deutschlands erneuern?",
-      "link": "https://www.agora-energiewende.de/aktuelles/klimaneutral-und-zukunftsfaehig",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "klimaneutral"
-      ]
-    },
-    {
-      "title": "Chinas Energiewende in Zahlen: 10 Trends, die den weiteren Weg prägen",
-      "teaser": null,
-      "link": "https://www.agora-energiewende.org/news-events/chinas-energy-transition-in-numbers-10-trends-shaping-the-path-ahead",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "energiewende"
-      ]
-    },
-    {
-      "title": "Photovoltaik- und Windflächenrechner",
-      "teaser": "Mit dem PV- und Windflächenrechner lassen sich Flächen ermitteln, die für die Nutzung von PV- Freiflächen- und Windenergie geeignet sind.",
-      "link": "https://www.agora-energiewende.de/daten-tools/photovoltaik-und-windflaechenrechner",
-      "source": "agora-energiewende-news",
-      "published": null,
-      "matched_keywords": [
-        "photovoltaik",
-        "pv"
-      ]
-    },
-    {
-      "title": "Water scarcity seen as Europe’s new power price threat",
-      "teaser": "Joachim Endress",
-      "link": "https://www.montelnews.com/news/b7127887-44d5-4dba-adf8-9b06e9460e37/water-scarcity-europes-new-power-price-threat-enel-ceo",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
-      "title": "High Nordic winter power prices won’t dampen demand",
-      "teaser": "Joachim Endress",
-      "link": "https://www.montelnews.com/news/42373ea6-5bac-43fb-9ab8-81fb038f63cf/high-nordic-winter-power-prices-wont-dampen-demand-analysts",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "power price"
-      ]
-    },
-    {
       "title": "Norway’s century-old hydropower braces for new climate risks",
       "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/a947a428-3828-47b3-b08c-31c3143f4994/norways-century-old-hydropower-braces-for-new-climate-risks-2",
@@ -4700,6 +2569,26 @@
       "published": null,
       "matched_keywords": [
         "climate"
+      ]
+    },
+    {
+      "title": "Iran war responses may push world towards net zero by 2050",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/48c3fa95-bf66-41cc-9042-49eb97dcaef3/iran-war-responses-may-push-world-towards-net-zero-by-2050-iea",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "net zero"
+      ]
+    },
+    {
+      "title": "Water scarcity seen as Europe’s new power price threat",
+      "teaser": "Today's fuel mix",
+      "link": "https://www.montelnews.com/news/b7127887-44d5-4dba-adf8-9b06e9460e37/water-scarcity-europes-new-power-price-threat-enel-ceo",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "power price"
       ]
     },
     {
@@ -4714,12 +2603,56 @@
       ]
     },
     {
+      "title": "High Nordic winter power prices won’t dampen demand",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/42373ea6-5bac-43fb-9ab8-81fb038f63cf/high-nordic-winter-power-prices-wont-dampen-demand-analysts",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "power price"
+      ]
+    },
+    {
+      "title": "Irish renewables auction disappoints for wind but delivers for solar",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/auctions/irish-renewables-auction-disappoints-for-wind-but-delivers-for-solar/2-1-2079719",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Vestas bids farewell to global offshore service campaign director",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/people/vestas-bids-farewell-to-global-offshore-service-campaign-director/2-1-2079722",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
       "title": "RWE says UK renewables auction pause not a reason to panic",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/auctions/rwe-says-uk-renewables-auction-pause-not-a-reason-to-panic/2-1-2079420",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "Equinor and Orsted chiefs warn gas price interventions could backfire on renewables",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/equinor-and-orsted-chiefs-warn-gas-price-interventions-could-backfire-on-renewables/2-1-2079555",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "gas price",
         "renewable",
         "solar"
       ]
@@ -4761,40 +2694,6 @@
       "title": "EDF UK boss: 'Kicking gas off the grid an outrageously expensive mistake'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/power-markets/edf-uk-boss-kicking-gas-off-the-grid-an-outrageously-expensive-mistake/2-1-2078834",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "Octopus Energy chief: 'Don’t curtail wind power, let it go for free'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/octopus-energy-chief-don-t-curtail-wind-power-let-it-go-for-free/2-1-2078738",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar",
-        "wind power"
-      ]
-    },
-    {
-      "title": "Green Volt locks in Siemens Gamesa floating wind turbines after Mingyang setback",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/floating-wind/green-volt-locks-in-siemens-gamesa-floating-wind-turbines-after-mingyang-setback/2-1-2078365",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "World's tallest turbine taps into 'offshore winds on land'",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/technology/worlds-tallest-turbine-taps-into-offshore-winds-on-land/2-1-2078569",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -4860,20 +2759,21 @@
       ]
     },
     {
-      "title": "New York doubles down on offshore wind after Trump election rebuke",
+      "title": "Octopus Energy chief: 'Don’t curtail wind power, let it go for free'",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/offshore-wind/new-york-doubles-down-on-offshore-wind-after-trump-election-rebuke/2-1-2078374",
+      "link": "https://www.rechargenews.com/policy/octopus-energy-chief-don-t-curtail-wind-power-let-it-go-for-free/2-1-2078738",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
         "renewable",
-        "solar"
+        "solar",
+        "wind power"
       ]
     },
     {
-      "title": "Cadeler revenue surges despite teething problems on new offshore wind vessels",
+      "title": "Green Volt locks in Siemens Gamesa floating wind turbines after Mingyang setback",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/vessels/cadeler-revenue-jumps-94-as-offshore-wind-fleet-expands/2-1-2077962",
+      "link": "https://www.rechargenews.com/floating-wind/green-volt-locks-in-siemens-gamesa-floating-wind-turbines-after-mingyang-setback/2-1-2078365",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
