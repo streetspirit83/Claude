@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:20:28+00:00",
+  "generated_at": "2026-11-27T23:50:32+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,11 +80,11 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "ok",
-      "method": "html",
+      "status": "error",
+      "method": null,
       "feed_url": null,
-      "error": null,
-      "items_found": 4,
+      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
+      "items_found": 0,
       "items_matched": 0
     },
     {
@@ -95,7 +95,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 1
+      "items_matched": 0
     },
     {
       "name": "euractiv-energie",
@@ -125,7 +125,7 @@
       "feed_url": "https://www.pv-magazine.de/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 9
+      "items_matched": 10
     },
     {
       "name": "euwid-energie",
@@ -195,7 +195,7 @@
       "feed_url": "https://www.energynews.pro/feed/",
       "error": null,
       "items_found": 30,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "montelnews",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 3
+      "items_matched": 4
     },
     {
       "name": "rechargenews",
@@ -245,7 +245,7 @@
       "feed_url": "https://www.energymonitor.ai/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 7
+      "items_matched": 6
     },
     {
       "name": "euronews-green",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 18
+      "items_matched": 17
     },
     {
       "name": "politico-energy-climate",
@@ -345,7 +345,7 @@
       "feed_url": "https://www.energylivenews.com/feed/",
       "error": null,
       "items_found": 10,
-      "items_matched": 4
+      "items_matched": 2
     },
     {
       "name": "energy-storage-news",
@@ -368,8 +368,50 @@
       "items_matched": 0
     }
   ],
-  "count": 430,
+  "count": 428,
   "articles": [
+    {
+      "title": "Britain’s heat pump rush gets a 100,000 sq ft boost",
+      "teaser": "New Darlington facility to support UK heat pump and large-scale renewables rollout The post Britain’s heat pump rush gets a 100,000 sq ft boost appeared first on Energy Live News .",
+      "link": "https://www.energylivenews.com/2026/11/27/britains-heat-pump-rush-gets-a-100000-sq-ft-boost/",
+      "source": "energylivenews",
+      "published": "2026-11-27T17:00:00+00:00",
+      "matched_keywords": [
+        "heat pump",
+        "renewable"
+      ]
+    },
+    {
+      "title": "Le Royaume-Uni réduit ses subventions au CCUS, le cluster écossais Acorn fragilisé",
+      "teaser": null,
+      "link": "https://energynews.pro/le-royaume-uni-reduit-ses-subventions-au-ccus-le-cluster-ecossais-acorn-fragilise",
+      "source": "energynews-pro",
+      "published": "2026-11-27T14:41:30+00:00",
+      "matched_keywords": [
+        "subvention"
+      ]
+    },
+    {
+      "title": "Wärmepumpen-Cubes für 80 Wohnungen von Vonovia installiert",
+      "teaser": "Planung, Bau und Montage von Wärmepumpen im Mehrfamilienhaus-Bestand verschlingen viel Zeit und verursachen hohe Kosten. Mit vorgefertigten Heizzentralen von Enercube will Vonovia den Aufwand senken und in drei Jahren 20.000 Wohnungen…",
+      "link": "https://www.pv-magazine.de/2026/11/27/waermepumpen-cubes-fuer-80-wohnungen-von-vonovia-installiert/",
+      "source": "pv-magazine-de",
+      "published": "2026-11-27T14:40:00+00:00",
+      "matched_keywords": [
+        "wärmepumpe"
+      ]
+    },
+    {
+      "title": "Wood Mackenzie: EU-Restriktionen für Wechselrichter würde Photovoltaik- und Speicherzubau bis 2030 reduzieren",
+      "teaser": "Die Analysten schätzen, dass zwischen 2027 und 2030 mehr als 21 Gigawatt der europäischen Nachfrage nach Photovoltaik-Wechselrichtern und 13 Gigawatt der Speicher-Wechselrichter von den EU-Einschränkungen betroffen sein werden. Vor allem…",
+      "link": "https://www.pv-magazine.de/2026/11/27/wood-mackenzie-eu-restriktionen-fuer-wechselrichter-wuerde-photovoltaik-und-speicherzubau-bis-2030-reduzieren/",
+      "source": "pv-magazine-de",
+      "published": "2026-11-27T13:53:49+00:00",
+      "matched_keywords": [
+        "photovoltaik",
+        "speicher"
+      ]
+    },
     {
       "title": "Australia and Singapore seal cross-border CO2 storage deal",
       "teaser": "The paperwork sets out how the captured gas could be shipped to another continent for permanent storage The post Australia and Singapore seal cross-border CO2 storage deal appeared first on Energy Live News .",
@@ -492,16 +534,6 @@
       "matched_keywords": [
         "gaspreis",
         "speicher"
-      ]
-    },
-    {
-      "title": "Heat pump demand hits a record – the same month the government cut the funding",
-      "teaser": "More than 14,200 households applied for a heat pump grant in a single month as ministers cut support The post Heat pump demand hits a record – the same month the government cut the funding appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/11/27/heat-pump-demand-hits-a-record-the-same-month-the-government-cut-the-funding/",
-      "source": "energylivenews",
-      "published": "2026-11-27T09:00:00+00:00",
-      "matched_keywords": [
-        "heat pump"
       ]
     },
     {
@@ -653,16 +685,6 @@
       ]
     },
     {
-      "title": "British Gas launches new plug in solar technology",
-      "teaser": "The company says the domestic infrastructure should save customers hundreds each year The post British Gas launches new plug in solar technology appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/11/26/british-gas-launches-new-plug-in-solar-technology/",
-      "source": "energylivenews",
-      "published": "2026-11-26T17:00:00+00:00",
-      "matched_keywords": [
-        "solar"
-      ]
-    },
-    {
       "title": "Bundesnetzagentur plant weitere Änderungen in der finalen AgNes-Festlegung",
       "teaser": "Bis zum Jahresende will die Behörde die finale Festlegung für die künftige Netzentgeltsystematik veröffentlichen, aber nach pv magazine Informationen wird die finale Fassung wohl nicht vor dem 22. Dezember vorliegen. Gegenüber dem bisher…",
       "link": "https://www.pv-magazine.de/2026/11/26/bundesnetzagentur-plant-weitere-aenderungen-in-der-finalen-agnes-festlegung/",
@@ -671,16 +693,6 @@
       "matched_keywords": [
         "netzentgelt",
         "pv"
-      ]
-    },
-    {
-      "title": "Investment in hydrogen storage starts to stall",
-      "teaser": "New data shows that hydrogen storage patent filings slowed 9% year on year as the US overtakes South Korea The post Investment in hydrogen storage starts to stall appeared first on Energy Live News .",
-      "link": "https://www.energylivenews.com/2026/11/26/investment-in-hydrogen-storage-starts-to-stall/",
-      "source": "energylivenews",
-      "published": "2026-11-26T16:00:00+00:00",
-      "matched_keywords": [
-        "hydrogen"
       ]
     },
     {
@@ -787,18 +799,6 @@
       "published": "2026-11-26T09:48:57+00:00",
       "matched_keywords": [
         "hydrogen"
-      ]
-    },
-    {
-      "title": "Netzentgeltbefreiung für die „Schicksalsgemeinschaft“ Photovoltaik-Freiflächenanlagen mit Grünstromspeicher",
-      "teaser": "Mit den AgNes-Festlegungen der Bundesnetzagentur endet ab 2029 die bisherige Netzentgeltbefreiung für viele Erzeugungsanlagen. Für Photovoltaik-Freiflächenanlagen und gekoppelte Grünstromspeicher gibt es jedoch unter bestimmten…",
-      "link": "https://www.pv-magazine.de/2026/11/26/netzentgeltbefreiung-fuer-die-schicksalsgemeinschaft-photovoltaik-freiflaechenanlagen-mit-gruenstromspeicher/",
-      "source": "pv-magazine-de",
-      "published": "2026-11-26T09:44:42+00:00",
-      "matched_keywords": [
-        "netzentgelt",
-        "photovoltaik",
-        "speicher"
       ]
     },
     {
@@ -1508,16 +1508,6 @@
       ]
     },
     {
-      "title": "Searenergy Poland to support Bałtyk 2 and 3 offshore wind farm projects",
-      "teaser": "Searenergy Poland has been selected to perform hook-up and commissioning activities at the Bałtyk 2 and Bałtyk 3 offshore wind farms.",
-      "link": "https://www.energymonitor.ai/news/searenergy-poland-support-baltyk-2-and-3/",
-      "source": "energymonitor",
-      "published": "2026-11-19T08:01:32+00:00",
-      "matched_keywords": [
-        "wind farm"
-      ]
-    },
-    {
       "title": "Elektrifizierung ohne Garantie für grünen Strom",
       "teaser": "Elektrifizierung spart Energie und kann Emissionen senken. Die COP31 will den weltweiten Stromanteil deshalb deutlich steigern. Doch ohne klare Vorgaben für Erneuerbare Energien droht das Ziel an Klimawirkung zu verlieren.",
       "link": "https://www.energiezukunft.eu/klimakrise/cop31-elektrifizierung-ohne-garantie-fuer-gruenen-strom",
@@ -1915,16 +1905,6 @@
       "published": "2026-11-13T08:30:00+00:00",
       "matched_keywords": [
         "emission"
-      ]
-    },
-    {
-      "title": "Europe could save 40% on electricity costs if solar and batteries ‘work in harmony’",
-      "teaser": "“Solar is the fuel, the battery is the power plant. The whole system only becomes cheaper if these work in harmony with one another.”",
-      "link": "https://www.euronews.com/2026/11/13/europe-could-save-40-on-electricity-costs-if-solar-and-batteries-work-in-harmony",
-      "source": "euronews-green",
-      "published": "2026-11-13T06:02:01+00:00",
-      "matched_keywords": [
-        "solar"
       ]
     },
     {
@@ -4430,16 +4410,6 @@
       ]
     },
     {
-      "title": "Mehr Freiheit für die Länder bei Böllerverboten? : Dobrindt sitzt Forderung offenbar aus",
-      "teaser": "Einige Länder hätten gerne mehr Freiheit, um die Gefahr durch Feuerwerk einzudämmen. Doch die Union und mit ihr der Innenminister mauert.",
-      "link": "https://www.tagesspiegel.de/politik/mehr-freiheit-fur-die-lander-bei-bollerverboten-dobrindt-sitzt-forderung-offenbar-aus-16328216.html",
-      "source": "tagesspiegel-energie",
-      "published": null,
-      "matched_keywords": [
-        "forderung"
-      ]
-    },
-    {
       "title": "Industriestandort stärken: Energie- und Klimainvestitionen absichern, Haushalt fährt zu sehr auf Si…",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/industriestandort-staerken-energie-und-klimainvestitionen-absichern-haushalt-faehrt-zu-sehr-auf-sicht/",
@@ -4644,13 +4614,13 @@
       ]
     },
     {
-      "title": "Engie: cold snap raises risk of trader bets on high gas prices",
+      "title": "Spanish election could usher in nuclear power-friendly govt",
       "teaser": "Joachim Endress",
-      "link": "https://www.montelnews.com/news/e89d173f-7cba-4f12-8dbb-b57203c502a0/cold-snap-raises-risk-of-trader-bets-on-high-gas-prices-engie",
+      "link": "https://www.montelnews.com/news/a3bceb6e-0b65-418f-a6ef-4f6d82f45bea/spanish-election-could-usher-in-nuclear-power-friendly-govt",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
-        "gas price"
+        "nuclear"
       ]
     },
     {
@@ -4675,9 +4645,30 @@
       ]
     },
     {
+      "title": "Engie: cold snap raises risk of trader bets on high gas prices",
+      "teaser": "newsdesk@montelnews.com",
+      "link": "https://www.montelnews.com/news/e89d173f-7cba-4f12-8dbb-b57203c502a0/cold-snap-raises-risk-of-trader-bets-on-high-gas-prices-engie",
+      "source": "montelnews",
+      "published": null,
+      "matched_keywords": [
+        "gas price"
+      ]
+    },
+    {
       "title": "Acciona fails to find buyer for renewables unit: report",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/finance/acciona-fails-to-find-buyer-for-renewables-unit-report/2-1-2080691",
+      "source": "rechargenews",
+      "published": null,
+      "matched_keywords": [
+        "renewable",
+        "solar"
+      ]
+    },
+    {
+      "title": "What a new Spanish government could mean for renewables",
+      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
+      "link": "https://www.rechargenews.com/policy/what-a-new-spanish-government-could-mean-for-renewables/2-1-2073762",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
@@ -4700,17 +4691,6 @@
       "title": "Pioneering new offshore wind foundation technology set for trial run",
       "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
       "link": "https://www.rechargenews.com/technology/pioneering-new-offshore-wind-foundation-technology-set-for-trial-run/2-1-2080349",
-      "source": "rechargenews",
-      "published": null,
-      "matched_keywords": [
-        "renewable",
-        "solar"
-      ]
-    },
-    {
-      "title": "What a new Spanish government could mean for renewables",
-      "teaser": "Recharge is the world’s leading business intelligence source for the renewable energy industries. We provide award-winning international coverage of breaking news, in-depth features and analysis across the wind and solar sectors. Learn…",
-      "link": "https://www.rechargenews.com/policy/what-a-new-spanish-government-could-mean-for-renewables/2-1-2073762",
       "source": "rechargenews",
       "published": null,
       "matched_keywords": [
