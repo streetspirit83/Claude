@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:50:32+00:00",
+  "generated_at": "2026-11-28T12:35:35+00:00",
   "keyword_filter": [
     "energiewende",
     "atomkraft",
@@ -80,12 +80,12 @@
     {
       "name": "tagesspiegel-background-energie",
       "url": "https://background.tagesspiegel.de/energie-und-klima",
-      "status": "error",
-      "method": null,
+      "status": "ok",
+      "method": "html",
       "feed_url": null,
-      "error": "403 Client Error: Forbidden for url: https://background.tagesspiegel.de/energie-und-klima",
-      "items_found": 0,
-      "items_matched": 0
+      "error": null,
+      "items_found": 4,
+      "items_matched": 1
     },
     {
       "name": "tagesspiegel-energie",
@@ -205,7 +205,7 @@
       "feed_url": null,
       "error": null,
       "items_found": 15,
-      "items_matched": 4
+      "items_matched": 3
     },
     {
       "name": "rechargenews",
@@ -255,7 +255,7 @@
       "feed_url": "https://www.euronews.com/rss?level=vertical&name=earth",
       "error": null,
       "items_found": 50,
-      "items_matched": 17
+      "items_matched": 18
     },
     {
       "name": "politico-energy-climate",
@@ -368,8 +368,18 @@
       "items_matched": 0
     }
   ],
-  "count": 428,
+  "count": 429,
   "articles": [
+    {
+      "title": "Italy is turning into a solar powerhouse. But what happens when the sun goes down?",
+      "teaser": "“Italy has plenty of sun, but it still runs its evenings on expensive gas – batteries can change that.”",
+      "link": "https://www.euronews.com/2026/11/28/italy-is-turning-into-a-solar-powerhouse-but-what-happens-when-the-sun-goes-down",
+      "source": "euronews-green",
+      "published": "2026-11-28T06:02:55+00:00",
+      "matched_keywords": [
+        "solar"
+      ]
+    },
     {
       "title": "Britain’s heat pump rush gets a 100,000 sq ft boost",
       "teaser": "New Darlington facility to support UK heat pump and large-scale renewables rollout The post Britain’s heat pump rush gets a 100,000 sq ft boost appeared first on Energy Live News .",
@@ -4410,6 +4420,17 @@
       ]
     },
     {
+      "title": "Gesetz zur Änderung des Gesetzes zur Festlegung von Flächenbedarfen und zur Genehmigungserleichterung für Windenergieanlagen an Land und für Anlagen zur Speicherung vom Strom oder Wärme aus erneuerbaren Energien in bestimmten Gebieten (Windenergieflächenbedarfsgesetz – WindBG)",
+      "teaser": null,
+      "link": "https://background.tagesspiegel.de/energie-und-klima/monitoring/gesetz-zur-aenderung-des-gesetzes-zur-festlegung-von-flaechenbedarfen-und-zur-genehmigungserleichterung-fuer-windenergieanlagen-an-land-und-fuer-anlagen-zur-speicherung-vom-strom-oder-waerme-aus-erneuerbaren-energien-in-bestimmten-gebieten-windenergieflaechenbedarfsgesetz-windbg",
+      "source": "tagesspiegel-background-energie",
+      "published": null,
+      "matched_keywords": [
+        "erneuerbare",
+        "speicher"
+      ]
+    },
+    {
       "title": "Industriestandort stärken: Energie- und Klimainvestitionen absichern, Haushalt fährt zu sehr auf Si…",
       "teaser": "Die wichtigsten Themen der Energie- und Wasserwirtschaft im Überblick.",
       "link": "https://www.bdew.de/presse/industriestandort-staerken-energie-und-klimainvestitionen-absichern-haushalt-faehrt-zu-sehr-auf-sicht/",
@@ -4615,22 +4636,12 @@
     },
     {
       "title": "Spanish election could usher in nuclear power-friendly govt",
-      "teaser": "Joachim Endress",
+      "teaser": "Today's fuel mix",
       "link": "https://www.montelnews.com/news/a3bceb6e-0b65-418f-a6ef-4f6d82f45bea/spanish-election-could-usher-in-nuclear-power-friendly-govt",
       "source": "montelnews",
       "published": null,
       "matched_keywords": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Norway’s century-old hydropower braces for new climate risks",
-      "teaser": "Today's fuel mix",
-      "link": "https://www.montelnews.com/news/a947a428-3828-47b3-b08c-31c3143f4994/norways-century-old-hydropower-braces-for-new-climate-risks-2",
-      "source": "montelnews",
-      "published": null,
-      "matched_keywords": [
-        "climate"
       ]
     },
     {
